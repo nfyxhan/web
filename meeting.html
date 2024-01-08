@@ -45,7 +45,7 @@
             </button>
         </div>
         <script>
-            let days = ["日", "一", "二", "三", "四", "五", "六"]
+            let days = ["一", "二", "三", "四", "五", "六", "日"]
             let startTime = new Date()
             let endTime = new Date()
             let selectdDateID = ''
@@ -78,8 +78,8 @@
                 tbody.innerHTML = ""
                 let tr = document.createElement("tr")
                 let now = new Date()
-                let t = now
-                let day = t.getDay()
+                let today = now
+                let day = today.getDay()
                 for (i = 0; i < 7; i++) {
                     let title = document.createElement('td')
                     title.className = "td-title"
@@ -88,15 +88,15 @@
                 }
                 tbody.appendChild(tr)
                 let tr2 = document.createElement("tr")
-                for (i = 0; i < day; i++) {
+                for (i = 1; i < day; i++) {
                     let td = document.createElement('td')
                     tr2.appendChild(td)
                 }
-                for (i = 1; i < 15; i++) {
+                for (i = 0; i < 14; i++) {
                     let td = document.createElement('td')
                     td.className = "td-body"
                     let btn = document.createElement('button')
-                    let meetingDate = afterDays(t, i - 1)
+                    let meetingDate = afterDays(today, i)
                     btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
                     btn.textContent = meetingDate.getDate()
                     btn.onclick = function () {
