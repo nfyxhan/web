@@ -12,14 +12,14 @@
     </HEAD>
 
     <BODY>
-        <div id="timeSelector" style="width:30%;float:left;">
-            <select id="startSelector" size='12' style="width:40%">
+        <div class="time-selector" id="timeSelector">
+            <select id="startSelector" size='12'>
             </select>
-            <select id="endSelector" size='12' style="width:40%">
+            <select id="endSelector" size='12'>
             </select>
         </div>
-        <div style="width:70%;height:60%;display:flex;">
-            <table style="width:100%;height: 100%;">
+        <div class="date-selector">
+            <table>
                 <thead>
                     <tr>
                         <th colspan="7">会议室预定</th>
@@ -29,17 +29,17 @@
                 </tbody>
             </table>
         </div>
-        <div style="width:30%;height: 20%;float:left;padding-top:5%">
+        <div class="div-btn">
             <button id="afternoon">
                 下午
             </button>
         </div>
-        <div style="width:30%;height: 20%;float:left;padding-top:5%">
+        <div class="div-btn">
             <button id="twohours">
                 2小时
             </button>
         </div>
-        <div style="width:35%;height: 20%;display:flex;padding-top:5%">
+        <div class="div-btn">
             <button id="open">
                 open
             </button>
@@ -82,7 +82,7 @@
                 let day = t.getDay()
                 for (i = 0; i < 7; i++) {
                     let title = document.createElement('td')
-                    title.style = "width: 15%; height:5%"
+                    title.className = "td-title"
                     title.innerHTML = "周" + days[(i) % 7]
                     tr.appendChild(title)
                 }
@@ -94,9 +94,8 @@
                 }
                 for (i = 1; i < 15; i++) {
                     let td = document.createElement('td')
-                    td.style = "height: 20%"
+                    td.className = "td-body"
                     let btn = document.createElement('button')
-                    btn.style = "width: 90%;height:90%"
                     let meetingDate = afterDays(t, i - 1)
                     btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
                     btn.textContent = meetingDate.getDate()
@@ -116,11 +115,11 @@
             function selectDate (meetingTime) {
                 if (selectdDateID != '') {
                     let selectDateBtn = document.getElementById(selectdDateID)
-                    selectDateBtn.style.backgroundColor = ''
+                    selectDateBtn.className = "unselected-btn"
                 }
                 let btnId = "btn-" + meetingTime.getMonth() + "-" + meetingTime.getDate()
                 let button = document.getElementById(btnId)
-                button.style.backgroundColor = 'red'
+                button.className = "selected-btn"
                 selectdDateID = btnId
                 startTime.setFullYear(meetingTime.getFullYear())
                 startTime.setMonth(meetingTime.getMonth())
@@ -259,9 +258,59 @@
         <style>
             button {
                 min-height: 20px;
+                min-width: 30px;
                 height: 90%;
                 width: 90%;
-                min-width: 30px;
+                font-size: xxx-large;
+            }
+
+            option {
+                font-size: xx-large;
+            }
+
+            table {
+                width: 100%;
+                height: 100%;
+            }
+
+            select {
+                width: 45%;
+            }
+
+            .selected-btn {
+                background-color: red
+            }
+
+            .unselected-btn {
+                background-color: ''
+            }
+
+            .td-body {
+                height: 20%
+            }
+
+            .td-title {
+                width: 14%;
+                height: 5%
+            }
+
+            .div-btn {
+                width: 30%;
+                height: 20%;
+                float: left;
+                padding-top: 5%
+            }
+
+            .time-selector {
+                width: 20%;
+                float: left;
+                padding-top: 2%;
+            }
+
+            .date-selector {
+                width: 70%;
+                height: 60%;
+                display: flex
             }
         </style>
     </BODY>
