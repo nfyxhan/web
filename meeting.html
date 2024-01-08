@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+    <HEAD>
+        <TITLE> 会议室预定 </TITLE>
+        <meta name="referrer" content="no-referrer">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <META NAME="Generator" CONTENT="EditPlus">
+        <META NAME="Author" CONTENT="">
+        <META NAME="Keywords" CONTENT="">
+        <META NAME="Description" CONTENT="">
+    </HEAD>
+
+    <BODY>
+        <div id="timeSelector" style="width:fit-content;float:left;">
+            <select id="startSelector" size='12'>
+            </select>
+            <select id="endSelector" size='12'>
+            </select>
+        </div>
+        <div style="width:fit-content;display:flex;">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="7">会议室预定</th>
+                    </tr>
+                </thead>
+                <tbody id="dateSelector">
+                </tbody>
+            </table>
+        </div>
+        <div style="width:fit-content;display:flex;">
+            <p />
+            <button id="afternoon">
+                下午
+            </button>
+            <button id="twohours">
+                2小时
+            </button>
+        </div>
+        <div style="width:fit-content;display:flex;">
+            <button id="open">
+                open
+            </button>
+        </div>
+        <script>
+            let days = ["日", "一", "二", "三", "四", "五", "六"]
+            let startTime = new Date()
+            let endTime = new Date()
+            let selectdDateID = ''
+            let timeout = undefined
+            let meetingHost = getQueryParams(window.location.search).meetingHost
+
+            function setTwoHours () {
+                let startSelector = document.getElementById("startSelector")
+                let endSeletor = document.getElementById("endSelector")
+                const start = startSelector.value.split(":")
+                endSeletor.value = (parseInt(start[0]) + 2) + ":" + start[1]
+                clearTimeout(timeout)
+            }
+
+            function selectMorningOrAfternoon (morning) {
+                let startSelector = document.getElementById("startSelector")
+                let endSeletor = document.getElementById("endSelector")
+                if (morning) {
+                    startSelector.value = "9:30"
+                    endSeletor.value = "11:0"
+                } else {
+                    startSelector.value = "14:0"
+                    endSeletor.value = "16:0"
+                }
+                clearTimeout(timeout)
+            }
+
+            function loadDateSelector () {
+                let tbody = document.getElementById("dateSelector")
+                tbody.innerHTML = ""
+                let tr = document.createElement("tr")
+                let now = new Date()
+                let t = now
+                let day = t.getDay()
+                for (i = 0; i < 7; i++) {
+                    let title = document.createElement('td')
+                    title.innerHTML = "周" + days[(i) % 7]
+                    tr.appendChild(title)
+                }
+                tbody.appendChild(tr)
+                let tr2 = document.createElement("tr")
+                for (i = 0; i < day; i++) {
+                    let td = document.createElement('td')
+                    tr2.appendChild(td)
+                }
+                for (i = 1; i < 15; i++) {
+                    let td = document.createElement('td')
+                    let btn = document.createElement('button')
+                    let meetingDate = afterDays(t, i - 1)
+                    btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
+                    btn.textContent = meetingDate.getDate()
+                    btn.onclick = function () {
+                        selectDate(meetingDate)
+                        clearTimeout(timeout)
+                    }
+                    td.appendChild(btn)
+                    tr2.appendChild(td)
+                    if ((i + day) % 7 == 0) {
+                        tbody.appendChild(tr2)
+                        tr2 = document.createElement("tr")
+                    }
+                }
+                tbody.appendChild(tr2)
+            }
+            function selectDate (meetingTime) {
+                if (selectdDateID != '') {
+                    let selectDateBtn = document.getElementById(selectdDateID)
+                    selectDateBtn.style.backgroundColor = ''
+                }
+                let btnId = "btn-" + meetingTime.getMonth() + "-" + meetingTime.getDate()
+                let button = document.getElementById(btnId)
+                button.style.backgroundColor = 'red'
+                selectdDateID = btnId
+                startTime.setFullYear(meetingTime.getFullYear())
+                startTime.setMonth(meetingTime.getMonth())
+                startTime.setDate(meetingTime.getDate())
+                endTime.setFullYear(meetingTime.getFullYear())
+                endTime.setMonth(meetingTime.getMonth())
+                endTime.setDate(meetingTime.getDate())
+            }
+            function loadTimeSelectors () {
+                var date = new Date()
+                date.setHours(9)
+                date.setMinutes(0)
+                let startSelector = document.getElementById("startSelector")
+                startSelector.onchange = function () {
+                    t = startSelector.value.split(":")
+                    startTime.setHours(parseInt(t[0]))
+                    startTime.setMinutes(parseInt(t[1]))
+                    clearTimeout(timeout)
+                }
+                let endSeletor = document.getElementById("endSelector")
+                endSeletor.onchange = function () {
+                    t = endSeletor.value.split(":")
+                    endTime.setHours(parseInt(t[0]))
+                    endTime.setMinutes(parseInt(t[1]))
+                    clearTimeout(timeout)
+                }
+                loadTimeSelector("startSelector", date, 1)
+                loadTimeSelector("endSelector", date, 5)
+            }
+
+            function loadTimeSelector (id, date, index) {
+                let selector = document.getElementById(id)
+                for (i = 0; i < 15; i++) {
+                    loadOption(selector, date, index, 2 * i)
+                    loadOption(selector, date, index, 2 * i + 1)
+                }
+            }
+
+            function loadOption (selector, date, index, i) {
+                let interval = 1.0 / 24 / 2
+                var d1 = afterDays(date, i * interval)
+                let op1 = document.createElement("option")
+                let text1 = d1.getHours() + ":" + d1.getMinutes()
+                op1.innerHTML = text1
+                op1.value = text1
+                selector.appendChild(op1)
+                if (index == i) {
+                    op1.selected = true
+                }
+            }
+
+            function getZeroNumber (n) {
+                if (n < 10) {
+                    return '0' + n
+                }
+                return n
+            }
+
+            function open_window () {
+                var meetingDate = startTime.getFullYear() + '-' + getZeroNumber((startTime.getMonth() + 1)) + '-' + getZeroNumber(startTime.getDate())
+                let startSelector = document.getElementById("startSelector")
+                let endSeletor = document.getElementById("endSelector")
+                let start = startSelector.value.split(":")
+                let end = endSeletor.value.split(":")
+                var startHour = getZeroNumber(start[0])
+                var startMinute = getZeroNumber(start[1])
+                var endHour = getZeroNumber(end[0])
+                var endMinute = getZeroNumber(end[1])
+                var url = "https://" + meetingHost + "/meetingRoomFilterList?cityId=12&meetingDate=" + meetingDate +
+                    "&startTime=" + startHour + "%3A" + startMinute +
+                    "&endTime=" + endHour + "%3A" + endMinute + "&mrStatus=2"
+                window.open(url, '_blank');
+            }
+
+            function afterDays (now, day) {
+                let result = new Date()
+                result.setTime(now.getTime() + day * 24 * 60 * 60 * 1000)
+                return result
+            }
+
+            function load () {
+                var meetingTime = new Date()
+                let day = 13
+                if (meetingTime.getDay() == 1) {
+                    day = 11
+                }
+                meetingTime.setTime(meetingTime.getTime() + day * 24 * 60 * 60 * 1000)
+                selectDate(meetingTime)
+                var btn = document.getElementById('open')
+                btn.onclick = function () {
+                    open_window()
+                }
+
+                var afternoon = document.getElementById('afternoon')
+                afternoon.onclick = function () {
+                    selectMorningOrAfternoon(false)
+                }
+                var twoHours = document.getElementById('twohours')
+                twoHours.onclick = function () {
+                    setTwoHours()
+                }
+                // timeout = setTimeout(btn.onclick, 3000)
+                var isShine = true
+                setInterval(function () {
+                    var meetingDate = startTime.getFullYear() + '-' + (startTime.getMonth() + 1) + '-' + startTime.getDate()
+                    var title = meetingDate + "会议室预定"
+                    var t = title
+                    if (isShine) {
+                        t = "【      】" + title
+                    }
+                    isShine = !isShine
+                    document.title = t
+                }, 300)
+            }
+            function getQueryParams (url) {
+                let ss = url.split("?")
+                if (ss.length <= 1) {
+                    return {}
+                }
+                let res = {}
+                let pp = ss[1].split("&")
+                for (let i = 0; i < pp.length; i++) {
+                    let p = pp[i].split("=")
+                    let v = ""
+                    if (p.length > 1) {
+                        v = p[1]
+                    }
+                    res[p[0]] = v
+                }
+                return res
+            }
+            loadDateSelector()
+            loadTimeSelectors()
+            load()
+        </script>
+        <style>
+            button {
+                min-height: 20px;
+                min-width: 30px;
+            }
+        </style>
+    </BODY>
