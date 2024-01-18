@@ -101,7 +101,9 @@
                 btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
                 let lunar = Calendar().solar2lunar(meetingDate.getFullYear(), meetingDate.getMonth() + 1, meetingDate.getDate())
                 btn.textContent = meetingDate.getDate()
-                if (lunar.IDayCn === "初一") {
+                if (lunar.isTerm) {
+                    btn.textContent += lunar.Term
+                } else if (lunar.IDayCn === "初一") {
                     btn.textContent += lunar.IMonthCn
                 } else {
                     btn.textContent += lunar.IDayCn
