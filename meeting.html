@@ -74,6 +74,20 @@
             clearTimeout(timeout)
         }
 
+        function getLunarDay(date) {
+            let lunar = Calendar().solar2lunar(date.getFullYear(), date.getMonth() + 1, date.getDate())
+            if (lunar.lunarFestival) {
+                return lunar.lunarFestival
+            } else if (lunar.festival) {
+                return lunar.festival
+            } else if (lunar.isTerm) {
+                return lunar.Term
+            } else if (lunar.IDayCn === "初一") {
+                return lunar.IMonthCn
+            }
+            return lunar.IDayCn
+        }
+
         function loadDateSelector() {
             let tbody = document.getElementById("dateSelector")
             tbody.innerHTML = ""
@@ -99,15 +113,7 @@
                 let btn = document.createElement('button')
                 let meetingDate = afterDays(today, i)
                 btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
-                let lunar = Calendar().solar2lunar(meetingDate.getFullYear(), meetingDate.getMonth() + 1, meetingDate.getDate())
-                btn.textContent = meetingDate.getDate()
-                if (lunar.isTerm) {
-                    btn.textContent += lunar.Term
-                } else if (lunar.IDayCn === "初一") {
-                    btn.textContent += lunar.IMonthCn
-                } else {
-                    btn.textContent += lunar.IDayCn
-                }
+                btn.textContent = meetingDate.getDate() + getLunarDay(meetingDate)
                 btn.onclick = function () {
                     selectDate(meetingDate)
                     clearTimeout(timeout)
