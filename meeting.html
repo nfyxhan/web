@@ -30,13 +30,28 @@
         </table>
     </div>
     <div class="div-btn">
-        <button id="afternoon">
-            下午
+        <button id="halfhours">
+            0.5小时
+        </button>
+    </div>
+    <div class="div-btn">
+        <button id="onehours">
+            1小时
         </button>
     </div>
     <div class="div-btn">
         <button id="twohours">
             2小时
+        </button>
+    </div>
+    <div class="div-btn">
+        <button id="morning">
+            上午
+        </button>
+    </div>
+    <div class="div-btn">
+        <button id="afternoon">
+            下午
         </button>
     </div>
     <div class="div-btn">
@@ -52,12 +67,18 @@
         let selectdDateID = ''
         let timeout = undefined
         let meetingHost = getQueryParams(window.location.search).meetingHost
+        let afternoon = getQueryParams(window.location.search).afternoon
+        let isAfternoon = getQueryParams(window.location.search).isAfternoon
+        afternoon = afternoon ? parseInt(afternoon, 10) : 16
 
-        function setTwoHours() {
+        function setSomeHours(i) {
             let startSelector = document.getElementById("startSelector")
             let endSeletor = document.getElementById("endSelector")
             const start = startSelector.value.split(":")
-            endSeletor.value = (parseInt(start[0]) + 2) + ":" + start[1]
+            let minute = parseInt(start[0], 10) * 60 + parseInt(start[1], 10) + i * 60
+            minute = parseInt(minute)
+            endSeletor.value = parseInt(minute / 60) + ":" + minute % 60
+            console.log(endSeletor.value)
             clearTimeout(timeout)
         }
 
@@ -66,10 +87,10 @@
             let endSeletor = document.getElementById("endSelector")
             if (morning) {
                 startSelector.value = "9:30"
-                endSeletor.value = "11:0"
+                endSeletor.value = "11:30"
             } else {
-                startSelector.value = "14:0"
-                endSeletor.value = "16:0"
+                startSelector.value = afternoon + ":0"
+                endSeletor.value = (afternoon + 2) + ":0"
             }
             clearTimeout(timeout)
         }
@@ -227,14 +248,25 @@
             btn.onclick = function () {
                 open_window()
             }
-
+            var morning = document.getElementById('morning')
+            morning.onclick = function () {
+                selectMorningOrAfternoon(true)
+            }
             var afternoon = document.getElementById('afternoon')
             afternoon.onclick = function () {
                 selectMorningOrAfternoon(false)
             }
             var twoHours = document.getElementById('twohours')
             twoHours.onclick = function () {
-                setTwoHours()
+                setSomeHours(2)
+            }
+            var oneHours = document.getElementById('onehours')
+            oneHours.onclick = function () {
+                setSomeHours(1)
+            }
+            var halfHours = document.getElementById('halfhours')
+            halfHours.onclick = function () {
+                setSomeHours(0.5)
             }
             // timeout = setTimeout(btn.onclick, 3000)
             var isShine = true
@@ -319,7 +351,7 @@
 
         .div-btn {
             width: 30%;
-            height: 15%;
+            height: 7%;
             float: left;
             padding-top: 2%
         }
