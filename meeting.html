@@ -134,7 +134,7 @@
                 let btn = document.createElement('button')
                 let meetingDate = afterDays(today, i)
                 btn.id = "btn-" + meetingDate.getMonth() + "-" + meetingDate.getDate()
-                btn.textContent = meetingDate.getDate() + getLunarDay(meetingDate)
+                btn.innerHTML = "<b>" + meetingDate.getDate() + "</b><span>" + getLunarDay(meetingDate) + "</span>"
                 btn.onclick = function () {
                     selectDate(meetingDate)
                     clearTimeout(timeout)
@@ -232,7 +232,6 @@
             }).catch(err => {
                 window.open(url, '_blank');
             });
-            window.open(url, '_blank');
         }
 
         function afterDays(now, day) {
@@ -346,19 +345,24 @@
         }
 
         .td-body {
-            height: 20%
-        }
+            height: 20%;
 
-        .td-title {
-            width: 14%;
-            height: 5%;
+            .td-title {
+                width: 14%;
+                height: 5%;
+            }
+
+            b {
+                margin: 5px;
+                display: block;
+            }
         }
 
         .div-btn {
             width: 30%;
             height: 7%;
             float: left;
-            padding-top: 2%
+            padding-top: 2%;
         }
 
         .time-selector {
