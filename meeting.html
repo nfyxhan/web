@@ -227,7 +227,7 @@
             var url = "https://" + meetingHost + "/meetingRoomFilterList?cityId=12&meetingDate=" + meetingDate +
                 "&startTime=" + startHour + "%3A" + startMinute +
                 "&endTime=" + endHour + "%3A" + endMinute + "&mrStatus=2"
-            navigator.clipboard.writeText(meetingDate + ' ' + startHour + ':' + startMinute).then(() => {
+            navigator.clipboard.writeText(meetingDate.substr(5) + ' ' + startHour + ':' + startMinute).then(() => {
                 window.open(url, '_blank');
             }).catch(err => {
                 window.open(url, '_blank');
