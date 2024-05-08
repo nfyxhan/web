@@ -67,9 +67,7 @@
         let selectdDateID = ''
         let timeout = undefined
         let meetingHost = getQueryParams(window.location.search).meetingHost
-        let afternoon = getQueryParams(window.location.search).afternoon
-        let isAfternoon = getQueryParams(window.location.search).isAfternoon
-        afternoon = afternoon ? parseInt(afternoon, 10) : 16
+        let startTimeAt = getQueryParams(window.location.search).startTimeAt
 
         function setSomeHours(i) {
             let startSelector = document.getElementById("startSelector")
@@ -78,21 +76,28 @@
             let minute = parseInt(start[0], 10) * 60 + parseInt(start[1], 10) + i * 60
             minute = parseInt(minute)
             endSeletor.value = parseInt(minute / 60) + ":" + minute % 60
-            console.log(endSeletor.value)
             clearTimeout(timeout)
         }
 
-        function selectMorningOrAfternoon(morning) {
+        function formatTime(t) {
+            const start = t.split(":")
+            let minute = parseInt(start[0], 10) * 60 + parseInt(start[1], 10)
+            minute = parseInt(minute)
+            return parseInt(minute / 60) + ":" + minute % 60
+        }
+
+        function setStartTimeAt(startTimeAt, hour) {
             let startSelector = document.getElementById("startSelector")
-            let endSeletor = document.getElementById("endSelector")
-            if (morning) {
-                startSelector.value = "9:30"
-                endSeletor.value = "11:30"
-            } else {
-                startSelector.value = afternoon + ":0"
-                endSeletor.value = (afternoon + 2) + ":0"
+            startSelector.value = formatTime(startTimeAt)
+            setSomeHours(hour)
+        }
+
+        function selectMorningOrAfternoon(morning) {
+            let start = "9:30"
+            if (!morning) {
+                start = "16:0"
             }
-            clearTimeout(timeout)
+            setStartTimeAt(start, 2)
         }
 
         function getLunarDay(date) {
@@ -248,6 +253,9 @@
             }
             meetingTime.setTime(meetingTime.getTime() + day * 24 * 60 * 60 * 1000)
             selectDate(meetingTime)
+            if (startTimeAt) {
+                setStartTimeAt(startTimeAt, 2)
+            }
             var btn = document.getElementById('open')
             btn.onclick = function () {
                 open_window()
