@@ -67,7 +67,6 @@
         let selectdDateID = ''
         let timeout = undefined
         let meetingHost = getQueryParams(window.location.search).meetingHost
-        let startTimeAt = getQueryParams(window.location.search).startTimeAt
 
         function setSomeHours(i) {
             let startSelector = document.getElementById("startSelector")
@@ -246,10 +245,17 @@
         }
 
         function load() {
+            let startTimeAt = getQueryParams(window.location.search).startTimeAt
+            let meetingDate = getQueryParams(window.location.search).meetingDate
             var meetingTime = new Date()
-            let day = 13
-            if (meetingTime.getDay() == 1) {
-                day = 11
+            let day = 0
+            if (meetingDate) {
+                meetingTime = new Date(meetingDate)
+            } else {
+                day = 13
+                if (meetingTime.getDay() == 1) {
+                    day = 11
+                }
             }
             meetingTime.setTime(meetingTime.getTime() + day * 24 * 60 * 60 * 1000)
             selectDate(meetingTime)
