@@ -1,0 +1,19775 @@
+let EN_EMOJI = {
+    ':1st_place_medal:': '\u{0001F947}',
+    ':2nd_place_medal:': '\u{0001F948}',
+    ':3rd_place_medal:': '\u{0001F949}',
+    ':AB_button_(blood_type):': '\u{0001F18E}',
+    ':ATM_sign:': '\u{0001F3E7}',
+    ':A_button_(blood_type):': '\u{0001F170}',
+    ':A_button_(blood_type)_selector:': '\u{0001F170}\u{0000FE0F}',
+    ':Afghanistan:': '\u{0001F1E6}\u{0001F1EB}',
+    ':Aland_Islands:': '\u{0001F1E6}\u{0001F1FD}',
+    ':Albania:': '\u{0001F1E6}\u{0001F1F1}',
+    ':Algeria:': '\u{0001F1E9}\u{0001F1FF}',
+    ':American_Samoa:': '\u{0001F1E6}\u{0001F1F8}',
+    ':Andorra:': '\u{0001F1E6}\u{0001F1E9}',
+    ':Angola:': '\u{0001F1E6}\u{0001F1F4}',
+    ':Anguilla:': '\u{0001F1E6}\u{0001F1EE}',
+    ':Antarctica:': '\u{0001F1E6}\u{0001F1F6}',
+    ':Antigua_&_Barbuda:': '\u{0001F1E6}\u{0001F1EC}',
+    ':Aquarius:': '\u{00002652}',
+    ':Argentina:': '\u{0001F1E6}\u{0001F1F7}',
+    ':Aries:': '\u{00002648}',
+    ':Armenia:': '\u{0001F1E6}\u{0001F1F2}',
+    ':Aruba:': '\u{0001F1E6}\u{0001F1FC}',
+    ':Ascension_Island:': '\u{0001F1E6}\u{0001F1E8}',
+    ':Australia:': '\u{0001F1E6}\u{0001F1FA}',
+    ':Austria:': '\u{0001F1E6}\u{0001F1F9}',
+    ':Azerbaijan:': '\u{0001F1E6}\u{0001F1FF}',
+    ':BACK_arrow:': '\u{0001F519}',
+    ':B_button_(blood_type):': '\u{0001F171}',
+    ':B_button_(blood_type)_selector:': '\u{0001F171}\u{0000FE0F}',
+    ':Bahamas:': '\u{0001F1E7}\u{0001F1F8}',
+    ':Bahrain:': '\u{0001F1E7}\u{0001F1ED}',
+    ':Bangladesh:': '\u{0001F1E7}\u{0001F1E9}',
+    ':Barbados:': '\u{0001F1E7}\u{0001F1E7}',
+    ':Belarus:': '\u{0001F1E7}\u{0001F1FE}',
+    ':Belgium:': '\u{0001F1E7}\u{0001F1EA}',
+    ':Belize:': '\u{0001F1E7}\u{0001F1FF}',
+    ':Benin:': '\u{0001F1E7}\u{0001F1EF}',
+    ':Bermuda:': '\u{0001F1E7}\u{0001F1F2}',
+    ':Bhutan:': '\u{0001F1E7}\u{0001F1F9}',
+    ':Bolivia:': '\u{0001F1E7}\u{0001F1F4}',
+    ':Bosnia_&_Herzegovina:': '\u{0001F1E7}\u{0001F1E6}',
+    ':Botswana:': '\u{0001F1E7}\u{0001F1FC}',
+    ':Bouvet_Island:': '\u{0001F1E7}\u{0001F1FB}',
+    ':Brazil:': '\u{0001F1E7}\u{0001F1F7}',
+    ':British_Indian_Ocean_Territory:': '\u{0001F1EE}\u{0001F1F4}',
+    ':British_Virgin_Islands:': '\u{0001F1FB}\u{0001F1EC}',
+    ':Brunei:': '\u{0001F1E7}\u{0001F1F3}',
+    ':Bulgaria:': '\u{0001F1E7}\u{0001F1EC}',
+    ':Burkina_Faso:': '\u{0001F1E7}\u{0001F1EB}',
+    ':Burundi:': '\u{0001F1E7}\u{0001F1EE}',
+    ':CL_button:': '\u{0001F191}',
+    ':COOL_button:': '\u{0001F192}',
+    ':Cambodia:': '\u{0001F1F0}\u{0001F1ED}',
+    ':Cameroon:': '\u{0001F1E8}\u{0001F1F2}',
+    ':Canada:': '\u{0001F1E8}\u{0001F1E6}',
+    ':Canary_Islands:': '\u{0001F1EE}\u{0001F1E8}',
+    ':Cancer:': '\u{0000264B}',
+    ':Cape_Verde:': '\u{0001F1E8}\u{0001F1FB}',
+    ':Capricorn:': '\u{00002651}',
+    ':Caribbean_Netherlands:': '\u{0001F1E7}\u{0001F1F6}',
+    ':Cayman_Islands:': '\u{0001F1F0}\u{0001F1FE}',
+    ':Central_African_Republic:': '\u{0001F1E8}\u{0001F1EB}',
+    ':Ceuta_&_Melilla:': '\u{0001F1EA}\u{0001F1E6}',
+    ':Chad:': '\u{0001F1F9}\u{0001F1E9}',
+    ':Chile:': '\u{0001F1E8}\u{0001F1F1}',
+    ':China:': '\u{0001F1E8}\u{0001F1F3}',
+    ':Christmas_Island:': '\u{0001F1E8}\u{0001F1FD}',
+    ':Christmas_tree:': '\u{0001F384}',
+    ':Clipperton_Island:': '\u{0001F1E8}\u{0001F1F5}',
+    ':Cocos_(Keeling)_Islands:': '\u{0001F1E8}\u{0001F1E8}',
+    ':Colombia:': '\u{0001F1E8}\u{0001F1F4}',
+    ':Comoros:': '\u{0001F1F0}\u{0001F1F2}',
+    ':Congo_-_Brazzaville:': '\u{0001F1E8}\u{0001F1EC}',
+    ':Congo_-_Kinshasa:': '\u{0001F1E8}\u{0001F1E9}',
+    ':Cook_Islands:': '\u{0001F1E8}\u{0001F1F0}',
+    ':Costa_Rica:': '\u{0001F1E8}\u{0001F1F7}',
+    ':Croatia:': '\u{0001F1ED}\u{0001F1F7}',
+    ':Cuba:': '\u{0001F1E8}\u{0001F1FA}',
+    ':Cura\xe7ao:': '\u{0001F1E8}\u{0001F1FC}',
+    ':Cyprus:': '\u{0001F1E8}\u{0001F1FE}',
+    ':Czechia:': '\u{0001F1E8}\u{0001F1FF}',
+    ':C\xf4te_d\U2019Ivoire:': '\u{0001F1E8}\u{0001F1EE}',
+    ':Denmark:': '\u{0001F1E9}\u{0001F1F0}',
+    ':Diego_Garcia:': '\u{0001F1E9}\u{0001F1EC}',
+    ':Djibouti:': '\u{0001F1E9}\u{0001F1EF}',
+    ':Dominica:': '\u{0001F1E9}\u{0001F1F2}',
+    ':Dominican_Republic:': '\u{0001F1E9}\u{0001F1F4}',
+    ':END_arrow:': '\u{0001F51A}',
+    ':Ecuador:': '\u{0001F1EA}\u{0001F1E8}',
+    ':Egypt:': '\u{0001F1EA}\u{0001F1EC}',
+    ':El_Salvador:': '\u{0001F1F8}\u{0001F1FB}',
+    ':England:': '\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0065}\u{000E006E}\u{000E0067}\u{000E007F}',
+    ':Equatorial_Guinea:': '\u{0001F1EC}\u{0001F1F6}',
+    ':Eritrea:': '\u{0001F1EA}\u{0001F1F7}',
+    ':Estonia:': '\u{0001F1EA}\u{0001F1EA}',
+    ':Ethiopia:': '\u{0001F1EA}\u{0001F1F9}',
+    ':European_Union:': '\u{0001F1EA}\u{0001F1FA}',
+    ':FREE_button:': '\u{0001F193}',
+    ':Falkland_Islands:': '\u{0001F1EB}\u{0001F1F0}',
+    ':Faroe_Islands:': '\u{0001F1EB}\u{0001F1F4}',
+    ':Fiji:': '\u{0001F1EB}\u{0001F1EF}',
+    ':Finland:': '\u{0001F1EB}\u{0001F1EE}',
+    ':France:': '\u{0001F1EB}\u{0001F1F7}',
+    ':French_Guiana:': '\u{0001F1EC}\u{0001F1EB}',
+    ':French_Polynesia:': '\u{0001F1F5}\u{0001F1EB}',
+    ':French_Southern_Territories:': '\u{0001F1F9}\u{0001F1EB}',
+    ':Gabon:': '\u{0001F1EC}\u{0001F1E6}',
+    ':Gambia:': '\u{0001F1EC}\u{0001F1F2}',
+    ':Gemini:': '\u{0000264A}',
+    ':Georgia:': '\u{0001F1EC}\u{0001F1EA}',
+    ':Germany:': '\u{0001F1E9}\u{0001F1EA}',
+    ':Ghana:': '\u{0001F1EC}\u{0001F1ED}',
+    ':Gibraltar:': '\u{0001F1EC}\u{0001F1EE}',
+    ':Greece:': '\u{0001F1EC}\u{0001F1F7}',
+    ':Greenland:': '\u{0001F1EC}\u{0001F1F1}',
+    ':Grenada:': '\u{0001F1EC}\u{0001F1E9}',
+    ':Guadeloupe:': '\u{0001F1EC}\u{0001F1F5}',
+    ':Guam:': '\u{0001F1EC}\u{0001F1FA}',
+    ':Guatemala:': '\u{0001F1EC}\u{0001F1F9}',
+    ':Guernsey:': '\u{0001F1EC}\u{0001F1EC}',
+    ':Guinea-Bissau:': '\u{0001F1EC}\u{0001F1FC}',
+    ':Guinea:': '\u{0001F1EC}\u{0001F1F3}',
+    ':Guyana:': '\u{0001F1EC}\u{0001F1FE}',
+    ':Haiti:': '\u{0001F1ED}\u{0001F1F9}',
+    ':Heard_&_McDonald_Islands:': '\u{0001F1ED}\u{0001F1F2}',
+    ':Honduras:': '\u{0001F1ED}\u{0001F1F3}',
+    ':Hong_Kong_SAR_China:': '\u{0001F1ED}\u{0001F1F0}',
+    ':Hungary:': '\u{0001F1ED}\u{0001F1FA}',
+    ':ID_button:': '\u{0001F194}',
+    ':Iceland:': '\u{0001F1EE}\u{0001F1F8}',
+    ':India:': '\u{0001F1EE}\u{0001F1F3}',
+    ':Indonesia:': '\u{0001F1EE}\u{0001F1E9}',
+    ':Iran:': '\u{0001F1EE}\u{0001F1F7}',
+    ':Iraq:': '\u{0001F1EE}\u{0001F1F6}',
+    ':Ireland:': '\u{0001F1EE}\u{0001F1EA}',
+    ':Isle_of_Man:': '\u{0001F1EE}\u{0001F1F2}',
+    ':Israel:': '\u{0001F1EE}\u{0001F1F1}',
+    ':Italy:': '\u{0001F1EE}\u{0001F1F9}',
+    ':Jamaica:': '\u{0001F1EF}\u{0001F1F2}',
+    ':Japan:': '\u{0001F1EF}\u{0001F1F5}',
+    ':Japanese_acceptable_button:': '\u{0001F251}',
+    ':Japanese_application_button:': '\u{0001F238}',
+    ':Japanese_bargain_button:': '\u{0001F250}',
+    ':Japanese_castle:': '\u{0001F3EF}',
+    ':Japanese_congratulations_button:': '\u{00003297}',
+    ':Japanese_discount_button:': '\u{0001F239}',
+    ':Japanese_dolls:': '\u{0001F38E}',
+    ':Japanese_free_of_charge_button:': '\u{0001F21A}',
+    ':Japanese_here_button:': '\u{0001F201}',
+    ':Japanese_monthly_amount_button:': '\u{0001F237}',
+    ':Japanese_no_vacancy_button:': '\u{0001F235}',
+    ':Japanese_not_free_of_charge_button:': '\u{0001F236}',
+    ':Japanese_open_for_business_button:': '\u{0001F23A}',
+    ':Japanese_passing_grade_button:': '\u{0001F234}',
+    ':Japanese_post_office:': '\u{0001F3E3}',
+    ':Japanese_prohibited_button:': '\u{0001F232}',
+    ':Japanese_reserved_button:': '\u{0001F22F}',
+    ':Japanese_secret_button:': '\u{00003299}',
+    ':Japanese_service_charge_button:': '\u{0001F202}',
+    ':Japanese_symbol_for_beginner:': '\u{0001F530}',
+    ':Japanese_vacancy_button:': '\u{0001F233}',
+    ':Japanese_congratulations_button_selector:': '\u{00003297}\u{0000FE0F}',
+    ':Japanese_monthly_amount_button_selector:': '\u{0001F237}\u{0000FE0F}',
+    ':Japanese_secret_button_selector:': '\u{00003299}\u{0000FE0F}',
+    ':Japanese_service_charge_button_selector:': '\u{0001F202}\u{0000FE0F}',
+    ':Jersey:': '\u{0001F1EF}\u{0001F1EA}',
+    ':Jordan:': '\u{0001F1EF}\u{0001F1F4}',
+    ':Kazakhstan:': '\u{0001F1F0}\u{0001F1FF}',
+    ':Kenya:': '\u{0001F1F0}\u{0001F1EA}',
+    ':Kiribati:': '\u{0001F1F0}\u{0001F1EE}',
+    ':Kosovo:': '\u{0001F1FD}\u{0001F1F0}',
+    ':Kuwait:': '\u{0001F1F0}\u{0001F1FC}',
+    ':Kyrgyzstan:': '\u{0001F1F0}\u{0001F1EC}',
+    ':Laos:': '\u{0001F1F1}\u{0001F1E6}',
+    ':Latvia:': '\u{0001F1F1}\u{0001F1FB}',
+    ':Lebanon:': '\u{0001F1F1}\u{0001F1E7}',
+    ':Leo:': '\u{0000264C}',
+    ':Lesotho:': '\u{0001F1F1}\u{0001F1F8}',
+    ':Liberia:': '\u{0001F1F1}\u{0001F1F7}',
+    ':Libra:': '\u{0000264E}',
+    ':Libya:': '\u{0001F1F1}\u{0001F1FE}',
+    ':Liechtenstein:': '\u{0001F1F1}\u{0001F1EE}',
+    ':Lithuania:': '\u{0001F1F1}\u{0001F1F9}',
+    ':Luxembourg:': '\u{0001F1F1}\u{0001F1FA}',
+    ':Macau_SAR_China:': '\u{0001F1F2}\u{0001F1F4}',
+    ':Macedonia:': '\u{0001F1F2}\u{0001F1F0}',
+    ':Madagascar:': '\u{0001F1F2}\u{0001F1EC}',
+    ':Malawi:': '\u{0001F1F2}\u{0001F1FC}',
+    ':Malaysia:': '\u{0001F1F2}\u{0001F1FE}',
+    ':Maldives:': '\u{0001F1F2}\u{0001F1FB}',
+    ':Mali:': '\u{0001F1F2}\u{0001F1F1}',
+    ':Malta:': '\u{0001F1F2}\u{0001F1F9}',
+    ':Marshall_Islands:': '\u{0001F1F2}\u{0001F1ED}',
+    ':Martinique:': '\u{0001F1F2}\u{0001F1F6}',
+    ':Mauritania:': '\u{0001F1F2}\u{0001F1F7}',
+    ':Mauritius:': '\u{0001F1F2}\u{0001F1FA}',
+    ':Mayotte:': '\u{0001F1FE}\u{0001F1F9}',
+    ':Mexico:': '\u{0001F1F2}\u{0001F1FD}',
+    ':Micronesia:': '\u{0001F1EB}\u{0001F1F2}',
+    ':Moldova:': '\u{0001F1F2}\u{0001F1E9}',
+    ':Monaco:': '\u{0001F1F2}\u{0001F1E8}',
+    ':Mongolia:': '\u{0001F1F2}\u{0001F1F3}',
+    ':Montenegro:': '\u{0001F1F2}\u{0001F1EA}',
+    ':Montserrat:': '\u{0001F1F2}\u{0001F1F8}',
+    ':Morocco:': '\u{0001F1F2}\u{0001F1E6}',
+    ':Mozambique:': '\u{0001F1F2}\u{0001F1FF}',
+    ':Mrs._Claus:': '\u{0001F936}',
+    ':Mrs._Claus_dark_skin_tone:': '\u{0001F936}\u{0001F3FF}',
+    ':Mrs._Claus_light_skin_tone:': '\u{0001F936}\u{0001F3FB}',
+    ':Mrs._Claus_medium-dark_skin_tone:': '\u{0001F936}\u{0001F3FE}',
+    ':Mrs._Claus_medium-light_skin_tone:': '\u{0001F936}\u{0001F3FC}',
+    ':Mrs._Claus_medium_skin_tone:': '\u{0001F936}\u{0001F3FD}',
+    ':Myanmar_(Burma):': '\u{0001F1F2}\u{0001F1F2}',
+    ':NEW_button:': '\u{0001F195}',
+    ':NG_button:': '\u{0001F196}',
+    ':Namibia:': '\u{0001F1F3}\u{0001F1E6}',
+    ':Nauru:': '\u{0001F1F3}\u{0001F1F7}',
+    ':Nepal:': '\u{0001F1F3}\u{0001F1F5}',
+    ':Netherlands:': '\u{0001F1F3}\u{0001F1F1}',
+    ':New_Caledonia:': '\u{0001F1F3}\u{0001F1E8}',
+    ':New_Zealand:': '\u{0001F1F3}\u{0001F1FF}',
+    ':Nicaragua:': '\u{0001F1F3}\u{0001F1EE}',
+    ':Niger:': '\u{0001F1F3}\u{0001F1EA}',
+    ':Nigeria:': '\u{0001F1F3}\u{0001F1EC}',
+    ':Niue:': '\u{0001F1F3}\u{0001F1FA}',
+    ':Norfolk_Island:': '\u{0001F1F3}\u{0001F1EB}',
+    ':North_Korea:': '\u{0001F1F0}\u{0001F1F5}',
+    ':Northern_Mariana_Islands:': '\u{0001F1F2}\u{0001F1F5}',
+    ':Norway:': '\u{0001F1F3}\u{0001F1F4}',
+    ':OK_button:': '\u{0001F197}',
+    ':OK_hand:': '\u{0001F44C}',
+    ':OK_hand_dark_skin_tone:': '\u{0001F44C}\u{0001F3FF}',
+    ':OK_hand_light_skin_tone:': '\u{0001F44C}\u{0001F3FB}',
+    ':OK_hand_medium-dark_skin_tone:': '\u{0001F44C}\u{0001F3FE}',
+    ':OK_hand_medium-light_skin_tone:': '\u{0001F44C}\u{0001F3FC}',
+    ':OK_hand_medium_skin_tone:': '\u{0001F44C}\u{0001F3FD}',
+    ':ON!_arrow:': '\u{0001F51B}',
+    ':O_button_(blood_type):': '\u{0001F17E}',
+    ':O_button_(blood_type)_selector:': '\u{0001F17E}\u{0000FE0F}',
+    ':Oman:': '\u{0001F1F4}\u{0001F1F2}',
+    ':Ophiuchus:': '\u{000026CE}',
+    ':P_button:': '\u{0001F17F}',
+    ':P_button_selector:': '\u{0001F17F}\u{0000FE0F}',
+    ':Pakistan:': '\u{0001F1F5}\u{0001F1F0}',
+    ':Palau:': '\u{0001F1F5}\u{0001F1FC}',
+    ':Palestinian_Territories:': '\u{0001F1F5}\u{0001F1F8}',
+    ':Panama:': '\u{0001F1F5}\u{0001F1E6}',
+    ':Papua_New_Guinea:': '\u{0001F1F5}\u{0001F1EC}',
+    ':Paraguay:': '\u{0001F1F5}\u{0001F1FE}',
+    ':Peru:': '\u{0001F1F5}\u{0001F1EA}',
+    ':Philippines:': '\u{0001F1F5}\u{0001F1ED}',
+    ':Pisces:': '\u{00002653}',
+    ':Pitcairn_Islands:': '\u{0001F1F5}\u{0001F1F3}',
+    ':Poland:': '\u{0001F1F5}\u{0001F1F1}',
+    ':Portugal:': '\u{0001F1F5}\u{0001F1F9}',
+    ':Puerto_Rico:': '\u{0001F1F5}\u{0001F1F7}',
+    ':Qatar:': '\u{0001F1F6}\u{0001F1E6}',
+    ':Romania:': '\u{0001F1F7}\u{0001F1F4}',
+    ':Russia:': '\u{0001F1F7}\u{0001F1FA}',
+    ':Rwanda:': '\u{0001F1F7}\u{0001F1FC}',
+    ':R\xe9union:': '\u{0001F1F7}\u{0001F1EA}',
+    ':SOON_arrow:': '\u{0001F51C}',
+    ':SOS_button:': '\u{0001F198}',
+    ':Sagittarius:': '\u{00002650}',
+    ':Samoa:': '\u{0001F1FC}\u{0001F1F8}',
+    ':San_Marino:': '\u{0001F1F8}\u{0001F1F2}',
+    ':Santa_Claus:': '\u{0001F385}',
+    ':Santa_Claus_dark_skin_tone:': '\u{0001F385}\u{0001F3FF}',
+    ':Santa_Claus_light_skin_tone:': '\u{0001F385}\u{0001F3FB}',
+    ':Santa_Claus_medium-dark_skin_tone:': '\u{0001F385}\u{0001F3FE}',
+    ':Santa_Claus_medium-light_skin_tone:': '\u{0001F385}\u{0001F3FC}',
+    ':Santa_Claus_medium_skin_tone:': '\u{0001F385}\u{0001F3FD}',
+    ':Saudi_Arabia:': '\u{0001F1F8}\u{0001F1E6}',
+    ':Scorpio:': '\u{0000264F}',
+    ':Scotland:': '\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0073}\u{000E0063}\u{000E0074}\u{000E007F}',
+    ':Senegal:': '\u{0001F1F8}\u{0001F1F3}',
+    ':Serbia:': '\u{0001F1F7}\u{0001F1F8}',
+    ':Seychelles:': '\u{0001F1F8}\u{0001F1E8}',
+    ':Sierra_Leone:': '\u{0001F1F8}\u{0001F1F1}',
+    ':Singapore:': '\u{0001F1F8}\u{0001F1EC}',
+    ':Sint_Maarten:': '\u{0001F1F8}\u{0001F1FD}',
+    ':Slovakia:': '\u{0001F1F8}\u{0001F1F0}',
+    ':Slovenia:': '\u{0001F1F8}\u{0001F1EE}',
+    ':Solomon_Islands:': '\u{0001F1F8}\u{0001F1E7}',
+    ':Somalia:': '\u{0001F1F8}\u{0001F1F4}',
+    ':South_Africa:': '\u{0001F1FF}\u{0001F1E6}',
+    ':South_Georgia_&_South_Sandwich_Islands:': '\u{0001F1EC}\u{0001F1F8}',
+    ':South_Korea:': '\u{0001F1F0}\u{0001F1F7}',
+    ':South_Sudan:': '\u{0001F1F8}\u{0001F1F8}',
+    ':Spain:': '\u{0001F1EA}\u{0001F1F8}',
+    ':Sri_Lanka:': '\u{0001F1F1}\u{0001F1F0}',
+    ':St._Barth\xe9lemy:': '\u{0001F1E7}\u{0001F1F1}',
+    ':St._Helena:': '\u{0001F1F8}\u{0001F1ED}',
+    ':St._Kitts_&_Nevis:': '\u{0001F1F0}\u{0001F1F3}',
+    ':St._Lucia:': '\u{0001F1F1}\u{0001F1E8}',
+    ':St._Martin:': '\u{0001F1F2}\u{0001F1EB}',
+    ':St._Pierre_&_Miquelon:': '\u{0001F1F5}\u{0001F1F2}',
+    ':St._Vincent_&_Grenadines:': '\u{0001F1FB}\u{0001F1E8}',
+    ':Statue_of_Liberty:': '\u{0001F5FD}',
+    ':Sudan:': '\u{0001F1F8}\u{0001F1E9}',
+    ':Suriname:': '\u{0001F1F8}\u{0001F1F7}',
+    ':Svalbard_&_Jan_Mayen:': '\u{0001F1F8}\u{0001F1EF}',
+    ':Swaziland:': '\u{0001F1F8}\u{0001F1FF}',
+    ':Sweden:': '\u{0001F1F8}\u{0001F1EA}',
+    ':Switzerland:': '\u{0001F1E8}\u{0001F1ED}',
+    ':Syria:': '\u{0001F1F8}\u{0001F1FE}',
+    ':S\xe3o_Tom\xe9_&_Pr\xedncipe:': '\u{0001F1F8}\u{0001F1F9}',
+    ':T-Rex:': '\u{0001F996}',
+    ':TOP_arrow:': '\u{0001F51D}',
+    ':Taiwan:': '\u{0001F1F9}\u{0001F1FC}',
+    ':Tajikistan:': '\u{0001F1F9}\u{0001F1EF}',
+    ':Tanzania:': '\u{0001F1F9}\u{0001F1FF}',
+    ':Taurus:': '\u{00002649}',
+    ':Thailand:': '\u{0001F1F9}\u{0001F1ED}',
+    ':Timor-Leste:': '\u{0001F1F9}\u{0001F1F1}',
+    ':Togo:': '\u{0001F1F9}\u{0001F1EC}',
+    ':Tokelau:': '\u{0001F1F9}\u{0001F1F0}',
+    ':Tokyo_tower:': '\u{0001F5FC}',
+    ':Tonga:': '\u{0001F1F9}\u{0001F1F4}',
+    ':Trinidad_&_Tobago:': '\u{0001F1F9}\u{0001F1F9}',
+    ':Tristan_da_Cunha:': '\u{0001F1F9}\u{0001F1E6}',
+    ':Tunisia:': '\u{0001F1F9}\u{0001F1F3}',
+    ':Turkey:': '\u{0001F1F9}\u{0001F1F7}',
+    ':Turkmenistan:': '\u{0001F1F9}\u{0001F1F2}',
+    ':Turks_&_Caicos_Islands:': '\u{0001F1F9}\u{0001F1E8}',
+    ':Tuvalu:': '\u{0001F1F9}\u{0001F1FB}',
+    ':U.S._Outlying_Islands:': '\u{0001F1FA}\u{0001F1F2}',
+    ':U.S._Virgin_Islands:': '\u{0001F1FB}\u{0001F1EE}',
+    ':UP!_button:': '\u{0001F199}',
+    ':Uganda:': '\u{0001F1FA}\u{0001F1EC}',
+    ':Ukraine:': '\u{0001F1FA}\u{0001F1E6}',
+    ':United_Arab_Emirates:': '\u{0001F1E6}\u{0001F1EA}',
+    ':United_Kingdom:': '\u{0001F1EC}\u{0001F1E7}',
+    ':United_Nations:': '\u{0001F1FA}\u{0001F1F3}',
+    ':United_States:': '\u{0001F1FA}\u{0001F1F8}',
+    ':Uruguay:': '\u{0001F1FA}\u{0001F1FE}',
+    ':Uzbekistan:': '\u{0001F1FA}\u{0001F1FF}',
+    ':VS_button:': '\u{0001F19A}',
+    ':Vanuatu:': '\u{0001F1FB}\u{0001F1FA}',
+    ':Vatican_City:': '\u{0001F1FB}\u{0001F1E6}',
+    ':Venezuela:': '\u{0001F1FB}\u{0001F1EA}',
+    ':Vietnam:': '\u{0001F1FB}\u{0001F1F3}',
+    ':Virgo:': '\u{0000264D}',
+    ':Wales:': '\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0077}\u{000E006C}\u{000E0073}\u{000E007F}',
+    ':Wallis_&_Futuna:': '\u{0001F1FC}\u{0001F1EB}',
+    ':Western_Sahara:': '\u{0001F1EA}\u{0001F1ED}',
+    ':Yemen:': '\u{0001F1FE}\u{0001F1EA}',
+    ':Zambia:': '\u{0001F1FF}\u{0001F1F2}',
+    ':Zimbabwe:': '\u{0001F1FF}\u{0001F1FC}',
+    ':abacus:': '\u{0001F9EE}',
+    ':adhesive_bandage:': '\u{0001FA79}',
+    ':admission_tickets:': '\u{0001F39F}',
+    ':admission_tickets_selector:': '\u{0001F39F}\u{0000FE0F}',
+    ':adult:': '\u{0001F9D1}',
+    ':adult_dark_skin_tone:': '\u{0001F9D1}\u{0001F3FF}',
+    ':adult_light_skin_tone:': '\u{0001F9D1}\u{0001F3FB}',
+    ':adult_medium-dark_skin_tone:': '\u{0001F9D1}\u{0001F3FE}',
+    ':adult_medium-light_skin_tone:': '\u{0001F9D1}\u{0001F3FC}',
+    ':adult_medium_skin_tone:': '\u{0001F9D1}\u{0001F3FD}',
+    ':aerial_tramway:': '\u{0001F6A1}',
+    ':airplane:': '\u{00002708}',
+    ':airplane_arrival:': '\u{0001F6EC}',
+    ':airplane_departure:': '\u{0001F6EB}',
+    ':airplane_selector:': '\u{00002708}\u{0000FE0F}',
+    ':alarm_clock:': '\u{000023F0}',
+    ':alembic:': '\u{00002697}',
+    ':alembic_selector:': '\u{00002697}\u{0000FE0F}',
+    ':alien:': '\u{0001F47D}',
+    ':alien_monster:': '\u{0001F47E}',
+    ':ambulance:': '\u{0001F691}',
+    ':american_football:': '\u{0001F3C8}',
+    ':amphora:': '\u{0001F3FA}',
+    ':anchor:': '\u{00002693}',
+    ':anger_symbol:': '\u{0001F4A2}',
+    ':angry_face:': '\u{0001F620}',
+    ':angry_face_with_horns:': '\u{0001F47F}',
+    ':anguished_face:': '\u{0001F627}',
+    ':ant:': '\u{0001F41C}',
+    ':antenna_bars:': '\u{0001F4F6}',
+    ':anxious_face_with_sweat:': '\u{0001F630}',
+    ':articulated_lorry:': '\u{0001F69B}',
+    ':artist_palette:': '\u{0001F3A8}',
+    ':astonished_face:': '\u{0001F632}',
+    ':atom_symbol:': '\u{0000269B}',
+    ':atom_symbol_selector:': '\u{0000269B}\u{0000FE0F}',
+    ':auto_rickshaw:': '\u{0001F6FA}',
+    ':automobile:': '\u{0001F697}',
+    ':avocado:': '\u{0001F951}',
+    ':axe:': '\u{0001FA93}',
+    ':baby:': '\u{0001F476}',
+    ':baby_angel:': '\u{0001F47C}',
+    ':baby_angel_dark_skin_tone:': '\u{0001F47C}\u{0001F3FF}',
+    ':baby_angel_light_skin_tone:': '\u{0001F47C}\u{0001F3FB}',
+    ':baby_angel_medium-dark_skin_tone:': '\u{0001F47C}\u{0001F3FE}',
+    ':baby_angel_medium-light_skin_tone:': '\u{0001F47C}\u{0001F3FC}',
+    ':baby_angel_medium_skin_tone:': '\u{0001F47C}\u{0001F3FD}',
+    ':baby_bottle:': '\u{0001F37C}',
+    ':baby_chick:': '\u{0001F424}',
+    ':baby_dark_skin_tone:': '\u{0001F476}\u{0001F3FF}',
+    ':baby_light_skin_tone:': '\u{0001F476}\u{0001F3FB}',
+    ':baby_medium-dark_skin_tone:': '\u{0001F476}\u{0001F3FE}',
+    ':baby_medium-light_skin_tone:': '\u{0001F476}\u{0001F3FC}',
+    ':baby_medium_skin_tone:': '\u{0001F476}\u{0001F3FD}',
+    ':baby_symbol:': '\u{0001F6BC}',
+    ':backhand_index_pointing_down:': '\u{0001F447}',
+    ':backhand_index_pointing_down_dark_skin_tone:': '\u{0001F447}\u{0001F3FF}',
+    ':backhand_index_pointing_down_light_skin_tone:': '\u{0001F447}\u{0001F3FB}',
+    ':backhand_index_pointing_down_medium-dark_skin_tone:': '\u{0001F447}\u{0001F3FE}',
+    ':backhand_index_pointing_down_medium-light_skin_tone:': '\u{0001F447}\u{0001F3FC}',
+    ':backhand_index_pointing_down_medium_skin_tone:': '\u{0001F447}\u{0001F3FD}',
+    ':backhand_index_pointing_left:': '\u{0001F448}',
+    ':backhand_index_pointing_left_dark_skin_tone:': '\u{0001F448}\u{0001F3FF}',
+    ':backhand_index_pointing_left_light_skin_tone:': '\u{0001F448}\u{0001F3FB}',
+    ':backhand_index_pointing_left_medium-dark_skin_tone:': '\u{0001F448}\u{0001F3FE}',
+    ':backhand_index_pointing_left_medium-light_skin_tone:': '\u{0001F448}\u{0001F3FC}',
+    ':backhand_index_pointing_left_medium_skin_tone:': '\u{0001F448}\u{0001F3FD}',
+    ':backhand_index_pointing_right:': '\u{0001F449}',
+    ':backhand_index_pointing_right_dark_skin_tone:': '\u{0001F449}\u{0001F3FF}',
+    ':backhand_index_pointing_right_light_skin_tone:': '\u{0001F449}\u{0001F3FB}',
+    ':backhand_index_pointing_right_medium-dark_skin_tone:': '\u{0001F449}\u{0001F3FE}',
+    ':backhand_index_pointing_right_medium-light_skin_tone:': '\u{0001F449}\u{0001F3FC}',
+    ':backhand_index_pointing_right_medium_skin_tone:': '\u{0001F449}\u{0001F3FD}',
+    ':backhand_index_pointing_up:': '\u{0001F446}',
+    ':backhand_index_pointing_up_dark_skin_tone:': '\u{0001F446}\u{0001F3FF}',
+    ':backhand_index_pointing_up_light_skin_tone:': '\u{0001F446}\u{0001F3FB}',
+    ':backhand_index_pointing_up_medium-dark_skin_tone:': '\u{0001F446}\u{0001F3FE}',
+    ':backhand_index_pointing_up_medium-light_skin_tone:': '\u{0001F446}\u{0001F3FC}',
+    ':backhand_index_pointing_up_medium_skin_tone:': '\u{0001F446}\u{0001F3FD}',
+    ':bacon:': '\u{0001F953}',
+    ':badger:': '\u{0001F9A1}',
+    ':badminton:': '\u{0001F3F8}',
+    ':bagel:': '\u{0001F96F}',
+    ':baggage_claim:': '\u{0001F6C4}',
+    ':baguette_bread:': '\u{0001F956}',
+    ':balance_scale:': '\u{00002696}',
+    ':balance_scale_selector:': '\u{00002696}\u{0000FE0F}',
+    ':bald:': '\u{0001F9B2}',
+    ':bald_man:': '\u{0001F468}\u{0000200D}\u{0001F9B2}',
+    ':bald_woman:': '\u{0001F469}\u{0000200D}\u{0001F9B2}',
+    ':ballet_shoes:': '\u{0001FA70}',
+    ':balloon:': '\u{0001F388}',
+    ':ballot_box_with_ballot:': '\u{0001F5F3}',
+    ':ballot_box_with_ballot_selector:': '\u{0001F5F3}\u{0000FE0F}',
+    ':ballot_box_with_check:': '\u{00002611}',
+    ':banana:': '\u{0001F34C}',
+    ':banjo:': '\u{0001FA95}',
+    ':bank:': '\u{0001F3E6}',
+    ':bar_chart:': '\u{0001F4CA}',
+    ':barber_pole:': '\u{0001F488}',
+    ':baseball:': '\u{000026BE}',
+    ':basket:': '\u{0001F9FA}',
+    ':basketball:': '\u{0001F3C0}',
+    ':bat:': '\u{0001F987}',
+    ':bathtub:': '\u{0001F6C1}',
+    ':battery:': '\u{0001F50B}',
+    ':beach_with_umbrella:': '\u{0001F3D6}',
+    ':beach_with_umbrella_selector:': '\u{0001F3D6}\u{0000FE0F}',
+    ':beaming_face_with_smiling_eyes:': '\u{0001F601}',
+    ':bear_face:': '\u{0001F43B}',
+    ':bearded_person:': '\u{0001F9D4}',
+    ':bearded_person_dark_skin_tone:': '\u{0001F9D4}\u{0001F3FF}',
+    ':bearded_person_light_skin_tone:': '\u{0001F9D4}\u{0001F3FB}',
+    ':bearded_person_medium-dark_skin_tone:': '\u{0001F9D4}\u{0001F3FE}',
+    ':bearded_person_medium-light_skin_tone:': '\u{0001F9D4}\u{0001F3FC}',
+    ':bearded_person_medium_skin_tone:': '\u{0001F9D4}\u{0001F3FD}',
+    ':beating_heart:': '\u{0001F493}',
+    ':bed:': '\u{0001F6CF}',
+    ':bed_selector:': '\u{0001F6CF}\u{0000FE0F}',
+    ':beer_mug:': '\u{0001F37A}',
+    ':bell:': '\u{0001F514}',
+    ':bell_with_slash:': '\u{0001F515}',
+    ':bellhop_bell:': '\u{0001F6CE}',
+    ':bellhop_bell_selector:': '\u{0001F6CE}\u{0000FE0F}',
+    ':bento_box:': '\u{0001F371}',
+    ':beverage_box:': '\u{0001F9C3}',
+    ':bicycle:': '\u{0001F6B2}',
+    ':bikini:': '\u{0001F459}',
+    ':billed_cap:': '\u{0001F9E2}',
+    ':biohazard:': '\u{00002623}',
+    ':biohazard_selector:': '\u{00002623}\u{0000FE0F}',
+    ':bird:': '\u{0001F426}',
+    ':birthday_cake:': '\u{0001F382}',
+    ':black_circle:': '\u{000026AB}',
+    ':black_flag:': '\u{0001F3F4}',
+    ':black_heart:': '\u{0001F5A4}',
+    ':black_large_square:': '\u{00002B1B}',
+    ':black_medium-small_square:': '\u{000025FE}',
+    ':black_medium_square:': '\u{000025FC}',
+    ':black_medium_square_selector:': '\u{000025FC}\u{0000FE0F}',
+    ':black_nib:': '\u{00002712}',
+    ':black_nib_selector:': '\u{00002712}\u{0000FE0F}',
+    ':black_small_square:': '\u{000025AA}',
+    ':black_small_square_selector:': '\u{000025AA}\u{0000FE0F}',
+    ':black_square_button:': '\u{0001F532}',
+    ':blond-haired_man:': '\u{0001F471}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_man_dark_skin_tone:': '\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_man_light_skin_tone:': '\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_man_medium-dark_skin_tone:': '\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_man_medium-light_skin_tone:': '\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_man_medium_skin_tone:': '\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':blond-haired_person:': '\u{0001F471}',
+    ':blond-haired_person_dark_skin_tone:': '\u{0001F471}\u{0001F3FF}',
+    ':blond-haired_person_light_skin_tone:': '\u{0001F471}\u{0001F3FB}',
+    ':blond-haired_person_medium-dark_skin_tone:': '\u{0001F471}\u{0001F3FE}',
+    ':blond-haired_person_medium-light_skin_tone:': '\u{0001F471}\u{0001F3FC}',
+    ':blond-haired_person_medium_skin_tone:': '\u{0001F471}\u{0001F3FD}',
+    ':blond-haired_woman:': '\u{0001F471}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blond-haired_woman_dark_skin_tone:': '\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blond-haired_woman_light_skin_tone:': '\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blond-haired_woman_medium-dark_skin_tone:': '\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blond-haired_woman_medium-light_skin_tone:': '\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blond-haired_woman_medium_skin_tone:': '\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':blossom:': '\u{0001F33C}',
+    ':blowfish:': '\u{0001F421}',
+    ':blue_book:': '\u{0001F4D8}',
+    ':blue_circle:': '\u{0001F535}',
+    ':blue_heart:': '\u{0001F499}',
+    ':blue_square:': '\u{0001F7E6}',
+    ':boar:': '\u{0001F417}',
+    ':bomb:': '\u{0001F4A3}',
+    ':bone:': '\u{0001F9B4}',
+    ':bookmark:': '\u{0001F516}',
+    ':bookmark_tabs:': '\u{0001F4D1}',
+    ':books:': '\u{0001F4DA}',
+    ':bottle_with_popping_cork:': '\u{0001F37E}',
+    ':bouquet:': '\u{0001F490}',
+    ':bow_and_arrow:': '\u{0001F3F9}',
+    ':bowl_with_spoon:': '\u{0001F963}',
+    ':bowling:': '\u{0001F3B3}',
+    ':boxing_glove:': '\u{0001F94A}',
+    ':boy:': '\u{0001F466}',
+    ':boy_dark_skin_tone:': '\u{0001F466}\u{0001F3FF}',
+    ':boy_light_skin_tone:': '\u{0001F466}\u{0001F3FB}',
+    ':boy_medium-dark_skin_tone:': '\u{0001F466}\u{0001F3FE}',
+    ':boy_medium-light_skin_tone:': '\u{0001F466}\u{0001F3FC}',
+    ':boy_medium_skin_tone:': '\u{0001F466}\u{0001F3FD}',
+    ':brain:': '\u{0001F9E0}',
+    ':bread:': '\u{0001F35E}',
+    ':breast-feeding:': '\u{0001F931}',
+    ':breast-feeding_dark_skin_tone:': '\u{0001F931}\u{0001F3FF}',
+    ':breast-feeding_light_skin_tone:': '\u{0001F931}\u{0001F3FB}',
+    ':breast-feeding_medium-dark_skin_tone:': '\u{0001F931}\u{0001F3FE}',
+    ':breast-feeding_medium-light_skin_tone:': '\u{0001F931}\u{0001F3FC}',
+    ':breast-feeding_medium_skin_tone:': '\u{0001F931}\u{0001F3FD}',
+    ':brick:': '\u{0001F9F1}',
+    ':bride_with_veil:': '\u{0001F470}',
+    ':bride_with_veil_dark_skin_tone:': '\u{0001F470}\u{0001F3FF}',
+    ':bride_with_veil_light_skin_tone:': '\u{0001F470}\u{0001F3FB}',
+    ':bride_with_veil_medium-dark_skin_tone:': '\u{0001F470}\u{0001F3FE}',
+    ':bride_with_veil_medium-light_skin_tone:': '\u{0001F470}\u{0001F3FC}',
+    ':bride_with_veil_medium_skin_tone:': '\u{0001F470}\u{0001F3FD}',
+    ':bridge_at_night:': '\u{0001F309}',
+    ':briefcase:': '\u{0001F4BC}',
+    ':briefs:': '\u{0001FA72}',
+    ':bright_button:': '\u{0001F506}',
+    ':broccoli:': '\u{0001F966}',
+    ':broken_heart:': '\u{0001F494}',
+    ':broom:': '\u{0001F9F9}',
+    ':brown_circle:': '\u{0001F7E4}',
+    ':brown_heart:': '\u{0001F90E}',
+    ':brown_square:': '\u{0001F7EB}',
+    ':bug:': '\u{0001F41B}',
+    ':building_construction:': '\u{0001F3D7}',
+    ':building_construction_selector:': '\u{0001F3D7}\u{0000FE0F}',
+    ':bullet_train:': '\u{0001F685}',
+    ':burrito:': '\u{0001F32F}',
+    ':bus:': '\u{0001F68C}',
+    ':bus_stop:': '\u{0001F68F}',
+    ':bust_in_silhouette:': '\u{0001F464}',
+    ':busts_in_silhouette:': '\u{0001F465}',
+    ':butter:': '\u{0001F9C8}',
+    ':butterfly:': '\u{0001F98B}',
+    ':cactus:': '\u{0001F335}',
+    ':calendar:': '\u{0001F4C5}',
+    ':call_me_hand:': '\u{0001F919}',
+    ':call_me_hand_dark_skin_tone:': '\u{0001F919}\u{0001F3FF}',
+    ':call_me_hand_light_skin_tone:': '\u{0001F919}\u{0001F3FB}',
+    ':call_me_hand_medium-dark_skin_tone:': '\u{0001F919}\u{0001F3FE}',
+    ':call_me_hand_medium-light_skin_tone:': '\u{0001F919}\u{0001F3FC}',
+    ':call_me_hand_medium_skin_tone:': '\u{0001F919}\u{0001F3FD}',
+    ':camel:': '\u{0001F42A}',
+    ':camera:': '\u{0001F4F7}',
+    ':camera_with_flash:': '\u{0001F4F8}',
+    ':camping:': '\u{0001F3D5}',
+    ':camping_selector:': '\u{0001F3D5}\u{0000FE0F}',
+    ':candle:': '\u{0001F56F}',
+    ':candle_selector:': '\u{0001F56F}\u{0000FE0F}',
+    ':candy:': '\u{0001F36C}',
+    ':canned_food:': '\u{0001F96B}',
+    ':canoe:': '\u{0001F6F6}',
+    ':card_file_box:': '\u{0001F5C3}',
+    ':card_file_box_selector:': '\u{0001F5C3}\u{0000FE0F}',
+    ':card_index:': '\u{0001F4C7}',
+    ':card_index_dividers:': '\u{0001F5C2}',
+    ':card_index_dividers_selector:': '\u{0001F5C2}\u{0000FE0F}',
+    ':carousel_horse:': '\u{0001F3A0}',
+    ':carp_streamer:': '\u{0001F38F}',
+    ':carrot:': '\u{0001F955}',
+    ':castle:': '\u{0001F3F0}',
+    ':cat:': '\u{0001F408}',
+    ':cat_face:': '\u{0001F431}',
+    ':cat_face_with_tears_of_joy:': '\u{0001F639}',
+    ':cat_face_with_wry_smile:': '\u{0001F63C}',
+    ':chains:': '\u{000026D3}',
+    ':chains_selector:': '\u{000026D3}\u{0000FE0F}',
+    ':chair:': '\u{0001FA91}',
+    ':chart_decreasing:': '\u{0001F4C9}',
+    ':chart_increasing:': '\u{0001F4C8}',
+    ':chart_increasing_with_yen:': '\u{0001F4B9}',
+    ':check_box_with_check:': '\u{00002611}\u{0000FE0F}',
+    ':check_mark:': '\u{00002714}\u{0000FE0F}',
+    ':cheese_wedge:': '\u{0001F9C0}',
+    ':chequered_flag:': '\u{0001F3C1}',
+    ':cherries:': '\u{0001F352}',
+    ':cherry_blossom:': '\u{0001F338}',
+    ':chess_pawn:': '\u{0000265F}',
+    ':chess_pawn_selector:': '\u{0000265F}\u{0000FE0F}',
+    ':chestnut:': '\u{0001F330}',
+    ':chicken:': '\u{0001F414}',
+    ':child:': '\u{0001F9D2}',
+    ':child_dark_skin_tone:': '\u{0001F9D2}\u{0001F3FF}',
+    ':child_light_skin_tone:': '\u{0001F9D2}\u{0001F3FB}',
+    ':child_medium-dark_skin_tone:': '\u{0001F9D2}\u{0001F3FE}',
+    ':child_medium-light_skin_tone:': '\u{0001F9D2}\u{0001F3FC}',
+    ':child_medium_skin_tone:': '\u{0001F9D2}\u{0001F3FD}',
+    ':children_crossing:': '\u{0001F6B8}',
+    ':chipmunk:': '\u{0001F43F}',
+    ':chipmunk_selector:': '\u{0001F43F}\u{0000FE0F}',
+    ':chocolate_bar:': '\u{0001F36B}',
+    ':chopsticks:': '\u{0001F962}',
+    ':church:': '\u{000026EA}',
+    ':cigarette:': '\u{0001F6AC}',
+    ':cinema:': '\u{0001F3A6}',
+    ':circled_M:': '\u{000024C2}',
+    ':circled_M_selector:': '\u{000024C2}\u{0000FE0F}',
+    ':circus_tent:': '\u{0001F3AA}',
+    ':cityscape:': '\u{0001F3D9}',
+    ':cityscape_at_dusk:': '\u{0001F306}',
+    ':cityscape_selector:': '\u{0001F3D9}\u{0000FE0F}',
+    ':clamp:': '\u{0001F5DC}',
+    ':clamp_selector:': '\u{0001F5DC}\u{0000FE0F}',
+    ':clapper_board:': '\u{0001F3AC}',
+    ':clapping_hands:': '\u{0001F44F}',
+    ':clapping_hands_dark_skin_tone:': '\u{0001F44F}\u{0001F3FF}',
+    ':clapping_hands_light_skin_tone:': '\u{0001F44F}\u{0001F3FB}',
+    ':clapping_hands_medium-dark_skin_tone:': '\u{0001F44F}\u{0001F3FE}',
+    ':clapping_hands_medium-light_skin_tone:': '\u{0001F44F}\u{0001F3FC}',
+    ':clapping_hands_medium_skin_tone:': '\u{0001F44F}\u{0001F3FD}',
+    ':classical_building:': '\u{0001F3DB}',
+    ':classical_building_selector:': '\u{0001F3DB}\u{0000FE0F}',
+    ':clinking_beer_mugs:': '\u{0001F37B}',
+    ':clinking_glasses:': '\u{0001F942}',
+    ':clipboard:': '\u{0001F4CB}',
+    ':clockwise_vertical_arrows:': '\u{0001F503}',
+    ':closed_book:': '\u{0001F4D5}',
+    ':closed_mailbox_with_lowered_flag:': '\u{0001F4EA}',
+    ':closed_mailbox_with_raised_flag:': '\u{0001F4EB}',
+    ':closed_umbrella:': '\u{0001F302}',
+    ':cloud:': '\u{00002601}',
+    ':cloud_selector:': '\u{00002601}\u{0000FE0F}',
+    ':cloud_with_lightning:': '\u{0001F329}',
+    ':cloud_with_lightning_and_rain:': '\u{000026C8}',
+    ':cloud_with_lightning_and_rain_selector:': '\u{000026C8}\u{0000FE0F}',
+    ':cloud_with_lightning_selector:': '\u{0001F329}\u{0000FE0F}',
+    ':cloud_with_rain:': '\u{0001F327}',
+    ':cloud_with_rain_selector:': '\u{0001F327}\u{0000FE0F}',
+    ':cloud_with_snow:': '\u{0001F328}',
+    ':cloud_with_snow_selector:': '\u{0001F328}\u{0000FE0F}',
+    ':clown_face:': '\u{0001F921}',
+    ':club_suit:': '\u{00002663}',
+    ':club_suit_selector:': '\u{00002663}\u{0000FE0F}',
+    ':clutch_bag:': '\u{0001F45D}',
+    ':coat:': '\u{0001F9E5}',
+    ':cocktail_glass:': '\u{0001F378}',
+    ':coconut:': '\u{0001F965}',
+    ':coffin:': '\u{000026B0}',
+    ':coffin_selector:': '\u{000026B0}\u{0000FE0F}',
+    ':cold_face:': '\u{0001F976}',
+    ':collision:': '\u{0001F4A5}',
+    ':comet:': '\u{00002604}',
+    ':comet_selector:': '\u{00002604}\u{0000FE0F}',
+    ':compass:': '\u{0001F9ED}',
+    ':computer_disk:': '\u{0001F4BD}',
+    ':computer_mouse:': '\u{0001F5B1}',
+    ':computer_mouse_selector:': '\u{0001F5B1}\u{0000FE0F}',
+    ':confetti_ball:': '\u{0001F38A}',
+    ':confounded_face:': '\u{0001F616}',
+    ':confused_face:': '\u{0001F615}',
+    ':construction:': '\u{0001F6A7}',
+    ':construction_worker:': '\u{0001F477}',
+    ':construction_worker_dark_skin_tone:': '\u{0001F477}\u{0001F3FF}',
+    ':construction_worker_light_skin_tone:': '\u{0001F477}\u{0001F3FB}',
+    ':construction_worker_medium-dark_skin_tone:': '\u{0001F477}\u{0001F3FE}',
+    ':construction_worker_medium-light_skin_tone:': '\u{0001F477}\u{0001F3FC}',
+    ':construction_worker_medium_skin_tone:': '\u{0001F477}\u{0001F3FD}',
+    ':control_knobs:': '\u{0001F39B}',
+    ':control_knobs_selector:': '\u{0001F39B}\u{0000FE0F}',
+    ':convenience_store:': '\u{0001F3EA}',
+    ':cooked_rice:': '\u{0001F35A}',
+    ':cookie:': '\u{0001F36A}',
+    ':cooking:': '\u{0001F373}',
+    ':copyright:': '\u{000000A9}',
+    ':copyright_selector:': '\u{000000A9}\u{0000FE0F}',
+    ':couch_and_lamp:': '\u{0001F6CB}',
+    ':couch_and_lamp_selector:': '\u{0001F6CB}\u{0000FE0F}',
+    ':counterclockwise_arrows_button:': '\u{0001F504}',
+    ':couple_with_heart-man-man:': '\u{0001F468}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F468}',
+    ':couple_with_heart-woman-man:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F468}',
+    ':couple_with_heart-woman-woman:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F469}',
+    ':couple_with_heart:': '\u{0001F491}',
+    ':couple_with_heart_man_man:': '\u{0001F468}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F468}',
+    ':couple_with_heart_woman_man:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F468}',
+    ':couple_with_heart_woman_woman:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F469}',
+    ':cow:': '\u{0001F404}',
+    ':cow_face:': '\u{0001F42E}',
+    ':cowboy_hat_face:': '\u{0001F920}',
+    ':crab:': '\u{0001F980}',
+    ':crayon:': '\u{0001F58D}',
+    ':crayon_selector:': '\u{0001F58D}\u{0000FE0F}',
+    ':credit_card:': '\u{0001F4B3}',
+    ':crescent_moon:': '\u{0001F319}',
+    ':cricket:': '\u{0001F997}',
+    ':cricket_game:': '\u{0001F3CF}',
+    ':crocodile:': '\u{0001F40A}',
+    ':croissant:': '\u{0001F950}',
+    ':cross_mark:': '\u{0000274C}',
+    ':cross_mark_button:': '\u{0000274E}',
+    ':crossed_fingers:': '\u{0001F91E}',
+    ':crossed_fingers_dark_skin_tone:': '\u{0001F91E}\u{0001F3FF}',
+    ':crossed_fingers_light_skin_tone:': '\u{0001F91E}\u{0001F3FB}',
+    ':crossed_fingers_medium-dark_skin_tone:': '\u{0001F91E}\u{0001F3FE}',
+    ':crossed_fingers_medium-light_skin_tone:': '\u{0001F91E}\u{0001F3FC}',
+    ':crossed_fingers_medium_skin_tone:': '\u{0001F91E}\u{0001F3FD}',
+    ':crossed_flags:': '\u{0001F38C}',
+    ':crossed_swords:': '\u{00002694}',
+    ':crossed_swords_selector:': '\u{00002694}\u{0000FE0F}',
+    ':crown:': '\u{0001F451}',
+    ':crying_cat_face:': '\u{0001F63F}',
+    ':crying_face:': '\u{0001F622}',
+    ':crystal_ball:': '\u{0001F52E}',
+    ':cucumber:': '\u{0001F952}',
+    ':cup_with_straw:': '\u{0001F964}',
+    ':cupcake:': '\u{0001F9C1}',
+    ':curling_stone:': '\u{0001F94C}',
+    ':curly-haired_man:': '\u{0001F468}\u{0000200D}\u{0001F9B1}',
+    ':curly-haired_woman:': '\u{0001F469}\u{0000200D}\u{0001F9B1}',
+    ':curly_hair:': '\u{0001F9B1}',
+    ':curly_loop:': '\u{000027B0}',
+    ':currency_exchange:': '\u{0001F4B1}',
+    ':curry_rice:': '\u{0001F35B}',
+    ':custard:': '\u{0001F36E}',
+    ':customs:': '\u{0001F6C3}',
+    ':cut_of_meat:': '\u{0001F969}',
+    ':cyclone:': '\u{0001F300}',
+    ':dagger:': '\u{0001F5E1}',
+    ':dagger_selector:': '\u{0001F5E1}\u{0000FE0F}',
+    ':dango:': '\u{0001F361}',
+    ':dark_skin_tone:': '\u{0001F3FF}',
+    ':dashing_away:': '\u{0001F4A8}',
+    ':deaf_man-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':deaf_man-dark_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_man-light_skin_tone:': '\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':deaf_man-light_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_man-medium-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':deaf_man-medium-dark_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_man-medium-light_skin_tone:': '\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':deaf_man-medium-light_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_man-medium_skin_tone:': '\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':deaf_man-medium_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_man:': '\u{0001F9CF}\u{0000200D}\u{00002642}',
+    ':deaf_man_selector:': '\u{0001F9CF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':deaf_person-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FF}',
+    ':deaf_person-light_skin_tone:': '\u{0001F9CF}\u{0001F3FB}',
+    ':deaf_person-medium-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FE}',
+    ':deaf_person-medium-light_skin_tone:': '\u{0001F9CF}\u{0001F3FC}',
+    ':deaf_person-medium_skin_tone:': '\u{0001F9CF}\u{0001F3FD}',
+    ':deaf_person:': '\u{0001F9CF}',
+    ':deaf_woman-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':deaf_woman-dark_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deaf_woman-light_skin_tone:': '\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':deaf_woman-light_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deaf_woman-medium-dark_skin_tone:': '\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':deaf_woman-medium-dark_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deaf_woman-medium-light_skin_tone:': '\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':deaf_woman-medium-light_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deaf_woman-medium_skin_tone:': '\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':deaf_woman-medium_skin_tone_selector:': '\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deaf_woman:': '\u{0001F9CF}\u{0000200D}\u{00002640}',
+    ':deaf_woman_selector:': '\u{0001F9CF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':deciduous_tree:': '\u{0001F333}',
+    ':deer:': '\u{0001F98C}',
+    ':delivery_truck:': '\u{0001F69A}',
+    ':department_store:': '\u{0001F3EC}',
+    ':derelict_house:': '\u{0001F3DA}',
+    ':derelict_house_selector:': '\u{0001F3DA}\u{0000FE0F}',
+    ':desert:': '\u{0001F3DC}',
+    ':desert_island:': '\u{0001F3DD}',
+    ':desert_island_selector:': '\u{0001F3DD}\u{0000FE0F}',
+    ':desert_selector:': '\u{0001F3DC}\u{0000FE0F}',
+    ':desktop_computer:': '\u{0001F5A5}',
+    ':desktop_computer_selector:': '\u{0001F5A5}\u{0000FE0F}',
+    ':detective:': '\u{0001F575}',
+    ':detective_dark_skin_tone:': '\u{0001F575}\u{0001F3FF}',
+    ':detective_light_skin_tone:': '\u{0001F575}\u{0001F3FB}',
+    ':detective_medium-dark_skin_tone:': '\u{0001F575}\u{0001F3FE}',
+    ':detective_medium-light_skin_tone:': '\u{0001F575}\u{0001F3FC}',
+    ':detective_medium_skin_tone:': '\u{0001F575}\u{0001F3FD}',
+    ':detective_selector:': '\u{0001F575}\u{0000FE0F}',
+    ':diamond_suit:': '\u{00002666}',
+    ':diamond_suit_selector:': '\u{00002666}\u{0000FE0F}',
+    ':diamond_with_a_dot:': '\u{0001F4A0}',
+    ':dim_button:': '\u{0001F505}',
+    ':direct_hit:': '\u{0001F3AF}',
+    ':disappointed_face:': '\u{0001F61E}',
+    ':diving_mask:': '\u{0001F93F}',
+    ':diya_lamp:': '\u{0001FA94}',
+    ':dizzy:': '\u{0001F4AB}',
+    ':dizzy_face:': '\u{0001F635}',
+    ':dna:': '\u{0001F9EC}',
+    ':dog:': '\u{0001F415}',
+    ':dog_face:': '\u{0001F436}',
+    ':dollar_banknote:': '\u{0001F4B5}',
+    ':dolphin:': '\u{0001F42C}',
+    ':door:': '\u{0001F6AA}',
+    ':dotted_six-pointed_star:': '\u{0001F52F}',
+    ':double_curly_loop:': '\u{000027BF}',
+    ':double_exclamation_mark:': '\u{0000203C}',
+    ':double_exclamation_mark_selector:': '\u{0000203C}\u{0000FE0F}',
+    ':doughnut:': '\u{0001F369}',
+    ':dove:': '\u{0001F54A}',
+    ':dove_selector:': '\u{0001F54A}\u{0000FE0F}',
+    ':down-left_arrow:': '\u{00002199}',
+    ':down-left_arrow_selector:': '\u{00002199}\u{0000FE0F}',
+    ':down-right_arrow:': '\u{00002198}',
+    ':down-right_arrow_selector:': '\u{00002198}\u{0000FE0F}',
+    ':down_arrow:': '\u{00002B07}',
+    ':down_arrow_selector:': '\u{00002B07}\u{0000FE0F}',
+    ':downcast_face_with_sweat:': '\u{0001F613}',
+    ':downwards_button:': '\u{0001F53D}',
+    ':dragon:': '\u{0001F409}',
+    ':dragon_face:': '\u{0001F432}',
+    ':dress:': '\u{0001F457}',
+    ':drooling_face:': '\u{0001F924}',
+    ':drop_of_blood:': '\u{0001FA78}',
+    ':droplet:': '\u{0001F4A7}',
+    ':drum:': '\u{0001F941}',
+    ':duck:': '\u{0001F986}',
+    ':dumpling:': '\u{0001F95F}',
+    ':dvd:': '\u{0001F4C0}',
+    ':e-mail:': '\u{0001F4E7}',
+    ':eagle:': '\u{0001F985}',
+    ':ear:': '\u{0001F442}',
+    ':ear_dark_skin_tone:': '\u{0001F442}\u{0001F3FF}',
+    ':ear_light_skin_tone:': '\u{0001F442}\u{0001F3FB}',
+    ':ear_medium-dark_skin_tone:': '\u{0001F442}\u{0001F3FE}',
+    ':ear_medium-light_skin_tone:': '\u{0001F442}\u{0001F3FC}',
+    ':ear_medium_skin_tone:': '\u{0001F442}\u{0001F3FD}',
+    ':ear_of_corn:': '\u{0001F33D}',
+    ':ear_with_hearing_aid-dark_skin_tone:': '\u{0001F9BB}\u{0001F3FF}',
+    ':ear_with_hearing_aid-light_skin_tone:': '\u{0001F9BB}\u{0001F3FB}',
+    ':ear_with_hearing_aid-medium-dark_skin_tone:': '\u{0001F9BB}\u{0001F3FE}',
+    ':ear_with_hearing_aid-medium-light_skin_tone:': '\u{0001F9BB}\u{0001F3FC}',
+    ':ear_with_hearing_aid-medium_skin_tone:': '\u{0001F9BB}\u{0001F3FD}',
+    ':ear_with_hearing_aid:': '\u{0001F9BB}',
+    ':egg:': '\u{0001F95A}',
+    ':eggplant:': '\u{0001F346}',
+    ':eight-pointed_star:': '\u{00002734}',
+    ':eight-pointed_star_selector:': '\u{00002734}\u{0000FE0F}',
+    ':eight-spoked_asterisk:': '\u{00002733}',
+    ':eight-spoked_asterisk_selector:': '\u{00002733}\u{0000FE0F}',
+    ':eight-thirty:': '\u{0001F563}',
+    ':eight_o\U2019clock:': '\u{0001F557}',
+    ':eject_button:': '\u{000023CF}',
+    ':eject_button_selector:': '\u{000023CF}\u{0000FE0F}',
+    ':electric_plug:': '\u{0001F50C}',
+    ':elephant:': '\u{0001F418}',
+    ':eleven-thirty:': '\u{0001F566}',
+    ':eleven_o\U2019clock:': '\u{0001F55A}',
+    ':elf:': '\u{0001F9DD}',
+    ':elf_dark_skin_tone:': '\u{0001F9DD}\u{0001F3FF}',
+    ':elf_light_skin_tone:': '\u{0001F9DD}\u{0001F3FB}',
+    ':elf_medium-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FE}',
+    ':elf_medium-light_skin_tone:': '\u{0001F9DD}\u{0001F3FC}',
+    ':elf_medium_skin_tone:': '\u{0001F9DD}\u{0001F3FD}',
+    ':envelope:': '\u{00002709}',
+    ':envelope_selector:': '\u{00002709}\u{0000FE0F}',
+    ':envelope_with_arrow:': '\u{0001F4E9}',
+    ':euro_banknote:': '\u{0001F4B6}',
+    ':evergreen_tree:': '\u{0001F332}',
+    ':ewe:': '\u{0001F411}',
+    ':exclamation_mark:': '\u{00002757}',
+    ':exclamation_question_mark:': '\u{00002049}',
+    ':exclamation_question_mark_selector:': '\u{00002049}\u{0000FE0F}',
+    ':exploding_head:': '\u{0001F92F}',
+    ':expressionless_face:': '\u{0001F611}',
+    ':eye:': '\u{0001F441}',
+    ':eye_in_speech_bubble:': '\u{0001F441}\u{0000200D}\u{0001F5E8}',
+    ':eye_in_speech_bubble_2:': '\u{0001F441}\u{0000200D}\u{0001F5E8}\u{0000FE0F}',
+    ':eye_in_speech_bubble_3:': '\u{0001F441}\u{0000FE0F}\u{0000200D}\u{0001F5E8}\u{0000FE0F}',
+    ':eye_in_speech_bubble_selector:': '\u{0001F441}\u{0000FE0F}\u{0000200D}\u{0001F5E8}',
+    ':eye_selector:': '\u{0001F441}\u{0000FE0F}',
+    ':eyes:': '\u{0001F440}',
+    ':face_blowing_a_kiss:': '\u{0001F618}',
+    ':face_savoring_food:': '\u{0001F60B}',
+    ':face_screaming_in_fear:': '\u{0001F631}',
+    ':face_vomiting:': '\u{0001F92E}',
+    ':face_with_hand_over_mouth:': '\u{0001F92D}',
+    ':face_with_head-bandage:': '\u{0001F915}',
+    ':face_with_medical_mask:': '\u{0001F637}',
+    ':face_with_monocle:': '\u{0001F9D0}',
+    ':face_with_open_mouth:': '\u{0001F62E}',
+    ':face_with_raised_eyebrow:': '\u{0001F928}',
+    ':face_with_rolling_eyes:': '\u{0001F644}',
+    ':face_with_steam_from_nose:': '\u{0001F624}',
+    ':face_with_symbols_on_mouth:': '\u{0001F92C}',
+    ':face_with_tears_of_joy:': '\u{0001F602}',
+    ':face_with_thermometer:': '\u{0001F912}',
+    ':face_with_tongue:': '\u{0001F61B}',
+    ':face_without_mouth:': '\u{0001F636}',
+    ':factory:': '\u{0001F3ED}',
+    ':fairy:': '\u{0001F9DA}',
+    ':fairy_dark_skin_tone:': '\u{0001F9DA}\u{0001F3FF}',
+    ':fairy_light_skin_tone:': '\u{0001F9DA}\u{0001F3FB}',
+    ':fairy_medium-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FE}',
+    ':fairy_medium-light_skin_tone:': '\u{0001F9DA}\u{0001F3FC}',
+    ':fairy_medium_skin_tone:': '\u{0001F9DA}\u{0001F3FD}',
+    ':falafel:': '\u{0001F9C6}',
+    ':fallen_leaf:': '\u{0001F342}',
+    ':family:': '\u{0001F46A}',
+    ':family_man_boy:': '\u{0001F468}\u{0000200D}\u{0001F466}',
+    ':family_man_boy_boy:': '\u{0001F468}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}',
+    ':family_man_girl:': '\u{0001F468}\u{0000200D}\u{0001F467}',
+    ':family_man_girl_boy:': '\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}',
+    ':family_man_girl_girl:': '\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}',
+    ':family_man_man_boy:': '\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F466}',
+    ':family_man_man_boy_boy:': '\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}',
+    ':family_man_man_girl:': '\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}',
+    ':family_man_man_girl_boy:': '\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}',
+    ':family_man_man_girl_girl:': '\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}',
+    ':family_man_woman_boy:': '\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}',
+    ':family_man_woman_boy_boy:': '\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}',
+    ':family_man_woman_girl:': '\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}',
+    ':family_man_woman_girl_boy:': '\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}',
+    ':family_man_woman_girl_girl:': '\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}',
+    ':family_woman_boy:': '\u{0001F469}\u{0000200D}\u{0001F466}',
+    ':family_woman_boy_boy:': '\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}',
+    ':family_woman_girl:': '\u{0001F469}\u{0000200D}\u{0001F467}',
+    ':family_woman_girl_boy:': '\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}',
+    ':family_woman_girl_girl:': '\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}',
+    ':family_woman_woman_boy:': '\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}',
+    ':family_woman_woman_boy_boy:': '\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}',
+    ':family_woman_woman_girl:': '\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}',
+    ':family_woman_woman_girl_boy:': '\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}',
+    ':family_woman_woman_girl_girl:': '\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}',
+    ':fast-forward_button:': '\u{000023E9}',
+    ':fast_down_button:': '\u{000023EC}',
+    ':fast_reverse_button:': '\u{000023EA}',
+    ':fast_up_button:': '\u{000023EB}',
+    ':fax_machine:': '\u{0001F4E0}',
+    ':fearful_face:': '\u{0001F628}',
+    ':female_sign:': '\u{00002640}',
+    ':female_sign_selector:': '\u{00002640}\u{0000FE0F}',
+    ':ferris_wheel:': '\u{0001F3A1}',
+    ':ferry:': '\u{000026F4}',
+    ':ferry_selector:': '\u{000026F4}\u{0000FE0F}',
+    ':field_hockey:': '\u{0001F3D1}',
+    ':file_cabinet:': '\u{0001F5C4}',
+    ':file_cabinet_selector:': '\u{0001F5C4}\u{0000FE0F}',
+    ':file_folder:': '\u{0001F4C1}',
+    ':film_frames:': '\u{0001F39E}',
+    ':film_frames_selector:': '\u{0001F39E}\u{0000FE0F}',
+    ':film_projector:': '\u{0001F4FD}',
+    ':film_projector_selector:': '\u{0001F4FD}\u{0000FE0F}',
+    ':fire:': '\u{0001F525}',
+    ':fire_engine:': '\u{0001F692}',
+    ':fire_extinguisher:': '\u{0001F9EF}',
+    ':firecracker:': '\u{0001F9E8}',
+    ':fireworks:': '\u{0001F386}',
+    ':first_quarter_moon:': '\u{0001F313}',
+    ':first_quarter_moon_face:': '\u{0001F31B}',
+    ':fish:': '\u{0001F41F}',
+    ':fish_cake_with_swirl:': '\u{0001F365}',
+    ':fishing_pole:': '\u{0001F3A3}',
+    ':five-thirty:': '\u{0001F560}',
+    ':five_o\U2019clock:': '\u{0001F554}',
+    ':flag_in_hole:': '\u{000026F3}',
+    ':flamingo:': '\u{0001F9A9}',
+    ':flashlight:': '\u{0001F526}',
+    ':flat_shoe:': '\u{0001F97F}',
+    ':fleur-de-lis:': '\u{0000269C}',
+    ':fleur-de-lis_selector:': '\u{0000269C}\u{0000FE0F}',
+    ':flexed_biceps:': '\u{0001F4AA}',
+    ':flexed_biceps_dark_skin_tone:': '\u{0001F4AA}\u{0001F3FF}',
+    ':flexed_biceps_light_skin_tone:': '\u{0001F4AA}\u{0001F3FB}',
+    ':flexed_biceps_medium-dark_skin_tone:': '\u{0001F4AA}\u{0001F3FE}',
+    ':flexed_biceps_medium-light_skin_tone:': '\u{0001F4AA}\u{0001F3FC}',
+    ':flexed_biceps_medium_skin_tone:': '\u{0001F4AA}\u{0001F3FD}',
+    ':floppy_disk:': '\u{0001F4BE}',
+    ':flower_playing_cards:': '\u{0001F3B4}',
+    ':flushed_face:': '\u{0001F633}',
+    ':flying_disc:': '\u{0001F94F}',
+    ':flying_saucer:': '\u{0001F6F8}',
+    ':fog:': '\u{0001F32B}',
+    ':fog_selector:': '\u{0001F32B}\u{0000FE0F}',
+    ':foggy:': '\u{0001F301}',
+    ':folded_hands:': '\u{0001F64F}',
+    ':folded_hands_dark_skin_tone:': '\u{0001F64F}\u{0001F3FF}',
+    ':folded_hands_light_skin_tone:': '\u{0001F64F}\u{0001F3FB}',
+    ':folded_hands_medium-dark_skin_tone:': '\u{0001F64F}\u{0001F3FE}',
+    ':folded_hands_medium-light_skin_tone:': '\u{0001F64F}\u{0001F3FC}',
+    ':folded_hands_medium_skin_tone:': '\u{0001F64F}\u{0001F3FD}',
+    ':foot-dark_skin_tone:': '\u{0001F9B6}\u{0001F3FF}',
+    ':foot-light_skin_tone:': '\u{0001F9B6}\u{0001F3FB}',
+    ':foot-medium-dark_skin_tone:': '\u{0001F9B6}\u{0001F3FE}',
+    ':foot-medium-light_skin_tone:': '\u{0001F9B6}\u{0001F3FC}',
+    ':foot-medium_skin_tone:': '\u{0001F9B6}\u{0001F3FD}',
+    ':foot:': '\u{0001F9B6}',
+    ':footprints:': '\u{0001F463}',
+    ':fork_and_knife:': '\u{0001F374}',
+    ':fork_and_knife_with_plate:': '\u{0001F37D}',
+    ':fork_and_knife_with_plate_selector:': '\u{0001F37D}\u{0000FE0F}',
+    ':fortune_cookie:': '\u{0001F960}',
+    ':fountain:': '\u{000026F2}',
+    ':fountain_pen:': '\u{0001F58B}',
+    ':fountain_pen_selector:': '\u{0001F58B}\u{0000FE0F}',
+    ':four-thirty:': '\u{0001F55F}',
+    ':four_leaf_clover:': '\u{0001F340}',
+    ':four_o\U2019clock:': '\u{0001F553}',
+    ':fox_face:': '\u{0001F98A}',
+    ':framed_picture:': '\u{0001F5BC}',
+    ':framed_picture_selector:': '\u{0001F5BC}\u{0000FE0F}',
+    ':french_fries:': '\u{0001F35F}',
+    ':fried_shrimp:': '\u{0001F364}',
+    ':frog_face:': '\u{0001F438}',
+    ':front-facing_baby_chick:': '\u{0001F425}',
+    ':frowning_face:': '\u{00002639}',
+    ':frowning_face_selector:': '\u{00002639}\u{0000FE0F}',
+    ':frowning_face_with_open_mouth:': '\u{0001F626}',
+    ':fuel_pump:': '\u{000026FD}',
+    ':full_moon:': '\u{0001F315}',
+    ':full_moon_face:': '\u{0001F31D}',
+    ':funeral_urn:': '\u{000026B1}',
+    ':funeral_urn_selector:': '\u{000026B1}\u{0000FE0F}',
+    ':game_die:': '\u{0001F3B2}',
+    ':garlic:': '\u{0001F9C4}',
+    ':gear:': '\u{00002699}',
+    ':gear_selector:': '\u{00002699}\u{0000FE0F}',
+    ':gem_stone:': '\u{0001F48E}',
+    ':genie:': '\u{0001F9DE}',
+    ':ghost:': '\u{0001F47B}',
+    ':giraffe:': '\u{0001F992}',
+    ':girl:': '\u{0001F467}',
+    ':girl_dark_skin_tone:': '\u{0001F467}\u{0001F3FF}',
+    ':girl_light_skin_tone:': '\u{0001F467}\u{0001F3FB}',
+    ':girl_medium-dark_skin_tone:': '\u{0001F467}\u{0001F3FE}',
+    ':girl_medium-light_skin_tone:': '\u{0001F467}\u{0001F3FC}',
+    ':girl_medium_skin_tone:': '\u{0001F467}\u{0001F3FD}',
+    ':glass_of_milk:': '\u{0001F95B}',
+    ':glasses:': '\u{0001F453}',
+    ':globe_showing_Americas:': '\u{0001F30E}',
+    ':globe_showing_Asia-Australia:': '\u{0001F30F}',
+    ':globe_showing_Europe-Africa:': '\u{0001F30D}',
+    ':globe_with_meridians:': '\u{0001F310}',
+    ':gloves:': '\u{0001F9E4}',
+    ':glowing_star:': '\u{0001F31F}',
+    ':goal_net:': '\u{0001F945}',
+    ':goat:': '\u{0001F410}',
+    ':goblin:': '\u{0001F47A}',
+    ':goggles:': '\u{0001F97D}',
+    ':gorilla:': '\u{0001F98D}',
+    ':graduation_cap:': '\u{0001F393}',
+    ':grapes:': '\u{0001F347}',
+    ':green_apple:': '\u{0001F34F}',
+    ':green_book:': '\u{0001F4D7}',
+    ':green_circle:': '\u{0001F7E2}',
+    ':green_heart:': '\u{0001F49A}',
+    ':green_salad:': '\u{0001F957}',
+    ':green_square:': '\u{0001F7E9}',
+    ':grimacing_face:': '\u{0001F62C}',
+    ':grinning_cat_face:': '\u{0001F63A}',
+    ':grinning_cat_face_with_smiling_eyes:': '\u{0001F638}',
+    ':grinning_face:': '\u{0001F600}',
+    ':grinning_face_with_big_eyes:': '\u{0001F603}',
+    ':grinning_face_with_smiling_eyes:': '\u{0001F604}',
+    ':grinning_face_with_sweat:': '\u{0001F605}',
+    ':grinning_squinting_face:': '\u{0001F606}',
+    ':growing_heart:': '\u{0001F497}',
+    ':guard:': '\u{0001F482}',
+    ':guard_dark_skin_tone:': '\u{0001F482}\u{0001F3FF}',
+    ':guard_light_skin_tone:': '\u{0001F482}\u{0001F3FB}',
+    ':guard_medium-dark_skin_tone:': '\u{0001F482}\u{0001F3FE}',
+    ':guard_medium-light_skin_tone:': '\u{0001F482}\u{0001F3FC}',
+    ':guard_medium_skin_tone:': '\u{0001F482}\u{0001F3FD}',
+    ':guide_dog:': '\u{0001F9AE}',
+    ':guitar:': '\u{0001F3B8}',
+    ':hamburger:': '\u{0001F354}',
+    ':hammer:': '\u{0001F528}',
+    ':hammer_and_pick:': '\u{00002692}',
+    ':hammer_and_pick_selector:': '\u{00002692}\u{0000FE0F}',
+    ':hammer_and_wrench:': '\u{0001F6E0}',
+    ':hammer_and_wrench_selector:': '\u{0001F6E0}\u{0000FE0F}',
+    ':hamster_face:': '\u{0001F439}',
+    ':hand_with_fingers_splayed:': '\u{0001F590}',
+    ':hand_with_fingers_splayed_dark_skin_tone:': '\u{0001F590}\u{0001F3FF}',
+    ':hand_with_fingers_splayed_light_skin_tone:': '\u{0001F590}\u{0001F3FB}',
+    ':hand_with_fingers_splayed_medium-dark_skin_tone:': '\u{0001F590}\u{0001F3FE}',
+    ':hand_with_fingers_splayed_medium-light_skin_tone:': '\u{0001F590}\u{0001F3FC}',
+    ':hand_with_fingers_splayed_medium_skin_tone:': '\u{0001F590}\u{0001F3FD}',
+    ':hand_with_fingers_splayed_selector:': '\u{0001F590}\u{0000FE0F}',
+    ':handbag:': '\u{0001F45C}',
+    ':handshake:': '\u{0001F91D}',
+    ':hatching_chick:': '\u{0001F423}',
+    ':headphone:': '\u{0001F3A7}',
+    ':hear-no-evil_monkey:': '\u{0001F649}',
+    ':heart_decoration:': '\u{0001F49F}',
+    ':heart_exclamation:': '\u{00002763}\u{0000FE0F}',
+    ':heart_suit:': '\u{00002665}',
+    ':heart_suit_selector:': '\u{00002665}\u{0000FE0F}',
+    ':heart_with_arrow:': '\u{0001F498}',
+    ':heart_with_ribbon:': '\u{0001F49D}',
+    ':heavy_check_mark:': '\u{00002714}',
+    ':heavy_division_sign:': '\u{00002797}',
+    ':heavy_dollar_sign:': '\u{0001F4B2}',
+    ':heavy_heart_exclamation:': '\u{00002763}',
+    ':heavy_large_circle:': '\u{00002B55}',
+    ':heavy_minus_sign:': '\u{00002796}',
+    ':heavy_multiplication_x:': '\u{00002716}',
+    ':heavy_plus_sign:': '\u{00002795}',
+    ':hedgehog:': '\u{0001F994}',
+    ':helicopter:': '\u{0001F681}',
+    ':herb:': '\u{0001F33F}',
+    ':hibiscus:': '\u{0001F33A}',
+    ':high-heeled_shoe:': '\u{0001F460}',
+    ':high-speed_train:': '\u{0001F684}',
+    ':high_voltage:': '\u{000026A1}',
+    ':hiking_boot:': '\u{0001F97E}',
+    ':hindu_temple:': '\u{0001F6D5}',
+    ':hippopotamus:': '\u{0001F99B}',
+    ':hole:': '\u{0001F573}',
+    ':hole_selector:': '\u{0001F573}\u{0000FE0F}',
+    ':honey_pot:': '\u{0001F36F}',
+    ':honeybee:': '\u{0001F41D}',
+    ':horizontal_traffic_light:': '\u{0001F6A5}',
+    ':horse:': '\u{0001F40E}',
+    ':horse_face:': '\u{0001F434}',
+    ':horse_racing:': '\u{0001F3C7}',
+    ':horse_racing_dark_skin_tone:': '\u{0001F3C7}\u{0001F3FF}',
+    ':horse_racing_light_skin_tone:': '\u{0001F3C7}\u{0001F3FB}',
+    ':horse_racing_medium-dark_skin_tone:': '\u{0001F3C7}\u{0001F3FE}',
+    ':horse_racing_medium-light_skin_tone:': '\u{0001F3C7}\u{0001F3FC}',
+    ':horse_racing_medium_skin_tone:': '\u{0001F3C7}\u{0001F3FD}',
+    ':hospital:': '\u{0001F3E5}',
+    ':hot_beverage:': '\u{00002615}',
+    ':hot_dog:': '\u{0001F32D}',
+    ':hot_face:': '\u{0001F975}',
+    ':hot_pepper:': '\u{0001F336}',
+    ':hot_pepper_selector:': '\u{0001F336}\u{0000FE0F}',
+    ':hot_springs:': '\u{00002668}',
+    ':hot_springs_selector:': '\u{00002668}\u{0000FE0F}',
+    ':hotel:': '\u{0001F3E8}',
+    ':hourglass_done:': '\u{0000231B}',
+    ':hourglass_not_done:': '\u{000023F3}',
+    ':house:': '\u{0001F3E0}',
+    ':house_with_garden:': '\u{0001F3E1}',
+    ':houses:': '\u{0001F3D8}',
+    ':houses_selector:': '\u{0001F3D8}\u{0000FE0F}',
+    ':hugging_face:': '\u{0001F917}',
+    ':hundred_points:': '\u{0001F4AF}',
+    ':hushed_face:': '\u{0001F62F}',
+    ':ice:': '\u{0001F9CA}',
+    ':ice_cream:': '\u{0001F368}',
+    ':ice_hockey:': '\u{0001F3D2}',
+    ':ice_skate:': '\u{000026F8}',
+    ':ice_skate_selector:': '\u{000026F8}\u{0000FE0F}',
+    ':inbox_tray:': '\u{0001F4E5}',
+    ':incoming_envelope:': '\u{0001F4E8}',
+    ':index_pointing_up:': '\u{0000261D}',
+    ':index_pointing_up_dark_skin_tone:': '\u{0000261D}\u{0001F3FF}',
+    ':index_pointing_up_light_skin_tone:': '\u{0000261D}\u{0001F3FB}',
+    ':index_pointing_up_medium-dark_skin_tone:': '\u{0000261D}\u{0001F3FE}',
+    ':index_pointing_up_medium-light_skin_tone:': '\u{0000261D}\u{0001F3FC}',
+    ':index_pointing_up_medium_skin_tone:': '\u{0000261D}\u{0001F3FD}',
+    ':index_pointing_up_selector:': '\u{0000261D}\u{0000FE0F}',
+    ':infinity:': '\u{0000267E}',
+    ':infinity_selector:': '\u{0000267E}\u{0000FE0F}',
+    ':information:': '\u{00002139}',
+    ':information_selector:': '\u{00002139}\u{0000FE0F}',
+    ':input_latin_letters:': '\u{0001F524}',
+    ':input_latin_lowercase:': '\u{0001F521}',
+    ':input_latin_uppercase:': '\u{0001F520}',
+    ':input_numbers:': '\u{0001F522}',
+    ':input_symbols:': '\u{0001F523}',
+    ':jack-o-lantern:': '\u{0001F383}',
+    ':jeans:': '\u{0001F456}',
+    ':jigsaw:': '\u{0001F9E9}',
+    ':joker:': '\u{0001F0CF}',
+    ':joystick:': '\u{0001F579}',
+    ':joystick_selector:': '\u{0001F579}\u{0000FE0F}',
+    ':kaaba:': '\u{0001F54B}',
+    ':kangaroo:': '\u{0001F998}',
+    ':key:': '\u{0001F511}',
+    ':keyboard:': '\u{00002328}',
+    ':keyboard_selector:': '\u{00002328}\u{0000FE0F}',
+    ':keycap:': '\u{00000023}\u{000020E3}',
+    ':keycap_#:': '\u{00000023}\u{0000FE0F}\u{000020E3}',
+    ':keycap_*:': '\u{0000002A}\u{0000FE0F}\u{000020E3}',
+    ':keycap_0:': '\u{00000030}\u{0000FE0F}\u{000020E3}',
+    ':keycap_10:': '\u{0001F51F}',
+    ':keycap_1:': '\u{00000031}\u{0000FE0F}\u{000020E3}',
+    ':keycap_2:': '\u{00000032}\u{0000FE0F}\u{000020E3}',
+    ':keycap_3:': '\u{00000033}\u{0000FE0F}\u{000020E3}',
+    ':keycap_4:': '\u{00000034}\u{0000FE0F}\u{000020E3}',
+    ':keycap_5:': '\u{00000035}\u{0000FE0F}\u{000020E3}',
+    ':keycap_6:': '\u{00000036}\u{0000FE0F}\u{000020E3}',
+    ':keycap_7:': '\u{00000037}\u{0000FE0F}\u{000020E3}',
+    ':keycap_8:': '\u{00000038}\u{0000FE0F}\u{000020E3}',
+    ':keycap_9:': '\u{00000039}\u{0000FE0F}\u{000020E3}',
+    ':keycap_asterisk:': '\u{0000002A}\u{000020E3}',
+    ':keycap_digit_eight:': '\u{00000038}\u{000020E3}',
+    ':keycap_digit_five:': '\u{00000035}\u{000020E3}',
+    ':keycap_digit_four:': '\u{00000034}\u{000020E3}',
+    ':keycap_digit_nine:': '\u{00000039}\u{000020E3}',
+    ':keycap_digit_one:': '\u{00000031}\u{000020E3}',
+    ':keycap_digit_seven:': '\u{00000037}\u{000020E3}',
+    ':keycap_digit_six:': '\u{00000036}\u{000020E3}',
+    ':keycap_digit_three:': '\u{00000033}\u{000020E3}',
+    ':keycap_digit_two:': '\u{00000032}\u{000020E3}',
+    ':keycap_digit_zero:': '\u{00000030}\u{000020E3}',
+    ':kick_scooter:': '\u{0001F6F4}',
+    ':kimono:': '\u{0001F458}',
+    ':kiss-man-man:': '\u{0001F468}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}',
+    ':kiss-woman-man:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}',
+    ':kiss-woman-woman:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F469}',
+    ':kiss:': '\u{0001F48F}',
+    ':kiss_man_man:': '\u{0001F468}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}',
+    ':kiss_mark:': '\u{0001F48B}',
+    ':kiss_woman_man:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}',
+    ':kiss_woman_woman:': '\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F469}',
+    ':kissing_cat_face:': '\u{0001F63D}',
+    ':kissing_face:': '\u{0001F617}',
+    ':kissing_face_with_closed_eyes:': '\u{0001F61A}',
+    ':kissing_face_with_smiling_eyes:': '\u{0001F619}',
+    ':kitchen_knife:': '\u{0001F52A}',
+    ':kite:': '\u{0001FA81}',
+    ':kiwi_fruit:': '\u{0001F95D}',
+    ':koala:': '\u{0001F428}',
+    ':lab_coat:': '\u{0001F97C}',
+    ':label:': '\u{0001F3F7}',
+    ':label_selector:': '\u{0001F3F7}\u{0000FE0F}',
+    ':lacrosse:': '\u{0001F94D}',
+    ':lady_beetle:': '\u{0001F41E}',
+    ':laptop_computer:': '\u{0001F4BB}',
+    ':large_blue_diamond:': '\u{0001F537}',
+    ':large_orange_diamond:': '\u{0001F536}',
+    ':last_quarter_moon:': '\u{0001F317}',
+    ':last_quarter_moon_face:': '\u{0001F31C}',
+    ':last_track_button:': '\u{000023EE}',
+    ':last_track_button_selector:': '\u{000023EE}\u{0000FE0F}',
+    ':latin_cross:': '\u{0000271D}',
+    ':latin_cross_selector:': '\u{0000271D}\u{0000FE0F}',
+    ':leaf_fluttering_in_wind:': '\u{0001F343}',
+    ':leafy_green:': '\u{0001F96C}',
+    ':ledger:': '\u{0001F4D2}',
+    ':left-facing_fist:': '\u{0001F91B}',
+    ':left-facing_fist_dark_skin_tone:': '\u{0001F91B}\u{0001F3FF}',
+    ':left-facing_fist_light_skin_tone:': '\u{0001F91B}\u{0001F3FB}',
+    ':left-facing_fist_medium-dark_skin_tone:': '\u{0001F91B}\u{0001F3FE}',
+    ':left-facing_fist_medium-light_skin_tone:': '\u{0001F91B}\u{0001F3FC}',
+    ':left-facing_fist_medium_skin_tone:': '\u{0001F91B}\u{0001F3FD}',
+    ':left-right_arrow:': '\u{00002194}',
+    ':left-right_arrow_selector:': '\u{00002194}\u{0000FE0F}',
+    ':left_arrow:': '\u{00002B05}',
+    ':left_arrow_curving_right:': '\u{000021AA}',
+    ':left_arrow_curving_right_selector:': '\u{000021AA}\u{0000FE0F}',
+    ':left_arrow_selector:': '\u{00002B05}\u{0000FE0F}',
+    ':left_luggage:': '\u{0001F6C5}',
+    ':left_speech_bubble:': '\u{0001F5E8}',
+    ':left_speech_bubble_selector:': '\u{0001F5E8}\u{0000FE0F}',
+    ':leg-dark_skin_tone:': '\u{0001F9B5}\u{0001F3FF}',
+    ':leg-light_skin_tone:': '\u{0001F9B5}\u{0001F3FB}',
+    ':leg-medium-dark_skin_tone:': '\u{0001F9B5}\u{0001F3FE}',
+    ':leg-medium-light_skin_tone:': '\u{0001F9B5}\u{0001F3FC}',
+    ':leg-medium_skin_tone:': '\u{0001F9B5}\u{0001F3FD}',
+    ':leg:': '\u{0001F9B5}',
+    ':lemon:': '\u{0001F34B}',
+    ':leopard:': '\u{0001F406}',
+    ':level_slider:': '\u{0001F39A}',
+    ':level_slider_selector:': '\u{0001F39A}\u{0000FE0F}',
+    ':light_bulb:': '\u{0001F4A1}',
+    ':light_rail:': '\u{0001F688}',
+    ':light_skin_tone:': '\u{0001F3FB}',
+    ':link:': '\u{0001F517}',
+    ':linked_paperclips:': '\u{0001F587}',
+    ':linked_paperclips_selector:': '\u{0001F587}\u{0000FE0F}',
+    ':lion_face:': '\u{0001F981}',
+    ':lipstick:': '\u{0001F484}',
+    ':litter_in_bin_sign:': '\u{0001F6AE}',
+    ':lizard:': '\u{0001F98E}',
+    ':llama:': '\u{0001F999}',
+    ':lobster:': '\u{0001F99E}',
+    ':locked:': '\u{0001F512}',
+    ':locked_with_key:': '\u{0001F510}',
+    ':locked_with_pen:': '\u{0001F50F}',
+    ':locomotive:': '\u{0001F682}',
+    ':lollipop:': '\u{0001F36D}',
+    ':lotion_bottle:': '\u{0001F9F4}',
+    ':loudly_crying_face:': '\u{0001F62D}',
+    ':loudspeaker:': '\u{0001F4E2}',
+    ':love-you_gesture:': '\u{0001F91F}',
+    ':love-you_gesture_dark_skin_tone:': '\u{0001F91F}\u{0001F3FF}',
+    ':love-you_gesture_light_skin_tone:': '\u{0001F91F}\u{0001F3FB}',
+    ':love-you_gesture_medium-dark_skin_tone:': '\u{0001F91F}\u{0001F3FE}',
+    ':love-you_gesture_medium-light_skin_tone:': '\u{0001F91F}\u{0001F3FC}',
+    ':love-you_gesture_medium_skin_tone:': '\u{0001F91F}\u{0001F3FD}',
+    ':love_hotel:': '\u{0001F3E9}',
+    ':love_letter:': '\u{0001F48C}',
+    ':luggage:': '\u{0001F9F3}',
+    ':lying_face:': '\u{0001F925}',
+    ':mage:': '\u{0001F9D9}',
+    ':mage_dark_skin_tone:': '\u{0001F9D9}\u{0001F3FF}',
+    ':mage_light_skin_tone:': '\u{0001F9D9}\u{0001F3FB}',
+    ':mage_medium-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FE}',
+    ':mage_medium-light_skin_tone:': '\u{0001F9D9}\u{0001F3FC}',
+    ':mage_medium_skin_tone:': '\u{0001F9D9}\u{0001F3FD}',
+    ':magnet:': '\u{0001F9F2}',
+    ':magnifying_glass_tilted_left:': '\u{0001F50D}',
+    ':magnifying_glass_tilted_right:': '\u{0001F50E}',
+    ':mahjong_red_dragon:': '\u{0001F004}',
+    ':male_sign:': '\u{00002642}',
+    ':male_sign_selector:': '\u{00002642}\u{0000FE0F}',
+    ':man-blond_hair:': '\u{0001F471}\u{0000200D}\u{00002642}',
+    ':man-dark_skin_tone-bald:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B2}',
+    ':man-dark_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man-dark_skin_tone-curly_hair:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B1}',
+    ':man-dark_skin_tone-red_hair:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B0}',
+    ':man-dark_skin_tone-white_hair:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B3}',
+    ':man-light_skin_tone-bald:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B2}',
+    ':man-light_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man-light_skin_tone-curly_hair:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B1}',
+    ':man-light_skin_tone-red_hair:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B0}',
+    ':man-light_skin_tone-white_hair:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B3}',
+    ':man-medium-dark_skin_tone-bald:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B2}',
+    ':man-medium-dark_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man-medium-dark_skin_tone-curly_hair:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B1}',
+    ':man-medium-dark_skin_tone-red_hair:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B0}',
+    ':man-medium-dark_skin_tone-white_hair:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B3}',
+    ':man-medium-light_skin_tone-bald:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B2}',
+    ':man-medium-light_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man-medium-light_skin_tone-curly_hair:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B1}',
+    ':man-medium-light_skin_tone-red_hair:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B0}',
+    ':man-medium-light_skin_tone-white_hair:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B3}',
+    ':man-medium_skin_tone-bald:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B2}',
+    ':man-medium_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man-medium_skin_tone-curly_hair:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B1}',
+    ':man-medium_skin_tone-red_hair:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B0}',
+    ':man-medium_skin_tone-white_hair:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B3}',
+    ':man:': '\u{0001F468}',
+    ':man_and_woman_holding_hands:': '\u{0001F46B}',
+    ':man_artist:': '\u{0001F468}\u{0000200D}\u{0001F3A8}',
+    ':man_artist_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3A8}',
+    ':man_artist_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3A8}',
+    ':man_artist_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3A8}',
+    ':man_artist_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3A8}',
+    ':man_artist_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3A8}',
+    ':man_astronaut:': '\u{0001F468}\u{0000200D}\u{0001F680}',
+    ':man_astronaut_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F680}',
+    ':man_astronaut_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F680}',
+    ':man_astronaut_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F680}',
+    ':man_astronaut_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F680}',
+    ':man_astronaut_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F680}',
+    ':man_biking-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_biking-light_skin_tone:': '\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_biking-medium-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_biking-medium-light_skin_tone:': '\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_biking-medium_skin_tone:': '\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_biking:': '\u{0001F6B4}\u{0000200D}\u{00002642}',
+    ':man_biking_dark_skin_tone:': '\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_biking_light_skin_tone:': '\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_biking_medium-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_biking_medium-light_skin_tone:': '\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_biking_medium_skin_tone:': '\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_biking_selector:': '\u{0001F6B4}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball-dark_skin_tone:': '\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball-light_skin_tone:': '\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball-medium-dark_skin_tone:': '\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball-medium-light_skin_tone:': '\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball-medium_skin_tone:': '\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball:': '\u{000026F9}\u{0000200D}\u{00002642}',
+    ':man_bouncing_ball_2:': '\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_3:': '\u{000026F9}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_dark_skin_tone:': '\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_light_skin_tone:': '\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_medium-dark_skin_tone:': '\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_medium-light_skin_tone:': '\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_medium_skin_tone:': '\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bouncing_ball_selector:': '\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002642}',
+    ':man_bowing-dark_skin_tone:': '\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_bowing-light_skin_tone:': '\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_bowing-medium-dark_skin_tone:': '\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_bowing-medium-light_skin_tone:': '\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_bowing-medium_skin_tone:': '\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_bowing:': '\u{0001F647}\u{0000200D}\u{00002642}',
+    ':man_bowing_dark_skin_tone:': '\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bowing_light_skin_tone:': '\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bowing_medium-dark_skin_tone:': '\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bowing_medium-light_skin_tone:': '\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bowing_medium_skin_tone:': '\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_bowing_selector:': '\u{0001F647}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling-dark_skin_tone:': '\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling-light_skin_tone:': '\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling-medium-dark_skin_tone:': '\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling-medium-light_skin_tone:': '\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling-medium_skin_tone:': '\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling:': '\u{0001F938}\u{0000200D}\u{00002642}',
+    ':man_cartwheeling_dark_skin_tone:': '\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling_light_skin_tone:': '\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling_medium-dark_skin_tone:': '\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling_medium-light_skin_tone:': '\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling_medium_skin_tone:': '\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cartwheeling_selector:': '\u{0001F938}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_climbing-light_skin_tone:': '\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_climbing-medium-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_climbing-medium-light_skin_tone:': '\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_climbing-medium_skin_tone:': '\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_climbing:': '\u{0001F9D7}\u{0000200D}\u{00002642}',
+    ':man_climbing_dark_skin_tone:': '\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing_light_skin_tone:': '\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing_medium-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing_medium-light_skin_tone:': '\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing_medium_skin_tone:': '\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_climbing_selector:': '\u{0001F9D7}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker-dark_skin_tone:': '\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_construction_worker-light_skin_tone:': '\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_construction_worker-medium-dark_skin_tone:': '\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_construction_worker-medium-light_skin_tone:': '\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_construction_worker-medium_skin_tone:': '\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_construction_worker:': '\u{0001F477}\u{0000200D}\u{00002642}',
+    ':man_construction_worker_dark_skin_tone:': '\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker_light_skin_tone:': '\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker_medium-dark_skin_tone:': '\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker_medium-light_skin_tone:': '\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker_medium_skin_tone:': '\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_construction_worker_selector:': '\u{0001F477}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_cook:': '\u{0001F468}\u{0000200D}\u{0001F373}',
+    ':man_cook_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F373}',
+    ':man_cook_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F373}',
+    ':man_cook_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F373}',
+    ':man_cook_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F373}',
+    ':man_cook_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F373}',
+    ':man_dancing:': '\u{0001F57A}',
+    ':man_dancing_dark_skin_tone:': '\u{0001F57A}\u{0001F3FF}',
+    ':man_dancing_light_skin_tone:': '\u{0001F57A}\u{0001F3FB}',
+    ':man_dancing_medium-dark_skin_tone:': '\u{0001F57A}\u{0001F3FE}',
+    ':man_dancing_medium-light_skin_tone:': '\u{0001F57A}\u{0001F3FC}',
+    ':man_dancing_medium_skin_tone:': '\u{0001F57A}\u{0001F3FD}',
+    ':man_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}',
+    ':man_detective-dark_skin_tone:': '\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_detective-light_skin_tone:': '\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_detective-medium-dark_skin_tone:': '\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_detective-medium-light_skin_tone:': '\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_detective-medium_skin_tone:': '\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_detective:': '\u{0001F575}\u{0000200D}\u{00002642}',
+    ':man_detective_2:': '\u{0001F575}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_dark_skin_tone:': '\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_light_skin_tone:': '\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_medium-dark_skin_tone:': '\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_medium-light_skin_tone:': '\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_medium_skin_tone:': '\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_detective_selector:': '\u{0001F575}\u{0000FE0F}\u{0000200D}\u{00002642}',
+    ':man_elf-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_elf-light_skin_tone:': '\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_elf-medium-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_elf-medium-light_skin_tone:': '\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_elf-medium_skin_tone:': '\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_elf:': '\u{0001F9DD}\u{0000200D}\u{00002642}',
+    ':man_elf_dark_skin_tone:': '\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_elf_light_skin_tone:': '\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_elf_medium-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_elf_medium-light_skin_tone:': '\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_elf_medium_skin_tone:': '\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_elf_selector:': '\u{0001F9DD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming-dark_skin_tone:': '\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_facepalming-light_skin_tone:': '\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_facepalming-medium-dark_skin_tone:': '\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_facepalming-medium-light_skin_tone:': '\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_facepalming-medium_skin_tone:': '\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_facepalming:': '\u{0001F926}\u{0000200D}\u{00002642}',
+    ':man_facepalming_dark_skin_tone:': '\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming_light_skin_tone:': '\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming_medium-dark_skin_tone:': '\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming_medium-light_skin_tone:': '\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming_medium_skin_tone:': '\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_facepalming_selector:': '\u{0001F926}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_factory_worker:': '\u{0001F468}\u{0000200D}\u{0001F3ED}',
+    ':man_factory_worker_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3ED}',
+    ':man_factory_worker_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3ED}',
+    ':man_factory_worker_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3ED}',
+    ':man_factory_worker_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3ED}',
+    ':man_factory_worker_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3ED}',
+    ':man_fairy-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_fairy-light_skin_tone:': '\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_fairy-medium-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_fairy-medium-light_skin_tone:': '\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_fairy-medium_skin_tone:': '\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_fairy:': '\u{0001F9DA}\u{0000200D}\u{00002642}',
+    ':man_fairy_dark_skin_tone:': '\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_fairy_light_skin_tone:': '\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_fairy_medium-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_fairy_medium-light_skin_tone:': '\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_fairy_medium_skin_tone:': '\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_fairy_selector:': '\u{0001F9DA}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_farmer:': '\u{0001F468}\u{0000200D}\u{0001F33E}',
+    ':man_farmer_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F33E}',
+    ':man_farmer_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F33E}',
+    ':man_farmer_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F33E}',
+    ':man_farmer_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F33E}',
+    ':man_farmer_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F33E}',
+    ':man_firefighter:': '\u{0001F468}\u{0000200D}\u{0001F692}',
+    ':man_firefighter_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F692}',
+    ':man_firefighter_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F692}',
+    ':man_firefighter_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F692}',
+    ':man_firefighter_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F692}',
+    ':man_firefighter_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F692}',
+    ':man_frowning-dark_skin_tone:': '\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_frowning-light_skin_tone:': '\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_frowning-medium-dark_skin_tone:': '\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_frowning-medium-light_skin_tone:': '\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_frowning-medium_skin_tone:': '\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_frowning:': '\u{0001F64D}\u{0000200D}\u{00002642}',
+    ':man_frowning_dark_skin_tone:': '\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_frowning_light_skin_tone:': '\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_frowning_medium-dark_skin_tone:': '\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_frowning_medium-light_skin_tone:': '\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_frowning_medium_skin_tone:': '\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_frowning_selector:': '\u{0001F64D}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_genie:': '\u{0001F9DE}\u{0000200D}\u{00002642}',
+    ':man_genie_selector:': '\u{0001F9DE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO-dark_skin_tone:': '\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO-light_skin_tone:': '\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO-medium-dark_skin_tone:': '\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO-medium-light_skin_tone:': '\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO-medium_skin_tone:': '\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO:': '\u{0001F645}\u{0000200D}\u{00002642}',
+    ':man_gesturing_NO_dark_skin_tone:': '\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO_light_skin_tone:': '\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO_medium-dark_skin_tone:': '\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO_medium-light_skin_tone:': '\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO_medium_skin_tone:': '\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_NO_selector:': '\u{0001F645}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK-dark_skin_tone:': '\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK-light_skin_tone:': '\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK-medium-dark_skin_tone:': '\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK-medium-light_skin_tone:': '\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK-medium_skin_tone:': '\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK:': '\u{0001F646}\u{0000200D}\u{00002642}',
+    ':man_gesturing_OK_dark_skin_tone:': '\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK_light_skin_tone:': '\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK_medium-dark_skin_tone:': '\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK_medium-light_skin_tone:': '\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK_medium_skin_tone:': '\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_gesturing_OK_selector:': '\u{0001F646}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut-dark_skin_tone:': '\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut-light_skin_tone:': '\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut-medium-dark_skin_tone:': '\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut-medium-light_skin_tone:': '\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut-medium_skin_tone:': '\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut:': '\u{0001F487}\u{0000200D}\u{00002642}',
+    ':man_getting_haircut_dark_skin_tone:': '\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut_light_skin_tone:': '\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut_medium-dark_skin_tone:': '\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut_medium-light_skin_tone:': '\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut_medium_skin_tone:': '\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_haircut_selector:': '\u{0001F487}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage-dark_skin_tone:': '\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_getting_massage-light_skin_tone:': '\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_getting_massage-medium-dark_skin_tone:': '\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_getting_massage-medium-light_skin_tone:': '\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_getting_massage-medium_skin_tone:': '\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_getting_massage:': '\u{0001F486}\u{0000200D}\u{00002642}',
+    ':man_getting_massage_dark_skin_tone:': '\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage_light_skin_tone:': '\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage_medium-dark_skin_tone:': '\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage_medium-light_skin_tone:': '\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage_medium_skin_tone:': '\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_getting_massage_selector:': '\u{0001F486}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_golfing-light_skin_tone:': '\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_golfing-medium-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_golfing-medium-light_skin_tone:': '\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_golfing-medium_skin_tone:': '\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_golfing:': '\u{0001F3CC}\u{0000200D}\u{00002642}',
+    ':man_golfing_2:': '\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_3:': '\u{0001F3CC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_dark_skin_tone:': '\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_light_skin_tone:': '\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_medium-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_medium-light_skin_tone:': '\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_medium_skin_tone:': '\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_golfing_selector:': '\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002642}',
+    ':man_guard-dark_skin_tone:': '\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_guard-light_skin_tone:': '\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_guard-medium-dark_skin_tone:': '\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_guard-medium-light_skin_tone:': '\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_guard-medium_skin_tone:': '\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_guard:': '\u{0001F482}\u{0000200D}\u{00002642}',
+    ':man_guard_dark_skin_tone:': '\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_guard_light_skin_tone:': '\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_guard_medium-dark_skin_tone:': '\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_guard_medium-light_skin_tone:': '\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_guard_medium_skin_tone:': '\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_guard_selector:': '\u{0001F482}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_health_worker-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002695}',
+    ':man_health_worker-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002695}',
+    ':man_health_worker-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002695}',
+    ':man_health_worker-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002695}',
+    ':man_health_worker-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002695}',
+    ':man_health_worker:': '\u{0001F468}\u{0000200D}\u{00002695}',
+    ':man_health_worker_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_health_worker_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_health_worker_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_health_worker_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_health_worker_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_health_worker_selector:': '\u{0001F468}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':man_in_lotus_position-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position-light_skin_tone:': '\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position-medium-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position-medium-light_skin_tone:': '\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position-medium_skin_tone:': '\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position:': '\u{0001F9D8}\u{0000200D}\u{00002642}',
+    ':man_in_lotus_position_dark_skin_tone:': '\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_lotus_position_light_skin_tone:': '\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_lotus_position_medium-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_lotus_position_medium-light_skin_tone:': '\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_lotus_position_medium_skin_tone:': '\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_lotus_position_selector:': '\u{0001F9D8}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_manual_wheelchair-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9BD}',
+    ':man_in_manual_wheelchair-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9BD}',
+    ':man_in_manual_wheelchair-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9BD}',
+    ':man_in_manual_wheelchair-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9BD}',
+    ':man_in_manual_wheelchair-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9BD}',
+    ':man_in_manual_wheelchair:': '\u{0001F468}\u{0000200D}\u{0001F9BD}',
+    ':man_in_motorized_wheelchair-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9BC}',
+    ':man_in_motorized_wheelchair-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9BC}',
+    ':man_in_motorized_wheelchair-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9BC}',
+    ':man_in_motorized_wheelchair-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9BC}',
+    ':man_in_motorized_wheelchair-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9BC}',
+    ':man_in_motorized_wheelchair:': '\u{0001F468}\u{0000200D}\u{0001F9BC}',
+    ':man_in_steamy_room-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room-light_skin_tone:': '\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room-medium-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room-medium-light_skin_tone:': '\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room-medium_skin_tone:': '\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room:': '\u{0001F9D6}\u{0000200D}\u{00002642}',
+    ':man_in_steamy_room_dark_skin_tone:': '\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_steamy_room_light_skin_tone:': '\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_steamy_room_medium-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_steamy_room_medium-light_skin_tone:': '\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_steamy_room_medium_skin_tone:': '\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_steamy_room_selector:': '\u{0001F9D6}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_in_suit_levitating:': '\u{0001F574}',
+    ':man_in_suit_levitating_dark_skin_tone:': '\u{0001F574}\u{0001F3FF}',
+    ':man_in_suit_levitating_light_skin_tone:': '\u{0001F574}\u{0001F3FB}',
+    ':man_in_suit_levitating_medium-dark_skin_tone:': '\u{0001F574}\u{0001F3FE}',
+    ':man_in_suit_levitating_medium-light_skin_tone:': '\u{0001F574}\u{0001F3FC}',
+    ':man_in_suit_levitating_medium_skin_tone:': '\u{0001F574}\u{0001F3FD}',
+    ':man_in_suit_levitating_selector:': '\u{0001F574}\u{0000FE0F}',
+    ':man_in_tuxedo:': '\u{0001F935}',
+    ':man_in_tuxedo_dark_skin_tone:': '\u{0001F935}\u{0001F3FF}',
+    ':man_in_tuxedo_light_skin_tone:': '\u{0001F935}\u{0001F3FB}',
+    ':man_in_tuxedo_medium-dark_skin_tone:': '\u{0001F935}\u{0001F3FE}',
+    ':man_in_tuxedo_medium-light_skin_tone:': '\u{0001F935}\u{0001F3FC}',
+    ':man_in_tuxedo_medium_skin_tone:': '\u{0001F935}\u{0001F3FD}',
+    ':man_judge-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002696}',
+    ':man_judge-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002696}',
+    ':man_judge-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002696}',
+    ':man_judge-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002696}',
+    ':man_judge-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002696}',
+    ':man_judge:': '\u{0001F468}\u{0000200D}\u{00002696}',
+    ':man_judge_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_judge_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_judge_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_judge_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_judge_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_judge_selector:': '\u{0001F468}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':man_juggling-dark_skin_tone:': '\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_juggling-light_skin_tone:': '\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_juggling-medium-dark_skin_tone:': '\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_juggling-medium-light_skin_tone:': '\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_juggling-medium_skin_tone:': '\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_juggling:': '\u{0001F939}\u{0000200D}\u{00002642}',
+    ':man_juggling_dark_skin_tone:': '\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_juggling_light_skin_tone:': '\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_juggling_medium-dark_skin_tone:': '\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_juggling_medium-light_skin_tone:': '\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_juggling_medium_skin_tone:': '\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_juggling_selector:': '\u{0001F939}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_kneeling-dark_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling-light_skin_tone:': '\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_kneeling-light_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling-medium-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_kneeling-medium-dark_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling-medium-light_skin_tone:': '\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_kneeling-medium-light_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling-medium_skin_tone:': '\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_kneeling-medium_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_kneeling:': '\u{0001F9CE}\u{0000200D}\u{00002642}',
+    ':man_kneeling_selector:': '\u{0001F9CE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights-light_skin_tone:': '\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights-medium-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights-medium-light_skin_tone:': '\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights-medium_skin_tone:': '\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights:': '\u{0001F3CB}\u{0000200D}\u{00002642}',
+    ':man_lifting_weights_2:': '\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_3:': '\u{0001F3CB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_dark_skin_tone:': '\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_light_skin_tone:': '\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_medium-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_medium-light_skin_tone:': '\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_medium_skin_tone:': '\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_lifting_weights_selector:': '\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002642}',
+    ':man_light_skin_tone:': '\u{0001F468}\u{0001F3FB}',
+    ':man_mage-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_mage-light_skin_tone:': '\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_mage-medium-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_mage-medium-light_skin_tone:': '\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_mage-medium_skin_tone:': '\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_mage:': '\u{0001F9D9}\u{0000200D}\u{00002642}',
+    ':man_mage_dark_skin_tone:': '\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mage_light_skin_tone:': '\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mage_medium-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mage_medium-light_skin_tone:': '\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mage_medium_skin_tone:': '\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mage_selector:': '\u{0001F9D9}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mechanic:': '\u{0001F468}\u{0000200D}\u{0001F527}',
+    ':man_mechanic_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F527}',
+    ':man_mechanic_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F527}',
+    ':man_mechanic_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F527}',
+    ':man_mechanic_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F527}',
+    ':man_mechanic_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F527}',
+    ':man_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}',
+    ':man_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}',
+    ':man_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}',
+    ':man_mountain_biking-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking-light_skin_tone:': '\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking-medium-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking-medium-light_skin_tone:': '\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking-medium_skin_tone:': '\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking:': '\u{0001F6B5}\u{0000200D}\u{00002642}',
+    ':man_mountain_biking_dark_skin_tone:': '\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mountain_biking_light_skin_tone:': '\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mountain_biking_medium-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mountain_biking_medium-light_skin_tone:': '\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mountain_biking_medium_skin_tone:': '\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_mountain_biking_selector:': '\u{0001F6B5}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_office_worker:': '\u{0001F468}\u{0000200D}\u{0001F4BC}',
+    ':man_office_worker_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F4BC}',
+    ':man_office_worker_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F4BC}',
+    ':man_office_worker_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F4BC}',
+    ':man_office_worker_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F4BC}',
+    ':man_office_worker_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F4BC}',
+    ':man_pilot-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002708}',
+    ':man_pilot-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002708}',
+    ':man_pilot-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002708}',
+    ':man_pilot-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002708}',
+    ':man_pilot-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002708}',
+    ':man_pilot:': '\u{0001F468}\u{0000200D}\u{00002708}',
+    ':man_pilot_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_pilot_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_pilot_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_pilot_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_pilot_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_pilot_selector:': '\u{0001F468}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':man_playing_handball-dark_skin_tone:': '\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_playing_handball-light_skin_tone:': '\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_playing_handball-medium-dark_skin_tone:': '\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_playing_handball-medium-light_skin_tone:': '\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_playing_handball-medium_skin_tone:': '\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_playing_handball:': '\u{0001F93E}\u{0000200D}\u{00002642}',
+    ':man_playing_handball_dark_skin_tone:': '\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_handball_light_skin_tone:': '\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_handball_medium-dark_skin_tone:': '\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_handball_medium-light_skin_tone:': '\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_handball_medium_skin_tone:': '\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_handball_selector:': '\u{0001F93E}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo-dark_skin_tone:': '\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo-light_skin_tone:': '\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo-medium-dark_skin_tone:': '\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo-medium-light_skin_tone:': '\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo-medium_skin_tone:': '\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo:': '\u{0001F93D}\u{0000200D}\u{00002642}',
+    ':man_playing_water_polo_dark_skin_tone:': '\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo_light_skin_tone:': '\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo_medium-dark_skin_tone:': '\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo_medium-light_skin_tone:': '\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo_medium_skin_tone:': '\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_playing_water_polo_selector:': '\u{0001F93D}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer-dark_skin_tone:': '\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_police_officer-light_skin_tone:': '\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_police_officer-medium-dark_skin_tone:': '\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_police_officer-medium-light_skin_tone:': '\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_police_officer-medium_skin_tone:': '\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_police_officer:': '\u{0001F46E}\u{0000200D}\u{00002642}',
+    ':man_police_officer_dark_skin_tone:': '\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer_light_skin_tone:': '\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer_medium-dark_skin_tone:': '\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer_medium-light_skin_tone:': '\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer_medium_skin_tone:': '\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_police_officer_selector:': '\u{0001F46E}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting-dark_skin_tone:': '\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_pouting-light_skin_tone:': '\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_pouting-medium-dark_skin_tone:': '\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_pouting-medium-light_skin_tone:': '\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_pouting-medium_skin_tone:': '\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_pouting:': '\u{0001F64E}\u{0000200D}\u{00002642}',
+    ':man_pouting_dark_skin_tone:': '\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting_light_skin_tone:': '\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting_medium-dark_skin_tone:': '\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting_medium-light_skin_tone:': '\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting_medium_skin_tone:': '\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_pouting_selector:': '\u{0001F64E}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand-dark_skin_tone:': '\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_raising_hand-light_skin_tone:': '\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_raising_hand-medium-dark_skin_tone:': '\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_raising_hand-medium-light_skin_tone:': '\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_raising_hand-medium_skin_tone:': '\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_raising_hand:': '\u{0001F64B}\u{0000200D}\u{00002642}',
+    ':man_raising_hand_dark_skin_tone:': '\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand_light_skin_tone:': '\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand_medium-dark_skin_tone:': '\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand_medium-light_skin_tone:': '\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand_medium_skin_tone:': '\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_raising_hand_selector:': '\u{0001F64B}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat-light_skin_tone:': '\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat-medium-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat-medium-light_skin_tone:': '\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat-medium_skin_tone:': '\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat:': '\u{0001F6A3}\u{0000200D}\u{00002642}',
+    ':man_rowing_boat_dark_skin_tone:': '\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat_light_skin_tone:': '\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat_medium-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat_medium-light_skin_tone:': '\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat_medium_skin_tone:': '\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_rowing_boat_selector:': '\u{0001F6A3}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_running-light_skin_tone:': '\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_running-medium-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_running-medium-light_skin_tone:': '\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_running-medium_skin_tone:': '\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_running:': '\u{0001F3C3}\u{0000200D}\u{00002642}',
+    ':man_running_dark_skin_tone:': '\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running_light_skin_tone:': '\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running_medium-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running_medium-light_skin_tone:': '\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running_medium_skin_tone:': '\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_running_selector:': '\u{0001F3C3}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_scientist:': '\u{0001F468}\u{0000200D}\u{0001F52C}',
+    ':man_scientist_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F52C}',
+    ':man_scientist_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F52C}',
+    ':man_scientist_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F52C}',
+    ':man_scientist_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F52C}',
+    ':man_scientist_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F52C}',
+    ':man_shrugging-dark_skin_tone:': '\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_shrugging-light_skin_tone:': '\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_shrugging-medium-dark_skin_tone:': '\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_shrugging-medium-light_skin_tone:': '\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_shrugging-medium_skin_tone:': '\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_shrugging:': '\u{0001F937}\u{0000200D}\u{00002642}',
+    ':man_shrugging_dark_skin_tone:': '\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_shrugging_light_skin_tone:': '\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_shrugging_medium-dark_skin_tone:': '\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_shrugging_medium-light_skin_tone:': '\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_shrugging_medium_skin_tone:': '\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_shrugging_selector:': '\u{0001F937}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_singer:': '\u{0001F468}\u{0000200D}\u{0001F3A4}',
+    ':man_singer_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3A4}',
+    ':man_singer_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3A4}',
+    ':man_singer_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3A4}',
+    ':man_singer_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3A4}',
+    ':man_singer_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3A4}',
+    ':man_standing-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_standing-dark_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_standing-light_skin_tone:': '\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_standing-light_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_standing-medium-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_standing-medium-dark_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_standing-medium-light_skin_tone:': '\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_standing-medium-light_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_standing-medium_skin_tone:': '\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_standing-medium_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_standing:': '\u{0001F9CD}\u{0000200D}\u{00002642}',
+    ':man_standing_selector:': '\u{0001F9CD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_student:': '\u{0001F468}\u{0000200D}\u{0001F393}',
+    ':man_student_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F393}',
+    ':man_student_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F393}',
+    ':man_student_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F393}',
+    ':man_student_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F393}',
+    ':man_student_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F393}',
+    ':man_superhero-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_superhero-dark_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_superhero-light_skin_tone:': '\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_superhero-light_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_superhero-medium-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_superhero-medium-dark_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_superhero-medium-light_skin_tone:': '\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_superhero-medium-light_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_superhero-medium_skin_tone:': '\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_superhero-medium_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_superhero:': '\u{0001F9B8}\u{0000200D}\u{00002642}',
+    ':man_superhero_selector:': '\u{0001F9B8}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_supervillain-dark_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain-light_skin_tone:': '\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_supervillain-light_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain-medium-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_supervillain-medium-dark_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain-medium-light_skin_tone:': '\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_supervillain-medium-light_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain-medium_skin_tone:': '\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_supervillain-medium_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_supervillain:': '\u{0001F9B9}\u{0000200D}\u{00002642}',
+    ':man_supervillain_selector:': '\u{0001F9B9}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_surfing-light_skin_tone:': '\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_surfing-medium-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_surfing-medium-light_skin_tone:': '\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_surfing-medium_skin_tone:': '\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_surfing:': '\u{0001F3C4}\u{0000200D}\u{00002642}',
+    ':man_surfing_dark_skin_tone:': '\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing_light_skin_tone:': '\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing_medium-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing_medium-light_skin_tone:': '\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing_medium_skin_tone:': '\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_surfing_selector:': '\u{0001F3C4}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_swimming-light_skin_tone:': '\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_swimming-medium-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_swimming-medium-light_skin_tone:': '\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_swimming-medium_skin_tone:': '\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_swimming:': '\u{0001F3CA}\u{0000200D}\u{00002642}',
+    ':man_swimming_dark_skin_tone:': '\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming_light_skin_tone:': '\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming_medium-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming_medium-light_skin_tone:': '\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming_medium_skin_tone:': '\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_swimming_selector:': '\u{0001F3CA}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_teacher:': '\u{0001F468}\u{0000200D}\u{0001F3EB}',
+    ':man_teacher_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3EB}',
+    ':man_teacher_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3EB}',
+    ':man_teacher_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3EB}',
+    ':man_teacher_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3EB}',
+    ':man_teacher_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3EB}',
+    ':man_technologist:': '\u{0001F468}\u{0000200D}\u{0001F4BB}',
+    ':man_technologist_dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F4BB}',
+    ':man_technologist_light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F4BB}',
+    ':man_technologist_medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F4BB}',
+    ':man_technologist_medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F4BB}',
+    ':man_technologist_medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F4BB}',
+    ':man_tipping_hand-dark_skin_tone:': '\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand-light_skin_tone:': '\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand-medium-dark_skin_tone:': '\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand-medium-light_skin_tone:': '\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand-medium_skin_tone:': '\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand:': '\u{0001F481}\u{0000200D}\u{00002642}',
+    ':man_tipping_hand_dark_skin_tone:': '\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_tipping_hand_light_skin_tone:': '\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_tipping_hand_medium-dark_skin_tone:': '\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_tipping_hand_medium-light_skin_tone:': '\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_tipping_hand_medium_skin_tone:': '\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_tipping_hand_selector:': '\u{0001F481}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_vampire-light_skin_tone:': '\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_vampire-medium-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_vampire-medium-light_skin_tone:': '\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_vampire-medium_skin_tone:': '\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_vampire:': '\u{0001F9DB}\u{0000200D}\u{00002642}',
+    ':man_vampire_dark_skin_tone:': '\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire_light_skin_tone:': '\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire_medium-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire_medium-light_skin_tone:': '\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire_medium_skin_tone:': '\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_vampire_selector:': '\u{0001F9DB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_walking-light_skin_tone:': '\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_walking-medium-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_walking-medium-light_skin_tone:': '\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_walking-medium_skin_tone:': '\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_walking:': '\u{0001F6B6}\u{0000200D}\u{00002642}',
+    ':man_walking_dark_skin_tone:': '\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking_light_skin_tone:': '\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking_medium-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking_medium-light_skin_tone:': '\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking_medium_skin_tone:': '\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_walking_selector:': '\u{0001F6B6}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban-dark_skin_tone:': '\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban-light_skin_tone:': '\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban-medium-dark_skin_tone:': '\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban-medium-light_skin_tone:': '\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban-medium_skin_tone:': '\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban:': '\u{0001F473}\u{0000200D}\u{00002642}',
+    ':man_wearing_turban_dark_skin_tone:': '\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban_light_skin_tone:': '\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban_medium-dark_skin_tone:': '\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban_medium-light_skin_tone:': '\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban_medium_skin_tone:': '\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_wearing_turban_selector:': '\u{0001F473}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':man_with_Chinese_cap:': '\u{0001F472}',
+    ':man_with_Chinese_cap_dark_skin_tone:': '\u{0001F472}\u{0001F3FF}',
+    ':man_with_Chinese_cap_light_skin_tone:': '\u{0001F472}\u{0001F3FB}',
+    ':man_with_Chinese_cap_medium-dark_skin_tone:': '\u{0001F472}\u{0001F3FE}',
+    ':man_with_Chinese_cap_medium-light_skin_tone:': '\u{0001F472}\u{0001F3FC}',
+    ':man_with_Chinese_cap_medium_skin_tone:': '\u{0001F472}\u{0001F3FD}',
+    ':man_with_probing_cane-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9AF}',
+    ':man_with_probing_cane-light_skin_tone:': '\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9AF}',
+    ':man_with_probing_cane-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9AF}',
+    ':man_with_probing_cane-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9AF}',
+    ':man_with_probing_cane-medium_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9AF}',
+    ':man_with_probing_cane:': '\u{0001F468}\u{0000200D}\u{0001F9AF}',
+    ':man_zombie:': '\u{0001F9DF}\u{0000200D}\u{00002642}',
+    ':man_zombie_selector:': '\u{0001F9DF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':mango:': '\u{0001F96D}',
+    ':mantelpiece_clock:': '\u{0001F570}',
+    ':mantelpiece_clock_selector:': '\u{0001F570}\u{0000FE0F}',
+    ':manual_wheelchair:': '\u{0001F9BD}',
+    ':man\u2019s_shoe:': '\u{0001F45E}',
+    ':map_of_Japan:': '\u{0001F5FE}',
+    ':maple_leaf:': '\u{0001F341}',
+    ':martial_arts_uniform:': '\u{0001F94B}',
+    ':mate:': '\u{0001F9C9}',
+    ':meat_on_bone:': '\u{0001F356}',
+    ':mechanical_arm:': '\u{0001F9BE}',
+    ':mechanical_leg:': '\u{0001F9BF}',
+    ':medical_symbol:': '\u{00002695}',
+    ':medical_symbol_selector:': '\u{00002695}\u{0000FE0F}',
+    ':medium_dark_skin_tone:': '\u{0001F3FE}',
+    ':medium_light_skin_tone:': '\u{0001F3FC}',
+    ':medium_skin_tone:': '\u{0001F3FD}',
+    ':megaphone:': '\u{0001F4E3}',
+    ':melon:': '\u{0001F348}',
+    ':memo:': '\u{0001F4DD}',
+    ':men_holding_hands-dark_skin_tone-light_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':men_holding_hands-dark_skin_tone-medium-dark_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}',
+    ':men_holding_hands-dark_skin_tone-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':men_holding_hands-dark_skin_tone-medium_skin_tone:': '\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':men_holding_hands-dark_skin_tone:': '\u{0001F46C}\u{0001F3FF}',
+    ':men_holding_hands-light_skin_tone:': '\u{0001F46C}\u{0001F3FB}',
+    ':men_holding_hands-medium-dark_skin_tone-light_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':men_holding_hands-medium-dark_skin_tone-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':men_holding_hands-medium-dark_skin_tone-medium_skin_tone:': '\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':men_holding_hands-medium-dark_skin_tone:': '\u{0001F46C}\u{0001F3FE}',
+    ':men_holding_hands-medium-light_skin_tone-light_skin_tone:': '\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':men_holding_hands-medium-light_skin_tone:': '\u{0001F46C}\u{0001F3FC}',
+    ':men_holding_hands-medium_skin_tone-light_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':men_holding_hands-medium_skin_tone-medium-light_skin_tone:': '\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':men_holding_hands-medium_skin_tone:': '\u{0001F46C}\u{0001F3FD}',
+    ':men_with_bunny_ears:': '\u{0001F46F}\u{0000200D}\u{00002642}',
+    ':men_with_bunny_ears_selector:': '\u{0001F46F}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':men_wrestling:': '\u{0001F93C}\u{0000200D}\u{00002642}',
+    ':men_wrestling_selector:': '\u{0001F93C}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':menorah:': '\u{0001F54E}',
+    ':men\u2019s_room:': '\u{0001F6B9}',
+    ':mermaid-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':mermaid-light_skin_tone:': '\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':mermaid-medium-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':mermaid-medium-light_skin_tone:': '\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':mermaid-medium_skin_tone:': '\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':mermaid:': '\u{0001F9DC}\u{0000200D}\u{00002640}',
+    ':mermaid_dark_skin_tone:': '\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':mermaid_light_skin_tone:': '\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':mermaid_medium-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':mermaid_medium-light_skin_tone:': '\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':mermaid_medium_skin_tone:': '\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':mermaid_selector:': '\u{0001F9DC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':merman-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002642}',
+    ':merman-light_skin_tone:': '\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002642}',
+    ':merman-medium-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002642}',
+    ':merman-medium-light_skin_tone:': '\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002642}',
+    ':merman-medium_skin_tone:': '\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002642}',
+    ':merman:': '\u{0001F9DC}\u{0000200D}\u{00002642}',
+    ':merman_dark_skin_tone:': '\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merman_light_skin_tone:': '\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merman_medium-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merman_medium-light_skin_tone:': '\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merman_medium_skin_tone:': '\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merman_selector:': '\u{0001F9DC}\u{0000200D}\u{00002642}\u{0000FE0F}',
+    ':merperson:': '\u{0001F9DC}',
+    ':merperson_dark_skin_tone:': '\u{0001F9DC}\u{0001F3FF}',
+    ':merperson_light_skin_tone:': '\u{0001F9DC}\u{0001F3FB}',
+    ':merperson_medium-dark_skin_tone:': '\u{0001F9DC}\u{0001F3FE}',
+    ':merperson_medium-light_skin_tone:': '\u{0001F9DC}\u{0001F3FC}',
+    ':merperson_medium_skin_tone:': '\u{0001F9DC}\u{0001F3FD}',
+    ':metro:': '\u{0001F687}',
+    ':microbe:': '\u{0001F9A0}',
+    ':microphone:': '\u{0001F3A4}',
+    ':microscope:': '\u{0001F52C}',
+    ':middle_finger:': '\u{0001F595}',
+    ':middle_finger_dark_skin_tone:': '\u{0001F595}\u{0001F3FF}',
+    ':middle_finger_light_skin_tone:': '\u{0001F595}\u{0001F3FB}',
+    ':middle_finger_medium-dark_skin_tone:': '\u{0001F595}\u{0001F3FE}',
+    ':middle_finger_medium-light_skin_tone:': '\u{0001F595}\u{0001F3FC}',
+    ':middle_finger_medium_skin_tone:': '\u{0001F595}\u{0001F3FD}',
+    ':military_medal:': '\u{0001F396}',
+    ':military_medal_selector:': '\u{0001F396}\u{0000FE0F}',
+    ':milky_way:': '\u{0001F30C}',
+    ':minibus:': '\u{0001F690}',
+    ':moai:': '\u{0001F5FF}',
+    ':mobile_phone:': '\u{0001F4F1}',
+    ':mobile_phone_off:': '\u{0001F4F4}',
+    ':mobile_phone_with_arrow:': '\u{0001F4F2}',
+    ':money-mouth_face:': '\u{0001F911}',
+    ':money_bag:': '\u{0001F4B0}',
+    ':money_with_wings:': '\u{0001F4B8}',
+    ':monkey:': '\u{0001F412}',
+    ':monkey_face:': '\u{0001F435}',
+    ':monorail:': '\u{0001F69D}',
+    ':moon_cake:': '\u{0001F96E}',
+    ':moon_viewing_ceremony:': '\u{0001F391}',
+    ':mosque:': '\u{0001F54C}',
+    ':mosquito:': '\u{0001F99F}',
+    ':motor_boat:': '\u{0001F6E5}',
+    ':motor_boat_selector:': '\u{0001F6E5}\u{0000FE0F}',
+    ':motor_scooter:': '\u{0001F6F5}',
+    ':motorcycle:': '\u{0001F3CD}',
+    ':motorcycle_selector:': '\u{0001F3CD}\u{0000FE0F}',
+    ':motorized_wheelchair:': '\u{0001F9BC}',
+    ':motorway:': '\u{0001F6E3}',
+    ':motorway_selector:': '\u{0001F6E3}\u{0000FE0F}',
+    ':mount_fuji:': '\u{0001F5FB}',
+    ':mountain:': '\u{000026F0}',
+    ':mountain_cableway:': '\u{0001F6A0}',
+    ':mountain_railway:': '\u{0001F69E}',
+    ':mountain_selector:': '\u{000026F0}\u{0000FE0F}',
+    ':mouse:': '\u{0001F401}',
+    ':mouse_face:': '\u{0001F42D}',
+    ':mouth:': '\u{0001F444}',
+    ':movie_camera:': '\u{0001F3A5}',
+    ':multiplication_sign:': '\u{00002716}\u{0000FE0F}',
+    ':mushroom:': '\u{0001F344}',
+    ':musical_keyboard:': '\u{0001F3B9}',
+    ':musical_note:': '\u{0001F3B5}',
+    ':musical_notes:': '\u{0001F3B6}',
+    ':musical_score:': '\u{0001F3BC}',
+    ':muted_speaker:': '\u{0001F507}',
+    ':nail_polish:': '\u{0001F485}',
+    ':nail_polish_dark_skin_tone:': '\u{0001F485}\u{0001F3FF}',
+    ':nail_polish_light_skin_tone:': '\u{0001F485}\u{0001F3FB}',
+    ':nail_polish_medium-dark_skin_tone:': '\u{0001F485}\u{0001F3FE}',
+    ':nail_polish_medium-light_skin_tone:': '\u{0001F485}\u{0001F3FC}',
+    ':nail_polish_medium_skin_tone:': '\u{0001F485}\u{0001F3FD}',
+    ':name_badge:': '\u{0001F4DB}',
+    ':national_park:': '\u{0001F3DE}',
+    ':national_park_selector:': '\u{0001F3DE}\u{0000FE0F}',
+    ':nauseated_face:': '\u{0001F922}',
+    ':nazar_amulet:': '\u{0001F9FF}',
+    ':necktie:': '\u{0001F454}',
+    ':nerd_face:': '\u{0001F913}',
+    ':neutral_face:': '\u{0001F610}',
+    ':new_moon:': '\u{0001F311}',
+    ':new_moon_face:': '\u{0001F31A}',
+    ':newspaper:': '\u{0001F4F0}',
+    ':next_track_button:': '\u{000023ED}',
+    ':next_track_button_selector:': '\u{000023ED}\u{0000FE0F}',
+    ':night_with_stars:': '\u{0001F303}',
+    ':nine-thirty:': '\u{0001F564}',
+    ':nine_o\U2019clock:': '\u{0001F558}',
+    ':no_bicycles:': '\u{0001F6B3}',
+    ':no_entry:': '\u{000026D4}',
+    ':no_littering:': '\u{0001F6AF}',
+    ':no_mobile_phones:': '\u{0001F4F5}',
+    ':no_one_under_eighteen:': '\u{0001F51E}',
+    ':no_pedestrians:': '\u{0001F6B7}',
+    ':no_smoking:': '\u{0001F6AD}',
+    ':non-potable_water:': '\u{0001F6B1}',
+    ':nose:': '\u{0001F443}',
+    ':nose_dark_skin_tone:': '\u{0001F443}\u{0001F3FF}',
+    ':nose_light_skin_tone:': '\u{0001F443}\u{0001F3FB}',
+    ':nose_medium-dark_skin_tone:': '\u{0001F443}\u{0001F3FE}',
+    ':nose_medium-light_skin_tone:': '\u{0001F443}\u{0001F3FC}',
+    ':nose_medium_skin_tone:': '\u{0001F443}\u{0001F3FD}',
+    ':notebook:': '\u{0001F4D3}',
+    ':notebook_with_decorative_cover:': '\u{0001F4D4}',
+    ':nut_and_bolt:': '\u{0001F529}',
+    ':octopus:': '\u{0001F419}',
+    ':oden:': '\u{0001F362}',
+    ':office_building:': '\u{0001F3E2}',
+    ':ogre:': '\u{0001F479}',
+    ':oil_drum:': '\u{0001F6E2}',
+    ':oil_drum_selector:': '\u{0001F6E2}\u{0000FE0F}',
+    ':old_key:': '\u{0001F5DD}',
+    ':old_key_selector:': '\u{0001F5DD}\u{0000FE0F}',
+    ':old_man:': '\u{0001F474}',
+    ':old_man_dark_skin_tone:': '\u{0001F474}\u{0001F3FF}',
+    ':old_man_light_skin_tone:': '\u{0001F474}\u{0001F3FB}',
+    ':old_man_medium-dark_skin_tone:': '\u{0001F474}\u{0001F3FE}',
+    ':old_man_medium-light_skin_tone:': '\u{0001F474}\u{0001F3FC}',
+    ':old_man_medium_skin_tone:': '\u{0001F474}\u{0001F3FD}',
+    ':old_woman:': '\u{0001F475}',
+    ':old_woman_dark_skin_tone:': '\u{0001F475}\u{0001F3FF}',
+    ':old_woman_light_skin_tone:': '\u{0001F475}\u{0001F3FB}',
+    ':old_woman_medium-dark_skin_tone:': '\u{0001F475}\u{0001F3FE}',
+    ':old_woman_medium-light_skin_tone:': '\u{0001F475}\u{0001F3FC}',
+    ':old_woman_medium_skin_tone:': '\u{0001F475}\u{0001F3FD}',
+    ':older_adult:': '\u{0001F9D3}',
+    ':older_adult_dark_skin_tone:': '\u{0001F9D3}\u{0001F3FF}',
+    ':older_adult_light_skin_tone:': '\u{0001F9D3}\u{0001F3FB}',
+    ':older_adult_medium-dark_skin_tone:': '\u{0001F9D3}\u{0001F3FE}',
+    ':older_adult_medium-light_skin_tone:': '\u{0001F9D3}\u{0001F3FC}',
+    ':older_adult_medium_skin_tone:': '\u{0001F9D3}\u{0001F3FD}',
+    ':om:': '\u{0001F549}',
+    ':om_selector:': '\u{0001F549}\u{0000FE0F}',
+    ':oncoming_automobile:': '\u{0001F698}',
+    ':oncoming_bus:': '\u{0001F68D}',
+    ':oncoming_fist:': '\u{0001F44A}',
+    ':oncoming_fist_dark_skin_tone:': '\u{0001F44A}\u{0001F3FF}',
+    ':oncoming_fist_light_skin_tone:': '\u{0001F44A}\u{0001F3FB}',
+    ':oncoming_fist_medium-dark_skin_tone:': '\u{0001F44A}\u{0001F3FE}',
+    ':oncoming_fist_medium-light_skin_tone:': '\u{0001F44A}\u{0001F3FC}',
+    ':oncoming_fist_medium_skin_tone:': '\u{0001F44A}\u{0001F3FD}',
+    ':oncoming_police_car:': '\u{0001F694}',
+    ':oncoming_taxi:': '\u{0001F696}',
+    ':one-piece_swimsuit:': '\u{0001FA71}',
+    ':one-thirty:': '\u{0001F55C}',
+    ':one_o\U2019clock:': '\u{0001F550}',
+    ':onion:': '\u{0001F9C5}',
+    ':open_book:': '\u{0001F4D6}',
+    ':open_file_folder:': '\u{0001F4C2}',
+    ':open_hands:': '\u{0001F450}',
+    ':open_hands_dark_skin_tone:': '\u{0001F450}\u{0001F3FF}',
+    ':open_hands_light_skin_tone:': '\u{0001F450}\u{0001F3FB}',
+    ':open_hands_medium-dark_skin_tone:': '\u{0001F450}\u{0001F3FE}',
+    ':open_hands_medium-light_skin_tone:': '\u{0001F450}\u{0001F3FC}',
+    ':open_hands_medium_skin_tone:': '\u{0001F450}\u{0001F3FD}',
+    ':open_mailbox_with_lowered_flag:': '\u{0001F4ED}',
+    ':open_mailbox_with_raised_flag:': '\u{0001F4EC}',
+    ':optical_disk:': '\u{0001F4BF}',
+    ':orange_book:': '\u{0001F4D9}',
+    ':orange_circle:': '\u{0001F7E0}',
+    ':orange_heart:': '\u{0001F9E1}',
+    ':orange_square:': '\u{0001F7E7}',
+    ':orangutan:': '\u{0001F9A7}',
+    ':orthodox_cross:': '\u{00002626}',
+    ':orthodox_cross_selector:': '\u{00002626}\u{0000FE0F}',
+    ':otter:': '\u{0001F9A6}',
+    ':outbox_tray:': '\u{0001F4E4}',
+    ':owl:': '\u{0001F989}',
+    ':ox:': '\u{0001F402}',
+    ':oyster:': '\u{0001F9AA}',
+    ':package:': '\u{0001F4E6}',
+    ':page_facing_up:': '\u{0001F4C4}',
+    ':page_with_curl:': '\u{0001F4C3}',
+    ':pager:': '\u{0001F4DF}',
+    ':paintbrush:': '\u{0001F58C}',
+    ':paintbrush_selector:': '\u{0001F58C}\u{0000FE0F}',
+    ':palm_tree:': '\u{0001F334}',
+    ':palms_up_together:': '\u{0001F932}',
+    ':palms_up_together_dark_skin_tone:': '\u{0001F932}\u{0001F3FF}',
+    ':palms_up_together_light_skin_tone:': '\u{0001F932}\u{0001F3FB}',
+    ':palms_up_together_medium-dark_skin_tone:': '\u{0001F932}\u{0001F3FE}',
+    ':palms_up_together_medium-light_skin_tone:': '\u{0001F932}\u{0001F3FC}',
+    ':palms_up_together_medium_skin_tone:': '\u{0001F932}\u{0001F3FD}',
+    ':pancakes:': '\u{0001F95E}',
+    ':panda_face:': '\u{0001F43C}',
+    ':paperclip:': '\u{0001F4CE}',
+    ':parachute:': '\u{0001FA82}',
+    ':parrot:': '\u{0001F99C}',
+    ':part_alternation_mark:': '\u{0000303D}',
+    ':part_alternation_mark_selector:': '\u{0000303D}\u{0000FE0F}',
+    ':party_popper:': '\u{0001F389}',
+    ':partying_face:': '\u{0001F973}',
+    ':passenger_ship:': '\u{0001F6F3}',
+    ':passenger_ship_selector:': '\u{0001F6F3}\u{0000FE0F}',
+    ':passport_control:': '\u{0001F6C2}',
+    ':pause_button:': '\u{000023F8}',
+    ':pause_button_selector:': '\u{000023F8}\u{0000FE0F}',
+    ':paw_prints:': '\u{0001F43E}',
+    ':peace_symbol:': '\u{0000262E}',
+    ':peace_symbol_selector:': '\u{0000262E}\u{0000FE0F}',
+    ':peach:': '\u{0001F351}',
+    ':peacock:': '\u{0001F99A}',
+    ':peanuts:': '\u{0001F95C}',
+    ':pear:': '\u{0001F350}',
+    ':pen:': '\u{0001F58A}',
+    ':pen_selector:': '\u{0001F58A}\u{0000FE0F}',
+    ':pencil:': '\u{0000270F}',
+    ':pencil_selector:': '\u{0000270F}\u{0000FE0F}',
+    ':penguin:': '\u{0001F427}',
+    ':pensive_face:': '\u{0001F614}',
+    ':people_holding_hands-dark_skin_tone-light_skin_tone:': '\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}',
+    ':people_holding_hands-dark_skin_tone-medium-dark_skin_tone:': '\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FE}',
+    ':people_holding_hands-dark_skin_tone-medium-light_skin_tone:': '\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}',
+    ':people_holding_hands-dark_skin_tone-medium_skin_tone:': '\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}',
+    ':people_holding_hands-dark_skin_tone:': '\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FF}',
+    ':people_holding_hands-light_skin_tone:': '\u{0001F9D1}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}',
+    ':people_holding_hands-medium-dark_skin_tone-light_skin_tone:': '\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}',
+    ':people_holding_hands-medium-dark_skin_tone-medium-light_skin_tone:': '\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}',
+    ':people_holding_hands-medium-dark_skin_tone-medium_skin_tone:': '\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}',
+    ':people_holding_hands-medium-dark_skin_tone:': '\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FE}',
+    ':people_holding_hands-medium-light_skin_tone-light_skin_tone:': '\u{0001F9D1}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}',
+    ':people_holding_hands-medium-light_skin_tone:': '\u{0001F9D1}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}',
+    ':people_holding_hands-medium_skin_tone-light_skin_tone:': '\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}',
+    ':people_holding_hands-medium_skin_tone-medium-light_skin_tone:': '\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}',
+    ':people_holding_hands-medium_skin_tone:': '\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}',
+    ':people_holding_hands:': '\u{0001F9D1}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}',
+    ':people_with_bunny_ears:': '\u{0001F46F}',
+    ':people_wrestling:': '\u{0001F93C}',
+    ':performing_arts:': '\u{0001F3AD}',
+    ':persevering_face:': '\u{0001F623}',
+    ':person_biking:': '\u{0001F6B4}',
+    ':person_biking_dark_skin_tone:': '\u{0001F6B4}\u{0001F3FF}',
+    ':person_biking_light_skin_tone:': '\u{0001F6B4}\u{0001F3FB}',
+    ':person_biking_medium-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FE}',
+    ':person_biking_medium-light_skin_tone:': '\u{0001F6B4}\u{0001F3FC}',
+    ':person_biking_medium_skin_tone:': '\u{0001F6B4}\u{0001F3FD}',
+    ':person_bouncing_ball:': '\u{000026F9}',
+    ':person_bouncing_ball_dark_skin_tone:': '\u{000026F9}\u{0001F3FF}',
+    ':person_bouncing_ball_light_skin_tone:': '\u{000026F9}\u{0001F3FB}',
+    ':person_bouncing_ball_medium-dark_skin_tone:': '\u{000026F9}\u{0001F3FE}',
+    ':person_bouncing_ball_medium-light_skin_tone:': '\u{000026F9}\u{0001F3FC}',
+    ':person_bouncing_ball_medium_skin_tone:': '\u{000026F9}\u{0001F3FD}',
+    ':person_bouncing_ball_selector:': '\u{000026F9}\u{0000FE0F}',
+    ':person_bowing:': '\u{0001F647}',
+    ':person_bowing_dark_skin_tone:': '\u{0001F647}\u{0001F3FF}',
+    ':person_bowing_light_skin_tone:': '\u{0001F647}\u{0001F3FB}',
+    ':person_bowing_medium-dark_skin_tone:': '\u{0001F647}\u{0001F3FE}',
+    ':person_bowing_medium-light_skin_tone:': '\u{0001F647}\u{0001F3FC}',
+    ':person_bowing_medium_skin_tone:': '\u{0001F647}\u{0001F3FD}',
+    ':person_cartwheeling:': '\u{0001F938}',
+    ':person_cartwheeling_dark_skin_tone:': '\u{0001F938}\u{0001F3FF}',
+    ':person_cartwheeling_light_skin_tone:': '\u{0001F938}\u{0001F3FB}',
+    ':person_cartwheeling_medium-dark_skin_tone:': '\u{0001F938}\u{0001F3FE}',
+    ':person_cartwheeling_medium-light_skin_tone:': '\u{0001F938}\u{0001F3FC}',
+    ':person_cartwheeling_medium_skin_tone:': '\u{0001F938}\u{0001F3FD}',
+    ':person_climbing:': '\u{0001F9D7}',
+    ':person_climbing_dark_skin_tone:': '\u{0001F9D7}\u{0001F3FF}',
+    ':person_climbing_light_skin_tone:': '\u{0001F9D7}\u{0001F3FB}',
+    ':person_climbing_medium-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FE}',
+    ':person_climbing_medium-light_skin_tone:': '\u{0001F9D7}\u{0001F3FC}',
+    ':person_climbing_medium_skin_tone:': '\u{0001F9D7}\u{0001F3FD}',
+    ':person_facepalming:': '\u{0001F926}',
+    ':person_facepalming_dark_skin_tone:': '\u{0001F926}\u{0001F3FF}',
+    ':person_facepalming_light_skin_tone:': '\u{0001F926}\u{0001F3FB}',
+    ':person_facepalming_medium-dark_skin_tone:': '\u{0001F926}\u{0001F3FE}',
+    ':person_facepalming_medium-light_skin_tone:': '\u{0001F926}\u{0001F3FC}',
+    ':person_facepalming_medium_skin_tone:': '\u{0001F926}\u{0001F3FD}',
+    ':person_fencing:': '\u{0001F93A}',
+    ':person_frowning:': '\u{0001F64D}',
+    ':person_frowning_dark_skin_tone:': '\u{0001F64D}\u{0001F3FF}',
+    ':person_frowning_light_skin_tone:': '\u{0001F64D}\u{0001F3FB}',
+    ':person_frowning_medium-dark_skin_tone:': '\u{0001F64D}\u{0001F3FE}',
+    ':person_frowning_medium-light_skin_tone:': '\u{0001F64D}\u{0001F3FC}',
+    ':person_frowning_medium_skin_tone:': '\u{0001F64D}\u{0001F3FD}',
+    ':person_gesturing_NO:': '\u{0001F645}',
+    ':person_gesturing_NO_dark_skin_tone:': '\u{0001F645}\u{0001F3FF}',
+    ':person_gesturing_NO_light_skin_tone:': '\u{0001F645}\u{0001F3FB}',
+    ':person_gesturing_NO_medium-dark_skin_tone:': '\u{0001F645}\u{0001F3FE}',
+    ':person_gesturing_NO_medium-light_skin_tone:': '\u{0001F645}\u{0001F3FC}',
+    ':person_gesturing_NO_medium_skin_tone:': '\u{0001F645}\u{0001F3FD}',
+    ':person_gesturing_OK:': '\u{0001F646}',
+    ':person_gesturing_OK_dark_skin_tone:': '\u{0001F646}\u{0001F3FF}',
+    ':person_gesturing_OK_light_skin_tone:': '\u{0001F646}\u{0001F3FB}',
+    ':person_gesturing_OK_medium-dark_skin_tone:': '\u{0001F646}\u{0001F3FE}',
+    ':person_gesturing_OK_medium-light_skin_tone:': '\u{0001F646}\u{0001F3FC}',
+    ':person_gesturing_OK_medium_skin_tone:': '\u{0001F646}\u{0001F3FD}',
+    ':person_getting_haircut:': '\u{0001F487}',
+    ':person_getting_haircut_dark_skin_tone:': '\u{0001F487}\u{0001F3FF}',
+    ':person_getting_haircut_light_skin_tone:': '\u{0001F487}\u{0001F3FB}',
+    ':person_getting_haircut_medium-dark_skin_tone:': '\u{0001F487}\u{0001F3FE}',
+    ':person_getting_haircut_medium-light_skin_tone:': '\u{0001F487}\u{0001F3FC}',
+    ':person_getting_haircut_medium_skin_tone:': '\u{0001F487}\u{0001F3FD}',
+    ':person_getting_massage:': '\u{0001F486}',
+    ':person_getting_massage_dark_skin_tone:': '\u{0001F486}\u{0001F3FF}',
+    ':person_getting_massage_light_skin_tone:': '\u{0001F486}\u{0001F3FB}',
+    ':person_getting_massage_medium-dark_skin_tone:': '\u{0001F486}\u{0001F3FE}',
+    ':person_getting_massage_medium-light_skin_tone:': '\u{0001F486}\u{0001F3FC}',
+    ':person_getting_massage_medium_skin_tone:': '\u{0001F486}\u{0001F3FD}',
+    ':person_golfing:': '\u{0001F3CC}',
+    ':person_golfing_dark_skin_tone:': '\u{0001F3CC}\u{0001F3FF}',
+    ':person_golfing_light_skin_tone:': '\u{0001F3CC}\u{0001F3FB}',
+    ':person_golfing_medium-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FE}',
+    ':person_golfing_medium-light_skin_tone:': '\u{0001F3CC}\u{0001F3FC}',
+    ':person_golfing_medium_skin_tone:': '\u{0001F3CC}\u{0001F3FD}',
+    ':person_golfing_selector:': '\u{0001F3CC}\u{0000FE0F}',
+    ':person_in_bed:': '\u{0001F6CC}',
+    ':person_in_bed_dark_skin_tone:': '\u{0001F6CC}\u{0001F3FF}',
+    ':person_in_bed_light_skin_tone:': '\u{0001F6CC}\u{0001F3FB}',
+    ':person_in_bed_medium-dark_skin_tone:': '\u{0001F6CC}\u{0001F3FE}',
+    ':person_in_bed_medium-light_skin_tone:': '\u{0001F6CC}\u{0001F3FC}',
+    ':person_in_bed_medium_skin_tone:': '\u{0001F6CC}\u{0001F3FD}',
+    ':person_in_lotus_position:': '\u{0001F9D8}',
+    ':person_in_lotus_position_dark_skin_tone:': '\u{0001F9D8}\u{0001F3FF}',
+    ':person_in_lotus_position_light_skin_tone:': '\u{0001F9D8}\u{0001F3FB}',
+    ':person_in_lotus_position_medium-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FE}',
+    ':person_in_lotus_position_medium-light_skin_tone:': '\u{0001F9D8}\u{0001F3FC}',
+    ':person_in_lotus_position_medium_skin_tone:': '\u{0001F9D8}\u{0001F3FD}',
+    ':person_in_steamy_room:': '\u{0001F9D6}',
+    ':person_in_steamy_room_dark_skin_tone:': '\u{0001F9D6}\u{0001F3FF}',
+    ':person_in_steamy_room_light_skin_tone:': '\u{0001F9D6}\u{0001F3FB}',
+    ':person_in_steamy_room_medium-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FE}',
+    ':person_in_steamy_room_medium-light_skin_tone:': '\u{0001F9D6}\u{0001F3FC}',
+    ':person_in_steamy_room_medium_skin_tone:': '\u{0001F9D6}\u{0001F3FD}',
+    ':person_juggling:': '\u{0001F939}',
+    ':person_juggling_dark_skin_tone:': '\u{0001F939}\u{0001F3FF}',
+    ':person_juggling_light_skin_tone:': '\u{0001F939}\u{0001F3FB}',
+    ':person_juggling_medium-dark_skin_tone:': '\u{0001F939}\u{0001F3FE}',
+    ':person_juggling_medium-light_skin_tone:': '\u{0001F939}\u{0001F3FC}',
+    ':person_juggling_medium_skin_tone:': '\u{0001F939}\u{0001F3FD}',
+    ':person_kneeling-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FF}',
+    ':person_kneeling-light_skin_tone:': '\u{0001F9CE}\u{0001F3FB}',
+    ':person_kneeling-medium-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FE}',
+    ':person_kneeling-medium-light_skin_tone:': '\u{0001F9CE}\u{0001F3FC}',
+    ':person_kneeling-medium_skin_tone:': '\u{0001F9CE}\u{0001F3FD}',
+    ':person_kneeling:': '\u{0001F9CE}',
+    ':person_lifting_weights:': '\u{0001F3CB}',
+    ':person_lifting_weights_dark_skin_tone:': '\u{0001F3CB}\u{0001F3FF}',
+    ':person_lifting_weights_light_skin_tone:': '\u{0001F3CB}\u{0001F3FB}',
+    ':person_lifting_weights_medium-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FE}',
+    ':person_lifting_weights_medium-light_skin_tone:': '\u{0001F3CB}\u{0001F3FC}',
+    ':person_lifting_weights_medium_skin_tone:': '\u{0001F3CB}\u{0001F3FD}',
+    ':person_lifting_weights_selector:': '\u{0001F3CB}\u{0000FE0F}',
+    ':person_mountain_biking:': '\u{0001F6B5}',
+    ':person_mountain_biking_dark_skin_tone:': '\u{0001F6B5}\u{0001F3FF}',
+    ':person_mountain_biking_light_skin_tone:': '\u{0001F6B5}\u{0001F3FB}',
+    ':person_mountain_biking_medium-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FE}',
+    ':person_mountain_biking_medium-light_skin_tone:': '\u{0001F6B5}\u{0001F3FC}',
+    ':person_mountain_biking_medium_skin_tone:': '\u{0001F6B5}\u{0001F3FD}',
+    ':person_playing_handball:': '\u{0001F93E}',
+    ':person_playing_handball_dark_skin_tone:': '\u{0001F93E}\u{0001F3FF}',
+    ':person_playing_handball_light_skin_tone:': '\u{0001F93E}\u{0001F3FB}',
+    ':person_playing_handball_medium-dark_skin_tone:': '\u{0001F93E}\u{0001F3FE}',
+    ':person_playing_handball_medium-light_skin_tone:': '\u{0001F93E}\u{0001F3FC}',
+    ':person_playing_handball_medium_skin_tone:': '\u{0001F93E}\u{0001F3FD}',
+    ':person_playing_water_polo:': '\u{0001F93D}',
+    ':person_playing_water_polo_dark_skin_tone:': '\u{0001F93D}\u{0001F3FF}',
+    ':person_playing_water_polo_light_skin_tone:': '\u{0001F93D}\u{0001F3FB}',
+    ':person_playing_water_polo_medium-dark_skin_tone:': '\u{0001F93D}\u{0001F3FE}',
+    ':person_playing_water_polo_medium-light_skin_tone:': '\u{0001F93D}\u{0001F3FC}',
+    ':person_playing_water_polo_medium_skin_tone:': '\u{0001F93D}\u{0001F3FD}',
+    ':person_pouting:': '\u{0001F64E}',
+    ':person_pouting_dark_skin_tone:': '\u{0001F64E}\u{0001F3FF}',
+    ':person_pouting_light_skin_tone:': '\u{0001F64E}\u{0001F3FB}',
+    ':person_pouting_medium-dark_skin_tone:': '\u{0001F64E}\u{0001F3FE}',
+    ':person_pouting_medium-light_skin_tone:': '\u{0001F64E}\u{0001F3FC}',
+    ':person_pouting_medium_skin_tone:': '\u{0001F64E}\u{0001F3FD}',
+    ':person_raising_hand:': '\u{0001F64B}',
+    ':person_raising_hand_dark_skin_tone:': '\u{0001F64B}\u{0001F3FF}',
+    ':person_raising_hand_light_skin_tone:': '\u{0001F64B}\u{0001F3FB}',
+    ':person_raising_hand_medium-dark_skin_tone:': '\u{0001F64B}\u{0001F3FE}',
+    ':person_raising_hand_medium-light_skin_tone:': '\u{0001F64B}\u{0001F3FC}',
+    ':person_raising_hand_medium_skin_tone:': '\u{0001F64B}\u{0001F3FD}',
+    ':person_rowing_boat:': '\u{0001F6A3}',
+    ':person_rowing_boat_dark_skin_tone:': '\u{0001F6A3}\u{0001F3FF}',
+    ':person_rowing_boat_light_skin_tone:': '\u{0001F6A3}\u{0001F3FB}',
+    ':person_rowing_boat_medium-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FE}',
+    ':person_rowing_boat_medium-light_skin_tone:': '\u{0001F6A3}\u{0001F3FC}',
+    ':person_rowing_boat_medium_skin_tone:': '\u{0001F6A3}\u{0001F3FD}',
+    ':person_running:': '\u{0001F3C3}',
+    ':person_running_dark_skin_tone:': '\u{0001F3C3}\u{0001F3FF}',
+    ':person_running_light_skin_tone:': '\u{0001F3C3}\u{0001F3FB}',
+    ':person_running_medium-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FE}',
+    ':person_running_medium-light_skin_tone:': '\u{0001F3C3}\u{0001F3FC}',
+    ':person_running_medium_skin_tone:': '\u{0001F3C3}\u{0001F3FD}',
+    ':person_shrugging:': '\u{0001F937}',
+    ':person_shrugging_dark_skin_tone:': '\u{0001F937}\u{0001F3FF}',
+    ':person_shrugging_light_skin_tone:': '\u{0001F937}\u{0001F3FB}',
+    ':person_shrugging_medium-dark_skin_tone:': '\u{0001F937}\u{0001F3FE}',
+    ':person_shrugging_medium-light_skin_tone:': '\u{0001F937}\u{0001F3FC}',
+    ':person_shrugging_medium_skin_tone:': '\u{0001F937}\u{0001F3FD}',
+    ':person_standing-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FF}',
+    ':person_standing-light_skin_tone:': '\u{0001F9CD}\u{0001F3FB}',
+    ':person_standing-medium-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FE}',
+    ':person_standing-medium-light_skin_tone:': '\u{0001F9CD}\u{0001F3FC}',
+    ':person_standing-medium_skin_tone:': '\u{0001F9CD}\u{0001F3FD}',
+    ':person_standing:': '\u{0001F9CD}',
+    ':person_surfing:': '\u{0001F3C4}',
+    ':person_surfing_dark_skin_tone:': '\u{0001F3C4}\u{0001F3FF}',
+    ':person_surfing_light_skin_tone:': '\u{0001F3C4}\u{0001F3FB}',
+    ':person_surfing_medium-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FE}',
+    ':person_surfing_medium-light_skin_tone:': '\u{0001F3C4}\u{0001F3FC}',
+    ':person_surfing_medium_skin_tone:': '\u{0001F3C4}\u{0001F3FD}',
+    ':person_swimming:': '\u{0001F3CA}',
+    ':person_swimming_dark_skin_tone:': '\u{0001F3CA}\u{0001F3FF}',
+    ':person_swimming_light_skin_tone:': '\u{0001F3CA}\u{0001F3FB}',
+    ':person_swimming_medium-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FE}',
+    ':person_swimming_medium-light_skin_tone:': '\u{0001F3CA}\u{0001F3FC}',
+    ':person_swimming_medium_skin_tone:': '\u{0001F3CA}\u{0001F3FD}',
+    ':person_taking_bath:': '\u{0001F6C0}',
+    ':person_taking_bath_dark_skin_tone:': '\u{0001F6C0}\u{0001F3FF}',
+    ':person_taking_bath_light_skin_tone:': '\u{0001F6C0}\u{0001F3FB}',
+    ':person_taking_bath_medium-dark_skin_tone:': '\u{0001F6C0}\u{0001F3FE}',
+    ':person_taking_bath_medium-light_skin_tone:': '\u{0001F6C0}\u{0001F3FC}',
+    ':person_taking_bath_medium_skin_tone:': '\u{0001F6C0}\u{0001F3FD}',
+    ':person_tipping_hand:': '\u{0001F481}',
+    ':person_tipping_hand_dark_skin_tone:': '\u{0001F481}\u{0001F3FF}',
+    ':person_tipping_hand_light_skin_tone:': '\u{0001F481}\u{0001F3FB}',
+    ':person_tipping_hand_medium-dark_skin_tone:': '\u{0001F481}\u{0001F3FE}',
+    ':person_tipping_hand_medium-light_skin_tone:': '\u{0001F481}\u{0001F3FC}',
+    ':person_tipping_hand_medium_skin_tone:': '\u{0001F481}\u{0001F3FD}',
+    ':person_walking:': '\u{0001F6B6}',
+    ':person_walking_dark_skin_tone:': '\u{0001F6B6}\u{0001F3FF}',
+    ':person_walking_light_skin_tone:': '\u{0001F6B6}\u{0001F3FB}',
+    ':person_walking_medium-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FE}',
+    ':person_walking_medium-light_skin_tone:': '\u{0001F6B6}\u{0001F3FC}',
+    ':person_walking_medium_skin_tone:': '\u{0001F6B6}\u{0001F3FD}',
+    ':person_wearing_turban:': '\u{0001F473}',
+    ':person_wearing_turban_dark_skin_tone:': '\u{0001F473}\u{0001F3FF}',
+    ':person_wearing_turban_light_skin_tone:': '\u{0001F473}\u{0001F3FB}',
+    ':person_wearing_turban_medium-dark_skin_tone:': '\u{0001F473}\u{0001F3FE}',
+    ':person_wearing_turban_medium-light_skin_tone:': '\u{0001F473}\u{0001F3FC}',
+    ':person_wearing_turban_medium_skin_tone:': '\u{0001F473}\u{0001F3FD}',
+    ':petri_dish:': '\u{0001F9EB}',
+    ':pick:': '\u{000026CF}',
+    ':pick_selector:': '\u{000026CF}\u{0000FE0F}',
+    ':pie:': '\u{0001F967}',
+    ':pig:': '\u{0001F416}',
+    ':pig_face:': '\u{0001F437}',
+    ':pig_nose:': '\u{0001F43D}',
+    ':pile_of_poo:': '\u{0001F4A9}',
+    ':pill:': '\u{0001F48A}',
+    ':pinching_hand-dark_skin_tone:': '\u{0001F90F}\u{0001F3FF}',
+    ':pinching_hand-light_skin_tone:': '\u{0001F90F}\u{0001F3FB}',
+    ':pinching_hand-medium-dark_skin_tone:': '\u{0001F90F}\u{0001F3FE}',
+    ':pinching_hand-medium-light_skin_tone:': '\u{0001F90F}\u{0001F3FC}',
+    ':pinching_hand-medium_skin_tone:': '\u{0001F90F}\u{0001F3FD}',
+    ':pinching_hand:': '\u{0001F90F}',
+    ':pine_decoration:': '\u{0001F38D}',
+    ':pineapple:': '\u{0001F34D}',
+    ':ping_pong:': '\u{0001F3D3}',
+    ':pirate_flag:': '\u{0001F3F4}\u{0000200D}\u{00002620}',
+    ':pirate_flag_selector:': '\u{0001F3F4}\u{0000200D}\u{00002620}\u{0000FE0F}',
+    ':pistol:': '\u{0001F52B}',
+    ':pizza:': '\u{0001F355}',
+    ':place_of_worship:': '\u{0001F6D0}',
+    ':play_button:': '\u{000025B6}',
+    ':play_button_selector:': '\u{000025B6}\u{0000FE0F}',
+    ':play_or_pause_button:': '\u{000023EF}',
+    ':play_or_pause_button_selector:': '\u{000023EF}\u{0000FE0F}',
+    ':pleading_face:': '\u{0001F97A}',
+    ':police_car:': '\u{0001F693}',
+    ':police_car_light:': '\u{0001F6A8}',
+    ':police_officer:': '\u{0001F46E}',
+    ':police_officer_dark_skin_tone:': '\u{0001F46E}\u{0001F3FF}',
+    ':police_officer_light_skin_tone:': '\u{0001F46E}\u{0001F3FB}',
+    ':police_officer_medium-dark_skin_tone:': '\u{0001F46E}\u{0001F3FE}',
+    ':police_officer_medium-light_skin_tone:': '\u{0001F46E}\u{0001F3FC}',
+    ':police_officer_medium_skin_tone:': '\u{0001F46E}\u{0001F3FD}',
+    ':poodle:': '\u{0001F429}',
+    ':pool_8_ball:': '\u{0001F3B1}',
+    ':popcorn:': '\u{0001F37F}',
+    ':post_office:': '\u{0001F3E4}',
+    ':postal_horn:': '\u{0001F4EF}',
+    ':postbox:': '\u{0001F4EE}',
+    ':pot_of_food:': '\u{0001F372}',
+    ':potable_water:': '\u{0001F6B0}',
+    ':potato:': '\u{0001F954}',
+    ':poultry_leg:': '\u{0001F357}',
+    ':pound_banknote:': '\u{0001F4B7}',
+    ':pouting_cat_face:': '\u{0001F63E}',
+    ':pouting_face:': '\u{0001F621}',
+    ':prayer_beads:': '\u{0001F4FF}',
+    ':pregnant_woman:': '\u{0001F930}',
+    ':pregnant_woman_dark_skin_tone:': '\u{0001F930}\u{0001F3FF}',
+    ':pregnant_woman_light_skin_tone:': '\u{0001F930}\u{0001F3FB}',
+    ':pregnant_woman_medium-dark_skin_tone:': '\u{0001F930}\u{0001F3FE}',
+    ':pregnant_woman_medium-light_skin_tone:': '\u{0001F930}\u{0001F3FC}',
+    ':pregnant_woman_medium_skin_tone:': '\u{0001F930}\u{0001F3FD}',
+    ':pretzel:': '\u{0001F968}',
+    ':prince:': '\u{0001F934}',
+    ':prince_dark_skin_tone:': '\u{0001F934}\u{0001F3FF}',
+    ':prince_light_skin_tone:': '\u{0001F934}\u{0001F3FB}',
+    ':prince_medium-dark_skin_tone:': '\u{0001F934}\u{0001F3FE}',
+    ':prince_medium-light_skin_tone:': '\u{0001F934}\u{0001F3FC}',
+    ':prince_medium_skin_tone:': '\u{0001F934}\u{0001F3FD}',
+    ':princess:': '\u{0001F478}',
+    ':princess_dark_skin_tone:': '\u{0001F478}\u{0001F3FF}',
+    ':princess_light_skin_tone:': '\u{0001F478}\u{0001F3FB}',
+    ':princess_medium-dark_skin_tone:': '\u{0001F478}\u{0001F3FE}',
+    ':princess_medium-light_skin_tone:': '\u{0001F478}\u{0001F3FC}',
+    ':princess_medium_skin_tone:': '\u{0001F478}\u{0001F3FD}',
+    ':printer:': '\u{0001F5A8}',
+    ':printer_selector:': '\u{0001F5A8}\u{0000FE0F}',
+    ':probing_cane:': '\u{0001F9AF}',
+    ':prohibited:': '\u{0001F6AB}',
+    ':purple_circle:': '\u{0001F7E3}',
+    ':purple_heart:': '\u{0001F49C}',
+    ':purple_square:': '\u{0001F7EA}',
+    ':purse:': '\u{0001F45B}',
+    ':pushpin:': '\u{0001F4CC}',
+    ':question_mark:': '\u{00002753}',
+    ':rabbit:': '\u{0001F407}',
+    ':rabbit_face:': '\u{0001F430}',
+    ':raccoon:': '\u{0001F99D}',
+    ':racing_car:': '\u{0001F3CE}',
+    ':racing_car_selector:': '\u{0001F3CE}\u{0000FE0F}',
+    ':radio:': '\u{0001F4FB}',
+    ':radio_button:': '\u{0001F518}',
+    ':radioactive:': '\u{00002622}',
+    ':radioactive_selector:': '\u{00002622}\u{0000FE0F}',
+    ':railway_car:': '\u{0001F683}',
+    ':railway_track:': '\u{0001F6E4}',
+    ':railway_track_selector:': '\u{0001F6E4}\u{0000FE0F}',
+    ':rainbow:': '\u{0001F308}',
+    ':rainbow_flag:': '\u{0001F3F3}\u{0000200D}\u{0001F308}',
+    ':rainbow_flag_selector:': '\u{0001F3F3}\u{0000FE0F}\u{0000200D}\u{0001F308}',
+    ':raised_back_of_hand:': '\u{0001F91A}',
+    ':raised_back_of_hand_dark_skin_tone:': '\u{0001F91A}\u{0001F3FF}',
+    ':raised_back_of_hand_light_skin_tone:': '\u{0001F91A}\u{0001F3FB}',
+    ':raised_back_of_hand_medium-dark_skin_tone:': '\u{0001F91A}\u{0001F3FE}',
+    ':raised_back_of_hand_medium-light_skin_tone:': '\u{0001F91A}\u{0001F3FC}',
+    ':raised_back_of_hand_medium_skin_tone:': '\u{0001F91A}\u{0001F3FD}',
+    ':raised_fist:': '\u{0000270A}',
+    ':raised_fist_dark_skin_tone:': '\u{0000270A}\u{0001F3FF}',
+    ':raised_fist_light_skin_tone:': '\u{0000270A}\u{0001F3FB}',
+    ':raised_fist_medium-dark_skin_tone:': '\u{0000270A}\u{0001F3FE}',
+    ':raised_fist_medium-light_skin_tone:': '\u{0000270A}\u{0001F3FC}',
+    ':raised_fist_medium_skin_tone:': '\u{0000270A}\u{0001F3FD}',
+    ':raised_hand:': '\u{0000270B}',
+    ':raised_hand_dark_skin_tone:': '\u{0000270B}\u{0001F3FF}',
+    ':raised_hand_light_skin_tone:': '\u{0000270B}\u{0001F3FB}',
+    ':raised_hand_medium-dark_skin_tone:': '\u{0000270B}\u{0001F3FE}',
+    ':raised_hand_medium-light_skin_tone:': '\u{0000270B}\u{0001F3FC}',
+    ':raised_hand_medium_skin_tone:': '\u{0000270B}\u{0001F3FD}',
+    ':raising_hands:': '\u{0001F64C}',
+    ':raising_hands_dark_skin_tone:': '\u{0001F64C}\u{0001F3FF}',
+    ':raising_hands_light_skin_tone:': '\u{0001F64C}\u{0001F3FB}',
+    ':raising_hands_medium-dark_skin_tone:': '\u{0001F64C}\u{0001F3FE}',
+    ':raising_hands_medium-light_skin_tone:': '\u{0001F64C}\u{0001F3FC}',
+    ':raising_hands_medium_skin_tone:': '\u{0001F64C}\u{0001F3FD}',
+    ':ram:': '\u{0001F40F}',
+    ':rat:': '\u{0001F400}',
+    ':razor:': '\u{0001FA92}',
+    ':receipt:': '\u{0001F9FE}',
+    ':record_button:': '\u{000023FA}',
+    ':record_button_selector:': '\u{000023FA}\u{0000FE0F}',
+    ':recycling_symbol:': '\u{0000267B}',
+    ':recycling_symbol_selector:': '\u{0000267B}\u{0000FE0F}',
+    ':red-haired_man:': '\u{0001F468}\u{0000200D}\u{0001F9B0}',
+    ':red-haired_woman:': '\u{0001F469}\u{0000200D}\u{0001F9B0}',
+    ':red_apple:': '\u{0001F34E}',
+    ':red_circle:': '\u{0001F534}',
+    ':red_envelope:': '\u{0001F9E7}',
+    ':red_hair:': '\u{0001F9B0}',
+    ':red_heart:': '\u{00002764}',
+    ':red_heart_selector:': '\u{00002764}\u{0000FE0F}',
+    ':red_paper_lantern:': '\u{0001F3EE}',
+    ':red_square:': '\u{0001F7E5}',
+    ':red_triangle_pointed_down:': '\u{0001F53B}',
+    ':red_triangle_pointed_up:': '\u{0001F53A}',
+    ':regional_indicator_symbol_letter_a:': '\u{0001F1E6}',
+    ':regional_indicator_symbol_letter_b:': '\u{0001F1E7}',
+    ':regional_indicator_symbol_letter_c:': '\u{0001F1E8}',
+    ':regional_indicator_symbol_letter_d:': '\u{0001F1E9}',
+    ':regional_indicator_symbol_letter_e:': '\u{0001F1EA}',
+    ':regional_indicator_symbol_letter_f:': '\u{0001F1EB}',
+    ':regional_indicator_symbol_letter_g:': '\u{0001F1EC}',
+    ':regional_indicator_symbol_letter_h:': '\u{0001F1ED}',
+    ':regional_indicator_symbol_letter_i:': '\u{0001F1EE}',
+    ':regional_indicator_symbol_letter_j:': '\u{0001F1EF}',
+    ':regional_indicator_symbol_letter_k:': '\u{0001F1F0}',
+    ':regional_indicator_symbol_letter_l:': '\u{0001F1F1}',
+    ':regional_indicator_symbol_letter_m:': '\u{0001F1F2}',
+    ':regional_indicator_symbol_letter_n:': '\u{0001F1F3}',
+    ':regional_indicator_symbol_letter_o:': '\u{0001F1F4}',
+    ':regional_indicator_symbol_letter_p:': '\u{0001F1F5}',
+    ':regional_indicator_symbol_letter_q:': '\u{0001F1F6}',
+    ':regional_indicator_symbol_letter_r:': '\u{0001F1F7}',
+    ':regional_indicator_symbol_letter_s:': '\u{0001F1F8}',
+    ':regional_indicator_symbol_letter_t:': '\u{0001F1F9}',
+    ':regional_indicator_symbol_letter_u:': '\u{0001F1FA}',
+    ':regional_indicator_symbol_letter_v:': '\u{0001F1FB}',
+    ':regional_indicator_symbol_letter_w:': '\u{0001F1FC}',
+    ':regional_indicator_symbol_letter_x:': '\u{0001F1FD}',
+    ':regional_indicator_symbol_letter_y:': '\u{0001F1FE}',
+    ':regional_indicator_symbol_letter_z:': '\u{0001F1FF}',
+    ':registered:': '\u{000000AE}',
+    ':registered_selector:': '\u{000000AE}\u{0000FE0F}',
+    ':relieved_face:': '\u{0001F60C}',
+    ':reminder_ribbon:': '\u{0001F397}',
+    ':reminder_ribbon_selector:': '\u{0001F397}\u{0000FE0F}',
+    ':repeat_button:': '\u{0001F501}',
+    ':repeat_single_button:': '\u{0001F502}',
+    ':rescue_worker\u2019s_helmet:': '\u{000026D1}',
+    ':rescue_worker\u2019s_helmet_selector:': '\u{000026D1}\u{0000FE0F}',
+    ':restroom:': '\u{0001F6BB}',
+    ':reverse_button:': '\u{000025C0}',
+    ':reverse_button_selector:': '\u{000025C0}\u{0000FE0F}',
+    ':revolving_hearts:': '\u{0001F49E}',
+    ':rhinoceros:': '\u{0001F98F}',
+    ':ribbon:': '\u{0001F380}',
+    ':rice_ball:': '\u{0001F359}',
+    ':rice_cracker:': '\u{0001F358}',
+    ':right-facing_fist:': '\u{0001F91C}',
+    ':right-facing_fist_dark_skin_tone:': '\u{0001F91C}\u{0001F3FF}',
+    ':right-facing_fist_light_skin_tone:': '\u{0001F91C}\u{0001F3FB}',
+    ':right-facing_fist_medium-dark_skin_tone:': '\u{0001F91C}\u{0001F3FE}',
+    ':right-facing_fist_medium-light_skin_tone:': '\u{0001F91C}\u{0001F3FC}',
+    ':right-facing_fist_medium_skin_tone:': '\u{0001F91C}\u{0001F3FD}',
+    ':right_anger_bubble:': '\u{0001F5EF}',
+    ':right_anger_bubble_selector:': '\u{0001F5EF}\u{0000FE0F}',
+    ':right_arrow:': '\u{000027A1}',
+    ':right_arrow_curving_down:': '\u{00002935}',
+    ':right_arrow_curving_down_selector:': '\u{00002935}\u{0000FE0F}',
+    ':right_arrow_curving_left:': '\u{000021A9}',
+    ':right_arrow_curving_left_selector:': '\u{000021A9}\u{0000FE0F}',
+    ':right_arrow_curving_up:': '\u{00002934}',
+    ':right_arrow_curving_up_selector:': '\u{00002934}\u{0000FE0F}',
+    ':right_arrow_selector:': '\u{000027A1}\u{0000FE0F}',
+    ':ring:': '\u{0001F48D}',
+    ':ringed_planet:': '\u{0001FA90}',
+    ':roasted_sweet_potato:': '\u{0001F360}',
+    ':robot_face:': '\u{0001F916}',
+    ':rocket:': '\u{0001F680}',
+    ':roll_of_paper:': '\u{0001F9FB}',
+    ':rolled-up_newspaper:': '\u{0001F5DE}',
+    ':rolled-up_newspaper_selector:': '\u{0001F5DE}\u{0000FE0F}',
+    ':roller_coaster:': '\u{0001F3A2}',
+    ':rolling_on_the_floor_laughing:': '\u{0001F923}',
+    ':rooster:': '\u{0001F413}',
+    ':rose:': '\u{0001F339}',
+    ':rosette:': '\u{0001F3F5}',
+    ':rosette_selector:': '\u{0001F3F5}\u{0000FE0F}',
+    ':round_pushpin:': '\u{0001F4CD}',
+    ':rugby_football:': '\u{0001F3C9}',
+    ':running_shirt:': '\u{0001F3BD}',
+    ':running_shoe:': '\u{0001F45F}',
+    ':sad_but_relieved_face:': '\u{0001F625}',
+    ':safety_pin:': '\u{0001F9F7}',
+    ':safety_vest:': '\u{0001F9BA}',
+    ':sailboat:': '\u{000026F5}',
+    ':sake:': '\u{0001F376}',
+    ':salt:': '\u{0001F9C2}',
+    ':sandwich:': '\u{0001F96A}',
+    ':sari:': '\u{0001F97B}',
+    ':satellite:': '\u{0001F6F0}',
+    ':satellite_antenna:': '\u{0001F4E1}',
+    ':satellite_selector:': '\u{0001F6F0}\u{0000FE0F}',
+    ':sauropod:': '\u{0001F995}',
+    ':saxophone:': '\u{0001F3B7}',
+    ':scarf:': '\u{0001F9E3}',
+    ':school:': '\u{0001F3EB}',
+    ':school_backpack:': '\u{0001F392}',
+    ':scissors:': '\u{00002702}',
+    ':scissors_selector:': '\u{00002702}\u{0000FE0F}',
+    ':scorpion:': '\u{0001F982}',
+    ':scroll:': '\u{0001F4DC}',
+    ':seat:': '\u{0001F4BA}',
+    ':see-no-evil_monkey:': '\u{0001F648}',
+    ':seedling:': '\u{0001F331}',
+    ':selfie:': '\u{0001F933}',
+    ':selfie_dark_skin_tone:': '\u{0001F933}\u{0001F3FF}',
+    ':selfie_light_skin_tone:': '\u{0001F933}\u{0001F3FB}',
+    ':selfie_medium-dark_skin_tone:': '\u{0001F933}\u{0001F3FE}',
+    ':selfie_medium-light_skin_tone:': '\u{0001F933}\u{0001F3FC}',
+    ':selfie_medium_skin_tone:': '\u{0001F933}\u{0001F3FD}',
+    ':service_dog:': '\u{0001F415}\u{0000200D}\u{0001F9BA}',
+    ':seven-thirty:': '\u{0001F562}',
+    ':seven_o\U2019clock:': '\u{0001F556}',
+    ':shallow_pan_of_food:': '\u{0001F958}',
+    ':shamrock:': '\u{00002618}',
+    ':shamrock_selector:': '\u{00002618}\u{0000FE0F}',
+    ':shark:': '\u{0001F988}',
+    ':shaved_ice:': '\u{0001F367}',
+    ':sheaf_of_rice:': '\u{0001F33E}',
+    ':shield:': '\u{0001F6E1}',
+    ':shield_selector:': '\u{0001F6E1}\u{0000FE0F}',
+    ':shinto_shrine:': '\u{000026E9}\u{0000FE0F}',
+    ':ship:': '\u{0001F6A2}',
+    ':shooting_star:': '\u{0001F320}',
+    ':shopping_bags:': '\u{0001F6CD}',
+    ':shopping_bags_selector:': '\u{0001F6CD}\u{0000FE0F}',
+    ':shopping_cart:': '\u{0001F6D2}',
+    ':shortcake:': '\u{0001F370}',
+    ':shorts:': '\u{0001FA73}',
+    ':shower:': '\u{0001F6BF}',
+    ':shrimp:': '\u{0001F990}',
+    ':shuffle_tracks_button:': '\u{0001F500}',
+    ':shushing_face:': '\u{0001F92B}',
+    ':sign_of_the_horns:': '\u{0001F918}',
+    ':sign_of_the_horns_dark_skin_tone:': '\u{0001F918}\u{0001F3FF}',
+    ':sign_of_the_horns_light_skin_tone:': '\u{0001F918}\u{0001F3FB}',
+    ':sign_of_the_horns_medium-dark_skin_tone:': '\u{0001F918}\u{0001F3FE}',
+    ':sign_of_the_horns_medium-light_skin_tone:': '\u{0001F918}\u{0001F3FC}',
+    ':sign_of_the_horns_medium_skin_tone:': '\u{0001F918}\u{0001F3FD}',
+    ':six-thirty:': '\u{0001F561}',
+    ':six_o\U2019clock:': '\u{0001F555}',
+    ':skateboard:': '\u{0001F6F9}',
+    ':skier:': '\u{000026F7}',
+    ':skier_selector:': '\u{000026F7}\u{0000FE0F}',
+    ':skis:': '\u{0001F3BF}',
+    ':skull:': '\u{0001F480}',
+    ':skull_and_crossbones:': '\u{00002620}',
+    ':skull_and_crossbones_selector:': '\u{00002620}\u{0000FE0F}',
+    ':skunk:': '\u{0001F9A8}',
+    ':sled:': '\u{0001F6F7}',
+    ':sleeping_face:': '\u{0001F634}',
+    ':sleepy_face:': '\u{0001F62A}',
+    ':slightly_frowning_face:': '\u{0001F641}',
+    ':slightly_smiling_face:': '\u{0001F642}',
+    ':slot_machine:': '\u{0001F3B0}',
+    ':sloth:': '\u{0001F9A5}',
+    ':small_airplane:': '\u{0001F6E9}',
+    ':small_airplane_selector:': '\u{0001F6E9}\u{0000FE0F}',
+    ':small_blue_diamond:': '\u{0001F539}',
+    ':small_orange_diamond:': '\u{0001F538}',
+    ':smiling_cat_face_with_heart-eyes:': '\u{0001F63B}',
+    ':smiling_face:': '\u{0000263A}',
+    ':smiling_face_selector:': '\u{0000263A}\u{0000FE0F}',
+    ':smiling_face_with_3_hearts:': '\u{0001F970}',
+    ':smiling_face_with_halo:': '\u{0001F607}',
+    ':smiling_face_with_heart-eyes:': '\u{0001F60D}',
+    ':smiling_face_with_horns:': '\u{0001F608}',
+    ':smiling_face_with_smiling_eyes:': '\u{0001F60A}',
+    ':smiling_face_with_sunglasses:': '\u{0001F60E}',
+    ':smirking_face:': '\u{0001F60F}',
+    ':snail:': '\u{0001F40C}',
+    ':snake:': '\u{0001F40D}',
+    ':sneezing_face:': '\u{0001F927}',
+    ':snow-capped_mountain:': '\u{0001F3D4}',
+    ':snow-capped_mountain_selector:': '\u{0001F3D4}\u{0000FE0F}',
+    ':snowboarder:': '\u{0001F3C2}',
+    ':snowboarder_dark_skin_tone:': '\u{0001F3C2}\u{0001F3FF}',
+    ':snowboarder_light_skin_tone:': '\u{0001F3C2}\u{0001F3FB}',
+    ':snowboarder_medium-dark_skin_tone:': '\u{0001F3C2}\u{0001F3FE}',
+    ':snowboarder_medium-light_skin_tone:': '\u{0001F3C2}\u{0001F3FC}',
+    ':snowboarder_medium_skin_tone:': '\u{0001F3C2}\u{0001F3FD}',
+    ':snowflake:': '\u{00002744}',
+    ':snowflake_selector:': '\u{00002744}\u{0000FE0F}',
+    ':snowman:': '\u{00002603}',
+    ':snowman_selector:': '\u{00002603}\u{0000FE0F}',
+    ':snowman_without_snow:': '\u{000026C4}',
+    ':soap:': '\u{0001F9FC}',
+    ':soccer_ball:': '\u{000026BD}',
+    ':socks:': '\u{0001F9E6}',
+    ':soft_ice_cream:': '\u{0001F366}',
+    ':softball:': '\u{0001F94E}',
+    ':spade_suit:': '\u{00002660}',
+    ':spade_suit_selector:': '\u{00002660}\u{0000FE0F}',
+    ':spaghetti:': '\u{0001F35D}',
+    ':sparkle:': '\u{00002747}',
+    ':sparkle_selector:': '\u{00002747}\u{0000FE0F}',
+    ':sparkler:': '\u{0001F387}',
+    ':sparkles:': '\u{00002728}',
+    ':sparkling_heart:': '\u{0001F496}',
+    ':speak-no-evil_monkey:': '\u{0001F64A}',
+    ':speaker_high_volume:': '\u{0001F50A}',
+    ':speaker_low_volume:': '\u{0001F508}',
+    ':speaker_medium_volume:': '\u{0001F509}',
+    ':speaking_head:': '\u{0001F5E3}',
+    ':speaking_head_selector:': '\u{0001F5E3}\u{0000FE0F}',
+    ':speech_balloon:': '\u{0001F4AC}',
+    ':speedboat:': '\u{0001F6A4}',
+    ':spider:': '\u{0001F577}',
+    ':spider_selector:': '\u{0001F577}\u{0000FE0F}',
+    ':spider_web:': '\u{0001F578}',
+    ':spider_web_selector:': '\u{0001F578}\u{0000FE0F}',
+    ':spiral_calendar:': '\u{0001F5D3}',
+    ':spiral_calendar_selector:': '\u{0001F5D3}\u{0000FE0F}',
+    ':spiral_notepad:': '\u{0001F5D2}',
+    ':spiral_notepad_selector:': '\u{0001F5D2}\u{0000FE0F}',
+    ':spiral_shell:': '\u{0001F41A}',
+    ':sponge:': '\u{0001F9FD}',
+    ':spoon:': '\u{0001F944}',
+    ':sport_utility_vehicle:': '\u{0001F699}',
+    ':sports_medal:': '\u{0001F3C5}',
+    ':spouting_whale:': '\u{0001F433}',
+    ':squid:': '\u{0001F991}',
+    ':squinting_face_with_tongue:': '\u{0001F61D}',
+    ':stadium:': '\u{0001F3DF}',
+    ':stadium_selector:': '\u{0001F3DF}\u{0000FE0F}',
+    ':star-struck:': '\u{0001F929}',
+    ':star_and_crescent:': '\u{0000262A}',
+    ':star_and_crescent_selector:': '\u{0000262A}\u{0000FE0F}',
+    ':star_of_David:': '\u{00002721}',
+    ':star_of_David_selector:': '\u{00002721}\u{0000FE0F}',
+    ':station:': '\u{0001F689}',
+    ':steaming_bowl:': '\u{0001F35C}',
+    ':stethoscope:': '\u{0001FA7A}',
+    ':stop_button:': '\u{000023F9}',
+    ':stop_button_selector:': '\u{000023F9}\u{0000FE0F}',
+    ':stop_sign:': '\u{0001F6D1}',
+    ':stopwatch:': '\u{000023F1}',
+    ':stopwatch_selector:': '\u{000023F1}\u{0000FE0F}',
+    ':straight_ruler:': '\u{0001F4CF}',
+    ':strawberry:': '\u{0001F353}',
+    ':studio_microphone:': '\u{0001F399}',
+    ':studio_microphone_selector:': '\u{0001F399}\u{0000FE0F}',
+    ':stuffed_flatbread:': '\u{0001F959}',
+    ':sun:': '\u{00002600}',
+    ':sun_behind_cloud:': '\u{000026C5}',
+    ':sun_behind_large_cloud:': '\u{0001F325}',
+    ':sun_behind_large_cloud_selector:': '\u{0001F325}\u{0000FE0F}',
+    ':sun_behind_rain_cloud:': '\u{0001F326}',
+    ':sun_behind_rain_cloud_selector:': '\u{0001F326}\u{0000FE0F}',
+    ':sun_behind_small_cloud:': '\u{0001F324}',
+    ':sun_behind_small_cloud_selector:': '\u{0001F324}\u{0000FE0F}',
+    ':sun_selector:': '\u{00002600}\u{0000FE0F}',
+    ':sun_with_face:': '\u{0001F31E}',
+    ':sunflower:': '\u{0001F33B}',
+    ':sunglasses:': '\u{0001F576}',
+    ':sunglasses_selector:': '\u{0001F576}\u{0000FE0F}',
+    ':sunrise:': '\u{0001F305}',
+    ':sunrise_over_mountains:': '\u{0001F304}',
+    ':sunset:': '\u{0001F307}',
+    ':superhero-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FF}',
+    ':superhero-light_skin_tone:': '\u{0001F9B8}\u{0001F3FB}',
+    ':superhero-medium-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FE}',
+    ':superhero-medium-light_skin_tone:': '\u{0001F9B8}\u{0001F3FC}',
+    ':superhero-medium_skin_tone:': '\u{0001F9B8}\u{0001F3FD}',
+    ':superhero:': '\u{0001F9B8}',
+    ':supervillain-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FF}',
+    ':supervillain-light_skin_tone:': '\u{0001F9B9}\u{0001F3FB}',
+    ':supervillain-medium-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FE}',
+    ':supervillain-medium-light_skin_tone:': '\u{0001F9B9}\u{0001F3FC}',
+    ':supervillain-medium_skin_tone:': '\u{0001F9B9}\u{0001F3FD}',
+    ':supervillain:': '\u{0001F9B9}',
+    ':sushi:': '\u{0001F363}',
+    ':suspension_railway:': '\u{0001F69F}',
+    ':swan:': '\u{0001F9A2}',
+    ':sweat_droplets:': '\u{0001F4A6}',
+    ':synagogue:': '\u{0001F54D}',
+    ':syringe:': '\u{0001F489}',
+    ':t-shirt:': '\u{0001F455}',
+    ':taco:': '\u{0001F32E}',
+    ':takeout_box:': '\u{0001F961}',
+    ':tanabata_tree:': '\u{0001F38B}',
+    ':tangerine:': '\u{0001F34A}',
+    ':taxi:': '\u{0001F695}',
+    ':teacup_without_handle:': '\u{0001F375}',
+    ':tear-off_calendar:': '\u{0001F4C6}',
+    ':teddy_bear:': '\u{0001F9F8}',
+    ':telephone:': '\u{0000260E}',
+    ':telephone_receiver:': '\u{0001F4DE}',
+    ':telephone_selector:': '\u{0000260E}\u{0000FE0F}',
+    ':telescope:': '\u{0001F52D}',
+    ':television:': '\u{0001F4FA}',
+    ':ten-thirty:': '\u{0001F565}',
+    ':ten_o\U2019clock:': '\u{0001F559}',
+    ':tennis:': '\u{0001F3BE}',
+    ':tent:': '\u{000026FA}',
+    ':test_tube:': '\u{0001F9EA}',
+    ':thermometer:': '\u{0001F321}',
+    ':thermometer_selector:': '\u{0001F321}\u{0000FE0F}',
+    ':thinking_face:': '\u{0001F914}',
+    ':thought_balloon:': '\u{0001F4AD}',
+    ':thread:': '\u{0001F9F5}',
+    ':three-thirty:': '\u{0001F55E}',
+    ':three_o\U2019clock:': '\u{0001F552}',
+    ':thumbs_down:': '\u{0001F44E}',
+    ':thumbs_down_dark_skin_tone:': '\u{0001F44E}\u{0001F3FF}',
+    ':thumbs_down_light_skin_tone:': '\u{0001F44E}\u{0001F3FB}',
+    ':thumbs_down_medium-dark_skin_tone:': '\u{0001F44E}\u{0001F3FE}',
+    ':thumbs_down_medium-light_skin_tone:': '\u{0001F44E}\u{0001F3FC}',
+    ':thumbs_down_medium_skin_tone:': '\u{0001F44E}\u{0001F3FD}',
+    ':thumbs_up:': '\u{0001F44D}',
+    ':thumbs_up_dark_skin_tone:': '\u{0001F44D}\u{0001F3FF}',
+    ':thumbs_up_light_skin_tone:': '\u{0001F44D}\u{0001F3FB}',
+    ':thumbs_up_medium-dark_skin_tone:': '\u{0001F44D}\u{0001F3FE}',
+    ':thumbs_up_medium-light_skin_tone:': '\u{0001F44D}\u{0001F3FC}',
+    ':thumbs_up_medium_skin_tone:': '\u{0001F44D}\u{0001F3FD}',
+    ':ticket:': '\u{0001F3AB}',
+    ':tiger:': '\u{0001F405}',
+    ':tiger_face:': '\u{0001F42F}',
+    ':timer_clock:': '\u{000023F2}',
+    ':timer_clock_selector:': '\u{000023F2}\u{0000FE0F}',
+    ':tired_face:': '\u{0001F62B}',
+    ':toilet:': '\u{0001F6BD}',
+    ':tomato:': '\u{0001F345}',
+    ':tongue:': '\u{0001F445}',
+    ':toolbox:': '\u{0001F9F0}',
+    ':tooth:': '\u{0001F9B7}',
+    ':top_hat:': '\u{0001F3A9}',
+    ':tornado:': '\u{0001F32A}',
+    ':tornado_selector:': '\u{0001F32A}\u{0000FE0F}',
+    ':trackball:': '\u{0001F5B2}',
+    ':trackball_selector:': '\u{0001F5B2}\u{0000FE0F}',
+    ':tractor:': '\u{0001F69C}',
+    ':trade_mark:': '\u{00002122}',
+    ':trade_mark_selector:': '\u{00002122}\u{0000FE0F}',
+    ':train:': '\u{0001F686}',
+    ':tram:': '\u{0001F68A}',
+    ':tram_car:': '\u{0001F68B}',
+    ':triangular_flag:': '\u{0001F6A9}',
+    ':triangular_ruler:': '\u{0001F4D0}',
+    ':trident_emblem:': '\u{0001F531}',
+    ':trolleybus:': '\u{0001F68E}',
+    ':trophy:': '\u{0001F3C6}',
+    ':tropical_drink:': '\u{0001F379}',
+    ':tropical_fish:': '\u{0001F420}',
+    ':trumpet:': '\u{0001F3BA}',
+    ':tulip:': '\u{0001F337}',
+    ':tumbler_glass:': '\u{0001F943}',
+    ':turkey:': '\u{0001F983}',
+    ':turtle:': '\u{0001F422}',
+    ':twelve-thirty:': '\u{0001F567}',
+    ':twelve_o\U2019clock:': '\u{0001F55B}',
+    ':two-hump_camel:': '\u{0001F42B}',
+    ':two-thirty:': '\u{0001F55D}',
+    ':two_hearts:': '\u{0001F495}',
+    ':two_men_holding_hands:': '\u{0001F46C}',
+    ':two_o\U2019clock:': '\u{0001F551}',
+    ':two_women_holding_hands:': '\u{0001F46D}',
+    ':umbrella:': '\u{00002602}',
+    ':umbrella_on_ground:': '\u{000026F1}',
+    ':umbrella_on_ground_selector:': '\u{000026F1}\u{0000FE0F}',
+    ':umbrella_selector:': '\u{00002602}\u{0000FE0F}',
+    ':umbrella_with_rain_drops:': '\u{00002614}',
+    ':unamused_face:': '\u{0001F612}',
+    ':unicorn_face:': '\u{0001F984}',
+    ':unlocked:': '\u{0001F513}',
+    ':up-down_arrow:': '\u{00002195}',
+    ':up-down_arrow_selector:': '\u{00002195}\u{0000FE0F}',
+    ':up-left_arrow:': '\u{00002196}',
+    ':up-left_arrow_selector:': '\u{00002196}\u{0000FE0F}',
+    ':up-right_arrow:': '\u{00002197}',
+    ':up-right_arrow_selector:': '\u{00002197}\u{0000FE0F}',
+    ':up_arrow:': '\u{00002B06}',
+    ':up_arrow_selector:': '\u{00002B06}\u{0000FE0F}',
+    ':upside-down_face:': '\u{0001F643}',
+    ':upwards_button:': '\u{0001F53C}',
+    ':vampire:': '\u{0001F9DB}',
+    ':vampire_dark_skin_tone:': '\u{0001F9DB}\u{0001F3FF}',
+    ':vampire_light_skin_tone:': '\u{0001F9DB}\u{0001F3FB}',
+    ':vampire_medium-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FE}',
+    ':vampire_medium-light_skin_tone:': '\u{0001F9DB}\u{0001F3FC}',
+    ':vampire_medium_skin_tone:': '\u{0001F9DB}\u{0001F3FD}',
+    ':vertical_traffic_light:': '\u{0001F6A6}',
+    ':vibration_mode:': '\u{0001F4F3}',
+    ':victory_hand:': '\u{0000270C}',
+    ':victory_hand_dark_skin_tone:': '\u{0000270C}\u{0001F3FF}',
+    ':victory_hand_light_skin_tone:': '\u{0000270C}\u{0001F3FB}',
+    ':victory_hand_medium-dark_skin_tone:': '\u{0000270C}\u{0001F3FE}',
+    ':victory_hand_medium-light_skin_tone:': '\u{0000270C}\u{0001F3FC}',
+    ':victory_hand_medium_skin_tone:': '\u{0000270C}\u{0001F3FD}',
+    ':victory_hand_selector:': '\u{0000270C}\u{0000FE0F}',
+    ':video_camera:': '\u{0001F4F9}',
+    ':video_game:': '\u{0001F3AE}',
+    ':videocassette:': '\u{0001F4FC}',
+    ':violin:': '\u{0001F3BB}',
+    ':volcano:': '\u{0001F30B}',
+    ':volleyball:': '\u{0001F3D0}',
+    ':vulcan_salute:': '\u{0001F596}',
+    ':vulcan_salute_dark_skin_tone:': '\u{0001F596}\u{0001F3FF}',
+    ':vulcan_salute_light_skin_tone:': '\u{0001F596}\u{0001F3FB}',
+    ':vulcan_salute_medium-dark_skin_tone:': '\u{0001F596}\u{0001F3FE}',
+    ':vulcan_salute_medium-light_skin_tone:': '\u{0001F596}\u{0001F3FC}',
+    ':vulcan_salute_medium_skin_tone:': '\u{0001F596}\u{0001F3FD}',
+    ':waffle:': '\u{0001F9C7}',
+    ':waning_crescent_moon:': '\u{0001F318}',
+    ':waning_gibbous_moon:': '\u{0001F316}',
+    ':warning:': '\u{000026A0}',
+    ':warning_selector:': '\u{000026A0}\u{0000FE0F}',
+    ':wastebasket:': '\u{0001F5D1}',
+    ':wastebasket_selector:': '\u{0001F5D1}\u{0000FE0F}',
+    ':watch:': '\u{0000231A}',
+    ':water_buffalo:': '\u{0001F403}',
+    ':water_closet:': '\u{0001F6BE}',
+    ':water_wave:': '\u{0001F30A}',
+    ':watermelon:': '\u{0001F349}',
+    ':waving_hand:': '\u{0001F44B}',
+    ':waving_hand_dark_skin_tone:': '\u{0001F44B}\u{0001F3FF}',
+    ':waving_hand_light_skin_tone:': '\u{0001F44B}\u{0001F3FB}',
+    ':waving_hand_medium-dark_skin_tone:': '\u{0001F44B}\u{0001F3FE}',
+    ':waving_hand_medium-light_skin_tone:': '\u{0001F44B}\u{0001F3FC}',
+    ':waving_hand_medium_skin_tone:': '\u{0001F44B}\u{0001F3FD}',
+    ':wavy_dash:': '\u{00003030}',
+    ':wavy_dash_selector:': '\u{00003030}\u{0000FE0F}',
+    ':waxing_crescent_moon:': '\u{0001F312}',
+    ':waxing_gibbous_moon:': '\u{0001F314}',
+    ':weary_cat_face:': '\u{0001F640}',
+    ':weary_face:': '\u{0001F629}',
+    ':wedding:': '\u{0001F492}',
+    ':whale:': '\u{0001F40B}',
+    ':wheel_of_dharma:': '\u{00002638}',
+    ':wheel_of_dharma_selector:': '\u{00002638}\u{0000FE0F}',
+    ':wheelchair_symbol:': '\u{0000267F}',
+    ':white-haired_man:': '\u{0001F468}\u{0000200D}\u{0001F9B3}',
+    ':white-haired_woman:': '\u{0001F469}\u{0000200D}\u{0001F9B3}',
+    ':white_circle:': '\u{000026AA}',
+    ':white_exclamation_mark:': '\u{00002755}',
+    ':white_flag:': '\u{0001F3F3}',
+    ':white_flag_selector:': '\u{0001F3F3}\u{0000FE0F}',
+    ':white_flower:': '\u{0001F4AE}',
+    ':white_hair:': '\u{0001F9B3}',
+    ':white_heart:': '\u{0001F90D}',
+    ':white_heavy_check_mark:': '\u{00002705}',
+    ':white_large_square:': '\u{00002B1C}',
+    ':white_medium-small_square:': '\u{000025FD}',
+    ':white_medium_square:': '\u{000025FB}',
+    ':white_medium_square_selector:': '\u{000025FB}\u{0000FE0F}',
+    ':white_medium_star:': '\u{00002B50}',
+    ':white_question_mark:': '\u{00002754}',
+    ':white_small_square:': '\u{000025AB}',
+    ':white_small_square_selector:': '\u{000025AB}\u{0000FE0F}',
+    ':white_square_button:': '\u{0001F533}',
+    ':wilted_flower:': '\u{0001F940}',
+    ':wind_chime:': '\u{0001F390}',
+    ':wind_face:': '\u{0001F32C}',
+    ':wind_face_selector:': '\u{0001F32C}\u{0000FE0F}',
+    ':wine_glass:': '\u{0001F377}',
+    ':winking_face:': '\u{0001F609}',
+    ':winking_face_with_tongue:': '\u{0001F61C}',
+    ':wolf_face:': '\u{0001F43A}',
+    ':woman-blond_hair:': '\u{0001F471}\u{0000200D}\u{00002640}',
+    ':woman-dark_skin_tone-bald:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B2}',
+    ':woman-dark_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman-dark_skin_tone-curly_hair:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B1}',
+    ':woman-dark_skin_tone-red_hair:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B0}',
+    ':woman-dark_skin_tone-white_hair:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B3}',
+    ':woman-light_skin_tone-bald:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B2}',
+    ':woman-light_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman-light_skin_tone-curly_hair:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B1}',
+    ':woman-light_skin_tone-red_hair:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B0}',
+    ':woman-light_skin_tone-white_hair:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B3}',
+    ':woman-medium-dark_skin_tone-bald:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B2}',
+    ':woman-medium-dark_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman-medium-dark_skin_tone-curly_hair:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B1}',
+    ':woman-medium-dark_skin_tone-red_hair:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B0}',
+    ':woman-medium-dark_skin_tone-white_hair:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B3}',
+    ':woman-medium-light_skin_tone-bald:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B2}',
+    ':woman-medium-light_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman-medium-light_skin_tone-curly_hair:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B1}',
+    ':woman-medium-light_skin_tone-red_hair:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B0}',
+    ':woman-medium-light_skin_tone-white_hair:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B3}',
+    ':woman-medium_skin_tone-bald:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B2}',
+    ':woman-medium_skin_tone-blond_hair:': '\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman-medium_skin_tone-curly_hair:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B1}',
+    ':woman-medium_skin_tone-red_hair:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B0}',
+    ':woman-medium_skin_tone-white_hair:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B3}',
+    ':woman:': '\u{0001F469}',
+    ':woman_and_man_holding_hands-dark_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':woman_and_man_holding_hands-dark_skin_tone-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}',
+    ':woman_and_man_holding_hands-dark_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':woman_and_man_holding_hands-dark_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':woman_and_man_holding_hands-dark_skin_tone:': '\u{0001F46B}\u{0001F3FF}',
+    ':woman_and_man_holding_hands-light_skin_tone-dark_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}',
+    ':woman_and_man_holding_hands-light_skin_tone-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}',
+    ':woman_and_man_holding_hands-light_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':woman_and_man_holding_hands-light_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':woman_and_man_holding_hands-light_skin_tone:': '\u{0001F46B}\u{0001F3FB}',
+    ':woman_and_man_holding_hands-medium-dark_skin_tone-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}',
+    ':woman_and_man_holding_hands-medium-dark_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':woman_and_man_holding_hands-medium-dark_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':woman_and_man_holding_hands-medium-dark_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':woman_and_man_holding_hands-medium-dark_skin_tone:': '\u{0001F46B}\u{0001F3FE}',
+    ':woman_and_man_holding_hands-medium-light_skin_tone-dark_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}',
+    ':woman_and_man_holding_hands-medium-light_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':woman_and_man_holding_hands-medium-light_skin_tone-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}',
+    ':woman_and_man_holding_hands-medium-light_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}',
+    ':woman_and_man_holding_hands-medium-light_skin_tone:': '\u{0001F46B}\u{0001F3FC}',
+    ':woman_and_man_holding_hands-medium_skin_tone-dark_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}',
+    ':woman_and_man_holding_hands-medium_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}',
+    ':woman_and_man_holding_hands-medium_skin_tone-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}',
+    ':woman_and_man_holding_hands-medium_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}',
+    ':woman_and_man_holding_hands-medium_skin_tone:': '\u{0001F46B}\u{0001F3FD}',
+    ':woman_artist:': '\u{0001F469}\u{0000200D}\u{0001F3A8}',
+    ':woman_artist_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3A8}',
+    ':woman_artist_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3A8}',
+    ':woman_artist_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3A8}',
+    ':woman_artist_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3A8}',
+    ':woman_artist_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3A8}',
+    ':woman_astronaut:': '\u{0001F469}\u{0000200D}\u{0001F680}',
+    ':woman_astronaut_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F680}',
+    ':woman_astronaut_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F680}',
+    ':woman_astronaut_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F680}',
+    ':woman_astronaut_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F680}',
+    ':woman_astronaut_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F680}',
+    ':woman_biking-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_biking-light_skin_tone:': '\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_biking-medium-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_biking-medium-light_skin_tone:': '\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_biking-medium_skin_tone:': '\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_biking:': '\u{0001F6B4}\u{0000200D}\u{00002640}',
+    ':woman_biking_dark_skin_tone:': '\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_biking_light_skin_tone:': '\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_biking_medium-dark_skin_tone:': '\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_biking_medium-light_skin_tone:': '\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_biking_medium_skin_tone:': '\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_biking_selector:': '\u{0001F6B4}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball-dark_skin_tone:': '\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball-light_skin_tone:': '\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball-medium-dark_skin_tone:': '\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball-medium-light_skin_tone:': '\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball-medium_skin_tone:': '\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball:': '\u{000026F9}\u{0000200D}\u{00002640}',
+    ':woman_bouncing_ball_2:': '\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_3:': '\u{000026F9}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_dark_skin_tone:': '\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_light_skin_tone:': '\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_medium-dark_skin_tone:': '\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_medium-light_skin_tone:': '\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_medium_skin_tone:': '\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bouncing_ball_selector:': '\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002640}',
+    ':woman_bowing-dark_skin_tone:': '\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_bowing-light_skin_tone:': '\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_bowing-medium-dark_skin_tone:': '\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_bowing-medium-light_skin_tone:': '\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_bowing-medium_skin_tone:': '\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_bowing:': '\u{0001F647}\u{0000200D}\u{00002640}',
+    ':woman_bowing_dark_skin_tone:': '\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bowing_light_skin_tone:': '\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bowing_medium-dark_skin_tone:': '\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bowing_medium-light_skin_tone:': '\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bowing_medium_skin_tone:': '\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_bowing_selector:': '\u{0001F647}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling-dark_skin_tone:': '\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling-light_skin_tone:': '\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling-medium-dark_skin_tone:': '\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling-medium-light_skin_tone:': '\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling-medium_skin_tone:': '\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling:': '\u{0001F938}\u{0000200D}\u{00002640}',
+    ':woman_cartwheeling_dark_skin_tone:': '\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling_light_skin_tone:': '\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling_medium-dark_skin_tone:': '\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling_medium-light_skin_tone:': '\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling_medium_skin_tone:': '\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cartwheeling_selector:': '\u{0001F938}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_climbing-light_skin_tone:': '\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_climbing-medium-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_climbing-medium-light_skin_tone:': '\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_climbing-medium_skin_tone:': '\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_climbing:': '\u{0001F9D7}\u{0000200D}\u{00002640}',
+    ':woman_climbing_dark_skin_tone:': '\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing_light_skin_tone:': '\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing_medium-dark_skin_tone:': '\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing_medium-light_skin_tone:': '\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing_medium_skin_tone:': '\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_climbing_selector:': '\u{0001F9D7}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker-dark_skin_tone:': '\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker-light_skin_tone:': '\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker-medium-dark_skin_tone:': '\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker-medium-light_skin_tone:': '\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker-medium_skin_tone:': '\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker:': '\u{0001F477}\u{0000200D}\u{00002640}',
+    ':woman_construction_worker_dark_skin_tone:': '\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker_light_skin_tone:': '\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker_medium-dark_skin_tone:': '\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker_medium-light_skin_tone:': '\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker_medium_skin_tone:': '\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_construction_worker_selector:': '\u{0001F477}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_cook:': '\u{0001F469}\u{0000200D}\u{0001F373}',
+    ':woman_cook_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F373}',
+    ':woman_cook_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F373}',
+    ':woman_cook_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F373}',
+    ':woman_cook_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F373}',
+    ':woman_cook_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F373}',
+    ':woman_dancing:': '\u{0001F483}',
+    ':woman_dancing_dark_skin_tone:': '\u{0001F483}\u{0001F3FF}',
+    ':woman_dancing_light_skin_tone:': '\u{0001F483}\u{0001F3FB}',
+    ':woman_dancing_medium-dark_skin_tone:': '\u{0001F483}\u{0001F3FE}',
+    ':woman_dancing_medium-light_skin_tone:': '\u{0001F483}\u{0001F3FC}',
+    ':woman_dancing_medium_skin_tone:': '\u{0001F483}\u{0001F3FD}',
+    ':woman_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}',
+    ':woman_detective-dark_skin_tone:': '\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_detective-light_skin_tone:': '\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_detective-medium-dark_skin_tone:': '\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_detective-medium-light_skin_tone:': '\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_detective-medium_skin_tone:': '\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_detective:': '\u{0001F575}\u{0000200D}\u{00002640}',
+    ':woman_detective_2:': '\u{0001F575}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_dark_skin_tone:': '\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_light_skin_tone:': '\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_medium-dark_skin_tone:': '\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_medium-light_skin_tone:': '\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_medium_skin_tone:': '\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_detective_selector:': '\u{0001F575}\u{0000FE0F}\u{0000200D}\u{00002640}',
+    ':woman_elf-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_elf-light_skin_tone:': '\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_elf-medium-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_elf-medium-light_skin_tone:': '\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_elf-medium_skin_tone:': '\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_elf:': '\u{0001F9DD}\u{0000200D}\u{00002640}',
+    ':woman_elf_dark_skin_tone:': '\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_elf_light_skin_tone:': '\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_elf_medium-dark_skin_tone:': '\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_elf_medium-light_skin_tone:': '\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_elf_medium_skin_tone:': '\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_elf_selector:': '\u{0001F9DD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming-dark_skin_tone:': '\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_facepalming-light_skin_tone:': '\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_facepalming-medium-dark_skin_tone:': '\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_facepalming-medium-light_skin_tone:': '\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_facepalming-medium_skin_tone:': '\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_facepalming:': '\u{0001F926}\u{0000200D}\u{00002640}',
+    ':woman_facepalming_dark_skin_tone:': '\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming_light_skin_tone:': '\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming_medium-dark_skin_tone:': '\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming_medium-light_skin_tone:': '\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming_medium_skin_tone:': '\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_facepalming_selector:': '\u{0001F926}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_factory_worker:': '\u{0001F469}\u{0000200D}\u{0001F3ED}',
+    ':woman_factory_worker_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3ED}',
+    ':woman_factory_worker_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3ED}',
+    ':woman_factory_worker_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3ED}',
+    ':woman_factory_worker_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3ED}',
+    ':woman_factory_worker_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3ED}',
+    ':woman_fairy-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_fairy-light_skin_tone:': '\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_fairy-medium-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_fairy-medium-light_skin_tone:': '\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_fairy-medium_skin_tone:': '\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_fairy:': '\u{0001F9DA}\u{0000200D}\u{00002640}',
+    ':woman_fairy_dark_skin_tone:': '\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_fairy_light_skin_tone:': '\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_fairy_medium-dark_skin_tone:': '\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_fairy_medium-light_skin_tone:': '\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_fairy_medium_skin_tone:': '\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_fairy_selector:': '\u{0001F9DA}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_farmer:': '\u{0001F469}\u{0000200D}\u{0001F33E}',
+    ':woman_farmer_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F33E}',
+    ':woman_farmer_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F33E}',
+    ':woman_farmer_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F33E}',
+    ':woman_farmer_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F33E}',
+    ':woman_farmer_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F33E}',
+    ':woman_firefighter:': '\u{0001F469}\u{0000200D}\u{0001F692}',
+    ':woman_firefighter_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F692}',
+    ':woman_firefighter_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F692}',
+    ':woman_firefighter_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F692}',
+    ':woman_firefighter_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F692}',
+    ':woman_firefighter_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F692}',
+    ':woman_frowning-dark_skin_tone:': '\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_frowning-light_skin_tone:': '\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_frowning-medium-dark_skin_tone:': '\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_frowning-medium-light_skin_tone:': '\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_frowning-medium_skin_tone:': '\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_frowning:': '\u{0001F64D}\u{0000200D}\u{00002640}',
+    ':woman_frowning_dark_skin_tone:': '\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_frowning_light_skin_tone:': '\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_frowning_medium-dark_skin_tone:': '\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_frowning_medium-light_skin_tone:': '\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_frowning_medium_skin_tone:': '\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_frowning_selector:': '\u{0001F64D}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_genie:': '\u{0001F9DE}\u{0000200D}\u{00002640}',
+    ':woman_genie_selector:': '\u{0001F9DE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO-dark_skin_tone:': '\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO-light_skin_tone:': '\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO-medium-dark_skin_tone:': '\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO-medium-light_skin_tone:': '\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO-medium_skin_tone:': '\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO:': '\u{0001F645}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_NO_dark_skin_tone:': '\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO_light_skin_tone:': '\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO_medium-dark_skin_tone:': '\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO_medium-light_skin_tone:': '\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO_medium_skin_tone:': '\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_NO_selector:': '\u{0001F645}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK-dark_skin_tone:': '\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK-light_skin_tone:': '\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK-medium-dark_skin_tone:': '\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK-medium-light_skin_tone:': '\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK-medium_skin_tone:': '\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK:': '\u{0001F646}\u{0000200D}\u{00002640}',
+    ':woman_gesturing_OK_dark_skin_tone:': '\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK_light_skin_tone:': '\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK_medium-dark_skin_tone:': '\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK_medium-light_skin_tone:': '\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK_medium_skin_tone:': '\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_gesturing_OK_selector:': '\u{0001F646}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut-dark_skin_tone:': '\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut-light_skin_tone:': '\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut-medium-dark_skin_tone:': '\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut-medium-light_skin_tone:': '\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut-medium_skin_tone:': '\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut:': '\u{0001F487}\u{0000200D}\u{00002640}',
+    ':woman_getting_haircut_dark_skin_tone:': '\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut_light_skin_tone:': '\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut_medium-dark_skin_tone:': '\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut_medium-light_skin_tone:': '\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut_medium_skin_tone:': '\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_haircut_selector:': '\u{0001F487}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage-dark_skin_tone:': '\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage-light_skin_tone:': '\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage-medium-dark_skin_tone:': '\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage-medium-light_skin_tone:': '\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage-medium_skin_tone:': '\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage:': '\u{0001F486}\u{0000200D}\u{00002640}',
+    ':woman_getting_massage_dark_skin_tone:': '\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage_light_skin_tone:': '\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage_medium-dark_skin_tone:': '\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage_medium-light_skin_tone:': '\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage_medium_skin_tone:': '\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_getting_massage_selector:': '\u{0001F486}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_golfing-light_skin_tone:': '\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_golfing-medium-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_golfing-medium-light_skin_tone:': '\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_golfing-medium_skin_tone:': '\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_golfing:': '\u{0001F3CC}\u{0000200D}\u{00002640}',
+    ':woman_golfing_2:': '\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_3:': '\u{0001F3CC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_dark_skin_tone:': '\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_light_skin_tone:': '\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_medium-dark_skin_tone:': '\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_medium-light_skin_tone:': '\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_medium_skin_tone:': '\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_golfing_selector:': '\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002640}',
+    ':woman_guard-dark_skin_tone:': '\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_guard-light_skin_tone:': '\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_guard-medium-dark_skin_tone:': '\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_guard-medium-light_skin_tone:': '\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_guard-medium_skin_tone:': '\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_guard:': '\u{0001F482}\u{0000200D}\u{00002640}',
+    ':woman_guard_dark_skin_tone:': '\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_guard_light_skin_tone:': '\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_guard_medium-dark_skin_tone:': '\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_guard_medium-light_skin_tone:': '\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_guard_medium_skin_tone:': '\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_guard_selector:': '\u{0001F482}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_health_worker-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002695}',
+    ':woman_health_worker-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002695}',
+    ':woman_health_worker-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002695}',
+    ':woman_health_worker-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002695}',
+    ':woman_health_worker-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002695}',
+    ':woman_health_worker:': '\u{0001F469}\u{0000200D}\u{00002695}',
+    ':woman_health_worker_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_health_worker_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_health_worker_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_health_worker_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_health_worker_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_health_worker_selector:': '\u{0001F469}\u{0000200D}\u{00002695}\u{0000FE0F}',
+    ':woman_in_lotus_position-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position-light_skin_tone:': '\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position-medium-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position-medium-light_skin_tone:': '\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position-medium_skin_tone:': '\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position:': '\u{0001F9D8}\u{0000200D}\u{00002640}',
+    ':woman_in_lotus_position_dark_skin_tone:': '\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_lotus_position_light_skin_tone:': '\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_lotus_position_medium-dark_skin_tone:': '\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_lotus_position_medium-light_skin_tone:': '\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_lotus_position_medium_skin_tone:': '\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_lotus_position_selector:': '\u{0001F9D8}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_manual_wheelchair-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_manual_wheelchair-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_manual_wheelchair-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_manual_wheelchair-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_manual_wheelchair-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_manual_wheelchair:': '\u{0001F469}\u{0000200D}\u{0001F9BD}',
+    ':woman_in_motorized_wheelchair-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_motorized_wheelchair-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_motorized_wheelchair-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_motorized_wheelchair-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_motorized_wheelchair-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_motorized_wheelchair:': '\u{0001F469}\u{0000200D}\u{0001F9BC}',
+    ':woman_in_steamy_room-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room-light_skin_tone:': '\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room-medium-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room-medium-light_skin_tone:': '\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room-medium_skin_tone:': '\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room:': '\u{0001F9D6}\u{0000200D}\u{00002640}',
+    ':woman_in_steamy_room_dark_skin_tone:': '\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_steamy_room_light_skin_tone:': '\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_steamy_room_medium-dark_skin_tone:': '\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_steamy_room_medium-light_skin_tone:': '\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_steamy_room_medium_skin_tone:': '\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_in_steamy_room_selector:': '\u{0001F9D6}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_judge-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002696}',
+    ':woman_judge-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002696}',
+    ':woman_judge-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002696}',
+    ':woman_judge-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002696}',
+    ':woman_judge-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002696}',
+    ':woman_judge:': '\u{0001F469}\u{0000200D}\u{00002696}',
+    ':woman_judge_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_judge_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_judge_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_judge_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_judge_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_judge_selector:': '\u{0001F469}\u{0000200D}\u{00002696}\u{0000FE0F}',
+    ':woman_juggling-dark_skin_tone:': '\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_juggling-light_skin_tone:': '\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_juggling-medium-dark_skin_tone:': '\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_juggling-medium-light_skin_tone:': '\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_juggling-medium_skin_tone:': '\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_juggling:': '\u{0001F939}\u{0000200D}\u{00002640}',
+    ':woman_juggling_dark_skin_tone:': '\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_juggling_light_skin_tone:': '\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_juggling_medium-dark_skin_tone:': '\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_juggling_medium-light_skin_tone:': '\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_juggling_medium_skin_tone:': '\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_juggling_selector:': '\u{0001F939}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_kneeling-dark_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling-light_skin_tone:': '\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_kneeling-light_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling-medium-dark_skin_tone:': '\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_kneeling-medium-dark_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling-medium-light_skin_tone:': '\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_kneeling-medium-light_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling-medium_skin_tone:': '\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_kneeling-medium_skin_tone_selector:': '\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_kneeling:': '\u{0001F9CE}\u{0000200D}\u{00002640}',
+    ':woman_kneeling_selector:': '\u{0001F9CE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights-light_skin_tone:': '\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights-medium-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights-medium-light_skin_tone:': '\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights-medium_skin_tone:': '\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights:': '\u{0001F3CB}\u{0000200D}\u{00002640}',
+    ':woman_lifting_weights_2:': '\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_3:': '\u{0001F3CB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_dark_skin_tone:': '\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_light_skin_tone:': '\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_medium-dark_skin_tone:': '\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_medium-light_skin_tone:': '\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_medium_skin_tone:': '\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_lifting_weights_selector:': '\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002640}',
+    ':woman_light_skin_tone:': '\u{0001F469}\u{0001F3FB}',
+    ':woman_mage-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_mage-light_skin_tone:': '\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_mage-medium-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_mage-medium-light_skin_tone:': '\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_mage-medium_skin_tone:': '\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_mage:': '\u{0001F9D9}\u{0000200D}\u{00002640}',
+    ':woman_mage_dark_skin_tone:': '\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mage_light_skin_tone:': '\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mage_medium-dark_skin_tone:': '\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mage_medium-light_skin_tone:': '\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mage_medium_skin_tone:': '\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mage_selector:': '\u{0001F9D9}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mechanic:': '\u{0001F469}\u{0000200D}\u{0001F527}',
+    ':woman_mechanic_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F527}',
+    ':woman_mechanic_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F527}',
+    ':woman_mechanic_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F527}',
+    ':woman_mechanic_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F527}',
+    ':woman_mechanic_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F527}',
+    ':woman_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}',
+    ':woman_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}',
+    ':woman_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}',
+    ':woman_mountain_biking-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking-light_skin_tone:': '\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking-medium-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking-medium-light_skin_tone:': '\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking-medium_skin_tone:': '\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking:': '\u{0001F6B5}\u{0000200D}\u{00002640}',
+    ':woman_mountain_biking_dark_skin_tone:': '\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mountain_biking_light_skin_tone:': '\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mountain_biking_medium-dark_skin_tone:': '\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mountain_biking_medium-light_skin_tone:': '\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mountain_biking_medium_skin_tone:': '\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_mountain_biking_selector:': '\u{0001F6B5}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_office_worker:': '\u{0001F469}\u{0000200D}\u{0001F4BC}',
+    ':woman_office_worker_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F4BC}',
+    ':woman_office_worker_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F4BC}',
+    ':woman_office_worker_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F4BC}',
+    ':woman_office_worker_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F4BC}',
+    ':woman_office_worker_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F4BC}',
+    ':woman_pilot-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002708}',
+    ':woman_pilot-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002708}',
+    ':woman_pilot-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002708}',
+    ':woman_pilot-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002708}',
+    ':woman_pilot-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002708}',
+    ':woman_pilot:': '\u{0001F469}\u{0000200D}\u{00002708}',
+    ':woman_pilot_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_pilot_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_pilot_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_pilot_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_pilot_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_pilot_selector:': '\u{0001F469}\u{0000200D}\u{00002708}\u{0000FE0F}',
+    ':woman_playing_handball-dark_skin_tone:': '\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball-light_skin_tone:': '\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball-medium-dark_skin_tone:': '\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball-medium-light_skin_tone:': '\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball-medium_skin_tone:': '\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball:': '\u{0001F93E}\u{0000200D}\u{00002640}',
+    ':woman_playing_handball_dark_skin_tone:': '\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_handball_light_skin_tone:': '\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_handball_medium-dark_skin_tone:': '\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_handball_medium-light_skin_tone:': '\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_handball_medium_skin_tone:': '\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_handball_selector:': '\u{0001F93E}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo-dark_skin_tone:': '\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo-light_skin_tone:': '\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo-medium-dark_skin_tone:': '\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo-medium-light_skin_tone:': '\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo-medium_skin_tone:': '\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo:': '\u{0001F93D}\u{0000200D}\u{00002640}',
+    ':woman_playing_water_polo_dark_skin_tone:': '\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo_light_skin_tone:': '\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo_medium-dark_skin_tone:': '\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo_medium-light_skin_tone:': '\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo_medium_skin_tone:': '\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_playing_water_polo_selector:': '\u{0001F93D}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer-dark_skin_tone:': '\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_police_officer-light_skin_tone:': '\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_police_officer-medium-dark_skin_tone:': '\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_police_officer-medium-light_skin_tone:': '\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_police_officer-medium_skin_tone:': '\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_police_officer:': '\u{0001F46E}\u{0000200D}\u{00002640}',
+    ':woman_police_officer_dark_skin_tone:': '\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer_light_skin_tone:': '\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer_medium-dark_skin_tone:': '\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer_medium-light_skin_tone:': '\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer_medium_skin_tone:': '\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_police_officer_selector:': '\u{0001F46E}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting-dark_skin_tone:': '\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_pouting-light_skin_tone:': '\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_pouting-medium-dark_skin_tone:': '\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_pouting-medium-light_skin_tone:': '\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_pouting-medium_skin_tone:': '\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_pouting:': '\u{0001F64E}\u{0000200D}\u{00002640}',
+    ':woman_pouting_dark_skin_tone:': '\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting_light_skin_tone:': '\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting_medium-dark_skin_tone:': '\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting_medium-light_skin_tone:': '\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting_medium_skin_tone:': '\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_pouting_selector:': '\u{0001F64E}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand-dark_skin_tone:': '\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand-light_skin_tone:': '\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand-medium-dark_skin_tone:': '\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand-medium-light_skin_tone:': '\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand-medium_skin_tone:': '\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand:': '\u{0001F64B}\u{0000200D}\u{00002640}',
+    ':woman_raising_hand_dark_skin_tone:': '\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand_light_skin_tone:': '\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand_medium-dark_skin_tone:': '\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand_medium-light_skin_tone:': '\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand_medium_skin_tone:': '\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_raising_hand_selector:': '\u{0001F64B}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat-light_skin_tone:': '\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat-medium-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat-medium-light_skin_tone:': '\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat-medium_skin_tone:': '\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat:': '\u{0001F6A3}\u{0000200D}\u{00002640}',
+    ':woman_rowing_boat_dark_skin_tone:': '\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat_light_skin_tone:': '\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat_medium-dark_skin_tone:': '\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat_medium-light_skin_tone:': '\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat_medium_skin_tone:': '\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_rowing_boat_selector:': '\u{0001F6A3}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_running-light_skin_tone:': '\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_running-medium-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_running-medium-light_skin_tone:': '\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_running-medium_skin_tone:': '\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_running:': '\u{0001F3C3}\u{0000200D}\u{00002640}',
+    ':woman_running_dark_skin_tone:': '\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running_light_skin_tone:': '\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running_medium-dark_skin_tone:': '\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running_medium-light_skin_tone:': '\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running_medium_skin_tone:': '\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_running_selector:': '\u{0001F3C3}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_scientist:': '\u{0001F469}\u{0000200D}\u{0001F52C}',
+    ':woman_scientist_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F52C}',
+    ':woman_scientist_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F52C}',
+    ':woman_scientist_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F52C}',
+    ':woman_scientist_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F52C}',
+    ':woman_scientist_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F52C}',
+    ':woman_shrugging-dark_skin_tone:': '\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_shrugging-light_skin_tone:': '\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_shrugging-medium-dark_skin_tone:': '\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_shrugging-medium-light_skin_tone:': '\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_shrugging-medium_skin_tone:': '\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_shrugging:': '\u{0001F937}\u{0000200D}\u{00002640}',
+    ':woman_shrugging_dark_skin_tone:': '\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_shrugging_light_skin_tone:': '\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_shrugging_medium-dark_skin_tone:': '\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_shrugging_medium-light_skin_tone:': '\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_shrugging_medium_skin_tone:': '\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_shrugging_selector:': '\u{0001F937}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_singer:': '\u{0001F469}\u{0000200D}\u{0001F3A4}',
+    ':woman_singer_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3A4}',
+    ':woman_singer_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3A4}',
+    ':woman_singer_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3A4}',
+    ':woman_singer_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3A4}',
+    ':woman_singer_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3A4}',
+    ':woman_standing-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_standing-dark_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_standing-light_skin_tone:': '\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_standing-light_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_standing-medium-dark_skin_tone:': '\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_standing-medium-dark_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_standing-medium-light_skin_tone:': '\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_standing-medium-light_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_standing-medium_skin_tone:': '\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_standing-medium_skin_tone_selector:': '\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_standing:': '\u{0001F9CD}\u{0000200D}\u{00002640}',
+    ':woman_standing_selector:': '\u{0001F9CD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_student:': '\u{0001F469}\u{0000200D}\u{0001F393}',
+    ':woman_student_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F393}',
+    ':woman_student_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F393}',
+    ':woman_student_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F393}',
+    ':woman_student_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F393}',
+    ':woman_student_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F393}',
+    ':woman_superhero-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_superhero-dark_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_superhero-light_skin_tone:': '\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_superhero-light_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_superhero-medium-dark_skin_tone:': '\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_superhero-medium-dark_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_superhero-medium-light_skin_tone:': '\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_superhero-medium-light_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_superhero-medium_skin_tone:': '\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_superhero-medium_skin_tone_selector:': '\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_superhero:': '\u{0001F9B8}\u{0000200D}\u{00002640}',
+    ':woman_superhero_selector:': '\u{0001F9B8}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_supervillain-dark_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain-light_skin_tone:': '\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_supervillain-light_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain-medium-dark_skin_tone:': '\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_supervillain-medium-dark_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain-medium-light_skin_tone:': '\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_supervillain-medium-light_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain-medium_skin_tone:': '\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_supervillain-medium_skin_tone_selector:': '\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_supervillain:': '\u{0001F9B9}\u{0000200D}\u{00002640}',
+    ':woman_supervillain_selector:': '\u{0001F9B9}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_surfing-light_skin_tone:': '\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_surfing-medium-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_surfing-medium-light_skin_tone:': '\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_surfing-medium_skin_tone:': '\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_surfing:': '\u{0001F3C4}\u{0000200D}\u{00002640}',
+    ':woman_surfing_dark_skin_tone:': '\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing_light_skin_tone:': '\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing_medium-dark_skin_tone:': '\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing_medium-light_skin_tone:': '\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing_medium_skin_tone:': '\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_surfing_selector:': '\u{0001F3C4}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_swimming-light_skin_tone:': '\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_swimming-medium-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_swimming-medium-light_skin_tone:': '\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_swimming-medium_skin_tone:': '\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_swimming:': '\u{0001F3CA}\u{0000200D}\u{00002640}',
+    ':woman_swimming_dark_skin_tone:': '\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming_light_skin_tone:': '\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming_medium-dark_skin_tone:': '\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming_medium-light_skin_tone:': '\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming_medium_skin_tone:': '\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_swimming_selector:': '\u{0001F3CA}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_teacher:': '\u{0001F469}\u{0000200D}\u{0001F3EB}',
+    ':woman_teacher_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3EB}',
+    ':woman_teacher_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3EB}',
+    ':woman_teacher_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3EB}',
+    ':woman_teacher_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3EB}',
+    ':woman_teacher_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3EB}',
+    ':woman_technologist:': '\u{0001F469}\u{0000200D}\u{0001F4BB}',
+    ':woman_technologist_dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F4BB}',
+    ':woman_technologist_light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F4BB}',
+    ':woman_technologist_medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F4BB}',
+    ':woman_technologist_medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F4BB}',
+    ':woman_technologist_medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F4BB}',
+    ':woman_tipping_hand-dark_skin_tone:': '\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand-light_skin_tone:': '\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand-medium-dark_skin_tone:': '\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand-medium-light_skin_tone:': '\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand-medium_skin_tone:': '\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand:': '\u{0001F481}\u{0000200D}\u{00002640}',
+    ':woman_tipping_hand_dark_skin_tone:': '\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_tipping_hand_light_skin_tone:': '\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_tipping_hand_medium-dark_skin_tone:': '\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_tipping_hand_medium-light_skin_tone:': '\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_tipping_hand_medium_skin_tone:': '\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_tipping_hand_selector:': '\u{0001F481}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_vampire-light_skin_tone:': '\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_vampire-medium-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_vampire-medium-light_skin_tone:': '\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_vampire-medium_skin_tone:': '\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_vampire:': '\u{0001F9DB}\u{0000200D}\u{00002640}',
+    ':woman_vampire_dark_skin_tone:': '\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire_light_skin_tone:': '\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire_medium-dark_skin_tone:': '\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire_medium-light_skin_tone:': '\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire_medium_skin_tone:': '\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_vampire_selector:': '\u{0001F9DB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_walking-light_skin_tone:': '\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_walking-medium-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_walking-medium-light_skin_tone:': '\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_walking-medium_skin_tone:': '\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_walking:': '\u{0001F6B6}\u{0000200D}\u{00002640}',
+    ':woman_walking_dark_skin_tone:': '\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking_light_skin_tone:': '\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking_medium-dark_skin_tone:': '\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking_medium-light_skin_tone:': '\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking_medium_skin_tone:': '\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_walking_selector:': '\u{0001F6B6}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban-dark_skin_tone:': '\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban-light_skin_tone:': '\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban-medium-dark_skin_tone:': '\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban-medium-light_skin_tone:': '\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban-medium_skin_tone:': '\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban:': '\u{0001F473}\u{0000200D}\u{00002640}',
+    ':woman_wearing_turban_dark_skin_tone:': '\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban_light_skin_tone:': '\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban_medium-dark_skin_tone:': '\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban_medium-light_skin_tone:': '\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban_medium_skin_tone:': '\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_wearing_turban_selector:': '\u{0001F473}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman_with_headscarf:': '\u{0001F9D5}',
+    ':woman_with_headscarf_dark_skin_tone:': '\u{0001F9D5}\u{0001F3FF}',
+    ':woman_with_headscarf_light_skin_tone:': '\u{0001F9D5}\u{0001F3FB}',
+    ':woman_with_headscarf_medium-dark_skin_tone:': '\u{0001F9D5}\u{0001F3FE}',
+    ':woman_with_headscarf_medium-light_skin_tone:': '\u{0001F9D5}\u{0001F3FC}',
+    ':woman_with_headscarf_medium_skin_tone:': '\u{0001F9D5}\u{0001F3FD}',
+    ':woman_with_probing_cane-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9AF}',
+    ':woman_with_probing_cane-light_skin_tone:': '\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9AF}',
+    ':woman_with_probing_cane-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9AF}',
+    ':woman_with_probing_cane-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9AF}',
+    ':woman_with_probing_cane-medium_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9AF}',
+    ':woman_with_probing_cane:': '\u{0001F469}\u{0000200D}\u{0001F9AF}',
+    ':woman_zombie:': '\u{0001F9DF}\u{0000200D}\u{00002640}',
+    ':woman_zombie_selector:': '\u{0001F9DF}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':woman\u2019s_boot:': '\u{0001F462}',
+    ':woman\u2019s_clothes:': '\u{0001F45A}',
+    ':woman\u2019s_hat:': '\u{0001F452}',
+    ':woman\u2019s_sandal:': '\u{0001F461}',
+    ':women_holding_hands-dark_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}',
+    ':women_holding_hands-dark_skin_tone-medium-dark_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FE}',
+    ':women_holding_hands-dark_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}',
+    ':women_holding_hands-dark_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FD}',
+    ':women_holding_hands-dark_skin_tone:': '\u{0001F46D}\u{0001F3FF}',
+    ':women_holding_hands-light_skin_tone:': '\u{0001F46D}\u{0001F3FB}',
+    ':women_holding_hands-medium-dark_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}',
+    ':women_holding_hands-medium-dark_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}',
+    ':women_holding_hands-medium-dark_skin_tone-medium_skin_tone:': '\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FD}',
+    ':women_holding_hands-medium-dark_skin_tone:': '\u{0001F46D}\u{0001F3FE}',
+    ':women_holding_hands-medium-light_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}',
+    ':women_holding_hands-medium-light_skin_tone:': '\u{0001F46D}\u{0001F3FC}',
+    ':women_holding_hands-medium_skin_tone-light_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}',
+    ':women_holding_hands-medium_skin_tone-medium-light_skin_tone:': '\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}',
+    ':women_holding_hands-medium_skin_tone:': '\u{0001F46D}\u{0001F3FD}',
+    ':women_with_bunny_ears:': '\u{0001F46F}\u{0000200D}\u{00002640}',
+    ':women_with_bunny_ears_selector:': '\u{0001F46F}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':women_wrestling:': '\u{0001F93C}\u{0000200D}\u{00002640}',
+    ':women_wrestling_selector:': '\u{0001F93C}\u{0000200D}\u{00002640}\u{0000FE0F}',
+    ':women\u2019s_room:': '\u{0001F6BA}',
+    ':woozy_face:': '\u{0001F974}',
+    ':world_map:': '\u{0001F5FA}',
+    ':world_map_selector:': '\u{0001F5FA}\u{0000FE0F}',
+    ':worried_face:': '\u{0001F61F}',
+    ':wrapped_gift:': '\u{0001F381}',
+    ':wrench:': '\u{0001F527}',
+    ':writing_hand:': '\u{0000270D}',
+    ':writing_hand_dark_skin_tone:': '\u{0000270D}\u{0001F3FF}',
+    ':writing_hand_light_skin_tone:': '\u{0000270D}\u{0001F3FB}',
+    ':writing_hand_medium-dark_skin_tone:': '\u{0000270D}\u{0001F3FE}',
+    ':writing_hand_medium-light_skin_tone:': '\u{0000270D}\u{0001F3FC}',
+    ':writing_hand_medium_skin_tone:': '\u{0000270D}\u{0001F3FD}',
+    ':writing_hand_selector:': '\u{0000270D}\u{0000FE0F}',
+    ':yarn:': '\u{0001F9F6}',
+    ':yawning_face:': '\u{0001F971}',
+    ':yellow_circle:': '\u{0001F7E1}',
+    ':yellow_heart:': '\u{0001F49B}',
+    ':yellow_square:': '\u{0001F7E8}',
+    ':yen_banknote:': '\u{0001F4B4}',
+    ':yin_yang:': '\u{0000262F}',
+    ':yin_yang_selector:': '\u{0000262F}\u{0000FE0F}',
+    ':yo-yo:': '\u{0001FA80}',
+    ':zany_face:': '\u{0001F92A}',
+    ':zebra:': '\u{0001F993}',
+    ':zipper-mouth_face:': '\u{0001F910}',
+    ':zombie:': '\u{0001F9DF}',
+    ':zzz:': '\u{0001F4A4}',
+}
+
+let EMOJI_ZH = {
+    "\u{0001F947}": ":\u91d1\u724c:",
+    "\u{0001F948}": ":\u94f6\u724c:",
+    "\u{0001F949}": ":\u94dc\u724c:",
+    "\u{0001F18E}": ":AB\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F3E7}": ":ATM\u6807\u5fd7:",
+    "\u{0001F170}": ":\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F170}\u{0000FE0F}": ":\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F1E6}\u{0001F1EB}": ":\u963f\u5bcc\u6c57:",
+    "\u{0001F1E6}\u{0001F1FD}": ":\u963f\u5170\u7fa4\u5c9b:",
+    "\u{0001F1E6}\u{0001F1F1}": ":\u963f\u5c14\u5df4\u5c3c\u4e9a:",
+    "\u{0001F1E9}\u{0001F1FF}": ":\u963f\u5c14\u53ca\u5229\u4e9a:",
+    "\u{0001F1E6}\u{0001F1F8}": ":\u7f8e\u5c5e\u8428\u6469\u4e9a:",
+    "\u{0001F1E6}\u{0001F1E9}": ":\u5b89\u9053\u5c14:",
+    "\u{0001F1E6}\u{0001F1F4}": ":\u5b89\u54e5\u62c9:",
+    "\u{0001F1E6}\u{0001F1EE}": ":\u5b89\u572d\u62c9:",
+    "\u{0001F1E6}\u{0001F1F6}": ":\u5357\u6781\u6d32:",
+    "\u{0001F1E6}\u{0001F1EC}": ":\u5b89\u63d0\u74dc\u548c\u5df4\u5e03\u8fbe:",
+    "\u{00002652}": ":\u6c34\u74f6\u5ea7:",
+    "\u{0001F1E6}\u{0001F1F7}": ":\u963f\u6839\u5ef7:",
+    "\u{00002648}": ":\u767d\u7f8a\u5ea7:",
+    "\u{0001F1E6}\u{0001F1F2}": ":\u4e9a\u7f8e\u5c3c\u4e9a:",
+    "\u{0001F1E6}\u{0001F1FC}": ":\u963f\u9c81\u5df4:",
+    "\u{0001F1E6}\u{0001F1E8}": ":\u963f\u68ee\u677e\u5c9b:",
+    "\u{0001F1E6}\u{0001F1FA}": ":\u6fb3\u5927\u5229\u4e9a:",
+    "\u{0001F1E6}\u{0001F1F9}": ":\u5965\u5730\u5229:",
+    "\u{0001F1E6}\u{0001F1FF}": ":\u963f\u585e\u62dc\u7586:",
+    "\u{0001F519}": ":\u540e\u9000\u7bad\u5934:",
+    "\u{0001F171}": ":B\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F171}\u{0000FE0F}": ":B\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F1E7}\u{0001F1F8}": ":\u5df4\u54c8\u9a6c:",
+    "\u{0001F1E7}\u{0001F1ED}": ":\u5df4\u6797:",
+    "\u{0001F1E7}\u{0001F1E9}": ":\u5b5f\u52a0\u62c9\u56fd:",
+    "\u{0001F1E7}\u{0001F1E7}": ":\u5df4\u5df4\u591a\u65af:",
+    "\u{0001F1E7}\u{0001F1FE}": ":\u767d\u4fc4\u7f57\u65af:",
+    "\u{0001F1E7}\u{0001F1EA}": ":\u6bd4\u5229\u65f6:",
+    "\u{0001F1E7}\u{0001F1FF}": ":\u4f2f\u5229\u5179:",
+    "\u{0001F1E7}\u{0001F1EF}": ":\u8d1d\u5b81:",
+    "\u{0001F1E7}\u{0001F1F2}": ":\u767e\u6155\u5927\u7fa4\u5c9b:",
+    "\u{0001F1E7}\u{0001F1F9}": ":\u4e0d\u4e39:",
+    "\u{0001F1E7}\u{0001F1F4}": ":\u73bb\u5229\u7ef4\u4e9a:",
+    "\u{0001F1E7}\u{0001F1E6}": ":\u6ce2\u65af\u5c3c\u4e9a\u548c\u9ed1\u585e\u54e5\u7ef4\u90a3:",
+    "\u{0001F1E7}\u{0001F1FC}": ":\u535a\u8328\u74e6\u7eb3:",
+    "\u{0001F1E7}\u{0001F1FB}": ":\u5e03\u97e6\u5c9b:",
+    "\u{0001F1E7}\u{0001F1F7}": ":\u5df4\u897f:",
+    "\u{0001F1EE}\u{0001F1F4}": ":\u82f1\u5c5e\u5370\u5ea6\u6d0b\u9886\u571f:",
+    "\u{0001F1FB}\u{0001F1EC}": ":\u82f1\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b:",
+    "\u{0001F1E7}\u{0001F1F3}": ":\u6587\u83b1:",
+    "\u{0001F1E7}\u{0001F1EC}": ":\u4fdd\u52a0\u5229\u4e9a:",
+    "\u{0001F1E7}\u{0001F1EB}": ":\u5e03\u57fa\u7eb3\u6cd5\u7d22:",
+    "\u{0001F1E7}\u{0001F1EE}": ":\u5e03\u9686\u8fea:",
+    "\u{0001F191}": ":CL\u6309\u94ae:",
+    "\u{0001F192}": ":\u51b7\u5374\u6309\u94ae:",
+    "\u{0001F1F0}\u{0001F1ED}": ":\u67ec\u57d4\u5be8:",
+    "\u{0001F1E8}\u{0001F1F2}": ":\u5580\u9ea6\u9686:",
+    "\u{0001F1E8}\u{0001F1E6}": ":\u52a0\u62ff\u5927:",
+    "\u{0001F1EE}\u{0001F1E8}": ":\u52a0\u90a3\u5229\u7fa4\u5c9b:",
+    "\u{0000264B}": ":\u764c\u75c7:",
+    "\u{0001F1E8}\u{0001F1FB}": ":\u4f5b\u5f97\u89d2:",
+    "\u{00002651}": ":\u6469\u7faf\u5ea7:",
+    "\u{0001F1E7}\u{0001F1F6}": ":\u8377\u5170\u52a0\u52d2\u6bd4\u533a:",
+    "\u{0001F1F0}\u{0001F1FE}": ":\u5f00\u66fc\u7fa4\u5c9b:",
+    "\u{0001F1E8}\u{0001F1EB}": ":\u4e2d\u975e\u5171\u548c\u56fd:",
+    "\u{0001F1EA}\u{0001F1E6}": ":\u4f11\u8fbe\u548c\u6885\u5229\u62c9:",
+    "\u{0001F1F9}\u{0001F1E9}": ":\u4e4d\u5f97:",
+    "\u{0001F1E8}\u{0001F1F1}": ":\u667a\u5229:",
+    "\u{0001F1E8}\u{0001F1F3}": ":\u4e2d\u56fd:",
+    "\u{0001F1E8}\u{0001F1FD}": ":\u5723\u8bde\u5c9b:",
+    "\u{0001F384}": ":\u5723\u8bde\u6811:",
+    "\u{0001F1E8}\u{0001F1F5}": ":\u514b\u5229\u73c0\u987f\u5c9b:",
+    "\u{0001F1E8}\u{0001F1E8}": ":\u79d1\u79d1\u65af\uff08\u57fa\u6797\uff09\u7fa4\u5c9b:",
+    "\u{0001F1E8}\u{0001F1F4}": ":\u54e5\u4f26\u6bd4\u4e9a:",
+    "\u{0001F1F0}\u{0001F1F2}": ":\u79d1\u6469\u7f57:",
+    "\u{0001F1E8}\u{0001F1EC}": ":\u521a\u679c-\u5e03\u62c9\u67f4\u7ef4\u5c14:",
+    "\u{0001F1E8}\u{0001F1E9}": ":\u521a\u679c-\u91d1\u6c99\u8428:",
+    "\u{0001F1E8}\u{0001F1F0}": ":\u5e93\u514b\u7fa4\u5c9b:",
+    "\u{0001F1E8}\u{0001F1F7}": ":\u54e5\u65af\u8fbe\u9ece\u52a0:",
+    "\u{0001F1ED}\u{0001F1F7}": ":\u514b\u7f57\u5730\u4e9a:",
+    "\u{0001F1E8}\u{0001F1FA}": ":\u53e4\u5df4:",
+    "\u{0001F1E8}\u{0001F1FC}": ":\u5e93\u62c9\u7d22\u5c9b:",
+    "\u{0001F1E8}\u{0001F1FE}": ":\u585e\u6d66\u8def\u65af:",
+    "\u{0001F1E8}\u{0001F1FF}": ":\u6377\u514b:",
+    "\u{0001F1E8}\u{0001F1EE}": ":\u79d1\u7279\u8fea\u74e6:",
+    "\u{0001F1E9}\u{0001F1F0}": ":\u4e39\u9ea6:",
+    "\u{0001F1E9}\u{0001F1EC}": ":\u8fed\u6208\u00b7\u52a0\u897f\u4e9a:",
+    "\u{0001F1E9}\u{0001F1EF}": ":\u5409\u5e03\u63d0:",
+    "\u{0001F1E9}\u{0001F1F2}": ":\u591a\u7c73\u5c3c\u52a0:",
+    "\u{0001F1E9}\u{0001F1F4}": ":\u591a\u7c73\u5c3c\u52a0\u5171\u548c\u56fd:",
+    "\u{0001F51A}": ":\u7ed3\u675f\u7bad\u5934:",
+    "\u{0001F1EA}\u{0001F1E8}": ":\u5384\u74dc\u591a\u5c14:",
+    "\u{0001F1EA}\u{0001F1EC}": ":\u57c3\u53ca:",
+    "\u{0001F1F8}\u{0001F1FB}": ":\u8428\u5c14\u74e6\u591a:",
+    "\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0065}\u{000E006E}\u{000E0067}\u{000E007F}": ":\u82f1\u683c\u5170:",
+    "\u{0001F1EC}\u{0001F1F6}": ":\u8d64\u9053\u51e0\u5185\u4e9a:",
+    "\u{0001F1EA}\u{0001F1F7}": ":\u5384\u7acb\u7279\u91cc\u4e9a:",
+    "\u{0001F1EA}\u{0001F1EA}": ":\u7231\u6c99\u5c3c\u4e9a:",
+    "\u{0001F1EA}\u{0001F1F9}": ":\u57c3\u585e\u4fc4\u6bd4\u4e9a:",
+    "\u{0001F1EA}\u{0001F1FA}": ":\u6b27\u6d32\u8054\u76df:",
+    "\u{0001F193}": ":\u81ea\u7531\u6309\u94ae:",
+    "\u{0001F1EB}\u{0001F1F0}": ":\u798f\u514b\u5170\u7fa4\u5c9b:",
+    "\u{0001F1EB}\u{0001F1F4}": ":\u6cd5\u7f57\u7fa4\u5c9b:",
+    "\u{0001F1EB}\u{0001F1EF}": ":\u6590\u6d4e:",
+    "\u{0001F1EB}\u{0001F1EE}": ":\u82ac\u5170:",
+    "\u{0001F1EB}\u{0001F1F7}": ":\u6cd5\u56fd:",
+    "\u{0001F1EC}\u{0001F1EB}": ":\u6cd5\u5c5e\u572d\u4e9a\u90a3:",
+    "\u{0001F1F5}\u{0001F1EB}": ":\u6cd5\u5c5e\u6ce2\u5229\u5c3c\u897f\u4e9a:",
+    "\u{0001F1F9}\u{0001F1EB}": ":\u6cd5\u5c5e\u5357\u90e8\u9886\u5730:",
+    "\u{0001F1EC}\u{0001F1E6}": ":\u52a0\u84ec:",
+    "\u{0001F1EC}\u{0001F1F2}": ":\u5188\u6bd4\u4e9a:",
+    "\u{0000264A}": ":\u53cc\u5b50\u5ea7:",
+    "\u{0001F1EC}\u{0001F1EA}": ":\u4f50\u6cbb\u4e9a\u5dde:",
+    "\u{0001F1E9}\u{0001F1EA}": ":\u5fb7\u56fd:",
+    "\u{0001F1EC}\u{0001F1ED}": ":\u52a0\u7eb3:",
+    "\u{0001F1EC}\u{0001F1EE}": ":\u76f4\u5e03\u7f57\u9640:",
+    "\u{0001F1EC}\u{0001F1F7}": ":\u5e0c\u814a:",
+    "\u{0001F1EC}\u{0001F1F1}": ":\u683c\u9675\u5170\u5c9b:",
+    "\u{0001F1EC}\u{0001F1E9}": ":\u683c\u6797\u7eb3\u8fbe:",
+    "\u{0001F1EC}\u{0001F1F5}": ":\u74dc\u5fb7\u7f57\u666e\u5c9b:",
+    "\u{0001F1EC}\u{0001F1FA}": ":\u5173\u5c9b:",
+    "\u{0001F1EC}\u{0001F1F9}": ":\u5371\u5730\u9a6c\u62c9:",
+    "\u{0001F1EC}\u{0001F1EC}": ":\u6839\u897f\u5c9b:",
+    "\u{0001F1EC}\u{0001F1FC}": ":\u51e0\u5185\u4e9a\u6bd4\u7ecd:",
+    "\u{0001F1EC}\u{0001F1F3}": ":\u51e0\u5185\u4e9a:",
+    "\u{0001F1EC}\u{0001F1FE}": ":\u572d\u4e9a\u90a3:",
+    "\u{0001F1ED}\u{0001F1F9}": ":\u6d77\u5730:",
+    "\u{0001F1ED}\u{0001F1F2}": ":\u8d6b\u5fb7\u548c\u9ea6\u514b\u5510\u7eb3\u7fa4\u5c9b:",
+    "\u{0001F1ED}\u{0001F1F3}": ":\u6d2a\u90fd\u62c9\u65af:",
+    "\u{0001F1ED}\u{0001F1F0}": ":\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a\u4e2d\u56fd:",
+    "\u{0001F1ED}\u{0001F1FA}": ":\u5308\u7259\u5229:",
+    "\u{0001F194}": ":ID\u6309\u94ae:",
+    "\u{0001F1EE}\u{0001F1F8}": ":\u51b0\u5c9b:",
+    "\u{0001F1EE}\u{0001F1F3}": ":\u5370\u5ea6:",
+    "\u{0001F1EE}\u{0001F1E9}": ":\u5370\u5ea6\u5c3c\u897f\u4e9a:",
+    "\u{0001F1EE}\u{0001F1F7}": ":\u4f0a\u6717:",
+    "\u{0001F1EE}\u{0001F1F6}": ":\u4f0a\u62c9\u514b:",
+    "\u{0001F1EE}\u{0001F1EA}": ":\u7231\u5c14\u5170:",
+    "\u{0001F1EE}\u{0001F1F2}": ":\u9a6c\u6069\u5c9b:",
+    "\u{0001F1EE}\u{0001F1F1}": ":\u4ee5\u8272\u5217:",
+    "\u{0001F1EE}\u{0001F1F9}": ":\u610f\u5927\u5229:",
+    "\u{0001F1EF}\u{0001F1F2}": ":\u7259\u4e70\u52a0:",
+    "\u{0001F1EF}\u{0001F1F5}": ":\u65e5\u672c:",
+    "\u{0001F251}": ":\u65e5\u8bed\u53ef\u63a5\u53d7\u6309\u94ae:",
+    "\u{0001F238}": ":\u65e5\u8bed\u5e94\u7528\u7a0b\u5e8f\u6309\u94ae:",
+    "\u{0001F250}": ":\u65e5\u672c\u5ec9\u4ef7\u6309\u94ae:",
+    "\u{0001F3EF}": ":\u65e5\u672c\u57ce\u5821:",
+    "\u{00003297}": ":\u65e5\u8bed\u795d\u8d3a\u6309\u94ae:",
+    "\u{0001F239}": ":\u65e5\u5f0f\u6298\u6263\u6309\u94ae:",
+    "\u{0001F38E}": ":\u65e5\u672c\u5a03\u5a03:",
+    "\u{0001F21A}": ":\u65e5\u5f0f\u514d\u8d39\u6309\u94ae:",
+    "\u{0001F201}": ":\u65e5\u8bed\u6b64\u5904\u6309\u94ae:",
+    "\u{0001F237}": ":\u65e5\u5f0f\u6bcf\u6708\u91d1\u989d\u6309\u94ae:",
+    "\u{0001F235}": ":\u65e5\u5f0f\u65e0\u7a7a\u7f3a\u6309\u94ae:",
+    "\u{0001F236}": ":\u65e5\u5f0f\u975e\u514d\u8d39\u6309\u94ae:",
+    "\u{0001F23A}": ":\u65e5\u8bed\u5546\u52a1\u5f00\u653e\u6309\u94ae:",
+    "\u{0001F234}": ":\u65e5\u5f0f\u53ca\u683c\u6309\u94ae:",
+    "\u{0001F3E3}": ":\u65e5\u672c\u90ae\u5c40:",
+    "\u{0001F232}": ":\u65e5\u8bed\u7981\u6b62\u6309\u94ae:",
+    "\u{0001F22F}": ":\u65e5\u8bed\u4fdd\u7559\u6309\u94ae:",
+    "\u{00003299}": ":\u65e5\u5f0f\u79d8\u5bc6\u6309\u94ae:",
+    "\u{0001F202}": ":\u65e5\u5f0f\u670d\u52a1\u6536\u8d39\u6309\u94ae:",
+    "\u{0001F530}": ":\u65e5\u8bed\u521d\u5b66\u8005\u7b26\u53f7:",
+    "\u{0001F233}": ":\u65e5\u8bed\u7a7a\u7f3a\u6309\u94ae:",
+    "\u{00003297}\u{0000FE0F}": ":\u65e5\u8bed\u795d\u8d3a\u6309\u94ae:",
+    "\u{0001F237}\u{0000FE0F}": ":\u65e5\u5f0f\u6bcf\u6708\u91d1\u989d\u6309\u94ae:",
+    "\u{00003299}\u{0000FE0F}": ":\u65e5\u672c\u79d8\u5bc6\u6309\u94ae:",
+    "\u{0001F202}\u{0000FE0F}": ":\u65e5\u5f0f\u670d\u52a1\u6536\u8d39\u6309\u94ae:",
+    "\u{0001F1EF}\u{0001F1EA}": ":\u6cfd\u897f\u5c9b:",
+    "\u{0001F1EF}\u{0001F1F4}": ":\u4e54\u4e39:",
+    "\u{0001F1F0}\u{0001F1FF}": ":\u54c8\u8428\u514b\u65af\u5766:",
+    "\u{0001F1F0}\u{0001F1EA}": ":\u80af\u5c3c\u4e9a:",
+    "\u{0001F1F0}\u{0001F1EE}": ":\u57fa\u91cc\u5df4\u65af:",
+    "\u{0001F1FD}\u{0001F1F0}": ":\u79d1\u7d22\u6c83:",
+    "\u{0001F1F0}\u{0001F1FC}": ":\u79d1\u5a01\u7279:",
+    "\u{0001F1F0}\u{0001F1EC}": ":\u5409\u5c14\u5409\u65af\u65af\u5766:",
+    "\u{0001F1F1}\u{0001F1E6}": ":\u8001\u631d:",
+    "\u{0001F1F1}\u{0001F1FB}": ":\u62c9\u8131\u7ef4\u4e9a:",
+    "\u{0001F1F1}\u{0001F1E7}": ":\u9ece\u5df4\u5ae9:",
+    "\u{0000264C}": ":\u72ee\u5b50\u5ea7:",
+    "\u{0001F1F1}\u{0001F1F8}": ":\u83b1\u7d22\u6258:",
+    "\u{0001F1F1}\u{0001F1F7}": ":\u5229\u6bd4\u91cc\u4e9a:",
+    "\u{0000264E}": ":\u5929\u79e4\u5ea7:",
+    "\u{0001F1F1}\u{0001F1FE}": ":\u5229\u6bd4\u4e9a:",
+    "\u{0001F1F1}\u{0001F1EE}": ":\u5217\u652f\u6566\u58eb\u767b:",
+    "\u{0001F1F1}\u{0001F1F9}": ":\u7acb\u9676\u5b9b:",
+    "\u{0001F1F1}\u{0001F1FA}": ":\u5362\u68ee\u5821:",
+    "\u{0001F1F2}\u{0001F1F4}": ":\u4e2d\u56fd\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a:",
+    "\u{0001F1F2}\u{0001F1F0}": ":\u9a6c\u5176\u987f:",
+    "\u{0001F1F2}\u{0001F1EC}": ":\u9a6c\u8fbe\u52a0\u65af\u52a0:",
+    "\u{0001F1F2}\u{0001F1FC}": ":\u9a6c\u62c9\u7ef4:",
+    "\u{0001F1F2}\u{0001F1FE}": ":\u9a6c\u6765\u897f\u4e9a:",
+    "\u{0001F1F2}\u{0001F1FB}": ":\u9a6c\u5c14\u4ee3\u592b:",
+    "\u{0001F1F2}\u{0001F1F1}": ":\u9a6c\u91cc:",
+    "\u{0001F1F2}\u{0001F1F9}": ":\u9a6c\u8033\u4ed6:",
+    "\u{0001F1F2}\u{0001F1ED}": ":\u9a6c\u7ecd\u5c14\u7fa4\u5c9b:",
+    "\u{0001F1F2}\u{0001F1F6}": ":\u9a6c\u63d0\u5c3c\u514b:",
+    "\u{0001F1F2}\u{0001F1F7}": ":\u6bdb\u91cc\u5854\u5c3c\u4e9a:",
+    "\u{0001F1F2}\u{0001F1FA}": ":\u6bdb\u91cc\u6c42\u65af:",
+    "\u{0001F1FE}\u{0001F1F9}": ":\u9a6c\u7ea6\u7279:",
+    "\u{0001F1F2}\u{0001F1FD}": ":\u58a8\u897f\u54e5:",
+    "\u{0001F1EB}\u{0001F1F2}": ":\u5bc6\u514b\u7f57\u5c3c\u897f\u4e9a:",
+    "\u{0001F1F2}\u{0001F1E9}": ":\u6469\u5c14\u591a\u74e6:",
+    "\u{0001F1F2}\u{0001F1E8}": ":\u6469\u7eb3\u54e5:",
+    "\u{0001F1F2}\u{0001F1F3}": ":\u8499\u53e4:",
+    "\u{0001F1F2}\u{0001F1EA}": ":\u9ed1\u5c71:",
+    "\u{0001F1F2}\u{0001F1F8}": ":\u8499\u7279\u585e\u62c9\u7279:",
+    "\u{0001F1F2}\u{0001F1E6}": ":\u6469\u6d1b\u54e5:",
+    "\u{0001F1F2}\u{0001F1FF}": ":\u83ab\u6851\u6bd4\u514b:",
+    "\u{0001F936}": ":\u514b\u52b3\u65af\u592b\u4eba:",
+    "\u{0001F936}\u{0001F3FF}": ":\u514b\u52b3\u65af\u592b\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F936}\u{0001F3FB}": ":\u514b\u52b3\u65af\u592b\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F936}\u{0001F3FE}": ":\u514b\u52b3\u65af\u592b\u4eba\u4e2d\u7b49\u504f\u6df1\u80a4\u8272:",
+    "\u{0001F936}\u{0001F3FC}": ":\u514b\u52b3\u65af\u592b\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F936}\u{0001F3FD}": ":\u514b\u52b3\u65af\u592b\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F1F2}\u{0001F1F2}": ":\u7f05\u7538\uff08\u7f05\u7538\uff09:",
+    "\u{0001F195}": ":\u65b0\u5efa\u6309\u94ae:",
+    "\u{0001F196}": ":NG\u6309\u94ae:",
+    "\u{0001F1F3}\u{0001F1E6}": ":\u7eb3\u7c73\u6bd4\u4e9a:",
+    "\u{0001F1F3}\u{0001F1F7}": ":\u7459\u9c81:",
+    "\u{0001F1F3}\u{0001F1F5}": ":\u5c3c\u6cca\u5c14:",
+    "\u{0001F1F3}\u{0001F1F1}": ":\u8377\u5170:",
+    "\u{0001F1F3}\u{0001F1E8}": ":\u65b0\u5580\u91cc\u591a\u5c3c\u4e9a:",
+    "\u{0001F1F3}\u{0001F1FF}": ":\u65b0\u897f\u5170:",
+    "\u{0001F1F3}\u{0001F1EE}": ":\u5c3c\u52a0\u62c9\u74dc:",
+    "\u{0001F1F3}\u{0001F1EA}": ":\u5c3c\u65e5\u5c14:",
+    "\u{0001F1F3}\u{0001F1EC}": ":\u5c3c\u65e5\u5229\u4e9a:",
+    "\u{0001F1F3}\u{0001F1FA}": ":\u7ebd\u57c3:",
+    "\u{0001F1F3}\u{0001F1EB}": ":\u8bfa\u798f\u514b\u5c9b:",
+    "\u{0001F1F0}\u{0001F1F5}": ":\u671d\u9c9c:",
+    "\u{0001F1F2}\u{0001F1F5}": ":\u5317\u9a6c\u91cc\u4e9a\u7eb3\u7fa4\u5c9b:",
+    "\u{0001F1F3}\u{0001F1F4}": ":\u632a\u5a01:",
+    "\u{0001F197}": ":\u201c\u786e\u5b9a\u201d\u6309\u94ae:",
+    "\u{0001F44C}": ":\u597d\u7684\u624b:",
+    "\u{0001F44C}\u{0001F3FF}": ":\u597d\u7684\u624b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44C}\u{0001F3FB}": ":\u597d\u7684\u624b\u6d45\u80a4\u8272:",
+    "\u{0001F44C}\u{0001F3FE}": ":\u597d\u7684\u624b\u4e2d\u7b49\u6df1\u80a4\u8272:",
+    "\u{0001F44C}\u{0001F3FC}": ":\u597d\u7684\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44C}\u{0001F3FD}": ":\u597d\u7684\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F51B}": ":\u52a0\u6cb9\uff01\u7bad\u5934:",
+    "\u{0001F17E}": ":O\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F17E}\u{0000FE0F}": ":O\u6309\u94ae\uff08\u8840\u578b\uff09:",
+    "\u{0001F1F4}\u{0001F1F2}": ":\u963f\u66fc:",
+    "\u{000026CE}": ":\u86c7\u592b\u5ea7:",
+    "\u{0001F17F}": ":P\u6309\u94ae:",
+    "\u{0001F17F}\u{0000FE0F}": ":P\u6309\u94ae:",
+    "\u{0001F1F5}\u{0001F1F0}": ":\u5df4\u57fa\u65af\u5766:",
+    "\u{0001F1F5}\u{0001F1FC}": ":\u5e15\u52b3:",
+    "\u{0001F1F5}\u{0001F1F8}": ":\u5df4\u52d2\u65af\u5766\u9886\u571f:",
+    "\u{0001F1F5}\u{0001F1E6}": ":\u5df4\u62ff\u9a6c:",
+    "\u{0001F1F5}\u{0001F1EC}": ":\u5df4\u5e03\u4e9a\u65b0\u51e0\u5185\u4e9a:",
+    "\u{0001F1F5}\u{0001F1FE}": ":\u5df4\u62c9\u572d:",
+    "\u{0001F1F5}\u{0001F1EA}": ":\u79d8\u9c81:",
+    "\u{0001F1F5}\u{0001F1ED}": ":\u83f2\u5f8b\u5bbe:",
+    "\u{00002653}": ":\u53cc\u9c7c\u5ea7:",
+    "\u{0001F1F5}\u{0001F1F3}": ":\u76ae\u7279\u51ef\u6069\u7fa4\u5c9b:",
+    "\u{0001F1F5}\u{0001F1F1}": ":\u6ce2\u5170:",
+    "\u{0001F1F5}\u{0001F1F9}": ":\u8461\u8404\u7259:",
+    "\u{0001F1F5}\u{0001F1F7}": ":\u6ce2\u591a\u9ece\u5404:",
+    "\u{0001F1F6}\u{0001F1E6}": ":\u5361\u5854\u5c14:",
+    "\u{0001F1F7}\u{0001F1F4}": ":\u7f57\u9a6c\u5c3c\u4e9a:",
+    "\u{0001F1F7}\u{0001F1FA}": ":\u4fc4\u7f57\u65af:",
+    "\u{0001F1F7}\u{0001F1FC}": ":\u5362\u65fa\u8fbe:",
+    "\u{0001F1F7}\u{0001F1EA}": ":\u91cd\u7ec4:",
+    "\u{0001F51C}": ":\u4e0d\u4e45\u7684\u7bad:",
+    "\u{0001F198}": ":SOS\u6309\u94ae:",
+    "\u{00002650}": ":\u5c04\u624b\u5ea7:",
+    "\u{0001F1FC}\u{0001F1F8}": ":\u8428\u6469\u4e9a:",
+    "\u{0001F1F8}\u{0001F1F2}": ":\u5723\u9a6c\u529b\u8bfa:",
+    "\u{0001F385}": ":\u5723\u8bde\u8001\u4eba:",
+    "\u{0001F385}\u{0001F3FF}": ":\u5723\u8bde\u8001\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F385}\u{0001F3FB}": ":\u5723\u8bde\u8001\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F385}\u{0001F3FE}": ":\u5723\u8bde\u8001\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F385}\u{0001F3FC}": ":\u5723\u8bde\u8001\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F385}\u{0001F3FD}": ":\u5723\u8bde\u8001\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F1F8}\u{0001F1E6}": ":\u6c99\u7279\u963f\u62c9\u4f2f:",
+    "\u{0000264F}": ":\u5929\u874e\u5ea7:",
+    "\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0073}\u{000E0063}\u{000E0074}\u{000E007F}": ":\u82cf\u683c\u5170:",
+    "\u{0001F1F8}\u{0001F1F3}": ":\u585e\u5185\u52a0\u5c14:",
+    "\u{0001F1F7}\u{0001F1F8}": ":\u585e\u5c14\u7ef4\u4e9a:",
+    "\u{0001F1F8}\u{0001F1E8}": ":\u585e\u820c\u5c14:",
+    "\u{0001F1F8}\u{0001F1F1}": ":\u585e\u62c9\u5229\u6602:",
+    "\u{0001F1F8}\u{0001F1EC}": ":\u65b0\u52a0\u5761:",
+    "\u{0001F1F8}\u{0001F1FD}": ":\u8377\u5c5e\u5723\u9a6c\u4e01:",
+    "\u{0001F1F8}\u{0001F1F0}": ":\u65af\u6d1b\u4f10\u514b:",
+    "\u{0001F1F8}\u{0001F1EE}": ":\u65af\u6d1b\u6587\u5c3c\u4e9a:",
+    "\u{0001F1F8}\u{0001F1E7}": ":\u6240\u7f57\u95e8\u7fa4\u5c9b:",
+    "\u{0001F1F8}\u{0001F1F4}": ":\u7d22\u9a6c\u91cc:",
+    "\u{0001F1FF}\u{0001F1E6}": ":\u5357\u975e:",
+    "\u{0001F1EC}\u{0001F1F8}": ":\u5357\u4e54\u6cbb\u4e9a\u548c\u5357\u6851\u5a01\u5947\u7fa4\u5c9b:",
+    "\u{0001F1F0}\u{0001F1F7}": ":\u97e9\u56fd:",
+    "\u{0001F1F8}\u{0001F1F8}": ":\u5357\u82cf\u4e39:",
+    "\u{0001F1EA}\u{0001F1F8}": ":\u897f\u73ed\u7259:",
+    "\u{0001F1F1}\u{0001F1F0}": ":\u65af\u91cc\u5170\u5361:",
+    "\u{0001F1E7}\u{0001F1F1}": ":\u5723\u5df4\u7279\u83b1\u7c73:",
+    "\u{0001F1F8}\u{0001F1ED}": ":\u5723\u8d6b\u52d2\u62ff:",
+    "\u{0001F1F0}\u{0001F1F3}": ":\u5723\u57fa\u8328\u548c\u5c3c\u7ef4\u65af:",
+    "\u{0001F1F1}\u{0001F1E8}": ":\u5723\u5362\u897f\u4e9a:",
+    "\u{0001F1F2}\u{0001F1EB}": ":\u5723\u9a6c\u4e01:",
+    "\u{0001F1F5}\u{0001F1F2}": ":\u5723\u76ae\u57c3\u5c14\u548c\u5bc6\u514b\u9686:",
+    "\u{0001F1FB}\u{0001F1E8}": ":\u5723\u6587\u68ee\u5c9b:",
+    "\u{0001F5FD}": ":\u81ea\u7531\u5973\u795e\u50cf:",
+    "\u{0001F1F8}\u{0001F1E9}": ":\u82cf\u4e39:",
+    "\u{0001F1F8}\u{0001F1F7}": ":\u82cf\u91cc\u5357:",
+    "\u{0001F1F8}\u{0001F1EF}": ":\u65af\u74e6\u5c14\u5df4\u548c\u626c\u9a6c\u5ef6:",
+    "\u{0001F1F8}\u{0001F1FF}": ":\u65af\u5a01\u58eb\u5170:",
+    "\u{0001F1F8}\u{0001F1EA}": ":\u745e\u5178:",
+    "\u{0001F1E8}\u{0001F1ED}": ":\u745e\u58eb:",
+    "\u{0001F1F8}\u{0001F1FE}": ":\u53d9\u5229\u4e9a:",
+    "\u{0001F1F8}\u{0001F1F9}": ":\u5723\u591a\u7f8e\u548c\u666e\u6797\u897f\u6bd4:",
+    "\u{0001F996}": ":\u9738\u738b\u9f99:",
+    "\u{0001F51D}": ":\u4e0a\u7bad\u5934:",
+    "\u{0001F1F9}\u{0001F1FC}": ":\u53f0\u6e7e:",
+    "\u{0001F1F9}\u{0001F1EF}": ":\u5854\u5409\u514b\u65af\u5766:",
+    "\u{0001F1F9}\u{0001F1FF}": ":\u5766\u6851\u5c3c\u4e9a:",
+    "\u{00002649}": ":\u91d1\u725b\u5ea7:",
+    "\u{0001F1F9}\u{0001F1ED}": ":\u6cf0\u56fd:",
+    "\u{0001F1F9}\u{0001F1F1}": ":\u4e1c\u5e1d\u6c76:",
+    "\u{0001F1F9}\u{0001F1EC}": ":\u591a\u54e5:",
+    "\u{0001F1F9}\u{0001F1F0}": ":\u6258\u514b\u52b3:",
+    "\u{0001F5FC}": ":\u4e1c\u4eac\u5854:",
+    "\u{0001F1F9}\u{0001F1F4}": ":\u6c64\u52a0:",
+    "\u{0001F1F9}\u{0001F1F9}": ":\u7279\u7acb\u5c3c\u8fbe\u548c\u591a\u5df4\u54e5:",
+    "\u{0001F1F9}\u{0001F1E6}": ":\u7279\u91cc\u65af\u5766\u8fbe\u5e93\u5c3c\u4e9a:",
+    "\u{0001F1F9}\u{0001F1F3}": ":\u7a81\u5c3c\u65af:",
+    "\u{0001F1F9}\u{0001F1F7}": ":\u571f\u8033\u5176:",
+    "\u{0001F1F9}\u{0001F1F2}": ":\u571f\u5e93\u66fc\u65af\u5766:",
+    "\u{0001F1F9}\u{0001F1E8}": ":\u7279\u514b\u65af\u548c\u51ef\u79d1\u65af\u7fa4\u5c9b:",
+    "\u{0001F1F9}\u{0001F1FB}": ":\u56fe\u74e6\u5362:",
+    "\u{0001F1FA}\u{0001F1F2}": ":\u7f8e\u56fd:",
+    "\u{0001F1FB}\u{0001F1EE}": ":\u7f8e\u5c5e\u7ef4\u5c14\u4eac\u7fa4\u5c9b:",
+    "\u{0001F199}": ":\u8d77\u6765\uff01\u6309\u94ae:",
+    "\u{0001F1FA}\u{0001F1EC}": ":\u4e4c\u5e72\u8fbe:",
+    "\u{0001F1FA}\u{0001F1E6}": ":\u4e4c\u514b\u5170:",
+    "\u{0001F1E6}\u{0001F1EA}": ":\u963f\u62c9\u4f2f\u8054\u5408\u914b\u957f\u56fd:",
+    "\u{0001F1EC}\u{0001F1E7}": ":\u5927\u4e0d\u5217\u98a0\u8054\u5408\u738b\u56fd:",
+    "\u{0001F1FA}\u{0001F1F3}": ":\u8054\u5408\u56fd:",
+    "\u{0001F1FA}\u{0001F1F8}": ":\u7f8e\u56fd:",
+    "\u{0001F1FA}\u{0001F1FE}": ":\u4e4c\u62c9\u572d:",
+    "\u{0001F1FA}\u{0001F1FF}": ":\u4e4c\u5179\u522b\u514b\u65af\u5766:",
+    "\u{0001F19A}": ":VS:",
+    "\u{0001F1FB}\u{0001F1FA}": ":\u74e6\u52aa\u963f\u56fe:",
+    "\u{0001F1FB}\u{0001F1E6}": ":\u68b5\u8482\u5188\u57ce:",
+    "\u{0001F1FB}\u{0001F1EA}": ":\u59d4\u5185\u745e\u62c9:",
+    "\u{0001F1FB}\u{0001F1F3}": ":\u8d8a\u5357:",
+    "\u{0000264D}": ":\u5904\u5973\u5ea7:",
+    "\u{0001F3F4}\u{000E0067}\u{000E0062}\u{000E0077}\u{000E006C}\u{000E0073}\u{000E007F}": ":\u5a01\u5c14\u58eb:",
+    "\u{0001F1FC}\u{0001F1EB}": ":\u74e6\u5229\u65af\u548c\u5bcc\u56fe\u7eb3:",
+    "\u{0001F1EA}\u{0001F1ED}": ":\u897f\u6492\u54c8\u62c9:",
+    "\u{0001F1FE}\u{0001F1EA}": ":\u4e5f\u95e8:",
+    "\u{0001F1FF}\u{0001F1F2}": ":\u8d5e\u6bd4\u4e9a:",
+    "\u{0001F1FF}\u{0001F1FC}": ":\u6d25\u5df4\u5e03\u97e6:",
+    "\u{0001F9EE}": ":\u7b97\u76d8:",
+    "\u{0001FA79}": ":\u80f6\u5e03:",
+    "\u{0001F39F}": ":\u5165\u573a\u5238:",
+    "\u{0001F39F}\u{0000FE0F}": ":\u95e8\u7968:",
+    "\u{0001F9D1}": ":\u6210\u4eba:",
+    "\u{0001F9D1}\u{0001F3FF}": ":\u6210\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FB}": ":\u6210\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FE}": ":\u6210\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FC}": ":\u6210\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FD}": ":\u6210\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A1}": ":\u67b6\u7a7a\u7535\u8f66:",
+    "\u{00002708}": ":\u98de\u673a:",
+    "\u{0001F6EC}": ":\u98de\u673a\u5230\u8fbe:",
+    "\u{0001F6EB}": ":\u98de\u673a\u8d77\u98de:",
+    "\u{00002708}\u{0000FE0F}": ":\u98de\u673a\u3001:",
+    "\u{000023F0}": ":\u95f9\u949f:",
+    "\u{00002697}": ":\u963f\u4f26\u6bd4\u8bed:",
+    "\u{00002697}\u{0000FE0F}": ":\u84b8\u998f\u5668:",
+    "\u{0001F47D}": ":\u5916\u661f\u4eba:",
+    "\u{0001F47E}": ":\u5916\u661f\u602a\u7269:",
+    "\u{0001F691}": ":\u6551\u62a4\u8f66:",
+    "\u{0001F3C8}": ":\u7f8e\u5f0f\u8db3\u7403:",
+    "\u{0001F3FA}": ":\u53cc\u8033:",
+    "\u{00002693}": ":\u951a:",
+    "\u{0001F4A2}": ":\u6124\u6012\u7b26\u53f7:",
+    "\u{0001F620}": ":\u6124\u6012\u7684\u8138:",
+    "\u{0001F47F}": ":\u6012\u6c14\u51b2\u51b2\u7684\u8138:",
+    "\u{0001F627}": ":\u75db\u82e6\u7684\u8138:",
+    "\u{0001F41C}": ":\u8682\u8681:",
+    "\u{0001F4F6}": ":\u5929\u7ebf\u6746:",
+    "\u{0001F630}": ":\u6c57\u6d41\u6ee1\u9762:",
+    "\u{0001F69B}": ":\u94f0\u63a5\u5f0f\u8d27\u8f66:",
+    "\u{0001F3A8}": ":\u827a\u672f\u5bb6\u8c03\u8272\u677f:",
+    "\u{0001F632}": ":\u60ca\u8bb6\u7684\u8138:",
+    "\u{0000269B}": ":\u539f\u5b50\u7b26\u53f7:",
+    "\u{0000269B}\u{0000FE0F}": ":\u539f\u5b50\u7b26\u53f7:",
+    "\u{0001F6FA}": ":\u6c7d\u8f66\u4eba\u529b\u8f66:",
+    "\u{0001F697}": ":\u6c7d\u8f66:",
+    "\u{0001F951}": ":\u9cc4\u68a8:",
+    "\u{0001FA93}": ":\u65a7\u5934:",
+    "\u{0001F476}": ":\u5b9d\u8d1d:",
+    "\u{0001F47C}": ":\u5c0f\u5929\u4f7f:",
+    "\u{0001F47C}\u{0001F3FF}": ":\u5929\u4f7f\u5b9d\u5b9d\u6697\u80a4\u8272:",
+    "\u{0001F47C}\u{0001F3FB}": ":\u5929\u4f7f\u5b9d\u5b9d\u6d45\u80a4\u8272:",
+    "\u{0001F47C}\u{0001F3FE}": ":\u5929\u4f7f\u5b9d\u5b9d\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F47C}\u{0001F3FC}": ":\u5929\u4f7f\u5b9d\u5b9d\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F47C}\u{0001F3FD}": ":\u5929\u4f7f\u5b9d\u5b9d\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F37C}": ":\u5a74\u513f\u5976\u74f6:",
+    "\u{0001F424}": ":\u5c0f\u9e21:",
+    "\u{0001F476}\u{0001F3FF}": ":\u5a74\u513f\u6697\u80a4\u8272:",
+    "\u{0001F476}\u{0001F3FB}": ":\u5a74\u513f\u6d45\u80a4\u8272:",
+    "\u{0001F476}\u{0001F3FE}": ":\u5a74\u513f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F476}\u{0001F3FC}": ":\u5a74\u513f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F476}\u{0001F3FD}": ":\u5a74\u513f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6BC}": ":\u5a74\u513f\u6807\u5fd7:",
+    "\u{0001F447}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b:",
+    "\u{0001F447}\u{0001F3FF}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F447}\u{0001F3FB}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b\u6d45\u80a4\u8272:",
+    "\u{0001F447}\u{0001F3FE}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F447}\u{0001F3FC}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F447}\u{0001F3FD}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F448}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6:",
+    "\u{0001F448}\u{0001F3FF}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F448}\u{0001F3FB}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6\u6d45\u80a4\u8272:",
+    "\u{0001F448}\u{0001F3FE}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F448}\u{0001F3FC}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F448}\u{0001F3FD}": ":\u53cd\u624b\u98df\u6307\u5411\u5de6\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F449}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3:",
+    "\u{0001F449}\u{0001F3FF}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F449}\u{0001F3FB}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3\u6d45\u80a4\u8272:",
+    "\u{0001F449}\u{0001F3FE}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F449}\u{0001F3FC}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F449}\u{0001F3FD}": ":\u53cd\u624b\u98df\u6307\u5411\u53f3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F446}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a:",
+    "\u{0001F446}\u{0001F3FF}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F446}\u{0001F3FB}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a\u6d45\u80a4\u8272:",
+    "\u{0001F446}\u{0001F3FE}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F446}\u{0001F3FC}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F446}\u{0001F3FD}": ":\u53cd\u624b\u98df\u6307\u5411\u4e0a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F953}": ":\u57f9\u6839:",
+    "\u{0001F9A1}": ":\u737e:",
+    "\u{0001F3F8}": ":\u7fbd\u6bdb\u7403:",
+    "\u{0001F96F}": ":\u767e\u5409\u997c:",
+    "\u{0001F6C4}": ":\u884c\u674e\u9886\u53d6\u5904:",
+    "\u{0001F956}": ":\u6cd5\u5f0f\u9762\u5305:",
+    "\u{00002696}": ":\u5929\u5e73:",
+    "\u{00002696}\u{0000FE0F}": ":\u5929\u5e73\u7535\u5b50\u79e4:",
+    "\u{0001F9B2}": ":\u79c3\u5934:",
+    "\u{0001F468}\u{0000200D}\u{0001F9B2}": ":\u79c3\u5b50:",
+    "\u{0001F469}\u{0000200D}\u{0001F9B2}": ":\u79c3\u5934\u5973\u4eba:",
+    "\u{0001FA70}": ":\u82ad\u857e\u821e\u978b:",
+    "\u{0001F388}": ":\u6c14\u7403:",
+    "\u{0001F5F3}": ":\u5e26\u9009\u7968\u7684\u6295\u7968\u7bb1:",
+    "\u{0001F5F3}\u{0000FE0F}": ":\u5e26\u9009\u7968\u7684\u6295\u7968\u7bb1:",
+    "\u{00002611}": ":\u5e26\u652f\u7968\u7684\u6295\u7968\u7bb1:",
+    "\u{0001F34C}": ":\u9999\u8549:",
+    "\u{0001FA95}": ":\u73ed\u5353\u7434:",
+    "\u{0001F3E6}": ":\u94f6\u884c:",
+    "\u{0001F4CA}": ":\u6761\u5f62\u56fe:",
+    "\u{0001F488}": ":\u7406\u53d1\u6746:",
+    "\u{000026BE}": ":\u68d2\u7403:",
+    "\u{0001F9FA}": ":\u7bee\u5b50:",
+    "\u{0001F3C0}": ":\u7bee\u7403:",
+    "\u{0001F987}": ":\u8759\u8760:",
+    "\u{0001F6C1}": ":\u6d74\u7f38:",
+    "\u{0001F50B}": ":\u7535\u6c60:",
+    "\u{0001F3D6}": ":\u5e26\u4f1e\u6d77\u6ee9:",
+    "\u{0001F3D6}\u{0000FE0F}": ":\u5e26\u96e8\u4f1e\u7684\u6d77\u6ee9:",
+    "\u{0001F601}": ":\u7b11\u772f\u772f\u7684\u8138:",
+    "\u{0001F43B}": ":\u718a\u8138:",
+    "\u{0001F9D4}": ":\u957f\u80e1\u5b50\u7684\u4eba:",
+    "\u{0001F9D4}\u{0001F3FF}": ":\u80e1\u987b\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D4}\u{0001F3FB}": ":\u80e1\u987b\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9D4}\u{0001F3FE}": ":\u80e1\u987b\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D4}\u{0001F3FC}": ":\u80e1\u987b\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D4}\u{0001F3FD}": ":\u80e1\u987b\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F493}": ":\u8df3\u52a8\u7684\u5fc3\u810f:",
+    "\u{0001F6CF}": ":\u5e8a:",
+    "\u{0001F6CF}\u{0000FE0F}": ":\u5e8a\u4f4d:",
+    "\u{0001F37A}": ":\u5564\u9152\u676f:",
+    "\u{0001F514}": ":\u949f:",
+    "\u{0001F515}": ":\u659c\u7ebf\u949f:",
+    "\u{0001F6CE}": ":\u884c\u674e\u5458\u94c3:",
+    "\u{0001F6CE}\u{0000FE0F}": ":\u884c\u674e\u5458\u94c3:",
+    "\u{0001F371}": ":\u4fbf\u5f53\u76d2:",
+    "\u{0001F9C3}": ":\u996e\u6599\u76d2:",
+    "\u{0001F6B2}": ":\u81ea\u884c\u8f66:",
+    "\u{0001F459}": ":\u6bd4\u57fa\u5c3c:",
+    "\u{0001F9E2}": ":\u76d6\u5e3d:",
+    "\u{00002623}": ":\u751f\u7269\u5371\u5bb3:",
+    "\u{00002623}\u{0000FE0F}": ":\u751f\u7269\u5371\u5bb3:",
+    "\u{0001F426}": ":\u9e1f:",
+    "\u{0001F382}": ":\u751f\u65e5\u86cb\u7cd5:",
+    "\u{000026AB}": ":\u9ed1\u8272\u5706\u5708:",
+    "\u{0001F3F4}": ":\u9ed1\u65d7:",
+    "\u{0001F5A4}": ":\u9ed1\u5fc3:",
+    "\u{00002B1B}": ":\u9ed1\u8272\u5927\u6b63\u65b9\u5f62:",
+    "\u{000025FE}": ":\u9ed1\u8272\u4e2d\u5c0f\u578b\u6b63\u65b9\u5f62:",
+    "\u{000025FC}": ":\u9ed1\u8272\u4e2d\u65b9\u5f62:",
+    "\u{000025FC}\u{0000FE0F}": ":\u9ed1\u8272\u4e2d\u65b9\u5f62:",
+    "\u{00002712}": ":\u9ed1\u7b14\u5c16:",
+    "\u{00002712}\u{0000FE0F}": ":\u9ed1\u7b14\u5c16:",
+    "\u{000025AA}": ":\u9ed1\u8272\u5c0f\u6b63\u65b9\u5f62:",
+    "\u{000025AA}\u{0000FE0F}": ":\u9ed1\u8272\u5c0f\u65b9\u5f62:",
+    "\u{0001F532}": ":\u9ed1\u8272\u65b9\u5f62\u6309\u94ae:",
+    "\u{0001F471}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u5b50:",
+    "\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u6d45\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u91d1\u53d1\u7537\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F471}": ":\u91d1\u53d1\u7684\u4eba:",
+    "\u{0001F471}\u{0001F3FF}": ":\u91d1\u53d1\u7684\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F471}\u{0001F3FB}": ":\u91d1\u53d1\u7684\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F471}\u{0001F3FE}": ":\u91d1\u53d1\u7684\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FC}": ":\u91d1\u53d1\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FD}": ":\u91d1\u53d1\u7684\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F471}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u91d1\u53d1\u5973\u5b50:",
+    "\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u91d1\u53d1\u5973\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u91d1\u53d1\u5973\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6df1\u8272\u80a4\u8272\u5973\u6027ED:",
+    "\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u91d1\u53d1\u5973\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u91d1\u53d1\u5973\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F33C}": ":\u5f00\u82b1:",
+    "\u{0001F421}": ":\u6cb3\u8c5a:",
+    "\u{0001F4D8}": ":\u84dd\u76ae\u4e66:",
+    "\u{0001F535}": ":\u84dd\u8272\u5706\u5708:",
+    "\u{0001F499}": ":\u84dd\u5fc3:",
+    "\u{0001F7E6}": ":\u84dd\u8272\u65b9\u5757:",
+    "\u{0001F417}": ":\u91ce\u732a:",
+    "\u{0001F4A3}": ":\u70b8\u5f39:",
+    "\u{0001F9B4}": ":\u9aa8:",
+    "\u{0001F516}": ":\u4e66\u7b7e:",
+    "\u{0001F4D1}": ":\u4e66\u7b7e\u9009\u9879\u5361:",
+    "\u{0001F4DA}": ":\u4e66:",
+    "\u{0001F37E}": ":\u74f6\u585e\u74f6\u585e:",
+    "\u{0001F490}": ":\u82b1\u675f:",
+    "\u{0001F3F9}": ":\u5f13\u7bad:",
+    "\u{0001F963}": ":\u5e26\u52fa\u5b50\u7684\u7897:",
+    "\u{0001F3B3}": ":\u4fdd\u9f84\u7403:",
+    "\u{0001F94A}": ":\u62f3\u51fb\u624b\u5957:",
+    "\u{0001F466}": ":\u7537\u5b69:",
+    "\u{0001F466}\u{0001F3FF}": ":\u7537\u5b69\u6697\u80a4\u8272:",
+    "\u{0001F466}\u{0001F3FB}": ":\u7537\u5b69\u6d45\u80a4\u8272:",
+    "\u{0001F466}\u{0001F3FE}": ":\u7537\u5b69\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F466}\u{0001F3FC}": ":\u7537\u5b69\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F466}\u{0001F3FD}": ":\u7537\u5b69\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9E0}": ":\u8111:",
+    "\u{0001F35E}": ":\u9762\u5305:",
+    "\u{0001F931}": ":\u6bcd\u4e73\u5582\u517b:",
+    "\u{0001F931}\u{0001F3FF}": ":\u6bcd\u4e73\u5582\u517b\u6697\u80a4\u8272:",
+    "\u{0001F931}\u{0001F3FB}": ":\u6bcd\u4e73\u5582\u517b\u6d45\u80a4\u8272:",
+    "\u{0001F931}\u{0001F3FE}": ":\u6bcd\u4e73\u5582\u517b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F931}\u{0001F3FC}": ":\u6bcd\u4e73\u5582\u517b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F931}\u{0001F3FD}": ":\u6bcd\u4e73\u5582\u517b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9F1}": ":\u7816:",
+    "\u{0001F470}": ":\u6234\u9762\u7eb1\u7684\u65b0\u5a18:",
+    "\u{0001F470}\u{0001F3FF}": ":\u65b0\u5a18\u9762\u7eb1\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F470}\u{0001F3FB}": ":\u65b0\u5a18\u9762\u7eb1\u6d45\u80a4\u8272:",
+    "\u{0001F470}\u{0001F3FE}": ":\u5e26\u9762\u7eb1\u7684\u65b0\u5a18\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F470}\u{0001F3FC}": ":\u65b0\u5a18\u9762\u7eb1\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F470}\u{0001F3FD}": ":\u65b0\u5a18\u9762\u7eb1\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F309}": ":\u665a\u4e0a\u7684\u6865:",
+    "\u{0001F4BC}": ":\u516c\u6587\u5305:",
+    "\u{0001FA72}": ":\u6982\u8981:",
+    "\u{0001F506}": ":\u4eae\u6309\u94ae:",
+    "\u{0001F966}": ":\u897f\u5170\u82b1:",
+    "\u{0001F494}": ":\u5fc3\u788e:",
+    "\u{0001F9F9}": ":\u626b\u5e1a:",
+    "\u{0001F7E4}": ":\u68d5\u8272\u5706\u5708:",
+    "\u{0001F90E}": ":\u8910\u8272\u5fc3\u810f:",
+    "\u{0001F7EB}": ":\u68d5\u8272\u6b63\u65b9\u5f62:",
+    "\u{0001F41B}": ":\u7f3a\u9677:",
+    "\u{0001F3D7}": ":\u5efa\u7b51\u65bd\u5de5:",
+    "\u{0001F3D7}\u{0000FE0F}": ":\u5efa\u7b51\u6784\u9020:",
+    "\u{0001F685}": ":\u5b50\u5f39\u5934\u5217\u8f66:",
+    "\u{0001F32F}": ":\u7389\u7c73\u714e\u997c:",
+    "\u{0001F68C}": ":\u516c\u5171\u6c7d\u8f66:",
+    "\u{0001F68F}": ":\u516c\u4ea4\u7ad9:",
+    "\u{0001F464}": ":\u80f8\u90e8\u8f6e\u5ed3:",
+    "\u{0001F465}": ":\u534a\u8eab\u50cf:",
+    "\u{0001F9C8}": ":\u9ec4\u6cb9:",
+    "\u{0001F98B}": ":\u8774\u8776:",
+    "\u{0001F335}": ":\u4ed9\u4eba\u638c:",
+    "\u{0001F4C5}": ":\u65e5\u5386:",
+    "\u{0001F919}": ":\u53eb\u6211\u624b:",
+    "\u{0001F919}\u{0001F3FF}": ":\u53eb\u6211\u624b\u9ed1\u80a4\u8272:",
+    "\u{0001F919}\u{0001F3FB}": ":\u53eb\u6211\u624b\u6d45\u80a4\u8272:",
+    "\u{0001F919}\u{0001F3FE}": ":\u53eb\u6211\u624b\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F919}\u{0001F3FC}": ":\u53eb\u6211\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F919}\u{0001F3FD}": ":\u53eb\u6211\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F42A}": ":\u9a86\u9a7c:",
+    "\u{0001F4F7}": ":\u7167\u76f8\u673a:",
+    "\u{0001F4F8}": ":\u5e26\u95ea\u5149\u706f\u7684\u7167\u76f8\u673a:",
+    "\u{0001F3D5}": ":\u9732\u8425:",
+    "\u{0001F3D5}\u{0000FE0F}": ":\u91ce\u8425:",
+    "\u{0001F56F}": ":\u8721\u70db:",
+    "\u{0001F56F}\u{0000FE0F}": ":\u8721\u70db:",
+    "\u{0001F36C}": ":\u7cd6\u679c:",
+    "\u{0001F96B}": ":\u7f50\u5934\u98df\u54c1:",
+    "\u{0001F6F6}": ":\u72ec\u6728\u821f:",
+    "\u{0001F5C3}": ":\u5361\u7247\u6863\u6848\u7bb1:",
+    "\u{0001F5C3}\u{0000FE0F}": ":\u5361\u7247\u6587\u4ef6\u76d2:",
+    "\u{0001F4C7}": ":\u5361\u7247\u7d22\u5f15:",
+    "\u{0001F5C2}": ":\u5361\u7247\u7d22\u5f15\u5206\u9694\u5668:",
+    "\u{0001F5C2}\u{0000FE0F}": ":\u5361\u7247\u7d22\u5f15\u5206\u9694\u5668:",
+    "\u{0001F3A0}": ":\u65cb\u8f6c\u6728\u9a6c:",
+    "\u{0001F38F}": ":\u9ca4\u9c7c\u98d8\u5e26:",
+    "\u{0001F955}": ":\u80e1\u841d\u535c:",
+    "\u{0001F3F0}": ":\u57ce\u5821:",
+    "\u{0001F408}": ":\u732b:",
+    "\u{0001F431}": ":\u732b\u8138:",
+    "\u{0001F639}": ":\u559c\u6781\u800c\u6ce3\u7684\u732b\u8138:",
+    "\u{0001F63C}": ":\u82e6\u7b11\u7684\u732b\u8138:",
+    "\u{000026D3}": ":\u94fe:",
+    "\u{000026D3}\u{0000FE0F}": ":\u94fe\u6761:",
+    "\u{0001FA91}": ":\u6905\u5b50:",
+    "\u{0001F4C9}": ":\u56fe\u8868\u9012\u51cf:",
+    "\u{0001F4C8}": ":\u56fe\u8868\u589e\u52a0:",
+    "\u{0001F4B9}": ":\u56fe\u8868\u968f\u65e5\u5143\u4e0a\u5347:",
+    "\u{00002611}\u{0000FE0F}": ":\u5e26\u590d\u9009\u6846:",
+    "\u{00002714}\u{0000FE0F}": ":\u590d\u9009\u6807\u8bb0:",
+    "\u{0001F9C0}": ":\u5976\u916a\u6954:",
+    "\u{0001F3C1}": ":\u9ed1\u767d\u65b9\u683c\u65d7:",
+    "\u{0001F352}": ":\u6a31\u6843:",
+    "\u{0001F338}": ":\u6a31\u82b1:",
+    "\u{0000265F}": ":\u68cb\u5b50:",
+    "\u{0000265F}\u{0000FE0F}": ":\u68cb\u5b50:",
+    "\u{0001F330}": ":\u677f\u6817:",
+    "\u{0001F414}": ":\u9e21:",
+    "\u{0001F9D2}": ":\u5c0f\u5b69:",
+    "\u{0001F9D2}\u{0001F3FF}": ":\u513f\u7ae5\u6697\u80a4\u8272:",
+    "\u{0001F9D2}\u{0001F3FB}": ":\u513f\u7ae5\u6d45\u80a4\u8272:",
+    "\u{0001F9D2}\u{0001F3FE}": ":\u513f\u7ae5\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D2}\u{0001F3FC}": ":\u513f\u7ae5\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D2}\u{0001F3FD}": ":\u513f\u7ae5\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B8}": ":\u513f\u7ae5\u7a7f\u8d8a:",
+    "\u{0001F43F}": ":\u82b1\u6817\u9f20:",
+    "\u{0001F43F}\u{0000FE0F}": ":\u82b1\u6817\u9f20:",
+    "\u{0001F36B}": ":\u5de7\u514b\u529b\u68d2:",
+    "\u{0001F962}": ":\u7b77\u5b50:",
+    "\u{000026EA}": ":\u6559\u5802:",
+    "\u{0001F6AC}": ":\u9999\u70df:",
+    "\u{0001F3A6}": ":\u7535\u5f71\u9662:",
+    "\u{000024C2}": ":\u5e26\u5706\u5708M:",
+    "\u{000024C2}\u{0000FE0F}": ":\u5e26\u5706\u5708M:",
+    "\u{0001F3AA}": ":\u9a6c\u620f\u56e2\u5e10\u7bf7:",
+    "\u{0001F3D9}": ":\u57ce\u5e02\u666f\u89c2:",
+    "\u{0001F306}": ":\u9ec4\u660f\u7684\u57ce\u5e02\u666f\u8272:",
+    "\u{0001F3D9}\u{0000FE0F}": ":\u57ce\u5e02\u666f\u89c2:",
+    "\u{0001F5DC}": ":\u5939\u7d27:",
+    "\u{0001F5DC}\u{0000FE0F}": ":\u5939\u94b3:",
+    "\u{0001F3AC}": ":\u9694\u677f:",
+    "\u{0001F44F}": ":\u62cd\u624b:",
+    "\u{0001F44F}\u{0001F3FF}": ":\u62cd\u624b\u6697\u80a4\u8272:",
+    "\u{0001F44F}\u{0001F3FB}": ":\u62cd\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F44F}\u{0001F3FE}": ":\u62cd\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44F}\u{0001F3FC}": ":\u62cd\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44F}\u{0001F3FD}": ":\u62cd\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3DB}": ":\u53e4\u5178\u5efa\u7b51:",
+    "\u{0001F3DB}\u{0000FE0F}": ":\u7ecf\u5178\u5efa\u7b51:",
+    "\u{0001F37B}": ":\u78b0\u676f:",
+    "\u{0001F942}": ":\u78b0\u676f:",
+    "\u{0001F4CB}": ":\u526a\u8d34\u677f:",
+    "\u{0001F503}": ":\u987a\u65f6\u9488\u5782\u76f4\u7bad\u5934:",
+    "\u{0001F4D5}": ":\u95ed\u5f0f\u5e10\u7c3f:",
+    "\u{0001F4EA}": ":\u5e26\u964d\u4e0b\u6807\u5fd7\u7684\u5c01\u95ed\u90ae\u7bb1:",
+    "\u{0001F4EB}": ":\u5e26\u63d0\u5347\u6807\u5fd7\u7684\u5df2\u5173\u95ed\u90ae\u7bb1:",
+    "\u{0001F302}": ":\u5c01\u95ed\u5f0f\u96e8\u4f1e:",
+    "\u{00002601}": ":\u4e91:",
+    "\u{00002601}\u{0000FE0F}": ":\u4e91:",
+    "\u{0001F329}": ":\u95ea\u7535\u4e91:",
+    "\u{000026C8}": ":\u95ea\u7535\u96e8\u4e91:",
+    "\u{000026C8}\u{0000FE0F}": ":\u5e26\u95ea\u7535\u548c\u96e8\u7684\u4e91:",
+    "\u{0001F329}\u{0000FE0F}": ":\u5e26\u95ea\u7535\u7684\u4e91:",
+    "\u{0001F327}": ":\u96e8\u4e91:",
+    "\u{0001F327}\u{0000FE0F}": ":\u5e26\u96e8\u7684\u4e91:",
+    "\u{0001F328}": ":\u6709\u96ea\u7684\u4e91:",
+    "\u{0001F328}\u{0000FE0F}": ":\u5e26\u96ea\u7684\u4e91:",
+    "\u{0001F921}": ":\u5c0f\u4e11\u8138:",
+    "\u{00002663}": ":\u4ff1\u4e50\u90e8\u5957\u88c5:",
+    "\u{00002663}\u{0000FE0F}": ":\u4ff1\u4e50\u90e8\u5957\u88c5\u9009\u62e9:",
+    "\u{0001F45D}": ":\u79bb\u5408\u5668\u888b:",
+    "\u{0001F9E5}": ":\u5916\u5957:",
+    "\u{0001F378}": ":\u9e21\u5c3e\u9152\u676f:",
+    "\u{0001F965}": ":\u6930\u5b50:",
+    "\u{000026B0}": ":\u68fa\u6750:",
+    "\u{000026B0}\u{0000FE0F}": ":\u68fa\u6750:",
+    "\u{0001F976}": ":\u51b7\u9762:",
+    "\u{0001F4A5}": ":\u78b0\u649e:",
+    "\u{00002604}": ":\u5f57\u661f:",
+    "\u{00002604}\u{0000FE0F}": ":\u5f57\u661f:",
+    "\u{0001F9ED}": ":\u7f57\u76d8:",
+    "\u{0001F4BD}": ":\u8ba1\u7b97\u673a\u78c1\u76d8:",
+    "\u{0001F5B1}": ":\u7535\u8111\u9f20\u6807:",
+    "\u{0001F5B1}\u{0000FE0F}": ":\u8ba1\u7b97\u673a\u9f20\u6807:",
+    "\u{0001F38A}": ":\u4e94\u5f69\u7eb8\u7403:",
+    "\u{0001F616}": ":\u56f0\u60d1\u7684\u8138:",
+    "\u{0001F615}": ":\u56f0\u60d1\u7684\u8138:",
+    "\u{0001F6A7}": ":\u5efa\u8bbe:",
+    "\u{0001F477}": ":\u5efa\u7b51\u5de5\u4eba:",
+    "\u{0001F477}\u{0001F3FF}": ":\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F477}\u{0001F3FB}": ":\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F477}\u{0001F3FE}": ":\u5efa\u7b51\u5de5\u4eba\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FC}": ":\u5efa\u7b51\u5de5\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FD}": ":\u5efa\u7b51\u5de5\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F39B}": ":\u63a7\u5236\u65cb\u94ae:",
+    "\u{0001F39B}\u{0000FE0F}": ":\u63a7\u5236\u65cb\u94ae:",
+    "\u{0001F3EA}": ":\u4fbf\u5229\u5e97:",
+    "\u{0001F35A}": ":\u7c73\u996d:",
+    "\u{0001F36A}": ":\u66f2\u5947:",
+    "\u{0001F373}": ":\u70f9\u996a:",
+    "\u{000000A9}": ":\u7248\u6743:",
+    "\u{000000A9}\u{0000FE0F}": ":\u7248\u6743:",
+    "\u{0001F6CB}": ":\u6c99\u53d1\u548c\u706f:",
+    "\u{0001F6CB}\u{0000FE0F}": ":\u6c99\u53d1\u706f:",
+    "\u{0001F504}": ":\u9006\u65f6\u9488\u7bad\u5934\u6309\u94ae:",
+    "\u{0001F468}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F468}": ":\u4e0e\u5fc3\u809d\u7537\u642d\u6863:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F468}": ":\u5fc3\u4e0a\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F469}": ":\u5fc3\u4e0a\u4eba:",
+    "\u{0001F491}": ":\u5fc3\u5fc3\u76f8\u5370:",
+    "\u{0001F468}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F468}": ":\u7537\u4eba\u4e0e\u7537\u4eba\u7684\u7ed3\u5408:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F468}": ":\u5fc3\u4e0a\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F469}": ":\u5fc3\u4e0a\u4eba:",
+    "\u{0001F404}": ":\u5976\u725b:",
+    "\u{0001F42E}": ":\u725b\u8138:",
+    "\u{0001F920}": ":\u725b\u4ed4\u5e3d\u9762:",
+    "\u{0001F980}": ":\u87f9:",
+    "\u{0001F58D}": ":\u8721\u7b14:",
+    "\u{0001F58D}\u{0000FE0F}": ":\u8721\u7b14:",
+    "\u{0001F4B3}": ":\u4fe1\u7528\u5361:",
+    "\u{0001F319}": ":\u65b0\u6708:",
+    "\u{0001F997}": ":\u677f\u7403:",
+    "\u{0001F3CF}": ":\u677f\u7403\u6bd4\u8d5b:",
+    "\u{0001F40A}": ":\u9cc4\u9c7c:",
+    "\u{0001F950}": ":\u725b\u89d2\u9762\u5305:",
+    "\u{0000274C}": ":\u5341\u5b57\u8bb0\u53f7:",
+    "\u{0000274E}": ":\u5341\u5b57\u6807\u8bb0\u6309\u94ae:",
+    "\u{0001F91E}": ":\u7948\u7977:",
+    "\u{0001F91E}\u{0001F3FF}": ":\u4ea4\u53c9\u624b\u6307\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91E}\u{0001F3FB}": ":\u4ea4\u53c9\u624b\u6307\u6d45\u80a4\u8272:",
+    "\u{0001F91E}\u{0001F3FE}": ":\u4ea4\u53c9\u624b\u6307\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91E}\u{0001F3FC}": ":\u4ea4\u53c9\u624b\u6307\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F91E}\u{0001F3FD}": ":\u4ea4\u53c9\u624b\u6307\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F38C}": ":\u4ea4\u53c9\u65d7:",
+    "\u{00002694}": ":\u4ea4\u53c9\u7684\u5251:",
+    "\u{00002694}\u{0000FE0F}": ":\u4ea4\u53c9\u5251:",
+    "\u{0001F451}": ":\u738b\u51a0:",
+    "\u{0001F63F}": ":\u54ed\u54ed\u557c\u557c\u7684\u732b\u8138:",
+    "\u{0001F622}": ":\u54ed\u8138:",
+    "\u{0001F52E}": ":\u6c34\u6676\u7403:",
+    "\u{0001F952}": ":\u9ec4\u74dc:",
+    "\u{0001F964}": ":\u5438\u7ba1\u676f:",
+    "\u{0001F9C1}": ":\u7eb8\u676f\u86cb\u7cd5:",
+    "\u{0001F94C}": ":\u5377\u66f2\u77f3:",
+    "\u{0001F468}\u{0000200D}\u{0001F9B1}": ":\u5377\u53d1\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{0001F9B1}": ":\u5377\u53d1\u5973\u4eba:",
+    "\u{0001F9B1}": ":\u5377\u53d1:",
+    "\u{000027B0}": ":\u5377\u66f2\u73af:",
+    "\u{0001F4B1}": ":\u8d27\u5e01\u5151\u6362:",
+    "\u{0001F35B}": ":\u5496\u55b1\u996d:",
+    "\u{0001F36E}": ":\u5976\u6cb9\u51bb:",
+    "\u{0001F6C3}": ":\u6d77\u5173:",
+    "\u{0001F969}": ":\u8089\u5757:",
+    "\u{0001F300}": ":\u65cb\u98ce:",
+    "\u{0001F5E1}": ":\u5315\u9996:",
+    "\u{0001F5E1}\u{0000FE0F}": ":\u9009\u62e9\u5315\u9996:",
+    "\u{0001F361}": ":\u4e39\u6208:",
+    "\u{0001F3FF}": ":\u6697\u80a4\u8272:",
+    "\u{0001F4A8}": ":\u51b2\u51fa\u53bb:",
+    "\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u804b\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u804b\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u804b\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u804b\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u804b\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CF}\u{0000200D}\u{00002642}": ":\u804b\u5b50:",
+    "\u{0001F9CF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u804b\u4eba:",
+    "\u{0001F9CF}\u{0001F3FF}": ":\u804b\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FB}": ":\u804b\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FE}": ":\u804b\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FC}": ":\u804b\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FD}": ":\u804b\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CF}": ":\u804b\u5b50:",
+    "\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u804b\u5973\u6697\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u804b\u5973\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u804b\u5973\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u804b\u5973\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u804b\u5973\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CF}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9CF}\u{0000200D}\u{00002640}": ":\u804b\u5973:",
+    "\u{0001F9CF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u804b\u5973\u9009\u62e9:",
+    "\u{0001F333}": ":\u843d\u53f6\u6811:",
+    "\u{0001F98C}": ":\u9e7f:",
+    "\u{0001F69A}": ":\u8fd0\u8d27\u8f66:",
+    "\u{0001F3EC}": ":\u767e\u8d27\u516c\u53f8:",
+    "\u{0001F3DA}": ":\u5e9f\u5f03\u623f\u5c4b:",
+    "\u{0001F3DA}\u{0000FE0F}": ":\u88ab\u9057\u5f03\u7684\u623f\u5c4b:",
+    "\u{0001F3DC}": ":\u6c99\u6f20:",
+    "\u{0001F3DD}": ":\u8352\u5c9b:",
+    "\u{0001F3DD}\u{0000FE0F}": ":\u8352\u5c9b:",
+    "\u{0001F3DC}\u{0000FE0F}": ":\u6c99\u6f20:",
+    "\u{0001F5A5}": ":\u53f0\u5f0f\u8ba1\u7b97\u673a:",
+    "\u{0001F5A5}\u{0000FE0F}": ":\u684c\u9762\u8ba1\u7b97\u673a:",
+    "\u{0001F575}": ":\u4fa6\u63a2:",
+    "\u{0001F575}\u{0001F3FF}": ":\u6df1\u8272\u80a4\u8272\u63a2\u957f:",
+    "\u{0001F575}\u{0001F3FB}": ":\u6d45\u80a4\u8272\u63a2\u957f:",
+    "\u{0001F575}\u{0001F3FE}": ":\u4e2d\u9ed1\u80a4\u8272\u4fa6\u63a2:",
+    "\u{0001F575}\u{0001F3FC}": ":\u6d45\u80a4\u8272\u63a2\u6d4b\u4eea:",
+    "\u{0001F575}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F575}\u{0000FE0F}": ":\u63a2\u6d4b:",
+    "\u{00002666}": ":\u94bb\u77f3\u5957\u88c5:",
+    "\u{00002666}\u{0000FE0F}": ":\u94bb\u77f3\u5957\u88c5\u9009\u62e9:",
+    "\u{0001F4A0}": ":\u5e26\u70b9\u7684\u83f1\u5f62:",
+    "\u{0001F505}": ":\u53d8\u6697\u6309\u94ae:",
+    "\u{0001F3AF}": ":\u76f4\u63a5\u547d\u4e2d:",
+    "\u{0001F61E}": ":\u5931\u671b\u7684\u8138:",
+    "\u{0001F93F}": ":\u6f5c\u6c34\u9762\u7f69:",
+    "\u{0001FA94}": ":\u8fea\u96c5\u706f:",
+    "\u{0001F4AB}": ":\u5934\u6655:",
+    "\u{0001F635}": ":\u5934\u6655:",
+    "\u{0001F9EC}": ":DNA:",
+    "\u{0001F415}": ":\u72d7:",
+    "\u{0001F436}": ":\u72d7\u8138:",
+    "\u{0001F4B5}": ":\u7f8e\u5143\u949e\u7968:",
+    "\u{0001F42C}": ":\u6d77\u8c5a:",
+    "\u{0001F6AA}": ":\u95e8:",
+    "\u{0001F52F}": ":\u70b9\u516d\u89d2\u661f:",
+    "\u{000027BF}": ":\u53cc\u5377\u5708:",
+    "\u{0000203C}": ":\u53cc\u611f\u53f9\u53f7:",
+    "\u{0000203C}\u{0000FE0F}": ":\u53cc\u611f\u53f9\u53f7:",
+    "\u{0001F369}": ":\u751c\u751c\u5708:",
+    "\u{0001F54A}": ":\u9e3d\u5b50:",
+    "\u{0001F54A}\u{0000FE0F}": ":\u9e3d\u5b50:",
+    "\u{00002199}": ":\u5de6\u4e0b\u7bad\u5934:",
+    "\u{00002199}\u{0000FE0F}": ":\u5de6\u4e0b\u7bad\u5934:",
+    "\u{00002198}": ":\u53f3\u4e0b\u7bad\u5934:",
+    "\u{00002198}\u{0000FE0F}": ":\u53f3\u4e0b\u7bad\u5934:",
+    "\u{00002B07}": ":\u4e0b\u7bad\u5934:",
+    "\u{00002B07}\u{0000FE0F}": ":\u4e0b\u7bad\u5934:",
+    "\u{0001F613}": ":\u6c57\u6d41\u6ee1\u9762:",
+    "\u{0001F53D}": ":\u5411\u4e0b\u6309\u94ae:",
+    "\u{0001F409}": ":\u9f99:",
+    "\u{0001F432}": ":\u9f99\u8138:",
+    "\u{0001F457}": ":\u8fde\u8863\u88d9:",
+    "\u{0001F924}": ":\u6d41\u53e3\u6c34\u7684\u8138:",
+    "\u{0001FA78}": ":\u8840\u6ef4:",
+    "\u{0001F4A7}": ":\u6db2\u6ef4:",
+    "\u{0001F941}": ":\u9f13:",
+    "\u{0001F986}": ":\u9e2d\u5b50:",
+    "\u{0001F95F}": ":\u997a\u5b50:",
+    "\u{0001F4C0}": ":DVD:",
+    "\u{0001F4E7}": ":\u7535\u5b50\u90ae\u4ef6:",
+    "\u{0001F985}": ":\u9e70:",
+    "\u{0001F442}": ":\u8033\u6735:",
+    "\u{0001F442}\u{0001F3FF}": ":\u8033\u90e8\u6697\u80a4\u8272:",
+    "\u{0001F442}\u{0001F3FB}": ":\u8033\u5149\u80a4\u8272:",
+    "\u{0001F442}\u{0001F3FE}": ":\u8033\u6735\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F442}\u{0001F3FC}": ":\u8033\u6735\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F442}\u{0001F3FD}": ":\u4e2d\u8033\u80a4\u8272:",
+    "\u{0001F33D}": ":\u7389\u7c73\u7a57:",
+    "\u{0001F9BB}\u{0001F3FF}": ":\u8033\u90e8\u6709\u52a9\u542c\u5668\uff0c\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9BB}\u{0001F3FB}": ":\u5e26\u52a9\u542c\u5668\u7684\u8033\u6735\u80a4\u8272\u6d45:",
+    "\u{0001F9BB}\u{0001F3FE}": ":\u5e26\u52a9\u542c\u5668\u7684\u8033\u6735-\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9BB}\u{0001F3FC}": ":\u5e26\u52a9\u542c\u5668\u7684\u8033\u6735\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F9BB}\u{0001F3FD}": ":\u5e26\u52a9\u542c\u5668\u7684\u8033\u6735\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9BB}": ":\u5e26\u52a9\u542c\u5668\u7684\u8033\u6735:",
+    "\u{0001F95A}": ":\u9e21\u86cb:",
+    "\u{0001F346}": ":\u8304\u5b50:",
+    "\u{00002734}": ":\u516b\u89d2\u661f:",
+    "\u{00002734}\u{0000FE0F}": ":\u516b\u89d2\u661f\u578b:",
+    "\u{00002733}": ":\u516b\u8f90\u661f\u53f7:",
+    "\u{00002733}\u{0000FE0F}": ":\u516b\u8f90\u661f\u53f7:",
+    "\u{0001F563}": ":\u516b\u70b9\u534a:",
+    "\u{0001F557}": ":\u516b\u70b9\u949f:",
+    "\u{000023CF}": ":\u5f39\u51fa\u6309\u94ae:",
+    "\u{000023CF}\u{0000FE0F}": ":\u5f39\u51fa\u6309\u94ae:",
+    "\u{0001F50C}": ":\u7535\u6c14\u63d2\u5934:",
+    "\u{0001F418}": ":\u5927\u8c61:",
+    "\u{0001F566}": ":\u5341\u4e00\u70b9\u534a:",
+    "\u{0001F55A}": ":\u5341\u4e00\u70b9\u949f:",
+    "\u{0001F9DD}": ":\u7cbe\u7075:",
+    "\u{0001F9DD}\u{0001F3FF}": ":\u7cbe\u7075\u9ed1\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FB}": ":\u7cbe\u7075\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FE}": ":\u7cbe\u7075\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FC}": ":\u7cbe\u7075\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FD}": ":\u7cbe\u7075\u4e2d\u7b49\u80a4\u8272:",
+    "\u{00002709}": ":\u4fe1\u5c01:",
+    "\u{00002709}\u{0000FE0F}": ":\u4fe1\u5c01:",
+    "\u{0001F4E9}": ":\u5e26\u7bad\u5934\u7684\u4fe1\u5c01:",
+    "\u{0001F4B6}": ":\u6b27\u5143\u7eb8\u5e01:",
+    "\u{0001F332}": ":\u5e38\u7eff\u4e54\u6728:",
+    "\u{0001F411}": ":\u6bcd\u7f8a:",
+    "\u{00002757}": ":\u611f\u53f9\u53f7:",
+    "\u{00002049}": ":\u611f\u53f9\u95ee\u53f7:",
+    "\u{00002049}\u{0000FE0F}": ":\u611f\u53f9\u53f7\u95ee\u53f7:",
+    "\u{0001F92F}": ":\u7206\u70b8\u5934:",
+    "\u{0001F611}": ":\u65e0\u8868\u60c5\u7684\u8138:",
+    "\u{0001F441}": ":\u773c\u775b:",
+    "\u{0001F441}\u{0000200D}\u{0001F5E8}": ":\u8a00\u8bed\u4e2d\u7684\u773c\u775b:",
+    "\u{0001F441}\u{0000200D}\u{0001F5E8}\u{0000FE0F}": ":\u8bed\u97f3\u6ce1\u6ce12:",
+    "\u{0001F441}\u{0000FE0F}\u{0000200D}\u{0001F5E8}\u{0000FE0F}": ":\u8bed\u97f3\u6ce1\u6ce13:",
+    "\u{0001F441}\u{0000FE0F}\u{0000200D}\u{0001F5E8}": ":\u8bed\u97f3\u6c14\u6ce1:",
+    "\u{0001F441}\u{0000FE0F}": ":\u773c\u775b:",
+    "\u{0001F440}": ":\u773c\u775b:",
+    "\u{0001F618}": ":\u5439\u8138\u543b:",
+    "\u{0001F60B}": ":\u54c1\u5c1d\u98df\u7269\u7684\u8138:",
+    "\u{0001F631}": ":\u6050\u60e7\u4e2d\u5c16\u53eb\u7684\u8138:",
+    "\u{0001F92E}": ":\u9762\u90e8\u5455\u5410:",
+    "\u{0001F92D}": ":\u5634\u89d2\u4ea4\u53e0\u7684\u8138:",
+    "\u{0001F915}": ":\u5934\u5dfe\u5305\u624e:",
+    "\u{0001F637}": ":\u5e26\u533b\u7528\u9762\u7f69\u7684\u8138:",
+    "\u{0001F9D0}": ":\u5355\u773c\u8138:",
+    "\u{0001F62E}": ":\u5f20\u5634\u7684\u8138:",
+    "\u{0001F928}": ":\u626c\u8d77\u7709\u6bdb\u7684\u8138:",
+    "\u{0001F644}": ":\u773c\u775b\u6253\u8f6c\u7684\u8138:",
+    "\u{0001F624}": ":\u9f3b\u5b50\u5192\u7740\u84b8\u6c7d\u7684\u8138:",
+    "\u{0001F92C}": ":\u5634\u4e0a\u6709\u7b26\u53f7\u7684\u8138:",
+    "\u{0001F602}": ":\u559c\u6781\u800c\u6ce3:",
+    "\u{0001F912}": ":\u5e26\u6e29\u5ea6\u8ba1\u7684\u8138:",
+    "\u{0001F61B}": ":\u7528\u820c\u5934\u9762\u5bf9:",
+    "\u{0001F636}": ":\u6ca1\u6709\u5634\u7684\u8138:",
+    "\u{0001F3ED}": ":\u5de5\u5382:",
+    "\u{0001F9DA}": ":\u4ed9\u5973:",
+    "\u{0001F9DA}\u{0001F3FF}": ":\u795e\u4ed9\u9ed1\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FB}": ":\u4ed9\u5973\u822c\u7684\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FE}": ":\u4ed9\u5973\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FC}": ":\u4ed9\u5973\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FD}": ":\u4ed9\u5973\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9C6}": ":\u6cd5\u62c9\u8d39:",
+    "\u{0001F342}": ":\u843d\u53f6:",
+    "\u{0001F46A}": ":\u5bb6\u5ead:",
+    "\u{0001F468}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u7537\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u5973:",
+    "\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u5b69\u5973\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u7537\u4eba\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u7537\u4eba\u7537\u5b69\u7537\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u7537\u5973\u5973:",
+    "\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u7537\u4eba\u5973\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F468}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u7537\u5973\u5973:",
+    "\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u4eba\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u4eba\u7537\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u7537\u5973\u5973:",
+    "\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u4eba\u5973\u5b69\u7537\u5b69:",
+    "\u{0001F468}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u7537\u4eba\u5973\u4eba\u5973\u5b69\u5973\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5973\u5b69\u513f:",
+    "\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5987\u5973\u7537\u5b69\u7537\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u5973\u5b69\u513f:",
+    "\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5987\u5973\u5973\u5b69\u7537\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u5973\u5b69\u513f:",
+    "\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5987\u5973\u5987\u5973\u7537\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F466}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5987\u5973\u5987\u5973\u7537\u5b69\u7537\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u5987\u5973\u5973\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F466}": ":\u5bb6\u5ead\u5987\u5973\u5987\u5973\u5973\u5b69\u7537\u5b69:",
+    "\u{0001F469}\u{0000200D}\u{0001F469}\u{0000200D}\u{0001F467}\u{0000200D}\u{0001F467}": ":\u5bb6\u5ead\u5987\u5973\u5987\u5973\u5973\u5b69\u5973\u5b69:",
+    "\u{000023E9}": ":\u5feb\u8fdb\u6309\u94ae:",
+    "\u{000023EC}": ":\u5feb\u901f\u4e0b\u964d\u6309\u94ae:",
+    "\u{000023EA}": ":\u5feb\u901f\u540e\u9000\u6309\u94ae:",
+    "\u{000023EB}": ":\u5feb\u901f\u4e0a\u5347\u6309\u94ae:",
+    "\u{0001F4E0}": ":\u4f20\u771f\u673a:",
+    "\u{0001F628}": ":\u6050\u60e7\u7684\u8138:",
+    "\u{00002640}": ":\u5973\u6027\u6807\u5fd7:",
+    "\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6807\u5fd7:",
+    "\u{0001F3A1}": ":\u6469\u5929\u8f6e:",
+    "\u{000026F4}": ":\u6e21\u8239:",
+    "\u{000026F4}\u{0000FE0F}": ":\u8f6e\u6e21:",
+    "\u{0001F3D1}": ":\u66f2\u68cd\u7403:",
+    "\u{0001F5C4}": ":\u6587\u4ef6\u67dc:",
+    "\u{0001F5C4}\u{0000FE0F}": ":\u6587\u4ef6\u67dc:",
+    "\u{0001F4C1}": ":\u6587\u4ef6\u5939:",
+    "\u{0001F39E}": ":\u5e95\u7247\u6846\u67b6:",
+    "\u{0001F39E}\u{0000FE0F}": ":\u80f6\u7247\u6846:",
+    "\u{0001F4FD}": ":\u7535\u5f71\u653e\u6620\u673a:",
+    "\u{0001F4FD}\u{0000FE0F}": ":\u7535\u5f71\u653e\u6620\u673a:",
+    "\u{0001F525}": ":\u706b:",
+    "\u{0001F692}": ":\u6d88\u9632\u8f66:",
+    "\u{0001F9EF}": ":\u706d\u706b\u5668:",
+    "\u{0001F9E8}": ":\u97ad\u70ae:",
+    "\u{0001F386}": ":\u70df\u706b:",
+    "\u{0001F313}": ":\u7b2c\u4e00\u5b63\u5ea6\u6708\u4eae:",
+    "\u{0001F31B}": ":\u7b2c\u4e00\u5b63\u5ea6\u6708\u9762:",
+    "\u{0001F41F}": ":\u9c7c:",
+    "\u{0001F365}": ":\u6f29\u6da1\u9c7c\u7cd5:",
+    "\u{0001F3A3}": ":\u9493\u9c7c\u7aff:",
+    "\u{0001F560}": ":\u4e94\u70b9\u534a:",
+    "\u{0001F554}": ":\u4e94\u70b9\u949f:",
+    "\u{000026F3}": ":\u6d1e\u5185\u65d7\u5b50:",
+    "\u{0001F9A9}": ":\u706b\u70c8\u9e1f:",
+    "\u{0001F526}": ":\u624b\u7535\u7b52:",
+    "\u{0001F97F}": ":\u5e73\u5e95\u978b:",
+    "\u{0000269C}": ":\u73ab\u7470\u82b1:",
+    "\u{0000269C}\u{0000FE0F}": ":\u767e\u5408\u82b1\u9970:",
+    "\u{0001F4AA}": ":\u5c48\u808c:",
+    "\u{0001F4AA}\u{0001F3FF}": ":\u5f2f\u66f2\u7684\u4e8c\u5934\u808c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F4AA}\u{0001F3FB}": ":\u5f2f\u66f2\u4e8c\u5934\u808c\u6d45\u80a4\u8272:",
+    "\u{0001F4AA}\u{0001F3FE}": ":\u5f2f\u66f2\u7684\u4e8c\u5934\u808c\u4e2d\u7b49\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F4AA}\u{0001F3FC}": ":\u5f2f\u66f2\u7684\u4e8c\u5934\u808c\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F4AA}\u{0001F3FD}": ":\u5f2f\u66f2\u7684\u80b1\u4e8c\u5934\u808c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F4BE}": ":\u8f6f\u76d8:",
+    "\u{0001F3B4}": ":\u82b1\u6251\u514b\u724c:",
+    "\u{0001F633}": ":\u8138\u7ea2:",
+    "\u{0001F94F}": ":\u98de\u789f:",
+    "\u{0001F6F8}": ":\u98de\u789f:",
+    "\u{0001F32B}": ":\u96fe:",
+    "\u{0001F32B}\u{0000FE0F}": ":\u96fe:",
+    "\u{0001F301}": ":\u96fe:",
+    "\u{0001F64F}": ":\u53cc\u624b\u5408\u5341:",
+    "\u{0001F64F}\u{0001F3FF}": ":\u53cc\u624b\u5408\u5341\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64F}\u{0001F3FB}": ":\u53cc\u624b\u5408\u5341\u6d45\u80a4\u8272:",
+    "\u{0001F64F}\u{0001F3FE}": ":\u53cc\u624b\u5408\u5341\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64F}\u{0001F3FC}": ":\u53cc\u624b\u5408\u5341\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64F}\u{0001F3FD}": ":\u53cc\u624b\u5408\u5341\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B6}\u{0001F3FF}": ":\u8db3\u90e8\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9B6}\u{0001F3FB}": ":\u8db3\u90e8\u6d45\u80a4\u8272:",
+    "\u{0001F9B6}\u{0001F3FE}": ":\u8db3\u90e8\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B6}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B6}\u{0001F3FD}": ":\u8db3\u90e8\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B6}": ":\u811a:",
+    "\u{0001F463}": ":\u811a\u5370:",
+    "\u{0001F374}": ":\u5200\u53c9:",
+    "\u{0001F37D}": ":\u5e26\u76d8\u5b50\u7684\u5200\u53c9:",
+    "\u{0001F37D}\u{0000FE0F}": ":\u5e26\u9009\u677f\u5668\u7684\u5200\u53c9:",
+    "\u{0001F960}": ":\u5e78\u8fd0\u997c\u5e72:",
+    "\u{000026F2}": ":\u55b7\u6cc9:",
+    "\u{0001F58B}": ":\u81ea\u6765\u6c34\u7b14:",
+    "\u{0001F58B}\u{0000FE0F}": ":\u81ea\u6765\u6c34\u7b14:",
+    "\u{0001F55F}": ":\u56db\u70b9\u534a:",
+    "\u{0001F340}": ":\u56db\u53f6\u8349:",
+    "\u{0001F553}": ":\u56db\u70b9\u949f:",
+    "\u{0001F98A}": ":\u72d0\u72f8\u8138:",
+    "\u{0001F5BC}": ":\u9576\u6846\u56fe\u7247:",
+    "\u{0001F5BC}\u{0000FE0F}": ":\u5e26\u6846\u56fe\u7247:",
+    "\u{0001F35F}": ":\u70b8\u85af\u6761:",
+    "\u{0001F364}": ":\u70b8\u867e\u4ec1:",
+    "\u{0001F438}": ":\u9752\u86d9\u8138:",
+    "\u{0001F425}": ":\u524d\u8138\u5c0f\u9e21:",
+    "\u{00002639}": ":\u76b1\u7709\u7684\u8138:",
+    "\u{00002639}\u{0000FE0F}": ":\u76b1\u7709\u5934:",
+    "\u{0001F626}": ":\u5f20\u5634\u76b1\u7709:",
+    "\u{000026FD}": ":\u71c3\u6cb9\u6cf5:",
+    "\u{0001F315}": ":\u6ee1\u6708:",
+    "\u{0001F31D}": ":\u6ee1\u6708\u8138:",
+    "\u{000026B1}": ":\u4e27\u846c\u74ee:",
+    "\u{000026B1}\u{0000FE0F}": ":\u9aa8\u7070\u76d2:",
+    "\u{0001F3B2}": ":\u6e38\u620f\u6b7b\u4ea1:",
+    "\u{0001F9C4}": ":\u5927\u849c:",
+    "\u{00002699}": ":\u9f7f\u8f6e:",
+    "\u{00002699}\u{0000FE0F}": ":\u6362\u6863\u6746:",
+    "\u{0001F48E}": ":\u5b9d\u77f3:",
+    "\u{0001F9DE}": ":\u7cbe\u7075:",
+    "\u{0001F47B}": ":\u9b3c:",
+    "\u{0001F992}": ":\u957f\u9888\u9e7f:",
+    "\u{0001F467}": ":\u5973\u5b69:",
+    "\u{0001F467}\u{0001F3FF}": ":\u5973\u5b69\u6697\u80a4\u8272:",
+    "\u{0001F467}\u{0001F3FB}": ":\u5973\u5b69\u6d45\u80a4\u8272:",
+    "\u{0001F467}\u{0001F3FE}": ":\u5973\u5b69\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F467}\u{0001F3FC}": ":\u5973\u5b69\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F467}\u{0001F3FD}": ":\u5973\u5b69\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F95B}": ":\u4e00\u676f\u725b\u5976:",
+    "\u{0001F453}": ":\u73bb\u7483\u676f:",
+    "\u{0001F30E}": ":\u73af\u7403\u5c55\u7f8e\u6d32:",
+    "\u{0001F30F}": ":\u4e9a\u6d32\u6fb3\u5927\u5229\u4e9a\u73af\u7403\u5c55:",
+    "\u{0001F30D}": ":\u73af\u7403\u5c55\u6b27\u6d32\u975e\u6d32:",
+    "\u{0001F310}": ":\u6709\u5b50\u5348\u7ebf\u7684\u5730\u7403\u4eea:",
+    "\u{0001F9E4}": ":\u624b\u5957:",
+    "\u{0001F31F}": ":\u53d1\u5149\u7684\u661f\u661f:",
+    "\u{0001F945}": ":\u7403\u95e8\u7f51:",
+    "\u{0001F410}": ":\u5c71\u7f8a:",
+    "\u{0001F47A}": ":\u5996\u7cbe:",
+    "\u{0001F97D}": ":\u62a4\u76ee\u955c:",
+    "\u{0001F98D}": ":\u5927\u7329\u7329:",
+    "\u{0001F393}": ":\u523b\u5ea6\u5e3d:",
+    "\u{0001F347}": ":\u8461\u8404:",
+    "\u{0001F34F}": ":\u9752\u82f9\u679c:",
+    "\u{0001F4D7}": ":\u7eff\u76ae\u4e66:",
+    "\u{0001F7E2}": ":\u7eff\u8272\u5706\u5708:",
+    "\u{0001F49A}": ":\u9752\u5fc3\u6811:",
+    "\u{0001F957}": ":\u852c\u83dc\u6c99\u62c9:",
+    "\u{0001F7E9}": ":\u7eff\u8272\u5e7f\u573a:",
+    "\u{0001F62C}": ":\u6b6a\u626d:",
+    "\u{0001F63A}": ":\u54a7\u5634\u7b11\u7684\u732b\u8138:",
+    "\u{0001F638}": ":\u7b11\u772f\u772f\u7684\u732b\u8138:",
+    "\u{0001F600}": ":\u7b11\u8138:",
+    "\u{0001F603}": ":\u7b11\u8138\u5927\u773c\u775b:",
+    "\u{0001F604}": ":\u7b11\u772f\u772f\u7684\u8138:",
+    "\u{0001F605}": ":\u6ee1\u8138\u6c57\u6c34:",
+    "\u{0001F606}": ":\u7b11\u772f\u772f\u7684\u8138:",
+    "\u{0001F497}": ":\u6210\u957f\u7684\u5fc3:",
+    "\u{0001F482}": ":\u8b66\u536b:",
+    "\u{0001F482}\u{0001F3FF}": ":\u62a4\u9ed1\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FB}": ":\u62a4\u5149\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FE}": ":\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9AE}": ":\u5bfc\u76f2\u72ac:",
+    "\u{0001F3B8}": ":\u5409\u4ed6:",
+    "\u{0001F354}": ":\u6c49\u5821\u5305:",
+    "\u{0001F528}": ":\u94c1\u9524:",
+    "\u{00002692}": ":\u9524\u5b50\u548c\u9550:",
+    "\u{00002692}\u{0000FE0F}": ":\u9524\u5f0f\u548c\u9550\u5f0f:",
+    "\u{0001F6E0}": ":\u9524\u5b50\u548c\u6273\u624b:",
+    "\u{0001F6E0}\u{0000FE0F}": ":\u9524\u5b50\u548c\u6273\u624b:",
+    "\u{0001F439}": ":\u4ed3\u9f20\u8138:",
+    "\u{0001F590}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b:",
+    "\u{0001F590}\u{0001F3FF}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b\u5448\u6df1\u80a4\u8272:",
+    "\u{0001F590}\u{0001F3FB}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b\u6d45\u80a4\u8272:",
+    "\u{0001F590}\u{0001F3FE}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b\u5448\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F590}\u{0001F3FC}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F590}\u{0001F3FD}": ":\u624b\u6307\u5f20\u5f00\u7684\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F590}\u{0000FE0F}": ":\u624b\u6307\u5f20\u5f00\u5f0f:",
+    "\u{0001F45C}": ":\u624b\u63d0\u5305:",
+    "\u{0001F91D}": ":\u63e1\u624b:",
+    "\u{0001F423}": ":\u5b75\u5316\u5c0f\u9e21:",
+    "\u{0001F3A7}": ":\u8033\u673a:",
+    "\u{0001F649}": ":\u542c\u4e0d\u89c1\u90aa\u6076\u7684\u7334\u5b50:",
+    "\u{0001F49F}": ":\u5fc3\u5f62\u88c5\u9970:",
+    "\u{00002763}\u{0000FE0F}": ":\u5fc3\u58f0\u611f\u53f9:",
+    "\u{00002665}": ":\u5fc3\u5f62\u5957\u88c5:",
+    "\u{00002665}\u{0000FE0F}": ":\u5fc3\u810f\u5957\u88c5:",
+    "\u{0001F498}": ":\u5fc3\u5f62\u7bad\u5934:",
+    "\u{0001F49D}": ":\u5fc3\u5f62\u4e1d\u5e26:",
+    "\u{00002714}": ":\u7c97\u590d\u9009\u6807\u8bb0:",
+    "\u{00002797}": ":\u91cd\u9664\u6cd5\u6807\u5fd7:",
+    "\u{0001F4B2}": ":\u91cd\u7f8e\u5143\u7b26\u53f7:",
+    "\u{00002763}": ":\u6c89\u91cd\u7684\u5fc3\u58f0\u611f\u53f9:",
+    "\u{00002B55}": ":\u7c97\u5927\u5706:",
+    "\u{00002796}": ":\u91cd\u51cf\u53f7:",
+    "\u{00002716}": ":\u91cd\u4e58\u6cd5x:",
+    "\u{00002795}": ":\u7c97\u52a0\u53f7:",
+    "\u{0001F994}": ":\u523a\u732c:",
+    "\u{0001F681}": ":\u76f4\u5347\u673a:",
+    "\u{0001F33F}": ":\u8349\u672c\u690d\u7269:",
+    "\u{0001F33A}": ":\u6728\u69ff:",
+    "\u{0001F460}": ":\u9ad8\u8ddf\u978b:",
+    "\u{0001F684}": ":\u9ad8\u901f\u5217\u8f66:",
+    "\u{000026A1}": ":\u9ad8\u538b:",
+    "\u{0001F97E}": ":\u767b\u5c71\u9774:",
+    "\u{0001F6D5}": ":\u5370\u5ea6\u6559\u5bfa\u5e99:",
+    "\u{0001F99B}": ":\u6cb3\u9a6c:",
+    "\u{0001F573}": ":\u5b54:",
+    "\u{0001F573}\u{0000FE0F}": ":\u5b54:",
+    "\u{0001F36F}": ":\u871c\u7f50:",
+    "\u{0001F41D}": ":\u871c\u8702:",
+    "\u{0001F6A5}": ":\u6c34\u5e73\u4ea4\u901a\u706f:",
+    "\u{0001F40E}": ":\u9a6c:",
+    "\u{0001F434}": ":\u9a6c\u8138:",
+    "\u{0001F3C7}": ":\u8d5b\u9a6c:",
+    "\u{0001F3C7}\u{0001F3FF}": ":\u8d5b\u9a6c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C7}\u{0001F3FB}": ":\u8d5b\u9a6c\u6d45\u80a4\u8272:",
+    "\u{0001F3C7}\u{0001F3FE}": ":\u8d5b\u9a6c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C7}\u{0001F3FC}": ":\u8d5b\u9a6c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C7}\u{0001F3FD}": ":\u8d5b\u9a6c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3E5}": ":\u533b\u9662:",
+    "\u{00002615}": ":\u70ed\u996e:",
+    "\u{0001F32D}": ":\u70ed\u72d7:",
+    "\u{0001F975}": ":\u706b\u8fa3\u8138:",
+    "\u{0001F336}": ":\u8fa3\u6912:",
+    "\u{0001F336}\u{0000FE0F}": ":\u8fa3\u6912:",
+    "\u{00002668}": ":\u6e29\u6cc9:",
+    "\u{00002668}\u{0000FE0F}": ":\u6e29\u6cc9:",
+    "\u{0001F3E8}": ":\u9152\u5e97:",
+    "\u{0000231B}": ":\u6c99\u6f0f\u505a\u597d\u4e86:",
+    "\u{000023F3}": ":\u6c99\u6f0f\u672a\u5b8c\u6210:",
+    "\u{0001F3E0}": ":\u623f\u5b50:",
+    "\u{0001F3E1}": ":\u5e26\u82b1\u56ed\u7684\u623f\u5b50:",
+    "\u{0001F3D8}": ":\u623f\u5c4b:",
+    "\u{0001F3D8}\u{0000FE0F}": ":\u623f\u5c4b:",
+    "\u{0001F917}": ":\u62e5\u62b1\u7684\u8138:",
+    "\u{0001F4AF}": ":100\u5206:",
+    "\u{0001F62F}": ":\u5e73\u9759\u7684\u8138:",
+    "\u{0001F9CA}": ":\u51b0:",
+    "\u{0001F368}": ":\u51b0\u6dc7\u6dcb:",
+    "\u{0001F3D2}": ":\u51b0\u7403:",
+    "\u{000026F8}": ":\u6e9c\u51b0\u978b:",
+    "\u{000026F8}\u{0000FE0F}": ":\u51b0\u978b:",
+    "\u{0001F4E5}": ":\u6536\u4ef6\u7bb1\u9001\u7eb8\u5668:",
+    "\u{0001F4E8}": ":\u6536\u5230\u7684\u4fe1\u5c01:",
+    "\u{0000261D}": ":\u6307\u5411\u4e0a\u7684\u7d22\u5f15:",
+    "\u{0000261D}\u{0001F3FF}": ":\u6307\u5411\u6df1\u8272\u80a4\u8272\u7684\u7d22\u5f15:",
+    "\u{0000261D}\u{0001F3FB}": ":\u6307\u5411\u6d45\u80a4\u8272\u7684\u7d22\u5f15:",
+    "\u{0000261D}\u{0001F3FE}": ":\u6307\u5411\u4e2d\u6df1\u8272\u80a4\u8272\u7684\u7d22\u5f15:",
+    "\u{0000261D}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u6307\u6570:",
+    "\u{0000261D}\u{0001F3FD}": ":\u6307\u5411\u4e2d\u7b49\u80a4\u8272\u7684\u7d22\u5f15:",
+    "\u{0000261D}\u{0000FE0F}": ":\u7d22\u5f15\u6307\u5411\u4e0a:",
+    "\u{0000267E}": ":\u65e0\u7a77:",
+    "\u{0000267E}\u{0000FE0F}": ":\u65e0\u9650:",
+    "\u{00002139}": ":\u4fe1\u606f:",
+    "\u{00002139}\u{0000FE0F}": ":\u4fe1\u606f:",
+    "\u{0001F524}": ":\u8f93\u5165\u62c9\u4e01\u5b57\u6bcd:",
+    "\u{0001F521}": ":\u8f93\u5165\u62c9\u4e01\u6587\u5c0f\u5199:",
+    "\u{0001F520}": ":\u8f93\u5165\u62c9\u4e01\u6587\u5927\u5199:",
+    "\u{0001F522}": ":\u8f93\u5165\u6570\u5b57:",
+    "\u{0001F523}": ":\u8f93\u5165\u7b26\u53f7:",
+    "\u{0001F383}": ":\u6770\u514b\u706f:",
+    "\u{0001F456}": ":\u725b\u4ed4\u88e4:",
+    "\u{0001F9E9}": ":\u62fc\u56fe:",
+    "\u{0001F0CF}": ":\u5c0f\u4e11:",
+    "\u{0001F579}": ":\u64cd\u7eb5\u6746:",
+    "\u{0001F579}\u{0000FE0F}": ":\u64cd\u7eb5\u6746:",
+    "\u{0001F54B}": ":\u5361\u5df4:",
+    "\u{0001F998}": ":\u888b\u9f20:",
+    "\u{0001F511}": ":\u94a5\u5319:",
+    "\u{00002328}": ":\u952e\u76d8:",
+    "\u{00002328}\u{0000FE0F}": ":\u952e\u76d8:",
+    "\u{00000023}\u{000020E3}": ":\u94a5\u5319\u76d6:",
+    "\u{00000023}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d62:",
+    "\u{0000002A}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d63:",
+    "\u{00000030}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d6#:",
+    "\u{0001F51F}": ":\u94a5\u5319\u76d6*:",
+    "\u{00000031}\u{0000FE0F}\u{000020E3}": ":\u5bc6\u94a5\u5e3d0:",
+    "\u{00000032}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d610:",
+    "\u{00000033}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d61:",
+    "\u{00000034}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d64:",
+    "\u{00000035}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d65:",
+    "\u{00000036}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d66:",
+    "\u{00000037}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d67:",
+    "\u{00000038}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d68:",
+    "\u{00000039}\u{0000FE0F}\u{000020E3}": ":\u94a5\u5319\u76d69:",
+    "\u{0000002A}\u{000020E3}": ":\u952e\u5e3d\u661f\u53f7:",
+    "\u{00000038}\u{000020E3}": ":\u952e\u5e3d\u6570\u5b57\u516b:",
+    "\u{00000035}\u{000020E3}": ":\u952e\u76d8\u5927\u5199\u6570\u5b57\u4e94:",
+    "\u{00000034}\u{000020E3}": ":\u94a5\u5319\u76d6\u6570\u5b57\u56db:",
+    "\u{00000039}\u{000020E3}": ":\u952e\u5e3d\u6570\u5b57\u4e5d:",
+    "\u{00000031}\u{000020E3}": ":\u94a5\u5319\u5e3d\u6570\u5b57\u4e00:",
+    "\u{00000037}\u{000020E3}": ":\u94a5\u5319\u5e3d\u6570\u5b57\u4e03:",
+    "\u{00000036}\u{000020E3}": ":\u952e\u5e3d\u6570\u5b57\u516d:",
+    "\u{00000033}\u{000020E3}": ":\u94a5\u5319\u5e3d\u6570\u5b57\u4e09:",
+    "\u{00000032}\u{000020E3}": ":\u94a5\u5319\u5e3d\u6570\u5b57\u4e8c:",
+    "\u{00000030}\u{000020E3}": ":\u952e\u5e3d\u6570\u5b57\u96f6:",
+    "\u{0001F6F4}": ":\u8e22\u677f\u8f66:",
+    "\u{0001F458}": ":\u548c\u670d:",
+    "\u{0001F468}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}": ":\u543b\u7537\u4eba\u7537\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}": ":\u543b\u5973\u4eba\u7537\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F469}": ":\u543b\u5973\u4eba:",
+    "\u{0001F48F}": ":\u543b:",
+    "\u{0001F468}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}": ":\u543b\u7537\u4eba\u7537\u4eba:",
+    "\u{0001F48B}": ":\u543b\u75d5:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F468}": ":\u543b\u5973\u4eba\u7537\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{00002764}\u{0000FE0F}\u{0000200D}\u{0001F48B}\u{0000200D}\u{0001F469}": ":\u543b\u5973\u4eba:",
+    "\u{0001F63D}": ":\u4eb2\u543b\u732b\u8138:",
+    "\u{0001F617}": ":\u63a5\u543b\u7684\u8138:",
+    "\u{0001F61A}": ":\u95ed\u773c\u63a5\u543b:",
+    "\u{0001F619}": ":\u7b11\u772f\u772f\u7684\u8138:",
+    "\u{0001F52A}": ":\u83dc\u5200:",
+    "\u{0001FA81}": ":\u98ce\u7b5d:",
+    "\u{0001F95D}": ":\u7315\u7334\u6843:",
+    "\u{0001F428}": ":\u8003\u62c9:",
+    "\u{0001F97C}": ":\u5b9e\u9a8c\u5ba4\u5916\u5957:",
+    "\u{0001F3F7}": ":\u6807\u7b7e:",
+    "\u{0001F3F7}\u{0000FE0F}": ":\u6807\u7b7e:",
+    "\u{0001F94D}": ":\u957f\u66f2\u68cd\u7403:",
+    "\u{0001F41E}": ":\u74e2\u866b:",
+    "\u{0001F4BB}": ":\u7b14\u8bb0\u672c\u7535\u8111:",
+    "\u{0001F537}": ":\u84dd\u8272\u5927\u94bb\u77f3:",
+    "\u{0001F536}": ":\u5927\u6a59\u8272\u94bb\u77f3:",
+    "\u{0001F317}": ":\u6700\u540e\u4e00\u523b\u6708\u4eae:",
+    "\u{0001F31C}": ":\u6700\u540e\u56db\u5206\u4e4b\u4e00\u6708\u9762:",
+    "\u{000023EE}": ":\u6700\u540e\u4e00\u9996\u66f2\u76ee\u6309\u94ae:",
+    "\u{000023EE}\u{0000FE0F}": ":\u6700\u540e\u4e00\u4e2a\u97f3\u8f68\u6309\u94ae:",
+    "\u{0000271D}": ":\u62c9\u4e01\u5341\u5b57:",
+    "\u{0000271D}\u{0000FE0F}": ":\u62c9\u4e01\u8bed\u4ea4\u53c9:",
+    "\u{0001F343}": ":\u98ce\u4e2d\u98d8\u52a8\u7684\u6811\u53f6:",
+    "\u{0001F96C}": ":\u7eff\u53f6:",
+    "\u{0001F4D2}": ":\u5206\u7c7b\u5e10:",
+    "\u{0001F91B}": ":\u5de6\u62f3:",
+    "\u{0001F91B}\u{0001F3FF}": ":\u5de6\u62f3\u6697\u80a4\u8272:",
+    "\u{0001F91B}\u{0001F3FB}": ":\u5de6\u62f3\u8f7b\u80a4\u8272:",
+    "\u{0001F91B}\u{0001F3FE}": ":\u5de6\u62f3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91B}\u{0001F3FC}": ":\u5de6\u62f3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F91B}\u{0001F3FD}": ":\u5de6\u62f3\u4e2d\u80a4\u8272:",
+    "\u{00002194}": ":\u5de6\u53f3\u7bad\u5934:",
+    "\u{00002194}\u{0000FE0F}": ":\u5de6\u53f3\u7bad\u5934:",
+    "\u{00002B05}": ":\u5de6\u7bad\u5934:",
+    "\u{000021AA}": ":\u5de6\u7bad\u5934\u5411\u53f3\u5f2f\u66f2:",
+    "\u{000021AA}\u{0000FE0F}": ":\u5de6\u7bad\u5934\u66f2\u7ebf\u53f3:",
+    "\u{00002B05}\u{0000FE0F}": ":\u5de6\u7bad\u5934:",
+    "\u{0001F6C5}": ":\u884c\u674e\u5bc4\u5b58\u5904:",
+    "\u{0001F5E8}": ":\u5de6\u8bed\u97f3\u6c14\u6ce1:",
+    "\u{0001F5E8}\u{0000FE0F}": ":\u5de6\u8bed\u97f3\u6c14\u6ce1:",
+    "\u{0001F9B5}\u{0001F3FF}": ":\u6df1\u8272\u817f\u90e8\u80a4\u8272:",
+    "\u{0001F9B5}\u{0001F3FB}": ":\u817f\u90e8\u6d45\u80a4\u8272:",
+    "\u{0001F9B5}\u{0001F3FE}": ":\u817f\u90e8\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B5}\u{0001F3FC}": ":\u817f\u90e8\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B5}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B5}": ":\u817f:",
+    "\u{0001F34B}": ":\u67e0\u6aac:",
+    "\u{0001F406}": ":\u8c79\u5b50:",
+    "\u{0001F39A}": ":\u6c34\u5e73\u6ed1\u5757:",
+    "\u{0001F39A}\u{0000FE0F}": ":\u7535\u5e73\u6ed1\u5757:",
+    "\u{0001F4A1}": ":\u706f\u6ce1:",
+    "\u{0001F688}": ":\u8f7b\u8f68:",
+    "\u{0001F3FB}": ":\u6d45\u80a4\u8272:",
+    "\u{0001F517}": ":\u94fe\u63a5:",
+    "\u{0001F587}": ":\u8fde\u73af\u56de\u5f62\u9488:",
+    "\u{0001F587}\u{0000FE0F}": ":\u94fe\u63a5\u56de\u5f62\u9488:",
+    "\u{0001F981}": ":\u72ee\u5b50\u8138:",
+    "\u{0001F484}": ":\u5507\u818f:",
+    "\u{0001F6AE}": ":\u5783\u573e\u7bb1\u6807\u8bc6:",
+    "\u{0001F98E}": ":\u8725\u8734:",
+    "\u{0001F999}": ":\u7f8e\u6d32\u9a7c:",
+    "\u{0001F99E}": ":\u9f99\u867e:",
+    "\u{0001F512}": ":\u9501\u5b9a:",
+    "\u{0001F510}": ":\u7528\u94a5\u5319\u9501\u4f4f:",
+    "\u{0001F50F}": ":\u7528\u94a2\u7b14\u9501\u4f4f:",
+    "\u{0001F682}": ":\u673a\u8f66:",
+    "\u{0001F36D}": ":\u68d2\u68d2\u7cd6:",
+    "\u{0001F9F4}": ":\u6d17\u6db2\u74f6:",
+    "\u{0001F62D}": ":\u5927\u58f0\u54ed\u558a\u7684\u8138:",
+    "\u{0001F4E2}": ":\u626c\u58f0\u5668:",
+    "\u{0001F91F}": ":\u7231\u4f60\u7684\u624b\u52bf:",
+    "\u{0001F91F}\u{0001F3FF}": ":\u7231\u4f60\u624b\u52bf\u6df1\u80a4\u8272:",
+    "\u{0001F91F}\u{0001F3FB}": ":\u7231\u4f60\u624b\u52bf\u6d45\u80a4\u8272:",
+    "\u{0001F91F}\u{0001F3FE}": ":\u7231\u4f60\u624b\u52bf\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91F}\u{0001F3FC}": ":\u7231\u4f60\u624b\u52bf\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F91F}\u{0001F3FD}": ":\u7231\u4f60\u624b\u52bf\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3E9}": ":\u7231\u60c5\u9152\u5e97:",
+    "\u{0001F48C}": ":\u60c5\u4e66:",
+    "\u{0001F9F3}": ":\u884c\u674e:",
+    "\u{0001F925}": ":\u8eba\u7740\u7684\u8138:",
+    "\u{0001F9D9}": ":\u6cd5\u5e08:",
+    "\u{0001F9D9}\u{0001F3FF}": ":\u9b54\u6cd5\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FB}": ":\u9b54\u5149\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FE}": ":mage\u4e2d\u6697\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FC}": ":\u6cd5\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FD}": ":\u6cd5\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9F2}": ":\u78c1\u94c1:",
+    "\u{0001F50D}": ":\u653e\u5927\u955c\u5411\u5de6\u503e\u659c:",
+    "\u{0001F50E}": ":\u653e\u5927\u955c\u5411\u53f3\u503e\u659c:",
+    "\u{0001F004}": ":\u9ebb\u5c06\u7ea2\u4e2d:",
+    "\u{00002642}": ":\u7537\u6027\u6807\u5fd7:",
+    "\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u6807\u5fd7:",
+    "\u{0001F471}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B2}": ":\u7537\u6027\u6df1\u8272\u80a4\u8272\u79c3\u9876:",
+    "\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6df1\u8272\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B1}": ":\u7537\u58eb\u6df1\u8272\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B0}": ":\u7537\u4eba\u6df1\u8272\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9B3}": ":\u7537\u4eba\u6df1\u8272\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B2}": ":\u7537\u6027\u6d45\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6d45\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B1}": ":\u7537\u58eb\u6d45\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B0}": ":\u7537\u4eba\u6d45\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9B3}": ":\u7537\u4eba\u6d45\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B2}": ":\u7537\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B1}": ":\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B0}": ":\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9B3}": ":\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B2}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B1}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B0}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9B3}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B2}": ":\u7537\u6027\u4e2d\u7b49\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u4e2d\u7b49\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B1}": ":\u7537\u58eb\u4e2d\u7b49\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B0}": ":\u7537\u58eb\u4e2d\u7b49\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9B3}": ":\u7537\u58eb\u4e2d\u7b49\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F468}": ":\u7537\u4eba:",
+    "\u{0001F46B}": ":\u624b\u7275\u624b\u7684\u5973\u4eba:",
+    "\u{0001F468}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u672f\u5bb6:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3A8}": ":\u7537\u827a\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{0001F680}": ":\u5b87\u822a\u5458:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F680}": ":\u7537\u5b87\u822a\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F680}": ":\u5b87\u822a\u5458\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F680}": ":\u6df1\u80a4\u8272\u5b87\u822a\u5458:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F680}": ":\u5b87\u822a\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F680}": ":\u7537\u5b87\u822a\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u81ea\u884c\u8f66:",
+    "\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u81ea\u884c\u8f66:",
+    "\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5f39\u8df3\u7403\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5f39\u8df3\u7403\u8f7b\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5f39\u7403:",
+    "\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5f39\u74032:",
+    "\u{000026F9}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5f39\u74033:",
+    "\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5f39\u8df3\u7403\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5f39\u8df3\u7403\u8f7b\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5f39\u8df3\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002642}": ":\u4eba\u5f39\u7403:",
+    "\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u6027\u5f13\u5f62\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5f13\u5f62\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6027\u5f13\u5f62\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u5f13\u5f62\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u5f13\u5f62\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F647}\u{0000200D}\u{00002642}": ":\u97a0\u8eac:",
+    "\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u5f13\u5f62\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5f13\u5f62\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u5f13\u5f62\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u5f13\u5f62\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u5f13\u5f62\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F647}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u97a0\u8eac:",
+    "\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u63a8\u8f66\u5f0f\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u88c5\u8f7b\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F938}\u{0000200D}\u{00002642}": ":\u4eba\u529b\u63a8\u8f66:",
+    "\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u63a8\u8f66\u5f0f\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u88c5\u8f7b\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u63a8\u8f66\u5f0f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F938}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u529b\u63a8\u8f66:",
+    "\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u6027\u6500\u722c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6500\u5ca9\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6027\u6500\u5ca9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6500\u5ca9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6500\u5ca9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D7}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6500\u5ca9:",
+    "\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u6500\u722c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6500\u5ca9\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u6500\u5ca9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6500\u5ca9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6500\u5ca9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D7}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u722c:",
+    "\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F477}\u{0000200D}\u{00002642}": ":\u7537\u5efa\u7b51\u5de5\u4eba:",
+    "\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5efa\u7b51\u5de5\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F477}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u5de5\u5efa\u7b51\u5de5\u4eba:",
+    "\u{0001F468}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u5e08:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F373}": ":\u7537\u53a8\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F57A}": ":\u8df3\u821e\u7684\u7537\u4eba:",
+    "\u{0001F57A}\u{0001F3FF}": ":\u821e\u7537\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F57A}\u{0001F3FB}": ":\u821e\u7537\u6d45\u80a4\u8272:",
+    "\u{0001F57A}\u{0001F3FE}": ":\u821e\u7537\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F57A}\u{0001F3FC}": ":\u821e\u7537\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F57A}\u{0001F3FD}": ":\u7537\u5b50\u821e\u8e48\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}": ":\u7537\u6027\u6697\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F575}\u{0000200D}\u{00002642}": ":\u7537\u4fa6\u63a2:",
+    "\u{0001F575}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a22:",
+    "\u{0001F575}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2:",
+    "\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4fa6\u63a2\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u4eba\u7cbe\u7075\u9ed1\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u4eba\u7cbe\u7075\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u7cbe\u7075\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u4eba\u7cbe\u7075\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u4eba\u7cbe\u7075\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0000200D}\u{00002642}": ":\u4eba\u7cbe\u7075:",
+    "\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u7cbe\u7075\u9ed1\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u7cbe\u7075\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u7cbe\u7075\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7cbe\u7075\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u7cbe\u7075\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u7cbe\u7075:",
+    "\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u6027\u638c\u7eb9\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u6027\u638c\u7eb9\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F926}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u638c\u5fc3:",
+    "\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u638c\u7eb9\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u638c\u7eb9\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u638c\u7eb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F926}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u8138\u638c\u7eb9:",
+    "\u{0001F468}\u{0000200D}\u{0001F3ED}": ":\u5de5\u5382\u5de5\u4eba:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3ED}": ":\u7537\u5de5\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3ED}": ":\u7537\u5de5\u5382\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3ED}": ":\u7537\u5382\u5de5\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3ED}": ":\u7537\u5de5\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3ED}": ":\u7537\u5382\u5de5\u4eba\u4e2d\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4ed9\u5b50\u6697\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4ed9\u5b50\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4ed9\u5b50\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4ed9\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4ed9\u5b50\u4e2d\u80a4\u8272:",
+    "\u{0001F9DA}\u{0000200D}\u{00002642}": ":\u4eba\u7c7b\u7cbe\u7075:",
+    "\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4ed9\u5b50\u6697\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4ed9\u5b50\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4ed9\u5b50\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4ed9\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4ed9\u5b50\u4e2d\u80a4\u8272:",
+    "\u{0001F9DA}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u5996:",
+    "\u{0001F468}\u{0000200D}\u{0001F33E}": ":\u519c\u573a\u4e3b:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F33E}": ":\u7537\u519c\u592b\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F33E}": ":\u7537\u4eba\u519c\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F33E}": ":\u7537\u519c\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F33E}": ":\u7537\u519c\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F33E}": ":\u7537\u519c\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{0001F692}": ":\u6d88\u9632\u5458:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F692}": ":\u7537\u6d88\u9632\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F692}": ":\u7537\u6d88\u9632\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F692}": ":\u7537\u6d88\u9632\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F692}": ":\u7537\u6d88\u9632\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F692}": ":\u7537\u6d88\u9632\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u76b1\u7740\u7709\u5934\uff0c\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u76b1\u7709\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0000200D}\u{00002642}": ":\u76b1\u7740\u7709\u5934\u7684\u7537\u4eba:",
+    "\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7740\u7709\u5934\uff0c\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7709\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7709\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u76b1\u7709:",
+    "\u{0001F9DE}\u{0000200D}\u{00002642}": ":\u4eba\u7c7b\u7cbe\u7075:",
+    "\u{0001F9DE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u7cbe\u7075:",
+    "\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u4e00\u4e2a\u6ca1\u6709\u6df1\u8272\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u4e00\u4e2a\u6ca1\u6709\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u624b\u52bf:",
+    "\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u624b\u52bf:",
+    "\u{0001F645}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6253\u624b\u52bf\u8bf4\u4e0d:",
+    "\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u6df1\u8272\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u624b\u52bf:",
+    "\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u624b\u52bf:",
+    "\u{0001F645}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6253\u624b\u52bf\u7981\u6b62\u9009\u62e9:",
+    "\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u505a\u624b\u52bf\u597d\u7684\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6253\u624b\u52bf\u53ef\u4ee5\u6de1\u80a4\u8272\u5417:",
+    "\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u624b\u52bfOK\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u624b\u52bfOK\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u624b\u52bfOK\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F646}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u505a\u624b\u52bf\u597d\u5417:",
+    "\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u505a\u624b\u52bf\u597d\u7684\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6253\u624b\u52bf\u53ef\u4ee5\u6de1\u80a4\u8272\u5417:",
+    "\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u4e2d\u6027\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u624b\u52bfOK\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u624b\u52bfOK\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F646}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6253\u624b\u52bf\u201c\u597d\u201d:",
+    "\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7406\u53d1\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7406\u53d1\u80a4\u8272\u6d45:",
+    "\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F487}\u{0000200D}\u{00002642}": ":\u7406\u53d1\u7684\u7537\u4eba:",
+    "\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7406\u53d1\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7406\u53d1\u80a4\u8272\u6d45:",
+    "\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7406\u53d1\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F487}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u7406\u53d1\u5e08:",
+    "\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6309\u6469\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6309\u6469\u6de1\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6309\u6469\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6309\u6469\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6309\u6469\u4e2d\u80a4\u8272:",
+    "\u{0001F486}\u{0000200D}\u{00002642}": ":\u7537\u6309\u6469\u5e08:",
+    "\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u6de1\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u4e2d\u80a4\u8272:",
+    "\u{0001F486}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6309\u6469\u9009\u62e9:",
+    "\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b2:",
+    "\u{0001F3CC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b3:",
+    "\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u9ad8\u5c14\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u62a4\u9ed1\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u536b\u58eb\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F482}\u{0000200D}\u{00002642}": ":\u8b66\u536b:",
+    "\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u62a4\u9ed1\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u536b\u58eb\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u536b\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F482}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u536b:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002695}": ":\u7537\u6027\u536b\u751f\u5de5\u4f5c\u8005\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002695}": ":\u7537\u536b\u751f\u5458\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002695}": ":\u7537\u6027\u536b\u751f\u5de5\u4f5c\u8005\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002695}": ":\u7537\u536b\u751f\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002695}": ":\u7537\u536b\u751f\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002695}": ":\u7537\u536b\u751f\u5458:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u6027\u536b\u751f\u5de5\u4f5c\u8005\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u536b\u751f\u5458\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u6027\u536b\u751f\u5de5\u4f5c\u8005\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u536b\u751f\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u536b\u751f\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u7537\u536b\u751f\u5de5\u4f5c\u8005\u9009\u62e9:",
+    "\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u80a4\u8272\u6d45:",
+    "\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u80a4\u8272:",
+    "\u{0001F9D8}\u{0000200D}\u{00002642}": ":\u83b2\u82b1\u4f4d\u7537\u5b50:",
+    "\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u80a4\u8272\u6d45:",
+    "\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u7537\u58eb\u4e2d\u80a4\u8272:",
+    "\u{0001F9D8}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u83b2\u82b1\u4eba\u4f4d\u7f6e:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u4e2d\u6697:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u4eba-\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u7537\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u4eba:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u7537\u5b50\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{0001F9BC}": ":\u5750\u7535\u52a8\u8f6e\u6905\u7684\u4eba:",
+    "\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u7537\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u7537\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D6}\u{0000200D}\u{00002642}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba:",
+    "\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u7537\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u7537\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u7537\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D6}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u5728\u84b8\u6c7d\u623f\u95f4\u91cc\u7684\u4eba\u9009\u62e9:",
+    "\u{0001F574}": ":\u897f\u88c5\u9769\u5c65:",
+    "\u{0001F574}\u{0001F3FF}": ":\u9ed1\u8863\u98d8\u98d8\u7537:",
+    "\u{0001F574}\u{0001F3FB}": ":\u897f\u88c5\u9769\u5c65\u8f7b\u8584\u80a4\u8272:",
+    "\u{0001F574}\u{0001F3FE}": ":\u897f\u88c5\u7537\u60ac\u6d6e\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F574}\u{0001F3FC}": ":\u897f\u88c5\u98d8\u9038\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F574}\u{0001F3FD}": ":\u897f\u88c5\u98d8\u9038\u4e2d\u80a4\u8272:",
+    "\u{0001F574}\u{0000FE0F}": ":\u897f\u88c5\u9769\u5c65:",
+    "\u{0001F935}": ":\u7a7f\u71d5\u5c3e\u670d\u7684\u7537\u4eba:",
+    "\u{0001F935}\u{0001F3FF}": ":\u7537\u58eb\u71d5\u5c3e\u670d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F935}\u{0001F3FB}": ":\u7537\u58eb\u71d5\u5c3e\u670d\u6d45\u80a4\u8272:",
+    "\u{0001F935}\u{0001F3FE}": ":\u7537\u58eb\u65e0\u5c3e\u665a\u793c\u670d\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F935}\u{0001F3FC}": ":\u7537\u58eb\u65e0\u5c3e\u665a\u793c\u670d\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F935}\u{0001F3FD}": ":\u7537\u58eb\u71d5\u5c3e\u670d\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002696}": ":\u7537\u4eba\u5224\u65ad\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002696}": ":\u7537\u4eba\u5224\u65ad\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002696}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002696}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002696}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002696}": ":\u7537\u6cd5\u5b98:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u7537\u4eba\u5224\u65ad\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u6d45\u80a4\u8272\u8bc4\u5224:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u7537\u58eb\u5224\u65ad\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u7537\u88c1\u5224:",
+    "\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u53d8\u9ed1\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u53d8\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6742\u800d\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u6742\u800d\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F939}\u{0000200D}\u{00002642}": ":\u73a9\u6742\u800d\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u53d8\u9ed1\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u53d8\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6742\u800d\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6742\u800d\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F939}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6742\u800d:",
+    "\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u8dea\u4e0b\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8dea\u4e0b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8dea\u5730\u80a4\u8272\u6d45:",
+    "\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dea\u5f0f\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8dea\u5728\u5730\u4e0a\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dea\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dea\u5f0f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8dea\u7740\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dea\u5f0f\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9CE}\u{0000200D}\u{00002642}": ":\u8dea\u7740\u7684\u4eba:",
+    "\u{0001F9CE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u8dea\u5f0f:",
+    "\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u504f\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd:",
+    "\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd2:",
+    "\u{0001F3CB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd3:",
+    "\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u504f\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u4e3e\u91cd:",
+    "\u{0001F468}\u{0001F3FB}": ":\u7537\u58eb\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u9b54\u6cd5\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u6cd5\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6cd5\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u6cd5\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u6cd5\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D9}\u{0000200D}\u{00002642}": ":\u7537\u6cd5\u5e08:",
+    "\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u9b54\u6cd5\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6cd5\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6cd5\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6cd5\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6cd5\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D9}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u6cd5\u5e08:",
+    "\u{0001F468}\u{0000200D}\u{0001F527}": ":\u673a\u68b0\u5e08:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F527}": ":\u7537\u673a\u68b0\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F527}": ":\u7537\u673a\u68b0\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F527}": ":\u7537\u673a\u68b0\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F527}": ":\u7537\u673a\u68b0\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F527}": ":\u7537\u673a\u68b0\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}": ":\u7537\u6027\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}": ":\u7537\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}": ":\u7537\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66:",
+    "\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5c71\u5730\u81ea\u884c\u8f66:",
+    "\u{0001F468}\u{0000200D}\u{0001F4BC}": ":\u529e\u516c\u5ba4\u804c\u5458:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F4BC}": ":\u529e\u516c\u5ba4\u804c\u5458\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F4BC}": ":\u4e0a\u73ed\u65cf\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F4BC}": ":\u7537\u529e\u516c\u5ba4\u804c\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F4BC}": ":\u7537\u4e0a\u73ed\u65cf\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F4BC}": ":\u529e\u516c\u5ba4\u804c\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002708}": ":\u7537\u98de\u884c\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002708}": ":\u7537\u98de\u884c\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002708}": ":\u7537\u98de\u884c\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002708}": ":\u7537\u98de\u884c\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002708}": ":\u7537\u98de\u884c\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002708}": ":\u9a7e\u9a76\u5458:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u7537\u98de\u884c\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u7537\u98de\u884c\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u7537\u98de\u884c\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u7537\u98de\u884c\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u7537\u98de\u884c\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u4eba\u5de5\u9a7e\u9a76:",
+    "\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6253\u624b\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u624b\u7403\u8f7b\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u624b\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u624b\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u624b\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93E}\u{0000200D}\u{00002642}": ":\u6253\u624b\u7403\u7684\u4eba:",
+    "\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6253\u624b\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u624b\u7403\u8f7b\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u624b\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u624b\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u624b\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93E}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u624b\u7403:",
+    "\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6253\u6c34\u7403\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93D}\u{0000200D}\u{00002642}": ":\u6253\u6c34\u7403\u7684\u4eba:",
+    "\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6253\u6c34\u7403\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6c34\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93D}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6253\u6c34\u7403:",
+    "\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98\u80a4\u8272\u6d45:",
+    "\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46E}\u{0000200D}\u{00002642}": ":\u7537\u8b66\u5b98:",
+    "\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98\u80a4\u8272\u6d45:",
+    "\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46E}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8b66\u5b98:",
+    "\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6485\u7740\u6d45\u8272\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u6485\u8d77\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6485\u7740\u5634\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64E}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6485\u5634:",
+    "\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6485\u7740\u6d45\u8272\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u6485\u8d77\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6485\u7740\u5634\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64E}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6485\u5634:",
+    "\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u63d0\u7537\u624b\u6697\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u80a4\u8272:",
+    "\u{0001F64B}\u{0000200D}\u{00002642}": ":\u4e3e\u624b:",
+    "\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u63d0\u7537\u624b\u6697\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u62ac\u624b\u4e2d\u80a4\u8272:",
+    "\u{0001F64B}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u5347\u964d\u624b:",
+    "\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5212\u8239\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5212\u8239\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5212\u8239\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u5212\u8247\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u5212\u8239\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A3}\u{0000200D}\u{00002642}": ":\u5212\u8247:",
+    "\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5212\u8239\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5212\u8239\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5212\u8239\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u5212\u8247\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u5212\u8239\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A3}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u5212\u8247:",
+    "\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u80a4\u8272\u6697\u6c89\u7684\u7537\u4eba:",
+    "\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u8dd1\u6b65\u6de1\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6027\u8dd1\u6b65\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u8dd1\u6b65\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u8dd1\u6b65\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C3}\u{0000200D}\u{00002642}": ":\u4eba\u5728\u5954\u8dd1:",
+    "\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u80a4\u8272\u6697\u6c89\u7684\u7537\u4eba:",
+    "\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dd1\u6b65\u6de1\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u8dd1\u6b65\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dd1\u6b65\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8dd1\u6b65\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C3}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u5de5\u9a7e\u9a76:",
+    "\u{0001F468}\u{0000200D}\u{0001F52C}": ":\u4eba\u7c7b\u79d1\u5b66\u5bb6:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F52C}": ":\u7537\u79d1\u5b66\u5bb6\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F52C}": ":\u7537\u79d1\u5b66\u5bb6\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F52C}": ":\u7537\u79d1\u5b66\u5bb6\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F52C}": ":\u7537\u79d1\u5b66\u5bb6\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F52C}": ":\u7537\u79d1\u5b66\u5bb6\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8038\u8038\u80a9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8038\u8038\u80a9\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u8038\u8038\u80a9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u8038\u80a9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8038\u8038\u80a9:",
+    "\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8038\u8038\u80a9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8038\u8038\u80a9\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8038\u8038\u80a9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8038\u80a9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8038\u8038\u80a9:",
+    "\u{0001F468}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3A4}": ":\u7537\u6b4c\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ad9\u7acb\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ad9\u7acb\u8f7b\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ad9\u706f\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6027\u7ad9\u7740\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ad9\u7acb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ad9\u7acb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ad9\u7acb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ad9\u7740\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ad9\u7acb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0000200D}\u{00002642}": ":\u7ad9\u7740\u7684\u4eba:",
+    "\u{0001F9CD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7ad9\u7acb\u5f0f:",
+    "\u{0001F468}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F393}": ":\u7537\u5b66\u751f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u6027\u8d85\u7ea7\u82f1\u96c4\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u8d85\u7ea7\u82f1\u96c4\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u82f1\u96c4\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8d85\u4eba\u5149\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u8d85\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8d85\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u6027\u8d85\u7ea7\u82f1\u96c4\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u8d85\u7ea7\u82f1\u96c4\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}\u{0000200D}\u{00002642}": ":\u8d85\u7ea7\u82f1\u96c4:",
+    "\u{0001F9B8}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8d85\u7ea7\u82f1\u96c4\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u6df1\u8272\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u6d45\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0000200D}\u{00002642}": ":\u4eba\u7c7b\u8d85\u7ea7\u6076\u68cd:",
+    "\u{0001F9B9}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u8d85\u7ea7\u6076\u68cd\u9009\u62e9:",
+    "\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u51b2\u6d6a\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u51b2\u6d6a\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C4}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u51b2\u6d6a:",
+    "\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u51b2\u6d6a\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u51b2\u6d6a\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u51b2\u6d6a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C4}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u51b2\u6d6a:",
+    "\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CA}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6e38\u6cf3:",
+    "\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CA}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6e38\u6cf3:",
+    "\u{0001F468}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F3EB}": ":\u7537\u6559\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F468}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F4BB}": ":\u7537\u6280\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ffb\u624b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ffb\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u7ffb\u624b:",
+    "\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ffb\u624b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ffb\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u58eb\u7ffb\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u624b\u52a8\u7ffb\u6597:",
+    "\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5438\u8840\u9b3c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5438\u8840\u9b3c\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DB}\u{0000200D}\u{00002642}": ":\u5438\u8840\u9b3c:",
+    "\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5438\u8840\u9b3c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5438\u8840\u9b3c\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u5438\u8840\u9b3c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u5438\u8840\u9b3c:",
+    "\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d70\u8def\u80a4\u8272\u6697:",
+    "\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d70\u8def\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u7537\u6027\u884c\u8d70\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u4e2d\u7b49\u80a4\u8272\u6b65\u884c\u7537\u58eb:",
+    "\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u8d70\u8def\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B6}\u{0000200D}\u{00002642}": ":\u884c\u8d70\u7684\u4eba:",
+    "\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d70\u8def\u80a4\u8272\u6697:",
+    "\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d70\u8def\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u6027\u884c\u8d70\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d70\u8def\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u8d70\u8def\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B6}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u884c:",
+    "\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6234\u5934\u5dfe\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u7537\u4eba\u6234\u5934\u5dfe\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F473}\u{0000200D}\u{00002642}": ":\u6234\u5934\u5dfe\u7684\u4eba:",
+    "\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u7537\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6234\u5934\u5dfe\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u4eba\u6234\u5934\u5dfe\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F473}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u4eba\u9009\u62e9:",
+    "\u{0001F472}": ":\u6234\u4e2d\u56fd\u5e3d\u7684\u4eba:",
+    "\u{0001F472}\u{0001F3FF}": ":\u9ed1\u80a4\u8272\u7684\u4e2d\u56fd\u5e3d\u7537\u4eba:",
+    "\u{0001F472}\u{0001F3FB}": ":\u4e2d\u56fd\u5e3d\u7537\u6d45\u80a4\u8272:",
+    "\u{0001F472}\u{0001F3FE}": ":\u4e2d\u6df1\u8272\u80a4\u8272\u7684\u4e2d\u56fd\u5e3d\u7537\u58eb:",
+    "\u{0001F472}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u7684\u4e2d\u56fd\u5e3d\u7537\u58eb:",
+    "\u{0001F472}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4e2d\u56fd\u5e3d\u7537\u58eb:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F9AF}": ":\u76ae\u80a4\u9edd\u9ed1\u7684\u7537\u4eba:",
+    "\u{0001F468}\u{0001F3FB}\u{0000200D}\u{0001F9AF}": ":\u7537\u4eba\u6709\u63a2\u7d22\u8005\u624b\u6756\u8f7b\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F9AF}": ":\u7537\u6027\uff0c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F9AF}": ":\u4e2d\u6d45\u80a4\u8272\u7537\u6027:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F9AF}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u7537\u4eba:",
+    "\u{0001F468}\u{0000200D}\u{0001F9AF}": ":\u62ff\u7740\u63a2\u6d4b\u6756\u7684\u4eba:",
+    "\u{0001F9DF}\u{0000200D}\u{00002642}": ":\u4eba\u7c7b\u50f5\u5c38:",
+    "\u{0001F9DF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u50f5\u5c38:",
+    "\u{0001F96D}": ":\u8292\u679c:",
+    "\u{0001F570}": ":\u58c1\u7089\u53f0\u949f:",
+    "\u{0001F570}\u{0000FE0F}": ":\u58c1\u7089\u53f0\u65f6\u949f:",
+    "\u{0001F9BD}": ":\u624b\u52a8\u8f6e\u6905:",
+    "\u{0001F45E}": ":\u7537\u978b:",
+    "\u{0001F5FE}": ":\u65e5\u672c\u5730\u56fe:",
+    "\u{0001F341}": ":\u67ab\u53f6:",
+    "\u{0001F94B}": ":\u6b66\u88c5:",
+    "\u{0001F9C9}": ":\u4f19\u4f34:",
+    "\u{0001F356}": ":\u9aa8\u5934\u4e0a\u7684\u8089:",
+    "\u{0001F9BE}": ":\u673a\u68b0\u81c2:",
+    "\u{0001F9BF}": ":\u673a\u68b0\u652f\u817f:",
+    "\u{00002695}": ":\u533b\u5b66\u7b26\u53f7:",
+    "\u{00002695}\u{0000FE0F}": ":\u533b\u5b66\u7b26\u53f7:",
+    "\u{0001F3FE}": ":\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F4E3}": ":\u6269\u97f3\u5668:",
+    "\u{0001F348}": ":\u751c\u74dc:",
+    "\u{0001F4DD}": ":\u5907\u5fd8\u5f55:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u4eba\u7275\u7740\u624b\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}": ":\u7537\u58eb\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u58eb\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u7537\u58eb\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46C}\u{0001F3FF}": ":\u7537\u4eba\u7275\u7740\u624b\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F46C}\u{0001F3FB}": ":\u7537\u4eba\u624b\u7275\u624b\u80a4\u8272\u6d45:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u58eb\u63e1\u7740\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u58eb\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u7537\u58eb\u63e1\u7740\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46C}\u{0001F3FE}": ":\u7537\u58eb\u624b\u7275\u624b\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F468}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u58eb\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F46C}\u{0001F3FC}": ":\u7537\u58eb\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u58eb\u63e1\u7740\u624b\u4e2d\u7b49\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F468}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u58eb\u63e1\u7740\u624b\u4e2d\u7b49\u80a4\u8272\u4e2d\u7b49\u504f\u6d45\u80a4\u8272:",
+    "\u{0001F46C}\u{0001F3FD}": ":\u7537\u58eb\u63e1\u7740\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46F}\u{0000200D}\u{00002642}": ":\u6709\u5154\u5b50\u8033\u6735\u7684\u7537\u4eba:",
+    "\u{0001F46F}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u5e26\u5154\u5b50\u8033\u6735\u7684\u7537\u4eba:",
+    "\u{0001F93C}\u{0000200D}\u{00002642}": ":\u7537\u5b50\u6454\u8de4:",
+    "\u{0001F93C}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u7537\u5b50\u6454\u8de4:",
+    "\u{0001F54E}": ":\u70db\u53f0:",
+    "\u{0001F6B9}": ":\u7537\u536b\u751f\u95f4:",
+    "\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DC}\u{0000200D}\u{00002640}": ":\u7f8e\u4eba\u9c7c:",
+    "\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7f8e\u4eba\u9c7c:",
+    "\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002642}": ":\u9ed8\u66fc\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002642}": ":\u4eba\u9c7c\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002642}": ":\u4eba\u9c7c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002642}": ":\u4eba\u9c7c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002642}": ":\u4eba\u9c7c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DC}\u{0000200D}\u{00002642}": ":\u4eba\u9c7c:",
+    "\u{0001F9DC}\u{0001F3FF}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FB}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FE}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FD}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DC}\u{0000200D}\u{00002642}\u{0000FE0F}": ":\u4eba\u9c7c:",
+    "\u{0001F9DC}": ":\u7f8e\u4eba\u9c7c:",
+    "\u{0001F9DC}\u{0001F3FF}": ":\u7f8e\u4eba\u9c7c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FB}": ":\u7f8e\u4eba\u9c7c\u6de1\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FE}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FC}": ":\u7f8e\u4eba\u9c7c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DC}\u{0001F3FD}": ":\u7f8e\u4eba\u9c7c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F687}": ":\u5730\u94c1:",
+    "\u{0001F9A0}": ":\u5fae\u751f\u7269:",
+    "\u{0001F3A4}": ":\u9ea6\u514b\u98ce:",
+    "\u{0001F52C}": ":\u663e\u5fae\u955c:",
+    "\u{0001F595}": ":\u4e2d\u6307:",
+    "\u{0001F595}\u{0001F3FF}": ":\u4e2d\u6307\u6697\u80a4\u8272:",
+    "\u{0001F595}\u{0001F3FB}": ":\u4e2d\u6307\u6d45\u80a4\u8272:",
+    "\u{0001F595}\u{0001F3FE}": ":\u4e2d\u6307\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F595}\u{0001F3FC}": ":\u4e2d\u6307\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F595}\u{0001F3FD}": ":\u4e2d\u6307\u4e2d\u80a4\u8272:",
+    "\u{0001F396}": ":\u519b\u4e8b\u5956\u7ae0:",
+    "\u{0001F396}\u{0000FE0F}": ":\u519b\u4e8b\u5956\u7ae0:",
+    "\u{0001F30C}": ":\u94f6\u6cb3\u7cfb:",
+    "\u{0001F690}": ":\u5c0f\u578b\u5df4\u58eb:",
+    "\u{0001F5FF}": ":\u83ab\u57c3:",
+    "\u{0001F4F1}": ":\u79fb\u52a8\u7535\u8bdd:",
+    "\u{0001F4F4}": ":\u624b\u673a\u5173\u673a:",
+    "\u{0001F4F2}": ":\u5e26\u7bad\u5934\u7684\u624b\u673a:",
+    "\u{0001F911}": ":\u94b1\u5634\u8138:",
+    "\u{0001F4B0}": ":\u94b1\u888b:",
+    "\u{0001F4B8}": ":\u6709\u7fc5\u8180\u7684\u94b1:",
+    "\u{0001F412}": ":\u7334\u5b50:",
+    "\u{0001F435}": ":\u7334\u8138:",
+    "\u{0001F69D}": ":\u5355\u8f68\u94c1\u8def:",
+    "\u{0001F96E}": ":\u6708\u997c:",
+    "\u{0001F391}": ":\u8d4f\u6708\u4eea\u5f0f:",
+    "\u{0001F54C}": ":\u6e05\u771f\u5bfa:",
+    "\u{0001F99F}": ":\u868a\u5b50:",
+    "\u{0001F6E5}": ":\u6469\u6258\u8247:",
+    "\u{0001F6E5}\u{0000FE0F}": ":\u673a\u52a8\u8239:",
+    "\u{0001F6F5}": ":\u6469\u6258\u8f66:",
+    "\u{0001F3CD}": ":\u6469\u6258\u8f66:",
+    "\u{0001F3CD}\u{0000FE0F}": ":\u6469\u6258\u8f66:",
+    "\u{0001F9BC}": ":\u7535\u52a8\u8f6e\u6905:",
+    "\u{0001F6E3}": ":\u9ad8\u901f\u516c\u8def:",
+    "\u{0001F6E3}\u{0000FE0F}": ":\u9ad8\u901f\u516c\u8def:",
+    "\u{0001F5FB}": ":\u5bcc\u58eb\u5c71:",
+    "\u{000026F0}": ":\u5c71:",
+    "\u{0001F6A0}": ":\u5c71\u533a\u7d22\u9053:",
+    "\u{0001F69E}": ":\u5c71\u533a\u94c1\u8def:",
+    "\u{000026F0}\u{0000FE0F}": ":\u5c71\u5730:",
+    "\u{0001F401}": ":\u9f20\u6807:",
+    "\u{0001F42D}": ":\u8001\u9f20\u8138:",
+    "\u{0001F444}": ":\u53e3:",
+    "\u{0001F3A5}": ":\u7535\u5f71\u6444\u5f71\u673a:",
+    "\u{00002716}\u{0000FE0F}": ":\u7b26\u53f7\u4e58\u6cd5:",
+    "\u{0001F344}": ":\u8611\u83c7:",
+    "\u{0001F3B9}": ":\u97f3\u4e50\u952e\u76d8:",
+    "\u{0001F3B5}": ":\u97f3\u7b26:",
+    "\u{0001F3B6}": ":\u97f3\u7b26:",
+    "\u{0001F3BC}": ":\u4e50\u8c31:",
+    "\u{0001F507}": ":\u626c\u58f0\u5668\u9759\u97f3:",
+    "\u{0001F485}": ":\u6307\u7532\u6cb9:",
+    "\u{0001F485}\u{0001F3FF}": ":\u6307\u7532\u6cb9\u6697\u80a4\u8272:",
+    "\u{0001F485}\u{0001F3FB}": ":\u6307\u7532\u6cb9\u6d45\u80a4\u8272:",
+    "\u{0001F485}\u{0001F3FE}": ":\u6307\u7532\u6cb9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F485}\u{0001F3FC}": ":\u6307\u7532\u6cb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F485}\u{0001F3FD}": ":\u6307\u7532\u6cb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F4DB}": ":\u59d3\u540d\u5fbd\u7ae0:",
+    "\u{0001F3DE}": ":\u56fd\u5bb6\u516c\u56ed:",
+    "\u{0001F3DE}\u{0000FE0F}": ":\u56fd\u5bb6\u516c\u56ed:",
+    "\u{0001F922}": ":\u6076\u5fc3\u7684\u8138:",
+    "\u{0001F9FF}": ":\u7eb3\u624e\u5c14\u62a4\u8eab\u7b26:",
+    "\u{0001F454}": ":\u9886\u5e26:",
+    "\u{0001F913}": ":\u4e66\u5446\u5b50\u8138:",
+    "\u{0001F610}": ":\u4e2d\u6027\u9762:",
+    "\u{0001F311}": ":\u65b0\u6708:",
+    "\u{0001F31A}": ":\u65b0\u6708\u8138:",
+    "\u{0001F4F0}": ":\u62a5\u7eb8:",
+    "\u{000023ED}": ":\u4e0b\u4e00\u66f2\u76ee\u6309\u94ae:",
+    "\u{000023ED}\u{0000FE0F}": ":\u4e0b\u4e00\u66f2\u76ee\u6309\u94ae:",
+    "\u{0001F303}": ":\u661f\u591c:",
+    "\u{0001F564}": ":\u4e5d\u70b9\u534a:",
+    "\u{0001F558}": ":\u4e5d\u70b9\u949f:",
+    "\u{0001F6B3}": ":\u7981\u6b62\u9a91\u81ea\u884c\u8f66:",
+    "\u{000026D4}": ":\u7981\u6b62\u5165\u5185:",
+    "\u{0001F6AF}": ":\u7981\u6b62\u4e71\u6254\u5783\u573e:",
+    "\u{0001F4F5}": ":\u6ca1\u6709\u624b\u673a:",
+    "\u{0001F51E}": ":\u6ca1\u6709\u5341\u516b\u5c81\u4ee5\u4e0b\u7684\u4eba:",
+    "\u{0001F6B7}": ":\u7981\u6b62\u884c\u4eba:",
+    "\u{0001F6AD}": ":\u7981\u6b62\u5438\u70df:",
+    "\u{0001F6B1}": ":\u975e\u996e\u7528\u6c34:",
+    "\u{0001F443}": ":\u9f3b\u5b50:",
+    "\u{0001F443}\u{0001F3FF}": ":\u9f3b\u5b50\u6697\u80a4\u8272:",
+    "\u{0001F443}\u{0001F3FB}": ":\u9f3b\u8f7b\u80a4\u8272:",
+    "\u{0001F443}\u{0001F3FE}": ":\u9f3b\u5b50\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F443}\u{0001F3FC}": ":\u9f3b\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F443}\u{0001F3FD}": ":\u9f3b\u5b50\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F4D3}": ":\u7b14\u8bb0\u672c:",
+    "\u{0001F4D4}": ":\u5e26\u88c5\u9970\u5c01\u9762\u7684\u7b14\u8bb0\u672c:",
+    "\u{0001F529}": ":\u87ba\u6bcd\u548c\u87ba\u6813:",
+    "\u{0001F419}": ":\u7ae0\u9c7c:",
+    "\u{0001F362}": ":\u5965\u767b:",
+    "\u{0001F3E2}": ":\u529e\u516c\u697c:",
+    "\u{0001F479}": ":\u98df\u4eba\u9b54:",
+    "\u{0001F6E2}": ":\u6cb9\u6876:",
+    "\u{0001F6E2}\u{0000FE0F}": ":\u9009\u6cb9\u6876:",
+    "\u{0001F5DD}": ":\u65e7\u94a5\u5319:",
+    "\u{0001F5DD}\u{0000FE0F}": ":\u65e7\u94a5\u5319:",
+    "\u{0001F474}": ":\u8001\u4eba\u5bb6:",
+    "\u{0001F474}\u{0001F3FF}": ":\u8001\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F474}\u{0001F3FB}": ":\u8001\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F474}\u{0001F3FE}": ":\u8001\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F474}\u{0001F3FC}": ":\u8001\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F474}\u{0001F3FD}": ":\u8001\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F475}": ":\u8001\u5987\u4eba:",
+    "\u{0001F475}\u{0001F3FF}": ":\u8001\u592a\u5a46\u6697\u80a4\u8272:",
+    "\u{0001F475}\u{0001F3FB}": ":\u8001\u592a\u592a\u80a4\u8272\u6d45:",
+    "\u{0001F475}\u{0001F3FE}": ":\u8001\u592a\u5a46\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F475}\u{0001F3FC}": ":\u8001\u592a\u592a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F475}\u{0001F3FD}": ":\u8001\u5987\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D3}": ":\u8001\u5e74\u4eba:",
+    "\u{0001F9D3}\u{0001F3FF}": ":\u8001\u5e74\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F9D3}\u{0001F3FB}": ":\u8001\u5e74\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9D3}\u{0001F3FE}": ":\u8001\u5e74\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D3}\u{0001F3FC}": ":\u8001\u5e74\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D3}\u{0001F3FD}": ":\u8001\u5e74\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F549}": ":\u54e6:",
+    "\u{0001F549}\u{0000FE0F}": ":om:",
+    "\u{0001F698}": ":\u8fce\u9762\u800c\u6765\u7684\u6c7d\u8f66:",
+    "\u{0001F68D}": ":\u8fce\u9762\u800c\u6765\u7684\u516c\u5171\u6c7d\u8f66:",
+    "\u{0001F44A}": ":\u8fce\u9762\u800c\u6765\u7684\u62f3\u5934:",
+    "\u{0001F44A}\u{0001F3FF}": ":\u8fce\u9762\u800c\u6765\u7684\u62f3\u5934\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44A}\u{0001F3FB}": ":\u8fce\u9762\u800c\u6765\u7684\u62f3\u5934\u8f7b\u80a4\u8272:",
+    "\u{0001F44A}\u{0001F3FE}": ":\u8fce\u9762\u62f3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44A}\u{0001F3FC}": ":\u8fce\u9762\u62f3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44A}\u{0001F3FD}": ":\u8fce\u9762\u62f3\u4e2d\u80a4\u8272:",
+    "\u{0001F694}": ":\u8fce\u9762\u800c\u6765\u7684\u8b66\u8f66:",
+    "\u{0001F696}": ":\u8fce\u9762\u800c\u6765\u7684\u51fa\u79df\u8f66:",
+    "\u{0001FA71}": ":\u8fde\u4f53\u5f0f\u6cf3\u8863:",
+    "\u{0001F55C}": ":\u4e00\u70b9\u534a:",
+    "\u{0001F550}": ":\u4e00\u70b9\u949f:",
+    "\u{0001F9C5}": ":\u6d0b\u8471:",
+    "\u{0001F4D6}": ":\u4e00\u76ee\u4e86\u7136\u7684\u4e8b:",
+    "\u{0001F4C2}": ":\u6253\u5f00\u6587\u4ef6\u5939:",
+    "\u{0001F450}": ":\u5f20\u5f00\u53cc\u624b:",
+    "\u{0001F450}\u{0001F3FF}": ":\u5f20\u5f00\u53cc\u624b\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F450}\u{0001F3FB}": ":\u5f20\u5f00\u53cc\u624b\uff0c\u80a4\u8272\u8f7b\u76c8:",
+    "\u{0001F450}\u{0001F3FE}": ":\u5f20\u5f00\u7684\u53cc\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F450}\u{0001F3FC}": ":\u5f20\u5f00\u53cc\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F450}\u{0001F3FD}": ":\u5f20\u5f00\u53cc\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F4ED}": ":\u6253\u5f00\u5e26\u6709\u964d\u4e0b\u6807\u5fd7\u7684\u90ae\u7bb1:",
+    "\u{0001F4EC}": ":\u6253\u5f00\u5e26\u6709\u5347\u8d77\u6807\u5fd7\u7684\u90ae\u7bb1:",
+    "\u{0001F4BF}": ":\u5149\u76d8:",
+    "\u{0001F4D9}": ":\u6a58\u76ae\u4e66:",
+    "\u{0001F7E0}": ":\u6a59\u8272\u5706\u5708:",
+    "\u{0001F9E1}": ":\u6a59\u8272\u5fc3\u810f:",
+    "\u{0001F7E7}": ":\u6a59\u8272\u65b9\u5757:",
+    "\u{0001F9A7}": ":\u7ea2\u6bdb\u7329\u7329:",
+    "\u{00002626}": ":\u6b63\u7edf\u5341\u5b57\u67b6:",
+    "\u{00002626}\u{0000FE0F}": ":\u6b63\u7edf\u4ea4\u53c9:",
+    "\u{0001F9A6}": ":\u6c34\u736d:",
+    "\u{0001F4E4}": ":\u53d1\u4ef6\u7bb1\u6258\u76d8:",
+    "\u{0001F989}": ":\u732b\u5934\u9e70:",
+    "\u{0001F402}": ":\u516c\u725b:",
+    "\u{0001F9AA}": ":\u7261\u86ce:",
+    "\u{0001F4E6}": ":\u5305\u88f9:",
+    "\u{0001F4C4}": ":\u9875\u9762\u671d\u4e0a:",
+    "\u{0001F4C3}": ":\u5377\u66f2\u7684\u9875\u9762:",
+    "\u{0001F4DF}": ":\u5bfb\u547c\u673a:",
+    "\u{0001F58C}": ":\u753b\u7b14:",
+    "\u{0001F58C}\u{0000FE0F}": ":\u6f06\u5237:",
+    "\u{0001F334}": ":\u68d5\u6988\u6811:",
+    "\u{0001F932}": ":\u53cc\u624b\u5408\u5341:",
+    "\u{0001F932}\u{0001F3FF}": ":\u638c\u5fc3\u5408\u4e00\u6697\u80a4\u8272:",
+    "\u{0001F932}\u{0001F3FB}": ":\u638c\u5fc3\u5411\u4e0a\u63d0\u4eae\u80a4\u8272:",
+    "\u{0001F932}\u{0001F3FE}": ":\u638c\u5fc3\u5411\u4e0a\uff0c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F932}\u{0001F3FC}": ":\u638c\u5fc3\u5411\u4e0a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F932}\u{0001F3FD}": ":\u624b\u638c\u5411\u4e0a\uff0c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F95E}": ":\u70d9\u997c:",
+    "\u{0001F43C}": ":\u718a\u732b\u8138:",
+    "\u{0001F4CE}": ":\u56de\u5f62\u9488:",
+    "\u{0001FA82}": ":\u964d\u843d\u4f1e:",
+    "\u{0001F99C}": ":\u9e66\u9e49:",
+    "\u{0000303D}": ":\u96f6\u4ef6\u66f4\u6362\u6807\u8bb0:",
+    "\u{0000303D}\u{0000FE0F}": ":\u96f6\u4ef6\u66ff\u6362\u6807\u8bb0:",
+    "\u{0001F389}": ":\u6d3e\u5bf9\u7206\u6599:",
+    "\u{0001F973}": ":\u6d3e\u5bf9\u8138:",
+    "\u{0001F6F3}": ":\u5ba2\u8239:",
+    "\u{0001F6F3}\u{0000FE0F}": ":\u5ba2\u8239:",
+    "\u{0001F6C2}": ":\u62a4\u7167\u68c0\u67e5:",
+    "\u{000023F8}": ":\u6682\u505c\u6309\u94ae:",
+    "\u{000023F8}\u{0000FE0F}": ":\u6682\u505c\u6309\u94ae:",
+    "\u{0001F43E}": ":\u722a\u5370:",
+    "\u{0000262E}": ":\u548c\u5e73\u8c61\u5f81:",
+    "\u{0000262E}\u{0000FE0F}": ":\u548c\u5e73\u7b26\u53f7:",
+    "\u{0001F351}": ":\u6843:",
+    "\u{0001F99A}": ":\u5b54\u96c0:",
+    "\u{0001F95C}": ":\u82b1\u751f:",
+    "\u{0001F350}": ":\u68a8:",
+    "\u{0001F58A}": ":\u7b14:",
+    "\u{0001F58A}\u{0000FE0F}": ":\u7b14:",
+    "\u{0000270F}": ":\u94c5\u7b14:",
+    "\u{0000270F}\u{0000FE0F}": ":\u94c5\u7b14:",
+    "\u{0001F427}": ":\u4f01\u9e45:",
+    "\u{0001F614}": ":\u5fe7\u90c1\u7684\u8138:",
+    "\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}": ":\u624b\u7275\u624b\u80a4\u8272\u6697\u80a4\u8272\u6de1\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FE}": ":\u624b\u7275\u624b\u6697\u80a4\u8272\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}": ":\u624b\u7275\u624b\u6697\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}": ":\u624b\u7275\u624b\u6697\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FF}": ":\u624b\u7275\u624b\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D1}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}": ":\u624b\u7275\u624b\u80a4\u8272\u6d45:",
+    "\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}": ":\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}": ":\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}": ":\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FE}": ":\u624b\u7275\u624b\u80a4\u8272\u504f\u6697:",
+    "\u{0001F9D1}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}": ":\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}": ":\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FB}": ":\u624b\u7275\u624b\u4e2d\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FC}": ":\u624b\u7275\u624b\u4e2d\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D1}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}\u{0001F3FD}": ":\u624b\u7275\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D1}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F9D1}": ":\u7275\u624b\u7684\u4eba:",
+    "\u{0001F46F}": ":\u6709\u5154\u5b50\u8033\u6735\u7684\u4eba:",
+    "\u{0001F93C}": ":\u4eba\u4eec\u6454\u8de4:",
+    "\u{0001F3AD}": ":\u8868\u6f14\u827a\u672f:",
+    "\u{0001F623}": ":\u575a\u6bc5\u7684\u8138:",
+    "\u{0001F6B4}": ":\u4eba\u9a91\u81ea\u884c\u8f66:",
+    "\u{0001F6B4}\u{0001F3FF}": ":\u4eba\u9a91\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FB}": ":\u4eba\u9a91\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FE}": ":\u4eba\u9a91\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FC}": ":\u4eba\u9a91\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FD}": ":\u4eba\u9a91\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}": ":\u5f39\u7403\u7684\u4eba:",
+    "\u{000026F9}\u{0001F3FF}": ":\u4eba\u5f39\u7403\u6697\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FB}": ":\u4eba\u5f39\u7403\u8f7b\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FE}": ":\u4eba\u5f39\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FC}": ":\u4eba\u5f39\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FD}": ":\u4eba\u5f39\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}\u{0000FE0F}": ":\u4eba\u5f39\u7403:",
+    "\u{0001F647}": ":\u97a0\u8eac\u7684\u4eba:",
+    "\u{0001F647}\u{0001F3FF}": ":\u6df1\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F647}\u{0001F3FB}": ":\u6d45\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F647}\u{0001F3FE}": ":\u4e2d\u6df1\u8272\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F647}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F647}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F938}": ":\u4eba\u529b\u63a8\u8f66:",
+    "\u{0001F938}\u{0001F3FF}": ":\u76ae\u80a4\u9edd\u9ed1\u7684\u4eba:",
+    "\u{0001F938}\u{0001F3FB}": ":\u4eba\u8f66\u8f7b\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FE}": ":\u4e2d\u6df1\u8272\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F938}\u{0001F3FC}": ":\u4eba\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F9D7}": ":\u6500\u5ca9\u8005:",
+    "\u{0001F9D7}\u{0001F3FF}": ":\u80a4\u8272\u6697\u6c89\u7684\u4eba:",
+    "\u{0001F9D7}\u{0001F3FB}": ":\u4eba\u6500\u722c\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FE}": ":\u4eba\u6500\u722c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FC}": ":\u6500\u5ca9\u8005\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FD}": ":\u6500\u5ca9\u8005\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F926}": ":\u9762\u671d\u624b\u638c:",
+    "\u{0001F926}\u{0001F3FF}": ":\u4eba\u638c\u5fc3\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FB}": ":\u4eba\u638c\u7eb9\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FE}": ":\u4eba\u638c\u7eb9\u4e2d\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FC}": ":\u4eba\u638c\u7eb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FD}": ":\u4eba\u638c\u7eb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93A}": ":\u4eba\u5458\u56f4\u680f:",
+    "\u{0001F64D}": ":\u76b1\u7709\u7684\u4eba:",
+    "\u{0001F64D}\u{0001F3FF}": ":\u6101\u7709\u82e6\u8138\u7684\u4eba:",
+    "\u{0001F64D}\u{0001F3FB}": ":\u4eba\u7709\u5934\u5fae\u76b1\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FE}": ":\u76b1\u7709\u5934\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F64D}\u{0001F3FC}": ":\u4eba\u7709\u5934\u5fae\u4eae\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FD}": ":\u76b1\u7709\u5934\u7684\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F645}": ":\u6253\u624b\u52bf\u4e0d\u7684\u4eba:",
+    "\u{0001F645}\u{0001F3FF}": ":\u6307\u6ca1\u6709\u6df1\u8272\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F645}\u{0001F3FB}": ":\u6307\u6ca1\u6709\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F645}\u{0001F3FE}": ":\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F645}\u{0001F3FC}": ":\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F645}\u{0001F3FD}": ":\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F646}": ":\u6253\u624b\u52bf\u7684\u4eba\u53ef\u4ee5\u5417:",
+    "\u{0001F646}\u{0001F3FF}": ":\u6253\u624b\u52bf\u7684\u4eba\u80a4\u8272\u5f88\u9ed1:",
+    "\u{0001F646}\u{0001F3FB}": ":\u6253\u624b\u52bf\u53ef\u4ee5\u6de1\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F646}\u{0001F3FE}": ":\u6253\u624b\u52bf\u7684\u4eba\u53ef\u4ee5\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FC}": ":\u6253\u624b\u52bf\u7684\u4eba\u53ef\u4ee5\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FD}": ":\u6253\u624b\u52bf\u7684\u4eba\u53ef\u4ee5\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F487}": ":\u7406\u53d1\u7684\u4eba:",
+    "\u{0001F487}\u{0001F3FF}": ":\u7406\u53d1\u8005\u80a4\u8272\u6697:",
+    "\u{0001F487}\u{0001F3FB}": ":\u7406\u53d1\u8005\u80a4\u8272\u6d45:",
+    "\u{0001F487}\u{0001F3FE}": ":\u526a\u5934\u53d1\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F487}\u{0001F3FC}": ":\u7406\u53d1\u8005\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FD}": ":\u7406\u53d1\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F486}": ":\u6309\u6469\u5e08:",
+    "\u{0001F486}\u{0001F3FF}": ":\u6309\u6469\u8005\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F486}\u{0001F3FB}": ":\u6309\u6469\u8005\u80a4\u8272\u6d45:",
+    "\u{0001F486}\u{0001F3FE}": ":\u6309\u6469\u8005\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FC}": ":\u6309\u6469\u8005\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FD}": ":\u6309\u6469\u8005\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}": ":\u4e2a\u4eba\u9ad8\u5c14\u592b:",
+    "\u{0001F3CC}\u{0001F3FF}": ":\u6253\u9ad8\u5c14\u592b\u7684\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F3CC}\u{0001F3FB}": ":\u4eba\u9ad8\u5c14\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FE}": ":\u4eba\u9ad8\u5c14\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FC}": ":\u4eba\u9ad8\u5c14\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FD}": ":\u4eba\u9ad8\u5c14\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}\u{0000FE0F}": ":\u4e2a\u4eba\u9ad8\u5c14\u592b:",
+    "\u{0001F6CC}": ":\u5367\u5e8a\u7684\u4eba:",
+    "\u{0001F6CC}\u{0001F3FF}": ":\u5367\u5e8a\u8005\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F6CC}\u{0001F3FB}": ":\u5e8a\u4e0a\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F6CC}\u{0001F3FE}": ":\u5367\u5e8a\u8005\u80a4\u8272\u504f\u6697:",
+    "\u{0001F6CC}\u{0001F3FC}": ":\u5367\u5e8a\u8005\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6CC}\u{0001F3FD}": ":\u5367\u5e8a\u8005\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D8}": ":\u83b2\u82b1\u4f4d\u4eba:",
+    "\u{0001F9D8}\u{0001F3FF}": ":\u8377\u82b1\u4f4d\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D8}\u{0001F3FB}": ":\u8377\u82b1\u4f4d\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D8}\u{0001F3FE}": ":\u8377\u82b1\u4f4d\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FC}": ":\u8377\u82b1\u4f4d\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FD}": ":\u8377\u82b1\u4f4d\u4e2d\u80a4\u8272\u8005:",
+    "\u{0001F9D6}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba:",
+    "\u{0001F9D6}\u{0001F3FF}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FB}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D6}\u{0001F3FE}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F9D6}\u{0001F3FC}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D6}\u{0001F3FD}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F939}": ":\u6742\u800d\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FF}": ":\u53d8\u9ed1\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FB}": ":\u8f7b\u8584\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FE}": ":\u4e2d\u6df1\u8272\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F939}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F9CE}\u{0001F3FF}": ":\u8dea\u7740\u7684\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9CE}\u{0001F3FB}": ":\u4eba\u8dea\u5730\u80a4\u8272\u6d45:",
+    "\u{0001F9CE}\u{0001F3FE}": ":\u8dea\u7740\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F9CE}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FD}": ":\u4e2d\u80a4\u8272\u8dea\u7740\u7684\u4eba:",
+    "\u{0001F9CE}": ":\u8dea\u7740\u7684\u4eba:",
+    "\u{0001F3CB}": ":\u4e3e\u91cd\u4eba\u5458:",
+    "\u{0001F3CB}\u{0001F3FF}": ":\u4e3e\u91cd\u8005\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F3CB}\u{0001F3FB}": ":\u4e3e\u91cd\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FE}": ":\u4e3e\u91cd\u8005\u80a4\u8272\u504f\u6697:",
+    "\u{0001F3CB}\u{0001F3FC}": ":\u4e3e\u91cd\u8005\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F3CB}\u{0001F3FD}": ":\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0000FE0F}": ":\u4eba\u5458\u4e3e\u91cd:",
+    "\u{0001F6B5}": ":\u5c71\u5730\u81ea\u884c\u8f66\u8d5b:",
+    "\u{0001F6B5}\u{0001F3FF}": ":\u4eba\u5c71\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FB}": ":\u4eba\u5c71\u5730\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FE}": ":\u4eba\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FC}": ":\u4eba\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FD}": ":\u4eba\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93E}": ":\u6253\u624b\u7403\u7684\u4eba:",
+    "\u{0001F93E}\u{0001F3FF}": ":\u6253\u624b\u7403\u7684\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93E}\u{0001F3FB}": ":\u6253\u624b\u7403\u7684\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F93E}\u{0001F3FE}": ":\u6253\u624b\u7403\u7684\u4eba\u80a4\u8272\u504f\u6697:",
+    "\u{0001F93E}\u{0001F3FC}": ":\u6253\u624b\u7403\u7684\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FD}": ":\u6253\u624b\u7403\u7684\u4eba\u80a4\u8272\u4e2d\u7b49:",
+    "\u{0001F93D}": ":\u6253\u6c34\u7403\u7684\u4eba:",
+    "\u{0001F93D}\u{0001F3FF}": ":\u6253\u6c34\u7403\u7684\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93D}\u{0001F3FB}": ":\u6253\u6c34\u7403\u7684\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F93D}\u{0001F3FE}": ":\u6253\u6c34\u7403\u7684\u4eba\u80a4\u8272\u504f\u6697:",
+    "\u{0001F93D}\u{0001F3FC}": ":\u6253\u6c34\u7403\u7684\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FD}": ":\u6253\u6c34\u7403\u7684\u4eba\u80a4\u8272\u4e2d\u7b49:",
+    "\u{0001F64E}": ":\u6485\u5634\u7684\u4eba:",
+    "\u{0001F64E}\u{0001F3FF}": ":\u8138\u8272\u9edd\u9ed1\u7684\u4eba:",
+    "\u{0001F64E}\u{0001F3FB}": ":\u8138\u8272\u6d45\u7684\u4eba:",
+    "\u{0001F64E}\u{0001F3FE}": ":\u8138\u8272\u4e2d\u7b49\u504f\u6697\u7684\u4eba:",
+    "\u{0001F64E}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F64E}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F64B}": ":\u4e3e\u8d77\u624b\u7684\u4eba:",
+    "\u{0001F64B}\u{0001F3FF}": ":\u63d0\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F64B}\u{0001F3FB}": ":\u4eba\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FE}": ":\u62ac\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FC}": ":\u62ac\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FD}": ":\u4eba\u62ac\u624b\u4e2d\u80a4\u8272:",
+    "\u{0001F6A3}": ":\u5212\u8239\u4eba:",
+    "\u{0001F6A3}\u{0001F3FF}": ":\u5212\u8239\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F6A3}\u{0001F3FB}": ":\u4eba\u5212\u8239\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FE}": ":\u4eba\u5212\u8239\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FC}": ":\u4eba\u5212\u8239\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FD}": ":\u4eba\u5212\u8239\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C3}": ":\u8dd1\u6b65\u7684\u4eba:",
+    "\u{0001F3C3}\u{0001F3FF}": ":\u80a4\u8272\u6697\u6c89\u7684\u4eba:",
+    "\u{0001F3C3}\u{0001F3FB}": ":\u4eba\u8dd1\u6de1\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FE}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F3C3}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u8005:",
+    "\u{0001F3C3}\u{0001F3FD}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F937}": ":\u8038\u8038\u80a9\u7684\u4eba:",
+    "\u{0001F937}\u{0001F3FF}": ":\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F937}\u{0001F3FB}": ":\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u6d45:",
+    "\u{0001F937}\u{0001F3FE}": ":\u8038\u8038\u80a9\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F937}\u{0001F3FC}": ":\u8038\u8038\u80a9\u7684\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FD}": ":\u4e2d\u5ea6\u8038\u80a9\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FF}": ":\u7ad9\u7740\u7684\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9CD}\u{0001F3FB}": ":\u4eba\u7ad9\u8f7b\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FE}": ":\u7ad9\u7740\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F9CD}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FD}": ":\u4eba\u7ad9\u7740\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}": ":\u7ad9\u7740\u7684\u4eba:",
+    "\u{0001F3C4}": ":\u4e2a\u4eba\u51b2\u6d6a:",
+    "\u{0001F3C4}\u{0001F3FF}": ":\u6df1\u8272\u80a4\u8272\u51b2\u6d6a\u8005:",
+    "\u{0001F3C4}\u{0001F3FB}": ":\u6d45\u80a4\u8272\u51b2\u6d6a\u8005:",
+    "\u{0001F3C4}\u{0001F3FE}": ":\u4e2d\u9ed1\u80a4\u8272\u51b2\u6d6a\u8005:",
+    "\u{0001F3C4}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u51b2\u6d6a\u8005:",
+    "\u{0001F3C4}\u{0001F3FD}": ":\u4e2d\u80a4\u8272\u51b2\u6d6a\u8005:",
+    "\u{0001F3CA}": ":\u6e38\u6cf3\u7684\u4eba:",
+    "\u{0001F3CA}\u{0001F3FF}": ":\u4eba\u6e38\u6cf3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FB}": ":\u4eba\u6e38\u6cf3\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FE}": ":\u4eba\u6e38\u6cf3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FC}": ":\u6e38\u6cf3\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FD}": ":\u4eba\u6e38\u6cf3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6C0}": ":\u6d17\u6fa1\u7684\u4eba:",
+    "\u{0001F6C0}\u{0001F3FF}": ":\u6d17\u6fa1\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F6C0}\u{0001F3FB}": ":\u6c90\u6d74\u8005\u80a4\u8272\u6d45:",
+    "\u{0001F6C0}\u{0001F3FE}": ":\u6d17\u6fa1\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F6C0}\u{0001F3FC}": ":\u6c90\u6d74\u8005\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6C0}\u{0001F3FD}": ":\u6c90\u6d74\u8005\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}": ":\u503e\u7ffb\u624b:",
+    "\u{0001F481}\u{0001F3FF}": ":\u4eba\u7ffb\u624b\u6697\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FB}": ":\u4eba\u503e\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FE}": ":\u4eba\u503e\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FD}": ":\u4e2d\u80a4\u8272:",
+    "\u{0001F6B6}": ":\u884c\u8d70\u7684\u4eba:",
+    "\u{0001F6B6}\u{0001F3FF}": ":\u4eba\u8d70\u6697\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FB}": ":\u4eba\u884c\u8f7b\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FE}": ":\u4eba\u8d70\u504f\u9ed1\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FC}": ":\u4eba\u884c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FD}": ":\u4eba\u8d70\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F473}": ":\u6234\u5934\u5dfe\u7684\u4eba:",
+    "\u{0001F473}\u{0001F3FF}": ":\u6234\u5934\u5dfe\u7684\u4eba\u80a4\u8272\u6697:",
+    "\u{0001F473}\u{0001F3FB}": ":\u6234\u5934\u5dfe\u7684\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F473}\u{0001F3FE}": ":\u6234\u5934\u5dfe\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F473}\u{0001F3FC}": ":\u6234\u5934\u5dfe\u7684\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F473}\u{0001F3FD}": ":\u6234\u5934\u5dfe\u4e2d\u7b49\u80a4\u8272\u7684\u4eba:",
+    "\u{0001F9EB}": ":\u57f9\u517b\u76bf:",
+    "\u{000026CF}": ":\u6311\u9009:",
+    "\u{000026CF}\u{0000FE0F}": ":\u9009\u62e9:",
+    "\u{0001F967}": ":\u9985\u997c:",
+    "\u{0001F416}": ":\u732a:",
+    "\u{0001F437}": ":\u732a\u8138:",
+    "\u{0001F43D}": ":\u732a\u9f3b\u5b50:",
+    "\u{0001F4A9}": ":\u4e00\u5806\u5c4e:",
+    "\u{0001F48A}": ":\u836f\u4e38:",
+    "\u{0001F90F}\u{0001F3FF}": ":\u634f\u624b\u6697\u80a4\u8272:",
+    "\u{0001F90F}\u{0001F3FB}": ":\u634f\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F90F}\u{0001F3FE}": ":\u634f\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F90F}\u{0001F3FC}": ":\u634f\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F90F}\u{0001F3FD}": ":\u4e2d\u5ea6\u634f\u624b\u80a4\u8272:",
+    "\u{0001F90F}": ":\u634f\u624b:",
+    "\u{0001F38D}": ":\u677e\u6728\u88c5\u9970:",
+    "\u{0001F34D}": ":\u83e0\u841d:",
+    "\u{0001F3D3}": ":\u4e52\u4e53\u7403:",
+    "\u{0001F3F4}\u{0000200D}\u{00002620}": ":\u6d77\u76d7\u65d7:",
+    "\u{0001F3F4}\u{0000200D}\u{00002620}\u{0000FE0F}": ":\u6d77\u76d7\u65d7:",
+    "\u{0001F52B}": ":\u624b\u67aa:",
+    "\u{0001F355}": ":\u62ab\u8428:",
+    "\u{0001F6D0}": ":\u793c\u62dc\u573a\u6240:",
+    "\u{000025B6}": ":\u64ad\u653e\u6309\u94ae:",
+    "\u{000025B6}\u{0000FE0F}": ":\u64ad\u653e\u6309\u94ae:",
+    "\u{000023EF}": ":\u64ad\u653e\u6216\u6682\u505c\u6309\u94ae:",
+    "\u{000023EF}\u{0000FE0F}": ":\u64ad\u653e\u6216\u6682\u505c\u6309\u94ae:",
+    "\u{0001F97A}": ":\u8fa9\u62a4\u72b6:",
+    "\u{0001F693}": ":\u8b66\u8f66:",
+    "\u{0001F6A8}": ":\u8b66\u8f66\u706f:",
+    "\u{0001F46E}": ":\u8b66\u5b98:",
+    "\u{0001F46E}\u{0001F3FF}": ":\u8b66\u5458\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F46E}\u{0001F3FB}": ":\u8b66\u5b98\u80a4\u8272\u6d45:",
+    "\u{0001F46E}\u{0001F3FE}": ":\u8b66\u5b98\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FC}": ":\u8b66\u5b98\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FD}": ":\u8b66\u5b98\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F429}": ":\u8d35\u5bbe\u72ac:",
+    "\u{0001F3B1}": ":\u9ed18\u7403:",
+    "\u{0001F37F}": ":\u7206\u7c73\u82b1:",
+    "\u{0001F3E4}": ":\u90ae\u5c40:",
+    "\u{0001F4EF}": ":\u90ae\u653f\u5587\u53ed:",
+    "\u{0001F4EE}": ":\u4fe1\u7bb1:",
+    "\u{0001F372}": ":\u4e00\u9505\u98df\u7269:",
+    "\u{0001F6B0}": ":\u996e\u7528\u6c34:",
+    "\u{0001F954}": ":\u9a6c\u94c3\u85af:",
+    "\u{0001F357}": ":\u5bb6\u79bd\u817f:",
+    "\u{0001F4B7}": ":\u82f1\u9551\u949e\u7968:",
+    "\u{0001F63E}": ":\u6485\u5634\u732b\u8138:",
+    "\u{0001F621}": ":\u6485\u5634:",
+    "\u{0001F4FF}": ":\u5ff5\u73e0:",
+    "\u{0001F930}": ":\u5b55\u5987:",
+    "\u{0001F930}\u{0001F3FF}": ":\u5b55\u5987\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F930}\u{0001F3FB}": ":\u5b55\u5987\u6d45\u80a4\u8272:",
+    "\u{0001F930}\u{0001F3FE}": ":\u5b55\u5987\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F930}\u{0001F3FC}": ":\u5b55\u5987\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F930}\u{0001F3FD}": ":\u5b55\u5987\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F968}": ":\u6912\u76d0\u8106\u997c:",
+    "\u{0001F934}": ":\u738b\u5b50:",
+    "\u{0001F934}\u{0001F3FF}": ":\u738b\u5b50\u9ed1\u80a4\u8272:",
+    "\u{0001F934}\u{0001F3FB}": ":\u738b\u5b50\u6d45\u80a4\u8272:",
+    "\u{0001F934}\u{0001F3FE}": ":\u738b\u5b50\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F934}\u{0001F3FC}": ":\u738b\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F934}\u{0001F3FD}": ":\u738b\u5b50\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F478}": ":\u516c\u4e3b:",
+    "\u{0001F478}\u{0001F3FF}": ":\u516c\u4e3b\u6df1\u80a4\u8272:",
+    "\u{0001F478}\u{0001F3FB}": ":\u516c\u4e3b\u6de1\u80a4\u8272:",
+    "\u{0001F478}\u{0001F3FE}": ":\u516c\u4e3b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F478}\u{0001F3FC}": ":\u516c\u4e3b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F478}\u{0001F3FD}": ":\u516c\u4e3b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F5A8}": ":\u6253\u5370\u673a:",
+    "\u{0001F5A8}\u{0000FE0F}": ":\u6253\u5370\u673a:",
+    "\u{0001F9AF}": ":\u63a2\u6746:",
+    "\u{0001F6AB}": ":\u7981\u6b62:",
+    "\u{0001F7E3}": ":\u7d2b\u8272\u5706\u5708:",
+    "\u{0001F49C}": ":\u7d2b\u5fc3:",
+    "\u{0001F7EA}": ":\u7d2b\u8272\u65b9\u5757:",
+    "\u{0001F45B}": ":\u94b1\u5305:",
+    "\u{0001F4CC}": ":\u56fe\u9489:",
+    "\u{00002753}": ":\u95ee\u53f7:",
+    "\u{0001F407}": ":\u5154\u5b50:",
+    "\u{0001F430}": ":\u5154\u5b50\u8138:",
+    "\u{0001F99D}": ":\u6d63\u718a:",
+    "\u{0001F3CE}": ":\u8d5b\u8f66:",
+    "\u{0001F3CE}\u{0000FE0F}": ":\u8d5b\u8f66:",
+    "\u{0001F4FB}": ":\u6536\u97f3\u673a:",
+    "\u{0001F518}": ":\u5355\u9009\u6309\u94ae:",
+    "\u{00002622}": ":\u653e\u5c04\u6027\u7684:",
+    "\u{00002622}\u{0000FE0F}": ":\u653e\u5c04\u6027:",
+    "\u{0001F683}": ":\u6709\u8f68\u7535\u8f66:",
+    "\u{0001F6E4}": ":\u94c1\u8def\u8f68\u9053:",
+    "\u{0001F6E4}\u{0000FE0F}": ":\u8f68\u9053:",
+    "\u{0001F308}": ":\u5f69\u8679:",
+    "\u{0001F3F3}\u{0000200D}\u{0001F308}": ":\u5f69\u8679\u65d7:",
+    "\u{0001F3F3}\u{0000FE0F}\u{0000200D}\u{0001F308}": ":\u5f69\u8679\u65d7:",
+    "\u{0001F91A}": ":\u62ac\u8d77\u624b\u80cc:",
+    "\u{0001F91A}\u{0001F3FF}": ":\u624b\u80cc\u9686\u8d77\uff0c\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F91A}\u{0001F3FB}": ":\u624b\u80cc\u63d0\u4eae\u80a4\u8272:",
+    "\u{0001F91A}\u{0001F3FE}": ":\u624b\u80cc\u62ac\u9ad8\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91A}\u{0001F3FC}": ":\u624b\u80cc\u62ac\u9ad8\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F91A}\u{0001F3FD}": ":\u624b\u80cc\u62ac\u9ad8\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0000270A}": ":\u4e3e\u8d77\u62f3\u5934:",
+    "\u{0000270A}\u{0001F3FF}": ":\u63d0\u62f3\u6697\u80a4\u8272:",
+    "\u{0000270A}\u{0001F3FB}": ":\u63d0\u62f3\u8f7b\u80a4\u8272:",
+    "\u{0000270A}\u{0001F3FE}": ":\u63d0\u62f3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0000270A}\u{0001F3FC}": ":\u63d0\u62f3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0000270A}\u{0001F3FD}": ":\u626c\u8d77\u62f3\u5934\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0000270B}": ":\u4e3e\u624b:",
+    "\u{0000270B}\u{0001F3FF}": ":\u4e3e\u624b\u6697\u80a4\u8272:",
+    "\u{0000270B}\u{0001F3FB}": ":\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0000270B}\u{0001F3FE}": ":\u4e3e\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0000270B}\u{0001F3FC}": ":\u4e3e\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0000270B}\u{0001F3FD}": ":\u62ac\u8d77\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64C}": ":\u4e3e\u624b:",
+    "\u{0001F64C}\u{0001F3FF}": ":\u4e3e\u624b\u6697\u80a4\u8272:",
+    "\u{0001F64C}\u{0001F3FB}": ":\u53cc\u624b\u63d0\u4eae\u80a4\u8272:",
+    "\u{0001F64C}\u{0001F3FE}": ":\u4e3e\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64C}\u{0001F3FC}": ":\u4e3e\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64C}\u{0001F3FD}": ":\u4e3e\u8d77\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F40F}": ":\u731b\u649e:",
+    "\u{0001F400}": ":\u8001\u9f20:",
+    "\u{0001FA92}": ":\u5243\u5200:",
+    "\u{0001F9FE}": ":\u6536\u636e:",
+    "\u{000023FA}": ":\u201c\u5f55\u5236\u201d\u6309\u94ae:",
+    "\u{000023FA}\u{0000FE0F}": ":\u5f55\u5236\u6309\u94ae:",
+    "\u{0000267B}": ":\u56de\u6536\u7b26\u53f7:",
+    "\u{0000267B}\u{0000FE0F}": ":\u56de\u6536\u7b26\u53f7:",
+    "\u{0001F468}\u{0000200D}\u{0001F9B0}": ":\u7ea2\u53d1\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{0001F9B0}": ":\u7ea2\u53d1\u5973\u5b50:",
+    "\u{0001F34E}": ":\u7ea2\u82f9\u679c:",
+    "\u{0001F534}": ":\u7ea2\u8272\u5706\u5708:",
+    "\u{0001F9E7}": ":\u7ea2\u5305:",
+    "\u{0001F9B0}": ":\u7ea2\u5934\u53d1:",
+    "\u{00002764}": ":\u7ea2\u5fc3:",
+    "\u{00002764}\u{0000FE0F}": ":\u7ea2\u5fc3:",
+    "\u{0001F3EE}": ":\u7ea2\u7eb8\u706f\u7b3c:",
+    "\u{0001F7E5}": ":\u7ea2\u573a:",
+    "\u{0001F53B}": ":\u7ea2\u8272\u4e09\u89d2\u5f62\u671d\u4e0b:",
+    "\u{0001F53A}": ":\u7ea2\u8272\u4e09\u89d2\u5f62\u5411\u4e0a:",
+    "\u{0001F1E6}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcda:",
+    "\u{0001F1E7}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdb:",
+    "\u{0001F1E8}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdc:",
+    "\u{0001F1E9}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdd:",
+    "\u{0001F1EA}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcde:",
+    "\u{0001F1EB}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdf:",
+    "\u{0001F1EC}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdg:",
+    "\u{0001F1ED}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdh:",
+    "\u{0001F1EE}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdi:",
+    "\u{0001F1EF}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdj:",
+    "\u{0001F1F0}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdk:",
+    "\u{0001F1F1}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdl:",
+    "\u{0001F1F2}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdm:",
+    "\u{0001F1F3}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdn:",
+    "\u{0001F1F4}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdo:",
+    "\u{0001F1F5}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdp:",
+    "\u{0001F1F6}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdq:",
+    "\u{0001F1F7}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdr:",
+    "\u{0001F1F8}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcds:",
+    "\u{0001F1F9}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdt:",
+    "\u{0001F1FA}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdu:",
+    "\u{0001F1FB}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdv:",
+    "\u{0001F1FC}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdw:",
+    "\u{0001F1FD}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdx:",
+    "\u{0001F1FE}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdy:",
+    "\u{0001F1FF}": ":\u533a\u57df\u6307\u793a\u5668\u7b26\u53f7\u5b57\u6bcdz:",
+    "\u{000000AE}": ":\u6ce8\u518c:",
+    "\u{000000AE}\u{0000FE0F}": ":\u6ce8\u518c:",
+    "\u{0001F60C}": ":\u677e\u4e86\u4e00\u53e3\u6c14\u7684\u8138:",
+    "\u{0001F397}": ":\u63d0\u9192\u529f\u80fd\u533a:",
+    "\u{0001F397}\u{0000FE0F}": ":\u63d0\u9192\u529f\u80fd\u533a:",
+    "\u{0001F501}": ":\u91cd\u590d\u6309\u94ae:",
+    "\u{0001F502}": ":\u91cd\u590d\u5355\u4e2a\u6309\u94ae:",
+    "\u{000026D1}": ":\u6551\u63f4\u4eba\u5458\u5934\u76d4:",
+    "\u{000026D1}\u{0000FE0F}": ":\u6551\u63f4\u4eba\u5458\u5934\u76d4:",
+    "\u{0001F6BB}": ":\u536b\u751f\u95f4:",
+    "\u{000025C0}": ":\u53cd\u8f6c\u6309\u94ae:",
+    "\u{000025C0}\u{0000FE0F}": ":\u5012\u6863\u6309\u94ae:",
+    "\u{0001F49E}": ":\u65cb\u8f6c\u7684\u5fc3:",
+    "\u{0001F98F}": ":\u7280\u725b:",
+    "\u{0001F380}": ":\u4e1d\u5e26:",
+    "\u{0001F359}": ":\u996d\u56e2:",
+    "\u{0001F358}": ":\u7c73\u7cd5:",
+    "\u{0001F91C}": ":\u53f3\u62f3:",
+    "\u{0001F91C}\u{0001F3FF}": ":\u53f3\u62f3\u6697\u80a4\u8272:",
+    "\u{0001F91C}\u{0001F3FB}": ":\u53f3\u62f3\u8f7b\u80a4\u8272:",
+    "\u{0001F91C}\u{0001F3FE}": ":\u53f3\u62f3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F91C}\u{0001F3FC}": ":\u53f3\u62f3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F91C}\u{0001F3FD}": ":\u53f3\u62f3\u4e2d\u80a4\u8272:",
+    "\u{0001F5EF}": ":\u6b63\u786e\u7684\u6124\u6012\u6ce1\u6cab:",
+    "\u{0001F5EF}\u{0000FE0F}": ":\u53f3\u6124\u6012\u6c14\u6ce1:",
+    "\u{000027A1}": ":\u53f3\u7bad\u5934:",
+    "\u{00002935}": ":\u53f3\u7bad\u5934\u5411\u4e0b\u5f2f\u66f2:",
+    "\u{00002935}\u{0000FE0F}": ":\u53f3\u7bad\u5934\u66f2\u7ebf\u5411\u4e0b:",
+    "\u{000021A9}": ":\u53f3\u7bad\u5934\u5411\u5de6\u5f2f\u66f2:",
+    "\u{000021A9}\u{0000FE0F}": ":\u53f3\u7bad\u5934\u66f2\u7ebf\u5de6:",
+    "\u{00002934}": ":\u53f3\u7bad\u5934\u5411\u4e0a\u5f2f\u66f2:",
+    "\u{00002934}\u{0000FE0F}": ":\u53f3\u7bad\u5934\u66f2\u7ebf\u4e0a\u5347:",
+    "\u{000027A1}\u{0000FE0F}": ":\u53f3\u7bad\u5934:",
+    "\u{0001F48D}": ":\u6212\u6307:",
+    "\u{0001FA90}": ":\u73af\u72b6\u884c\u661f:",
+    "\u{0001F360}": ":\u70e4\u7ea2\u85af:",
+    "\u{0001F916}": ":\u673a\u5668\u4eba\u8138:",
+    "\u{0001F680}": ":\u706b\u7bad:",
+    "\u{0001F9FB}": ":\u7eb8\u5377:",
+    "\u{0001F5DE}": ":\u5377\u8d77\u6765\u7684\u62a5\u7eb8:",
+    "\u{0001F5DE}\u{0000FE0F}": ":\u5377\u8d77\u5f0f\u62a5\u7eb8:",
+    "\u{0001F3A2}": ":\u8fc7\u5c71\u8f66:",
+    "\u{0001F923}": ":\u5728\u5730\u677f\u4e0a\u6253\u6eda\u5927\u7b11:",
+    "\u{0001F413}": ":\u516c\u9e21:",
+    "\u{0001F339}": ":\u73ab\u7470:",
+    "\u{0001F3F5}": ":\u73ab\u7470\u82b1\u7ed3:",
+    "\u{0001F3F5}\u{0000FE0F}": ":\u73ab\u7470\u82b1\u7ed3:",
+    "\u{0001F4CD}": ":\u5706\u56fe\u9489:",
+    "\u{0001F3C9}": ":\u6a44\u6984\u7403:",
+    "\u{0001F3BD}": ":\u8dd1\u6b65\u886b:",
+    "\u{0001F45F}": ":\u8dd1\u978b:",
+    "\u{0001F625}": ":\u6101\u7709\u82e6\u8138:",
+    "\u{0001F9F7}": ":\u5b89\u5168\u522b\u9488:",
+    "\u{0001F9BA}": ":\u5b89\u5168\u80cc\u5fc3:",
+    "\u{000026F5}": ":\u5e06\u8239:",
+    "\u{0001F376}": ":\u76ee\u7684:",
+    "\u{0001F9C2}": ":\u76d0:",
+    "\u{0001F96A}": ":\u4e09\u660e\u6cbb:",
+    "\u{0001F97B}": ":\u7eb1\u4e3d:",
+    "\u{0001F6F0}": ":\u536b\u661f:",
+    "\u{0001F4E1}": ":\u536b\u661f\u5929\u7ebf:",
+    "\u{0001F6F0}\u{0000FE0F}": ":\u536b\u661f:",
+    "\u{0001F995}": ":\u8725\u811a\u7c7b:",
+    "\u{0001F3B7}": ":\u8428\u514b\u65af:",
+    "\u{0001F9E3}": ":\u56f4\u5dfe:",
+    "\u{0001F3EB}": ":\u5b66\u6821:",
+    "\u{0001F392}": ":\u5b66\u6821\u80cc\u5305:",
+    "\u{00002702}": ":\u526a\u5200:",
+    "\u{00002702}\u{0000FE0F}": ":\u526a\u5f0f:",
+    "\u{0001F982}": ":\u874e\u5b50:",
+    "\u{0001F4DC}": ":\u7eb8\u5377:",
+    "\u{0001F4BA}": ":\u5ea7\u4f4d:",
+    "\u{0001F648}": ":\u770b\u4e0d\u5230\u90aa\u6076\u7684\u7334\u5b50:",
+    "\u{0001F331}": ":\u82d7\u6728:",
+    "\u{0001F933}": ":\u81ea\u62cd:",
+    "\u{0001F933}\u{0001F3FF}": ":\u81ea\u62cd\u6697\u80a4\u8272:",
+    "\u{0001F933}\u{0001F3FB}": ":\u81ea\u62cd\u6d45\u80a4\u8272:",
+    "\u{0001F933}\u{0001F3FE}": ":\u81ea\u62cd\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F933}\u{0001F3FC}": ":\u81ea\u62cd\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F933}\u{0001F3FD}": ":\u81ea\u62cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F415}\u{0000200D}\u{0001F9BA}": ":\u670d\u52a1\u72d7:",
+    "\u{0001F562}": ":\u4e03\u70b9\u534a:",
+    "\u{0001F556}": ":\u4e03\u70b9\u949f:",
+    "\u{0001F958}": ":\u6d45\u76d8\u98df\u7269:",
+    "\u{00002618}": ":\u4e09\u53f6\u8349:",
+    "\u{00002618}\u{0000FE0F}": ":\u4e09\u53f6\u8349:",
+    "\u{0001F988}": ":\u9ca8\u9c7c:",
+    "\u{0001F367}": ":\u5228\u51b0:",
+    "\u{0001F33E}": ":\u4e00\u6346\u7c73:",
+    "\u{0001F6E1}": ":\u76fe:",
+    "\u{0001F6E1}\u{0000FE0F}": ":\u5c4f\u853d:",
+    "\u{000026E9}\u{0000FE0F}": ":\u795e\u793e:",
+    "\u{0001F6A2}": ":\u8239:",
+    "\u{0001F320}": ":\u6d41\u661f:",
+    "\u{0001F6CD}": ":\u8d2d\u7269\u888b:",
+    "\u{0001F6CD}\u{0000FE0F}": ":\u8d2d\u7269\u888b:",
+    "\u{0001F6D2}": ":\u8d2d\u7269\u8f66:",
+    "\u{0001F370}": ":\u8584\u997c:",
+    "\u{0001FA73}": ":\u77ed\u88e4:",
+    "\u{0001F6BF}": ":\u6dcb\u6d74:",
+    "\u{0001F990}": ":\u867e:",
+    "\u{0001F500}": ":\u968f\u673a\u64ad\u653e\u8f68\u8ff9\u6309\u94ae:",
+    "\u{0001F92B}": ":\u6296\u8138:",
+    "\u{0001F918}": ":\u89d2\u7684\u8ff9\u8c61:",
+    "\u{0001F918}\u{0001F3FF}": ":\u89d2\u8d28\u6697\u80a4\u8272:",
+    "\u{0001F918}\u{0001F3FB}": ":\u89d2\u7684\u8ff9\u8c61\u8868\u660e\u80a4\u8272\u53d8\u6d45:",
+    "\u{0001F918}\u{0001F3FE}": ":\u89d2\u5f81\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F918}\u{0001F3FC}": ":\u89d2\u5f81\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F918}\u{0001F3FD}": ":\u89d2\u5f81\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F561}": ":\u516d\u70b9\u534a:",
+    "\u{0001F555}": ":\u516d\u70b9\u949f:",
+    "\u{0001F6F9}": ":\u6ed1\u677f:",
+    "\u{000026F7}": ":\u6ed1\u96ea\u8005:",
+    "\u{000026F7}\u{0000FE0F}": ":\u6ed1\u96ea\u8005:",
+    "\u{0001F3BF}": ":\u6ed1\u96ea\u677f:",
+    "\u{0001F480}": ":\u9885\u9aa8:",
+    "\u{00002620}": ":\u5934\u9aa8\u548c\u4ea4\u53c9\u9aa8:",
+    "\u{00002620}\u{0000FE0F}": ":\u5934\u9aa8\u548c\u4ea4\u53c9\u9aa8:",
+    "\u{0001F9A8}": ":\u81ed\u9f2c:",
+    "\u{0001F6F7}": ":\u96ea\u6a47:",
+    "\u{0001F634}": ":\u7761\u89c9\u7684\u8138:",
+    "\u{0001F62A}": ":\u56f0\u5026\u7684\u8138:",
+    "\u{0001F641}": ":\u5fae\u5fae\u76b1\u7709\u7684\u8138:",
+    "\u{0001F642}": ":\u5fae\u5fae\u7b11\u8138:",
+    "\u{0001F3B0}": ":\u8001\u864e\u673a:",
+    "\u{0001F9A5}": ":\u6811\u736d:",
+    "\u{0001F6E9}": ":\u5c0f\u578b\u98de\u673a:",
+    "\u{0001F6E9}\u{0000FE0F}": ":\u5c0f\u578b\u98de\u673a:",
+    "\u{0001F539}": ":\u84dd\u8272\u5c0f\u94bb\u77f3:",
+    "\u{0001F538}": ":\u6a59\u8272\u5c0f\u94bb\u77f3:",
+    "\u{0001F63B}": ":\u7b11\u772f\u772f\u7684\u732b\u8138:",
+    "\u{0000263A}": ":\u7b11\u8138:",
+    "\u{0000263A}\u{0000FE0F}": ":\u7b11\u8138:",
+    "\u{0001F970}": ":\u4e09\u9897\u5fc3\u7684\u7b11\u8138:",
+    "\u{0001F607}": ":\u5e26\u5149\u73af\u7684\u7b11\u8138:",
+    "\u{0001F60D}": ":\u5fc3\u773c\u7b11\u8138:",
+    "\u{0001F608}": ":\u6709\u89d2\u7684\u7b11\u8138:",
+    "\u{0001F60A}": ":\u7b11\u8138\u542b\u7b11:",
+    "\u{0001F60E}": ":\u6234\u7740\u58a8\u955c\u7684\u7b11\u8138:",
+    "\u{0001F60F}": ":\u7b11\u8138:",
+    "\u{0001F40C}": ":\u8717\u725b:",
+    "\u{0001F40D}": ":\u86c7:",
+    "\u{0001F927}": ":\u6253\u55b7\u568f\u7684\u8138:",
+    "\u{0001F3D4}": ":\u96ea\u5c71:",
+    "\u{0001F3D4}\u{0000FE0F}": ":\u96ea\u5c71:",
+    "\u{0001F3C2}": ":\u6ed1\u96ea\u677f\u8fd0\u52a8\u5458:",
+    "\u{0001F3C2}\u{0001F3FF}": ":\u6ed1\u96ea\u677f\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C2}\u{0001F3FB}": ":\u6ed1\u96ea\u677f\u6d45\u80a4\u8272:",
+    "\u{0001F3C2}\u{0001F3FE}": ":\u6ed1\u96ea\u677f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C2}\u{0001F3FC}": ":\u4e2d\u6d45\u80a4\u8272\u6ed1\u96ea\u677f:",
+    "\u{0001F3C2}\u{0001F3FD}": ":\u6ed1\u96ea\u677f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{00002744}": ":\u96ea\u82b1:",
+    "\u{00002744}\u{0000FE0F}": ":\u96ea\u82b1:",
+    "\u{00002603}": ":\u96ea\u4eba:",
+    "\u{00002603}\u{0000FE0F}": ":\u96ea\u4eba:",
+    "\u{000026C4}": ":\u6ca1\u6709\u96ea\u7684\u96ea\u4eba:",
+    "\u{0001F9FC}": ":\u80a5\u7682:",
+    "\u{000026BD}": ":\u8db3\u7403:",
+    "\u{0001F9E6}": ":\u889c\u5b50:",
+    "\u{0001F366}": ":\u8f6f\u51b0\u6dc7\u6dcb:",
+    "\u{0001F94E}": ":\u5792\u7403:",
+    "\u{00002660}": ":\u9ed1\u6843\u5957:",
+    "\u{00002660}\u{0000FE0F}": ":\u94c1\u9539\u5957\u88c5:",
+    "\u{0001F35D}": ":\u610f\u5927\u5229\u9762:",
+    "\u{00002747}": ":\u95ea\u8000:",
+    "\u{00002747}\u{0000FE0F}": ":\u706b\u82b1:",
+    "\u{0001F387}": ":\u8d77\u6ce1\u5242:",
+    "\u{00002728}": ":\u706b\u82b1:",
+    "\u{0001F496}": ":\u95ea\u95ea\u53d1\u5149\u7684\u5fc3:",
+    "\u{0001F64A}": ":\u4e0d\u8981\u8bf4\u90aa\u6076\u7684\u7334\u5b50:",
+    "\u{0001F50A}": ":\u626c\u58f0\u5668\u9ad8\u97f3\u91cf:",
+    "\u{0001F508}": ":\u626c\u58f0\u5668\u4f4e\u97f3\u91cf:",
+    "\u{0001F509}": ":\u626c\u58f0\u5668\u4e2d\u7b49\u97f3\u91cf:",
+    "\u{0001F5E3}": ":\u8bf4\u8bdd\u7684\u5934:",
+    "\u{0001F5E3}\u{0000FE0F}": ":\u8bf4\u8bdd\u5934:",
+    "\u{0001F4AC}": ":\u6f14\u8bb2\u6c14\u7403:",
+    "\u{0001F6A4}": ":\u5feb\u8247:",
+    "\u{0001F577}": ":\u8718\u86db:",
+    "\u{0001F577}\u{0000FE0F}": ":\u5361\u76d8:",
+    "\u{0001F578}": ":\u8718\u86db\u7f51:",
+    "\u{0001F578}\u{0000FE0F}": ":\u8718\u86db\u7f51:",
+    "\u{0001F5D3}": ":\u87ba\u65cb\u65e5\u5386:",
+    "\u{0001F5D3}\u{0000FE0F}": ":\u87ba\u65cb\u65e5\u5386:",
+    "\u{0001F5D2}": ":\u87ba\u65cb\u8bb0\u4e8b\u672c:",
+    "\u{0001F5D2}\u{0000FE0F}": ":\u87ba\u65cb\u8bb0\u4e8b\u672c:",
+    "\u{0001F41A}": ":\u87ba\u65cb\u58f3:",
+    "\u{0001F9FD}": ":\u6d77\u7ef5:",
+    "\u{0001F944}": ":\u52fa\u5b50:",
+    "\u{0001F699}": ":\u8fd0\u52a8\u578b\u591a\u7528\u9014\u8f66:",
+    "\u{0001F3C5}": ":\u4f53\u80b2\u5956\u7ae0:",
+    "\u{0001F433}": ":\u55b7\u6c34\u9cb8:",
+    "\u{0001F991}": ":\u9c7f\u9c7c:",
+    "\u{0001F61D}": ":\u7528\u820c\u5934\u772f\u7740\u8138:",
+    "\u{0001F3DF}": ":\u4f53\u80b2\u573a:",
+    "\u{0001F3DF}\u{0000FE0F}": ":\u4f53\u80b2\u573a:",
+    "\u{0001F929}": ":\u661f\u5149\u95ea\u8000:",
+    "\u{0000262A}": ":\u661f\u661f\u548c\u65b0\u6708:",
+    "\u{0000262A}\u{0000FE0F}": ":\u661f\u65b0\u6708:",
+    "\u{00002721}": ":\u5927\u536b\u4e4b\u661f:",
+    "\u{00002721}\u{0000FE0F}": ":\u5927\u536b\u4e4b\u661f:",
+    "\u{0001F689}": ":\u7ad9:",
+    "\u{0001F35C}": ":\u84b8\u7897:",
+    "\u{0001FA7A}": ":\u542c\u8bca\u5668:",
+    "\u{000023F9}": ":\u505c\u6b62\u6309\u94ae:",
+    "\u{000023F9}\u{0000FE0F}": ":\u505c\u6b62\u6309\u94ae:",
+    "\u{0001F6D1}": ":\u505c\u8f66\u6807\u5fd7:",
+    "\u{000023F1}": ":\u79d2\u8868:",
+    "\u{000023F1}\u{0000FE0F}": ":\u79d2\u8868:",
+    "\u{0001F4CF}": ":\u76f4\u5c3a:",
+    "\u{0001F353}": ":\u8349\u8393:",
+    "\u{0001F399}": ":\u5f55\u97f3\u5ba4\u8bdd\u7b52:",
+    "\u{0001F399}\u{0000FE0F}": ":\u5f55\u97f3\u5ba4\u8bdd\u7b52:",
+    "\u{0001F959}": ":\u9985\u6241\u9762\u5305:",
+    "\u{00002600}": ":\u592a\u9633:",
+    "\u{000026C5}": ":\u4e91\u540e\u7684\u592a\u9633:",
+    "\u{0001F325}": ":\u5927\u4e91\u540e\u7684\u592a\u9633:",
+    "\u{0001F325}\u{0000FE0F}": ":\u5927\u578b\u4e91\u540e\u9762\u7684\u592a\u9633:",
+    "\u{0001F326}": ":\u96e8\u4e91\u80cc\u540e\u7684\u592a\u9633:",
+    "\u{0001F326}\u{0000FE0F}": ":\u96e8\u4e91\u540e\u9762\u7684\u592a\u9633:",
+    "\u{0001F324}": ":\u5c0f\u4e91\u540e\u7684\u592a\u9633:",
+    "\u{0001F324}\u{0000FE0F}": ":\u592a\u9633\u80cc\u540e\u7684\u5c0f\u4e91:",
+    "\u{00002600}\u{0000FE0F}": ":\u592a\u9633:",
+    "\u{0001F31E}": ":\u6709\u8138\u7684\u592a\u9633:",
+    "\u{0001F33B}": ":\u5411\u65e5\u8475:",
+    "\u{0001F576}": ":\u592a\u9633\u955c:",
+    "\u{0001F576}\u{0000FE0F}": ":\u592a\u9633\u955c:",
+    "\u{0001F305}": ":\u65e5\u51fa:",
+    "\u{0001F304}": ":\u5c71\u4e0a\u65e5\u51fa:",
+    "\u{0001F307}": ":\u65e5\u843d:",
+    "\u{0001F9B8}\u{0001F3FF}": ":\u8d85\u7ea7\u82f1\u96c4\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FB}": ":\u8d85\u7ea7\u82f1\u96c4\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FE}": ":\u8d85\u7ea7\u82f1\u96c4\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FC}": ":\u8d85\u7ea7\u82f1\u96c4\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FD}": ":\u8d85\u7ea7\u82f1\u96c4\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}": ":\u8d85\u7ea7\u82f1\u96c4:",
+    "\u{0001F9B9}\u{0001F3FF}": ":\u8d85\u7ea7\u6076\u68cd\u6697\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FB}": ":\u8d85\u7ea7\u6076\u68cd\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FE}": ":\u8d85\u7ea7\u6076\u68cd\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FC}": ":\u8d85\u7ea7\u6076\u68cd\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FD}": ":\u8d85\u7ea7\u6076\u68cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B9}": ":\u8d85\u7ea7\u6076\u68cd:",
+    "\u{0001F363}": ":\u5bff\u53f8:",
+    "\u{0001F69F}": ":\u60ac\u7d22\u94c1\u8def:",
+    "\u{0001F9A2}": ":\u5929\u9e45:",
+    "\u{0001F4A6}": ":\u6c57\u6ef4:",
+    "\u{0001F54D}": ":\u72b9\u592a\u4f1a\u5802:",
+    "\u{0001F489}": ":\u6ce8\u5c04\u5668:",
+    "\u{0001F455}": ":t\u6064\u886b:",
+    "\u{0001F32E}": ":\u58a8\u897f\u54e5\u7389\u7c73\u8584\u997c\u5377:",
+    "\u{0001F961}": ":\u5916\u5356\u76d2:",
+    "\u{0001F38B}": ":\u4e03\u5915\u6811:",
+    "\u{0001F34A}": ":\u6a58\u5b50:",
+    "\u{0001F695}": ":\u51fa\u79df\u8f66:",
+    "\u{0001F375}": ":\u65e0\u67c4\u8336\u676f:",
+    "\u{0001F4C6}": ":\u6495\u4e0b\u65e5\u5386:",
+    "\u{0001F9F8}": ":\u6cf0\u8fea\u718a:",
+    "\u{0000260E}": ":\u7535\u8bdd:",
+    "\u{0001F4DE}": ":\u7535\u8bdd\u542c\u7b52:",
+    "\u{0000260E}\u{0000FE0F}": ":\u7535\u8bdd:",
+    "\u{0001F52D}": ":\u671b\u8fdc\u955c:",
+    "\u{0001F4FA}": ":\u7535\u89c6:",
+    "\u{0001F565}": ":\u5341\u70b9\u534a:",
+    "\u{0001F559}": ":\u5341\u70b9\u949f:",
+    "\u{0001F3BE}": ":\u7f51\u7403:",
+    "\u{000026FA}": ":\u5e10\u7bf7:",
+    "\u{0001F9EA}": ":\u8bd5\u7ba1:",
+    "\u{0001F321}": ":\u6e29\u5ea6\u8ba1:",
+    "\u{0001F321}\u{0000FE0F}": ":\u6e29\u5ea6\u8ba1:",
+    "\u{0001F914}": ":\u601d\u8003\u7684\u9762\u5b54:",
+    "\u{0001F4AD}": ":\u601d\u60f3\u6c14\u7403:",
+    "\u{0001F9F5}": ":\u7ebf:",
+    "\u{0001F55E}": ":\u4e09\u70b9\u534a:",
+    "\u{0001F552}": ":\u4e09\u70b9\u949f:",
+    "\u{0001F44E}": ":\u5927\u62c7\u6307\u671d\u4e0b:",
+    "\u{0001F44E}\u{0001F3FF}": ":\u6df1\u80a4\u8272:",
+    "\u{0001F44E}\u{0001F3FB}": ":\u62c7\u6307\u5411\u4e0b\u8f7b\u80a4\u8272:",
+    "\u{0001F44E}\u{0001F3FE}": ":\u62c7\u6307\u671d\u4e0b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44E}\u{0001F3FC}": ":\u62c7\u6307\u5411\u4e0b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44E}\u{0001F3FD}": ":\u62c7\u6307\u671d\u4e0b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F44D}": ":\u7ad6\u8d77\u5927\u62c7\u6307:",
+    "\u{0001F44D}\u{0001F3FF}": ":\u7ad6\u8d77\u5927\u62c7\u6307\u6df1\u80a4\u8272:",
+    "\u{0001F44D}\u{0001F3FB}": ":\u62c7\u6307\u5411\u4e0a\u8f7b\u80a4\u8272:",
+    "\u{0001F44D}\u{0001F3FE}": ":\u62c7\u6307\u5411\u4e0a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44D}\u{0001F3FC}": ":\u62c7\u6307\u5411\u4e0a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44D}\u{0001F3FD}": ":\u62c7\u6307\u5411\u4e0a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3AB}": ":\u7968:",
+    "\u{0001F405}": ":\u8001\u864e:",
+    "\u{0001F42F}": ":\u864e\u8138:",
+    "\u{000023F2}": ":\u5b9a\u65f6\u949f:",
+    "\u{000023F2}\u{0000FE0F}": ":\u5b9a\u65f6\u5668\u65f6\u949f:",
+    "\u{0001F62B}": ":\u75b2\u60eb\u7684\u8138:",
+    "\u{0001F6BD}": ":\u5395\u6240:",
+    "\u{0001F345}": ":\u756a\u8304:",
+    "\u{0001F445}": ":\u820c\u5934:",
+    "\u{0001F9F0}": ":\u5de5\u5177\u7bb1:",
+    "\u{0001F9B7}": ":\u7259\u9f7f:",
+    "\u{0001F3A9}": ":\u5927\u793c\u5e3d:",
+    "\u{0001F32A}": ":\u9f99\u5377\u98ce:",
+    "\u{0001F32A}\u{0000FE0F}": ":\u9f99\u5377\u98ce:",
+    "\u{0001F5B2}": ":\u8f68\u8ff9\u7403:",
+    "\u{0001F5B2}\u{0000FE0F}": ":\u8f68\u8ff9\u7403:",
+    "\u{0001F69C}": ":\u62d6\u62c9\u673a:",
+    "\u{00002122}": ":\u5546\u6807:",
+    "\u{00002122}\u{0000FE0F}": ":\u5546\u6807:",
+    "\u{0001F686}": ":\u706b\u8f66:",
+    "\u{0001F68A}": ":\u6709\u8f68\u7535\u8f66:",
+    "\u{0001F68B}": ":\u6709\u8f68\u7535\u8f66:",
+    "\u{0001F6A9}": ":\u4e09\u89d2\u65d7:",
+    "\u{0001F4D0}": ":\u4e09\u89d2\u5c3a:",
+    "\u{0001F531}": ":\u4e09\u53c9\u621f\u5fbd\u7ae0:",
+    "\u{0001F68E}": ":\u65e0\u8f68\u7535\u8f66:",
+    "\u{0001F3C6}": ":\u5956\u676f:",
+    "\u{0001F379}": ":\u70ed\u5e26\u996e\u6599:",
+    "\u{0001F420}": ":\u70ed\u5e26\u9c7c:",
+    "\u{0001F3BA}": ":\u5c0f\u53f7:",
+    "\u{0001F337}": ":\u90c1\u91d1\u9999:",
+    "\u{0001F943}": ":\u5e73\u5e95\u676f:",
+    "\u{0001F983}": ":\u706b\u9e21:",
+    "\u{0001F422}": ":\u4e4c\u9f9f:",
+    "\u{0001F567}": ":\u5341\u4e8c\u70b9\u4e09\u5341\u5206:",
+    "\u{0001F55B}": ":\u5341\u4e8c\u70b9\u949f:",
+    "\u{0001F42B}": ":\u53cc\u5cf0\u9a86\u9a7c:",
+    "\u{0001F55D}": ":\u4e24\u70b9\u534a:",
+    "\u{0001F495}": ":\u4e24\u9897\u5fc3:",
+    "\u{0001F46C}": ":\u4e24\u4e2a\u624b\u7275\u624b\u7684\u7537\u4eba:",
+    "\u{0001F551}": ":\u4e24\u70b9\u949f:",
+    "\u{0001F46D}": ":\u4e24\u4e2a\u5973\u4eba\u624b\u7275\u624b:",
+    "\u{00002602}": ":\u96e8\u4f1e:",
+    "\u{000026F1}": ":\u5730\u4e0a\u7684\u4f1e:",
+    "\u{000026F1}\u{0000FE0F}": ":\u4f1e\u5f0f\u5730\u9762:",
+    "\u{00002602}\u{0000FE0F}": ":\u4f1e\u5f0f:",
+    "\u{00002614}": ":\u96e8\u4f1e:",
+    "\u{0001F612}": ":\u672a\u4fee\u9970\u7684\u8138:",
+    "\u{0001F984}": ":\u72ec\u89d2\u517d\u8138:",
+    "\u{0001F513}": ":\u89e3\u9501:",
+    "\u{00002195}": ":\u4e0a\u4e0b\u7bad\u5934:",
+    "\u{00002195}\u{0000FE0F}": ":\u4e0a\u4e0b\u7bad\u5934:",
+    "\u{00002196}": ":\u5de6\u4e0a\u7bad\u5934:",
+    "\u{00002196}\u{0000FE0F}": ":\u5de6\u4e0a\u7bad\u5934:",
+    "\u{00002197}": ":\u53f3\u4e0a\u7bad\u5934:",
+    "\u{00002197}\u{0000FE0F}": ":\u53f3\u4e0a\u7bad\u5934:",
+    "\u{00002B06}": ":\u5411\u4e0a\u7bad\u5934:",
+    "\u{00002B06}\u{0000FE0F}": ":\u4e0a\u7bad\u5934:",
+    "\u{0001F643}": ":\u5012\u7acb\u8138:",
+    "\u{0001F53C}": ":\u5411\u4e0a\u6309\u94ae:",
+    "\u{0001F9DB}": ":\u5438\u8840\u9b3c:",
+    "\u{0001F9DB}\u{0001F3FF}": ":\u5438\u8840\u9b3c\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FB}": ":\u5438\u8840\u9b3c\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FE}": ":\u5438\u8840\u9b3c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FC}": ":\u5438\u8840\u9b3c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FD}": ":\u5438\u8840\u9b3c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A6}": ":\u5782\u76f4\u7ea2\u7eff\u706f:",
+    "\u{0001F4F3}": ":\u632f\u52a8\u6a21\u5f0f:",
+    "\u{0000270C}": ":\u80dc\u5229\u4e4b\u624b:",
+    "\u{0000270C}\u{0001F3FF}": ":\u80dc\u5229\u4e4b\u624b\u6697\u80a4\u8272:",
+    "\u{0000270C}\u{0001F3FB}": ":\u80dc\u5229\u624b\u6d45\u80a4\u8272:",
+    "\u{0000270C}\u{0001F3FE}": ":\u80dc\u5229\u4e4b\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0000270C}\u{0001F3FC}": ":\u80dc\u5229\u4e4b\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0000270C}\u{0001F3FD}": ":\u80dc\u5229\u4e4b\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0000270C}\u{0000FE0F}": ":\u80dc\u5229\u724c:",
+    "\u{0001F4F9}": ":\u6444\u50cf\u673a:",
+    "\u{0001F3AE}": ":\u7535\u5b50\u6e38\u620f:",
+    "\u{0001F4FC}": ":\u5f55\u50cf\u5e26:",
+    "\u{0001F3BB}": ":\u5c0f\u63d0\u7434:",
+    "\u{0001F30B}": ":\u706b\u5c71:",
+    "\u{0001F3D0}": ":\u6392\u7403:",
+    "\u{0001F596}": ":\u74e6\u80af\u793c\u70ae:",
+    "\u{0001F596}\u{0001F3FF}": ":\u9ed1\u76ae\u80a4\u53ef\u4ee5\u656c\u793c:",
+    "\u{0001F596}\u{0001F3FB}": ":\u4e07\u51ef\u793c\u70ae\u6d45\u80a4\u8272:",
+    "\u{0001F596}\u{0001F3FE}": ":\u4e07\u51ef\u793c\u70ae\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F596}\u{0001F3FC}": ":\u4e07\u51ef\u793c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F596}\u{0001F3FD}": ":\u4e07\u51ef\u793c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9C7}": ":\u534e\u592b\u997c:",
+    "\u{0001F318}": ":\u6b8b\u6708:",
+    "\u{0001F316}": ":\u6e10\u4e8f\u51f8\u6708:",
+    "\u{000026A0}": ":\u8b66\u544a:",
+    "\u{000026A0}\u{0000FE0F}": ":\u8b66\u544a:",
+    "\u{0001F5D1}": ":\u5e9f\u7eb8\u7bd3:",
+    "\u{0001F5D1}\u{0000FE0F}": ":\u5e9f\u7eb8\u7bd3:",
+    "\u{0000231A}": ":\u770b:",
+    "\u{0001F403}": ":\u6c34\u725b:",
+    "\u{0001F6BE}": ":\u62bd\u6c34\u9a6c\u6876:",
+    "\u{0001F30A}": ":\u6c34\u6ce2:",
+    "\u{0001F349}": ":\u897f\u74dc:",
+    "\u{0001F44B}": ":\u6325\u624b:",
+    "\u{0001F44B}\u{0001F3FF}": ":\u6325\u624b\u6697\u80a4\u8272:",
+    "\u{0001F44B}\u{0001F3FB}": ":\u6325\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F44B}\u{0001F3FE}": ":\u6325\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F44B}\u{0001F3FC}": ":\u6325\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F44B}\u{0001F3FD}": ":\u6325\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{00003030}": ":\u6ce2\u6d6a\u5f62\u865a\u7ebf:",
+    "\u{00003030}\u{0000FE0F}": ":\u6ce2\u6d6a\u5f62\u77ed\u5212\u7ebf:",
+    "\u{0001F312}": ":\u5a25\u7709\u6708:",
+    "\u{0001F314}": ":\u51f8\u6708:",
+    "\u{0001F640}": ":\u75b2\u60eb\u7684\u732b\u8138:",
+    "\u{0001F629}": ":\u75b2\u60eb\u7684\u8138:",
+    "\u{0001F492}": ":\u5a5a\u793c:",
+    "\u{0001F40B}": ":\u9cb8\u9c7c:",
+    "\u{00002638}": ":\u6cd5\u8f6e:",
+    "\u{00002638}\u{0000FE0F}": ":\u6cd5\u8f6e:",
+    "\u{0000267F}": ":\u8f6e\u6905\u6807\u5fd7:",
+    "\u{0001F468}\u{0000200D}\u{0001F9B3}": ":\u767d\u53d1\u4eba:",
+    "\u{0001F469}\u{0000200D}\u{0001F9B3}": ":\u767d\u53d1\u5973\u5b50:",
+    "\u{000026AA}": ":\u767d\u8272\u5706\u5708:",
+    "\u{00002755}": ":\u767d\u8272\u611f\u53f9\u53f7:",
+    "\u{0001F3F3}": ":\u767d\u65d7:",
+    "\u{0001F3F3}\u{0000FE0F}": ":\u767d\u65d7:",
+    "\u{0001F4AE}": ":\u767d\u82b1:",
+    "\u{0001F9B3}": ":\u767d\u53d1:",
+    "\u{0001F90D}": ":\u767d\u5fc3:",
+    "\u{00002705}": ":\u767d\u8272\u7c97\u590d\u9009\u6807\u8bb0:",
+    "\u{00002B1C}": ":\u767d\u8272\u5927\u6b63\u65b9\u5f62:",
+    "\u{000025FD}": ":\u767d\u8272\u4e2d\u5c0f\u578b\u6b63\u65b9\u5f62:",
+    "\u{000025FB}": ":\u767d\u8272\u4e2d\u65b9\u5f62:",
+    "\u{000025FB}\u{0000FE0F}": ":\u767d\u8272\u4e2d\u65b9\u5f62:",
+    "\u{00002B50}": ":\u767d\u8272\u4e2d\u661f\u5f62:",
+    "\u{00002754}": ":\u767d\u8272\u95ee\u53f7:",
+    "\u{000025AB}": ":\u767d\u8272\u5c0f\u6b63\u65b9\u5f62:",
+    "\u{000025AB}\u{0000FE0F}": ":\u767d\u8272\u5c0f\u65b9\u5f62:",
+    "\u{0001F533}": ":\u767d\u8272\u65b9\u5f62\u6309\u94ae:",
+    "\u{0001F940}": ":\u67af\u840e\u7684\u82b1:",
+    "\u{0001F390}": ":\u98ce\u94c3:",
+    "\u{0001F32C}": ":\u8fce\u98ce\u9762:",
+    "\u{0001F32C}\u{0000FE0F}": ":\u98ce\u5411:",
+    "\u{0001F377}": ":\u9152\u676f:",
+    "\u{0001F609}": ":\u7728\u773c:",
+    "\u{0001F61C}": ":\u7528\u820c\u5934\u7728\u773c:",
+    "\u{0001F43A}": ":\u72fc\u8138:",
+    "\u{0001F471}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B2}": ":\u5973\u6027\u79c3\u9876\u80a4\u8272:",
+    "\u{0001F471}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6df1\u8272\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B1}": ":\u5973\u6027\u6df1\u8272\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B0}": ":\u5973\u6027\u6df1\u8272\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9B3}": ":\u5973\u6027\u6df1\u8272\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B2}": ":\u5973\u6027\u6d45\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6d45\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B1}": ":\u5973\u6027\u6d45\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B0}": ":\u5973\u6027\u6d45\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9B3}": ":\u5973\u6027\u6d45\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B2}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B1}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B0}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9B3}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B2}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B1}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B0}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9B3}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B2}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272\u79c3\u5934:",
+    "\u{0001F471}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272\u91d1\u53d1:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B1}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272\u5377\u53d1:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B0}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272\u7ea2\u53d1:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9B3}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272\u767d\u53d1:",
+    "\u{0001F469}": ":\u5973\u4eba:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46B}\u{0001F3FF}": ":\u624b\u7275\u7740\u624b\u7684\u5973\u4eba\u548c\u7537\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}": ":\u7537\u5973\u624b\u7275\u624b\u6d45\u80a4\u8272\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}": ":\u7537\u5973\u624b\u7275\u624b\u6d45\u80a4\u8272\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u5973\u624b\u7275\u624b\u6d45\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u7537\u5973\u624b\u7275\u624b\u6d45\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46B}\u{0001F3FB}": ":\u7537\u5973\u624b\u7275\u624b\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u6697\u80a4\u8272\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u624b\u7275\u7740\u624b\u7684\u5973\u4eba\u548c\u7537\u4eba\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46B}\u{0001F3FE}": ":\u624b\u7275\u7740\u624b\u7684\u5973\u4eba\u548c\u7537\u4eba\u80a4\u8272\u504f\u9ed1:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FD}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46B}\u{0001F3FC}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FF}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u80a4\u8272\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FB}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FE}": ":\u5973\u4eba\u548c\u7537\u4eba\u624b\u7275\u624b\u4e2d\u7b49\u80a4\u8272\u4e2d\u7b49\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F468}\u{0001F3FC}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46B}\u{0001F3FD}": ":\u7537\u5973\u624b\u7275\u624b\u4e2d\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u672f\u5bb6:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u4eba\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3A8}": ":\u5973\u827a\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F680}": ":\u5973\u5b87\u822a\u5458:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F680}": ":\u5973\u5b87\u822a\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F680}": ":\u5973\u822a\u5929\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F680}": ":\u5973\u5b87\u822a\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F680}": ":\u5973\u822a\u5929\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F680}": ":\u5973\u5b87\u822a\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u81ea\u884c\u8f66:",
+    "\u{0001F6B4}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B4}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B4}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u81ea\u884c\u8f66:",
+    "\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f39\u8df3\u7403\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f39\u8df3\u7403\u8f7b\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5f39\u7403:",
+    "\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5f39\u7403:",
+    "\u{000026F9}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5f39\u7403:",
+    "\u{000026F9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f39\u8df3\u7403\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f39\u8df3\u7403\u8f7b\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{000026F9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f39\u8df3\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{000026F9}\u{0000FE0F}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5f39\u8df3\u7403:",
+    "\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f13\u5f62\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f13\u5f62\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F647}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u97a0\u8eac:",
+    "\u{0001F647}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f13\u5f62\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f13\u5f62\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F647}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5f13\u5f62\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F647}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u97a0\u8eac:",
+    "\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u63a8\u8f66\u5f0f\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8f7b\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F938}\u{0000200D}\u{00002640}": ":\u5987\u5973\u63a8\u8f66:",
+    "\u{0001F938}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u63a8\u8f66\u5f0f\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8f7b\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F938}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u63a8\u8f66\u5f0f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F938}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5987\u5973\u63a8\u8f66:",
+    "\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6500\u5ca9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6500\u5ca9\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D7}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6500\u5ca9:",
+    "\u{0001F9D7}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6500\u5ca9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6500\u5ca9\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D7}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6500\u5ca9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D7}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6500\u5ca9:",
+    "\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F477}\u{0000200D}\u{00002640}": ":\u5973\u5efa\u7b51\u5de5\u4eba:",
+    "\u{0001F477}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F477}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F477}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F477}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u804c\u5de5\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F477}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F477}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5efa\u7b51\u5de5\u4eba\u9009\u62e9:",
+    "\u{0001F469}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F373}": ":\u5973\u53a8\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F483}": ":\u8df3\u821e\u7684\u5973\u4eba:",
+    "\u{0001F483}\u{0001F3FF}": ":\u821e\u5973\u6697\u80a4\u8272:",
+    "\u{0001F483}\u{0001F3FB}": ":\u5973\u6027\u821e\u8e48\u6d45\u80a4\u8272:",
+    "\u{0001F483}\u{0001F3FE}": ":\u5973\u6027\u821e\u8e48\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F483}\u{0001F3FC}": ":\u5973\u6027\u821e\u8e48\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F483}\u{0001F3FD}": ":\u5973\u6027\u821e\u8e48\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}": ":\u5973\u6027\u6697\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F575}\u{0000200D}\u{00002640}": ":\u5973\u4fa6\u63a2:",
+    "\u{0001F575}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a22:",
+    "\u{0001F575}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u9009\u62e9:",
+    "\u{0001F575}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F575}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4fa6\u63a2\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0000200D}\u{00002640}": ":\u5973\u7cbe\u7075:",
+    "\u{0001F9DD}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DD}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075:",
+    "\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u638c\u5fc3\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u638c\u7eb9\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F926}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u638c\u5fc3:",
+    "\u{0001F926}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u5fc3\u6697\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u7eb9\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F926}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u7eb9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F926}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u638c\u5fc3\u9009\u62e9:",
+    "\u{0001F469}\u{0000200D}\u{0001F3ED}": ":\u5de5\u5382\u5973\u5de5:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3ED}": ":\u5973\u5de5\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3ED}": ":\u5973\u5de5\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3ED}": ":\u5973\u5de5\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3ED}": ":\u5973\u5de5\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3ED}": ":\u5973\u5de5\u4e2d\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50\u6697\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DA}\u{0000200D}\u{00002640}": ":\u5973\u4ed9\u5b50:",
+    "\u{0001F9DA}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4ed9\u5b50\u6697\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4ed9\u5b50\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u80a4\u8272\u4e2d\u6697\u8272\u4ed9\u5973:",
+    "\u{0001F9DA}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4ed9\u5b50\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DA}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4ed9\u5b50\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DA}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4ed9\u5973:",
+    "\u{0001F469}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u6c11:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u6c11\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u6c11\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u6c11\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F33E}": ":\u5973\u519c\u6c11\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F692}": ":\u5973\u6d88\u9632\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u76b1\u7740\u7709\u5934\uff0c\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u76b1\u7709\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u4e2d\u7b49\u80a4\u8272\u6df1\u76b1:",
+    "\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u76b1\u7709\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u76b1\u7709\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0000200D}\u{00002640}": ":\u76b1\u7709\u7684\u5973\u4eba:",
+    "\u{0001F64D}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u76b1\u7740\u7709\u5934\uff0c\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F64D}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u76b1\u7709\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u76b1\u7709\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u76b1\u7709\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64D}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u76b1\u7709\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64D}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u76b1\u7709:",
+    "\u{0001F9DE}\u{0000200D}\u{00002640}": ":\u5973\u5996:",
+    "\u{0001F9DE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7cbe\u7075:",
+    "\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u4e00\u4e2a\u6ca1\u6709\u6df1\u8272\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u4e00\u4e2a\u6ca1\u6709\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u6253\u624b\u52bf\u8bf4\u4e0d:",
+    "\u{0001F645}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u6df1\u8272\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e00\u4e2a\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6ca1\u6709\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F645}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6253\u624b\u52bf\u4e0d\u9009:",
+    "\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u505a\u624b\u52bf\u53ef\u4ee5\u6df1\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u58eb\u6253\u624b\u52bf\u53ef\u4ee5\u6de1\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F646}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u505a\u624b\u52bf\u597d\u5417:",
+    "\u{0001F646}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u505a\u624b\u52bf\u53ef\u4ee5\u6df1\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u58eb\u6253\u624b\u52bf\u53ef\u4ee5\u6de1\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F646}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u624b\u52bfOK\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F646}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u505a\u624b\u52bf\u201c\u597d\u201d:",
+    "\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u7406\u53d1\u5e08\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u7406\u53d1\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u526a\u5934\u53d1\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u526a\u5934\u53d1\u7684\u5973\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7406\u53d1\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F487}\u{0000200D}\u{00002640}": ":\u7406\u53d1\u7684\u5973\u4eba:",
+    "\u{0001F487}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7406\u53d1\u5e08\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F487}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u7406\u53d1\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F487}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u526a\u5934\u53d1\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F487}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u526a\u5934\u53d1\u7684\u5973\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F487}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7406\u53d1\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F487}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7406\u53d1\u5e08:",
+    "\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6309\u6469\u5e08\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u6309\u6469\u5973\u6027\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6309\u6469\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6309\u6469\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6309\u6469\u4e2d\u80a4\u8272:",
+    "\u{0001F486}\u{0000200D}\u{00002640}": ":\u6309\u6469\u7684\u5973\u4eba:",
+    "\u{0001F486}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u76ae\u80a4\u6697\u8272\u6309\u6469:",
+    "\u{0001F486}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6309\u6469\u5973\u6027\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6309\u6469\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6309\u6469\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F486}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6309\u6469\u4e2d\u80a4\u8272:",
+    "\u{0001F486}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6309\u6469\u5e08:",
+    "\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F3CC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F3CC}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CC}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u9ad8\u5c14\u592b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CC}\u{0000FE0F}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u9ad8\u5c14\u592b:",
+    "\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u536b\u6697\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u536b\u58eb\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u536b\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u536b\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u536b\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F482}\u{0000200D}\u{00002640}": ":\u5973\u536b\u5175:",
+    "\u{0001F482}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u536b\u6697\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u536b\u58eb\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u536b\u58eb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u536b\u58eb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F482}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u536b\u58eb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F482}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u536b:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002695}": ":\u5973\u536b\u751f\u5458:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5458\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5458\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002695}\u{0000FE0F}": ":\u5973\u536b\u751f\u5de5\u4f5c\u8005\u9009\u62e9:",
+    "\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u8377\u82b1\u4f4d\u5973\u6027\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u8377\u82b1\u4f4d\u5973\u6027\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D8}\u{0000200D}\u{00002640}": ":\u83b2\u82b1\u4f4d\u5973\u5b50:",
+    "\u{0001F9D8}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u5973\u6027\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F9D8}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u5973\u6027\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D8}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u8377\u82b1\u4f4d\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D8}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u83b2\u82b1\u5973\u9009\u4f4d\u5668:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5973\u6027-\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5973\u6027-\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F9BD}": ":\u5750\u624b\u52a8\u8f6e\u6905\u7684\u5987\u5973:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9BC}": ":\u5750\u5728\u7535\u52a8\u8f6e\u6905\u4e0a\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u5973\u6027\u80a4\u8272\u4e2d\u6df1\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9BC}": ":\u5750\u673a\u52a8\u8f6e\u6905\u7684\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F9BC}": ":\u5750\u7535\u52a8\u8f6e\u6905\u7684\u5987\u5973:",
+    "\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\uff0c\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D6}\u{0000200D}\u{00002640}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba:",
+    "\u{0001F9D6}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u76ae\u80a4\u9edd\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D6}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F9D6}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\uff0c\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F9D6}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u84b8\u6c7d\u623f\u91cc\u7684\u5973\u4eba\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D6}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u5728\u84b8\u6c7d\u623f:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002696}": ":\u5973\u6027\u5224\u65ad\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002696}": ":\u5973\u6027\u5224\u65ad\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002696}": ":\u5973\u6027\u5224\u65ad\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002696}": ":\u5973\u6027\u5224\u65ad\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002696}": ":\u5973\u6027\u5224\u65ad\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002696}": ":\u5973\u6cd5\u5b98:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6027\u5224\u65ad\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6027\u5224\u65ad\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6027\u5224\u65ad\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6027\u5224\u65ad\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6027\u5224\u65ad\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002696}\u{0000FE0F}": ":\u5973\u6cd5\u5b98\u9009\u62e9:",
+    "\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u53d8\u9ed1\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u53d8\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u4e2d\u9ed1\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u4e2d\u6d45\u80a4\u8272\u5973\u6027:",
+    "\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F939}\u{0000200D}\u{00002640}": ":\u5973\u6742\u800d:",
+    "\u{0001F939}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u53d8\u9ed1\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u53d8\u6d45\u80a4\u8272:",
+    "\u{0001F939}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e2d\u9ed1\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F939}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e2d\u6d45\u80a4\u8272\u5973\u6027:",
+    "\u{0001F939}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u4eba:",
+    "\u{0001F939}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u9009\u89d2\u6742\u800d:",
+    "\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dea\u4e0b\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9CE}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dea\u4e0b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8dea\u7740\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dea\u5f0f\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dea\u7740\uff0c\u80a4\u8272\u504f\u6697:",
+    "\u{0001F9CE}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dea\u5f0f\u4e2d\u6df1\u8272\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dea\u5730\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dea\u5f0f\u4e2d\u6d45\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dea\u7740\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CE}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dea\u5f0f\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9CE}\u{0000200D}\u{00002640}": ":\u8dea\u7740\u7684\u5973\u4eba:",
+    "\u{0001F9CE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8dea\u4e0b\u9009\u62e9:",
+    "\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u91cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u91cd\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u504f\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u4e3e\u91cd:",
+    "\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u4e3e\u91cd2:",
+    "\u{0001F3CB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u4e3e\u91cd3:",
+    "\u{0001F3CB}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u4e3e\u91cd\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u91cd\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u504f\u8f7b\u80a4\u8272:",
+    "\u{0001F3CB}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u91cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CB}\u{0000FE0F}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u4e3e\u91cd:",
+    "\u{0001F469}\u{0001F3FB}": ":\u5973\u6027\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D9}\u{0000200D}\u{00002640}": ":\u5973\u6cd5\u5e08:",
+    "\u{0001F9D9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9D9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9D9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9D9}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6cd5\u5e08\u9009\u62e9:",
+    "\u{0001F469}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F527}": ":\u5973\u673a\u68b0\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}": ":\u5973\u6027\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}": ":\u5973\u6027\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}": ":\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66:",
+    "\u{0001F6B5}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B5}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B5}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5c71\u5730\u81ea\u884c\u8f66:",
+    "\u{0001F469}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F4BC}": ":\u5973\u4e0a\u73ed\u65cf\u4e2d\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002708}": ":\u5973\u98de\u884c\u5458:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{00002708}\u{0000FE0F}": ":\u5973\u98de\u884c\u5458:",
+    "\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u6253\u624b\u7403\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u624b\u7403\u8f7b\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u6253\u624b\u7403\u7684\u5973\u4eba\u80a4\u8272\u504f\u9ed1:",
+    "\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u624b\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u624b\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93E}\u{0000200D}\u{00002640}": ":\u6253\u624b\u7403\u7684\u5973\u4eba:",
+    "\u{0001F93E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6253\u624b\u7403\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F93E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u624b\u7403\u8f7b\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6253\u624b\u7403\u7684\u5973\u4eba\u80a4\u8272\u504f\u9ed1:",
+    "\u{0001F93E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u624b\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u624b\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93E}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u624b\u7403\u9009\u62e9:",
+    "\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6d45:",
+    "\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u6253\u6c34\u7403\u7684\u5973\u4eba\u80a4\u8272\u504f\u6697:",
+    "\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6c34\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6253\u6c34\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93D}\u{0000200D}\u{00002640}": ":\u6253\u6c34\u7403\u7684\u5973\u4eba:",
+    "\u{0001F93D}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F93D}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6253\u6c34\u7403\u80a4\u8272\u6d45:",
+    "\u{0001F93D}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6253\u6c34\u7403\u7684\u5973\u4eba\u80a4\u8272\u504f\u6697:",
+    "\u{0001F93D}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6c34\u7403\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F93D}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6253\u6c34\u7403\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F93D}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u9009\u624b\u6253\u6c34\u7403:",
+    "\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98\u80a4\u8272\u6d45:",
+    "\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46E}\u{0000200D}\u{00002640}": ":\u5973\u8b66\u5b98:",
+    "\u{0001F46E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F46E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98\u80a4\u8272\u6d45:",
+    "\u{0001F46E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F46E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46E}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8b66\u5b98:",
+    "\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u6485\u7740\u5634\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6485\u8d77\u5634\u5507\uff0c\u80a4\u8272\u4e2d\u7b49\u504f\u6697:",
+    "\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6485\u8d77\u5634\u5507\u4e2d\u7b49\u504f\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6485\u5634\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64E}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u6485\u5634:",
+    "\u{0001F64E}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6485\u7740\u5634\uff0c\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F64E}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6485\u7740\u5634\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6df1\u80a4\u8272\u6485\u5634:",
+    "\u{0001F64E}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6485\u5634\u4e2d\u7b49\u6d45\u80a4\u8272:",
+    "\u{0001F64E}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6485\u5634\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64E}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6485\u5634:",
+    "\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u624b\u6697\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u62ac\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u62ac\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u4e3e\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64B}\u{0000200D}\u{00002640}": ":\u4e3e\u8d77\u624b\u7684\u5973\u4eba:",
+    "\u{0001F64B}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u624b\u6697\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u62ac\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u62ac\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u62ac\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F64B}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F64B}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u4e3e\u624b:",
+    "\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5212\u8239\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5212\u8239\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5212\u8239\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5212\u8239\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5212\u8239\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A3}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u5212\u8239:",
+    "\u{0001F6A3}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5212\u8239\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5212\u8239\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5212\u8239\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5212\u8239\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6A3}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u5212\u8239\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6A3}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5212\u8239\u624b:",
+    "\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6697\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dd1\u6b65\u6de1\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C3}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u8dd1\u6b65:",
+    "\u{0001F3C3}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6697\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dd1\u6b65\u6de1\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C3}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8dd1\u6b65\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C3}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u8dd1\u6b65:",
+    "\u{0001F469}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F52C}": ":\u5973\u79d1\u5b66\u5bb6\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8038\u8038\u80a9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u6d45:",
+    "\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8038\u8038\u80a9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8038\u80a9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8038\u8038\u80a9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8038\u8038\u80a9:",
+    "\u{0001F937}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8038\u8038\u80a9\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8038\u8038\u80a9\uff0c\u80a4\u8272\u6d45:",
+    "\u{0001F937}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8038\u8038\u80a9\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8038\u80a9\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F937}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8038\u8038\u80a9\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F937}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8038\u8038\u80a9:",
+    "\u{0001F469}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3A4}": ":\u5973\u6b4c\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ad9\u5728\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ad9\u7acb\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ad9\u7acb\u8f7b\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ad9\u706f\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ad9\u7740\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ad9\u7acb\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ad9\u7acb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ad9\u7acb\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ad9\u7acb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ad9\u7acb\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9CD}\u{0000200D}\u{00002640}": ":\u7ad9\u7740\u7684\u5973\u4eba:",
+    "\u{0001F9CD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u7ad9\u9009:",
+    "\u{0001F469}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F393}": ":\u5973\u5b66\u751f\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u8f7b\u8584\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u4e2d\u6df1\u8272\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u8d85\u7ea7\u82f1\u96c4\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B8}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8d85\u7ea7\u82f1\u96c4\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B8}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u7ea7\u82f1\u96c4:",
+    "\u{0001F9B8}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u7ea7\u82f1\u96c4\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u9ed1\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8d85\u7ea7\u6076\u68cd\u6df1\u8272\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8d85\u7ea7\u6076\u68cd\u6de1\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u8f7b\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u9ed1\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u8d85\u7ea7\u53cd\u6d3e\u4e2d\u6df1\u8272\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u4e2d\u6d45\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9B9}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8d85\u7ea7\u6076\u68cd\u4e2d\u7b49\u80a4\u8272\u9009\u62e9:",
+    "\u{0001F9B9}\u{0000200D}\u{00002640}": ":\u5973\u5927\u53cd\u6d3e:",
+    "\u{0001F9B9}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u8d85\u4eba\u9009\u62e9:",
+    "\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u51b2\u6d6a\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u51b2\u6d6a\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C4}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u51b2\u6d6a:",
+    "\u{0001F3C4}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u51b2\u6d6a\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u51b2\u6d6a\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3C4}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u51b2\u6d6a\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3C4}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u51b2\u6d6a:",
+    "\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6e38\u6cf3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u6e38\u6cf3\u5973\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6e38\u6cf3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6e38\u6cf3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u6e38\u6cf3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CA}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6e38\u6cf3:",
+    "\u{0001F3CA}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6e38\u6cf3\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6e38\u6cf3\u5973\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6e38\u6cf3\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6e38\u6cf3\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F3CA}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u6e38\u6cf3\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F3CA}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6e38\u6cf3:",
+    "\u{0001F469}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F3EB}": ":\u5973\u6559\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08\u6697\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F4BB}": ":\u5973\u6280\u5e08\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ffb\u624b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ffb\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0000200D}\u{00002640}": ":\u5973\u5c0f\u8d39\u624b:",
+    "\u{0001F481}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ffb\u624b\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ffb\u624b\u8f7b\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F481}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u7ffb\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F481}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5c0f\u8d39\u624b:",
+    "\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DB}\u{0000200D}\u{00002640}": ":\u5973\u5438\u8840\u9b3c:",
+    "\u{0001F9DB}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5438\u8840\u9b3c\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5438\u8840\u9b3c\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F9DB}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5438\u8840\u9b3c\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F9DB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5438\u8840\u9b3c\u5973:",
+    "\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u5973\u6027\u884c\u8d70\u65f6\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u8d70\u8def\u65f6\u80a4\u8272\u6d45:",
+    "\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u5973\u6027\u884c\u8d70\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u5973\u6027\u884c\u8d70\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u6027\u884c\u8d70\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B6}\u{0000200D}\u{00002640}": ":\u8d70\u8def\u7684\u5973\u4eba:",
+    "\u{0001F6B6}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u884c\u8d70\u65f6\u80a4\u8272\u6697\u6c89:",
+    "\u{0001F6B6}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u8d70\u8def\u65f6\u80a4\u8272\u6d45:",
+    "\u{0001F6B6}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u884c\u8d70\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u884c\u8d70\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F6B6}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6027\u884c\u8d70\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F6B6}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u6b65\u884c:",
+    "\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002640}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002640}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002640}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002640}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002640}": ":\u5973\u4eba\u6234\u5934\u5dfe\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F473}\u{0000200D}\u{00002640}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba:",
+    "\u{0001F473}\u{0001F3FF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F473}\u{0001F3FB}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F473}\u{0001F3FE}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u9ed1:",
+    "\u{0001F473}\u{0001F3FC}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6d45:",
+    "\u{0001F473}\u{0001F3FD}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u4eba\u6234\u5934\u5dfe\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F473}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba:",
+    "\u{0001F9D5}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba:",
+    "\u{0001F9D5}\u{0001F3FF}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F9D5}\u{0001F3FB}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u6d45:",
+    "\u{0001F9D5}\u{0001F3FE}": ":\u6234\u5934\u5dfe\u7684\u5973\u4eba\u80a4\u8272\u4e2d\u7b49\u504f\u6df1:",
+    "\u{0001F9D5}\u{0001F3FC}": ":\u6d45\u80a4\u8272\u5973\u5893\u77f3:",
+    "\u{0001F9D5}\u{0001F3FD}": ":\u6234\u5934\u5dfe\u7684\u5973\u6027\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F9AF}": ":\u76ae\u80a4\u6697\u8272\u8c03\u7684\u5973\u6027:",
+    "\u{0001F469}\u{0001F3FB}\u{0000200D}\u{0001F9AF}": ":\u5973\u6027\u63a2\u79d8\u624b\u6756\u8f7b\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F9AF}": ":\u5973\u6027\uff0c\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F9AF}": ":\u4e2d\u6d45\u80a4\u8272\u5973\u6027:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F9AF}": ":\u4e2d\u7b49\u80a4\u8272\u7684\u5973\u6027:",
+    "\u{0001F469}\u{0000200D}\u{0001F9AF}": ":\u624b\u6756\u63a2\u5b50\u7684\u5973\u4eba:",
+    "\u{0001F9DF}\u{0000200D}\u{00002640}": ":\u5973\u50f5\u5c38:",
+    "\u{0001F9DF}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u50f5\u5c38:",
+    "\u{0001F462}": ":\u5973\u9774:",
+    "\u{0001F45A}": ":\u5973\u88c5:",
+    "\u{0001F452}": ":\u5973\u5e3d:",
+    "\u{0001F461}": ":\u5973\u5f0f\u51c9\u978b:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}": ":\u5973\u6027\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FE}": ":\u5973\u6027\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u6df1\u8272\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}": ":\u5973\u6027\u624b\u62c9\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FF}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FD}": ":\u5973\u6027\u63e1\u7740\u624b\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46D}\u{0001F3FF}": ":\u624b\u7275\u7740\u624b\u7684\u5973\u4eba\u80a4\u8272\u9edd\u9ed1:",
+    "\u{0001F46D}\u{0001F3FB}": ":\u624b\u7275\u624b\u5973\u6027\u80a4\u8272\u6d45:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}": ":\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FE}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FD}": ":\u624b\u7275\u624b\u4e2d\u6df1\u8272\u80a4\u8272\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46D}\u{0001F3FE}": ":\u624b\u7275\u7740\u624b\u7684\u5973\u6027\u80a4\u8272\u504f\u6697:",
+    "\u{0001F469}\u{0001F3FC}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F46D}\u{0001F3FC}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FB}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u7b49\u80a4\u8272\u6d45\u80a4\u8272:",
+    "\u{0001F469}\u{0001F3FD}\u{0000200D}\u{0001F91D}\u{0000200D}\u{0001F469}\u{0001F3FC}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u7b49\u80a4\u8272\u4e2d\u7b49\u504f\u6d45\u80a4\u8272:",
+    "\u{0001F46D}\u{0001F3FD}": ":\u5973\u6027\u624b\u7275\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0001F46F}\u{0000200D}\u{00002640}": ":\u6709\u5154\u5b50\u8033\u6735\u7684\u5973\u4eba:",
+    "\u{0001F46F}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5e26\u5154\u5b50\u8033\u6735\u7684\u5973\u4eba:",
+    "\u{0001F93C}\u{0000200D}\u{00002640}": ":\u5973\u5b50\u6454\u8de4:",
+    "\u{0001F93C}\u{0000200D}\u{00002640}\u{0000FE0F}": ":\u5973\u5b50\u6454\u8de4:",
+    "\u{0001F6BA}": ":\u5973\u536b\u751f\u95f4:",
+    "\u{0001F974}": ":\u660f\u660f\u6b32\u7761\u7684\u8138:",
+    "\u{0001F5FA}": ":\u4e16\u754c\u5730\u56fe:",
+    "\u{0001F5FA}\u{0000FE0F}": ":\u4e16\u754c\u5730\u56fe:",
+    "\u{0001F61F}": ":\u6101\u7709\u82e6\u8138:",
+    "\u{0001F381}": ":\u5305\u88c5\u597d\u7684\u793c\u7269:",
+    "\u{0001F527}": ":\u6273\u624b:",
+    "\u{0000270D}": ":\u4e66\u5199\u624b:",
+    "\u{0000270D}\u{0001F3FF}": ":\u5199\u5b57\u624b\u6697\u80a4\u8272:",
+    "\u{0000270D}\u{0001F3FB}": ":\u4e66\u5199\u624b\u6d45\u80a4\u8272:",
+    "\u{0000270D}\u{0001F3FE}": ":\u5199\u5b57\u624b\u4e2d\u6df1\u8272\u80a4\u8272:",
+    "\u{0000270D}\u{0001F3FC}": ":\u5199\u5b57\u624b\u4e2d\u6d45\u80a4\u8272:",
+    "\u{0000270D}\u{0001F3FD}": ":\u4e66\u5199\u624b\u4e2d\u7b49\u80a4\u8272:",
+    "\u{0000270D}\u{0000FE0F}": ":\u624b\u5199:",
+    "\u{0001F9F6}": ":\u7eb1\u7ebf:",
+    "\u{0001F971}": ":\u54c8\u6b20\u7684\u8138:",
+    "\u{0001F7E1}": ":\u9ec4\u8272\u5706\u5708:",
+    "\u{0001F49B}": ":\u9ec4\u5fc3:",
+    "\u{0001F7E8}": ":\u9ec4\u8272\u65b9\u5757:",
+    "\u{0001F4B4}": ":\u65e5\u5143\u949e\u7968:",
+    "\u{0000262F}": ":\u9634\u9633:",
+    "\u{0000262F}\u{0000FE0F}": ":\u9634\u9633:",
+    "\u{0001FA80}": ":\u54df\u54df:",
+    "\u{0001F92A}": ":\u6ed1\u7a3d\u7684\u8138:",
+    "\u{0001F993}": ":\u6591\u9a6c:",
+    "\u{0001F910}": ":\u62c9\u94fe\u5634\u8138:",
+    "\u{0001F9DF}": ":\u50f5\u5c38:",
+    "\u{0001F4A4}": ":zzz:"
+}
+
+let PINYIN = {
+    "\u4E00": "yī", // 一
+    "\u4E01": "dīng", // 丁
+    "\u4E03": "qī", // 七
+    "\u4E07": "wàn", // 万
+    "\u4E08": "zhàng", // 丈
+    "\u4E09": "sān", // 三
+    "\u4E0A": "shàng,shang", // 上
+    "\u4E0B": "xià,xia", // 下
+    "\u4E0D": "bù,bu", // 不
+    "\u4E0E": "yǔ,yù", // 与
+    "\u4E11": "chǒu", // 丑
+    "\u4E13": "zhuān", // 专
+    "\u4E14": "qiě", // 且
+    "\u4E16": "shì", // 世
+    "\u4E18": "qiū", // 丘
+    "\u4E19": "bǐng", // 丙
+    "\u4E1A": "yè", // 业
+    "\u4E1B": "cóng", // 丛
+    "\u4E1C": "dōng", // 东
+    "\u4E1D": "sī", // 丝
+    "\u4E1F": "diū", // 丟
+    "\u4E22": "diū", // 丢
+    "\u4E24": "liǎng", // 两
+    "\u4E25": "yán", // 严
+    "\u4E27": "sàng", // 丧
+    "\u4E2A": "gè,ge,gě", // 个
+    "\u4E2B": "yā", // 丫
+    "\u4E2D": "zhōng,zhòng", // 中
+    "\u4E30": "fēng", // 丰
+    "\u4E32": "chuàn", // 串
+    "\u4E34": "lín", // 临
+    "\u4E38": "wán", // 丸
+    "\u4E39": "dān,dan", // 丹
+    "\u4E3A": "wèi,wéi", // 为
+    "\u4E3B": "zhǔ", // 主
+    "\u4E3D": "lì", // 丽
+    "\u4E3E": "jǔ,ju", // 举
+    "\u4E43": "nǎi", // 乃
+    "\u4E45": "jiǔ", // 久
+    "\u4E48": "me", // 么
+    "\u4E49": "yì", // 义
+    "\u4E4B": "zhī", // 之
+    "\u4E4C": "wū", // 乌
+    "\u4E4E": "hu,hū", // 乎
+    "\u4E4F": "fá", // 乏
+    "\u4E50": "lè,yuè", // 乐
+    "\u4E52": "pīng", // 乒
+    "\u4E53": "pāng", // 乓
+    "\u4E56": "guāi", // 乖
+    "\u4E58": "chéng", // 乘
+    "\u4E59": "yǐ", // 乙
+    "\u4E5D": "jiǔ", // 九
+    "\u4E5F": "yě", // 也
+    "\u4E60": "xí", // 习
+    "\u4E61": "xiāng", // 乡
+    "\u4E66": "shū", // 书
+    "\u4E70": "mǎi", // 买
+    "\u4E71": "luàn", // 乱
+    "\u4E73": "rǔ", // 乳
+    "\u4E82": "luàn", // 亂
+    "\u4E86": "le,liǎo,liào", // 了
+    "\u4E88": "yǔ", // 予
+    "\u4E89": "zhēng", // 争
+    "\u4E8B": "shì,shi", // 事
+    "\u4E8C": "èr", // 二
+    "\u4E8E": "yú", // 于
+    "\u4E8F": "kuī", // 亏
+    "\u4E91": "yún", // 云
+    "\u4E92": "hù", // 互
+    "\u4E94": "wǔ", // 五
+    "\u4E95": "jǐng", // 井
+    "\u4E9A": "yà", // 亚
+    "\u4E9B": "xiē", // 些
+    "\u4E9E": "yà", // 亞
+    "\u4EA1": "wáng", // 亡
+    "\u4EA4": "jiāo", // 交
+    "\u4EA6": "yì", // 亦
+    "\u4EA7": "chǎn", // 产
+    "\u4EA9": "mǔ", // 亩
+    "\u4EAB": "xiǎng", // 享
+    "\u4EAD": "tíng", // 亭
+    "\u4EAE": "liàng,liang", // 亮
+    "\u4EB2": "qīn,qin", // 亲
+    "\u4EBA": "rén,ren", // 人
+    "\u4EBF": "yì", // 亿
+    "\u4EC0": "shén,shen", // 什
+    "\u4EC5": "jǐn", // 仅
+    "\u4EC7": "chóu", // 仇
+    "\u4ECA": "jīn", // 今
+    "\u4ECB": "jiè", // 介
+    "\u4ECD": "réng", // 仍
+    "\u4ECE": "cóng,cōng", // 从
+    "\u4ED3": "cāng", // 仓
+    "\u4ED4": "zǐ", // 仔
+    "\u4ED6": "tā", // 他
+    "\u4ED7": "zhàng", // 仗
+    "\u4ED8": "fù,fu", // 付
+    "\u4ED9": "xian,xiān", // 仙
+    "\u4EE3": "dài", // 代
+    "\u4EE4": "lìng", // 令
+    "\u4EE5": "yǐ", // 以
+    "\u4EEA": "yí", // 仪
+    "\u4EEC": "men", // 们
+    "\u4EF0": "yǎng", // 仰
+    "\u4EF6": "jiàn", // 件
+    "\u4EF7": "jià", // 价
+    "\u4EFB": "rèn", // 任
+    "\u4EFD": "fèn,fen", // 份
+    "\u4EFF": "fǎng", // 仿
+    "\u4F01": "qǐ", // 企
+    "\u4F0A": "yī", // 伊
+    "\u4F0D": "wu", // 伍
+    "\u4F0F": "fú", // 伏
+    "\u4F10": "fá", // 伐
+    "\u4F11": "xiū", // 休
+    "\u4F17": "zhòng", // 众
+    "\u4F18": "yōu", // 优
+    "\u4F19": "huǒ,huo", // 伙
+    "\u4F1A": "huì,kuài", // 会
+    "\u4F1E": "sǎn", // 伞
+    "\u4F1F": "wěi", // 伟
+    "\u4F20": "chuán,zhuàn", // 传
+    "\u4F24": "shāng", // 伤
+    "\u4F2A": "wěi", // 伪
+    "\u4F2F": "bó,bo", // 伯
+    "\u4F30": "gū", // 估
+    "\u4F34": "bàn", // 伴
+    "\u4F36": "ling", // 伶
+    "\u4F38": "shēn", // 伸
+    "\u4F3A": "cì", // 伺
+    "\u4F3C": "shì,sì", // 似
+    "\u4F43": "diàn", // 佃
+    "\u4F46": "dàn", // 但
+    "\u4F4D": "wèi", // 位
+    "\u4F4E": "dī", // 低
+    "\u4F4F": "zhù", // 住
+    "\u4F51": "yòu", // 佑
+    "\u4F53": "tǐ", // 体
+    "\u4F55": "hé", // 何
+    "\u4F59": "yú", // 余
+    "\u4F5B": "fú", // 佛
+    "\u4F5C": "zuò", // 作
+    "\u4F60": "nǐ", // 你
+    "\u4F69": "pèi", // 佩
+    "\u4F73": "jiā", // 佳
+    "\u4F7F": "shǐ", // 使
+    "\u4F86": "lái", // 來
+    "\u4F8B": "lì", // 例
+    "\u4F8D": "shì", // 侍
+    "\u4F9B": "gōng,gòng", // 供
+    "\u4F9D": "yī", // 依
+    "\u4FA6": "zhēn", // 侦
+    "\u4FA7": "cè", // 侧
+    "\u4FAE": "wǔ", // 侮
+    "\u4FB5": "qīn", // 侵
+    "\u4FBF": "biàn,pián", // 便
+    "\u4FC3": "cù", // 促
+    "\u4FC4": "é", // 俄
+    "\u4FD7": "sú", // 俗
+    "\u4FD8": "fú", // 俘
+    "\u4FDD": "bǎo", // 保
+    "\u4FE1": "xìn", // 信
+    "\u4FE9": "liǎ", // 俩
+    "\u4FED": "jiǎn", // 俭
+    "\u4FEE": "xiū", // 修
+    "\u4FEF": "fǔ", // 俯
+    "\u4FF1": "jù", // 俱
+    "\u4FFA": "ǎn", // 俺
+    "\u5006": "liǎ", // 倆
+    "\u5009": "cāng", // 倉
+    "\u500B": "gè,ge,gě", // 個
+    "\u500D": "bèi", // 倍
+    "\u5011": "men", // 們
+    "\u5012": "dào,dǎo", // 倒
+    "\u5018": "tǎng", // 倘
+    "\u5019": "hou,hòu", // 候
+    "\u501A": "yǐ", // 倚
+    "\u501F": "jiè", // 借
+    "\u5021": "chàng", // 倡
+    "\u5026": "juàn", // 倦
+    "\u503A": "zhài", // 债
+    "\u503C": "zhí", // 值
+    "\u503E": "qīng", // 倾
+    "\u5047": "jiǎ,jià", // 假
+    "\u5049": "wěi", // 偉
+    "\u504E": "wēi", // 偎
+    "\u504F": "piān", // 偏
+    "\u505A": "zuò", // 做
+    "\u505C": "tíng", // 停
+    "\u5065": "jiàn", // 健
+    "\u5074": "cè", // 側
+    "\u5075": "zhēn", // 偵
+    "\u5076": "ǒu", // 偶
+    "\u5077": "tōu", // 偷
+    "\u507D": "wěi", // 偽
+    "\u507F": "cháng", // 偿
+    "\u5085": "fu", // 傅
+    "\u508D": "bàng", // 傍
+    "\u5098": "sǎn", // 傘
+    "\u5099": "bèi", // 備
+    "\u50A8": "chǔ", // 储
+    "\u50AC": "cuī", // 催
+    "\u50B2": "ào", // 傲
+    "\u50B3": "chuán,zhuàn", // 傳
+    "\u50B5": "zhài", // 債
+    "\u50B7": "shāng", // 傷
+    "\u50BB": "shǎ", // 傻
+    "\u50BE": "qīng", // 傾
+    "\u50C5": "jǐn", // 僅
+    "\u50CF": "xiàng", // 像
+    "\u50DA": "liáo", // 僚
+    "\u50F1": "gù", // 僱
+    "\u50F5": "jiāng", // 僵
+    "\u50F9": "jià", // 價
+    "\u5100": "yí", // 儀
+    "\u5104": "yì", // 億
+    "\u5109": "jiǎn", // 儉
+    "\u511F": "cháng", // 償
+    "\u512A": "yōu", // 優
+    "\u5132": "chǔ", // 儲
+    "\u513F": "r,ér", // 儿
+    "\u5141": "yǔn", // 允
+    "\u5143": "yuán", // 元
+    "\u5144": "xiōng,xiong", // 兄
+    "\u5145": "chōng", // 充
+    "\u5148": "xiān", // 先
+    "\u5149": "guāng", // 光
+    "\u514B": "kè", // 克
+    "\u514D": "miǎn", // 免
+    "\u5152": "r,ér", // 兒
+    "\u5154": "tù", // 兔
+    "\u515A": "dǎng", // 党
+    "\u515C": "dōu", // 兜
+    "\u5165": "rù", // 入
+    "\u5167": "nèi", // 內
+    "\u5168": "quán", // 全
+    "\u5169": "liǎng", // 兩
+    "\u516B": "bā", // 八
+    "\u516C": "gōng", // 公
+    "\u516D": "liù", // 六
+    "\u5171": "gòng", // 共
+    "\u5173": "guān", // 关
+    "\u5174": "xìng,xīng", // 兴
+    "\u5175": "bīng", // 兵
+    "\u5176": "qí", // 其
+    "\u5177": "jù,ju", // 具
+    "\u5178": "diǎn", // 典
+    "\u517B": "yǎng", // 养
+    "\u517C": "jiān", // 兼
+    "\u517D": "shòu", // 兽
+    "\u5185": "nèi", // 内
+    "\u5188": "gāng", // 冈
+    "\u518A": "cè", // 冊
+    "\u518C": "cè", // 册
+    "\u518D": "zài", // 再
+    "\u5192": "mào", // 冒
+    "\u5199": "xiě", // 写
+    "\u519B": "jūn", // 军
+    "\u519C": "nóng", // 农
+    "\u51A4": "yuān", // 冤
+    "\u51AC": "dōng", // 冬
+    "\u51B0": "bīng", // 冰
+    "\u51B2": "chōng,chòng", // 冲
+    "\u51B3": "jué", // 决
+    "\u51B5": "kuàng", // 况
+    "\u51B6": "yě", // 冶
+    "\u51B7": "lěng", // 冷
+    "\u51BB": "dòng", // 冻
+    "\u51C0": "jìng", // 净
+    "\u51C4": "qī", // 凄
+    "\u51C6": "zhǔn", // 准
+    "\u51C9": "liáng", // 凉
+    "\u51CD": "dòng", // 凍
+    "\u51CF": "jiǎn", // 减
+    "\u51D1": "còu", // 凑
+    "\u51DD": "níng", // 凝
+    "\u51E0": "jǐ,jī", // 几
+    "\u51E1": "fán", // 凡
+    "\u51E4": "fèng", // 凤
+    "\u51EB": "fú", // 凫
+    "\u51ED": "píng", // 凭
+    "\u51F0": "huáng", // 凰
+    "\u51F3": "dèng", // 凳
+    "\u51F6": "xiōng", // 凶
+    "\u51F8": "tū", // 凸
+    "\u51F9": "āo", // 凹
+    "\u51FA": "chū", // 出
+    "\u51FB": "jī", // 击
+    "\u51FF": "záo", // 凿
+    "\u5200": "dāo", // 刀
+    "\u5206": "fēn,fèn,fen", // 分
+    "\u5207": "qiè,qiē", // 切
+    "\u520A": "kān", // 刊
+    "\u5211": "xíng", // 刑
+    "\u5212": "huà,huá", // 划
+    "\u5217": "liè", // 列
+    "\u5219": "zé", // 则
+    "\u521A": "gāng", // 刚
+    "\u521B": "chuàng,chuāng", // 创
+    "\u521D": "chū", // 初
+    "\u5224": "pàn", // 判
+    "\u5225": "bié,biè", // 別
+    "\u5228": "páo", // 刨
+    "\u5229": "lì,li", // 利
+    "\u522B": "bié,biè", // 别
+    "\u522E": "guā", // 刮
+    "\u5230": "dào,dao", // 到
+    "\u5236": "zhì", // 制
+    "\u5237": "shuā", // 刷
+    "\u5239": "shā,chà", // 刹
+    "\u523A": "cì", // 刺
+    "\u523B": "kè", // 刻
+    "\u5242": "jì", // 剂
+    "\u5247": "zé", // 則
+    "\u524A": "xuē,xiāo", // 削
+    "\u524D": "qián", // 前
+    "\u524E": "shā,chà", // 剎
+    "\u5251": "jiàn", // 剑
+    "\u5254": "tī", // 剔
+    "\u5256": "pōu", // 剖
+    "\u525B": "gāng", // 剛
+    "\u525D": "bō", // 剝
+    "\u5265": "bō", // 剥
+    "\u5267": "jù", // 剧
+    "\u5269": "shèng", // 剩
+    "\u526A": "jiǎn", // 剪
+    "\u526F": "fù", // 副
+    "\u5272": "gē", // 割
+    "\u5275": "chuàng,chuāng", // 創
+    "\u527F": "jiǎo", // 剿
+    "\u5287": "jù", // 劇
+    "\u5288": "pī", // 劈
+    "\u528D": "jiàn", // 劍
+    "\u5291": "jì", // 劑
+    "\u529B": "lì,li", // 力
+    "\u529D": "quàn", // 劝
+    "\u529E": "bàn", // 办
+    "\u529F": "gōng", // 功
+    "\u52A0": "jiā", // 加
+    "\u52A1": "wu,wù", // 务
+    "\u52A3": "liè", // 劣
+    "\u52A8": "dòng", // 动
+    "\u52A9": "zhù", // 助
+    "\u52AA": "nǔ", // 努
+    "\u52B1": "lì", // 励
+    "\u52B2": "jìn", // 劲
+    "\u52B3": "láo", // 劳
+    "\u52BF": "shì,shi", // 势
+    "\u52C1": "jìn", // 勁
+    "\u52C3": "bó", // 勃
+    "\u52C7": "yǒng", // 勇
+    "\u52C9": "miǎn", // 勉
+    "\u52D2": "lēi", // 勒
+    "\u52D5": "dòng", // 動
+    "\u52D8": "kān", // 勘
+    "\u52D9": "wu,wù", // 務
+    "\u52DD": "shèng", // 勝
+    "\u52DE": "láo", // 勞
+    "\u52E2": "shì,shi", // 勢
+    "\u52E4": "qín", // 勤
+    "\u52F5": "lì", // 勵
+    "\u52F8": "quàn", // 勸
+    "\u52FB": "yún", // 勻
+    "\u52FE": "gōu", // 勾
+    "\u5300": "yún", // 匀
+    "\u5305": "bāo", // 包
+    "\u5306": "cōng", // 匆
+    "\u5316": "huà", // 化
+    "\u5317": "běi", // 北
+    "\u5319": "shi", // 匙
+    "\u5320": "jiang,jiàng", // 匠
+    "\u532A": "fěi", // 匪
+    "\u532F": "huì", // 匯
+    "\u5339": "pǐ", // 匹
+    "\u533A": "qū", // 区
+    "\u533B": "yī", // 医
+    "\u533E": "biǎn", // 匾
+    "\u5340": "qū", // 區
+    "\u5341": "shí", // 十
+    "\u5343": "qiān", // 千
+    "\u5347": "shēng", // 升
+    "\u5348": "wǔ,wu", // 午
+    "\u534A": "bàn", // 半
+    "\u534E": "huá", // 华
+    "\u534F": "xié", // 协
+    "\u5351": "bēi", // 卑
+    "\u5354": "xié", // 協
+    "\u5355": "dān", // 单
+    "\u5356": "mài,mai", // 卖
+    "\u5357": "nán", // 南
+    "\u535A": "bó", // 博
+    "\u535C": "bo", // 卜
+    "\u5360": "zhàn", // 占
+    "\u5361": "kǎ", // 卡
+    "\u5367": "wò", // 卧
+    "\u536B": "wèi", // 卫
+    "\u5370": "yìn", // 印
+    "\u5371": "wēi", // 危
+    "\u5373": "jí", // 即
+    "\u5374": "què", // 却
+    "\u5375": "luǎn", // 卵
+    "\u5377": "juǎn,juàn", // 卷
+    "\u5378": "xiè", // 卸
+    "\u537B": "què", // 卻
+    "\u5382": "chǎng", // 厂
+    "\u5385": "tīng", // 厅
+    "\u5386": "lì", // 历
+    "\u5389": "lì", // 厉
+    "\u538B": "yā", // 压
+    "\u538C": "yàn", // 厌
+    "\u5395": "cè", // 厕
+    "\u5398": "lí", // 厘
+    "\u539A": "hòu", // 厚
+    "\u539F": "yuán", // 原
+    "\u53A2": "xiāng", // 厢
+    "\u53A6": "shà", // 厦
+    "\u53A8": "chú", // 厨
+    "\u53AD": "yàn", // 厭
+    "\u53B2": "lì", // 厲
+    "\u53BB": "qù", // 去
+    "\u53BF": "xiàn", // 县
+    "\u53C2": "cān,shēn", // 参
+    "\u53C3": "cān,shēn", // 參
+    "\u53C8": "yòu", // 又
+    "\u53CA": "jí", // 及
+    "\u53CB": "you,yǒu", // 友
+    "\u53CC": "shuāng", // 双
+    "\u53CD": "fǎn", // 反
+    "\u53D1": "fā,fa,fà", // 发
+    "\u53D4": "shū,shu", // 叔
+    "\u53D6": "qǔ", // 取
+    "\u53D7": "shòu", // 受
+    "\u53D8": "biàn", // 变
+    "\u53D9": "xù", // 叙
+    "\u53DB": "pàn", // 叛
+    "\u53E0": "dié", // 叠
+    "\u53E2": "cóng", // 叢
+    "\u53E3": "kǒu,kou", // 口
+    "\u53E4": "gǔ", // 古
+    "\u53E5": "jù", // 句
+    "\u53E6": "lìng", // 另
+    "\u53EA": "zhǐ,zhī", // 只
+    "\u53EB": "jiào", // 叫
+    "\u53EC": "zhào", // 召
+    "\u53ED": "ba", // 叭
+    "\u53EE": "dīng", // 叮
+    "\u53EF": "kě", // 可
+    "\u53F0": "tái", // 台
+    "\u53F2": "shǐ", // 史
+    "\u53F3": "yòu", // 右
+    "\u53F6": "yè", // 叶
+    "\u53F7": "hào,hao,háo", // 号
+    "\u53F8": "sī", // 司
+    "\u53F9": "tàn", // 叹
+    "\u53FC": "diāo", // 叼
+    "\u5401": "xū,yù", // 吁
+    "\u5403": "chī", // 吃
+    "\u5404": "gè", // 各
+    "\u5406": "yāo", // 吆
+    "\u5408": "hé", // 合
+    "\u5409": "jí", // 吉
+    "\u540A": "diào", // 吊
+    "\u540C": "tóng,tong,tòng", // 同
+    "\u540D": "míng", // 名
+    "\u540E": "hòu", // 后
+    "\u5410": "tǔ,tù", // 吐
+    "\u5411": "xiàng", // 向
+    "\u5413": "xià", // 吓
+    "\u5417": "ma,má", // 吗
+    "\u541B": "jūn", // 君
+    "\u541E": "tūn", // 吞
+    "\u541F": "yín", // 吟
+    "\u5426": "fǒu", // 否
+    "\u5427": "ba", // 吧
+    "\u5428": "dūn", // 吨
+    "\u5429": "fēn", // 吩
+    "\u542B": "hán", // 含
+    "\u542C": "tīng,ting", // 听
+    "\u542D": "kēng", // 吭
+    "\u542F": "qǐ", // 启
+    "\u5435": "chǎo", // 吵
+    "\u5436": "ne,nà", // 吶
+    "\u5438": "xī", // 吸
+    "\u5439": "chuī", // 吹
+    "\u543B": "wěn", // 吻
+    "\u543C": "hǒu", // 吼
+    "\u5440": "ya,yā", // 呀
+    "\u5443": "è", // 呃
+    "\u5446": "dāi", // 呆
+    "\u5448": "chéng", // 呈
+    "\u544A": "gào", // 告
+    "\u5450": "ne,nà", // 呐
+    "\u5457": "bei", // 呗
+    "\u5458": "yuán", // 员
+    "\u545C": "wū", // 呜
+    "\u5462": "ne,ní", // 呢
+    "\u5468": "zhōu", // 周
+    "\u5473": "wèi", // 味
+    "\u5475": "ā,hē", // 呵
+    "\u5478": "pēi", // 呸
+    "\u547B": "shēn", // 呻
+    "\u547C": "hū,hu", // 呼
+    "\u547D": "mìng", // 命
+    "\u5480": "jǔ", // 咀
+    "\u5482": "zā", // 咂
+    "\u5486": "páo", // 咆
+    "\u548B": "zǎ", // 咋
+    "\u548C": "hé,huo,he,hè", // 和
+    "\u5490": "fu", // 咐
+    "\u5492": "zhòu", // 咒
+    "\u5495": "gu", // 咕
+    "\u5496": "kā", // 咖
+    "\u5499": "lóng", // 咙
+    "\u549B": "níng", // 咛
+    "\u54A6": "yí", // 咦
+    "\u54A7": "lie", // 咧
+    "\u54AC": "yǎo", // 咬
+    "\u54B1": "zán,zan", // 咱
+    "\u54B3": "hāi,ké", // 咳
+    "\u54B8": "xián", // 咸
+    "\u54BD": "yàn,yè,yān", // 咽
+    "\u54C0": "āi", // 哀
+    "\u54C1": "pǐn", // 品
+    "\u54C4": "hōng,hǒng", // 哄
+    "\u54C6": "duō", // 哆
+    "\u54C7": "wa,wā", // 哇
+    "\u54C8": "hā", // 哈
+    "\u54CD": "xiǎng", // 响
+    "\u54CE": "āi", // 哎
+    "\u54CF": "gén", // 哏
+    "\u54D1": "yǎ", // 哑
+    "\u54D7": "huā", // 哗
+    "\u54DF": "yō,yo", // 哟
+    "\u54E1": "yuán", // 員
+    "\u54E5": "gē,ge", // 哥
+    "\u54E6": "ó,ò,é", // 哦
+    "\u54E7": "chī", // 哧
+    "\u54E8": "shào", // 哨
+    "\u54E9": "li", // 哩
+    "\u54EA": "nǎ,na", // 哪
+    "\u54ED": "kū", // 哭
+    "\u54EE": "xiāo", // 哮
+    "\u54F2": "zhé", // 哲
+    "\u54FA": "bǔ", // 哺
+    "\u54FC": "hēng", // 哼
+    "\u54FD": "gěng", // 哽
+    "\u5504": "bei", // 唄
+    "\u5507": "chún", // 唇
+    "\u5524": "huàn,huan", // 唤
+    "\u552C": "hu", // 唬
+    "\u552E": "shòu", // 售
+    "\u552F": "wéi", // 唯
+    "\u5530": "shuā", // 唰
+    "\u5531": "chàng", // 唱
+    "\u553E": "tuò", // 唾
+    "\u5543": "kěn", // 啃
+    "\u5544": "zhuó", // 啄
+    "\u5546": "shāng", // 商
+    "\u554A": "a,ā", // 啊
+    "\u554F": "wèn,wen", // 問
+    "\u555E": "yǎ", // 啞
+    "\u555F": "qǐ", // 啟
+    "\u5561": "fēi", // 啡
+    "\u5564": "pí", // 啤
+    "\u5565": "shà", // 啥
+    "\u5566": "la,lā", // 啦
+    "\u556A": "pā", // 啪
+    "\u5578": "xiào", // 啸
+    "\u557C": "tí", // 啼
+    "\u557E": "jiū", // 啾
+    "\u5582": "wèi", // 喂
+    "\u5583": "nán", // 喃
+    "\u5584": "shàn", // 善
+    "\u5587": "lǎ", // 喇
+    "\u5589": "hóu", // 喉
+    "\u558A": "hǎn", // 喊
+    "\u5594": "ō", // 喔
+    "\u5598": "chuǎn", // 喘
+    "\u559A": "huàn,huan", // 喚
+    "\u559C": "xǐ", // 喜
+    "\u559D": "hē,he,hè", // 喝
+    "\u55AA": "sàng", // 喪
+    "\u55AE": "dān", // 單
+    "\u55B2": "yō,yo", // 喲
+    "\u55B7": "pēn", // 喷
+    "\u55BD": "lou", // 喽
+    "\u55C5": "xiù", // 嗅
+    "\u55CE": "ma,má", // 嗎
+    "\u55D0": "hài", // 嗐
+    "\u55D3": "sǎng", // 嗓
+    "\u55DA": "wū", // 嗚
+    "\u55E1": "wēng", // 嗡
+    "\u55E6": "suo", // 嗦
+    "\u55E8": "hāi", // 嗨
+    "\u55EC": "hē", // 嗬
+    "\u55EF": "ń,ň,ǹ,ńg,ňg,ǹg", // 嗯
+    "\u55FD": "sou", // 嗽
+    "\u5600": "dí", // 嘀
+    "\u5606": "tàn", // 嘆
+    "\u5608": "cáo", // 嘈
+    "\u560D": "lou", // 嘍
+    "\u5617": "cháng", // 嘗
+    "\u5618": "xū", // 嘘
+    "\u561B": "ma,má", // 嘛
+    "\u5629": "huā", // 嘩
+    "\u562F": "xiào", // 嘯
+    "\u5631": "zhǔ", // 嘱
+    "\u5632": "cháo", // 嘲
+    "\u5634": "zuǐ", // 嘴
+    "\u5636": "sī", // 嘶
+    "\u563B": "xī", // 嘻
+    "\u563F": "hēi", // 嘿
+    "\u5653": "xū", // 噓
+    "\u5662": "ō", // 噢
+    "\u5668": "qì", // 器
+    "\u566A": "zào", // 噪
+    "\u5674": "pēn", // 噴
+    "\u5678": "dūn", // 噸
+    "\u5680": "níng", // 嚀
+    "\u5687": "xià", // 嚇
+    "\u56A8": "lóng", // 嚨
+    "\u56B4": "yán", // 嚴
+    "\u56B7": "rǎng", // 嚷
+    "\u56BC": "jué", // 嚼
+    "\u56D1": "zhǔ", // 囑
+    "\u56DB": "sì", // 四
+    "\u56DE": "huí", // 回
+    "\u56E0": "yīn", // 因
+    "\u56E2": "tuán", // 团
+    "\u56EA": "cōng", // 囪
+    "\u56ED": "yuán", // 园
+    "\u56F0": "kùn", // 困
+    "\u56F1": "cōng", // 囱
+    "\u56F4": "wéi", // 围
+    "\u56FA": "gù", // 固
+    "\u56FD": "guó", // 国
+    "\u56FE": "tú", // 图
+    "\u5706": "yuán", // 圆
+    "\u5708": "quān,juàn", // 圈
+    "\u570B": "guó", // 國
+    "\u570D": "wéi", // 圍
+    "\u5712": "yuán", // 園
+    "\u5713": "yuán", // 圓
+    "\u5716": "tú", // 圖
+    "\u5718": "tuán", // 團
+    "\u571F": "tǔ", // 土
+    "\u5723": "shèng", // 圣
+    "\u5728": "zài", // 在
+    "\u5730": "de,dì", // 地
+    "\u573A": "chǎng,cháng", // 场
+    "\u573E": "jī", // 圾
+    "\u5740": "zhǐ", // 址
+    "\u5747": "jūn", // 均
+    "\u574A": "fang", // 坊
+    "\u574E": "kǎn", // 坎
+    "\u574F": "huài", // 坏
+    "\u5750": "zuò", // 坐
+    "\u5751": "kēng", // 坑
+    "\u5757": "kuài", // 块
+    "\u575A": "jiān", // 坚
+    "\u575D": "bà", // 坝
+    "\u575F": "fén", // 坟
+    "\u5760": "zhuì", // 坠
+    "\u5761": "pō", // 坡
+    "\u5766": "tǎn", // 坦
+    "\u576F": "pī", // 坯
+    "\u5782": "chuí", // 垂
+    "\u5783": "lā", // 垃
+    "\u5784": "lǒng", // 垄
+    "\u578B": "xíng", // 型
+    "\u5792": "lěi", // 垒
+    "\u57A6": "kěn", // 垦
+    "\u57AB": "diàn", // 垫
+    "\u57AE": "kuǎ", // 垮
+    "\u57C3": "āi", // 埃
+    "\u57CB": "mái,mán", // 埋
+    "\u57CE": "chéng", // 城
+    "\u57DF": "yù", // 域
+    "\u57E0": "bù", // 埠
+    "\u57F7": "zhí", // 執
+    "\u57F9": "péi", // 培
+    "\u57FA": "jī", // 基
+    "\u5802": "táng,tang", // 堂
+    "\u5805": "jiān", // 堅
+    "\u5806": "duī", // 堆
+    "\u5821": "bǎo", // 堡
+    "\u5824": "dī", // 堤
+    "\u582A": "kān", // 堪
+    "\u5830": "yàn", // 堰
+    "\u5831": "bào", // 報
+    "\u5834": "chǎng,cháng", // 場
+    "\u5835": "dǔ", // 堵
+    "\u584A": "kuài", // 塊
+    "\u584C": "tā", // 塌
+    "\u5851": "sù", // 塑
+    "\u5854": "tǎ", // 塔
+    "\u5858": "táng", // 塘
+    "\u585E": "sāi,sè", // 塞
+    "\u586B": "tián", // 填
+    "\u5875": "chén", // 塵
+    "\u5883": "jìng", // 境
+    "\u588A": "diàn", // 墊
+    "\u5893": "mù", // 墓
+    "\u5899": "qiáng", // 墙
+    "\u589C": "zhuì", // 墜
+    "\u589E": "zēng", // 增
+    "\u58A8": "mò", // 墨
+    "\u58A9": "dūn", // 墩
+    "\u58B3": "fén", // 墳
+    "\u58BE": "kěn", // 墾
+    "\u58C1": "bì", // 壁
+    "\u58D3": "yā", // 壓
+    "\u58D5": "háo", // 壕
+    "\u58D8": "lěi", // 壘
+    "\u58DE": "huài", // 壞
+    "\u58DF": "lǒng", // 壟
+    "\u58E4": "rǎng", // 壤
+    "\u58E9": "bà", // 壩
+    "\u58EB": "shì,shi", // 士
+    "\u58EE": "zhuàng", // 壮
+    "\u58EF": "zhuàng", // 壯
+    "\u58F0": "shēng,sheng", // 声
+    "\u58F3": "ké,qiào", // 壳
+    "\u58F6": "hú", // 壶
+    "\u58FA": "hú", // 壺
+    "\u58FD": "shòu", // 壽
+    "\u5904": "chù,chǔ,chu", // 处
+    "\u5907": "bèi", // 备
+    "\u590D": "fù", // 复
+    "\u590F": "xià", // 夏
+    "\u5915": "xī", // 夕
+    "\u5916": "wài", // 外
+    "\u591A": "duō", // 多
+    "\u591C": "yè", // 夜
+    "\u591F": "gòu", // 够
+    "\u5920": "gòu", // 夠
+    "\u5922": "mèng", // 夢
+    "\u5927": "dà,dài", // 大
+    "\u5929": "tiān,tian", // 天
+    "\u592A": "tài,tai", // 太
+    "\u592B": "fu,fū", // 夫
+    "\u592E": "yāng", // 央
+    "\u5931": "shī", // 失
+    "\u5934": "tóu,tou", // 头
+    "\u5938": "kuā", // 夸
+    "\u5939": "jiā,jiá", // 夹
+    "\u593A": "duó", // 夺
+    "\u593E": "jiā,jiá", // 夾
+    "\u5947": "qí", // 奇
+    "\u5948": "nài", // 奈
+    "\u5949": "fèng", // 奉
+    "\u594B": "fèn", // 奋
+    "\u594F": "zòu", // 奏
+    "\u5954": "bēn,bèn", // 奔
+    "\u5956": "jiǎng", // 奖
+    "\u5957": "tào", // 套
+    "\u5960": "diàn", // 奠
+    "\u596A": "duó", // 奪
+    "\u596E": "fèn", // 奮
+    "\u5973": "nǚ,nü", // 女
+    "\u5974": "nú", // 奴
+    "\u5976": "nǎi,nai", // 奶
+    "\u5978": "jiān", // 奸
+    "\u5979": "tā", // 她
+    "\u597D": "hǎo,hāo,hào", // 好
+    "\u5982": "rú", // 如
+    "\u5984": "wàng", // 妄
+    "\u5987": "fù,fu", // 妇
+    "\u5988": "mā,ma", // 妈
+    "\u5999": "miào", // 妙
+    "\u59A5": "tuǒ", // 妥
+    "\u59A8": "fáng,fāng", // 妨
+    "\u59B9": "mèi,mei", // 妹
+    "\u59BB": "qī", // 妻
+    "\u59C6": "mǔ", // 姆
+    "\u59CA": "zǐ", // 姊
+    "\u59CB": "shǐ", // 始
+    "\u59D0": "jie,jiě", // 姐
+    "\u59D1": "gū,gu", // 姑
+    "\u59D3": "xìng", // 姓
+    "\u59D4": "wěi", // 委
+    "\u59DC": "jiāng", // 姜
+    "\u59E8": "yí", // 姨
+    "\u59FB": "yīn", // 姻
+    "\u59FF": "zī", // 姿
+    "\u5A01": "wēi", // 威
+    "\u5A03": "wá,wa", // 娃
+    "\u5A07": "jiāo", // 娇
+    "\u5A18": "niang,niáng", // 娘
+    "\u5A1B": "yú", // 娛
+    "\u5A31": "yú", // 娱
+    "\u5A36": "qǔ", // 娶
+    "\u5A46": "pó,po", // 婆
+    "\u5A5A": "hūn", // 婚
+    "\u5A66": "fù,fu", // 婦
+    "\u5A74": "yīng", // 婴
+    "\u5A76": "shěn,shen", // 婶
+    "\u5AB3": "xí", // 媳
+    "\u5ABD": "mā,ma", // 媽
+    "\u5AC1": "jià", // 嫁
+    "\u5AC2": "sǎo,sao", // 嫂
+    "\u5ACC": "xián", // 嫌
+    "\u5AE9": "nèn", // 嫩
+    "\u5B0C": "jiāo", // 嬌
+    "\u5B30": "yīng", // 嬰
+    "\u5B38": "shěn,shen", // 嬸
+    "\u5B50": "zi,zǐ", // 子
+    "\u5B54": "kǒng", // 孔
+    "\u5B57": "zì,zi", // 字
+    "\u5B58": "cún", // 存
+    "\u5B59": "sūn", // 孙
+    "\u5B63": "jì", // 季
+    "\u5B64": "gū", // 孤
+    "\u5B66": "xué", // 学
+    "\u5B69": "hái", // 孩
+    "\u5B6B": "sūn", // 孫
+    "\u5B75": "fū", // 孵
+    "\u5B78": "xué", // 學
+    "\u5B81": "níng,nìng", // 宁
+    "\u5B83": "tā", // 它
+    "\u5B85": "zhái", // 宅
+    "\u5B87": "yǔ", // 宇
+    "\u5B88": "shǒu", // 守
+    "\u5B89": "ān", // 安
+    "\u5B8C": "wán", // 完
+    "\u5B8F": "hóng", // 宏
+    "\u5B97": "zōng,zong", // 宗
+    "\u5B98": "guān", // 官
+    "\u5B99": "zhòu", // 宙
+    "\u5B9A": "dìng", // 定
+    "\u5B9C": "yi,yí", // 宜
+    "\u5B9D": "bǎo", // 宝
+    "\u5B9E": "shí,shi", // 实
+    "\u5BA1": "shěn", // 审
+    "\u5BA2": "kè", // 客
+    "\u5BA3": "xuān", // 宣
+    "\u5BA4": "shì", // 室
+    "\u5BAA": "xiàn", // 宪
+    "\u5BAB": "gōng", // 宫
+    "\u5BAE": "gōng", // 宮
+    "\u5BB0": "zǎi", // 宰
+    "\u5BB3": "hài,hai", // 害
+    "\u5BB4": "yàn", // 宴
+    "\u5BB5": "xiāo", // 宵
+    "\u5BB6": "jiā,jia", // 家
+    "\u5BB9": "róng", // 容
+    "\u5BBD": "kuān", // 宽
+    "\u5BBE": "bīn", // 宾
+    "\u5BBF": "sù,xiǔ", // 宿
+    "\u5BC2": "jì", // 寂
+    "\u5BC4": "jì", // 寄
+    "\u5BC6": "mì", // 密
+    "\u5BC7": "kòu", // 寇
+    "\u5BCC": "fù", // 富
+    "\u5BD2": "hán", // 寒
+    "\u5BD3": "yù", // 寓
+    "\u5BDE": "mò", // 寞
+    "\u5BDF": "chá", // 察
+    "\u5BE1": "guǎ", // 寡
+    "\u5BE6": "shí,shi", // 實
+    "\u5BE7": "níng,nìng", // 寧
+    "\u5BE9": "shěn", // 審
+    "\u5BEB": "xiě", // 寫
+    "\u5BEC": "kuān", // 寬
+    "\u5BF6": "bǎo", // 寶
+    "\u5BF8": "cùn,cun", // 寸
+    "\u5BF9": "duì", // 对
+    "\u5BFB": "xún,xín", // 寻
+    "\u5BFC": "dǎo", // 导
+    "\u5BFF": "shòu", // 寿
+    "\u5C01": "fēng", // 封
+    "\u5C04": "shè", // 射
+    "\u5C06": "jiāng,jiàng", // 将
+    "\u5C07": "jiāng,jiàng", // 將
+    "\u5C08": "zhuān", // 專
+    "\u5C0A": "zūn", // 尊
+    "\u5C0B": "xún,xín", // 尋
+    "\u5C0D": "duì", // 對
+    "\u5C0E": "dǎo", // 導
+    "\u5C0F": "xiǎo", // 小
+    "\u5C11": "shǎo,shao,shào", // 少
+    "\u5C14": "ěr", // 尔
+    "\u5C16": "jiān", // 尖
+    "\u5C18": "chén", // 尘
+    "\u5C1A": "shàng,shang", // 尚
+    "\u5C1D": "cháng", // 尝
+    "\u5C24": "yóu", // 尤
+    "\u5C31": "jiù", // 就
+    "\u5C38": "shī", // 尸
+    "\u5C3A": "chǐ", // 尺
+    "\u5C3D": "jǐn,jìn", // 尽
+    "\u5C3E": "wěi", // 尾
+    "\u5C3F": "niào", // 尿
+    "\u5C40": "jú", // 局
+    "\u5C41": "pì", // 屁
+    "\u5C42": "céng", // 层
+    "\u5C45": "jū", // 居
+    "\u5C46": "jiè", // 屆
+    "\u5C48": "qū,qu", // 屈
+    "\u5C49": "ti", // 屉
+    "\u5C4A": "jiè", // 届
+    "\u5C4B": "wū", // 屋
+    "\u5C4E": "shǐ", // 屎
+    "\u5C4F": "píng", // 屏
+    "\u5C51": "xiè", // 屑
+    "\u5C55": "zhǎn,zhan", // 展
+    "\u5C5C": "ti", // 屜
+    "\u5C5E": "shǔ", // 属
+    "\u5C60": "tú", // 屠
+    "\u5C64": "céng", // 層
+    "\u5C6C": "shǔ", // 屬
+    "\u5C71": "shān", // 山
+    "\u5C79": "yì", // 屹
+    "\u5C7F": "yǔ", // 屿
+    "\u5C81": "suì", // 岁
+    "\u5C82": "qǐ", // 岂
+    "\u5C96": "qū", // 岖
+    "\u5C97": "gǎng,gāng", // 岗
+    "\u5C9B": "dǎo", // 岛
+    "\u5CA1": "gāng", // 岡
+    "\u5CA9": "yán", // 岩
+    "\u5CAD": "lǐng", // 岭
+    "\u5CB8": "àn", // 岸
+    "\u5CE1": "xiá", // 峡
+    "\u5CE6": "luán", // 峦
+    "\u5CE8": "é", // 峨
+    "\u5CED": "qiào", // 峭
+    "\u5CF0": "fēng", // 峰
+    "\u5CF6": "dǎo", // 島
+    "\u5CFB": "jùn", // 峻
+    "\u5CFD": "xiá", // 峽
+    "\u5D07": "chóng", // 崇
+    "\u5D0E": "qí", // 崎
+    "\u5D16": "yá", // 崖
+    "\u5D17": "gǎng,gāng", // 崗
+    "\u5D29": "bēng", // 崩
+    "\u5D2D": "zhǎn", // 崭
+    "\u5D3D": "zǎi", // 崽
+    "\u5D4C": "qiàn", // 嵌
+    "\u5D84": "zhǎn", // 嶄
+    "\u5D87": "qū", // 嶇
+    "\u5DBA": "lǐng", // 嶺
+    "\u5DBC": "yǔ", // 嶼
+    "\u5DCD": "wēi", // 巍
+    "\u5DD2": "luán", // 巒
+    "\u5DDE": "zhōu", // 州
+    "\u5DE1": "xún", // 巡
+    "\u5DE2": "cháo", // 巢
+    "\u5DE5": "gōng", // 工
+    "\u5DE6": "zuǒ", // 左
+    "\u5DE7": "qiǎo", // 巧
+    "\u5DE8": "jù", // 巨
+    "\u5DE9": "gǒng", // 巩
+    "\u5DEE": "chà,chā,chāi", // 差
+    "\u5DF1": "jǐ", // 己
+    "\u5DF2": "yǐ", // 已
+    "\u5DF4": "ba,bā", // 巴
+    "\u5DF7": "xiàng", // 巷
+    "\u5DFE": "jīn", // 巾
+    "\u5E01": "bì", // 币
+    "\u5E02": "shì", // 市
+    "\u5E03": "bù", // 布
+    "\u5E05": "shuài", // 帅
+    "\u5E06": "fān", // 帆
+    "\u5E08": "shī", // 师
+    "\u5E0C": "xī", // 希
+    "\u5E10": "zhàng", // 帐
+    "\u5E15": "pà", // 帕
+    "\u5E18": "lián", // 帘
+    "\u5E1A": "zhou", // 帚
+    "\u5E1C": "zhì", // 帜
+    "\u5E1D": "dì", // 帝
+    "\u5E25": "shuài", // 帥
+    "\u5E26": "dài", // 带
+    "\u5E2B": "shī", // 師
+    "\u5E2D": "xí", // 席
+    "\u5E2E": "bāng", // 帮
+    "\u5E33": "zhàng", // 帳
+    "\u5E36": "dài", // 帶
+    "\u5E38": "cháng", // 常
+    "\u5E3D": "mào", // 帽
+    "\u5E45": "fú", // 幅
+    "\u5E55": "mù", // 幕
+    "\u5E5F": "zhì", // 幟
+    "\u5E63": "bì", // 幣
+    "\u5E6B": "bāng", // 幫
+    "\u5E72": "gàn,gān", // 干
+    "\u5E73": "píng", // 平
+    "\u5E74": "nián", // 年
+    "\u5E76": "bìng", // 并
+    "\u5E78": "xìng", // 幸
+    "\u5E7B": "huàn", // 幻
+    "\u5E7C": "yòu", // 幼
+    "\u5E7E": "jǐ", // 幾
+    "\u5E7F": "guǎng", // 广
+    "\u5E84": "zhuāng", // 庄
+    "\u5E86": "qìng", // 庆
+    "\u5E8A": "chuáng", // 床
+    "\u5E8F": "xù", // 序
+    "\u5E93": "kù", // 库
+    "\u5E94": "yīng,yìng,ying", // 应
+    "\u5E95": "dǐ", // 底
+    "\u5E97": "diàn", // 店
+    "\u5E99": "miào", // 庙
+    "\u5E9C": "fǔ", // 府
+    "\u5E9E": "páng", // 庞
+    "\u5E9F": "fèi", // 废
+    "\u5EA6": "dù,du", // 度
+    "\u5EA7": "zuò", // 座
+    "\u5EAB": "kù", // 庫
+    "\u5EAD": "tíng", // 庭
+    "\u5EB7": "kāng", // 康
+    "\u5EB8": "yōng", // 庸
+    "\u5EC1": "cè", // 廁
+    "\u5EC2": "xiāng", // 廂
+    "\u5EC8": "shà", // 廈
+    "\u5EC9": "lián", // 廉
+    "\u5ED3": "kuò", // 廓
+    "\u5EDA": "chú", // 廚
+    "\u5EDF": "miào", // 廟
+    "\u5EE0": "chǎng", // 廠
+    "\u5EE2": "fèi", // 廢
+    "\u5EE3": "guǎng", // 廣
+    "\u5EF3": "tīng", // 廳
+    "\u5EF6": "yán", // 延
+    "\u5EFA": "jiàn", // 建
+    "\u5EFF": "niàn", // 廿
+    "\u5F00": "kāi", // 开
+    "\u5F02": "yì", // 异
+    "\u5F03": "qì", // 弃
+    "\u5F04": "nòng", // 弄
+    "\u5F0F": "shì,shi", // 式
+    "\u5F13": "gōng", // 弓
+    "\u5F15": "yǐn", // 引
+    "\u5F1F": "dì,di", // 弟
+    "\u5F20": "zhāng", // 张
+    "\u5F25": "mí", // 弥
+    "\u5F26": "xián", // 弦
+    "\u5F2F": "wān", // 弯
+    "\u5F31": "ruò", // 弱
+    "\u5F35": "zhāng", // 張
+    "\u5F37": "qiáng,qiǎng", // 強
+    "\u5F39": "dàn,tán,tan", // 弹
+    "\u5F3A": "qiáng,qiǎng", // 强
+    "\u5F48": "dàn,tán,tan", // 彈
+    "\u5F4C": "mí", // 彌
+    "\u5F4E": "wān", // 彎
+    "\u5F52": "guī", // 归
+    "\u5F53": "dāng,dàng,dang", // 当
+    "\u5F55": "lù", // 录
+    "\u5F62": "xíng,xing", // 形
+    "\u5F69": "cǎi,cai", // 彩
+    "\u5F71": "yǐng", // 影
+    "\u5F79": "yì", // 役
+    "\u5F7B": "chè", // 彻
+    "\u5F7C": "bǐ", // 彼
+    "\u5F80": "wǎng,wàng", // 往
+    "\u5F81": "zhēng", // 征
+    "\u5F84": "jìng", // 径
+    "\u5F85": "dài", // 待
+    "\u5F88": "hěn", // 很
+    "\u5F8A": "huái", // 徊
+    "\u5F8B": "lǜ", // 律
+    "\u5F90": "xú", // 徐
+    "\u5F91": "jìng", // 徑
+    "\u5F92": "tú", // 徒
+    "\u5F97": "de,dé,děi", // 得
+    "\u5F98": "pái", // 徘
+    "\u5F9E": "cóng,cōng", // 從
+    "\u5FA1": "yù", // 御
+    "\u5FAA": "xún", // 循
+    "\u5FAE": "wēi", // 微
+    "\u5FB7": "dé", // 德
+    "\u5FB9": "chè", // 徹
+    "\u5FC3": "xīn,xin", // 心
+    "\u5FC5": "bì", // 必
+    "\u5FC6": "yì", // 忆
+    "\u5FCD": "rěn", // 忍
+    "\u5FD7": "zhì", // 志
+    "\u5FD8": "wàng", // 忘
+    "\u5FD9": "máng", // 忙
+    "\u5FE0": "zhōng", // 忠
+    "\u5FE7": "yōu", // 忧
+    "\u5FEB": "kuài,kuai", // 快
+    "\u5FF1": "chén", // 忱
+    "\u5FF5": "niàn", // 念
+    "\u5FFD": "hū", // 忽
+    "\u5FFF": "fèn", // 忿
+    "\u6000": "huái", // 怀
+    "\u6001": "tài", // 态
+    "\u600E": "zěn", // 怎
+    "\u6012": "nù", // 怒
+    "\u6014": "zhēng", // 怔
+    "\u6015": "pà", // 怕
+    "\u6016": "bù", // 怖
+    "\u601C": "lián", // 怜
+    "\u601D": "sī,si", // 思
+    "\u6025": "jí", // 急
+    "\u6026": "pēng", // 怦
+    "\u6027": "xìng,xing", // 性
+    "\u6028": "yuàn,yuan", // 怨
+    "\u602A": "guài", // 怪
+    "\u602F": "qiè", // 怯
+    "\u603B": "zǒng", // 总
+    "\u6046": "héng", // 恆
+    "\u604B": "liàn", // 恋
+    "\u604D": "huǎng", // 恍
+    "\u6050": "kǒng", // 恐
+    "\u6052": "héng", // 恒
+    "\u6062": "huī", // 恢
+    "\u6065": "chǐ", // 恥
+    "\u6068": "hèn", // 恨
+    "\u606F": "xi,xī", // 息
+    "\u6070": "qià", // 恰
+    "\u6073": "kěn", // 恳
+    "\u6076": "è,wù", // 恶
+    "\u607C": "nǎo", // 恼
+    "\u6084": "qiāo", // 悄
+    "\u6085": "yuè", // 悅
+    "\u6089": "xī", // 悉
+    "\u6094": "huǐ", // 悔
+    "\u609F": "wù", // 悟
+    "\u60A0": "yōu", // 悠
+    "\u60A3": "huàn", // 患
+    "\u60A6": "yuè", // 悦
+    "\u60A8": "nín", // 您
+    "\u60AC": "xuán", // 悬
+    "\u60B2": "bēi", // 悲
+    "\u60B6": "mèn,mēn", // 悶
+    "\u60BC": "dào", // 悼
+    "\u60C5": "qíng,qing", // 情
+    "\u60CA": "jīng", // 惊
+    "\u60CB": "wǎn", // 惋
+    "\u60D1": "huò,huo", // 惑
+    "\u60D5": "tì", // 惕
+    "\u60DA": "hū", // 惚
+    "\u60DC": "xī", // 惜
+    "\u60DF": "wéi", // 惟
+    "\u60E1": "è,wù", // 惡
+    "\u60E6": "diàn", // 惦
+    "\u60E7": "jù", // 惧
+    "\u60E8": "cǎn", // 惨
+    "\u60E9": "chéng", // 惩
+    "\u60ED": "cán", // 惭
+    "\u60EF": "guàn", // 惯
+    "\u60F1": "nǎo", // 惱
+    "\u60F3": "xiǎng", // 想
+    "\u60F6": "huáng", // 惶
+    "\u60F9": "rě", // 惹
+    "\u6101": "chóu", // 愁
+    "\u6108": "yù", // 愈
+    "\u6109": "yú", // 愉
+    "\u610F": "yì,yi", // 意
+    "\u6115": "è", // 愕
+    "\u611A": "yú", // 愚
+    "\u611B": "ài", // 愛
+    "\u611F": "gǎn", // 感
+    "\u6123": "lèng", // 愣
+    "\u6124": "fèn", // 愤
+    "\u6127": "kuì", // 愧
+    "\u613F": "yuàn", // 愿
+    "\u6148": "cí", // 慈
+    "\u614B": "tài", // 態
+    "\u614C": "huāng,huang", // 慌
+    "\u614E": "shèn", // 慎
+    "\u6155": "mù", // 慕
+    "\u6158": "cǎn", // 慘
+    "\u615A": "cán", // 慚
+    "\u6162": "màn", // 慢
+    "\u6163": "guàn", // 慣
+    "\u6167": "huì", // 慧
+    "\u6168": "kǎi", // 慨
+    "\u616E": "lǜ", // 慮
+    "\u6170": "wèi", // 慰
+    "\u6176": "qìng", // 慶
+    "\u6177": "kāng", // 慷
+    "\u6182": "yōu", // 憂
+    "\u618B": "biē", // 憋
+    "\u6190": "lián", // 憐
+    "\u6191": "píng", // 憑
+    "\u61A4": "fèn", // 憤
+    "\u61A7": "chōng", // 憧
+    "\u61AC": "jǐng", // 憬
+    "\u61B2": "xiàn", // 憲
+    "\u61B6": "yì", // 憶
+    "\u61BE": "hàn", // 憾
+    "\u61C2": "dǒng", // 懂
+    "\u61C7": "kěn", // 懇
+    "\u61C9": "yīng,yìng,ying", // 應
+    "\u61D2": "lǎn", // 懒
+    "\u61F2": "chéng", // 懲
+    "\u61F6": "lǎn", // 懶
+    "\u61F7": "huái", // 懷
+    "\u61F8": "xuán", // 懸
+    "\u61FC": "jù", // 懼
+    "\u6200": "liàn", // 戀
+    "\u620F": "xì", // 戏
+    "\u6210": "chéng,cheng", // 成
+    "\u6211": "wǒ", // 我
+    "\u6212": "jiè", // 戒
+    "\u6216": "huò", // 或
+    "\u6218": "zhàn", // 战
+    "\u621A": "qi", // 戚
+    "\u622A": "jié", // 截
+    "\u6230": "zhàn", // 戰
+    "\u6232": "xì", // 戲
+    "\u6234": "dài", // 戴
+    "\u6236": "hù,hu", // 戶
+    "\u6237": "hù,hu", // 户
+    "\u623F": "fáng", // 房
+    "\u6240": "suǒ", // 所
+    "\u6241": "biǎn", // 扁
+    "\u6247": "shàn,shān", // 扇
+    "\u624B": "shǒu,shou", // 手
+    "\u624D": "cái,cai", // 才
+    "\u624E": "zhā,zhá", // 扎
+    "\u6251": "pū", // 扑
+    "\u6252": "bā", // 扒
+    "\u6253": "dǎ,da", // 打
+    "\u6254": "rēng", // 扔
+    "\u6258": "tuō", // 托
+    "\u625B": "káng", // 扛
+    "\u6263": "kòu", // 扣
+    "\u6267": "zhí", // 执
+    "\u6269": "kuò", // 扩
+    "\u626B": "sǎo,sào", // 扫
+    "\u626C": "yáng", // 扬
+    "\u626D": "niǔ,niu", // 扭
+    "\u626E": "ban,bàn", // 扮
+    "\u626F": "chě,che", // 扯
+    "\u6270": "rǎo", // 扰
+    "\u6273": "bān", // 扳
+    "\u6276": "fú", // 扶
+    "\u6279": "pī", // 批
+    "\u627E": "zhǎo", // 找
+    "\u627F": "chéng", // 承
+    "\u6280": "jì", // 技
+    "\u6284": "chāo", // 抄
+    "\u628A": "bǎ", // 把
+    "\u6291": "yì", // 抑
+    "\u6293": "zhuā", // 抓
+    "\u6295": "tóu", // 投
+    "\u6296": "dǒu", // 抖
+    "\u6297": "kàng", // 抗
+    "\u6298": "zhé,zhē,shé", // 折
+    "\u629A": "fǔ", // 抚
+    "\u629B": "pāo", // 抛
+    "\u62A1": "lūn", // 抡
+    "\u62A2": "qiǎng", // 抢
+    "\u62A4": "hù", // 护
+    "\u62A5": "bào", // 报
+    "\u62AB": "pī", // 披
+    "\u62AC": "tái", // 抬
+    "\u62B1": "bào", // 抱
+    "\u62B5": "dǐ", // 抵
+    "\u62B9": "mǒ,mā", // 抹
+    "\u62BC": "yā", // 押
+    "\u62BD": "chōu", // 抽
+    "\u62BF": "mǐn", // 抿
+    "\u62C4": "zhǔ", // 拄
+    "\u62C5": "dān,dàn,dan", // 担
+    "\u62C6": "chāi", // 拆
+    "\u62C7": "mu", // 拇
+    "\u62C9": "lā,la", // 拉
+    "\u62CB": "pāo", // 拋
+    "\u62CC": "bàn", // 拌
+    "\u62CD": "pāi", // 拍
+    "\u62D0": "guǎi", // 拐
+    "\u62D2": "jù", // 拒
+    "\u62D4": "bá,ba", // 拔
+    "\u62D6": "tuō", // 拖
+    "\u62D8": "jū", // 拘
+    "\u62DB": "zhāo", // 招
+    "\u62DC": "bài", // 拜
+    "\u62DF": "nǐ", // 拟
+    "\u62E2": "lǒng", // 拢
+    "\u62E3": "jiǎn", // 拣
+    "\u62E5": "yōng", // 拥
+    "\u62E6": "lán", // 拦
+    "\u62E7": "níng", // 拧
+    "\u62E8": "bō", // 拨
+    "\u62E9": "zé", // 择
+    "\u62EC": "kuò", // 括
+    "\u62ED": "shì", // 拭
+    "\u62F1": "gǒng", // 拱
+    "\u62F3": "quán", // 拳
+    "\u62F4": "shuān", // 拴
+    "\u62FC": "pīn", // 拼
+    "\u62FE": "shi,shí", // 拾
+    "\u62FF": "ná", // 拿
+    "\u6301": "chí", // 持
+    "\u6302": "guà", // 挂
+    "\u6307": "zhǐ,zhí,zhī", // 指
+    "\u6309": "àn", // 按
+    "\u630E": "kuà", // 挎
+    "\u6311": "tiāo,tiǎo", // 挑
+    "\u6316": "wā", // 挖
+    "\u631F": "xié", // 挟
+    "\u6321": "dǎng", // 挡
+    "\u6323": "zhēng,zhèng", // 挣
+    "\u6324": "jǐ", // 挤
+    "\u6325": "huī", // 挥
+    "\u6328": "āi", // 挨
+    "\u632B": "cuò", // 挫
+    "\u632F": "zhèn", // 振
+    "\u633A": "tǐng", // 挺
+    "\u633D": "wǎn", // 挽
+    "\u633E": "xié", // 挾
+    "\u6342": "wǔ", // 捂
+    "\u6346": "kǔn", // 捆
+    "\u6349": "zhuō", // 捉
+    "\u634D": "hàn", // 捍
+    "\u634E": "shāo", // 捎
+    "\u634F": "niē", // 捏
+    "\u6350": "juān", // 捐
+    "\u6355": "bǔ", // 捕
+    "\u635E": "lāo", // 捞
+    "\u635F": "sǔn", // 损
+    "\u6361": "jiǎn", // 捡
+    "\u6362": "huàn", // 换
+    "\u6363": "dǎo", // 捣
+    "\u6367": "pěng", // 捧
+    "\u636E": "jù", // 据
+    "\u6376": "chuí", // 捶
+    "\u6377": "jié", // 捷
+    "\u637B": "niǎn", // 捻
+    "\u6380": "xiān", // 掀
+    "\u6383": "sǎo,sào", // 掃
+    "\u6384": "lūn", // 掄
+    "\u6388": "shòu", // 授
+    "\u6389": "diào", // 掉
+    "\u638C": "zhǎng,zhang", // 掌
+    "\u638F": "tāo", // 掏
+    "\u6390": "qiā", // 掐
+    "\u6392": "pái", // 排
+    "\u6398": "jué", // 掘
+    "\u6399": "zhēng,zhèng", // 掙
+    "\u639B": "guà", // 掛
+    "\u63A0": "lüè", // 掠
+    "\u63A2": "tàn,tan", // 探
+    "\u63A5": "jiē", // 接
+    "\u63A7": "kòng", // 控
+    "\u63A8": "tuī", // 推
+    "\u63A9": "yǎn", // 掩
+    "\u63AA": "cuò", // 措
+    "\u63B0": "bāi", // 掰
+    "\u63B7": "zhì", // 掷
+    "\u63C0": "jiǎn", // 揀
+    "\u63C9": "róu", // 揉
+    "\u63CD": "zòu", // 揍
+    "\u63CF": "miáo", // 描
+    "\u63D0": "tí", // 提
+    "\u63D2": "chā", // 插
+    "\u63DA": "yáng", // 揚
+    "\u63DB": "huàn", // 換
+    "\u63E1": "wò", // 握
+    "\u63E3": "chuāi", // 揣
+    "\u63E9": "kāi", // 揩
+    "\u63EA": "jiū", // 揪
+    "\u63ED": "jiē", // 揭
+    "\u63EE": "huī", // 揮
+    "\u63F4": "yuán", // 援
+    "\u6400": "chān", // 搀
+    "\u6401": "gē,ge", // 搁
+    "\u6402": "lǒu", // 搂
+    "\u6405": "jiǎo", // 搅
+    "\u640D": "sǔn", // 損
+    "\u640F": "bó", // 搏
+    "\u6413": "cuō", // 搓
+    "\u6414": "sāo", // 搔
+    "\u6416": "yáo", // 搖
+    "\u6417": "dǎo", // 搗
+    "\u641C": "sōu", // 搜
+    "\u641E": "gǎo", // 搞
+    "\u642A": "táng", // 搪
+    "\u642C": "bān", // 搬
+    "\u642D": "dā", // 搭
+    "\u6436": "qiǎng", // 搶
+    "\u643A": "xié", // 携
+    "\u6444": "shè", // 摄
+    "\u6446": "bǎi", // 摆
+    "\u6447": "yáo", // 摇
+    "\u644A": "tān", // 摊
+    "\u6454": "shuāi", // 摔
+    "\u6458": "zhāi", // 摘
+    "\u645F": "lǒu", // 摟
+    "\u6467": "cuī", // 摧
+    "\u6469": "mó", // 摩
+    "\u6478": "mō,mo", // 摸
+    "\u6482": "liào", // 撂
+    "\u6485": "juē", // 撅
+    "\u6488": "lāo", // 撈
+    "\u6490": "chēng,cheng", // 撐
+    "\u6491": "chēng,cheng", // 撑
+    "\u6492": "sā,sǎ", // 撒
+    "\u6495": "sī", // 撕
+    "\u649E": "zhuàng", // 撞
+    "\u64A4": "chè", // 撤
+    "\u64A5": "bō", // 撥
+    "\u64A9": "liāo", // 撩
+    "\u64AB": "fǔ", // 撫
+    "\u64AD": "bō", // 播
+    "\u64B2": "pū", // 撲
+    "\u64B5": "niǎn", // 撵
+    "\u64BC": "hàn", // 撼
+    "\u64BF": "jiǎn", // 撿
+    "\u64C1": "yōng", // 擁
+    "\u64C7": "zé", // 擇
+    "\u64CA": "jī", // 擊
+    "\u64CB": "dǎng", // 擋
+    "\u64CD": "cāo", // 操
+    "\u64D4": "dān,dàn,dan", // 擔
+    "\u64DA": "jù", // 據
+    "\u64E0": "jǐ", // 擠
+    "\u64E6": "cā", // 擦
+    "\u64EC": "nǐ", // 擬
+    "\u64F0": "níng", // 擰
+    "\u64F1": "gē,ge", // 擱
+    "\u64F2": "zhì", // 擲
+    "\u64F4": "kuò", // 擴
+    "\u64FA": "bǎi", // 擺
+    "\u64FE": "rǎo", // 擾
+    "\u6500": "pān", // 攀
+    "\u6506": "niǎn", // 攆
+    "\u650F": "lǒng", // 攏
+    "\u6512": "zǎn", // 攒
+    "\u6514": "lán", // 攔
+    "\u6519": "chān", // 攙
+    "\u651C": "xié", // 攜
+    "\u651D": "shè", // 攝
+    "\u6522": "zǎn", // 攢
+    "\u6524": "tān", // 攤
+    "\u6525": "zuàn", // 攥
+    "\u652A": "jiǎo", // 攪
+    "\u652F": "zhī", // 支
+    "\u6536": "shōu", // 收
+    "\u6539": "gǎi", // 改
+    "\u653B": "gōng", // 攻
+    "\u653E": "fàng", // 放
+    "\u653F": "zhèng", // 政
+    "\u6545": "gù", // 故
+    "\u6548": "xiào", // 效
+    "\u654C": "dí", // 敌
+    "\u654F": "mǐn", // 敏
+    "\u6551": "jiù", // 救
+    "\u6557": "bài", // 敗
+    "\u6558": "xù", // 敘
+    "\u6559": "jiào,jiāo", // 教
+    "\u655E": "chang", // 敞
+    "\u6562": "gǎn", // 敢
+    "\u6563": "sàn,sǎn", // 散
+    "\u656C": "jìng", // 敬
+    "\u6570": "shù,shǔ,shu", // 数
+    "\u6572": "qiāo", // 敲
+    "\u6574": "zhěng", // 整
+    "\u6575": "dí", // 敵
+    "\u6577": "fū", // 敷
+    "\u6578": "shù,shǔ,shu", // 數
+    "\u6583": "bì", // 斃
+    "\u6587": "wén", // 文
+    "\u6597": "dòu", // 斗
+    "\u6599": "liào", // 料
+    "\u659C": "xié", // 斜
+    "\u65A4": "jīn", // 斤
+    "\u65A5": "chì", // 斥
+    "\u65A7": "fǔ", // 斧
+    "\u65AD": "duàn", // 断
+    "\u65AF": "sī", // 斯
+    "\u65B0": "xīn", // 新
+    "\u65B7": "duàn", // 斷
+    "\u65B9": "fāng,fang", // 方
+    "\u65BD": "shī", // 施
+    "\u65C1": "páng", // 旁
+    "\u65C5": "lǚ", // 旅
+    "\u65CB": "xuán", // 旋
+    "\u65CF": "zú", // 族
+    "\u65D7": "qí", // 旗
+    "\u65E0": "wú", // 无
+    "\u65E2": "jì", // 既
+    "\u65E5": "rì", // 日
+    "\u65E6": "dàn", // 旦
+    "\u65E7": "jiù", // 旧
+    "\u65E9": "zǎo", // 早
+    "\u65EC": "xún", // 旬
+    "\u65F1": "hàn", // 旱
+    "\u65F6": "shí", // 时
+    "\u65F7": "kuàng", // 旷
+    "\u65FA": "wàng", // 旺
+    "\u6602": "áng", // 昂
+    "\u6606": "kūn", // 昆
+    "\u660E": "míng,ming", // 明
+    "\u660F": "hūn,hún", // 昏
+    "\u6613": "yì", // 易
+    "\u661F": "xīng", // 星
+    "\u6620": "yìng", // 映
+    "\u6625": "chūn", // 春
+    "\u6627": "mèi", // 昧
+    "\u6628": "zuó", // 昨
+    "\u662F": "shì,shi", // 是
+    "\u663C": "zhòu", // 昼
+    "\u663E": "xiǎn", // 显
+    "\u6642": "shí", // 時
+    "\u6643": "huang,huàng,huǎng", // 晃
+    "\u664C": "shǎng", // 晌
+    "\u6652": "shài", // 晒
+    "\u6653": "xiǎo", // 晓
+    "\u6655": "yūn", // 晕
+    "\u665A": "wǎn", // 晚
+    "\u665D": "zhòu", // 晝
+    "\u6668": "chen,chén", // 晨
+    "\u666E": "pǔ", // 普
+    "\u666F": "jǐng", // 景
+    "\u6670": "xī", // 晰
+    "\u6674": "qíng", // 晴
+    "\u6676": "jīng", // 晶
+    "\u667A": "zhì", // 智
+    "\u667E": "liàng", // 晾
+    "\u6682": "zàn", // 暂
+    "\u6684": "xuān", // 暄
+    "\u6688": "yūn", // 暈
+    "\u6691": "shǔ", // 暑
+    "\u6696": "nuǎn", // 暖
+    "\u6697": "àn", // 暗
+    "\u66A2": "chàng", // 暢
+    "\u66AB": "zàn", // 暫
+    "\u66B4": "bào", // 暴
+    "\u66C9": "xiǎo", // 曉
+    "\u66E0": "kuàng", // 曠
+    "\u66F0": "yuē", // 曰
+    "\u66F2": "qū,qǔ", // 曲
+    "\u66F4": "gèng,gēng", // 更
+    "\u66F8": "shū", // 書
+    "\u66FE": "céng", // 曾
+    "\u66FF": "tì", // 替
+    "\u6700": "zuì", // 最
+    "\u6703": "huì,kuài", // 會
+    "\u6708": "yuè,yue", // 月
+    "\u6709": "yǒu", // 有
+    "\u670B": "péng", // 朋
+    "\u670D": "fú,fu", // 服
+    "\u6717": "lǎng", // 朗
+    "\u671B": "wàng,wang", // 望
+    "\u671D": "cháo,zhāo", // 朝
+    "\u671F": "qī", // 期
+    "\u6726": "méng", // 朦
+    "\u6727": "lóng", // 朧
+    "\u6728": "mù", // 木
+    "\u672A": "wèi", // 未
+    "\u672B": "mò", // 末
+    "\u672C": "běn", // 本
+    "\u672E": "shù", // 朮
+    "\u672F": "shù", // 术
+    "\u6734": "pǔ", // 朴
+    "\u6735": "duo,duǒ", // 朵
+    "\u673A": "jī", // 机
+    "\u673D": "xiǔ", // 朽
+    "\u6740": "shā", // 杀
+    "\u6742": "zá", // 杂
+    "\u6743": "quán", // 权
+    "\u6746": "gān,gǎn", // 杆
+    "\u6749": "shān", // 杉
+    "\u674E": "li", // 李
+    "\u6750": "cái,cai", // 材
+    "\u6751": "cūn", // 村
+    "\u675C": "dù", // 杜
+    "\u675F": "shù", // 束
+    "\u6761": "tiáo", // 条
+    "\u6765": "lái", // 来
+    "\u6768": "yáng", // 杨
+    "\u676F": "bēi", // 杯
+    "\u6770": "jié", // 杰
+    "\u6771": "dōng", // 東
+    "\u677E": "sōng", // 松
+    "\u677F": "bǎn", // 板
+    "\u6781": "jí", // 极
+    "\u6784": "gòu", // 构
+    "\u6789": "wang", // 枉
+    "\u6790": "xī", // 析
+    "\u6795": "zhěn", // 枕
+    "\u6797": "lín", // 林
+    "\u679A": "méi", // 枚
+    "\u679C": "guǒ", // 果
+    "\u679D": "zhī", // 枝
+    "\u67A2": "shū", // 枢
+    "\u67A3": "zǎo", // 枣
+    "\u67AA": "qiāng", // 枪
+    "\u67AF": "kū", // 枯
+    "\u67B6": "jià", // 架
+    "\u67C4": "bǐng", // 柄
+    "\u67CF": "bǎi", // 柏
+    "\u67D0": "mǒu", // 某
+    "\u67D3": "rǎn", // 染
+    "\u67D4": "róu", // 柔
+    "\u67DC": "guì", // 柜
+    "\u67E5": "chá", // 查
+    "\u67F1": "zhù", // 柱
+    "\u67F3": "liǔ", // 柳
+    "\u67F4": "chái", // 柴
+    "\u6807": "biāo", // 标
+    "\u680F": "lán", // 栏
+    "\u6811": "shù", // 树
+    "\u6821": "xiào", // 校
+    "\u682A": "zhū", // 株
+    "\u6837": "yàng", // 样
+    "\u6838": "hé", // 核
+    "\u6839": "gēn", // 根
+    "\u683C": "gé,ge", // 格
+    "\u683D": "zāi", // 栽
+    "\u6843": "táo", // 桃
+    "\u6845": "wéi", // 桅
+    "\u6846": "kuāng,kuàng", // 框
+    "\u6848": "àn", // 案
+    "\u684C": "zhuō", // 桌
+    "\u6851": "sāng", // 桑
+    "\u6854": "jú", // 桔
+    "\u6863": "dàng", // 档
+    "\u6865": "qiáo", // 桥
+    "\u6866": "huà", // 桦
+    "\u6868": "jiǎng", // 桨
+    "\u6869": "zhuāng", // 桩
+    "\u6876": "tǒng", // 桶
+    "\u6881": "liáng,liang", // 梁
+    "\u6885": "méi", // 梅
+    "\u6886": "bāng", // 梆
+    "\u6897": "gěng", // 梗
+    "\u689D": "tiáo", // 條
+    "\u68A2": "shāo", // 梢
+    "\u68A6": "mèng", // 梦
+    "\u68A8": "lí", // 梨
+    "\u68AF": "tī", // 梯
+    "\u68B0": "xiè", // 械
+    "\u68B3": "shū", // 梳
+    "\u68C0": "jiǎn", // 检
+    "\u68C4": "qì", // 棄
+    "\u68C9": "mián", // 棉
+    "\u68CB": "qí", // 棋
+    "\u68CD": "gùn", // 棍
+    "\u68D2": "bàng", // 棒
+    "\u68D7": "zǎo", // 棗
+    "\u68DA": "péng,peng", // 棚
+    "\u68EE": "sēn", // 森
+    "\u68F5": "kē", // 棵
+    "\u68FA": "guān", // 棺
+    "\u6905": "yǐ", // 椅
+    "\u690D": "zhí", // 植
+    "\u6912": "jiāo", // 椒
+    "\u692D": "tuǒ", // 椭
+    "\u694A": "yáng", // 楊
+    "\u695A": "chu", // 楚
+    "\u696D": "yè", // 業
+    "\u6975": "jí", // 極
+    "\u697C": "lóu", // 楼
+    "\u6982": "gài", // 概
+    "\u6995": "róng", // 榕
+    "\u699C": "bǎng", // 榜
+    "\u69AE": "róng", // 榮
+    "\u69B4": "liú", // 榴
+    "\u69CB": "gòu", // 構
+    "\u69CD": "qiāng", // 槍
+    "\u69D0": "huái", // 槐
+    "\u69DB": "kǎn", // 槛
+    "\u69F3": "jiǎng", // 槳
+    "\u69FD": "cáo", // 槽
+    "\u6A01": "zhuāng", // 樁
+    "\u6A02": "lè,yuè", // 樂
+    "\u6A13": "lóu", // 樓
+    "\u6A19": "biāo", // 標
+    "\u6A1E": "shū", // 樞
+    "\u6A1F": "zhāng", // 樟
+    "\u6A21": "mó,mú", // 模
+    "\u6A23": "yàng", // 樣
+    "\u6A2A": "héng", // 横
+    "\u6A39": "shù", // 樹
+    "\u6A3A": "huà", // 樺
+    "\u6A4B": "qiáo", // 橋
+    "\u6A58": "jú", // 橘
+    "\u6A5F": "jī", // 機
+    "\u6A61": "xiàng", // 橡
+    "\u6A62": "tuǒ", // 橢
+    "\u6A6B": "héng", // 橫
+    "\u6A90": "yán", // 檐
+    "\u6A94": "dàng", // 檔
+    "\u6AA2": "jiǎn", // 檢
+    "\u6ABB": "kǎn", // 檻
+    "\u6B04": "lán", // 欄
+    "\u6B0A": "quán", // 權
+    "\u6B20": "qiàn,qian", // 欠
+    "\u6B21": "cì", // 次
+    "\u6B22": "huan,huān", // 欢
+    "\u6B23": "xīn", // 欣
+    "\u6B27": "ōu", // 欧
+    "\u6B32": "yù", // 欲
+    "\u6B3A": "qī", // 欺
+    "\u6B3D": "qīn", // 欽
+    "\u6B3E": "kuǎn", // 款
+    "\u6B47": "xiē", // 歇
+    "\u6B49": "qiàn", // 歉
+    "\u6B4C": "gē,ge", // 歌
+    "\u6B50": "ōu", // 歐
+    "\u6B61": "huan,huān", // 歡
+    "\u6B62": "zhǐ", // 止
+    "\u6B63": "zhèng,zheng,zhēng", // 正
+    "\u6B64": "cǐ", // 此
+    "\u6B65": "bù", // 步
+    "\u6B66": "wǔ", // 武
+    "\u6B6A": "wāi", // 歪
+    "\u6B72": "suì", // 歲
+    "\u6B77": "lì", // 歷
+    "\u6B78": "guī", // 歸
+    "\u6B7B": "sǐ", // 死
+    "\u6B7C": "jiān", // 歼
+    "\u6B8A": "shū", // 殊
+    "\u6B8B": "cán", // 残
+    "\u6B96": "zhí", // 殖
+    "\u6B98": "cán", // 殘
+    "\u6BB2": "jiān", // 殲
+    "\u6BB5": "duàn", // 段
+    "\u6BBA": "shā", // 殺
+    "\u6BBC": "ké,qiào", // 殼
+    "\u6BBF": "diàn", // 殿
+    "\u6BC0": "huǐ", // 毀
+    "\u6BC1": "huǐ", // 毁
+    "\u6BC5": "yì", // 毅
+    "\u6BCD": "mǔ", // 母
+    "\u6BCF": "měi", // 每
+    "\u6BD2": "dú", // 毒
+    "\u6BD4": "bǐ", // 比
+    "\u6BD5": "bì", // 毕
+    "\u6BD9": "bì", // 毙
+    "\u6BDB": "máo,mao", // 毛
+    "\u6BE1": "zhān", // 毡
+    "\u6BEB": "háo", // 毫
+    "\u6BEF": "tǎn", // 毯
+    "\u6C08": "zhān", // 氈
+    "\u6C0F": "shì", // 氏
+    "\u6C11": "mín", // 民
+    "\u6C13": "máng", // 氓
+    "\u6C14": "qì,qi", // 气
+    "\u6C1B": "fēn", // 氛
+    "\u6C22": "qīng", // 氢
+    "\u6C23": "qì,qi", // 氣
+    "\u6C27": "yǎng", // 氧
+    "\u6C28": "ān", // 氨
+    "\u6C2B": "qīng", // 氫
+    "\u6C2E": "dàn", // 氮
+    "\u6C34": "shuǐ", // 水
+    "\u6C38": "yǒng", // 永
+    "\u6C41": "zhī", // 汁
+    "\u6C42": "qiú", // 求
+    "\u6C47": "huì", // 汇
+    "\u6C49": "hàn", // 汉
+    "\u6C57": "hàn", // 汗
+    "\u6C5B": "xùn", // 汛
+    "\u6C5E": "gǒng", // 汞
+    "\u6C5F": "jiāng", // 江
+    "\u6C60": "chí", // 池
+    "\u6C61": "wū", // 污
+    "\u6C64": "tāng,tang", // 汤
+    "\u6C6A": "wāng", // 汪
+    "\u6C70": "tài", // 汰
+    "\u6C79": "xiōng", // 汹
+    "\u6C7A": "jué", // 決
+    "\u6C7D": "qì", // 汽
+    "\u6C83": "wò", // 沃
+    "\u6C89": "chén,chēn", // 沉
+    "\u6C8F": "qī", // 沏
+    "\u6C92": "méi,mò", // 沒
+    "\u6C96": "chōng,chòng", // 沖
+    "\u6C99": "shā", // 沙
+    "\u6C9B": "pèi", // 沛
+    "\u6C9F": "gōu", // 沟
+    "\u6CA1": "méi,mò", // 没
+    "\u6CA5": "lì", // 沥
+    "\u6CAB": "mò,mo", // 沫
+    "\u6CB3": "hé", // 河
+    "\u6CB8": "fèi", // 沸
+    "\u6CB9": "yóu", // 油
+    "\u6CBB": "zhì", // 治
+    "\u6CBE": "zhān", // 沾
+    "\u6CBF": "yán,yàn", // 沿
+    "\u6CC1": "kuàng", // 況
+    "\u6CC4": "xiè", // 泄
+    "\u6CC9": "quán", // 泉
+    "\u6CCA": "pō,bó", // 泊
+    "\u6CCC": "mì", // 泌
+    "\u6CD5": "fǎ,fa", // 法
+    "\u6CDB": "fàn", // 泛
+    "\u6CE1": "pào", // 泡
+    "\u6CE2": "bō", // 波
+    "\u6CE3": "qì", // 泣
+    "\u6CE5": "ní", // 泥
+    "\u6CE8": "zhù", // 注
+    "\u6CEA": "lèi", // 泪
+    "\u6CF3": "yǒng", // 泳
+    "\u6CF5": "bèng", // 泵
+    "\u6CFC": "po,pō", // 泼
+    "\u6D01": "jié", // 洁
+    "\u6D0B": "yáng", // 洋
+    "\u6D12": "sǎ", // 洒
+    "\u6D17": "xǐ", // 洗
+    "\u6D1E": "dòng", // 洞
+    "\u6D25": "jīn", // 津
+    "\u6D2A": "hóng", // 洪
+    "\u6D32": "zhōu", // 洲
+    "\u6D36": "xiōng", // 洶
+    "\u6D3B": "huó,huo", // 活
+    "\u6D3E": "pài", // 派
+    "\u6D41": "liú", // 流
+    "\u6D45": "qiǎn", // 浅
+    "\u6D46": "jiāng", // 浆
+    "\u6D47": "jiāo", // 浇
+    "\u6D4A": "zhuó", // 浊
+    "\u6D4B": "cè", // 测
+    "\u6D4E": "jì", // 济
+    "\u6D51": "hún", // 浑
+    "\u6D53": "nóng", // 浓
+    "\u6D69": "hào", // 浩
+    "\u6D6A": "làng", // 浪
+    "\u6D6E": "fú", // 浮
+    "\u6D77": "hǎi", // 海
+    "\u6D78": "jìn", // 浸
+    "\u6D82": "tu,tú", // 涂
+    "\u6D88": "xiāo", // 消
+    "\u6D89": "shè", // 涉
+    "\u6D8C": "yǒng", // 涌
+    "\u6D95": "tì", // 涕
+    "\u6D9B": "tāo", // 涛
+    "\u6DA1": "wō", // 涡
+    "\u6DA4": "dí", // 涤
+    "\u6DA6": "rùn", // 润
+    "\u6DA8": "zhǎng,zhàng", // 涨
+    "\u6DB2": "yè", // 液
+    "\u6DBC": "liáng", // 涼
+    "\u6DC0": "diàn", // 淀
+    "\u6DCB": "lín", // 淋
+    "\u6DCC": "tǎng", // 淌
+    "\u6DD2": "qī", // 淒
+    "\u6DD8": "táo", // 淘
+    "\u6DDA": "lèi", // 淚
+    "\u6DE1": "dàn", // 淡
+    "\u6DE8": "jìng", // 淨
+    "\u6DF1": "shēn", // 深
+    "\u6DF3": "chún", // 淳
+    "\u6DF7": "hùn,hún", // 混
+    "\u6DF9": "yān", // 淹
+    "\u6DFA": "qiǎn", // 淺
+    "\u6DFB": "tiān", // 添
+    "\u6E05": "qīng", // 清
+    "\u6E10": "jiàn", // 渐
+    "\u6E14": "yú", // 渔
+    "\u6E17": "shèn", // 渗
+    "\u6E1B": "jiǎn", // 減
+    "\u6E20": "qú", // 渠
+    "\u6E21": "dù", // 渡
+    "\u6E23": "zhā", // 渣
+    "\u6E26": "wō", // 渦
+    "\u6E29": "wēn", // 温
+    "\u6E2C": "cè", // 測
+    "\u6E2F": "gǎng", // 港
+    "\u6E34": "kě", // 渴
+    "\u6E38": "yóu", // 游
+    "\u6E3A": "miǎo", // 渺
+    "\u6E3E": "hún", // 渾
+    "\u6E43": "pài", // 湃
+    "\u6E4A": "còu", // 湊
+    "\u6E56": "hú", // 湖
+    "\u6E6F": "tāng,tang", // 湯
+    "\u6E7E": "wān", // 湾
+    "\u6E7F": "shī", // 湿
+    "\u6E83": "kuì", // 溃
+    "\u6E85": "jiàn", // 溅
+    "\u6E89": "gài", // 溉
+    "\u6E90": "yuán", // 源
+    "\u6E9C": "liū", // 溜
+    "\u6E9D": "gōu", // 溝
+    "\u6EAA": "xī", // 溪
+    "\u6EAB": "wēn", // 溫
+    "\u6EB6": "róng", // 溶
+    "\u6EC5": "miè", // 滅
+    "\u6ECB": "zī", // 滋
+    "\u6ECC": "dí", // 滌
+    "\u6ED1": "huá,hua", // 滑
+    "\u6ED4": "tāo", // 滔
+    "\u6EDA": "gǔn", // 滚
+    "\u6EE1": "mǎn", // 满
+    "\u6EE5": "làn", // 滥
+    "\u6EE8": "bīn", // 滨
+    "\u6EE9": "tān", // 滩
+    "\u6EF2": "shèn", // 滲
+    "\u6EF4": "dī", // 滴
+    "\u6EFE": "gǔn", // 滾
+    "\u6EFF": "mǎn", // 滿
+    "\u6F01": "yú", // 漁
+    "\u6F02": "piào,piāo", // 漂
+    "\u6F06": "qī", // 漆
+    "\u6F0F": "lòu", // 漏
+    "\u6F14": "yǎn", // 演
+    "\u6F20": "mò", // 漠
+    "\u6F22": "hàn", // 漢
+    "\u6F29": "xuán", // 漩
+    "\u6F2B": "màn", // 漫
+    "\u6F32": "zhǎng,zhàng", // 漲
+    "\u6F38": "jiàn", // 漸
+    "\u6F3E": "yàng", // 漾
+    "\u6F3F": "jiāng", // 漿
+    "\u6F51": "po,pō", // 潑
+    "\u6F54": "jié", // 潔
+    "\u6F5B": "qián", // 潛
+    "\u6F5C": "qián", // 潜
+    "\u6F64": "rùn", // 潤
+    "\u6F6D": "tán", // 潭
+    "\u6F6E": "cháo", // 潮
+    "\u6F70": "kuì", // 潰
+    "\u6F86": "jiāo", // 澆
+    "\u6F8E": "pēng", // 澎
+    "\u6FA1": "zǎo", // 澡
+    "\u6FB1": "diàn", // 澱
+    "\u6FC0": "jī,ji", // 激
+    "\u6FC1": "zhuó", // 濁
+    "\u6FC3": "nóng", // 濃
+    "\u6FD5": "shī", // 濕
+    "\u6FDF": "jì", // 濟
+    "\u6FE4": "tāo", // 濤
+    "\u6FEB": "làn", // 濫
+    "\u6FF1": "bīn", // 濱
+    "\u6FFA": "jiàn", // 濺
+    "\u7011": "pù", // 瀑
+    "\u701D": "lì", // 瀝
+    "\u704C": "guàn", // 灌
+    "\u7058": "tān", // 灘
+    "\u7063": "wān", // 灣
+    "\u706B": "huǒ", // 火
+    "\u706D": "miè", // 灭
+    "\u706F": "dēng", // 灯
+    "\u7070": "huī", // 灰
+    "\u7075": "líng,ling", // 灵
+    "\u7076": "zào", // 灶
+    "\u707D": "zāi", // 災
+    "\u707E": "zāi", // 灾
+    "\u707F": "càn", // 灿
+    "\u7089": "lú", // 炉
+    "\u708A": "chuī", // 炊
+    "\u708E": "yán", // 炎
+    "\u7092": "chǎo", // 炒
+    "\u7095": "kàng", // 炕
+    "\u70AD": "tàn", // 炭
+    "\u70AE": "pào", // 炮
+    "\u70AF": "jiǒng", // 炯
+    "\u70B8": "zhà", // 炸
+    "\u70B9": "diǎn", // 点
+    "\u70BA": "wèi,wéi", // 為
+    "\u70BC": "liàn", // 炼
+    "\u70C1": "shuò", // 烁
+    "\u70C2": "làn", // 烂
+    "\u70C8": "liè", // 烈
+    "\u70CF": "wū", // 烏
+    "\u70D8": "hōng", // 烘
+    "\u70DB": "zhú", // 烛
+    "\u70DF": "yān", // 烟
+    "\u70E4": "kǎo", // 烤
+    "\u70E6": "fán,fan", // 烦
+    "\u70E7": "shāo", // 烧
+    "\u70EB": "tàng", // 烫
+    "\u70ED": "rè", // 热
+    "\u710A": "hàn", // 焊
+    "\u7121": "wú", // 無
+    "\u7126": "jiāo", // 焦
+    "\u7130": "yàn", // 焰
+    "\u7136": "rán,ran", // 然
+    "\u7149": "liàn", // 煉
+    "\u714C": "huáng", // 煌
+    "\u714E": "jiān", // 煎
+    "\u7159": "yān", // 煙
+    "\u715E": "shā", // 煞
+    "\u7164": "méi", // 煤
+    "\u7167": "zhào", // 照
+    "\u7169": "fán,fan", // 煩
+    "\u716E": "zhǔ", // 煮
+    "\u7184": "xī", // 熄
+    "\u718A": "xióng", // 熊
+    "\u718F": "xūn", // 熏
+    "\u7194": "róng", // 熔
+    "\u719F": "shú", // 熟
+    "\u71AC": "áo", // 熬
+    "\u71B1": "rè", // 熱
+    "\u71C3": "rán", // 燃
+    "\u71C8": "dēng", // 燈
+    "\u71D2": "shāo", // 燒
+    "\u71D5": "yàn", // 燕
+    "\u71D9": "tàng", // 燙
+    "\u71DF": "yíng", // 營
+    "\u71E5": "zào", // 燥
+    "\u71E6": "càn", // 燦
+    "\u71ED": "zhú", // 燭
+    "\u7206": "bào", // 爆
+    "\u720D": "shuò", // 爍
+    "\u7210": "lú", // 爐
+    "\u721B": "làn", // 爛
+    "\u722A": "zhǎo,zhuǎ", // 爪
+    "\u722C": "pá", // 爬
+    "\u722D": "zhēng", // 爭
+    "\u7231": "ài", // 爱
+    "\u7236": "fù", // 父
+    "\u7237": "ye,yé", // 爷
+    "\u7238": "bà,ba", // 爸
+    "\u7239": "diē", // 爹
+    "\u723A": "ye,yé", // 爺
+    "\u723D": "shuǎng", // 爽
+    "\u723E": "ěr", // 爾
+    "\u7246": "qiáng", // 牆
+    "\u7247": "piàn,piān", // 片
+    "\u7248": "bǎn", // 版
+    "\u724C": "pái", // 牌
+    "\u7259": "yá", // 牙
+    "\u725B": "niú", // 牛
+    "\u7261": "mǔ", // 牡
+    "\u7262": "láo", // 牢
+    "\u7266": "máo", // 牦
+    "\u7267": "mù", // 牧
+    "\u7269": "wù,wu", // 物
+    "\u7272": "shēng", // 牲
+    "\u7275": "qiān", // 牵
+    "\u7279": "tè", // 特
+    "\u727A": "xī", // 牺
+    "\u727D": "qiān", // 牽
+    "\u7280": "xī", // 犀
+    "\u7281": "lí", // 犁
+    "\u729B": "máo", // 犛
+    "\u72A7": "xī", // 犧
+    "\u72AC": "quǎn", // 犬
+    "\u72AF": "fàn", // 犯
+    "\u72B6": "zhuàng", // 状
+    "\u72B9": "yóu", // 犹
+    "\u72C0": "zhuàng", // 狀
+    "\u72C2": "kuáng", // 狂
+    "\u72C8": "bèi", // 狈
+    "\u72D0": "hú", // 狐
+    "\u72D7": "gǒu", // 狗
+    "\u72E0": "hěn", // 狠
+    "\u72E1": "jiǎo", // 狡
+    "\u72EC": "dú", // 独
+    "\u72ED": "xiá", // 狭
+    "\u72EE": "shī", // 狮
+    "\u72F1": "yù", // 狱
+    "\u72F8": "li", // 狸
+    "\u72F9": "xiá", // 狹
+    "\u72FC": "láng", // 狼
+    "\u72FD": "bèi", // 狽
+    "\u730E": "liè", // 猎
+    "\u731B": "měng", // 猛
+    "\u731C": "cāi", // 猜
+    "\u7329": "xīng,xing", // 猩
+    "\u732A": "zhū", // 猪
+    "\u732B": "māo", // 猫
+    "\u732C": "wei", // 猬
+    "\u732E": "xiàn", // 献
+    "\u7334": "hóu", // 猴
+    "\u7336": "yóu", // 猶
+    "\u733E": "huá", // 猾
+    "\u733F": "yuán", // 猿
+    "\u7344": "yù", // 獄
+    "\u7345": "shī", // 獅
+    "\u734E": "jiǎng", // 獎
+    "\u7368": "dú", // 獨
+    "\u7372": "huò", // 獲
+    "\u7375": "liè", // 獵
+    "\u7378": "shòu", // 獸
+    "\u737B": "xiàn", // 獻
+    "\u7387": "lǜ,shuài", // 率
+    "\u7389": "yù", // 玉
+    "\u738B": "wáng", // 王
+    "\u73A9": "wán", // 玩
+    "\u73AF": "huán", // 环
+    "\u73B0": "xiàn", // 现
+    "\u73B2": "líng", // 玲
+    "\u73BB": "bō", // 玻
+    "\u73CA": "shān", // 珊
+    "\u73CD": "zhēn", // 珍
+    "\u73D1": "lóng", // 珑
+    "\u73E0": "zhū", // 珠
+    "\u73ED": "bān", // 班
+    "\u73FE": "xiàn", // 現
+    "\u7403": "qiú", // 球
+    "\u7406": "lǐ,li", // 理
+    "\u7410": "suǒ", // 琐
+    "\u7422": "zuó", // 琢
+    "\u7434": "qín", // 琴
+    "\u745A": "hú", // 瑚
+    "\u7463": "suǒ", // 瑣
+    "\u7469": "yíng", // 瑩
+    "\u7483": "lí", // 璃
+    "\u74B0": "huán", // 環
+    "\u74CF": "lóng", // 瓏
+    "\u74DC": "guā", // 瓜
+    "\u74E2": "piáo", // 瓢
+    "\u74E3": "bàn", // 瓣
+    "\u74E6": "wǎ", // 瓦
+    "\u74F6": "píng", // 瓶
+    "\u74F7": "cí", // 瓷
+    "\u7518": "gān", // 甘
+    "\u751A": "shén,shèn", // 甚
+    "\u751C": "tián", // 甜
+    "\u751F": "shēng,sheng", // 生
+    "\u7522": "chǎn", // 產
+    "\u7528": "yòng,yong", // 用
+    "\u7529": "shuǎi", // 甩
+    "\u752B": "fu", // 甫
+    "\u752D": "béng", // 甭
+    "\u7530": "tián", // 田
+    "\u7531": "yóu", // 由
+    "\u7532": "jiǎ,jia", // 甲
+    "\u7533": "shēn", // 申
+    "\u7535": "diàn", // 电
+    "\u7537": "nán", // 男
+    "\u7538": "diān", // 甸
+    "\u753B": "huà", // 画
+    "\u7545": "chàng", // 畅
+    "\u754C": "jiè", // 界
+    "\u754F": "wèi", // 畏
+    "\u7554": "pàn", // 畔
+    "\u7559": "liú", // 留
+    "\u755C": "chù,xù", // 畜
+    "\u755D": "mǔ", // 畝
+    "\u7562": "bì", // 畢
+    "\u7565": "lüè", // 略
+    "\u756A": "fān", // 番
+    "\u756B": "huà", // 畫
+    "\u7570": "yì", // 異
+    "\u7576": "dāng,dàng,dang", // 當
+    "\u7586": "jiāng", // 疆
+    "\u758A": "dié", // 疊
+    "\u758F": "shū", // 疏
+    "\u7591": "yí", // 疑
+    "\u7597": "liáo", // 疗
+    "\u7599": "gē", // 疙
+    "\u75AB": "yì", // 疫
+    "\u75AF": "fēng", // 疯
+    "\u75B2": "pí", // 疲
+    "\u75BC": "téng", // 疼
+    "\u75BE": "jí", // 疾
+    "\u75C5": "bìng", // 病
+    "\u75C7": "zhèng", // 症
+    "\u75D2": "yǎng", // 痒
+    "\u75D5": "hén", // 痕
+    "\u75DB": "tòng", // 痛
+    "\u75F0": "tán", // 痰
+    "\u75F9": "bì", // 痹
+    "\u75FA": "bì", // 痺
+    "\u760B": "fēng", // 瘋
+    "\u7626": "shòu", // 瘦
+    "\u7629": "da", // 瘩
+    "\u762A": "biě", // 瘪
+    "\u7642": "liáo", // 療
+    "\u764C": "ái", // 癌
+    "\u765F": "biě", // 癟
+    "\u767B": "dēng", // 登
+    "\u767C": "fā,fa,fà", // 發
+    "\u767D": "bái,bai", // 白
+    "\u767E": "bǎi", // 百
+    "\u7682": "zào", // 皂
+    "\u7684": "de,dì,dí", // 的
+    "\u7686": "jiē", // 皆
+    "\u7687": "huáng", // 皇
+    "\u76AE": "pí", // 皮
+    "\u76B1": "zhòu", // 皱
+    "\u76BA": "zhòu", // 皺
+    "\u76C6": "pén", // 盆
+    "\u76CA": "yì", // 益
+    "\u76CF": "zhǎn", // 盏
+    "\u76D0": "yán", // 盐
+    "\u76D1": "jiān", // 监
+    "\u76D2": "hé", // 盒
+    "\u76D4": "kuī", // 盔
+    "\u76D6": "gài,gai", // 盖
+    "\u76D7": "dào", // 盗
+    "\u76D8": "pán,pan", // 盘
+    "\u76DB": "shèng,chéng", // 盛
+    "\u76DC": "dào", // 盜
+    "\u76DE": "zhǎn", // 盞
+    "\u76DF": "méng", // 盟
+    "\u76E1": "jǐn,jìn", // 盡
+    "\u76E3": "jiān", // 監
+    "\u76E4": "pán,pan", // 盤
+    "\u76EE": "mù", // 目
+    "\u76EF": "dīng", // 盯
+    "\u76F2": "máng", // 盲
+    "\u76F4": "zhí", // 直
+    "\u76F8": "xiāng,xiàng", // 相
+    "\u76FC": "pàn", // 盼
+    "\u76FE": "dùn", // 盾
+    "\u7701": "shěng", // 省
+    "\u7709": "méi", // 眉
+    "\u770B": "kàn,kān", // 看
+    "\u771F": "zhēn", // 真
+    "\u7720": "mián", // 眠
+    "\u7728": "zhǎ", // 眨
+    "\u772F": "mī", // 眯
+    "\u7736": "kuàng", // 眶
+    "\u773A": "tiào", // 眺
+    "\u773C": "yǎn", // 眼
+    "\u773E": "zhòng", // 眾
+    "\u7740": "zhe,zháo,zhuó,zhāo", // 着
+    "\u7741": "zhēng", // 睁
+    "\u775B": "jing,jīng", // 睛
+    "\u775C": "zhēng", // 睜
+    "\u7761": "shuì", // 睡
+    "\u7763": "dū", // 督
+    "\u776B": "jié", // 睫
+    "\u7784": "miáo", // 瞄
+    "\u7785": "chǒu", // 瞅
+    "\u7787": "mī", // 瞇
+    "\u778C": "kē", // 瞌
+    "\u778E": "xiā", // 瞎
+    "\u7792": "mán", // 瞒
+    "\u779E": "mán", // 瞞
+    "\u77A5": "piē", // 瞥
+    "\u77A7": "qiáo", // 瞧
+    "\u77AA": "dèng", // 瞪
+    "\u77AD": "liǎo,liào", // 瞭
+    "\u77BB": "zhān", // 瞻
+    "\u77D7": "chù", // 矗
+    "\u77DB": "máo", // 矛
+    "\u77E5": "zhī", // 知
+    "\u77E9": "ju", // 矩
+    "\u77ED": "duǎn", // 短
+    "\u77EE": "ǎi", // 矮
+    "\u77F3": "shí", // 石
+    "\u77FF": "kuàng", // 矿
+    "\u7801": "mǎ", // 码
+    "\u7802": "shā", // 砂
+    "\u780C": "qì", // 砌
+    "\u780D": "kǎn", // 砍
+    "\u7814": "yán", // 研
+    "\u7816": "zhuān", // 砖
+    "\u7830": "pēng", // 砰
+    "\u7834": "pò", // 破
+    "\u7838": "zá", // 砸
+    "\u783E": "lì", // 砾
+    "\u7840": "chǔ", // 础
+    "\u7845": "guī", // 硅
+    "\u785D": "xiāo", // 硝
+    "\u786B": "liú", // 硫
+    "\u786C": "yìng", // 硬
+    "\u786E": "què", // 确
+    "\u788C": "lù", // 碌
+    "\u788D": "ài", // 碍
+    "\u788E": "suì", // 碎
+    "\u7891": "bēi", // 碑
+    "\u7897": "wǎn", // 碗
+    "\u789F": "dié", // 碟
+    "\u78A7": "bì", // 碧
+    "\u78B0": "pèng", // 碰
+    "\u78B1": "jiǎn", // 碱
+    "\u78B3": "tàn", // 碳
+    "\u78BA": "què", // 確
+    "\u78BC": "mǎ", // 碼
+    "\u78BE": "niǎn", // 碾
+    "\u78C1": "cí", // 磁
+    "\u78C5": "bàng", // 磅
+    "\u78CA": "lěi", // 磊
+    "\u78D5": "kē", // 磕
+    "\u78DA": "zhuān", // 磚
+    "\u78E8": "mó,mo,mò", // 磨
+    "\u78F7": "lín", // 磷
+    "\u78FA": "huáng", // 磺
+    "\u790E": "chǔ", // 礎
+    "\u7919": "ài", // 礙
+    "\u7926": "kuàng", // 礦
+    "\u792B": "lì", // 礫
+    "\u793A": "shì", // 示
+    "\u793C": "lǐ", // 礼
+    "\u793E": "shè", // 社
+    "\u7956": "zǔ", // 祖
+    "\u795D": "zhù", // 祝
+    "\u795E": "shén,shen", // 神
+    "\u7965": "xiáng", // 祥
+    "\u7968": "piào", // 票
+    "\u7978": "huò", // 祸
+    "\u7981": "jìn,jīn", // 禁
+    "\u798D": "huò", // 禍
+    "\u798F": "fú", // 福
+    "\u79AE": "lǐ", // 禮
+    "\u79BB": "lí", // 离
+    "\u79BF": "tū", // 禿
+    "\u79C0": "xiù", // 秀
+    "\u79C1": "sī", // 私
+    "\u79C3": "tū", // 秃
+    "\u79C6": "gǎn", // 秆
+    "\u79CB": "qiū", // 秋
+    "\u79CD": "zhǒng,zhòng", // 种
+    "\u79D1": "kē", // 科
+    "\u79D2": "miǎo", // 秒
+    "\u79D8": "mì", // 秘
+    "\u79DF": "zū", // 租
+    "\u79E4": "chèng", // 秤
+    "\u79E7": "yāng", // 秧
+    "\u79E9": "zhì", // 秩
+    "\u79EF": "jī", // 积
+    "\u79F0": "chēng,chèn", // 称
+    "\u79FB": "yí", // 移
+    "\u7A00": "xī", // 稀
+    "\u7A05": "shuì", // 稅
+    "\u7A08": "gǎn", // 稈
+    "\u7A0B": "chéng", // 程
+    "\u7A0D": "shāo", // 稍
+    "\u7A0E": "shuì", // 税
+    "\u7A1A": "zhì", // 稚
+    "\u7A20": "chóu", // 稠
+    "\u7A2E": "zhǒng,zhòng", // 種
+    "\u7A31": "chēng,chèn", // 稱
+    "\u7A33": "wěn", // 稳
+    "\u7A3B": "dào", // 稻
+    "\u7A3C": "jia", // 稼
+    "\u7A3F": "gǎo", // 稿
+    "\u7A46": "mù", // 穆
+    "\u7A4D": "jī", // 積
+    "\u7A4E": "yǐng", // 穎
+    "\u7A57": "suì", // 穗
+    "\u7A69": "wěn", // 穩
+    "\u7A76": "jiū,jiu", // 究
+    "\u7A77": "qióng", // 穷
+    "\u7A7A": "kōng,kòng", // 空
+    "\u7A7F": "chuān", // 穿
+    "\u7A81": "tū", // 突
+    "\u7A83": "qiè", // 窃
+    "\u7A84": "zhǎi", // 窄
+    "\u7A91": "yáo", // 窑
+    "\u7A96": "jiào", // 窖
+    "\u7A97": "chuāng", // 窗
+    "\u7A9C": "cuàn", // 窜
+    "\u7A9D": "wō", // 窝
+    "\u7A9F": "kū", // 窟
+    "\u7AA9": "wō", // 窩
+    "\u7AAE": "qióng", // 窮
+    "\u7AAF": "yáo", // 窯
+    "\u7ABF": "long", // 窿
+    "\u7AC4": "cuàn", // 竄
+    "\u7ACA": "qiè", // 竊
+    "\u7ACB": "lì", // 立
+    "\u7AD6": "shù", // 竖
+    "\u7AD9": "zhàn", // 站
+    "\u7ADE": "jìng", // 竞
+    "\u7ADF": "jìng", // 竟
+    "\u7AE0": "zhāng", // 章
+    "\u7AE5": "tóng", // 童
+    "\u7AED": "jié", // 竭
+    "\u7AEF": "duān", // 端
+    "\u7AF6": "jìng", // 競
+    "\u7AF9": "zhú", // 竹
+    "\u7AFD": "yú", // 竽
+    "\u7AFF": "gān", // 竿
+    "\u7B06": "ba", // 笆
+    "\u7B11": "xiào", // 笑
+    "\u7B14": "bǐ", // 笔
+    "\u7B1B": "dí", // 笛
+    "\u7B26": "fú", // 符
+    "\u7B28": "bèn", // 笨
+    "\u7B2C": "dì", // 第
+    "\u7B3C": "lóng,long,lǒng", // 笼
+    "\u7B46": "bǐ", // 筆
+    "\u7B49": "děng", // 等
+    "\u7B4B": "jīn", // 筋
+    "\u7B50": "kuāng", // 筐
+    "\u7B51": "zhù", // 筑
+    "\u7B52": "tǒng", // 筒
+    "\u7B54": "dá,dā", // 答
+    "\u7B56": "cè", // 策
+    "\u7B5B": "shāi", // 筛
+    "\u7B77": "kuài", // 筷
+    "\u7B7E": "qiān", // 签
+    "\u7B80": "jiǎn", // 简
+    "\u7B97": "suàn,suan", // 算
+    "\u7BA1": "guǎn", // 管
+    "\u7BA9": "luó", // 箩
+    "\u7BAB": "xiāo", // 箫
+    "\u7BAD": "jiàn", // 箭
+    "\u7BB1": "xiāng", // 箱
+    "\u7BC0": "jié", // 節
+    "\u7BC7": "piān", // 篇
+    "\u7BE9": "shāi", // 篩
+    "\u7BEE": "lán", // 篮
+    "\u7BF1": "lí", // 篱
+    "\u7BF7": "peng", // 篷
+    "\u7C07": "cù", // 簇
+    "\u7C21": "jiǎn", // 簡
+    "\u7C2B": "xiāo", // 簫
+    "\u7C38": "bǒ", // 簸
+    "\u7C3D": "qiān", // 簽
+    "\u7C43": "lán", // 籃
+    "\u7C4D": "jí", // 籍
+    "\u7C60": "lóng,long,lǒng", // 籠
+    "\u7C6C": "lí", // 籬
+    "\u7C6E": "luó", // 籮
+    "\u7C73": "mǐ", // 米
+    "\u7C7B": "lèi", // 类
+    "\u7C7D": "zǐ", // 籽
+    "\u7C89": "fěn", // 粉
+    "\u7C92": "lì", // 粒
+    "\u7C97": "cū", // 粗
+    "\u7C98": "zhān", // 粘
+    "\u7C9C": "tiào", // 粜
+    "\u7CA5": "zhōu", // 粥
+    "\u7CAA": "fèn", // 粪
+    "\u7CAE": "liáng", // 粮
+    "\u7CB9": "cuì", // 粹
+    "\u7CBE": "jīng", // 精
+    "\u7CCA": "hu,hú", // 糊
+    "\u7CD5": "gāo", // 糕
+    "\u7CD6": "táng", // 糖
+    "\u7CD9": "cāo", // 糙
+    "\u7CDE": "fèn", // 糞
+    "\u7CDF": "zāo", // 糟
+    "\u7CE7": "liáng", // 糧
+    "\u7CF6": "tiào", // 糶
+    "\u7CFB": "xì,xi,jì", // 系
+    "\u7CFE": "jiū", // 糾
+    "\u7D00": "jì", // 紀
+    "\u7D04": "yuē", // 約
+    "\u7D05": "hóng", // 紅
+    "\u7D0B": "wén", // 紋
+    "\u7D0D": "nà", // 納
+    "\u7D10": "niǔ", // 紐
+    "\u7D14": "chún", // 純
+    "\u7D17": "shā", // 紗
+    "\u7D19": "zhǐ", // 紙
+    "\u7D1A": "jí", // 級
+    "\u7D1B": "fēn", // 紛
+    "\u7D20": "sù", // 素
+    "\u7D21": "fǎng", // 紡
+    "\u7D22": "suǒ,suo", // 索
+    "\u7D27": "jǐn", // 紧
+    "\u7D2B": "zǐ", // 紫
+    "\u7D2F": "lèi,lěi", // 累
+    "\u7D30": "xì", // 細
+    "\u7D33": "shēn", // 紳
+    "\u7D39": "shào", // 紹
+    "\u7D42": "zhōng", // 終
+    "\u7D44": "zǔ", // 組
+    "\u7D50": "jié,jiē", // 結
+    "\u7D55": "jué", // 絕
+    "\u7D61": "luò", // 絡
+    "\u7D62": "xuàn", // 絢
+    "\u7D66": "gěi,jǐ", // 給
+    "\u7D68": "róng", // 絨
+    "\u7D71": "tǒng", // 統
+    "\u7D72": "sī", // 絲
+    "\u7D79": "juàn", // 絹
+    "\u7D81": "bǎng", // 綁
+    "\u7D93": "jīng,jing", // 經
+    "\u7D9C": "zōng", // 綜
+    "\u7DA0": "lǜ", // 綠
+    "\u7DA2": "chóu", // 綢
+    "\u7DAD": "wéi", // 維
+    "\u7DB1": "gāng", // 綱
+    "\u7DB2": "wǎng", // 網
+    "\u7DB4": "zhui", // 綴
+    "\u7DB8": "lún", // 綸
+    "\u7DBF": "mián", // 綿
+    "\u7DCA": "jǐn", // 緊
+    "\u7DD2": "xù", // 緒
+    "\u7DDA": "xiàn", // 線
+    "\u7DDE": "duàn", // 緞
+    "\u7DE0": "dì", // 締
+    "\u7DE3": "yuán", // 緣
+    "\u7DE8": "biān", // 編
+    "\u7DE9": "huǎn", // 緩
+    "\u7DEF": "wěi", // 緯
+    "\u7DF4": "liàn", // 練
+    "\u7E1B": "fù", // 縛
+    "\u7E23": "xiàn", // 縣
+    "\u7E2B": "fèng,féng", // 縫
+    "\u7E2E": "suō", // 縮
+    "\u7E31": "zòng", // 縱
+    "\u7E37": "lǚ", // 縷
+    "\u7E3D": "zǒng", // 總
+    "\u7E3E": "jī", // 績
+    "\u7E41": "fán", // 繁
+    "\u7E43": "běng,bēng", // 繃
+    "\u7E54": "zhī", // 織
+    "\u7E5E": "rào,rǎo", // 繞
+    "\u7E61": "xiù", // 繡
+    "\u7E69": "shéng,sheng", // 繩
+    "\u7E6A": "huì", // 繪
+    "\u7E6D": "jiǎn", // 繭
+    "\u7E73": "jiǎo", // 繳
+    "\u7E7C": "jì", // 繼
+    "\u7E8C": "xù", // 續
+    "\u7E8F": "chán", // 纏
+    "\u7E96": "xiān", // 纖
+    "\u7EA0": "jiū", // 纠
+    "\u7EA2": "hóng", // 红
+    "\u7EA4": "xiān", // 纤
+    "\u7EA6": "yuē", // 约
+    "\u7EA7": "jí", // 级
+    "\u7EAA": "jì", // 纪
+    "\u7EAC": "wěi", // 纬
+    "\u7EAF": "chún", // 纯
+    "\u7EB1": "shā", // 纱
+    "\u7EB2": "gāng", // 纲
+    "\u7EB3": "nà", // 纳
+    "\u7EB5": "zòng", // 纵
+    "\u7EB6": "lún", // 纶
+    "\u7EB7": "fēn", // 纷
+    "\u7EB8": "zhǐ", // 纸
+    "\u7EB9": "wén", // 纹
+    "\u7EBA": "fǎng", // 纺
+    "\u7EBD": "niǔ", // 纽
+    "\u7EBF": "xiàn", // 线
+    "\u7EC3": "liàn", // 练
+    "\u7EC4": "zǔ", // 组
+    "\u7EC5": "shēn", // 绅
+    "\u7EC6": "xì", // 细
+    "\u7EC7": "zhī", // 织
+    "\u7EC8": "zhōng", // 终
+    "\u7ECD": "shào", // 绍
+    "\u7ECF": "jīng,jing", // 经
+    "\u7ED1": "bǎng", // 绑
+    "\u7ED2": "róng", // 绒
+    "\u7ED3": "jié,jiē", // 结
+    "\u7ED5": "rào,rǎo", // 绕
+    "\u7ED8": "huì", // 绘
+    "\u7ED9": "gěi,jǐ", // 给
+    "\u7EDA": "xuàn", // 绚
+    "\u7EDC": "luò", // 络
+    "\u7EDD": "jué", // 绝
+    "\u7EDF": "tǒng", // 统
+    "\u7EE2": "juàn", // 绢
+    "\u7EE3": "xiù", // 绣
+    "\u7EE7": "jì", // 继
+    "\u7EE9": "jī", // 绩
+    "\u7EEA": "xù", // 绪
+    "\u7EED": "xù", // 续
+    "\u7EF3": "shéng,sheng", // 绳
+    "\u7EF4": "wéi", // 维
+    "\u7EF5": "mián", // 绵
+    "\u7EF7": "běng,bēng", // 绷
+    "\u7EF8": "chóu", // 绸
+    "\u7EFC": "zōng", // 综
+    "\u7EFF": "lǜ", // 绿
+    "\u7F00": "zhui", // 缀
+    "\u7F0E": "duàn", // 缎
+    "\u7F13": "huǎn", // 缓
+    "\u7F14": "dì", // 缔
+    "\u7F15": "lǚ", // 缕
+    "\u7F16": "biān", // 编
+    "\u7F18": "yuán", // 缘
+    "\u7F1A": "fù", // 缚
+    "\u7F1D": "fèng,féng", // 缝
+    "\u7F20": "chán", // 缠
+    "\u7F29": "suō", // 缩
+    "\u7F30": "jiāng", // 缰
+    "\u7F34": "jiǎo", // 缴
+    "\u7F38": "gāng", // 缸
+    "\u7F3A": "quē", // 缺
+    "\u7F50": "guàn", // 罐
+    "\u7F51": "wǎng", // 网
+    "\u7F5A": "fá", // 罚
+    "\u7F62": "ba,bà", // 罢
+    "\u7F69": "zhào", // 罩
+    "\u7F6A": "zuì,zui", // 罪
+    "\u7F6E": "zhì,zhi", // 置
+    "\u7F70": "fá", // 罰
+    "\u7F72": "shǔ", // 署
+    "\u7F75": "mà", // 罵
+    "\u7F77": "ba,bà", // 罷
+    "\u7F8A": "yáng", // 羊
+    "\u7F8E": "měi", // 美
+    "\u7F94": "gāo", // 羔
+    "\u7FA1": "xiàn", // 羡
+    "\u7FA4": "qún", // 群
+    "\u7FA8": "xiàn", // 羨
+    "\u7FA9": "yì", // 義
+    "\u7FBD": "yǔ", // 羽
+    "\u7FC1": "wēng", // 翁
+    "\u7FC5": "chì", // 翅
+    "\u7FD2": "xí", // 習
+    "\u7FD4": "xiáng", // 翔
+    "\u7FD8": "qiào", // 翘
+    "\u7FF9": "qiào", // 翹
+    "\u7FFB": "fān", // 翻
+    "\u7FFC": "yì", // 翼
+    "\u8000": "yào", // 耀
+    "\u8001": "lǎo", // 老
+    "\u8003": "kǎo", // 考
+    "\u8005": "zhě", // 者
+    "\u800C": "ér", // 而
+    "\u800D": "shuǎ", // 耍
+    "\u8010": "nài", // 耐
+    "\u8015": "gēng", // 耕
+    "\u8017": "hào", // 耗
+    "\u8033": "ěr", // 耳
+    "\u8037": "dā", // 耷
+    "\u8038": "sǒng", // 耸
+    "\u803B": "chǐ", // 耻
+    "\u803D": "dān", // 耽
+    "\u804A": "liáo", // 聊
+    "\u804C": "zhí", // 职
+    "\u8054": "lián", // 联
+    "\u8056": "shèng", // 聖
+    "\u805A": "jù", // 聚
+    "\u805E": "wén", // 聞
+    "\u806A": "cōng", // 聪
+    "\u806F": "lián", // 聯
+    "\u8070": "cōng", // 聰
+    "\u8072": "shēng,sheng", // 聲
+    "\u8073": "sǒng", // 聳
+    "\u8077": "zhí", // 職
+    "\u807D": "tīng,ting", // 聽
+    "\u8083": "sù", // 肃
+    "\u8085": "sù", // 肅
+    "\u8089": "ròu", // 肉
+    "\u808C": "jī", // 肌
+    "\u8096": "xiào", // 肖
+    "\u809A": "dù", // 肚
+    "\u809D": "gān", // 肝
+    "\u80A0": "cháng", // 肠
+    "\u80A1": "gǔ,gu", // 股
+    "\u80A2": "zhī", // 肢
+    "\u80A4": "fū", // 肤
+    "\u80A5": "féi", // 肥
+    "\u80A9": "jiān", // 肩
+    "\u80AA": "fáng", // 肪
+    "\u80AF": "kěn", // 肯
+    "\u80B2": "yù", // 育
+    "\u80BA": "fèi", // 肺
+    "\u80BF": "zhǒng", // 肿
+    "\u80C0": "zhàng", // 胀
+    "\u80C1": "xié", // 胁
+    "\u80C3": "wèi", // 胃
+    "\u80C6": "dǎn", // 胆
+    "\u80CC": "bèi,bēi", // 背
+    "\u80CE": "tāi", // 胎
+    "\u80D6": "pàng", // 胖
+    "\u80DC": "shèng", // 胜
+    "\u80DE": "bāo", // 胞
+    "\u80E1": "hú", // 胡
+    "\u80E7": "lóng", // 胧
+    "\u80F3": "gē", // 胳
+    "\u80F6": "jiāo", // 胶
+    "\u80F8": "xiōng", // 胸
+    "\u80FD": "néng", // 能
+    "\u8102": "zhī", // 脂
+    "\u8105": "xié", // 脅
+    "\u8106": "cuì", // 脆
+    "\u8108": "mài", // 脈
+    "\u8109": "mài", // 脉
+    "\u810A": "jí", // 脊
+    "\u810F": "zàng,zāng", // 脏
+    "\u8111": "nǎo", // 脑
+    "\u8116": "bó", // 脖
+    "\u811A": "jiǎo", // 脚
+    "\u812B": "tuō", // 脫
+    "\u812F": "pú", // 脯
+    "\u8131": "tuō", // 脱
+    "\u8138": "liǎn", // 脸
+    "\u8139": "zhàng", // 脹
+    "\u813E": "pí", // 脾
+    "\u8148": "jīng", // 腈
+    "\u8150": "fǔ,fu", // 腐
+    "\u8154": "qiāng", // 腔
+    "\u8165": "xīng", // 腥
+    "\u8166": "nǎo", // 腦
+    "\u816B": "zhǒng", // 腫
+    "\u816E": "sāi", // 腮
+    "\u8170": "yāo", // 腰
+    "\u8173": "jiǎo", // 腳
+    "\u8178": "cháng", // 腸
+    "\u8179": "fù", // 腹
+    "\u817E": "téng,teng", // 腾
+    "\u817F": "tuǐ", // 腿
+    "\u8180": "bǎng", // 膀
+    "\u818A": "bo", // 膊
+    "\u818F": "gāo", // 膏
+    "\u819A": "fū", // 膚
+    "\u819B": "táng", // 膛
+    "\u819C": "mó", // 膜
+    "\u819D": "xī", // 膝
+    "\u81A0": "jiāo", // 膠
+    "\u81A8": "péng", // 膨
+    "\u81BD": "dǎn", // 膽
+    "\u81C2": "bì,bei", // 臂
+    "\u81C9": "liǎn", // 臉
+    "\u81DF": "zàng,zāng", // 臟
+    "\u81E3": "chén", // 臣
+    "\u81E5": "wò", // 臥
+    "\u81E8": "lín", // 臨
+    "\u81EA": "zì", // 自
+    "\u81ED": "chòu", // 臭
+    "\u81F3": "zhì", // 至
+    "\u81F4": "zhì", // 致
+    "\u8200": "yǎo", // 舀
+    "\u8205": "jiù,jiu", // 舅
+    "\u8206": "yú", // 舆
+    "\u8207": "yǔ,yù", // 與
+    "\u8208": "xìng,xīng", // 興
+    "\u8209": "jǔ,ju", // 舉
+    "\u820A": "jiù", // 舊
+    "\u820B": "xìn", // 舋
+    "\u820C": "shé", // 舌
+    "\u820D": "shě,shè", // 舍
+    "\u8212": "shū", // 舒
+    "\u8214": "tiǎn", // 舔
+    "\u821E": "wǔ", // 舞
+    "\u821F": "zhōu", // 舟
+    "\u822A": "háng", // 航
+    "\u822C": "bān", // 般
+    "\u8230": "jiàn", // 舰
+    "\u8231": "cāng", // 舱
+    "\u8236": "bó", // 舶
+    "\u8239": "chuán", // 船
+    "\u8247": "tǐng", // 艇
+    "\u8258": "sōu", // 艘
+    "\u8259": "cāng", // 艙
+    "\u8266": "jiàn", // 艦
+    "\u826F": "liáng", // 良
+    "\u8270": "jiān", // 艰
+    "\u8271": "jiān", // 艱
+    "\u8272": "sè", // 色
+    "\u8273": "yàn", // 艳
+    "\u8277": "yàn", // 艷
+    "\u827A": "yì", // 艺
+    "\u8282": "jié", // 节
+    "\u8292": "máng", // 芒
+    "\u829D": "zhī", // 芝
+    "\u82A6": "lú,lu", // 芦
+    "\u82AF": "xīn", // 芯
+    "\u82B1": "huā,hua", // 花
+    "\u82BD": "yá", // 芽
+    "\u82C7": "wěi", // 苇
+    "\u82CD": "cāng", // 苍
+    "\u82CF": "sū", // 苏
+    "\u82D7": "miáo", // 苗
+    "\u82E5": "ruò", // 若
+    "\u82E6": "kǔ", // 苦
+    "\u82F1": "yīng", // 英
+    "\u82F9": "píng", // 苹
+    "\u8301": "zhuó", // 茁
+    "\u8302": "mào", // 茂
+    "\u8303": "fàn", // 范
+    "\u8304": "jiā", // 茄
+    "\u8305": "máo", // 茅
+    "\u830E": "jīng", // 茎
+    "\u8327": "jiǎn", // 茧
+    "\u832B": "máng,māng", // 茫
+    "\u8336": "chá", // 茶
+    "\u8338": "rōng", // 茸
+    "\u8349": "cǎo", // 草
+    "\u8350": "jiàn", // 荐
+    "\u8352": "huāng", // 荒
+    "\u8354": "lì", // 荔
+    "\u8361": "dàng", // 荡
+    "\u8363": "róng", // 荣
+    "\u836F": "yào", // 药
+    "\u8377": "hé", // 荷
+    "\u838A": "zhuāng", // 莊
+    "\u8396": "jīng", // 莖
+    "\u83AB": "mò,mo", // 莫
+    "\u83B7": "huò", // 获
+    "\u83B9": "yíng", // 莹
+    "\u83C7": "gu", // 菇
+    "\u83CA": "jú", // 菊
+    "\u83CC": "jūn", // 菌
+    "\u83DC": "cài", // 菜
+    "\u83E9": "pú", // 菩
+    "\u83EF": "huá", // 華
+    "\u8404": "táo", // 萄
+    "\u841D": "luó", // 萝
+    "\u8424": "yíng", // 萤
+    "\u8425": "yíng", // 营
+    "\u8428": "sà", // 萨
+    "\u842C": "wàn", // 萬
+    "\u843D": "luò,là", // 落
+    "\u8449": "yè", // 葉
+    "\u8457": "zhe,zháo,zhù,zhuó,zhāo", // 著
+    "\u8461": "pú", // 葡
+    "\u8466": "wěi", // 葦
+    "\u846B": "hú", // 葫
+    "\u846C": "zàng", // 葬
+    "\u8471": "cōng", // 葱
+    "\u8475": "kuí", // 葵
+    "\u8499": "méng,mēng,měng", // 蒙
+    "\u849C": "suàn", // 蒜
+    "\u84B8": "zhēng", // 蒸
+    "\u84BC": "cāng", // 蒼
+    "\u84C4": "xù", // 蓄
+    "\u84CB": "gài,gai", // 蓋
+    "\u84DD": "lán", // 蓝
+    "\u84EC": "péng", // 蓬
+    "\u8511": "miè", // 蔑
+    "\u8517": "zhe", // 蔗
+    "\u8525": "cōng", // 蔥
+    "\u852C": "shū", // 蔬
+    "\u853C": "ǎi", // 蔼
+    "\u853D": "bì", // 蔽
+    "\u8549": "jiāo", // 蕉
+    "\u8569": "dàng", // 蕩
+    "\u8574": "yùn", // 蕴
+    "\u8584": "báo,bó", // 薄
+    "\u85A9": "sà", // 薩
+    "\u85AA": "xīn", // 薪
+    "\u85AF": "shǔ", // 薯
+    "\u85CD": "lán", // 藍
+    "\u85CF": "cáng", // 藏
+    "\u85DD": "yì", // 藝
+    "\u85E4": "téng", // 藤
+    "\u85E5": "yào", // 藥
+    "\u85F9": "ǎi", // 藹
+    "\u8606": "lú,lu", // 蘆
+    "\u8607": "sū", // 蘇
+    "\u860A": "yùn", // 蘊
+    "\u860B": "píng", // 蘋
+    "\u8611": "mó", // 蘑
+    "\u8638": "zhàn", // 蘸
+    "\u863F": "luó", // 蘿
+    "\u864E": "hǔ,hu", // 虎
+    "\u864F": "lǔ", // 虏
+    "\u8651": "lǜ", // 虑
+    "\u8655": "chù,chǔ,chu", // 處
+    "\u865A": "xū", // 虚
+    "\u865B": "xū", // 虛
+    "\u865C": "lǔ", // 虜
+    "\u865F": "hào,hao,háo", // 號
+    "\u8667": "kuī", // 虧
+    "\u866B": "chóng", // 虫
+    "\u867D": "suī", // 虽
+    "\u867E": "xiā", // 虾
+    "\u8680": "shí", // 蚀
+    "\u8681": "yǐ", // 蚁
+    "\u8682": "mǎ", // 蚂
+    "\u868A": "wén", // 蚊
+    "\u8693": "yǐn", // 蚓
+    "\u8695": "cán", // 蚕
+    "\u869C": "yá", // 蚜
+    "\u86A3": "gong", // 蚣
+    "\u86A9": "chī", // 蚩
+    "\u86AA": "dǒu", // 蚪
+    "\u86AF": "qiū", // 蚯
+    "\u86C0": "zhù", // 蛀
+    "\u86C6": "qū", // 蛆
+    "\u86C7": "shé", // 蛇
+    "\u86CB": "dàn", // 蛋
+    "\u86D9": "wā", // 蛙
+    "\u86DB": "zhū", // 蛛
+    "\u86E4": "há", // 蛤
+    "\u86FE": "é", // 蛾
+    "\u8702": "fēng", // 蜂
+    "\u8708": "wú", // 蜈
+    "\u8713": "tíng", // 蜓
+    "\u8717": "wō", // 蜗
+    "\u8718": "zhī", // 蜘
+    "\u871C": "mì", // 蜜
+    "\u8721": "là", // 蜡
+    "\u873B": "qīng", // 蜻
+    "\u8747": "ying", // 蝇
+    "\u8749": "chán", // 蝉
+    "\u874C": "kē", // 蝌
+    "\u8755": "shí", // 蝕
+    "\u8757": "huáng", // 蝗
+    "\u8759": "biān", // 蝙
+    "\u875F": "wei", // 蝟
+    "\u8760": "fú", // 蝠
+    "\u8766": "xiā", // 蝦
+    "\u8774": "hú", // 蝴
+    "\u8776": "dié", // 蝶
+    "\u8778": "wō", // 蝸
+    "\u878D": "róng", // 融
+    "\u879E": "mǎ", // 螞
+    "\u87A2": "yíng", // 螢
+    "\u87C0": "shuài", // 蟀
+    "\u87C6": "ma", // 蟆
+    "\u87CB": "xī", // 蟋
+    "\u87EC": "chán", // 蟬
+    "\u87FB": "yǐ", // 蟻
+    "\u8805": "ying", // 蠅
+    "\u8815": "rú", // 蠕
+    "\u881F": "là", // 蠟
+    "\u8836": "cán", // 蠶
+    "\u8840": "xuè,xiě", // 血
+    "\u8845": "xìn", // 衅
+    "\u884C": "xíng,háng", // 行
+    "\u884D": "yǎn", // 衍
+    "\u8854": "xián", // 衔
+    "\u8857": "jiē", // 街
+    "\u8859": "yá", // 衙
+    "\u885B": "wèi", // 衛
+    "\u8861": "héng", // 衡
+    "\u8863": "yī", // 衣
+    "\u8865": "bǔ", // 补
+    "\u8868": "biǎo", // 表
+    "\u886B": "shān", // 衫
+    "\u886C": "chèn", // 衬
+    "\u8870": "shuāi", // 衰
+    "\u8884": "ǎo", // 袄
+    "\u888B": "dài,dai", // 袋
+    "\u888D": "páo", // 袍
+    "\u8896": "xiù", // 袖
+    "\u889C": "wà", // 袜
+    "\u88AB": "bèi", // 被
+    "\u88AD": "xí", // 袭
+    "\u88B1": "fu", // 袱
+    "\u88C1": "cái", // 裁
+    "\u88C2": "liè", // 裂
+    "\u88C5": "zhuāng", // 装
+    "\u88D5": "yù", // 裕
+    "\u88D9": "qún", // 裙
+    "\u88DC": "bǔ", // 補
+    "\u88DD": "zhuāng", // 裝
+    "\u88E1": "li,lǐ", // 裡
+    "\u88E4": "kù", // 裤
+    "\u88F3": "shang", // 裳
+    "\u88F9": "guǒ", // 裹
+    "\u8902": "guà", // 褂
+    "\u8907": "fù", // 複
+    "\u8910": "hè", // 褐
+    "\u8932": "kù", // 褲
+    "\u8956": "ǎo", // 襖
+    "\u895F": "jīn", // 襟
+    "\u896A": "wà", // 襪
+    "\u896F": "chèn", // 襯
+    "\u8972": "xí", // 襲
+    "\u897F": "xi,xī", // 西
+    "\u8981": "yào,yāo", // 要
+    "\u8986": "fù", // 覆
+    "\u898B": "jiàn,xiàn,jian", // 見
+    "\u898F": "guī", // 規
+    "\u8996": "shì,shi", // 視
+    "\u89AA": "qīn,qin", // 親
+    "\u89BA": "jué,jiào", // 覺
+    "\u89BD": "lǎn", // 覽
+    "\u89C0": "guān", // 觀
+    "\u89C1": "jiàn,xiàn,jian", // 见
+    "\u89C2": "guān", // 观
+    "\u89C4": "guī", // 规
+    "\u89C6": "shì,shi", // 视
+    "\u89C8": "lǎn", // 览
+    "\u89C9": "jué,jiào", // 觉
+    "\u89D2": "jiǎo,jué", // 角
+    "\u89E3": "jiě", // 解
+    "\u89E6": "chù", // 触
+    "\u89F8": "chù", // 觸
+    "\u8A00": "yán", // 言
+    "\u8A02": "dìng", // 訂
+    "\u8A08": "jì,ji", // 計
+    "\u8A0A": "xùn", // 訊
+    "\u8A0E": "tǎo", // 討
+    "\u8A13": "xun,xùn", // 訓
+    "\u8A18": "jì,ji", // 記
+    "\u8A1D": "yà", // 訝
+    "\u8A1F": "sòng", // 訟
+    "\u8A2A": "fǎng", // 訪
+    "\u8A2D": "shè", // 設
+    "\u8A31": "xǔ", // 許
+    "\u8A34": "su,sù", // 訴
+    "\u8A3A": "zhěn", // 診
+    "\u8A3C": "zhèng", // 証
+    "\u8A55": "píng", // 評
+    "\u8A5E": "cí", // 詞
+    "\u8A62": "xún", // 詢
+    "\u8A66": "shì", // 試
+    "\u8A69": "shī", // 詩
+    "\u8A6B": "chà", // 詫
+    "\u8A6D": "guǐ", // 詭
+    "\u8A71": "huà,hua", // 話
+    "\u8A72": "gāi", // 該
+    "\u8A73": "xiáng", // 詳
+    "\u8A89": "yù", // 誉
+    "\u8A8D": "rèn", // 認
+    "\u8A92": "éi,ěi,èi", // 誒
+    "\u8A93": "shì", // 誓
+    "\u8A95": "dàn", // 誕
+    "\u8A98": "yòu", // 誘
+    "\u8A9E": "yǔ", // 語
+    "\u8AA0": "chéng", // 誠
+    "\u8AA1": "jiè", // 誡
+    "\u8AA3": "wū", // 誣
+    "\u8AA4": "wù,wu", // 誤
+    "\u8AA6": "sòng", // 誦
+    "\u8AAA": "shuō", // 說
+    "\u8AB0": "shuí", // 誰
+    "\u8AB2": "kè", // 課
+    "\u8ABC": "yì", // 誼
+    "\u8ABF": "diào,tiáo", // 調
+    "\u8AC7": "tán", // 談
+    "\u8ACB": "qǐng", // 請
+    "\u8AD2": "liàng", // 諒
+    "\u8AD6": "lùn", // 論
+    "\u8AF7": "fěng", // 諷
+    "\u8AF8": "zhū", // 諸
+    "\u8B00": "móu,mou", // 謀
+    "\u8B02": "wèi", // 謂
+    "\u8B0A": "huǎng", // 謊
+    "\u8B19": "qiān", // 謙
+    "\u8B1B": "jiǎng", // 講
+    "\u8B1D": "xiè,xie", // 謝
+    "\u8B20": "yáo", // 謠
+    "\u8B2C": "miù", // 謬
+    "\u8B39": "jǐn", // 謹
+    "\u8B4F": "jī", // 譏
+    "\u8B58": "shi,shí", // 識
+    "\u8B66": "jǐng", // 警
+    "\u8B6C": "pì", // 譬
+    "\u8B6F": "yì", // 譯
+    "\u8B70": "yì", // 議
+    "\u8B74": "qiǎn", // 譴
+    "\u8B77": "hù", // 護
+    "\u8B7D": "yù", // 譽
+    "\u8B80": "dú", // 讀
+    "\u8B8A": "biàn", // 變
+    "\u8B93": "ràng", // 讓
+    "\u8BA1": "jì,ji", // 计
+    "\u8BA2": "dìng", // 订
+    "\u8BA4": "rèn", // 认
+    "\u8BA5": "jī", // 讥
+    "\u8BA8": "tǎo", // 讨
+    "\u8BA9": "ràng", // 让
+    "\u8BAD": "xun,xùn", // 训
+    "\u8BAE": "yì", // 议
+    "\u8BAF": "xùn", // 讯
+    "\u8BB0": "jì,ji", // 记
+    "\u8BB2": "jiǎng", // 讲
+    "\u8BB6": "yà", // 讶
+    "\u8BB8": "xǔ", // 许
+    "\u8BBA": "lùn", // 论
+    "\u8BBC": "sòng", // 讼
+    "\u8BBD": "fěng", // 讽
+    "\u8BBE": "shè", // 设
+    "\u8BBF": "fǎng", // 访
+    "\u8BC1": "zhèng", // 证
+    "\u8BC4": "píng", // 评
+    "\u8BC6": "shi,shí", // 识
+    "\u8BC9": "su,sù", // 诉
+    "\u8BCA": "zhěn", // 诊
+    "\u8BCD": "cí", // 词
+    "\u8BD1": "yì", // 译
+    "\u8BD5": "shì", // 试
+    "\u8BD7": "shī", // 诗
+    "\u8BDA": "chéng", // 诚
+    "\u8BDD": "huà,hua", // 话
+    "\u8BDE": "dàn", // 诞
+    "\u8BE1": "guǐ", // 诡
+    "\u8BE2": "xún", // 询
+    "\u8BE5": "gāi", // 该
+    "\u8BE6": "xiáng", // 详
+    "\u8BE7": "chà", // 诧
+    "\u8BEB": "jiè", // 诫
+    "\u8BEC": "wū", // 诬
+    "\u8BED": "yǔ", // 语
+    "\u8BEF": "wù,wu", // 误
+    "\u8BF1": "yòu", // 诱
+    "\u8BF4": "shuō", // 说
+    "\u8BF5": "sòng", // 诵
+    "\u8BF6": "éi,ěi,èi", // 诶
+    "\u8BF7": "qǐng", // 请
+    "\u8BF8": "zhū", // 诸
+    "\u8BFB": "dú", // 读
+    "\u8BFE": "kè", // 课
+    "\u8C01": "shuí", // 谁
+    "\u8C03": "diào,tiáo", // 调
+    "\u8C05": "liàng", // 谅
+    "\u8C08": "tán", // 谈
+    "\u8C0A": "yì", // 谊
+    "\u8C0B": "móu,mou", // 谋
+    "\u8C0E": "huǎng", // 谎
+    "\u8C13": "wèi", // 谓
+    "\u8C22": "xiè,xie", // 谢
+    "\u8C23": "yáo", // 谣
+    "\u8C26": "qiān", // 谦
+    "\u8C28": "jǐn", // 谨
+    "\u8C2C": "miù", // 谬
+    "\u8C34": "qiǎn", // 谴
+    "\u8C37": "gǔ", // 谷
+    "\u8C41": "huō", // 豁
+    "\u8C46": "dòu", // 豆
+    "\u8C48": "qǐ", // 豈
+    "\u8C4C": "wān", // 豌
+    "\u8C4E": "shù", // 豎
+    "\u8C61": "xiàng", // 象
+    "\u8C6A": "háo", // 豪
+    "\u8C6B": "yù", // 豫
+    "\u8C6C": "zhū", // 豬
+    "\u8C79": "bào", // 豹
+    "\u8C7A": "chái", // 豺
+    "\u8C8C": "mào", // 貌
+    "\u8C93": "māo", // 貓
+    "\u8C9D": "bèi", // 貝
+    "\u8CA0": "fù,fu", // 負
+    "\u8CA1": "cái", // 財
+    "\u8CA2": "gòng", // 貢
+    "\u8CA7": "pín", // 貧
+    "\u8CA8": "huò", // 貨
+    "\u8CA9": "fàn", // 販
+    "\u8CAA": "tān", // 貪
+    "\u8CAB": "guàn", // 貫
+    "\u8CAC": "zé", // 責
+    "\u8CB4": "guì", // 貴
+    "\u8CB7": "mǎi", // 買
+    "\u8CBB": "fèi", // 費
+    "\u8CBC": "tiē", // 貼
+    "\u8CBF": "mào", // 貿
+    "\u8CC0": "hè", // 賀
+    "\u8CC7": "zī", // 資
+    "\u8CCA": "zéi", // 賊
+    "\u8CD3": "bīn", // 賓
+    "\u8CDE": "shǎng", // 賞
+    "\u8CE0": "péi", // 賠
+    "\u8CE3": "mài,mai", // 賣
+    "\u8CE4": "jiàn", // 賤
+    "\u8CEA": "zhì", // 質
+    "\u8CED": "dǔ", // 賭
+    "\u8CF4": "lài", // 賴
+    "\u8CFA": "zhuàn", // 賺
+    "\u8CFC": "gòu", // 購
+    "\u8CFD": "sài", // 賽
+    "\u8D0A": "zàn", // 贊
+    "\u8D1D": "bèi", // 贝
+    "\u8D1F": "fù,fu", // 负
+    "\u8D21": "gòng", // 贡
+    "\u8D22": "cái", // 财
+    "\u8D23": "zé", // 责
+    "\u8D25": "bài", // 败
+    "\u8D27": "huò", // 货
+    "\u8D28": "zhì", // 质
+    "\u8D29": "fàn", // 贩
+    "\u8D2A": "tān", // 贪
+    "\u8D2B": "pín", // 贫
+    "\u8D2D": "gòu", // 购
+    "\u8D2F": "guàn", // 贯
+    "\u8D31": "jiàn", // 贱
+    "\u8D34": "tiē", // 贴
+    "\u8D35": "guì", // 贵
+    "\u8D38": "mào", // 贸
+    "\u8D39": "fèi", // 费
+    "\u8D3A": "hè", // 贺
+    "\u8D3C": "zéi", // 贼
+    "\u8D44": "zī", // 资
+    "\u8D4C": "dǔ", // 赌
+    "\u8D4F": "shǎng", // 赏
+    "\u8D54": "péi", // 赔
+    "\u8D56": "lài", // 赖
+    "\u8D5A": "zhuàn", // 赚
+    "\u8D5B": "sài", // 赛
+    "\u8D5E": "zàn", // 赞
+    "\u8D64": "chì", // 赤
+    "\u8D70": "zǒu", // 走
+    "\u8D74": "fù", // 赴
+    "\u8D76": "gǎn", // 赶
+    "\u8D77": "qǐ", // 起
+    "\u8D81": "chèn", // 趁
+    "\u8D85": "chāo", // 超
+    "\u8D8A": "yuè", // 越
+    "\u8D8B": "qū", // 趋
+    "\u8D95": "gǎn", // 趕
+    "\u8D9F": "tàng", // 趟
+    "\u8DA3": "qù", // 趣
+    "\u8DA8": "qū", // 趨
+    "\u8DB3": "zú", // 足
+    "\u8DB4": "pā", // 趴
+    "\u8DC3": "yuè", // 跃
+    "\u8DCC": "diē", // 跌
+    "\u8DD1": "pǎo", // 跑
+    "\u8DDB": "bǒ", // 跛
+    "\u8DDD": "jù", // 距
+    "\u8DDF": "gēn", // 跟
+    "\u8DE1": "jī", // 跡
+    "\u8DE8": "kuà", // 跨
+    "\u8DEA": "guì", // 跪
+    "\u8DEF": "lù", // 路
+    "\u8DF3": "tiào", // 跳
+    "\u8DF5": "jiàn", // 践
+    "\u8DFA": "duò", // 跺
+    "\u8E0C": "chóu", // 踌
+    "\u8E0F": "tà,tā", // 踏
+    "\u8E10": "jiàn", // 踐
+    "\u8E22": "tī", // 踢
+    "\u8E29": "cǎi", // 踩
+    "\u8E2A": "zōng", // 踪
+    "\u8E2E": "diǎn", // 踮
+    "\u8E31": "duó", // 踱
+    "\u8E44": "tí", // 蹄
+    "\u8E48": "dǎo", // 蹈
+    "\u8E4B": "tà", // 蹋
+    "\u8E64": "zōng", // 蹤
+    "\u8E66": "bèng", // 蹦
+    "\u8E6C": "dēng", // 蹬
+    "\u8E6D": "cèng", // 蹭
+    "\u8E72": "dūn", // 蹲
+    "\u8E81": "zào", // 躁
+    "\u8E87": "chú", // 躇
+    "\u8E8A": "chóu", // 躊
+    "\u8E8D": "yuè", // 躍
+    "\u8EAB": "shēn", // 身
+    "\u8EAC": "gōng", // 躬
+    "\u8EAF": "qū", // 躯
+    "\u8EB2": "duǒ", // 躲
+    "\u8EBA": "tǎng", // 躺
+    "\u8EC0": "qū", // 軀
+    "\u8ECA": "chē", // 車
+    "\u8ECB": "yà", // 軋
+    "\u8ECC": "guǐ", // 軌
+    "\u8ECD": "jūn", // 軍
+    "\u8EDF": "ruǎn", // 軟
+    "\u8EF8": "zhóu", // 軸
+    "\u8F03": "jiào", // 較
+    "\u8F09": "zài,zǎi", // 載
+    "\u8F14": "fǔ", // 輔
+    "\u8F15": "qīng", // 輕
+    "\u8F1B": "liàng", // 輛
+    "\u8F1D": "huī", // 輝
+    "\u8F29": "bèi", // 輩
+    "\u8F2A": "lún", // 輪
+    "\u8F2F": "ji,jí", // 輯
+    "\u8F38": "shū", // 輸
+    "\u8F3B": "fú", // 輻
+    "\u8F3F": "yú", // 輿
+    "\u8F49": "zhuǎn,zhuàn", // 轉
+    "\u8F4E": "jiào", // 轎
+    "\u8F5F": "hōng", // 轟
+    "\u8F66": "chē", // 车
+    "\u8F67": "yà", // 轧
+    "\u8F68": "guǐ", // 轨
+    "\u8F6C": "zhuǎn,zhuàn", // 转
+    "\u8F6E": "lún", // 轮
+    "\u8F6F": "ruǎn", // 软
+    "\u8F70": "hōng", // 轰
+    "\u8F74": "zhóu", // 轴
+    "\u8F7B": "qīng", // 轻
+    "\u8F7D": "zài,zǎi", // 载
+    "\u8F7F": "jiào", // 轿
+    "\u8F83": "jiào", // 较
+    "\u8F85": "fǔ", // 辅
+    "\u8F86": "liàng", // 辆
+    "\u8F88": "bèi", // 辈
+    "\u8F89": "huī", // 辉
+    "\u8F90": "fú", // 辐
+    "\u8F91": "ji,jí", // 辑
+    "\u8F93": "shū", // 输
+    "\u8F9B": "xīn", // 辛
+    "\u8F9C": "gū", // 辜
+    "\u8F9E": "cí", // 辞
+    "\u8F9F": "pì,bì", // 辟
+    "\u8FA3": "là", // 辣
+    "\u8FA6": "bàn", // 辦
+    "\u8FA8": "biàn", // 辨
+    "\u8FA9": "biàn", // 辩
+    "\u8FAB": "biàn", // 辫
+    "\u8FAD": "cí", // 辭
+    "\u8FAE": "biàn", // 辮
+    "\u8FAF": "biàn", // 辯
+    "\u8FB1": "rǔ", // 辱
+    "\u8FB2": "nóng", // 農
+    "\u8FB9": "biān,bian", // 边
+    "\u8FBD": "liáo", // 辽
+    "\u8FBE": "dá", // 达
+    "\u8FC1": "qiān", // 迁
+    "\u8FC5": "xùn", // 迅
+    "\u8FC7": "guò,guo", // 过
+    "\u8FC8": "mài", // 迈
+    "\u8FCE": "yíng", // 迎
+    "\u8FD0": "yùn", // 运
+    "\u8FD1": "jìn", // 近
+    "\u8FD4": "fǎn", // 返
+    "\u8FD8": "hái,huán", // 还
+    "\u8FD9": "zhè", // 这
+    "\u8FDB": "jìn", // 进
+    "\u8FDC": "yuǎn", // 远
+    "\u8FDD": "wéi", // 违
+    "\u8FDE": "lián", // 连
+    "\u8FDF": "chí", // 迟
+    "\u8FEB": "pò", // 迫
+    "\u8FF0": "shù", // 述
+    "\u8FF7": "mí", // 迷
+    "\u8FF9": "jī", // 迹
+    "\u8FFD": "zhuī", // 追
+    "\u9000": "tuì", // 退
+    "\u9001": "sòng", // 送
+    "\u9002": "shì", // 适
+    "\u9003": "táo", // 逃
+    "\u9009": "xuǎn", // 选
+    "\u900A": "xùn", // 逊
+    "\u900F": "tòu", // 透
+    "\u9010": "zhú", // 逐
+    "\u9012": "dì", // 递
+    "\u9014": "tú", // 途
+    "\u9017": "dòu", // 逗
+    "\u9019": "zhè", // 這
+    "\u901A": "tōng,tòng", // 通
+    "\u901B": "guàng", // 逛
+    "\u901D": "shì", // 逝
+    "\u901F": "sù", // 速
+    "\u9020": "zào", // 造
+    "\u9022": "féng", // 逢
+    "\u9023": "lián", // 連
+    "\u902E": "dǎi,dài", // 逮
+    "\u9032": "jìn", // 進
+    "\u903B": "luó", // 逻
+    "\u903C": "bī", // 逼
+    "\u9047": "yù", // 遇
+    "\u904B": "yùn", // 運
+    "\u904D": "biàn", // 遍
+    "\u904E": "guò,guo", // 過
+    "\u9053": "dào,dao", // 道
+    "\u9054": "dá", // 達
+    "\u9055": "wéi", // 違
+    "\u9057": "yí", // 遗
+    "\u9059": "yáo", // 遙
+    "\u905C": "xùn", // 遜
+    "\u905E": "dì", // 遞
+    "\u9060": "yuǎn", // 遠
+    "\u9063": "qiǎn", // 遣
+    "\u9065": "yáo", // 遥
+    "\u9069": "shì", // 適
+    "\u906D": "zāo", // 遭
+    "\u906E": "zhē", // 遮
+    "\u9072": "chí", // 遲
+    "\u9075": "zūn", // 遵
+    "\u9077": "qiān", // 遷
+    "\u9078": "xuǎn", // 選
+    "\u907A": "yí", // 遺
+    "\u907C": "liáo", // 遼
+    "\u907F": "bì", // 避
+    "\u9080": "yāo", // 邀
+    "\u9081": "mài", // 邁
+    "\u9084": "hái,huán", // 還
+    "\u908A": "biān,bian", // 邊
+    "\u908F": "luó", // 邏
+    "\u90A3": "nà", // 那
+    "\u90A6": "bāng", // 邦
+    "\u90AE": "yóu", // 邮
+    "\u90BB": "lín", // 邻
+    "\u90C1": "yù", // 郁
+    "\u90CA": "jiāo", // 郊
+    "\u90D1": "zhèng", // 郑
+    "\u90E8": "bù", // 部
+    "\u90F5": "yóu", // 郵
+    "\u90FD": "dōu,dū", // 都
+    "\u9109": "xiāng", // 鄉
+    "\u9119": "bǐ", // 鄙
+    "\u912D": "zhèng", // 鄭
+    "\u9130": "lín", // 鄰
+    "\u914D": "pèi", // 配
+    "\u9152": "jiǔ", // 酒
+    "\u916C": "chou", // 酬
+    "\u9171": "jiàng", // 酱
+    "\u9175": "jiào", // 酵
+    "\u9176": "méi", // 酶
+    "\u9177": "kù", // 酷
+    "\u9178": "suān", // 酸
+    "\u917F": "niàng", // 酿
+    "\u9189": "zuì", // 醉
+    "\u918B": "cù", // 醋
+    "\u9192": "xǐng", // 醒
+    "\u91AB": "yī", // 醫
+    "\u91AC": "jiàng", // 醬
+    "\u91C0": "niàng", // 釀
+    "\u91C7": "cǎi", // 采
+    "\u91CA": "shì", // 释
+    "\u91CB": "shì", // 釋
+    "\u91CC": "lǐ,li", // 里
+    "\u91CD": "zhòng,chóng", // 重
+    "\u91CE": "yě", // 野
+    "\u91CF": "liàng,liang,liáng", // 量
+    "\u91D1": "jīn", // 金
+    "\u91D8": "dīng", // 釘
+    "\u91DD": "zhēn", // 針
+    "\u91E3": "diào", // 釣
+    "\u9214": "chāo", // 鈔
+    "\u9223": "gài", // 鈣
+    "\u9234": "líng", // 鈴
+    "\u9237": "gǔ", // 鈷
+    "\u923E": "yóu", // 鈾
+    "\u9257": "qián", // 鉗
+    "\u925B": "qiān", // 鉛
+    "\u9264": "gōu", // 鉤
+    "\u9274": "jiàn", // 鉴
+    "\u9280": "yín", // 銀
+    "\u9285": "tóng", // 銅
+    "\u929C": "xián", // 銜
+    "\u92B3": "ruì", // 銳
+    "\u92B7": "xiāo", // 銷
+    "\u92C1": "lǚ", // 鋁
+    "\u92C5": "xīn", // 鋅
+    "\u92D2": "fēng", // 鋒
+    "\u92E4": "chú", // 鋤
+    "\u92EA": "pù,pū,pu", // 鋪
+    "\u92F8": "jù", // 鋸
+    "\u92FC": "gāng", // 鋼
+    "\u9304": "lù", // 錄
+    "\u9318": "chuí", // 錘
+    "\u9320": "dìng", // 錠
+    "\u9322": "qián,qian", // 錢
+    "\u9326": "jǐn", // 錦
+    "\u932B": "xī", // 錫
+    "\u932F": "cuò", // 錯
+    "\u934B": "guō", // 鍋
+    "\u934D": "dù", // 鍍
+    "\u935B": "duàn", // 鍛
+    "\u936C": "qiāo", // 鍬
+    "\u9375": "jiàn", // 鍵
+    "\u9382": "měi", // 鎂
+    "\u9396": "suǒ", // 鎖
+    "\u93AE": "zhèn", // 鎮
+    "\u93C8": "liàn", // 鏈
+    "\u93DF": "chǎn", // 鏟
+    "\u93E1": "jìng", // 鏡
+    "\u93FD": "xiù", // 鏽
+    "\u9418": "zhōng", // 鐘
+    "\u942E": "lián", // 鐮
+    "\u9435": "tiě", // 鐵
+    "\u943A": "dang", // 鐺
+    "\u9444": "zhù", // 鑄
+    "\u9452": "jiàn", // 鑒
+    "\u9470": "yào", // 鑰
+    "\u9472": "xiāng", // 鑲
+    "\u947C": "luó", // 鑼
+    "\u947D": "zuān", // 鑽
+    "\u947F": "záo", // 鑿
+    "\u9488": "zhēn", // 针
+    "\u9489": "dīng", // 钉
+    "\u9493": "diào", // 钓
+    "\u9499": "gài", // 钙
+    "\u949E": "chāo", // 钞
+    "\u949F": "zhōng", // 钟
+    "\u94A2": "gāng", // 钢
+    "\u94A5": "yào", // 钥
+    "\u94A6": "qīn", // 钦
+    "\u94A9": "gōu", // 钩
+    "\u94B1": "qián,qian", // 钱
+    "\u94B3": "qián", // 钳
+    "\u94B4": "gǔ", // 钴
+    "\u94BB": "zuān", // 钻
+    "\u94C0": "yóu", // 铀
+    "\u94C1": "tiě", // 铁
+    "\u94C3": "líng", // 铃
+    "\u94C5": "qiān", // 铅
+    "\u94DB": "dang", // 铛
+    "\u94DC": "tóng", // 铜
+    "\u94DD": "lǚ", // 铝
+    "\u94F2": "chǎn", // 铲
+    "\u94F6": "yín", // 银
+    "\u94F8": "zhù", // 铸
+    "\u94FA": "pù,pū,pu", // 铺
+    "\u94FE": "liàn", // 链
+    "\u9500": "xiāo", // 销
+    "\u9501": "suǒ", // 锁
+    "\u9504": "chú", // 锄
+    "\u9505": "guō", // 锅
+    "\u9508": "xiù", // 锈
+    "\u950B": "fēng", // 锋
+    "\u950C": "xīn", // 锌
+    "\u9510": "ruì", // 锐
+    "\u9519": "cuò", // 错
+    "\u9521": "xī", // 锡
+    "\u9523": "luó", // 锣
+    "\u9524": "chuí", // 锤
+    "\u9526": "jǐn", // 锦
+    "\u952D": "dìng", // 锭
+    "\u952E": "jiàn", // 键
+    "\u952F": "jù", // 锯
+    "\u9539": "qiāo", // 锹
+    "\u953B": "duàn", // 锻
+    "\u9540": "dù", // 镀
+    "\u9541": "měi", // 镁
+    "\u9547": "zhèn", // 镇
+    "\u955C": "jìng", // 镜
+    "\u9570": "lián", // 镰
+    "\u9576": "xiāng", // 镶
+    "\u9577": "zhǎng,cháng", // 長
+    "\u957F": "zhǎng,cháng", // 长
+    "\u9580": "mén,men", // 門
+    "\u9583": "shǎn", // 閃
+    "\u9589": "bì", // 閉
+    "\u958B": "kāi", // 開
+    "\u9591": "xián", // 閑
+    "\u9593": "jiān,jian,jiàn", // 間
+    "\u9598": "zhá", // 閘
+    "\u95A5": "fá", // 閥
+    "\u95A8": "guī", // 閨
+    "\u95B1": "yuè", // 閱
+    "\u95CA": "kuò", // 闊
+    "\u95D6": "chuǎng", // 闖
+    "\u95DC": "guān", // 關
+    "\u95E1": "chǎn", // 闡
+    "\u95E8": "mén,men", // 门
+    "\u95EA": "shǎn", // 闪
+    "\u95ED": "bì", // 闭
+    "\u95EE": "wèn,wen", // 问
+    "\u95EF": "chuǎng", // 闯
+    "\u95F2": "xián", // 闲
+    "\u95F4": "jiān,jian,jiàn", // 间
+    "\u95F7": "mèn,mēn", // 闷
+    "\u95F8": "zhá", // 闸
+    "\u95F9": "nào,nao", // 闹
+    "\u95FA": "guī", // 闺
+    "\u95FB": "wén", // 闻
+    "\u9600": "fá", // 阀
+    "\u9605": "yuè", // 阅
+    "\u9610": "chǎn", // 阐
+    "\u9614": "kuò", // 阔
+    "\u961F": "duì", // 队
+    "\u9632": "fáng", // 防
+    "\u9633": "yáng", // 阳
+    "\u9634": "yīn", // 阴
+    "\u9635": "zhèn", // 阵
+    "\u9636": "jiē", // 阶
+    "\u963B": "zǔ", // 阻
+    "\u963F": "ā", // 阿
+    "\u9644": "fù", // 附
+    "\u9645": "jì", // 际
+    "\u9646": "lù", // 陆
+    "\u9648": "chén", // 陈
+    "\u964B": "lòu", // 陋
+    "\u964C": "mò", // 陌
+    "\u964D": "jiàng,xiáng", // 降
+    "\u9650": "xiàn", // 限
+    "\u9661": "dǒu", // 陡
+    "\u9662": "yuàn", // 院
+    "\u9663": "zhèn", // 陣
+    "\u9664": "chú", // 除
+    "\u9669": "xiǎn", // 险
+    "\u966A": "péi", // 陪
+    "\u9670": "yīn", // 陰
+    "\u9673": "chén", // 陳
+    "\u9675": "líng", // 陵
+    "\u9676": "táo", // 陶
+    "\u9677": "xiàn", // 陷
+    "\u9678": "lù", // 陸
+    "\u967D": "yáng", // 陽
+    "\u9686": "lóng,lōng", // 隆
+    "\u968A": "duì", // 隊
+    "\u968E": "jiē", // 階
+    "\u968F": "suí", // 随
+    "\u9690": "yǐn", // 隐
+    "\u9694": "gé", // 隔
+    "\u9698": "ài", // 隘
+    "\u9699": "xì", // 隙
+    "\u969B": "jì", // 際
+    "\u969C": "zhàng", // 障
+    "\u96A7": "suì", // 隧
+    "\u96A8": "suí", // 隨
+    "\u96AA": "xiǎn", // 險
+    "\u96B1": "yǐn", // 隱
+    "\u96B6": "lì", // 隶
+    "\u96B8": "lì", // 隸
+    "\u96BE": "nán,nan,nàn", // 难
+    "\u96C0": "què", // 雀
+    "\u96C4": "xióng", // 雄
+    "\u96C6": "jí", // 集
+    "\u96C7": "gù", // 雇
+    "\u96CC": "cí", // 雌
+    "\u96D5": "diāo", // 雕
+    "\u96D6": "suī", // 雖
+    "\u96D9": "shuāng", // 雙
+    "\u96DC": "zá", // 雜
+    "\u96DE": "jī", // 雞
+    "\u96E2": "lí", // 離
+    "\u96E3": "nán,nan,nàn", // 難
+    "\u96E8": "yǔ", // 雨
+    "\u96EA": "xuě", // 雪
+    "\u96F6": "líng", // 零
+    "\u96F7": "léi", // 雷
+    "\u96F9": "báo", // 雹
+    "\u96FB": "diàn", // 電
+    "\u96FE": "wù", // 雾
+    "\u9700": "xū", // 需
+    "\u9707": "zhèn", // 震
+    "\u9709": "méi", // 霉
+    "\u970E": "shà", // 霎
+    "\u971C": "shuāng", // 霜
+    "\u971E": "xiá", // 霞
+    "\u9727": "wù", // 霧
+    "\u9732": "lù", // 露
+    "\u9738": "bà", // 霸
+    "\u9748": "líng,ling", // 靈
+    "\u9752": "qīng", // 青
+    "\u9759": "jìng,jing", // 静
+    "\u975C": "jìng,jing", // 靜
+    "\u975E": "fēi", // 非
+    "\u9760": "kào", // 靠
+    "\u9762": "miàn,mian", // 面
+    "\u9769": "gé", // 革
+    "\u9774": "xuē", // 靴
+    "\u978B": "xié", // 鞋
+    "\u978F": "gǒng", // 鞏
+    "\u97A0": "jū", // 鞠
+    "\u97AD": "biān", // 鞭
+    "\u97C1": "jiāng", // 韁
+    "\u97CC": "rèn", // 韌
+    "\u97E7": "rèn", // 韧
+    "\u97F3": "yīn", // 音
+    "\u97FF": "xiǎng", // 響
+    "\u9801": "yè", // 頁
+    "\u9802": "dǐng", // 頂
+    "\u9803": "qǐng", // 頃
+    "\u9805": "xiàng", // 項
+    "\u9806": "shùn", // 順
+    "\u9808": "xū", // 須
+    "\u980C": "sòng", // 頌
+    "\u9810": "yù", // 預
+    "\u9811": "wán", // 頑
+    "\u9812": "bān", // 頒
+    "\u9813": "dùn", // 頓
+    "\u9817": "pō", // 頗
+    "\u9818": "lǐng", // 領
+    "\u982D": "tóu,tou", // 頭
+    "\u9830": "jiá", // 頰
+    "\u9838": "jǐng", // 頸
+    "\u983B": "pín", // 頻
+    "\u9846": "kē", // 顆
+    "\u984C": "tí", // 題
+    "\u984D": "é", // 額
+    "\u984F": "yán", // 顏
+    "\u985B": "diān", // 顛
+    "\u985E": "lèi", // 類
+    "\u9867": "gù", // 顧
+    "\u986B": "chàn", // 顫
+    "\u986F": "xiǎn", // 顯
+    "\u9875": "yè", // 页
+    "\u9876": "dǐng", // 顶
+    "\u9877": "qǐng", // 顷
+    "\u9879": "xiàng", // 项
+    "\u987A": "shùn", // 顺
+    "\u987B": "xū", // 须
+    "\u987D": "wán", // 顽
+    "\u987E": "gù", // 顾
+    "\u987F": "dùn", // 顿
+    "\u9881": "bān", // 颁
+    "\u9882": "sòng", // 颂
+    "\u9884": "yù", // 预
+    "\u9886": "lǐng", // 领
+    "\u9887": "pō", // 颇
+    "\u9888": "jǐng", // 颈
+    "\u988A": "jiá", // 颊
+    "\u9891": "pín", // 频
+    "\u9896": "yǐng", // 颖
+    "\u9897": "kē", // 颗
+    "\u9898": "tí", // 题
+    "\u989C": "yán", // 颜
+    "\u989D": "é", // 额
+    "\u98A0": "diān", // 颠
+    "\u98A4": "chàn", // 颤
+    "\u98A8": "fēng", // 風
+    "\u98C4": "piāo", // 飄
+    "\u98CE": "fēng", // 风
+    "\u98D8": "piāo", // 飘
+    "\u98DB": "fēi", // 飛
+    "\u98DE": "fēi", // 飞
+    "\u98DF": "shí,shi", // 食
+    "\u98E2": "jī", // 飢
+    "\u98EF": "fàn", // 飯
+    "\u98F2": "yǐn", // 飲
+    "\u98FC": "sì", // 飼
+    "\u98FD": "bǎo", // 飽
+    "\u98FE": "shì", // 飾
+    "\u9903": "jiǎo", // 餃
+    "\u9905": "bǐng,bing", // 餅
+    "\u990A": "yǎng", // 養
+    "\u9910": "cān", // 餐
+    "\u9913": "è", // 餓
+    "\u9921": "xiàn", // 餡
+    "\u9928": "guǎn", // 館
+    "\u9945": "mán", // 饅
+    "\u9952": "ráo", // 饒
+    "\u995E": "chán", // 饞
+    "\u9965": "jī", // 饥
+    "\u996D": "fàn", // 饭
+    "\u996E": "yǐn", // 饮
+    "\u9970": "shì", // 饰
+    "\u9971": "bǎo", // 饱
+    "\u9972": "sì", // 饲
+    "\u9976": "ráo", // 饶
+    "\u997A": "jiǎo", // 饺
+    "\u997C": "bǐng,bing", // 饼
+    "\u997F": "è", // 饿
+    "\u9985": "xiàn", // 馅
+    "\u9986": "guǎn", // 馆
+    "\u998B": "chán", // 馋
+    "\u9992": "mán", // 馒
+    "\u9996": "shǒu", // 首
+    "\u9999": "xiāng", // 香
+    "\u99AC": "mǎ", // 馬
+    "\u99B1": "tuó", // 馱
+    "\u99B3": "chí", // 馳
+    "\u99C1": "bó", // 駁
+    "\u99D0": "zhù", // 駐
+    "\u99D2": "jū", // 駒
+    "\u99D5": "jià", // 駕
+    "\u99DB": "shǐ", // 駛
+    "\u99DD": "tuo,tuó", // 駝
+    "\u99F1": "luò", // 駱
+    "\u9A0E": "qí", // 騎
+    "\u9A19": "piàn", // 騙
+    "\u9A30": "téng,teng", // 騰
+    "\u9A3E": "luó", // 騾
+    "\u9A45": "qū", // 驅
+    "\u9A55": "jiāo", // 驕
+    "\u9A57": "yàn", // 驗
+    "\u9A5A": "jīng", // 驚
+    "\u9A5F": "zhòu", // 驟
+    "\u9A62": "lǘ", // 驢
+    "\u9A6C": "mǎ", // 马
+    "\u9A6E": "tuó", // 驮
+    "\u9A70": "chí", // 驰
+    "\u9A71": "qū", // 驱
+    "\u9A73": "bó", // 驳
+    "\u9A74": "lǘ", // 驴
+    "\u9A76": "shǐ", // 驶
+    "\u9A79": "jū", // 驹
+    "\u9A7B": "zhù", // 驻
+    "\u9A7C": "tuo,tuó", // 驼
+    "\u9A7E": "jià", // 驾
+    "\u9A82": "mà", // 骂
+    "\u9A84": "jiāo", // 骄
+    "\u9A86": "luò", // 骆
+    "\u9A8C": "yàn", // 验
+    "\u9A91": "qí", // 骑
+    "\u9A97": "piàn", // 骗
+    "\u9AA1": "luó", // 骡
+    "\u9AA4": "zhòu", // 骤
+    "\u9AA8": "gǔ,gú", // 骨
+    "\u9ABC": "gé", // 骼
+    "\u9AD4": "tǐ", // 體
+    "\u9AD8": "gāo", // 高
+    "\u9AE6": "máo", // 髦
+    "\u9B27": "nào,nao", // 鬧
+    "\u9B3C": "guǐ", // 鬼
+    "\u9B42": "hún", // 魂
+    "\u9B44": "pò", // 魄
+    "\u9B54": "mó", // 魔
+    "\u9B5A": "yú", // 魚
+    "\u9BAE": "xiān,xian", // 鮮
+    "\u9BC9": "lǐ", // 鯉
+    "\u9BE8": "jīng", // 鯨
+    "\u9C77": "è", // 鱷
+    "\u9C7C": "yú", // 鱼
+    "\u9C9C": "xiān,xian", // 鲜
+    "\u9CA4": "lǐ", // 鲤
+    "\u9CB8": "jīng", // 鲸
+    "\u9CC4": "è", // 鳄
+    "\u9CE5": "niǎo", // 鳥
+    "\u9CE7": "fú", // 鳧
+    "\u9CF3": "fèng", // 鳳
+    "\u9CF4": "míng", // 鳴
+    "\u9D09": "yā", // 鴉
+    "\u9D28": "yā", // 鴨
+    "\u9D3F": "gē", // 鴿
+    "\u9D51": "juān", // 鵑
+    "\u9D5D": "é", // 鵝
+    "\u9D6A": "ān", // 鵪
+    "\u9D72": "que", // 鵲
+    "\u9D89": "chun", // 鶉
+    "\u9DD7": "ōu", // 鷗
+    "\u9DF9": "yīng", // 鷹
+    "\u9E1D": "lí", // 鸝
+    "\u9E1F": "niǎo", // 鸟
+    "\u9E21": "jī", // 鸡
+    "\u9E23": "míng", // 鸣
+    "\u9E25": "ōu", // 鸥
+    "\u9E26": "yā", // 鸦
+    "\u9E2D": "yā", // 鸭
+    "\u9E3D": "gē", // 鸽
+    "\u9E42": "lí", // 鹂
+    "\u9E43": "juān", // 鹃
+    "\u9E45": "é", // 鹅
+    "\u9E4A": "que", // 鹊
+    "\u9E4C": "ān", // 鹌
+    "\u9E51": "chun", // 鹑
+    "\u9E70": "yīng", // 鹰
+    "\u9E7C": "jiǎn", // 鹼
+    "\u9E7D": "yán", // 鹽
+    "\u9E7F": "lù", // 鹿
+    "\u9E97": "lì", // 麗
+    "\u9EA5": "mài", // 麥
+    "\u9EA6": "mài", // 麦
+    "\u9EBB": "má,ma", // 麻
+    "\u9EBC": "me", // 麼
+    "\u9EC3": "huáng", // 黃
+    "\u9EC4": "huáng", // 黄
+    "\u9ECE": "lí", // 黎
+    "\u9ECF": "nián", // 黏
+    "\u9ED1": "hēi", // 黑
+    "\u9ED8": "mò", // 默
+    "\u9EDE": "diǎn", // 點
+    "\u9EE8": "dǎng", // 黨
+    "\u9EEF": "àn", // 黯
+    "\u9EF4": "méi", // 黴
+    "\u9F13": "gǔ", // 鼓
+    "\u9F20": "shǔ", // 鼠
+    "\u9F3B": "bí", // 鼻
+    "\u9F4A": "qí", // 齊
+    "\u9F50": "qí", // 齐
+    "\u9F52": "chǐ", // 齒
+    "\u9F61": "líng", // 齡
+    "\u9F7F": "chǐ", // 齿
+    "\u9F84": "líng", // 龄
+    "\u9F8D": "lóng", // 龍
+    "\u9F90": "páng", // 龐
+    "\u9F99": "lóng", // 龙
+    "\u9F9C": "guī", // 龜
+    "\u9F9F": "guī", // 龟
+}
+
+let PINYIN2 = {
+    "\u4e00": "yī",
+    "\u4E01": "dīng",
+    "\u4E03": "qī",
+    "\u4E07": "wàn",
+    "\u4E08": "zhàng",
+    "\u4E09": "sān",
+    "\u4E0A": "shàng",
+    "\u4E0B": "xià",
+    "\u4E0D": "bù",
+    "\u4E0E": "yǔ",
+    "\u4E0F": "miǎn",
+    "\u4E10": "gài",
+    "\u4E11": "chǒu",
+    "\u4E13": "zhuān",
+    "\u4E14": "qiě",
+    "\u4E15": "pī",
+    "\u4E16": "shì",
+    "\u4E18": "qiū",
+    "\u4E19": "bǐng",
+    "\u4E1A": "yè",
+    "\u4E1B": "cóng",
+    "\u4E1C": "dōng",
+    "\u4E1D": "sī",
+    "\u4E1E": "chéng",
+    "\u4E22": "diū",
+    "\u4E24": "liǎng",
+    "\u4E25": "yán",
+    "\u4E27": "sàng",
+    "\u4E2A": "gè",
+    "\u4E2B": "yā",
+    "\u4E2D": "zhōng",
+    "\u4E30": "fēng",
+    "\u4E32": "chuàn",
+    "\u4E34": "lín",
+    "\u4E38": "wán",
+    "\u4E39": "dān",
+    "\u4E3A": "wèi",
+    "\u4E3B": "zhǔ",
+    "\u4E3D": "lì",
+    "\u4E3E": "jǔ",
+    "\u4E42": "yì",
+    "\u4E43": "nǎi",
+    "\u4E45": "jiǔ",
+    "\u4E48": "me",
+    "\u4E49": "yì",
+    "\u4E4B": "zhī",
+    "\u4E4C": "wū",
+    "\u4E4D": "zhà",
+    "\u4E4E": "hū",
+    "\u4E4F": "fá",
+    "\u4E50": "lè",
+    "\u4E52": "pīng",
+    "\u4E53": "pāng",
+    "\u4E54": "qiáo",
+    "\u4E56": "guāi",
+    "\u4E58": "chéng",
+    "\u4E59": "yǐ",
+    "\u4E5C": "miē",
+    "\u4E5D": "jiǔ",
+    "\u4E5E": "qǐ",
+    "\u4E5F": "yě",
+    "\u4E60": "xí",
+    "\u4E61": "xiāng",
+    "\u4E66": "shū",
+    "\u4E69": "jī",
+    "\u4E70": "mǎi",
+    "\u4E71": "luàn",
+    "\u4E73": "rǔ",
+    "\u4E78": "nǎ",
+    "\u4E7E": "qián",
+    "\u4E86": "le",
+    "\u4E88": "yǔ",
+    "\u4E89": "zhēng",
+    "\u4E8B": "shì",
+    "\u4E8C": "èr",
+    "\u4E8D": "chù",
+    "\u4E8E": "yú",
+    "\u4E8F": "kuī",
+    "\u4E91": "yún",
+    "\u4E92": "hù",
+    "\u4E93": "qí",
+    "\u4E94": "wǔ",
+    "\u4E95": "jǐng",
+    "\u4E98": "gèn",
+    "\u4E9A": "yà",
+    "\u4E9B": "xiē",
+    "\u4E9F": "jí",
+    "\u4EA1": "wáng",
+    "\u4EA2": "kàng",
+    "\u4EA4": "jiāo",
+    "\u4EA5": "hài",
+    "\u4EA6": "yì",
+    "\u4EA7": "chǎn",
+    "\u4EA8": "hēng",
+    "\u4EA9": "mǔ",
+    "\u4EAB": "xiǎng",
+    "\u4EAC": "jīng",
+    "\u4EAD": "tíng",
+    "\u4EAE": "liàng",
+    "\u4EB2": "qīn",
+    "\u4EB3": "bó",
+    "\u4EB5": "xiè",
+    "\u4EB6": "dǎn",
+    "\u4EB8": "duǒ",
+    "\u4EB9": "wěi",
+    "\u4EBA": "rén",
+    "\u4EBF": "yì",
+    "\u4EC0": "shén",
+    "\u4EC1": "rén",
+    "\u4EC2": "lè",
+    "\u4EC3": "dīng",
+    "\u4EC4": "zè",
+    "\u4EC5": "jǐn",
+    "\u4EC6": "pū",
+    "\u4EC7": "chóu",
+    "\u4EC9": "zhǎng",
+    "\u4ECA": "jīn",
+    "\u4ECB": "jiè",
+    "\u4ECD": "réng",
+    "\u4ECE": "cóng",
+    "\u4ED1": "lún",
+    "\u4ED3": "cāng",
+    "\u4ED4": "zǎi",
+    "\u4ED5": "shì",
+    "\u4ED6": "tā",
+    "\u4ED7": "zhàng",
+    "\u4ED8": "fù",
+    "\u4ED9": "xiān",
+    "\u4EDD": "tóng",
+    "\u4EDE": "rèn",
+    "\u4EDF": "qiān",
+    "\u4EE1": "gē",
+    "\u4EE3": "dài",
+    "\u4EE4": "lìng",
+    "\u4EE5": "yǐ",
+    "\u4EE8": "sā",
+    "\u4EEA": "yí",
+    "\u4EEB": "mù",
+    "\u4EEC": "men",
+    "\u4EF0": "yǎng",
+    "\u4EF2": "zhòng",
+    "\u4EF3": "pǐ",
+    "\u4EF5": "wǔ",
+    "\u4EF6": "jiàn",
+    "\u4EF7": "jià",
+    "\u4EFB": "rèn",
+    "\u4EFD": "fèn",
+    "\u4EFF": "fǎng",
+    "\u4F01": "qǐ",
+    "\u4F08": "xǐn",
+    "\u4F09": "kàng",
+    "\u4F0A": "yī",
+    "\u4F0B": "jí",
+    "\u4F0D": "wǔ",
+    "\u4F0E": "jì",
+    "\u4F0F": "fú",
+    "\u4F10": "fá",
+    "\u4F11": "xiū",
+    "\u4F17": "zhòng",
+    "\u4F18": "yōu",
+    "\u4F19": "huǒ",
+    "\u4F1A": "huì",
+    "\u4F1B": "yǔ",
+    "\u4F1E": "sǎn",
+    "\u4F1F": "wěi",
+    "\u4F20": "chuán",
+    "\u4F22": "yá",
+    "\u4F23": "qiàn",
+    "\u4F24": "shāng",
+    "\u4F25": "chāng",
+    "\u4F26": "lún",
+    "\u4F27": "cāng",
+    "\u4F2A": "wěi",
+    "\u4F2B": "zhù",
+    "\u4F2D": "xián",
+    "\u4F2F": "bó",
+    "\u4F30": "gū",
+    "\u4F32": "nì",
+    "\u4F34": "bàn",
+    "\u4F36": "líng",
+    "\u4F38": "shēn",
+    "\u4F3A": "cì",
+    "\u4F3C": "shì",
+    "\u4F3D": "gā",
+    "\u4F3E": "pī",
+    "\u4F41": "yǐ",
+    "\u4F43": "diàn",
+    "\u4F46": "dàn",
+    "\u4F4D": "wèi",
+    "\u4F4E": "dī",
+    "\u4F4F": "zhù",
+    "\u4F50": "zuǒ",
+    "\u4F51": "yòu",
+    "\u4F53": "tǐ",
+    "\u4F55": "hé",
+    "\u4F56": "bì",
+    "\u4F57": "tuó",
+    "\u4F58": "shé",
+    "\u4F59": "yú",
+    "\u4F5A": "yì",
+    "\u4F5B": "fú",
+    "\u4F5C": "zuò",
+    "\u4F5D": "gōu",
+    "\u4F5E": "nìng",
+    "\u4F5F": "tóng",
+    "\u4F60": "nǐ",
+    "\u4F63": "yōng",
+    "\u4F64": "wǎ",
+    "\u4F65": "qiān",
+    "\u4F69": "pèi",
+    "\u4F6C": "lǎo",
+    "\u4F6F": "yáng",
+    "\u4F70": "bǎi",
+    "\u4F73": "jiā",
+    "\u4F74": "èr",
+    "\u4F76": "jí",
+    "\u4F78": "huó",
+    "\u4F7A": "quán",
+    "\u4F7B": "tiāo",
+    "\u4F7C": "jiǎo",
+    "\u4F7D": "cì",
+    "\u4F7E": "yì",
+    "\u4F7F": "shǐ",
+    "\u4F81": "shēn",
+    "\u4F82": "tuō",
+    "\u4F83": "kǎn",
+    "\u4F84": "zhí",
+    "\u4F88": "chǐ",
+    "\u4F89": "kuǎ",
+    "\u4F8B": "lì",
+    "\u4F8D": "shì",
+    "\u4F8F": "zhū",
+    "\u4F91": "yòu",
+    "\u4F94": "móu",
+    "\u4F97": "dòng",
+    "\u4F98": "chà",
+    "\u4F9B": "gōng",
+    "\u4F9D": "yī",
+    "\u4FA0": "xiá",
+    "\u4FA3": "lǚ",
+    "\u4FA5": "jiǎo",
+    "\u4FA6": "zhēn",
+    "\u4FA7": "cè",
+    "\u4FA8": "qiáo",
+    "\u4FA9": "kuài",
+    "\u4FAA": "chái",
+    "\u4FAC": "nóng",
+    "\u4FAE": "wǔ",
+    "\u4FAF": "hóu",
+    "\u4FB4": "chǒu",
+    "\u4FB5": "qīn",
+    "\u4FB9": "tǐng",
+    "\u4FBF": "biàn",
+    "\u4FC3": "cù",
+    "\u4FC4": "é",
+    "\u4FC5": "qiú",
+    "\u4FCA": "jùn",
+    "\u4FCD": "liáng",
+    "\u4FCE": "zǔ",
+    "\u4FCF": "qiào",
+    "\u4FD0": "lì",
+    "\u4FD1": "yǒng",
+    "\u4FD7": "sú",
+    "\u4FD8": "fú",
+    "\u4FD9": "xī",
+    "\u4FDA": "lǐ",
+    "\u4FDC": "pīng",
+    "\u4FDD": "bǎo",
+    "\u4FDE": "yú",
+    "\u4FDF": "qí",
+    "\u4FE1": "xìn",
+    "\u4FE3": "yǔ",
+    "\u4FE6": "chóu",
+    "\u4FE8": "yǎn",
+    "\u4FE9": "liǎ",
+    "\u4FEA": "lì",
+    "\u4FEB": "lái",
+    "\u4FED": "jiǎn",
+    "\u4FEE": "xiū",
+    "\u4FEF": "fǔ",
+    "\u4FF1": "jù",
+    "\u4FF3": "pái",
+    "\u4FF5": "biào",
+    "\u4FF6": "chù",
+    "\u4FF8": "fèng",
+    "\u4FFA": "ǎn",
+    "\u4FFE": "bǐ",
+    "\u500C": "guān",
+    "\u500D": "bèi",
+    "\u500F": "shū",
+    "\u5012": "dào",
+    "\u5013": "tán",
+    "\u5014": "jué",
+    "\u5015": "chuí",
+    "\u5018": "tǎng",
+    "\u5019": "hòu",
+    "\u501A": "yǐ",
+    "\u501C": "tì",
+    "\u501E": "jìng",
+    "\u501F": "jiè",
+    "\u5021": "chàng",
+    "\u5025": "kōng",
+    "\u5026": "juàn",
+    "\u5027": "zōng",
+    "\u5028": "jù",
+    "\u5029": "qiàn",
+    "\u502A": "ní",
+    "\u502C": "zhuō",
+    "\u502D": "wō",
+    "\u502E": "luǒ",
+    "\u5034": "bèn",
+    "\u503A": "zhài",
+    "\u503B": "yē",
+    "\u503C": "zhí",
+    "\u503E": "qīng",
+    "\u5041": "chēng",
+    "\u5043": "yǎn",
+    "\u5047": "jiǎ",
+    "\u5048": "jì",
+    "\u504C": "ruò",
+    "\u504E": "wēi",
+    "\u504F": "piān",
+    "\u5053": "wò",
+    "\u5055": "xié",
+    "\u505A": "zuò",
+    "\u505C": "tíng",
+    "\u5061": "zhàn",
+    "\u5065": "jiàn",
+    "\u506C": "zǒng",
+    "\u506D": "miǎn",
+    "\u5070": "xiè",
+    "\u5072": "cāi",
+    "\u5076": "ǒu",
+    "\u5077": "tōu",
+    "\u507B": "lóu",
+    "\u507E": "fèn",
+    "\u507F": "cháng",
+    "\u5080": "guī",
+    "\u5083": "sù",
+    "\u5085": "fù",
+    "\u5088": "lì",
+    "\u5089": "nù",
+    "\u508D": "bàng",
+    "\u5092": "xī",
+    "\u5095": "jué",
+    "\u50A3": "dǎi",
+    "\u50A5": "tǎng",
+    "\u50A7": "bīn",
+    "\u50A8": "chǔ",
+    "\u50A9": "nuó",
+    "\u50AC": "cuī",
+    "\u50B2": "ào",
+    "\u50BA": "chì",
+    "\u50BB": "shǎ",
+    "\u50C7": "lù",
+    "\u50CE": "zhuàn",
+    "\u50CF": "xiàng",
+    "\u50D4": "zǔn",
+    "\u50D6": "xī",
+    "\u50DA": "liáo",
+    "\u50E6": "jiù",
+    "\u50E7": "sēng",
+    "\u50EC": "jiāo",
+    "\u50ED": "jiàn",
+    "\u50EE": "tóng",
+    "\u50F0": "bó",
+    "\u50F3": "sù",
+    "\u50F5": "jiāng",
+    "\u50FB": "pì",
+    "\u5106": "jǐng",
+    "\u5107": "xuān",
+    "\u510B": "dān",
+    "\u5112": "rú",
+    "\u5121": "lěi",
+    "\u5126": "biāo",
+    "\u5133": "chán",
+    "\u5134": "ráng",
+    "\u513F": "ér",
+    "\u5140": "wù",
+    "\u5141": "yǔn",
+    "\u5143": "yuán",
+    "\u5144": "xiōng",
+    "\u5145": "chōng",
+    "\u5146": "zhào",
+    "\u5148": "xiān",
+    "\u5149": "guāng",
+    "\u514B": "kè",
+    "\u514D": "miǎn",
+    "\u5151": "duì",
+    "\u5154": "tù",
+    "\u5155": "sì",
+    "\u5156": "yǎn",
+    "\u515A": "dǎng",
+    "\u515C": "dōu",
+    "\u5162": "jīng",
+    "\u5165": "rù",
+    "\u5168": "quán",
+    "\u516B": "bā",
+    "\u516C": "gōng",
+    "\u516D": "liù",
+    "\u516E": "xī",
+    "\u5170": "lán",
+    "\u5171": "gòng",
+    "\u5173": "guān",
+    "\u5174": "xīng",
+    "\u5175": "bīng",
+    "\u5176": "qí",
+    "\u5177": "jù",
+    "\u5178": "diǎn",
+    "\u5179": "zī",
+    "\u517B": "yǎng",
+    "\u517C": "jiān",
+    "\u517D": "shòu",
+    "\u5180": "jì",
+    "\u5181": "chǎn",
+    "\u5185": "nèi",
+    "\u5188": "gāng",
+    "\u5189": "rǎn",
+    "\u518C": "cè",
+    "\u518D": "zài",
+    "\u518F": "jiǒng",
+    "\u5192": "mào",
+    "\u5194": "xǔ",
+    "\u5195": "miǎn",
+    "\u5197": "rǒng",
+    "\u5199": "xiě",
+    "\u519B": "jūn",
+    "\u519C": "nóng",
+    "\u51A0": "guān",
+    "\u51A2": "zhǒng",
+    "\u51A4": "yuān",
+    "\u51A5": "míng",
+    "\u51AC": "dōng",
+    "\u51AE": "gāng",
+    "\u51AF": "féng",
+    "\u51B0": "bīng",
+    "\u51B1": "hù",
+    "\u51B2": "chōng",
+    "\u51B3": "jué",
+    "\u51B5": "kuàng",
+    "\u51B6": "yě",
+    "\u51B7": "lěng",
+    "\u51BB": "dòng",
+    "\u51BC": "xiǎn",
+    "\u51BD": "liè",
+    "\u51C0": "jìng",
+    "\u51C4": "qī",
+    "\u51C6": "zhǔn",
+    "\u51C7": "sōng",
+    "\u51C9": "liáng",
+    "\u51CB": "diāo",
+    "\u51CC": "líng",
+    "\u51CF": "jiǎn",
+    "\u51D1": "còu",
+    "\u51D3": "lì",
+    "\u51D8": "sī",
+    "\u51DB": "lǐn",
+    "\u51DD": "níng",
+    "\u51E0": "jǐ",
+    "\u51E1": "fán",
+    "\u51E4": "fèng",
+    "\u51EB": "fú",
+    "\u51ED": "píng",
+    "\u51EF": "kǎi",
+    "\u51F0": "huáng",
+    "\u51F3": "dèng",
+    "\u51F6": "xiōng",
+    "\u51F8": "tū",
+    "\u51F9": "āo",
+    "\u51FA": "chū",
+    "\u51FB": "jī",
+    "\u51FC": "dàng",
+    "\u51FD": "hán",
+    "\u51FF": "záo",
+    "\u5200": "dāo",
+    "\u5201": "diāo",
+    "\u5203": "rèn",
+    "\u5206": "fēn",
+    "\u5207": "qiè",
+    "\u5208": "yì",
+    "\u520A": "kān",
+    "\u520D": "chú",
+    "\u520E": "wěn",
+    "\u5211": "xíng",
+    "\u5212": "huà",
+    "\u5216": "yuè",
+    "\u5217": "liè",
+    "\u5218": "liú",
+    "\u5219": "zé",
+    "\u521A": "gāng",
+    "\u521B": "chuàng",
+    "\u521D": "chū",
+    "\u5220": "shān",
+    "\u5224": "pàn",
+    "\u5228": "páo",
+    "\u5229": "lì",
+    "\u522B": "bié",
+    "\u522C": "chǎn",
+    "\u522D": "jǐng",
+    "\u522E": "guā",
+    "\u5230": "dào",
+    "\u5233": "kū",
+    "\u5236": "zhì",
+    "\u5237": "shuā",
+    "\u5238": "quàn",
+    "\u5239": "shā",
+    "\u523A": "cì",
+    "\u523B": "kè",
+    "\u523D": "guì",
+    "\u523F": "guì",
+    "\u5240": "kǎi",
+    "\u5241": "duò",
+    "\u5242": "jì",
+    "\u5243": "tì",
+    "\u5245": "lóu",
+    "\u524A": "xuē",
+    "\u524B": "kè",
+    "\u524C": "lá",
+    "\u524D": "qián",
+    "\u5250": "guǎ",
+    "\u5251": "jiàn",
+    "\u5254": "tī",
+    "\u5255": "fèi",
+    "\u5256": "pōu",
+    "\u525C": "wān",
+    "\u525E": "jī",
+    "\u525F": "duō",
+    "\u5261": "shàn",
+    "\u5265": "bō",
+    "\u5267": "jù",
+    "\u5269": "shèng",
+    "\u526A": "jiǎn",
+    "\u526F": "fù",
+    "\u5272": "gē",
+    "\u527D": "piāo",
+    "\u527F": "jiǎo",
+    "\u5281": "qiāo",
+    "\u5282": "jué",
+    "\u5284": "zhā",
+    "\u5288": "pī",
+    "\u5290": "huō",
+    "\u5293": "yì",
+    "\u529B": "lì",
+    "\u529D": "quàn",
+    "\u529E": "bàn",
+    "\u529F": "gōng",
+    "\u52A0": "jiā",
+    "\u52A1": "wù",
+    "\u52A2": "mài",
+    "\u52A3": "liè",
+    "\u52A8": "dòng",
+    "\u52A9": "zhù",
+    "\u52AA": "nǔ",
+    "\u52AB": "jié",
+    "\u52AC": "qú",
+    "\u52AD": "shào",
+    "\u52B1": "lì",
+    "\u52B2": "jìn",
+    "\u52B3": "láo",
+    "\u52BC": "jié",
+    "\u52BE": "hé",
+    "\u52BF": "shì",
+    "\u52C3": "bó",
+    "\u52C7": "yǒng",
+    "\u52C9": "miǎn",
+    "\u52CB": "xūn",
+    "\u52CD": "qíng",
+    "\u52D0": "měng",
+    "\u52D2": "lēi",
+    "\u52D4": "miǎn",
+    "\u52D6": "xù",
+    "\u52D8": "kān",
+    "\u52DA": "yì",
+    "\u52DF": "mù",
+    "\u52E0": "lù",
+    "\u52E4": "qín",
+    "\u52F0": "xié",
+    "\u52FA": "sháo",
+    "\u52FE": "gōu",
+    "\u52FF": "wù",
+    "\u5300": "yún",
+    "\u5305": "bāo",
+    "\u5306": "cōng",
+    "\u5308": "xiōng",
+    "\u530D": "pú",
+    "\u530F": "páo",
+    "\u5310": "fú",
+    "\u5315": "bǐ",
+    "\u5316": "huà",
+    "\u5317": "běi",
+    "\u5319": "shi",
+    "\u531C": "yí",
+    "\u531D": "zā",
+    "\u5320": "jiàng",
+    "\u5321": "kuāng",
+    "\u5323": "xiá",
+    "\u5326": "guǐ",
+    "\u532A": "fěi",
+    "\u532E": "kuì",
+    "\u5339": "pǐ",
+    "\u533A": "qū",
+    "\u533B": "yī",
+    "\u533C": "kē",
+    "\u533E": "biǎn",
+    "\u533F": "nì",
+    "\u5341": "shí",
+    "\u5343": "qiān",
+    "\u5345": "sà",
+    "\u5347": "shēng",
+    "\u5348": "wǔ",
+    "\u5349": "huì",
+    "\u534A": "bàn",
+    "\u534E": "huá",
+    "\u534F": "xié",
+    "\u5351": "bēi",
+    "\u5352": "zú",
+    "\u5353": "zhuó",
+    "\u5355": "dān",
+    "\u5356": "mài",
+    "\u5357": "nán",
+    "\u535A": "bó",
+    "\u535C": "bo",
+    "\u535E": "biàn",
+    "\u535F": "bǔ",
+    "\u5360": "zhàn",
+    "\u5361": "kǎ",
+    "\u5362": "lú",
+    "\u5363": "yǒu",
+    "\u5364": "lǔ",
+    "\u5366": "guà",
+    "\u5367": "wò",
+    "\u536B": "wèi",
+    "\u536C": "áng",
+    "\u536E": "zhī",
+    "\u536F": "mǎo",
+    "\u5370": "yìn",
+    "\u5371": "wēi",
+    "\u5373": "jí",
+    "\u5374": "què",
+    "\u5375": "luǎn",
+    "\u5377": "juǎn",
+    "\u5378": "xiè",
+    "\u537A": "jǐn",
+    "\u537F": "qīng",
+    "\u5382": "chǎng",
+    "\u5384": "è",
+    "\u5385": "tīng",
+    "\u5386": "lì",
+    "\u5389": "lì",
+    "\u538B": "yā",
+    "\u538C": "yàn",
+    "\u538D": "shè",
+    "\u5395": "cè",
+    "\u5396": "páng",
+    "\u5398": "lí",
+    "\u539A": "hòu",
+    "\u539D": "cuò",
+    "\u539F": "yuán",
+    "\u53A2": "xiāng",
+    "\u53A3": "yǎn",
+    "\u53A5": "jué",
+    "\u53A6": "shà",
+    "\u53A8": "chú",
+    "\u53A9": "jiù",
+    "\u53AE": "sī",
+    "\u53BB": "qù",
+    "\u53BE": "dū",
+    "\u53BF": "xiàn",
+    "\u53C1": "sān",
+    "\u53C2": "cān",
+    "\u53C6": "ài",
+    "\u53C7": "dài",
+    "\u53C8": "yòu",
+    "\u53C9": "chā",
+    "\u53CA": "jí",
+    "\u53CB": "yǒu",
+    "\u53CC": "shuāng",
+    "\u53CD": "fǎn",
+    "\u53D1": "fā",
+    "\u53D4": "shū",
+    "\u53D5": "zhuó",
+    "\u53D6": "qǔ",
+    "\u53D7": "shòu",
+    "\u53D8": "biàn",
+    "\u53D9": "xù",
+    "\u53DA": "jiǎ",
+    "\u53DB": "pàn",
+    "\u53DF": "sǒu",
+    "\u53E0": "dié",
+    "\u53E3": "kǒu",
+    "\u53E4": "gǔ",
+    "\u53E5": "jù",
+    "\u53E6": "lìng",
+    "\u53E8": "dāo",
+    "\u53E9": "kòu",
+    "\u53EA": "zhǐ",
+    "\u53EB": "jiào",
+    "\u53EC": "zhào",
+    "\u53ED": "bā",
+    "\u53EE": "dīng",
+    "\u53EF": "kě",
+    "\u53F0": "tái",
+    "\u53F1": "chì",
+    "\u53F2": "shǐ",
+    "\u53F3": "yòu",
+    "\u53F5": "pǒ",
+    "\u53F6": "yè",
+    "\u53F7": "hào",
+    "\u53F8": "sī",
+    "\u53F9": "tàn",
+    "\u53FB": "lè",
+    "\u53FC": "diāo",
+    "\u53FD": "jī",
+    "\u5401": "xū",
+    "\u5403": "chī",
+    "\u5404": "gè",
+    "\u5406": "yāo",
+    "\u5408": "hé",
+    "\u5409": "jí",
+    "\u540A": "diào",
+    "\u540C": "tóng",
+    "\u540D": "míng",
+    "\u540E": "hòu",
+    "\u540F": "lì",
+    "\u5410": "tǔ",
+    "\u5411": "xiàng",
+    "\u5412": "zhā",
+    "\u5413": "xià",
+    "\u5415": "lǚ",
+    "\u5416": "yā",
+    "\u5417": "ma",
+    "\u541B": "jūn",
+    "\u541D": "lìn",
+    "\u541E": "tūn",
+    "\u541F": "yín",
+    "\u5420": "fèi",
+    "\u5421": "bǐ",
+    "\u5423": "qìn",
+    "\u5426": "fǒu",
+    "\u5427": "ba",
+    "\u5428": "dūn",
+    "\u5429": "fēn",
+    "\u542B": "hán",
+    "\u542C": "tīng",
+    "\u542D": "kēng",
+    "\u542E": "shǔn",
+    "\u542F": "qǐ",
+    "\u5431": "zhī",
+    "\u5432": "yǐn",
+    "\u5434": "wú",
+    "\u5435": "chǎo",
+    "\u5438": "xī",
+    "\u5439": "chuī",
+    "\u543B": "wěn",
+    "\u543C": "hǒu",
+    "\u543D": "hōng",
+    "\u543E": "wú",
+    "\u5440": "ya",
+    "\u5443": "è",
+    "\u5446": "dāi",
+    "\u5447": "qǐ",
+    "\u5448": "chéng",
+    "\u544A": "gào",
+    "\u544B": "fū",
+    "\u5450": "nà",
+    "\u5452": "wǔ",
+    "\u5453": "yì",
+    "\u5454": "dāi",
+    "\u5455": "ǒu",
+    "\u5456": "lì",
+    "\u5457": "bei",
+    "\u5458": "yuán",
+    "\u5459": "guō",
+    "\u545B": "qiāng",
+    "\u545C": "wū",
+    "\u5462": "ne",
+    "\u5463": "ḿ",
+    "\u5464": "lìng",
+    "\u5466": "yōu",
+    "\u5468": "zhōu",
+    "\u5471": "gū",
+    "\u5472": "cī",
+    "\u5473": "wèi",
+    "\u5475": "hē",
+    "\u5476": "náo",
+    "\u5477": "gā",
+    "\u5478": "pēi",
+    "\u547B": "shēn",
+    "\u547C": "hū",
+    "\u547D": "mìng",
+    "\u5480": "jǔ",
+    "\u5482": "zā",
+    "\u5484": "duō",
+    "\u5486": "páo",
+    "\u5487": "bié",
+    "\u5489": "yāng",
+    "\u548B": "zǎ",
+    "\u548C": "hé",
+    "\u548D": "hāi",
+    "\u548E": "jiù",
+    "\u548F": "yǒng",
+    "\u5490": "fù",
+    "\u5492": "zhòu",
+    "\u5494": "kā",
+    "\u5495": "gū",
+    "\u5496": "kā",
+    "\u5499": "lóng",
+    "\u549A": "dōng",
+    "\u549B": "níng",
+    "\u549D": "sī",
+    "\u54A1": "èr",
+    "\u54A3": "guāng",
+    "\u54A4": "zhà",
+    "\u54A5": "xì",
+    "\u54A6": "yí",
+    "\u54A7": "liě",
+    "\u54A8": "zī",
+    "\u54A9": "miē",
+    "\u54AA": "mī",
+    "\u54AB": "zhǐ",
+    "\u54AC": "yǎo",
+    "\u54AF": "gē",
+    "\u54B1": "zán",
+    "\u54B3": "ké",
+    "\u54B4": "huī",
+    "\u54B8": "xián",
+    "\u54BA": "xuǎn",
+    "\u54BB": "xiū",
+    "\u54BD": "yàn",
+    "\u54BF": "yī",
+    "\u54C0": "āi",
+    "\u54C1": "pǐn",
+    "\u54C2": "shěn",
+    "\u54C3": "tóng",
+    "\u54C4": "hǒng",
+    "\u54C6": "duō",
+    "\u54C7": "wa",
+    "\u54C8": "hā",
+    "\u54C9": "zāi",
+    "\u54CC": "pài",
+    "\u54CD": "xiǎng",
+    "\u54CE": "āi",
+    "\u54CF": "gén",
+    "\u54D0": "kuāng",
+    "\u54D1": "yǎ",
+    "\u54D2": "dá",
+    "\u54D3": "xiāo",
+    "\u54D4": "bì",
+    "\u54D5": "huì",
+    "\u54D7": "huā",
+    "\u54D9": "kuài",
+    "\u54DA": "duǒ",
+    "\u54DD": "nóng",
+    "\u54DE": "mōu",
+    "\u54DF": "yō",
+    "\u54E2": "lòng",
+    "\u54E5": "gē",
+    "\u54E6": "ó",
+    "\u54E7": "chī",
+    "\u54E8": "shào",
+    "\u54E9": "lī",
+    "\u54EA": "nǎ",
+    "\u54ED": "kū",
+    "\u54EE": "xiāo",
+    "\u54F1": "bō",
+    "\u54F2": "zhé",
+    "\u54F3": "zhā",
+    "\u54FA": "bǔ",
+    "\u54FC": "hēng",
+    "\u54FD": "gěng",
+    "\u54FF": "gě",
+    "\u5501": "yàn",
+    "\u5506": "suō",
+    "\u5507": "chún",
+    "\u5509": "āi",
+    "\u550F": "xī",
+    "\u5510": "táng",
+    "\u5511": "zuò",
+    "\u5514": "wú",
+    "\u551B": "mà",
+    "\u551D": "gòng",
+    "\u5520": "láo",
+    "\u5522": "suǒ",
+    "\u5523": "zào",
+    "\u5524": "huàn",
+    "\u5527": "jī",
+    "\u552A": "fěng",
+    "\u552C": "hǔ",
+    "\u552E": "shòu",
+    "\u552F": "wéi",
+    "\u5530": "shuā",
+    "\u5531": "chàng",
+    "\u5533": "lì",
+    "\u5535": "ǎn",
+    "\u5537": "yō",
+    "\u553C": "shà",
+    "\u553E": "tuò",
+    "\u553F": "hū",
+    "\u5541": "zhāo",
+    "\u5543": "kěn",
+    "\u5544": "zhuó",
+    "\u5546": "shāng",
+    "\u5549": "lín",
+    "\u554A": "a",
+    "\u5550": "cuì",
+    "\u5555": "táo",
+    "\u5556": "dàn",
+    "\u555C": "chuài",
+    "\u5561": "fēi",
+    "\u5564": "pí",
+    "\u5565": "shá",
+    "\u5566": "la",
+    "\u5567": "zé",
+    "\u556A": "pā",
+    "\u556B": "zhě",
+    "\u556C": "sè",
+    "\u556D": "zhuàn",
+    "\u556E": "niè",
+    "\u5570": "luō",
+    "\u5574": "chǎn",
+    "\u5575": "bō",
+    "\u5576": "dìng",
+    "\u5577": "lāng",
+    "\u5578": "xiào",
+    "\u557B": "chì",
+    "\u557C": "tí",
+    "\u557E": "jiū",
+    "\u5580": "kā",
+    "\u5581": "yóng",
+    "\u5582": "wèi",
+    "\u5583": "nán",
+    "\u5584": "shàn",
+    "\u5586": "zhé",
+    "\u5587": "lǎ",
+    "\u5588": "jiē",
+    "\u5589": "hóu",
+    "\u558A": "hǎn",
+    "\u558B": "dié",
+    "\u558F": "nuò",
+    "\u5591": "yīn",
+    "\u5594": "ō",
+    "\u5598": "chuǎn",
+    "\u5599": "huì",
+    "\u559C": "xǐ",
+    "\u559D": "hē",
+    "\u559F": "kuì",
+    "\u55A4": "huáng",
+    "\u55A7": "xuān",
+    "\u55B1": "lí",
+    "\u55B3": "zhā",
+    "\u55B5": "miāo",
+    "\u55B7": "pēn",
+    "\u55B9": "kuí",
+    "\u55BB": "yù",
+    "\u55BD": "lóu",
+    "\u55BE": "kù",
+    "\u55C4": "á",
+    "\u55C5": "xiù",
+    "\u55C9": "sù",
+    "\u55CC": "ài",
+    "\u55CD": "suō",
+    "\u55D0": "hài",
+    "\u55D1": "kē",
+    "\u55D2": "dā",
+    "\u55D3": "sǎng",
+    "\u55D4": "chēn",
+    "\u55D6": "sōu",
+    "\u55DC": "shì",
+    "\u55DD": "gé",
+    "\u55DE": "zī",
+    "\u55DF": "jiē",
+    "\u55E1": "wēng",
+    "\u55E3": "sì",
+    "\u55E4": "chī",
+    "\u55E5": "háo",
+    "\u55E6": "suo",
+    "\u55E8": "hāi",
+    "\u55EA": "qín",
+    "\u55EB": "niè",
+    "\u55EC": "hē",
+    "\u55EF": "ń",
+    "\u55F2": "diē",
+    "\u55F3": "āi",
+    "\u55F5": "tōng",
+    "\u55F7": "áo",
+    "\u55FD": "sòu",
+    "\u55FE": "sǒu",
+    "\u5600": "dí",
+    "\u5601": "qī",
+    "\u5608": "cáo",
+    "\u5609": "jiā",
+    "\u560C": "piào",
+    "\u560E": "gā",
+    "\u560F": "gǔ",
+    "\u5618": "xū",
+    "\u561A": "dē",
+    "\u561B": "ma",
+    "\u561E": "lei",
+    "\u561F": "dū",
+    "\u5621": "tāng",
+    "\u5623": "bēng",
+    "\u5624": "yīng",
+    "\u5627": "mì",
+    "\u562C": "chuài",
+    "\u562D": "pēng",
+    "\u5631": "zhǔ",
+    "\u5632": "cháo",
+    "\u5634": "zuǐ",
+    "\u5636": "sī",
+    "\u5639": "liáo",
+    "\u563B": "xī",
+    "\u563F": "hēi",
+    "\u5640": "xùn",
+    "\u5642": "zǔn",
+    "\u5647": "chuáng",
+    "\u564C": "cēng",
+    "\u564D": "jiào",
+    "\u564E": "yē",
+    "\u5654": "dēng",
+    "\u5657": "pū",
+    "\u5658": "juē",
+    "\u5659": "qín",
+    "\u565C": "lū",
+    "\u5662": "ō",
+    "\u5664": "jìn",
+    "\u5668": "qì",
+    "\u5669": "è",
+    "\u566A": "zào",
+    "\u566B": "yī",
+    "\u566C": "shì",
+    "\u5671": "jué",
+    "\u5676": "gá",
+    "\u567B": "sāi",
+    "\u567C": "pī",
+    "\u5684": "huō",
+    "\u5685": "rú",
+    "\u5686": "hāo",
+    "\u568E": "háo",
+    "\u568F": "tì",
+    "\u5693": "cā",
+    "\u569A": "yín",
+    "\u56A3": "xiāo",
+    "\u56AD": "pǐ",
+    "\u56AF": "huò",
+    "\u56B7": "rǎng",
+    "\u56BC": "jué",
+    "\u56CA": "náng",
+    "\u56D4": "nāng",
+    "\u56DA": "qiú",
+    "\u56DB": "sì",
+    "\u56DE": "huí",
+    "\u56DF": "xìn",
+    "\u56E0": "yīn",
+    "\u56E1": "nān",
+    "\u56E2": "tuán",
+    "\u56E4": "dùn",
+    "\u56EB": "hú",
+    "\u56ED": "yuán",
+    "\u56F0": "kùn",
+    "\u56F1": "cōng",
+    "\u56F4": "wéi",
+    "\u56F5": "lún",
+    "\u56F7": "qūn",
+    "\u56F9": "líng",
+    "\u56FA": "gù",
+    "\u56FD": "guó",
+    "\u56FE": "tú",
+    "\u56FF": "yòu",
+    "\u5703": "pǔ",
+    "\u5704": "yǔ",
+    "\u5706": "yuán",
+    "\u5708": "quān",
+    "\u5709": "yǔ",
+    "\u570A": "qīng",
+    "\u570C": "chuán",
+    "\u5710": "kū",
+    "\u5719": "lüè",
+    "\u571C": "huán",
+    "\u571F": "tǔ",
+    "\u5722": "tǐng",
+    "\u5723": "shèng",
+    "\u5728": "zài",
+    "\u5729": "wéi",
+    "\u572A": "gē",
+    "\u572B": "yù",
+    "\u572C": "wū",
+    "\u572D": "guī",
+    "\u572E": "pǐ",
+    "\u572F": "yí",
+    "\u5730": "dì",
+    "\u5732": "qiān",
+    "\u5733": "zhèn",
+    "\u5739": "kuàng",
+    "\u573A": "chǎng",
+    "\u573B": "qí",
+    "\u573E": "jī",
+    "\u5740": "zhǐ",
+    "\u5742": "bǎn",
+    "\u5747": "jūn",
+    "\u5749": "tún",
+    "\u574A": "fāng",
+    "\u574B": "bèn",
+    "\u574C": "bèn",
+    "\u574D": "tān",
+    "\u574E": "kǎn",
+    "\u574F": "huài",
+    "\u5750": "zuò",
+    "\u5751": "kēng",
+    "\u5752": "bì",
+    "\u5757": "kuài",
+    "\u575A": "jiān",
+    "\u575B": "tán",
+    "\u575C": "lì",
+    "\u575D": "bà",
+    "\u575E": "wù",
+    "\u575F": "fén",
+    "\u5760": "zhuì",
+    "\u5761": "pō",
+    "\u5764": "kūn",
+    "\u5765": "qū",
+    "\u5766": "tǎn",
+    "\u5768": "tuó",
+    "\u5769": "gān",
+    "\u576A": "píng",
+    "\u576B": "diàn",
+    "\u576C": "guà",
+    "\u576D": "ní",
+    "\u576F": "pī",
+    "\u5770": "jiōng",
+    "\u5773": "ào",
+    "\u5777": "kě",
+    "\u577B": "chí",
+    "\u577C": "chè",
+    "\u577D": "líng",
+    "\u5782": "chuí",
+    "\u5783": "lā",
+    "\u5784": "lǒng",
+    "\u5786": "lú",
+    "\u5788": "dài",
+    "\u578B": "xíng",
+    "\u578C": "dòng",
+    "\u578D": "jì",
+    "\u578E": "hè",
+    "\u578F": "lǜ",
+    "\u5792": "lěi",
+    "\u5793": "gāi",
+    "\u5795": "hòu",
+    "\u5799": "guāng",
+    "\u579A": "yáo",
+    "\u579B": "duǒ",
+    "\u579E": "chá",
+    "\u579F": "yáng",
+    "\u57A0": "yín",
+    "\u57A1": "fá",
+    "\u57A2": "gòu",
+    "\u57A3": "yuán",
+    "\u57A4": "dié",
+    "\u57A6": "kěn",
+    "\u57A7": "shǎng",
+    "\u57A9": "è",
+    "\u57AB": "diàn",
+    "\u57AD": "yā",
+    "\u57AE": "kuǎ",
+    "\u57AF": "da",
+    "\u57B1": "dàng",
+    "\u57B2": "kǎi",
+    "\u57B4": "nǎo",
+    "\u57B5": "ǎn",
+    "\u57B8": "yuàn",
+    "\u57BA": "fū",
+    "\u57BE": "hàn",
+    "\u57BF": "xù",
+    "\u57C2": "gěng",
+    "\u57C3": "āi",
+    "\u57C6": "què",
+    "\u57C7": "yǒng",
+    "\u57CB": "mái",
+    "\u57CC": "làng",
+    "\u57CE": "chéng",
+    "\u57CF": "shān",
+    "\u57D2": "liè",
+    "\u57D4": "pǔ",
+    "\u57D5": "chéng",
+    "\u57D7": "bù",
+    "\u57D8": "shí",
+    "\u57D9": "xūn",
+    "\u57DA": "guō",
+    "\u57DD": "niàn",
+    "\u57DF": "yù",
+    "\u57E0": "bù",
+    "\u57E4": "pí",
+    "\u57EA": "kōng",
+    "\u57EB": "chǒng",
+    "\u57ED": "dài",
+    "\u57EF": "ǎn",
+    "\u57F4": "zhí",
+    "\u57F5": "duǒ",
+    "\u57F8": "yì",
+    "\u57F9": "péi",
+    "\u57FA": "jī",
+    "\u57FC": "qí",
+    "\u57FD": "sào",
+    "\u5802": "táng",
+    "\u5803": "kūn",
+    "\u5806": "duī",
+    "\u5807": "jǐn",
+    "\u5809": "yù",
+    "\u580B": "péng",
+    "\u580C": "gù",
+    "\u580D": "tù",
+    "\u580E": "lèng",
+    "\u5810": "yá",
+    "\u5811": "qiàn",
+    "\u5815": "duò",
+    "\u5819": "yīn",
+    "\u581E": "dié",
+    "\u5820": "hòu",
+    "\u5821": "bǎo",
+    "\u5824": "dī",
+    "\u5827": "ruán",
+    "\u5828": "yè",
+    "\u582A": "kān",
+    "\u5830": "yàn",
+    "\u5832": "cí",
+    "\u5835": "dǔ",
+    "\u583C": "hèng",
+    "\u583D": "gāng",
+    "\u583E": "chūn",
+    "\u5844": "léng",
+    "\u5845": "duàn",
+    "\u5846": "wān",
+    "\u584C": "tā",
+    "\u584D": "chéng",
+    "\u5851": "sù",
+    "\u5854": "tǎ",
+    "\u5858": "táng",
+    "\u585D": "bàng",
+    "\u585E": "sāi",
+    "\u5865": "gé",
+    "\u586B": "tián",
+    "\u586C": "yuán",
+    "\u5871": "lǎng",
+    "\u587E": "shú",
+    "\u5880": "chí",
+    "\u5881": "màn",
+    "\u5883": "jìng",
+    "\u5885": "shù",
+    "\u5888": "kàn",
+    "\u5889": "yōng",
+    "\u5890": "jìn",
+    "\u5892": "shāng",
+    "\u5893": "mù",
+    "\u5895": "yàn",
+    "\u5898": "qián",
+    "\u5899": "qiáng",
+    "\u589A": "liáng",
+    "\u589E": "zēng",
+    "\u589F": "xū",
+    "\u58A1": "shàn",
+    "\u58A3": "pú",
+    "\u58A6": "fán",
+    "\u58A8": "mò",
+    "\u58A9": "dūn",
+    "\u58BC": "jī",
+    "\u58C1": "bì",
+    "\u58C5": "yōng",
+    "\u58D1": "hè",
+    "\u58D5": "háo",
+    "\u58E4": "rǎng",
+    "\u58EB": "shì",
+    "\u58EC": "rén",
+    "\u58EE": "zhuàng",
+    "\u58F0": "shēng",
+    "\u58F3": "ké",
+    "\u58F6": "hú",
+    "\u58F8": "kǔn",
+    "\u58F9": "yī",
+    "\u5904": "chù",
+    "\u5907": "bèi",
+    "\u590D": "fù",
+    "\u590F": "xià",
+    "\u5910": "xiòng",
+    "\u5914": "kuí",
+    "\u5915": "xī",
+    "\u5916": "wài",
+    "\u5919": "sù",
+    "\u591A": "duō",
+    "\u591C": "yè",
+    "\u591F": "gòu",
+    "\u5924": "yín",
+    "\u5925": "huǒ",
+    "\u5927": "dà",
+    "\u5929": "tiān",
+    "\u592A": "tài",
+    "\u592B": "fū",
+    "\u592C": "guài",
+    "\u592D": "yāo",
+    "\u592E": "yāng",
+    "\u592F": "hāng",
+    "\u5931": "shī",
+    "\u5934": "tóu",
+    "\u5937": "yí",
+    "\u5938": "kuā",
+    "\u5939": "jiā",
+    "\u593A": "duó",
+    "\u593C": "kuǎng",
+    "\u5941": "lián",
+    "\u5942": "huàn",
+    "\u5944": "yǎn",
+    "\u5947": "qí",
+    "\u5948": "nài",
+    "\u5949": "fèng",
+    "\u594B": "fèn",
+    "\u594E": "kuí",
+    "\u594F": "zòu",
+    "\u5951": "qì",
+    "\u5953": "zhā",
+    "\u5954": "bēn",
+    "\u5955": "yì",
+    "\u5956": "jiǎng",
+    "\u5957": "tào",
+    "\u5958": "zàng",
+    "\u595A": "xī",
+    "\u5960": "diàn",
+    "\u5961": "ào",
+    "\u5962": "shē",
+    "\u5965": "ào",
+    "\u596D": "shì",
+    "\u5973": "nǚ",
+    "\u5974": "nú",
+    "\u5976": "nǎi",
+    "\u5978": "jiān",
+    "\u5979": "tā",
+    "\u597D": "hǎo",
+    "\u5981": "shuò",
+    "\u5982": "rú",
+    "\u5983": "fēi",
+    "\u5984": "wàng",
+    "\u5986": "zhuāng",
+    "\u5987": "fù",
+    "\u5988": "mā",
+    "\u598A": "rèn",
+    "\u598D": "yán",
+    "\u5992": "dù",
+    "\u5993": "jì",
+    "\u5996": "yāo",
+    "\u5997": "jìn",
+    "\u5998": "yún",
+    "\u5999": "miào",
+    "\u599E": "niū",
+    "\u59A3": "bǐ",
+    "\u59A4": "yú",
+    "\u59A5": "tuǒ",
+    "\u59A7": "wàn",
+    "\u59A8": "fáng",
+    "\u59A9": "wǔ",
+    "\u59AA": "yù",
+    "\u59AB": "guī",
+    "\u59AD": "bá",
+    "\u59AE": "nī",
+    "\u59AF": "zhóu",
+    "\u59B2": "dá",
+    "\u59B9": "mèi",
+    "\u59BB": "qī",
+    "\u59BE": "qiè",
+    "\u59C6": "mǔ",
+    "\u59C8": "líng",
+    "\u59CA": "zǐ",
+    "\u59CB": "shǐ",
+    "\u59D0": "jiě",
+    "\u59D1": "gū",
+    "\u59D2": "sì",
+    "\u59D3": "xìng",
+    "\u59D4": "wěi",
+    "\u59D7": "shān",
+    "\u59D8": "pīn",
+    "\u59DA": "yáo",
+    "\u59DC": "jiāng",
+    "\u59DD": "shū",
+    "\u59DE": "jí",
+    "\u59E3": "jiāo",
+    "\u59E4": "gòu",
+    "\u59E5": "lǎo",
+    "\u59E8": "yí",
+    "\u59EC": "jī",
+    "\u59EE": "héng",
+    "\u59F1": "kuā",
+    "\u59F6": "è",
+    "\u59F9": "chà",
+    "\u59FB": "yīn",
+    "\u59FD": "guǐ",
+    "\u59FF": "zī",
+    "\u5A00": "sōng",
+    "\u5A01": "wēi",
+    "\u5A03": "wá",
+    "\u5A04": "lóu",
+    "\u5A05": "yà",
+    "\u5A06": "ráo",
+    "\u5A07": "jiāo",
+    "\u5A08": "luán",
+    "\u5A09": "pīng",
+    "\u5A0C": "lǐ",
+    "\u5A11": "suō",
+    "\u5A13": "wěi",
+    "\u5A18": "niáng",
+    "\u5A1C": "nà",
+    "\u5A1F": "juān",
+    "\u5A20": "shēn",
+    "\u5A23": "dì",
+    "\u5A25": "é",
+    "\u5A29": "miǎn",
+    "\u5A31": "yú",
+    "\u5A32": "wā",
+    "\u5A34": "xián",
+    "\u5A35": "jū",
+    "\u5A36": "qǔ",
+    "\u5A3C": "chāng",
+    "\u5A40": "ē",
+    "\u5A46": "pó",
+    "\u5A49": "wǎn",
+    "\u5A4A": "biǎo",
+    "\u5A4C": "shú",
+    "\u5A4D": "qǐ",
+    "\u5A55": "jié",
+    "\u5A58": "quán",
+    "\u5A5A": "hūn",
+    "\u5A5E": "xìng",
+    "\u5A60": "wān",
+    "\u5A62": "bì",
+    "\u5A64": "chōu",
+    "\u5A67": "jìng",
+    "\u5A6A": "lán",
+    "\u5A6B": "kūn",
+    "\u5A73": "huà",
+    "\u5A74": "yīng",
+    "\u5A75": "chán",
+    "\u5A76": "shěn",
+    "\u5A77": "tíng",
+    "\u5A7A": "wù",
+    "\u5A7B": "nàn",
+    "\u5A7C": "chuò",
+    "\u5A7F": "xù",
+    "\u5A82": "dì",
+    "\u5A84": "měi",
+    "\u5A86": "ruǎn",
+    "\u5A92": "méi",
+    "\u5A93": "huáng",
+    "\u5A96": "yīng",
+    "\u5A9A": "mèi",
+    "\u5A9B": "yuàn",
+    "\u5A9E": "shì",
+    "\u5AAA": "ǎo",
+    "\u5AAD": "xū",
+    "\u5AB1": "yáo",
+    "\u5AB2": "pì",
+    "\u5AB3": "xí",
+    "\u5AB5": "yìng",
+    "\u5AB8": "chī",
+    "\u5ABE": "gòu",
+    "\u5AC1": "jià",
+    "\u5AC2": "sǎo",
+    "\u5AC4": "yuán",
+    "\u5AC9": "jí",
+    "\u5ACC": "xián",
+    "\u5AD2": "ài",
+    "\u5AD4": "pín",
+    "\u5AD5": "yì",
+    "\u5AD6": "piáo",
+    "\u5AD8": "léi",
+    "\u5ADA": "mān",
+    "\u5ADC": "zhāng",
+    "\u5AE0": "lí",
+    "\u5AE1": "dí",
+    "\u5AE3": "yān",
+    "\u5AE6": "cháng",
+    "\u5AE9": "nèn",
+    "\u5AEA": "lào",
+    "\u5AEB": "mó",
+    "\u5AED": "hù",
+    "\u5AF1": "qiáng",
+    "\u5AFD": "liáo",
+    "\u5B09": "xī",
+    "\u5B16": "bì",
+    "\u5B17": "shàn",
+    "\u5B1B": "huán",
+    "\u5B25": "tiǎo",
+    "\u5B2C": "rú",
+    "\u5B34": "yíng",
+    "\u5B37": "mā",
+    "\u5B3F": "yàn",
+    "\u5B40": "shuāng",
+    "\u5B45": "qiān",
+    "\u5B50": "zi",
+    "\u5B51": "jié",
+    "\u5B53": "jué",
+    "\u5B54": "kǒng",
+    "\u5B55": "yùn",
+    "\u5B56": "mā",
+    "\u5B57": "zì",
+    "\u5B58": "cún",
+    "\u5B59": "sūn",
+    "\u5B5A": "fú",
+    "\u5B5B": "bèi",
+    "\u5B5C": "zī",
+    "\u5B5D": "xiào",
+    "\u5B5F": "mèng",
+    "\u5B62": "bāo",
+    "\u5B63": "jì",
+    "\u5B64": "gū",
+    "\u5B65": "nú",
+    "\u5B66": "xué",
+    "\u5B69": "hái",
+    "\u5B6A": "luán",
+    "\u5B6C": "nāo",
+    "\u5B70": "shú",
+    "\u5B71": "càn",
+    "\u5B73": "zī",
+    "\u5B75": "fū",
+    "\u5B7A": "rú",
+    "\u5B7D": "niè",
+    "\u5B81": "níng",
+    "\u5B83": "tā",
+    "\u5B84": "guǐ",
+    "\u5B85": "zhái",
+    "\u5B87": "yǔ",
+    "\u5B88": "shǒu",
+    "\u5B89": "ān",
+    "\u5B8B": "sòng",
+    "\u5B8C": "wán",
+    "\u5B8F": "hóng",
+    "\u5B93": "mì",
+    "\u5B95": "dàng",
+    "\u5B97": "zōng",
+    "\u5B98": "guān",
+    "\u5B99": "zhòu",
+    "\u5B9A": "dìng",
+    "\u5B9B": "wǎn",
+    "\u5B9C": "yí",
+    "\u5B9D": "bǎo",
+    "\u5B9E": "shí",
+    "\u5BA0": "chǒng",
+    "\u5BA1": "shěn",
+    "\u5BA2": "kè",
+    "\u5BA3": "xuān",
+    "\u5BA4": "shì",
+    "\u5BA5": "yòu",
+    "\u5BA6": "huàn",
+    "\u5BA7": "yí",
+    "\u5BAA": "xiàn",
+    "\u5BAB": "gōng",
+    "\u5BAC": "chéng",
+    "\u5BB0": "zǎi",
+    "\u5BB3": "hài",
+    "\u5BB4": "yàn",
+    "\u5BB5": "xiāo",
+    "\u5BB6": "jiā",
+    "\u5BB8": "chén",
+    "\u5BB9": "róng",
+    "\u5BBD": "kuān",
+    "\u5BBE": "bīn",
+    "\u5BBF": "sù",
+    "\u5BC1": "zǎn",
+    "\u5BC2": "jì",
+    "\u5BC4": "jì",
+    "\u5BC5": "yín",
+    "\u5BC6": "mì",
+    "\u5BC7": "kòu",
+    "\u5BCC": "fù",
+    "\u5BD0": "mèi",
+    "\u5BD2": "hán",
+    "\u5BD3": "yù",
+    "\u5BDD": "qǐn",
+    "\u5BDE": "mò",
+    "\u5BDF": "chá",
+    "\u5BE1": "guǎ",
+    "\u5BE4": "wù",
+    "\u5BE5": "liáo",
+    "\u5BE8": "zhài",
+    "\u5BEE": "liáo",
+    "\u5BF0": "huán",
+    "\u5BF8": "cùn",
+    "\u5BF9": "duì",
+    "\u5BFA": "sì",
+    "\u5BFB": "xún",
+    "\u5BFC": "dǎo",
+    "\u5BFF": "shòu",
+    "\u5C01": "fēng",
+    "\u5C04": "shè",
+    "\u5C06": "jiāng",
+    "\u5C09": "wèi",
+    "\u5C0A": "zūn",
+    "\u5C0F": "xiǎo",
+    "\u5C11": "shǎo",
+    "\u5C14": "ěr",
+    "\u5C15": "gǎ",
+    "\u5C16": "jiān",
+    "\u5C18": "chén",
+    "\u5C1A": "shàng",
+    "\u5C1C": "gá",
+    "\u5C1D": "cháng",
+    "\u5C22": "yóu",
+    "\u5C24": "yóu",
+    "\u5C25": "liào",
+    "\u5C27": "yáo",
+    "\u5C28": "máng",
+    "\u5C2A": "wāng",
+    "\u5C2C": "gà",
+    "\u5C31": "jiù",
+    "\u5C34": "gān",
+    "\u5C38": "shī",
+    "\u5C39": "yǐn",
+    "\u5C3A": "chǐ",
+    "\u5C3B": "kāo",
+    "\u5C3C": "ní",
+    "\u5C3D": "jǐn",
+    "\u5C3E": "wěi",
+    "\u5C3F": "niào",
+    "\u5C40": "jú",
+    "\u5C41": "pì",
+    "\u5C42": "céng",
+    "\u5C43": "xì",
+    "\u5C45": "jū",
+    "\u5C48": "qū",
+    "\u5C49": "tì",
+    "\u5C4A": "jiè",
+    "\u5C4B": "wū",
+    "\u5C4E": "shǐ",
+    "\u5C4F": "píng",
+    "\u5C50": "jī",
+    "\u5C51": "xiè",
+    "\u5C55": "zhǎn",
+    "\u5C59": "ē",
+    "\u5C5E": "shǔ",
+    "\u5C60": "tú",
+    "\u5C61": "lǚ",
+    "\u5C63": "xǐ",
+    "\u5C65": "lǚ",
+    "\u5C66": "jù",
+    "\u5C6F": "tún",
+    "\u5C71": "shān",
+    "\u5C79": "yì",
+    "\u5C7A": "qǐ",
+    "\u5C7C": "wù",
+    "\u5C7E": "shēn",
+    "\u5C7F": "yǔ",
+    "\u5C81": "suì",
+    "\u5C82": "qǐ",
+    "\u5C88": "yá",
+    "\u5C8A": "jié",
+    "\u5C8C": "jí",
+    "\u5C8D": "qiān",
+    "\u5C90": "qí",
+    "\u5C91": "cén",
+    "\u5C94": "chà",
+    "\u5C96": "qū",
+    "\u5C97": "gǎng",
+    "\u5C98": "xiàn",
+    "\u5C99": "ào",
+    "\u5C9A": "lán",
+    "\u5C9B": "dǎo",
+    "\u5C9C": "bā",
+    "\u5C9E": "zuò",
+    "\u5CA0": "jù",
+    "\u5CA2": "kě",
+    "\u5CA3": "gǒu",
+    "\u5CA8": "qū",
+    "\u5CA9": "yán",
+    "\u5CAB": "xiù",
+    "\u5CAC": "jiǎ",
+    "\u5CAD": "lǐng",
+    "\u5CB1": "dài",
+    "\u5CB3": "yuè",
+    "\u5CB5": "hù",
+    "\u5CB7": "mín",
+    "\u5CB8": "àn",
+    "\u5CBD": "dōng",
+    "\u5CBF": "kuī",
+    "\u5CC1": "mǎo",
+    "\u5CC2": "tóng",
+    "\u5CC3": "xué",
+    "\u5CC4": "yì",
+    "\u5CCB": "xún",
+    "\u5CD2": "dòng",
+    "\u5CD7": "wéi",
+    "\u5CD8": "huán",
+    "\u5CD9": "zhì",
+    "\u5CDB": "lǐ",
+    "\u5CE1": "xiá",
+    "\u5CE3": "yáo",
+    "\u5CE4": "jiào",
+    "\u5CE5": "zhēng",
+    "\u5CE6": "luán",
+    "\u5CE7": "jiāo",
+    "\u5CE8": "é",
+    "\u5CEA": "yù",
+    "\u5CED": "qiào",
+    "\u5CF0": "fēng",
+    "\u5CF1": "náo",
+    "\u5CFB": "jùn",
+    "\u5CFF": "yǔ",
+    "\u5D00": "làng",
+    "\u5D01": "kàn",
+    "\u5D02": "láo",
+    "\u5D03": "lái",
+    "\u5D04": "xiǎn",
+    "\u5D06": "kōng",
+    "\u5D07": "chóng",
+    "\u5D0C": "jū",
+    "\u5D0E": "qí",
+    "\u5D12": "zú",
+    "\u5D14": "cuī",
+    "\u5D16": "yá",
+    "\u5D1A": "léng",
+    "\u5D1B": "jué",
+    "\u5D1E": "guō",
+    "\u5D1F": "yín",
+    "\u5D21": "hán",
+    "\u5D24": "xiáo",
+    "\u5D26": "yān",
+    "\u5D27": "sōng",
+    "\u5D29": "bēng",
+    "\u5D2D": "zhǎn",
+    "\u5D2E": "gù",
+    "\u5D34": "wǎi",
+    "\u5D36": "fēng",
+    "\u5D3D": "zǎi",
+    "\u5D3E": "yǎo",
+    "\u5D3F": "è",
+    "\u5D41": "kān",
+    "\u5D45": "hán",
+    "\u5D47": "jī",
+    "\u5D4A": "shèng",
+    "\u5D4B": "méi",
+    "\u5D4C": "qiàn",
+    "\u5D4E": "yú",
+    "\u5D56": "chá",
+    "\u5D58": "róng",
+    "\u5D5A": "qīn",
+    "\u5D5B": "yú",
+    "\u5D5D": "lǒu",
+    "\u5D69": "sōng",
+    "\u5D6B": "zī",
+    "\u5D6C": "wéi",
+    "\u5D6F": "cuó",
+    "\u5D72": "niè",
+    "\u5D74": "jǐ",
+    "\u5D82": "zhàng",
+    "\u5D85": "áo",
+    "\u5D8D": "xí",
+    "\u5D92": "céng",
+    "\u5D93": "bō",
+    "\u5D99": "lín",
+    "\u5D9D": "dèng",
+    "\u5D9F": "zūn",
+    "\u5DA6": "zhān",
+    "\u5DB2": "xī",
+    "\u5DB7": "yí",
+    "\u5DC5": "diān",
+    "\u5DC7": "xī",
+    "\u5DC9": "chán",
+    "\u5DCD": "wēi",
+    "\u5DDD": "chuān",
+    "\u5DDE": "zhōu",
+    "\u5DE1": "xún",
+    "\u5DE2": "cháo",
+    "\u5DE5": "gōng",
+    "\u5DE6": "zuǒ",
+    "\u5DE7": "qiǎo",
+    "\u5DE8": "jù",
+    "\u5DE9": "gǒng",
+    "\u5DEB": "wū",
+    "\u5DEE": "chà",
+    "\u5DEF": "qiú",
+    "\u5DF1": "jǐ",
+    "\u5DF2": "yǐ",
+    "\u5DF3": "sì",
+    "\u5DF4": "bā",
+    "\u5DF7": "xiàng",
+    "\u5DFD": "xùn",
+    "\u5DFE": "jīn",
+    "\u5E01": "bì",
+    "\u5E02": "shì",
+    "\u5E03": "bù",
+    "\u5E05": "shuài",
+    "\u5E06": "fān",
+    "\u5E08": "shī",
+    "\u5E0C": "xī",
+    "\u5E0F": "wéi",
+    "\u5E10": "zhàng",
+    "\u5E11": "tǎng",
+    "\u5E14": "pèi",
+    "\u5E15": "pà",
+    "\u5E16": "tiē",
+    "\u5E18": "lián",
+    "\u5E19": "zhì",
+    "\u5E1A": "zhǒu",
+    "\u5E1B": "bó",
+    "\u5E1C": "zhì",
+    "\u5E1D": "dì",
+    "\u5E21": "píng",
+    "\u5E26": "dài",
+    "\u5E27": "zhēn",
+    "\u5E28": "shuì",
+    "\u5E2D": "xí",
+    "\u5E2E": "bāng",
+    "\u5E31": "chóu",
+    "\u5E37": "wéi",
+    "\u5E38": "cháng",
+    "\u5E3B": "zé",
+    "\u5E3C": "guó",
+    "\u5E3D": "mào",
+    "\u5E42": "mì",
+    "\u5E44": "wò",
+    "\u5E45": "fú",
+    "\u5E4C": "huǎng",
+    "\u5E54": "màn",
+    "\u5E55": "mù",
+    "\u5E56": "biāo",
+    "\u5E5B": "zhàng",
+    "\u5E5E": "fú",
+    "\u5E61": "fān",
+    "\u5E62": "chuáng",
+    "\u5E6A": "méng",
+    "\u5E72": "gàn",
+    "\u5E73": "píng",
+    "\u5E74": "nián",
+    "\u5E76": "bìng",
+    "\u5E78": "xìng",
+    "\u5E7A": "yāo",
+    "\u5E7B": "huàn",
+    "\u5E7C": "yòu",
+    "\u5E7D": "yōu",
+    "\u5E7F": "guǎng",
+    "\u5E84": "zhuāng",
+    "\u5E86": "qìng",
+    "\u5E87": "bì",
+    "\u5E8A": "chuáng",
+    "\u5E8B": "guǐ",
+    "\u5E8F": "xù",
+    "\u5E90": "lú",
+    "\u5E91": "wǔ",
+    "\u5E93": "kù",
+    "\u5E94": "yīng",
+    "\u5E95": "dǐ",
+    "\u5E96": "páo",
+    "\u5E97": "diàn",
+    "\u5E99": "miào",
+    "\u5E9A": "gēng",
+    "\u5E9C": "fǔ",
+    "\u5E9E": "páng",
+    "\u5E9F": "fèi",
+    "\u5EA0": "xiáng",
+    "\u5EA4": "zhì",
+    "\u5EA5": "xiū",
+    "\u5EA6": "dù",
+    "\u5EA7": "zuò",
+    "\u5EAD": "tíng",
+    "\u5EB1": "chěng",
+    "\u5EB3": "bì",
+    "\u5EB5": "ān",
+    "\u5EB6": "shù",
+    "\u5EB7": "kāng",
+    "\u5EB8": "yōng",
+    "\u5EB9": "tuǒ",
+    "\u5EBC": "qǐng",
+    "\u5EBE": "yǔ",
+    "\u5EC6": "guī",
+    "\u5EC9": "lián",
+    "\u5ECA": "láng",
+    "\u5ECB": "sōu",
+    "\u5ED1": "jǐn",
+    "\u5ED2": "áo",
+    "\u5ED3": "kuò",
+    "\u5ED6": "liào",
+    "\u5ED9": "yì",
+    "\u5EDB": "chán",
+    "\u5EE8": "xiè",
+    "\u5EEA": "lǐn",
+    "\u5EF6": "yán",
+    "\u5EF7": "tíng",
+    "\u5EFA": "jiàn",
+    "\u5EFF": "niàn",
+    "\u5F00": "kāi",
+    "\u5F01": "biàn",
+    "\u5F02": "yì",
+    "\u5F03": "qì",
+    "\u5F04": "nòng",
+    "\u5F06": "jǔ",
+    "\u5F07": "yǎn",
+    "\u5F08": "yì",
+    "\u5F0A": "bì",
+    "\u5F0B": "yì",
+    "\u5F0F": "shì",
+    "\u5F11": "shì",
+    "\u5F13": "gōng",
+    "\u5F15": "yǐn",
+    "\u5F17": "fú",
+    "\u5F18": "hóng",
+    "\u5F1B": "chí",
+    "\u5F1F": "dì",
+    "\u5F20": "zhāng",
+    "\u5F22": "tāo",
+    "\u5F25": "mí",
+    "\u5F26": "xián",
+    "\u5F27": "hú",
+    "\u5F28": "chāo",
+    "\u5F29": "nǔ",
+    "\u5F2D": "mǐ",
+    "\u5F2F": "wān",
+    "\u5F31": "ruò",
+    "\u5F36": "jiàng",
+    "\u5F38": "péng",
+    "\u5F39": "dàn",
+    "\u5F3A": "qiáng",
+    "\u5F3C": "bì",
+    "\u5F40": "gòu",
+    "\u5F52": "guī",
+    "\u5F53": "dāng",
+    "\u5F55": "lù",
+    "\u5F56": "tuàn",
+    "\u5F57": "huì",
+    "\u5F58": "zhì",
+    "\u5F5D": "yí",
+    "\u5F5F": "yuē",
+    "\u5F62": "xíng",
+    "\u5F64": "tóng",
+    "\u5F66": "yàn",
+    "\u5F67": "yù",
+    "\u5F69": "cǎi",
+    "\u5F6A": "biāo",
+    "\u5F6C": "bīn",
+    "\u5F6D": "péng",
+    "\u5F70": "zhāng",
+    "\u5F71": "yǐng",
+    "\u5F73": "chì",
+    "\u5F77": "páng",
+    "\u5F79": "yì",
+    "\u5F7B": "chè",
+    "\u5F7C": "bǐ",
+    "\u5F80": "wǎng",
+    "\u5F81": "zhēng",
+    "\u5F82": "cú",
+    "\u5F84": "jìng",
+    "\u5F85": "dài",
+    "\u5F87": "xùn",
+    "\u5F88": "hěn",
+    "\u5F89": "yáng",
+    "\u5F8A": "huái",
+    "\u5F8B": "lǜ",
+    "\u5F90": "xú",
+    "\u5F92": "tú",
+    "\u5F95": "lái",
+    "\u5F97": "dé",
+    "\u5F98": "pái",
+    "\u5F99": "xǐ",
+    "\u5F9B": "jì",
+    "\u5F9C": "cháng",
+    "\u5FA1": "yù",
+    "\u5FA8": "huáng",
+    "\u5FAA": "xún",
+    "\u5FAD": "yáo",
+    "\u5FAE": "wēi",
+    "\u5FB5": "zhēng",
+    "\u5FB7": "dé",
+    "\u5FBC": "jiǎo",
+    "\u5FBD": "huī",
+    "\u5FC3": "xīn",
+    "\u5FC5": "bì",
+    "\u5FC6": "yì",
+    "\u5FC9": "dāo",
+    "\u5FCC": "jì",
+    "\u5FCD": "rěn",
+    "\u5FCF": "chàn",
+    "\u5FD0": "tǎn",
+    "\u5FD1": "tè",
+    "\u5FD2": "tè",
+    "\u5FD6": "cǔn",
+    "\u5FD7": "zhì",
+    "\u5FD8": "wàng",
+    "\u5FD9": "máng",
+    "\u5FDD": "tiǎn",
+    "\u5FDE": "mín",
+    "\u5FE0": "zhōng",
+    "\u5FE1": "chōng",
+    "\u5FE4": "wǔ",
+    "\u5FE7": "yōu",
+    "\u5FEA": "sōng",
+    "\u5FEB": "kuài",
+    "\u5FED": "biàn",
+    "\u5FEE": "zhì",
+    "\u5FF1": "chén",
+    "\u5FF3": "tún",
+    "\u5FF5": "niàn",
+    "\u5FF8": "niǔ",
+    "\u5FFA": "xiān",
+    "\u5FFB": "xīn",
+    "\u5FFD": "hū",
+    "\u5FFE": "kài",
+    "\u5FFF": "fèn",
+    "\u6000": "huái",
+    "\u6001": "tài",
+    "\u6002": "sǒng",
+    "\u6003": "wǔ",
+    "\u6004": "òu",
+    "\u6005": "chàng",
+    "\u6006": "chuàng",
+    "\u600A": "chāo",
+    "\u600D": "zuò",
+    "\u600E": "zěn",
+    "\u600F": "yàng",
+    "\u6012": "nù",
+    "\u6014": "zhēng",
+    "\u6015": "pà",
+    "\u6016": "bù",
+    "\u6019": "hù",
+    "\u601B": "dá",
+    "\u601C": "lián",
+    "\u601D": "sī",
+    "\u6020": "dài",
+    "\u6021": "yí",
+    "\u6025": "jí",
+    "\u6026": "pēng",
+    "\u6027": "xìng",
+    "\u6028": "yuàn",
+    "\u6029": "ní",
+    "\u602A": "guài",
+    "\u602B": "fú",
+    "\u602F": "qiè",
+    "\u6035": "chù",
+    "\u603B": "zǒng",
+    "\u603C": "duì",
+    "\u603F": "yì",
+    "\u6041": "nèn",
+    "\u6042": "xún",
+    "\u6043": "shì",
+    "\u604B": "liàn",
+    "\u604D": "huǎng",
+    "\u6050": "kǒng",
+    "\u6052": "héng",
+    "\u6053": "xī",
+    "\u6054": "jiǎo",
+    "\u6055": "shù",
+    "\u6059": "yàng",
+    "\u605A": "huì",
+    "\u605D": "jiá",
+    "\u6062": "huī",
+    "\u6063": "zì",
+    "\u6064": "xù",
+    "\u6067": "nǜ",
+    "\u6068": "hèn",
+    "\u6069": "ēn",
+    "\u606A": "kè",
+    "\u606B": "dòng",
+    "\u606C": "tián",
+    "\u606D": "gōng",
+    "\u606F": "xī",
+    "\u6070": "qià",
+    "\u6073": "kěn",
+    "\u6076": "è",
+    "\u6078": "tòng",
+    "\u6079": "yān",
+    "\u607A": "kǎi",
+    "\u607B": "cè",
+    "\u607C": "nǎo",
+    "\u607D": "yùn",
+    "\u607F": "yǒng",
+    "\u6083": "kǔn",
+    "\u6084": "qiāo",
+    "\u6086": "yù",
+    "\u6088": "jiè",
+    "\u6089": "xī",
+    "\u608C": "tì",
+    "\u608D": "hàn",
+    "\u6092": "yì",
+    "\u6094": "huǐ",
+    "\u6096": "bèi",
+    "\u609A": "sǒng",
+    "\u609B": "quān",
+    "\u609D": "kuī",
+    "\u609F": "wù",
+    "\u60A0": "yōu",
+    "\u60A2": "liàng",
+    "\u60A3": "huàn",
+    "\u60A6": "yuè",
+    "\u60A8": "nín",
+    "\u60AB": "què",
+    "\u60AC": "xuán",
+    "\u60AD": "qiān",
+    "\u60AF": "mǐn",
+    "\u60B0": "cóng",
+    "\u60B1": "fěi",
+    "\u60B2": "bēi",
+    "\u60B4": "cuì",
+    "\u60B8": "jì",
+    "\u60BB": "xìng",
+    "\u60BC": "dào",
+    "\u60C5": "qíng",
+    "\u60C6": "chóu",
+    "\u60C7": "dūn",
+    "\u60CA": "jīng",
+    "\u60CB": "wǎn",
+    "\u60CE": "jì",
+    "\u60D1": "huò",
+    "\u60D4": "tán",
+    "\u60D5": "tì",
+    "\u60D8": "wǎng",
+    "\u60D9": "chuò",
+    "\u60DA": "hū",
+    "\u60DB": "hūn",
+    "\u60DC": "xī",
+    "\u60DD": "chǎng",
+    "\u60DF": "wéi",
+    "\u60E0": "huì",
+    "\u60E6": "diàn",
+    "\u60E7": "jù",
+    "\u60E8": "cǎn",
+    "\u60E9": "chéng",
+    "\u60EB": "bèi",
+    "\u60EC": "qiè",
+    "\u60ED": "cán",
+    "\u60EE": "dàn",
+    "\u60EF": "guàn",
+    "\u60F0": "duò",
+    "\u60F3": "xiǎng",
+    "\u60F4": "zhuì",
+    "\u60F6": "huáng",
+    "\u60F9": "rě",
+    "\u60FA": "xīng",
+    "\u6100": "qiǎo",
+    "\u6101": "chóu",
+    "\u6103": "xuān",
+    "\u6106": "qiān",
+    "\u6108": "yù",
+    "\u6109": "yú",
+    "\u610D": "mǐn",
+    "\u610E": "bì",
+    "\u610F": "yì",
+    "\u6110": "miǎn",
+    "\u6114": "yīn",
+    "\u6115": "è",
+    "\u611A": "yú",
+    "\u611F": "gǎn",
+    "\u6120": "yùn",
+    "\u6123": "lèng",
+    "\u6124": "fèn",
+    "\u6126": "kuì",
+    "\u6127": "kuì",
+    "\u612B": "sù",
+    "\u612D": "qí",
+    "\u613F": "yuàn",
+    "\u6146": "tāo",
+    "\u6148": "cí",
+    "\u614A": "qiàn",
+    "\u614C": "huāng",
+    "\u614E": "shèn",
+    "\u6151": "shè",
+    "\u6155": "mù",
+    "\u615D": "tè",
+    "\u6162": "màn",
+    "\u6165": "zào",
+    "\u6167": "huì",
+    "\u6168": "kǎi",
+    "\u616C": "qín",
+    "\u616D": "yìn",
+    "\u6170": "wèi",
+    "\u6175": "yōng",
+    "\u6177": "kāng",
+    "\u618B": "biē",
+    "\u618E": "zēng",
+    "\u6194": "qiáo",
+    "\u6195": "chéng",
+    "\u6199": "xī",
+    "\u61A7": "chōng",
+    "\u61A8": "hān",
+    "\u61A9": "qì",
+    "\u61AC": "jǐng",
+    "\u61AD": "liǎo",
+    "\u61B7": "chù",
+    "\u61BA": "dàn",
+    "\u61BE": "hàn",
+    "\u61C2": "dǒng",
+    "\u61C8": "xiè",
+    "\u61CA": "ào",
+    "\u61CB": "mào",
+    "\u61D1": "mèn",
+    "\u61D2": "lǎn",
+    "\u61D4": "lǐn",
+    "\u61E6": "nuò",
+    "\u61F5": "měng",
+    "\u61FF": "yì",
+    "\u6206": "gàng",
+    "\u6208": "gē",
+    "\u620A": "wù",
+    "\u620B": "jiān",
+    "\u620C": "xū",
+    "\u620D": "shù",
+    "\u620E": "róng",
+    "\u620F": "xì",
+    "\u6210": "chéng",
+    "\u6211": "wǒ",
+    "\u6212": "jiè",
+    "\u6215": "qiāng",
+    "\u6216": "huò",
+    "\u6217": "qiāng",
+    "\u6218": "zhàn",
+    "\u621A": "qī",
+    "\u621B": "jiá",
+    "\u621F": "jǐ",
+    "\u6221": "kān",
+    "\u6222": "jí",
+    "\u6223": "kuí",
+    "\u6224": "gài",
+    "\u6225": "děng",
+    "\u622A": "jié",
+    "\u622C": "jiǎn",
+    "\u622D": "yǎn",
+    "\u622E": "lù",
+    "\u6233": "chuō",
+    "\u6234": "dài",
+    "\u6237": "hù",
+    "\u623D": "hù",
+    "\u623E": "lì",
+    "\u623F": "fáng",
+    "\u6240": "suǒ",
+    "\u6241": "biǎn",
+    "\u6242": "diàn",
+    "\u6243": "jiōng",
+    "\u6245": "yí",
+    "\u6246": "yǐ",
+    "\u6247": "shàn",
+    "\u6248": "hù",
+    "\u6249": "fēi",
+    "\u624A": "yǎn",
+    "\u624B": "shǒu",
+    "\u624D": "cái",
+    "\u624E": "zhā",
+    "\u6251": "pū",
+    "\u6252": "bā",
+    "\u6253": "dǎ",
+    "\u6254": "rēng",
+    "\u6258": "tuō",
+    "\u625B": "káng",
+    "\u625E": "gǎn",
+    "\u6263": "kòu",
+    "\u6266": "qiān",
+    "\u6267": "zhí",
+    "\u6269": "kuò",
+    "\u626A": "mén",
+    "\u626B": "sǎo",
+    "\u626C": "yáng",
+    "\u626D": "niǔ",
+    "\u626E": "bàn",
+    "\u626F": "chě",
+    "\u6270": "rǎo",
+    "\u6273": "bān",
+    "\u6276": "fú",
+    "\u6279": "pī",
+    "\u627A": "zhǐ",
+    "\u627C": "è",
+    "\u627D": "dèn",
+    "\u627E": "zhǎo",
+    "\u627F": "chéng",
+    "\u6280": "jì",
+    "\u6283": "biàn",
+    "\u6284": "chāo",
+    "\u6289": "jué",
+    "\u628A": "bǎ",
+    "\u6291": "yì",
+    "\u6292": "shū",
+    "\u6293": "zhuā",
+    "\u6294": "póu",
+    "\u6295": "tóu",
+    "\u6296": "dǒu",
+    "\u6297": "kàng",
+    "\u6298": "zhé",
+    "\u629A": "fǔ",
+    "\u629B": "pāo",
+    "\u629F": "tuán",
+    "\u62A0": "kōu",
+    "\u62A1": "lūn",
+    "\u62A2": "qiǎng",
+    "\u62A4": "hù",
+    "\u62A5": "bào",
+    "\u62A8": "pēng",
+    "\u62AB": "pī",
+    "\u62AC": "tái",
+    "\u62B1": "bào",
+    "\u62B5": "dǐ",
+    "\u62B9": "mǒ",
+    "\u62BB": "chēn",
+    "\u62BC": "yā",
+    "\u62BD": "chōu",
+    "\u62BF": "mǐn",
+    "\u62C2": "fú",
+    "\u62C3": "zhǎ",
+    "\u62C4": "zhǔ",
+    "\u62C5": "dān",
+    "\u62C6": "chāi",
+    "\u62C7": "mǔ",
+    "\u62C8": "niān",
+    "\u62C9": "lā",
+    "\u62CA": "fǔ",
+    "\u62CC": "bàn",
+    "\u62CD": "pāi",
+    "\u62CE": "līn",
+    "\u62D0": "guǎi",
+    "\u62D2": "jù",
+    "\u62D3": "tuò",
+    "\u62D4": "bá",
+    "\u62D6": "tuō",
+    "\u62D7": "ǎo",
+    "\u62D8": "jū",
+    "\u62D9": "zhuō",
+    "\u62DB": "zhāo",
+    "\u62DC": "bài",
+    "\u62DF": "nǐ",
+    "\u62E2": "lǒng",
+    "\u62E3": "jiǎn",
+    "\u62E4": "qiá",
+    "\u62E5": "yōng",
+    "\u62E6": "lán",
+    "\u62E7": "níng",
+    "\u62E8": "bō",
+    "\u62E9": "zé",
+    "\u62EC": "kuò",
+    "\u62ED": "shì",
+    "\u62EE": "jié",
+    "\u62EF": "zhěng",
+    "\u62F1": "gǒng",
+    "\u62F3": "quán",
+    "\u62F4": "shuān",
+    "\u62F6": "zā",
+    "\u62F7": "kǎo",
+    "\u62FC": "pīn",
+    "\u62FD": "zhuāi",
+    "\u62FE": "shí",
+    "\u62FF": "ná",
+    "\u6301": "chí",
+    "\u6302": "guà",
+    "\u6307": "zhǐ",
+    "\u6308": "qiè",
+    "\u6309": "àn",
+    "\u630E": "kuà",
+    "\u6311": "tiāo",
+    "\u6313": "zhā",
+    "\u6316": "wā",
+    "\u631A": "zhì",
+    "\u631B": "luán",
+    "\u631D": "wō",
+    "\u631E": "tà",
+    "\u631F": "xié",
+    "\u6320": "náo",
+    "\u6321": "dǎng",
+    "\u6323": "zhēng",
+    "\u6324": "jǐ",
+    "\u6325": "huī",
+    "\u6326": "xián",
+    "\u6328": "āi",
+    "\u632A": "nuó",
+    "\u632B": "cuò",
+    "\u632F": "zhèn",
+    "\u6332": "sā",
+    "\u6339": "yì",
+    "\u633A": "tǐng",
+    "\u633D": "wǎn",
+    "\u6342": "wǔ",
+    "\u6343": "jùn",
+    "\u6345": "tǒng",
+    "\u6346": "kǔn",
+    "\u6349": "zhuō",
+    "\u634B": "lǚ",
+    "\u634C": "bā",
+    "\u634D": "hàn",
+    "\u634E": "shāo",
+    "\u634F": "niē",
+    "\u6350": "juān",
+    "\u6355": "bǔ",
+    "\u635E": "lāo",
+    "\u635F": "sǔn",
+    "\u6361": "jiǎn",
+    "\u6362": "huàn",
+    "\u6363": "dǎo",
+    "\u6367": "pěng",
+    "\u6369": "liè",
+    "\u636D": "bǎi",
+    "\u636E": "jù",
+    "\u636F": "dáo",
+    "\u6376": "chuí",
+    "\u6377": "jié",
+    "\u637A": "nà",
+    "\u637B": "niǎn",
+    "\u637D": "zuó",
+    "\u6380": "xiān",
+    "\u6382": "diān",
+    "\u6387": "duō",
+    "\u6388": "shòu",
+    "\u6389": "diào",
+    "\u638A": "póu",
+    "\u638C": "zhǎng",
+    "\u638E": "jǐ",
+    "\u638F": "tāo",
+    "\u6390": "qiā",
+    "\u6392": "pái",
+    "\u6396": "yē",
+    "\u6398": "jué",
+    "\u639E": "shàn",
+    "\u63A0": "lüè",
+    "\u63A2": "tàn",
+    "\u63A3": "chè",
+    "\u63A5": "jiē",
+    "\u63A7": "kòng",
+    "\u63A8": "tuī",
+    "\u63A9": "yǎn",
+    "\u63AA": "cuò",
+    "\u63AC": "jū",
+    "\u63AD": "tiàn",
+    "\u63AE": "qián",
+    "\u63B0": "bāi",
+    "\u63B3": "lǔ",
+    "\u63B4": "guāi",
+    "\u63B7": "zhì",
+    "\u63B8": "dǎn",
+    "\u63BA": "càn",
+    "\u63BC": "guàn",
+    "\u63BE": "yuàn",
+    "\u63C4": "yú",
+    "\u63C6": "kuí",
+    "\u63C9": "róu",
+    "\u63CD": "zòu",
+    "\u63CF": "miáo",
+    "\u63D0": "tí",
+    "\u63D2": "chā",
+    "\u63D5": "zhèn",
+    "\u63D6": "yī",
+    "\u63E0": "yà",
+    "\u63E1": "wò",
+    "\u63E3": "chuāi",
+    "\u63E9": "kāi",
+    "\u63EA": "jiū",
+    "\u63ED": "jiē",
+    "\u63F3": "xiē",
+    "\u63F4": "yuán",
+    "\u63F6": "yé",
+    "\u63F8": "zhā",
+    "\u63FD": "lǎn",
+    "\u63FF": "qìn",
+    "\u6400": "chān",
+    "\u6401": "gē",
+    "\u6402": "lǒu",
+    "\u6405": "jiǎo",
+    "\u640B": "chuāi",
+    "\u640C": "zhǎn",
+    "\u640F": "bó",
+    "\u6410": "chù",
+    "\u6412": "bàng",
+    "\u6413": "cuō",
+    "\u6414": "sāo",
+    "\u641B": "jiān",
+    "\u641C": "sōu",
+    "\u641E": "gǎo",
+    "\u6420": "shuò",
+    "\u6421": "sǎng",
+    "\u6426": "nuò",
+    "\u642A": "táng",
+    "\u642C": "bān",
+    "\u642D": "dā",
+    "\u6434": "qiān",
+    "\u643A": "xié",
+    "\u643D": "chá",
+    "\u6441": "èn",
+    "\u6444": "shè",
+    "\u6445": "shū",
+    "\u6446": "bǎi",
+    "\u6447": "yáo",
+    "\u6448": "bìn",
+    "\u644A": "tān",
+    "\u644F": "chōng",
+    "\u6452": "bǐng",
+    "\u6454": "shuāi",
+    "\u6458": "zhāi",
+    "\u645B": "chī",
+    "\u645E": "luò",
+    "\u6467": "cuī",
+    "\u6469": "mó",
+    "\u646D": "zhí",
+    "\u6474": "chū",
+    "\u6478": "mō",
+    "\u6479": "mó",
+    "\u647D": "biāo",
+    "\u6482": "liào",
+    "\u6484": "yīng",
+    "\u6485": "juē",
+    "\u6487": "piē",
+    "\u6491": "chēng",
+    "\u6492": "sā",
+    "\u6495": "sī",
+    "\u6496": "hàn",
+    "\u6499": "zǔn",
+    "\u649E": "zhuàng",
+    "\u64A4": "chè",
+    "\u64A9": "liāo",
+    "\u64AC": "qiào",
+    "\u64AD": "bō",
+    "\u64AE": "cuō",
+    "\u64B0": "zhuàn",
+    "\u64B5": "niǎn",
+    "\u64B7": "xié",
+    "\u64B8": "lū",
+    "\u64BA": "cuān",
+    "\u64BC": "hàn",
+    "\u64C0": "gǎn",
+    "\u64C2": "léi",
+    "\u64C5": "shàn",
+    "\u64CD": "cāo",
+    "\u64CE": "qíng",
+    "\u64D0": "huàn",
+    "\u64D2": "qín",
+    "\u64D8": "bāi",
+    "\u64DE": "sǒu",
+    "\u64E2": "zhuó",
+    "\u64E4": "xǐng",
+    "\u64E6": "cā",
+    "\u64FF": "tī",
+    "\u6500": "pān",
+    "\u6509": "huō",
+    "\u6512": "zǎn",
+    "\u6518": "rǎng",
+    "\u6525": "zuàn",
+    "\u652B": "jué",
+    "\u652E": "nǎng",
+    "\u652F": "zhī",
+    "\u6536": "shōu",
+    "\u6538": "yōu",
+    "\u6539": "gǎi",
+    "\u653B": "gōng",
+    "\u653D": "bān",
+    "\u653E": "fàng",
+    "\u653F": "zhèng",
+    "\u6545": "gù",
+    "\u6548": "xiào",
+    "\u6549": "mǐ",
+    "\u654C": "dí",
+    "\u654F": "mǐn",
+    "\u6551": "jiù",
+    "\u6554": "yǔ",
+    "\u6555": "chì",
+    "\u6556": "áo",
+    "\u6559": "jiào",
+    "\u655B": "liǎn",
+    "\u655D": "bì",
+    "\u655E": "chǎng",
+    "\u6562": "gǎn",
+    "\u6563": "sàn",
+    "\u6566": "dūn",
+    "\u6569": "xiào",
+    "\u656B": "jiǎo",
+    "\u656C": "jìng",
+    "\u6570": "shù",
+    "\u6572": "qiāo",
+    "\u6574": "zhěng",
+    "\u6577": "fū",
+    "\u6587": "wén",
+    "\u658B": "zhāi",
+    "\u658C": "bīn",
+    "\u6590": "fěi",
+    "\u6591": "bān",
+    "\u6593": "lán",
+    "\u6597": "dòu",
+    "\u6599": "liào",
+    "\u659B": "hú",
+    "\u659C": "xié",
+    "\u659D": "jiǎ",
+    "\u659F": "zhēn",
+    "\u65A0": "jiào",
+    "\u65A1": "wò",
+    "\u65A4": "jīn",
+    "\u65A5": "chì",
+    "\u65A7": "fǔ",
+    "\u65A9": "zhǎn",
+    "\u65AB": "zhuó",
+    "\u65AD": "duàn",
+    "\u65AF": "sī",
+    "\u65B0": "xīn",
+    "\u65B6": "chù",
+    "\u65B9": "fāng",
+    "\u65BC": "yú",
+    "\u65BD": "shī",
+    "\u65C1": "páng",
+    "\u65C3": "zhān",
+    "\u65C4": "máo",
+    "\u65C5": "lǚ",
+    "\u65C6": "pèi",
+    "\u65CB": "xuán",
+    "\u65CC": "jīng",
+    "\u65CE": "nǐ",
+    "\u65CF": "zú",
+    "\u65D0": "zhào",
+    "\u65D2": "liú",
+    "\u65D6": "yǐ",
+    "\u65D7": "qí",
+    "\u65DE": "suì",
+    "\u65E0": "wú",
+    "\u65E2": "jì",
+    "\u65E5": "rì",
+    "\u65E6": "dàn",
+    "\u65E7": "jiù",
+    "\u65E8": "zhǐ",
+    "\u65E9": "zǎo",
+    "\u65EC": "xún",
+    "\u65ED": "xù",
+    "\u65EE": "gā",
+    "\u65EF": "lá",
+    "\u65F0": "gàn",
+    "\u65F1": "hàn",
+    "\u65F4": "xū",
+    "\u65F5": "chǎn",
+    "\u65F6": "shí",
+    "\u65F7": "kuàng",
+    "\u65F8": "yáng",
+    "\u65FA": "wàng",
+    "\u65FB": "mín",
+    "\u65FF": "wǔ",
+    "\u6600": "yún",
+    "\u6602": "áng",
+    "\u6603": "zè",
+    "\u6604": "bǎn",
+    "\u6606": "kūn",
+    "\u6607": "shēng",
+    "\u6608": "hù",
+    "\u6609": "fǎng",
+    "\u660A": "hào",
+    "\u660C": "chāng",
+    "\u660E": "míng",
+    "\u660F": "hūn",
+    "\u6612": "hū",
+    "\u6613": "yì",
+    "\u6614": "xī",
+    "\u6615": "xīn",
+    "\u6619": "tán",
+    "\u661D": "zǎn",
+    "\u661F": "xīng",
+    "\u6620": "yìng",
+    "\u6621": "xuàn",
+    "\u6623": "zhěn",
+    "\u6624": "líng",
+    "\u6625": "chūn",
+    "\u6627": "mèi",
+    "\u6628": "zuó",
+    "\u662A": "biàn",
+    "\u662B": "xù",
+    "\u662D": "zhāo",
+    "\u662F": "shì",
+    "\u6631": "yù",
+    "\u6633": "dié",
+    "\u6634": "mǎo",
+    "\u6635": "nì",
+    "\u6636": "chǎng",
+    "\u663A": "bǐng",
+    "\u663C": "zhòu",
+    "\u663D": "lóng",
+    "\u663E": "xiǎn",
+    "\u6641": "cháo",
+    "\u6643": "huǎng",
+    "\u6645": "xuǎn",
+    "\u664A": "zhì",
+    "\u664B": "jìn",
+    "\u664C": "shǎng",
+    "\u664F": "yàn",
+    "\u6650": "gāi",
+    "\u6652": "shài",
+    "\u6653": "xiǎo",
+    "\u6654": "yè",
+    "\u6655": "yūn",
+    "\u6656": "huī",
+    "\u6657": "hán",
+    "\u6659": "jùn",
+    "\u665A": "wǎn",
+    "\u665E": "xī",
+    "\u665F": "chéng",
+    "\u6661": "bū",
+    "\u6662": "zhé",
+    "\u6664": "wù",
+    "\u6666": "huì",
+    "\u6668": "chén",
+    "\u666A": "tiǎn",
+    "\u666B": "zhuó",
+    "\u666E": "pǔ",
+    "\u666F": "jǐng",
+    "\u6670": "xī",
+    "\u6671": "shǎn",
+    "\u6674": "qíng",
+    "\u6676": "jīng",
+    "\u6677": "guǐ",
+    "\u667A": "zhì",
+    "\u667E": "liàng",
+    "\u6682": "zàn",
+    "\u6684": "xuān",
+    "\u6685": "gèng",
+    "\u6687": "xiá",
+    "\u668C": "kuí",
+    "\u6691": "shǔ",
+    "\u6695": "jiǎn",
+    "\u6696": "nuǎn",
+    "\u6697": "àn",
+    "\u669D": "míng",
+    "\u66A7": "ài",
+    "\u66A8": "jì",
+    "\u66AE": "mù",
+    "\u66B2": "zhāng",
+    "\u66B4": "bào",
+    "\u66B5": "hàn",
+    "\u66B6": "xuán",
+    "\u66B9": "xiān",
+    "\u66BE": "tūn",
+    "\u66BF": "xǐ",
+    "\u66C8": "tóng",
+    "\u66CC": "zhào",
+    "\u66D9": "shǔ",
+    "\u66DB": "xūn",
+    "\u66DC": "yào",
+    "\u66DD": "pù",
+    "\u66E6": "xī",
+    "\u66E9": "nǎng",
+    "\u66F0": "yuē",
+    "\u66F2": "qū",
+    "\u66F3": "yè",
+    "\u66F4": "gèng",
+    "\u66F7": "hé",
+    "\u66F9": "cáo",
+    "\u66FC": "màn",
+    "\u66FE": "céng",
+    "\u66FF": "tì",
+    "\u6700": "zuì",
+    "\u6708": "yuè",
+    "\u6709": "yǒu",
+    "\u670B": "péng",
+    "\u670D": "fú",
+    "\u670F": "fěi",
+    "\u6710": "qú",
+    "\u6713": "tiǎo",
+    "\u6714": "shuò",
+    "\u6715": "zhèn",
+    "\u6717": "lǎng",
+    "\u671B": "wàng",
+    "\u671D": "cháo",
+    "\u671F": "qī",
+    "\u6726": "méng",
+    "\u6728": "mù",
+    "\u672A": "wèi",
+    "\u672B": "mò",
+    "\u672C": "běn",
+    "\u672D": "zhá",
+    "\u672F": "shù",
+    "\u6731": "zhū",
+    "\u6733": "bā",
+    "\u6734": "pǔ",
+    "\u6735": "duǒ",
+    "\u6738": "lì",
+    "\u673A": "jī",
+    "\u673D": "xiǔ",
+    "\u6740": "shā",
+    "\u6742": "zá",
+    "\u6743": "quán",
+    "\u6744": "qiān",
+    "\u6746": "gān",
+    "\u6748": "chā",
+    "\u6749": "shān",
+    "\u674C": "wù",
+    "\u674E": "lǐ",
+    "\u674F": "xìng",
+    "\u6750": "cái",
+    "\u6751": "cūn",
+    "\u6753": "biāo",
+    "\u6755": "dì",
+    "\u6756": "zhàng",
+    "\u6759": "yì",
+    "\u675C": "dù",
+    "\u675E": "qǐ",
+    "\u675F": "shù",
+    "\u6760": "gāng",
+    "\u6761": "tiáo",
+    "\u6765": "lái",
+    "\u6767": "máng",
+    "\u6768": "yáng",
+    "\u6769": "mà",
+    "\u676A": "miǎo",
+    "\u676D": "háng",
+    "\u676F": "bēi",
+    "\u6770": "jié",
+    "\u6772": "gǎo",
+    "\u6773": "yǎo",
+    "\u6775": "chǔ",
+    "\u6777": "pá",
+    "\u677B": "chǒu",
+    "\u677C": "zhù",
+    "\u677E": "sōng",
+    "\u677F": "bǎn",
+    "\u6781": "jí",
+    "\u6784": "gòu",
+    "\u6785": "jī",
+    "\u6787": "pí",
+    "\u6789": "wǎng",
+    "\u678B": "fāng",
+    "\u678D": "yì",
+    "\u6790": "xī",
+    "\u6795": "zhěn",
+    "\u6797": "lín",
+    "\u6798": "ruì",
+    "\u679A": "méi",
+    "\u679C": "guǒ",
+    "\u679D": "zhī",
+    "\u679E": "cōng",
+    "\u67A2": "shū",
+    "\u67A3": "zǎo",
+    "\u67A5": "lì",
+    "\u67A7": "jiǎn",
+    "\u67A8": "chéng",
+    "\u67AA": "qiāng",
+    "\u67AB": "fēng",
+    "\u67AD": "xiāo",
+    "\u67AF": "kū",
+    "\u67B0": "píng",
+    "\u67B2": "xǐ",
+    "\u67B3": "zhǐ",
+    "\u67B5": "xiāo",
+    "\u67B6": "jià",
+    "\u67B7": "jiā",
+    "\u67B8": "gǒu",
+    "\u67B9": "bāo",
+    "\u67C1": "duò",
+    "\u67C3": "líng",
+    "\u67C4": "bǐng",
+    "\u67C8": "bàn",
+    "\u67CA": "zhōng",
+    "\u67CF": "bǎi",
+    "\u67D0": "mǒu",
+    "\u67D1": "gān",
+    "\u67D2": "qī",
+    "\u67D3": "rǎn",
+    "\u67D4": "róu",
+    "\u67D6": "sháo",
+    "\u67D8": "zhè",
+    "\u67D9": "xiá",
+    "\u67DA": "yòu",
+    "\u67DC": "guì",
+    "\u67DD": "tuò",
+    "\u67DE": "zhà",
+    "\u67E0": "níng",
+    "\u67E2": "dǐ",
+    "\u67E5": "chá",
+    "\u67E9": "jiù",
+    "\u67EC": "jiǎn",
+    "\u67EF": "kē",
+    "\u67F0": "nài",
+    "\u67F1": "zhù",
+    "\u67F3": "liǔ",
+    "\u67F4": "chái",
+    "\u67F7": "chù",
+    "\u67FD": "chēng",
+    "\u67FF": "shì",
+    "\u6800": "zhī",
+    "\u6805": "zhà",
+    "\u6807": "biāo",
+    "\u6808": "zhàn",
+    "\u6809": "zhì",
+    "\u680A": "lóng",
+    "\u680B": "dòng",
+    "\u680C": "lú",
+    "\u680E": "lì",
+    "\u680F": "lán",
+    "\u6810": "yǒng",
+    "\u6811": "shù",
+    "\u6812": "xún",
+    "\u6813": "shuān",
+    "\u6816": "qī",
+    "\u6817": "lì",
+    "\u681D": "guā",
+    "\u681F": "bēn",
+    "\u6821": "xiào",
+    "\u6829": "xǔ",
+    "\u682A": "zhū",
+    "\u6832": "kǎo",
+    "\u6833": "lǎo",
+    "\u6834": "zhān",
+    "\u6837": "yàng",
+    "\u6838": "hé",
+    "\u6839": "gēn",
+    "\u683B": "shì",
+    "\u683C": "gé",
+    "\u683D": "zāi",
+    "\u683E": "luán",
+    "\u6840": "jié",
+    "\u6841": "héng",
+    "\u6842": "guì",
+    "\u6843": "táo",
+    "\u6844": "guāng",
+    "\u6845": "wéi",
+    "\u6846": "kuāng",
+    "\u6848": "àn",
+    "\u6849": "ān",
+    "\u684A": "juàn",
+    "\u684C": "zhuō",
+    "\u684E": "zhì",
+    "\u6850": "tóng",
+    "\u6851": "sāng",
+    "\u6853": "huán",
+    "\u6854": "jú",
+    "\u6855": "jiù",
+    "\u6860": "yā",
+    "\u6861": "ráo",
+    "\u6862": "zhēn",
+    "\u6863": "dàng",
+    "\u6864": "qī",
+    "\u6865": "qiáo",
+    "\u6866": "huà",
+    "\u6867": "guì",
+    "\u6868": "jiǎng",
+    "\u6869": "zhuāng",
+    "\u686B": "suō",
+    "\u686F": "tīng",
+    "\u6872": "po",
+    "\u6874": "fú",
+    "\u6876": "tǒng",
+    "\u6877": "jué",
+    "\u6879": "láng",
+    "\u6881": "liáng",
+    "\u6883": "tǐng",
+    "\u6885": "méi",
+    "\u6886": "bāng",
+    "\u688C": "tú",
+    "\u688F": "gù",
+    "\u6893": "zǐ",
+    "\u6897": "gěng",
+    "\u68A0": "lǚ",
+    "\u68A2": "shāo",
+    "\u68A3": "cén",
+    "\u68A6": "mèng",
+    "\u68A7": "wú",
+    "\u68A8": "lí",
+    "\u68AD": "suō",
+    "\u68AF": "tī",
+    "\u68B0": "xiè",
+    "\u68B3": "shū",
+    "\u68B4": "chān",
+    "\u68B5": "fàn",
+    "\u68BC": "táo",
+    "\u68BD": "zhì",
+    "\u68BE": "lái",
+    "\u68BF": "lián",
+    "\u68C0": "jiǎn",
+    "\u68C1": "zhuō",
+    "\u68C2": "líng",
+    "\u68C9": "mián",
+    "\u68CB": "qí",
+    "\u68CD": "gùn",
+    "\u68D0": "fěi",
+    "\u68D2": "bàng",
+    "\u68D3": "bàng",
+    "\u68D5": "zōng",
+    "\u68D8": "jí",
+    "\u68DA": "péng",
+    "\u68E0": "táng",
+    "\u68E3": "dì",
+    "\u68E4": "cuò",
+    "\u68E8": "qǐ",
+    "\u68EA": "yǎn",
+    "\u68EB": "yù",
+    "\u68EC": "quān",
+    "\u68EE": "sēn",
+    "\u68F0": "chuí",
+    "\u68F1": "léng",
+    "\u68F5": "kē",
+    "\u68F9": "zhào",
+    "\u68FA": "guān",
+    "\u68FB": "fēn",
+    "\u68FC": "fén",
+    "\u68FD": "shēn",
+    "\u6900": "wǎn",
+    "\u6901": "guǒ",
+    "\u6905": "yǐ",
+    "\u6906": "chóu",
+    "\u690B": "liáng",
+    "\u690D": "zhí",
+    "\u690E": "chuí",
+    "\u6910": "jū",
+    "\u6911": "bēi",
+    "\u6912": "jiāo",
+    "\u6913": "zhuó",
+    "\u691F": "dú",
+    "\u6920": "qiàn",
+    "\u6924": "luó",
+    "\u692A": "pèng",
+    "\u692D": "tuǒ",
+    "\u6930": "yē",
+    "\u6934": "duàn",
+    "\u6938": "yí",
+    "\u6939": "shèn",
+    "\u693D": "chuán",
+    "\u693F": "chūn",
+    "\u6942": "zhā",
+    "\u6952": "sī",
+    "\u6954": "xiē",
+    "\u6957": "jiàn",
+    "\u6959": "mào",
+    "\u695A": "chǔ",
+    "\u695D": "liàn",
+    "\u695E": "léng",
+    "\u6960": "nán",
+    "\u6963": "méi",
+    "\u6966": "xuàn",
+    "\u6969": "pián",
+    "\u696A": "yè",
+    "\u696B": "jí",
+    "\u696E": "chǔ",
+    "\u696F": "dùn",
+    "\u6977": "kǎi",
+    "\u6978": "qiū",
+    "\u6979": "yíng",
+    "\u697C": "lóu",
+    "\u6982": "gài",
+    "\u6983": "tán",
+    "\u6984": "lǎn",
+    "\u6985": "wēn",
+    "\u6986": "yú",
+    "\u6987": "chèn",
+    "\u6988": "lǘ",
+    "\u6989": "jǔ",
+    "\u698D": "xiè",
+    "\u6991": "fú",
+    "\u6994": "láng",
+    "\u6995": "róng",
+    "\u6996": "gǔ",
+    "\u699B": "zhēn",
+    "\u699C": "bǎng",
+    "\u69A7": "fěi",
+    "\u69A8": "zhà",
+    "\u69AB": "sǔn",
+    "\u69AD": "xiè",
+    "\u69B0": "zhī",
+    "\u69B1": "cuī",
+    "\u69B4": "liú",
+    "\u69B7": "què",
+    "\u69BB": "tà",
+    "\u69C1": "gǎo",
+    "\u69C3": "pán",
+    "\u69CA": "shuò",
+    "\u69CC": "chuí",
+    "\u69CE": "chá",
+    "\u69D0": "huái",
+    "\u69D4": "gāo",
+    "\u69DA": "jiǎ",
+    "\u69DB": "kǎn",
+    "\u69DC": "zuì",
+    "\u69DF": "bīn",
+    "\u69E0": "zhū",
+    "\u69ED": "qī",
+    "\u69F1": "yǒu",
+    "\u69F2": "hú",
+    "\u69FD": "cáo",
+    "\u69FF": "jǐn",
+    "\u6A0A": "fán",
+    "\u6A17": "chū",
+    "\u6A18": "táng",
+    "\u6A1F": "zhāng",
+    "\u6A21": "mó",
+    "\u6A28": "xī",
+    "\u6A2A": "héng",
+    "\u6A2F": "qiáng",
+    "\u6A31": "yīng",
+    "\u6A35": "qiáo",
+    "\u6A3D": "zūn",
+    "\u6A3E": "yuè",
+    "\u6A44": "gǎn",
+    "\u6A47": "qiāo",
+    "\u6A50": "tuó",
+    "\u6A51": "lǎo",
+    "\u6A58": "jú",
+    "\u6A59": "chéng",
+    "\u6A5B": "jué",
+    "\u6A5E": "huì",
+    "\u6A61": "xiàng",
+    "\u6A65": "zhū",
+    "\u6A66": "tóng",
+    "\u6A71": "chú",
+    "\u6A79": "lǔ",
+    "\u6A7C": "yuán",
+    "\u6A80": "tán",
+    "\u6A84": "xí",
+    "\u6A8E": "qín",
+    "\u6A90": "yán",
+    "\u6A91": "léi",
+    "\u6A97": "bò",
+    "\u6A9E": "jiě",
+    "\u6AA0": "qíng",
+    "\u6AA9": "lǐn",
+    "\u6AAB": "chá",
+    "\u6AAC": "méng",
+    "\u6AC6": "kuí",
+    "\u6B02": "bó",
+    "\u6B20": "qiàn",
+    "\u6B21": "cì",
+    "\u6B22": "huān",
+    "\u6B23": "xīn",
+    "\u6B24": "yú",
+    "\u6B27": "ōu",
+    "\u6B32": "yù",
+    "\u6B38": "āi",
+    "\u6B39": "yī",
+    "\u6B3A": "qī",
+    "\u6B3B": "chuā",
+    "\u6B3E": "kuǎn",
+    "\u6B43": "shà",
+    "\u6B45": "yīn",
+    "\u6B46": "xīn",
+    "\u6B47": "xiē",
+    "\u6B49": "qiàn",
+    "\u6B4C": "gē",
+    "\u6B59": "shè",
+    "\u6B62": "zhǐ",
+    "\u6B63": "zhèng",
+    "\u6B64": "cǐ",
+    "\u6B65": "bù",
+    "\u6B66": "wǔ",
+    "\u6B67": "qí",
+    "\u6B6A": "wāi",
+    "\u6B79": "dǎi",
+    "\u6B7B": "sǐ",
+    "\u6B7C": "jiān",
+    "\u6B81": "mò",
+    "\u6B82": "cú",
+    "\u6B83": "yāng",
+    "\u6B84": "tiǎn",
+    "\u6B86": "dài",
+    "\u6B87": "shāng",
+    "\u6B89": "xùn",
+    "\u6B8A": "shū",
+    "\u6B8B": "cán",
+    "\u6B8D": "piǎo",
+    "\u6B92": "yǔn",
+    "\u6B93": "liàn",
+    "\u6B96": "zhí",
+    "\u6B9A": "dān",
+    "\u6B9B": "jí",
+    "\u6BA1": "bìn",
+    "\u6BA3": "jìn",
+    "\u6BAA": "yì",
+    "\u6BB3": "shū",
+    "\u6BB4": "ōu",
+    "\u6BB5": "duàn",
+    "\u6BB7": "yīn",
+    "\u6BBF": "diàn",
+    "\u6BC1": "huǐ",
+    "\u6BC2": "gǔ",
+    "\u6BC5": "yì",
+    "\u6BCB": "wú",
+    "\u6BCC": "guàn",
+    "\u6BCD": "mǔ",
+    "\u6BCF": "měi",
+    "\u6BD0": "ǎi",
+    "\u6BD2": "dú",
+    "\u6BD3": "yù",
+    "\u6BD4": "bǐ",
+    "\u6BD5": "bì",
+    "\u6BD6": "bì",
+    "\u6BD7": "pí",
+    "\u6BD9": "bì",
+    "\u6BDB": "máo",
+    "\u6BE1": "zhān",
+    "\u6BEA": "mú",
+    "\u6BEB": "háo",
+    "\u6BEF": "tǎn",
+    "\u6BF3": "cuì",
+    "\u6BF5": "sān",
+    "\u6BF9": "shū",
+    "\u6BFD": "jiàn",
+    "\u6C05": "chǎng",
+    "\u6C06": "pǔ",
+    "\u6C07": "lu",
+    "\u6C0D": "qú",
+    "\u6C0F": "shì",
+    "\u6C10": "dī",
+    "\u6C11": "mín",
+    "\u6C13": "máng",
+    "\u6C14": "qì",
+    "\u6C15": "piē",
+    "\u6C16": "nǎi",
+    "\u6C18": "dāo",
+    "\u6C19": "xiān",
+    "\u6C1A": "chuān",
+    "\u6C1B": "fēn",
+    "\u6C1F": "fú",
+    "\u6C21": "dōng",
+    "\u6C22": "qīng",
+    "\u6C24": "yīn",
+    "\u6C26": "hài",
+    "\u6C27": "yǎng",
+    "\u6C28": "ān",
+    "\u6C29": "yà",
+    "\u6C2A": "kè",
+    "\u6C2E": "dàn",
+    "\u6C2F": "lǜ",
+    "\u6C30": "qíng",
+    "\u6C32": "yūn",
+    "\u6C34": "shuǐ",
+    "\u6C38": "yǒng",
+    "\u6C3E": "fàn",
+    "\u6C3F": "guǐ",
+    "\u6C40": "tīng",
+    "\u6C41": "zhī",
+    "\u6C42": "qiú",
+    "\u6C46": "cuān",
+    "\u6C47": "huì",
+    "\u6C48": "diāo",
+    "\u6C49": "hàn",
+    "\u6C4A": "chà",
+    "\u6C4B": "zhuó",
+    "\u6C50": "xī",
+    "\u6C54": "qì",
+    "\u6C55": "shàn",
+    "\u6C57": "hàn",
+    "\u6C5B": "xùn",
+    "\u6C5C": "sì",
+    "\u6C5D": "rǔ",
+    "\u6C5E": "gǒng",
+    "\u6C5F": "jiāng",
+    "\u6C60": "chí",
+    "\u6C61": "wū",
+    "\u6C64": "tāng",
+    "\u6C67": "qiān",
+    "\u6C68": "mì",
+    "\u6C69": "gǔ",
+    "\u6C6A": "wāng",
+    "\u6C6B": "jǐng",
+    "\u6C6D": "ruì",
+    "\u6C70": "tài",
+    "\u6C72": "jí",
+    "\u6C74": "biàn",
+    "\u6C76": "wèn",
+    "\u6C79": "xiōng",
+    "\u6C7D": "qì",
+    "\u6C7E": "fén",
+    "\u6C81": "qìn",
+    "\u6C82": "yí",
+    "\u6C83": "wò",
+    "\u6C84": "yún",
+    "\u6C85": "yuán",
+    "\u6C86": "hàng",
+    "\u6C87": "yǎn",
+    "\u6C88": "shěn",
+    "\u6C89": "chén",
+    "\u6C8C": "dùn",
+    "\u6C8F": "qī",
+    "\u6C90": "mù",
+    "\u6C93": "dá",
+    "\u6C94": "miǎn",
+    "\u6C98": "bǐ",
+    "\u6C99": "shā",
+    "\u6C9A": "zhǐ",
+    "\u6C9B": "pèi",
+    "\u6C9F": "gōu",
+    "\u6CA1": "méi",
+    "\u6CA3": "fēng",
+    "\u6CA4": "ōu",
+    "\u6CA5": "lì",
+    "\u6CA6": "lún",
+    "\u6CA7": "cāng",
+    "\u6CA8": "fēng",
+    "\u6CA9": "wéi",
+    "\u6CAA": "hù",
+    "\u6CAB": "mò",
+    "\u6CAD": "shù",
+    "\u6CAE": "jǔ",
+    "\u6CB1": "tuó",
+    "\u6CB3": "hé",
+    "\u6CB8": "fèi",
+    "\u6CB9": "yóu",
+    "\u6CBA": "tián",
+    "\u6CBB": "zhì",
+    "\u6CBC": "zhǎo",
+    "\u6CBD": "gū",
+    "\u6CBE": "zhān",
+    "\u6CBF": "yán",
+    "\u6CC2": "jiǒng",
+    "\u6CC3": "jū",
+    "\u6CC4": "xiè",
+    "\u6CC5": "qiú",
+    "\u6CC7": "jiā",
+    "\u6CC9": "quán",
+    "\u6CCA": "pō",
+    "\u6CCC": "mì",
+    "\u6CD0": "lè",
+    "\u6CD3": "hóng",
+    "\u6CD4": "gān",
+    "\u6CD5": "fǎ",
+    "\u6CD6": "mǎo",
+    "\u6CD7": "sì",
+    "\u6CD9": "píng",
+    "\u6CDA": "cǐ",
+    "\u6CDB": "fàn",
+    "\u6CDC": "zhī",
+    "\u6CDE": "nìng",
+    "\u6CE0": "líng",
+    "\u6CE1": "pào",
+    "\u6CE2": "bō",
+    "\u6CE3": "qì",
+    "\u6CE5": "ní",
+    "\u6CE8": "zhù",
+    "\u6CEA": "lèi",
+    "\u6CEB": "xuàn",
+    "\u6CEE": "pàn",
+    "\u6CEF": "mǐn",
+    "\u6CF0": "tài",
+    "\u6CF1": "yāng",
+    "\u6CF3": "yǒng",
+    "\u6CF5": "bèng",
+    "\u6CF7": "lóng",
+    "\u6CF8": "lú",
+    "\u6CFA": "luò",
+    "\u6CFB": "xiè",
+    "\u6CFC": "pō",
+    "\u6CFD": "zé",
+    "\u6CFE": "jīng",
+    "\u6D01": "jié",
+    "\u6D04": "huí",
+    "\u6D07": "yīn",
+    "\u6D08": "wéi",
+    "\u6D0B": "yáng",
+    "\u6D0C": "liè",
+    "\u6D0E": "jì",
+    "\u6D11": "fú",
+    "\u6D12": "sǎ",
+    "\u6D13": "sè",
+    "\u6D17": "xǐ",
+    "\u6D18": "kǎo",
+    "\u6D19": "zhū",
+    "\u6D1A": "jiàng",
+    "\u6D1B": "luò",
+    "\u6D1E": "dòng",
+    "\u6D22": "yī",
+    "\u6D23": "mǐ",
+    "\u6D25": "jīn",
+    "\u6D27": "wěi",
+    "\u6D28": "xiáo",
+    "\u6D2A": "hóng",
+    "\u6D2B": "xù",
+    "\u6D2D": "kuāng",
+    "\u6D2E": "táo",
+    "\u6D31": "ěr",
+    "\u6D32": "zhōu",
+    "\u6D33": "rù",
+    "\u6D34": "píng",
+    "\u6D35": "xún",
+    "\u6D38": "guāng",
+    "\u6D39": "huán",
+    "\u6D3A": "míng",
+    "\u6D3B": "huó",
+    "\u6D3C": "wā",
+    "\u6D3D": "qià",
+    "\u6D3E": "pài",
+    "\u6D3F": "wū",
+    "\u6D41": "liú",
+    "\u6D43": "jiā",
+    "\u6D45": "qiǎn",
+    "\u6D46": "jiāng",
+    "\u6D47": "jiāo",
+    "\u6D48": "zhēn",
+    "\u6D49": "shī",
+    "\u6D4A": "zhuó",
+    "\u6D4B": "cè",
+    "\u6D4D": "huì",
+    "\u6D4E": "jì",
+    "\u6D4F": "liú",
+    "\u6D50": "chǎn",
+    "\u6D51": "hún",
+    "\u6D52": "hǔ",
+    "\u6D53": "nóng",
+    "\u6D54": "xún",
+    "\u6D55": "jìn",
+    "\u6D59": "zhè",
+    "\u6D5A": "jùn",
+    "\u6D5B": "hán",
+    "\u6D5C": "bāng",
+    "\u6D5E": "zhuó",
+    "\u6D5F": "yóu",
+    "\u6D60": "xī",
+    "\u6D61": "bó",
+    "\u6D63": "huàn",
+    "\u6D65": "yì",
+    "\u6D66": "pǔ",
+    "\u6D69": "hào",
+    "\u6D6A": "làng",
+    "\u6D6C": "lǐ",
+    "\u6D6D": "gēng",
+    "\u6D6E": "fú",
+    "\u6D6F": "wú",
+    "\u6D70": "liàn",
+    "\u6D72": "féng",
+    "\u6D74": "yù",
+    "\u6D77": "hǎi",
+    "\u6D78": "jìn",
+    "\u6D7C": "měi",
+    "\u6D82": "tú",
+    "\u6D84": "pīng",
+    "\u6D85": "niè",
+    "\u6D88": "xiāo",
+    "\u6D89": "shè",
+    "\u6D8C": "yǒng",
+    "\u6D8D": "xiào",
+    "\u6D8E": "xián",
+    "\u6D90": "é",
+    "\u6D91": "sù",
+    "\u6D93": "juān",
+    "\u6D94": "cén",
+    "\u6D95": "tì",
+    "\u6D98": "sì",
+    "\u6D9B": "tāo",
+    "\u6D9D": "lào",
+    "\u6D9E": "lái",
+    "\u6D9F": "lián",
+    "\u6DA0": "wéi",
+    "\u6DA1": "wō",
+    "\u6DA2": "yún",
+    "\u6DA3": "huàn",
+    "\u6DA4": "dí",
+    "\u6DA6": "rùn",
+    "\u6DA7": "jiàn",
+    "\u6DA8": "zhǎng",
+    "\u6DA9": "sè",
+    "\u6DAA": "fú",
+    "\u6DAB": "guàn",
+    "\u6DAE": "shuàn",
+    "\u6DAF": "yá",
+    "\u6DB2": "yè",
+    "\u6DB4": "wò",
+    "\u6DB5": "hán",
+    "\u6DB8": "hé",
+    "\u6DBF": "zhuō",
+    "\u6DC0": "diàn",
+    "\u6DC4": "zī",
+    "\u6DC5": "xī",
+    "\u6DC6": "xiáo",
+    "\u6DC7": "qí",
+    "\u6DCB": "lín",
+    "\u6DCC": "tǎng",
+    "\u6DCF": "hào",
+    "\u6DD1": "shū",
+    "\u6DD6": "nào",
+    "\u6DD8": "táo",
+    "\u6DD9": "cóng",
+    "\u6DDC": "píng",
+    "\u6DDD": "féi",
+    "\u6DDE": "sōng",
+    "\u6DDF": "tiǎn",
+    "\u6DE0": "pì",
+    "\u6DE1": "dàn",
+    "\u6DE4": "yū",
+    "\u6DE6": "gàn",
+    "\u6DEB": "yín",
+    "\u6DEC": "cuì",
+    "\u6DEE": "huái",
+    "\u6DEF": "yù",
+    "\u6DF1": "shēn",
+    "\u6DF3": "chún",
+    "\u6DF4": "hū",
+    "\u6DF7": "hùn",
+    "\u6DF9": "yān",
+    "\u6DFB": "tiān",
+    "\u6DFC": "miǎo",
+    "\u6E05": "qīng",
+    "\u6E0A": "yuān",
+    "\u6E0C": "lù",
+    "\u6E0D": "zì",
+    "\u6E0E": "dú",
+    "\u6E10": "jiàn",
+    "\u6E11": "miǎn",
+    "\u6E14": "yú",
+    "\u6E17": "shèn",
+    "\u6E1A": "zhǔ",
+    "\u6E1D": "yú",
+    "\u6E1F": "tíng",
+    "\u6E20": "qú",
+    "\u6E21": "dù",
+    "\u6E23": "zhā",
+    "\u6E24": "bó",
+    "\u6E25": "wò",
+    "\u6E29": "wēn",
+    "\u6E2B": "xiè",
+    "\u6E2D": "wèi",
+    "\u6E2F": "gǎng",
+    "\u6E30": "yǎn",
+    "\u6E32": "xuàn",
+    "\u6E34": "kě",
+    "\u6E38": "yóu",
+    "\u6E3A": "miǎo",
+    "\u6E3C": "měi",
+    "\u6E43": "pài",
+    "\u6E44": "méi",
+    "\u6E49": "tián",
+    "\u6E4D": "tuān",
+    "\u6E4E": "miǎn",
+    "\u6E51": "xū",
+    "\u6E53": "pén",
+    "\u6E54": "jiān",
+    "\u6E56": "hú",
+    "\u6E58": "xiāng",
+    "\u6E5B": "zhàn",
+    "\u6E5C": "shí",
+    "\u6E5D": "jiē",
+    "\u6E5F": "huáng",
+    "\u6E63": "mǐn",
+    "\u6E6B": "jiǎo",
+    "\u6E6E": "yān",
+    "\u6E72": "yuán",
+    "\u6E74": "bàn",
+    "\u6E7E": "wān",
+    "\u6E7F": "shī",
+    "\u6E81": "yíng",
+    "\u6E83": "kuì",
+    "\u6E85": "jiàn",
+    "\u6E86": "xù",
+    "\u6E87": "lóu",
+    "\u6E89": "gài",
+    "\u6E8D": "jìn",
+    "\u6E8F": "táng",
+    "\u6E90": "yuán",
+    "\u6E98": "kè",
+    "\u6E9A": "tǎ",
+    "\u6E9C": "liū",
+    "\u6E9E": "sāo",
+    "\u6E9F": "míng",
+    "\u6EA0": "zhà",
+    "\u6EA2": "yì",
+    "\u6EA5": "pǔ",
+    "\u6EA6": "wēi",
+    "\u6EA7": "lì",
+    "\u6EAA": "xī",
+    "\u6EAF": "sù",
+    "\u6EB1": "qín",
+    "\u6EB2": "sōu",
+    "\u6EB4": "xiù",
+    "\u6EB5": "yīn",
+    "\u6EB6": "róng",
+    "\u6EB7": "hùn",
+    "\u6EB9": "suò",
+    "\u6EBA": "nì",
+    "\u6EBB": "tā",
+    "\u6EBD": "rù",
+    "\u6EC1": "chú",
+    "\u6EC2": "pāng",
+    "\u6EC3": "wēng",
+    "\u6EC6": "gé",
+    "\u6EC7": "diān",
+    "\u6EC9": "huàng",
+    "\u6ECB": "zī",
+    "\u6ECD": "zhì",
+    "\u6ECF": "fǔ",
+    "\u6ED1": "huá",
+    "\u6ED3": "zǐ",
+    "\u6ED4": "tāo",
+    "\u6ED5": "téng",
+    "\u6ED7": "bì",
+    "\u6ED8": "jiào",
+    "\u6EDA": "gǔn",
+    "\u6EDE": "zhì",
+    "\u6EDF": "yàn",
+    "\u6EE0": "shè",
+    "\u6EE1": "mǎn",
+    "\u6EE2": "yíng",
+    "\u6EE4": "lǜ",
+    "\u6EE5": "làn",
+    "\u6EE6": "luán",
+    "\u6EE7": "yáo",
+    "\u6EE8": "bīn",
+    "\u6EE9": "tān",
+    "\u6EEA": "yù",
+    "\u6EEB": "xiǔ",
+    "\u6EF4": "dī",
+    "\u6EF9": "hū",
+    "\u6F02": "piāo",
+    "\u6F06": "qī",
+    "\u6F08": "jì",
+    "\u6F09": "lù",
+    "\u6F0B": "lóng",
+    "\u6F0F": "lòu",
+    "\u6F13": "lí",
+    "\u6F14": "yǎn",
+    "\u6F15": "cáo",
+    "\u6F16": "jiào",
+    "\u6F20": "mò",
+    "\u6F24": "lǎn",
+    "\u6F26": "chí",
+    "\u6F29": "xuán",
+    "\u6F2A": "yī",
+    "\u6F2B": "màn",
+    "\u6F2D": "mǎng",
+    "\u6F2F": "luò",
+    "\u6F31": "shù",
+    "\u6F33": "zhāng",
+    "\u6F34": "zhuàng",
+    "\u6F36": "huàn",
+    "\u6F37": "huǒ",
+    "\u6F39": "yān",
+    "\u6F3B": "liáo",
+    "\u6F3C": "cuǐ",
+    "\u6F3E": "yàng",
+    "\u6F46": "yíng",
+    "\u6F47": "xiāo",
+    "\u6F4B": "liàn",
+    "\u6F4D": "wéi",
+    "\u6F4F": "yù",
+    "\u6F56": "pá",
+    "\u6F58": "pān",
+    "\u6F5C": "qián",
+    "\u6F5E": "lù",
+    "\u6F5F": "xì",
+    "\u6F62": "huáng",
+    "\u6F66": "lǎo",
+    "\u6F69": "yì",
+    "\u6F6D": "tán",
+    "\u6F6E": "cháo",
+    "\u6F72": "shào",
+    "\u6F74": "zhū",
+    "\u6F75": "sǎ",
+    "\u6F78": "shān",
+    "\u6F7A": "chán",
+    "\u6F7C": "tóng",
+    "\u6F7D": "pū",
+    "\u6F7E": "lín",
+    "\u6F82": "chéng",
+    "\u6F84": "chéng",
+    "\u6F88": "chè",
+    "\u6F89": "gǎn",
+    "\u6F8C": "sī",
+    "\u6F8D": "shù",
+    "\u6F8E": "pēng",
+    "\u6F9B": "lǔ",
+    "\u6F9C": "lán",
+    "\u6FA1": "zǎo",
+    "\u6FA5": "xiè",
+    "\u6FA7": "lǐ",
+    "\u6FAA": "líng",
+    "\u6FAD": "yōng",
+    "\u6FB3": "ào",
+    "\u6FB4": "huán",
+    "\u6FB6": "chán",
+    "\u6FB9": "dàn",
+    "\u6FBC": "pì",
+    "\u6FBD": "jù",
+    "\u6FC0": "jī",
+    "\u6FC2": "lián",
+    "\u6FC9": "suī",
+    "\u6FCB": "chǔ",
+    "\u6FD1": "lài",
+    "\u6FD2": "bīn",
+    "\u6FDE": "bì",
+    "\u6FE0": "háo",
+    "\u6FE1": "rú",
+    "\u6FE9": "huò",
+    "\u6FEE": "pú",
+    "\u6FEF": "zhuó",
+    "\u700C": "biāo",
+    "\u700D": "chán",
+    "\u7011": "pù",
+    "\u7014": "gǔ",
+    "\u701A": "hàn",
+    "\u701B": "yíng",
+    "\u7023": "xiè",
+    "\u7031": "jì",
+    "\u7035": "fèn",
+    "\u7039": "yuè",
+    "\u703C": "ráng",
+    "\u7048": "qú",
+    "\u704C": "guàn",
+    "\u704F": "hào",
+    "\u705E": "bà",
+    "\u706B": "huǒ",
+    "\u706D": "miè",
+    "\u706F": "dēng",
+    "\u7070": "huī",
+    "\u7075": "líng",
+    "\u7076": "zào",
+    "\u7078": "jiǔ",
+    "\u707C": "zhuó",
+    "\u707E": "zāi",
+    "\u707F": "càn",
+    "\u7080": "yáng",
+    "\u7085": "jiǒng",
+    "\u7086": "wén",
+    "\u7089": "lú",
+    "\u708A": "chuī",
+    "\u708C": "kài",
+    "\u708E": "yán",
+    "\u7092": "chǎo",
+    "\u7094": "guì",
+    "\u7095": "kàng",
+    "\u7096": "dùn",
+    "\u7098": "xīn",
+    "\u7099": "zhì",
+    "\u709C": "wěi",
+    "\u709D": "qiàng",
+    "\u709F": "dá",
+    "\u70A3": "kě",
+    "\u70AB": "xuàn",
+    "\u70AC": "jù",
+    "\u70AD": "tàn",
+    "\u70AE": "pào",
+    "\u70AF": "jiǒng",
+    "\u70B1": "tái",
+    "\u70B3": "bǐng",
+    "\u70B7": "zhù",
+    "\u70B8": "zhà",
+    "\u70B9": "diǎn",
+    "\u70BB": "shí",
+    "\u70BC": "liàn",
+    "\u70BD": "chì",
+    "\u70C0": "hū",
+    "\u70C1": "shuò",
+    "\u70C2": "làn",
+    "\u70C3": "tīng",
+    "\u70C8": "liè",
+    "\u70CA": "yáng",
+    "\u70D4": "tóng",
+    "\u70D8": "hōng",
+    "\u70D9": "lào",
+    "\u70DB": "zhú",
+    "\u70DC": "xuǎn",
+    "\u70DD": "zhēng",
+    "\u70DF": "yān",
+    "\u70E0": "huí",
+    "\u70E4": "kǎo",
+    "\u70E6": "fán",
+    "\u70E7": "shāo",
+    "\u70E8": "yè",
+    "\u70E9": "huì",
+    "\u70EB": "tàng",
+    "\u70EC": "jìn",
+    "\u70ED": "rè",
+    "\u70EF": "xī",
+    "\u70F6": "tǐng",
+    "\u70F7": "wán",
+    "\u70F9": "pēng",
+    "\u70FA": "lǎng",
+    "\u70FB": "yàn",
+    "\u70FD": "fēng",
+    "\u7106": "juān",
+    "\u7109": "yān",
+    "\u710A": "hàn",
+    "\u710C": "jùn",
+    "\u7110": "wù",
+    "\u7113": "hán",
+    "\u7115": "huàn",
+    "\u7116": "mèn",
+    "\u7117": "jú",
+    "\u7118": "dào",
+    "\u7119": "bèi",
+    "\u711A": "fén",
+    "\u711C": "kūn",
+    "\u711E": "tūn",
+    "\u7126": "jiāo",
+    "\u712F": "chāo",
+    "\u7130": "yàn",
+    "\u7131": "yàn",
+    "\u7136": "rán",
+    "\u7141": "chén",
+    "\u7143": "kuǐ",
+    "\u7145": "duàn",
+    "\u714A": "xuān",
+    "\u714B": "xīng",
+    "\u714C": "huáng",
+    "\u714E": "jiān",
+    "\u7153": "tuān",
+    "\u715C": "yù",
+    "\u715E": "shā",
+    "\u715F": "wèi",
+    "\u7164": "méi",
+    "\u7166": "xù",
+    "\u7167": "zhào",
+    "\u7168": "wēi",
+    "\u716E": "zhǔ",
+    "\u7172": "bāo",
+    "\u7173": "hú",
+    "\u7174": "yūn",
+    "\u7178": "biān",
+    "\u717A": "tuì",
+    "\u717D": "shān",
+    "\u7184": "xī",
+    "\u7187": "hè",
+    "\u718A": "xióng",
+    "\u718F": "xūn",
+    "\u7194": "róng",
+    "\u7198": "liū",
+    "\u7199": "xī",
+    "\u719B": "biāo",
+    "\u719C": "cōng",
+    "\u719F": "shú",
+    "\u71A0": "yì",
+    "\u71A5": "tēng",
+    "\u71A8": "yùn",
+    "\u71AC": "áo",
+    "\u71B5": "shāng",
+    "\u71B9": "xī",
+    "\u71BB": "xī",
+    "\u71C3": "rán",
+    "\u71CA": "shēn",
+    "\u71CB": "jiāo",
+    "\u71CE": "liáo",
+    "\u71CF": "yù",
+    "\u71D4": "fán",
+    "\u71D5": "yàn",
+    "\u71DA": "yì",
+    "\u71E0": "yù",
+    "\u71E5": "zào",
+    "\u71E7": "suì",
+    "\u71EE": "xiè",
+    "\u71F9": "xiǎn",
+    "\u7206": "bào",
+    "\u7207": "ruò",
+    "\u7214": "xī",
+    "\u721A": "yuè",
+    "\u721D": "jué",
+    "\u721F": "guàn",
+    "\u7228": "cuàn",
+    "\u722A": "zhǎo",
+    "\u722C": "pá",
+    "\u7230": "yuán",
+    "\u7231": "ài",
+    "\u7235": "jué",
+    "\u7236": "fù",
+    "\u7237": "yé",
+    "\u7238": "bà",
+    "\u7239": "diē",
+    "\u723B": "yáo",
+    "\u723D": "shuǎng",
+    "\u723F": "pán",
+    "\u7241": "kē",
+    "\u7242": "zāng",
+    "\u7247": "piàn",
+    "\u7248": "bǎn",
+    "\u724C": "pái",
+    "\u724D": "dú",
+    "\u7252": "dié",
+    "\u7256": "yǒu",
+    "\u7259": "yá",
+    "\u725A": "chēng",
+    "\u725B": "niú",
+    "\u725D": "pìn",
+    "\u725F": "móu",
+    "\u7261": "mǔ",
+    "\u7262": "láo",
+    "\u7264": "māng",
+    "\u7265": "fāng",
+    "\u7266": "máo",
+    "\u7267": "mù",
+    "\u7269": "wù",
+    "\u726E": "jiàn",
+    "\u726F": "gǔ",
+    "\u7272": "shēng",
+    "\u7275": "qiān",
+    "\u7279": "tè",
+    "\u727A": "xī",
+    "\u727B": "máng",
+    "\u727E": "wǔ",
+    "\u727F": "gù",
+    "\u7280": "xī",
+    "\u7281": "lí",
+    "\u7284": "jī",
+    "\u7287": "bēn",
+    "\u728A": "dú",
+    "\u728B": "jù",
+    "\u728D": "jiān",
+    "\u728F": "piān",
+    "\u7292": "kào",
+    "\u729F": "jiàng",
+    "\u72A8": "chōu",
+    "\u72AC": "quǎn",
+    "\u72AF": "fàn",
+    "\u72B0": "qiú",
+    "\u72B4": "àn",
+    "\u72B6": "zhuàng",
+    "\u72B7": "guǎng",
+    "\u72B8": "mà",
+    "\u72B9": "yóu",
+    "\u72C1": "yǔn",
+    "\u72C2": "kuáng",
+    "\u72C3": "niǔ",
+    "\u72C4": "dí",
+    "\u72C8": "bèi",
+    "\u72C9": "pī",
+    "\u72CD": "páo",
+    "\u72CE": "xiá",
+    "\u72D0": "hú",
+    "\u72D2": "fèi",
+    "\u72D7": "gǒu",
+    "\u72D9": "jū",
+    "\u72DD": "xiǎn",
+    "\u72DE": "níng",
+    "\u72E0": "hěn",
+    "\u72E1": "jiǎo",
+    "\u72E8": "róng",
+    "\u72E9": "shòu",
+    "\u72EC": "dú",
+    "\u72ED": "xiá",
+    "\u72EE": "shī",
+    "\u72EF": "kuài",
+    "\u72F0": "zhēng",
+    "\u72F1": "yù",
+    "\u72F2": "sūn",
+    "\u72F3": "yú",
+    "\u72F4": "bì",
+    "\u72F7": "juàn",
+    "\u72F8": "lí",
+    "\u72FA": "yín",
+    "\u72FB": "suān",
+    "\u72FC": "láng",
+    "\u7301": "lì",
+    "\u7303": "xiǎn",
+    "\u7304": "jīng",
+    "\u7307": "xiāo",
+    "\u730A": "ní",
+    "\u730E": "liè",
+    "\u7315": "mí",
+    "\u7316": "chāng",
+    "\u7317": "yī",
+    "\u731B": "měng",
+    "\u731C": "cāi",
+    "\u731D": "cù",
+    "\u731E": "shē",
+    "\u7321": "luó",
+    "\u7322": "hú",
+    "\u7325": "wěi",
+    "\u7329": "xīng",
+    "\u732A": "zhū",
+    "\u732B": "māo",
+    "\u732C": "wèi",
+    "\u732E": "xiàn",
+    "\u732F": "tuān",
+    "\u7330": "yà",
+    "\u7331": "náo",
+    "\u7334": "hóu",
+    "\u7337": "yóu",
+    "\u7339": "chá",
+    "\u733A": "yáo",
+    "\u733E": "huá",
+    "\u733F": "yuán",
+    "\u734D": "jìng",
+    "\u7350": "zhāng",
+    "\u7352": "áo",
+    "\u7357": "jué",
+    "\u7360": "liáo",
+    "\u736C": "xiè",
+    "\u736D": "tǎ",
+    "\u736F": "xūn",
+    "\u7374": "měng",
+    "\u737E": "huān",
+    "\u7383": "jué",
+    "\u7384": "xuán",
+    "\u7387": "lǜ",
+    "\u7389": "yù",
+    "\u738B": "wáng",
+    "\u738E": "dīng",
+    "\u7391": "jī",
+    "\u7392": "hóng",
+    "\u7393": "dì",
+    "\u7395": "gān",
+    "\u7396": "jiǔ",
+    "\u7398": "qǐ",
+    "\u7399": "yú",
+    "\u739A": "chàng",
+    "\u739B": "mǎ",
+    "\u739E": "fū",
+    "\u739F": "wén",
+    "\u73A0": "jiè",
+    "\u73A1": "yá",
+    "\u73A2": "bīn",
+    "\u73A4": "bàng",
+    "\u73A5": "yuè",
+    "\u73A6": "jué",
+    "\u73A9": "wán",
+    "\u73AB": "méi",
+    "\u73AD": "pín",
+    "\u73AE": "wěi",
+    "\u73AF": "huán",
+    "\u73B0": "xiàn",
+    "\u73B1": "qiāng",
+    "\u73B2": "líng",
+    "\u73B3": "dài",
+    "\u73B6": "píng",
+    "\u73B7": "diàn",
+    "\u73B9": "xuán",
+    "\u73BA": "xǐ",
+    "\u73BB": "bō",
+    "\u73BC": "cǐ",
+    "\u73BF": "sháo",
+    "\u73C0": "pò",
+    "\u73C2": "kē",
+    "\u73C5": "shēn",
+    "\u73C7": "zǔ",
+    "\u73C8": "jiā",
+    "\u73C9": "mín",
+    "\u73CA": "shān",
+    "\u73CB": "liǔ",
+    "\u73CC": "bì",
+    "\u73CD": "zhēn",
+    "\u73CF": "jué",
+    "\u73D0": "fà",
+    "\u73D1": "lóng",
+    "\u73D2": "jīn",
+    "\u73D5": "lì",
+    "\u73D6": "guāng",
+    "\u73D9": "gǒng",
+    "\u73DB": "xiù",
+    "\u73DD": "xǔ",
+    "\u73DE": "luò",
+    "\u73E0": "zhū",
+    "\u73E2": "yín",
+    "\u73E3": "xún",
+    "\u73E5": "ěr",
+    "\u73E6": "xiàng",
+    "\u73E7": "yáo",
+    "\u73E9": "háng",
+    "\u73EA": "guī",
+    "\u73EB": "chōng",
+    "\u73ED": "bān",
+    "\u73F0": "dāng",
+    "\u73F2": "huī",
+    "\u73F5": "chéng",
+    "\u73F7": "wǔ",
+    "\u73F8": "wú",
+    "\u73F9": "chéng",
+    "\u73FA": "jùn",
+    "\u73FD": "tǐng",
+    "\u7400": "hán",
+    "\u7403": "qiú",
+    "\u7404": "xuàn",
+    "\u7405": "láng",
+    "\u7406": "lǐ",
+    "\u7407": "xiù",
+    "\u7408": "fú",
+    "\u7409": "liú",
+    "\u740A": "yá",
+    "\u740E": "jìn",
+    "\u740F": "liǎn",
+    "\u7410": "suǒ",
+    "\u7414": "diàn",
+    "\u741A": "jū",
+    "\u741B": "chēn",
+    "\u741F": "wéi",
+    "\u7421": "chù",
+    "\u7422": "zuó",
+    "\u7424": "chēng",
+    "\u7425": "hǔ",
+    "\u7426": "qí",
+    "\u7428": "kūn",
+    "\u742A": "qí",
+    "\u742B": "běng",
+    "\u742C": "wǎn",
+    "\u742D": "lù",
+    "\u742E": "cóng",
+    "\u742F": "guǎn",
+    "\u7430": "yǎn",
+    "\u7432": "bèi",
+    "\u7433": "lín",
+    "\u7434": "qín",
+    "\u7435": "pí",
+    "\u7436": "pá",
+    "\u743C": "qióng",
+    "\u7440": "yǔ",
+    "\u7441": "mào",
+    "\u7442": "méi",
+    "\u7443": "chūn",
+    "\u7444": "xuān",
+    "\u7445": "tí",
+    "\u7446": "xīng",
+    "\u7451": "zhuàn",
+    "\u7453": "liàn",
+    "\u7454": "quán",
+    "\u7455": "xiá",
+    "\u7456": "duàn",
+    "\u7457": "yuàn",
+    "\u7459": "nǎo",
+    "\u745A": "hú",
+    "\u745B": "yīng",
+    "\u745C": "yú",
+    "\u745D": "huáng",
+    "\u745E": "ruì",
+    "\u745F": "sè",
+    "\u7462": "róng",
+    "\u7467": "zhēn",
+    "\u7468": "jìn",
+    "\u746C": "liú",
+    "\u746D": "táng",
+    "\u7470": "guī",
+    "\u7471": "zhèn",
+    "\u7473": "cuō",
+    "\u7476": "yáo",
+    "\u7477": "ài",
+    "\u747E": "jǐn",
+    "\u7480": "cuǐ",
+    "\u7481": "cōng",
+    "\u7483": "lí",
+    "\u7486": "qiú",
+    "\u7487": "xuán",
+    "\u7488": "áo",
+    "\u748B": "zhāng",
+    "\u748E": "yīng",
+    "\u7490": "lù",
+    "\u7492": "dēng",
+    "\u7498": "lín",
+    "\u749C": "huáng",
+    "\u749E": "pú",
+    "\u749F": "jǐng",
+    "\u74A0": "fán",
+    "\u74A5": "jǐng",
+    "\u74A7": "bì",
+    "\u74A8": "càn",
+    "\u74A9": "qú",
+    "\u74AA": "zǎo",
+    "\u74AC": "jiǎo",
+    "\u74AE": "tǎn",
+    "\u74B1": "sè",
+    "\u74B2": "suì",
+    "\u74BA": "wèn",
+    "\u74C0": "ruǎn",
+    "\u74D2": "zàn",
+    "\u74D6": "xiāng",
+    "\u74D8": "guàn",
+    "\u74DC": "guā",
+    "\u74DE": "dié",
+    "\u74E0": "hù",
+    "\u74E2": "piáo",
+    "\u74E3": "bàn",
+    "\u74E4": "ráng",
+    "\u74E6": "wǎ",
+    "\u74EE": "wèng",
+    "\u74EF": "ōu",
+    "\u74F4": "líng",
+    "\u74F6": "píng",
+    "\u74F7": "cí",
+    "\u74FB": "chī",
+    "\u74FF": "bù",
+    "\u7504": "zhēn",
+    "\u750D": "méng",
+    "\u750F": "bèng",
+    "\u7511": "zèng",
+    "\u7513": "pì",
+    "\u7517": "yǎn",
+    "\u7518": "gān",
+    "\u751A": "shèn",
+    "\u751C": "tián",
+    "\u751F": "shēng",
+    "\u7521": "shēn",
+    "\u7525": "shēng",
+    "\u7526": "sū",
+    "\u7528": "yòng",
+    "\u7529": "shuǎi",
+    "\u752A": "lù",
+    "\u752B": "fǔ",
+    "\u752C": "yǒng",
+    "\u752D": "béng",
+    "\u752F": "níng",
+    "\u7530": "tián",
+    "\u7531": "yóu",
+    "\u7532": "jiǎ",
+    "\u7533": "shēn",
+    "\u7535": "diàn",
+    "\u7537": "nán",
+    "\u7538": "diān",
+    "\u753A": "tīng",
+    "\u753B": "huà",
+    "\u753E": "zāi",
+    "\u7540": "bì",
+    "\u7545": "chàng",
+    "\u7548": "fàn",
+    "\u754B": "tián",
+    "\u754C": "jiè",
+    "\u754E": "quǎn",
+    "\u754F": "wèi",
+    "\u7554": "pàn",
+    "\u7556": "wā",
+    "\u7559": "liú",
+    "\u755A": "běn",
+    "\u755B": "zhěn",
+    "\u755C": "chù",
+    "\u7564": "zhì",
+    "\u7565": "lüè",
+    "\u7566": "qí",
+    "\u756A": "fān",
+    "\u756C": "shē",
+    "\u756F": "jùn",
+    "\u7572": "shē",
+    "\u7574": "chóu",
+    "\u7578": "jī",
+    "\u7579": "wǎn",
+    "\u757F": "jī",
+    "\u7581": "liú",
+    "\u7583": "tuǎn",
+    "\u7586": "jiāng",
+    "\u758D": "dàn",
+    "\u758F": "shū",
+    "\u7590": "zhì",
+    "\u7591": "yí",
+    "\u7594": "dīng",
+    "\u7596": "jiē",
+    "\u7597": "liáo",
+    "\u7599": "gē",
+    "\u759A": "jiù",
+    "\u759D": "shàn",
+    "\u759F": "nüè",
+    "\u75A0": "lì",
+    "\u75A1": "yáng",
+    "\u75A2": "chèn",
+    "\u75A3": "yóu",
+    "\u75A4": "bā",
+    "\u75A5": "jiè",
+    "\u75AB": "yì",
+    "\u75AC": "lì",
+    "\u75AD": "zòng",
+    "\u75AE": "chuāng",
+    "\u75AF": "fēng",
+    "\u75B0": "zhù",
+    "\u75B1": "pào",
+    "\u75B2": "pí",
+    "\u75B3": "gān",
+    "\u75B4": "kē",
+    "\u75B5": "cī",
+    "\u75B8": "dǎn",
+    "\u75B9": "zhěn",
+    "\u75BC": "téng",
+    "\u75BD": "jū",
+    "\u75BE": "jí",
+    "\u75C2": "jiā",
+    "\u75C3": "xuán",
+    "\u75C4": "zhà",
+    "\u75C5": "bìng",
+    "\u75C7": "zhèng",
+    "\u75C8": "yōng",
+    "\u75C9": "jìng",
+    "\u75CA": "quán",
+    "\u75CD": "yí",
+    "\u75D2": "yǎng",
+    "\u75D3": "chì",
+    "\u75D4": "zhì",
+    "\u75D5": "hén",
+    "\u75D8": "dòu",
+    "\u75DB": "tòng",
+    "\u75DE": "pǐ",
+    "\u75E2": "lì",
+    "\u75E3": "zhì",
+    "\u75E4": "cuó",
+    "\u75E6": "wù",
+    "\u75E7": "shā",
+    "\u75E8": "láo",
+    "\u75EA": "huàn",
+    "\u75EB": "xián",
+    "\u75F0": "tán",
+    "\u75F1": "fèi",
+    "\u75F4": "chī",
+    "\u75F9": "bì",
+    "\u75FC": "gù",
+    "\u75FF": "wěi",
+    "\u7600": "yū",
+    "\u7601": "cuì",
+    "\u7603": "zhú",
+    "\u7605": "dān",
+    "\u7606": "shèn",
+    "\u760A": "hóu",
+    "\u760C": "là",
+    "\u7610": "yǔ",
+    "\u7615": "jiǎ",
+    "\u7617": "yì",
+    "\u7618": "lòu",
+    "\u7619": "sào",
+    "\u761B": "chì",
+    "\u761F": "wēn",
+    "\u7620": "jí",
+    "\u7622": "bān",
+    "\u7624": "liú",
+    "\u7625": "chài",
+    "\u7626": "shòu",
+    "\u7629": "dā",
+    "\u762A": "biě",
+    "\u762B": "tān",
+    "\u762D": "biāo",
+    "\u7630": "luǒ",
+    "\u7633": "chōu",
+    "\u7634": "zhàng",
+    "\u7635": "zhài",
+    "\u7638": "qué",
+    "\u763C": "mò",
+    "\u763E": "yǐn",
+    "\u763F": "yǐng",
+    "\u7640": "huáng",
+    "\u7643": "lóng",
+    "\u764C": "ái",
+    "\u764D": "bān",
+    "\u7654": "yì",
+    "\u7656": "pǐ",
+    "\u7657": "lěi",
+    "\u765C": "diàn",
+    "\u765E": "lài",
+    "\u7663": "xuǎn",
+    "\u766B": "diān",
+    "\u766F": "qú",
+    "\u7678": "guǐ",
+    "\u767B": "dēng",
+    "\u767D": "bái",
+    "\u767E": "bǎi",
+    "\u767F": "qié",
+    "\u7682": "zào",
+    "\u7684": "de",
+    "\u7686": "jiē",
+    "\u7687": "huáng",
+    "\u7688": "guī",
+    "\u768B": "gāo",
+    "\u768E": "jiǎo",
+    "\u7691": "ái",
+    "\u7693": "hào",
+    "\u7695": "bì",
+    "\u7696": "wǎn",
+    "\u7699": "xī",
+    "\u769B": "xiǎo",
+    "\u769E": "hào",
+    "\u76A4": "pó",
+    "\u76A6": "jiǎo",
+    "\u76AD": "jiào",
+    "\u76AE": "pí",
+    "\u76B1": "zhòu",
+    "\u76B2": "jūn",
+    "\u76B4": "cūn",
+    "\u76BF": "mǐn",
+    "\u76C2": "yú",
+    "\u76C5": "zhōng",
+    "\u76C6": "pén",
+    "\u76C8": "yíng",
+    "\u76C9": "hé",
+    "\u76CA": "yì",
+    "\u76CD": "hé",
+    "\u76CE": "àng",
+    "\u76CF": "zhǎn",
+    "\u76D0": "yán",
+    "\u76D1": "jiān",
+    "\u76D2": "hé",
+    "\u76D4": "kuī",
+    "\u76D6": "gài",
+    "\u76D7": "dào",
+    "\u76D8": "pán",
+    "\u76DB": "shèng",
+    "\u76DF": "méng",
+    "\u76E5": "guàn",
+    "\u76E6": "ān",
+    "\u76EE": "mù",
+    "\u76EF": "dīng",
+    "\u76F1": "xū",
+    "\u76F2": "máng",
+    "\u76F4": "zhí",
+    "\u76F7": "tián",
+    "\u76F8": "xiāng",
+    "\u76F9": "dǔn",
+    "\u76FC": "pàn",
+    "\u76FE": "dùn",
+    "\u7701": "shěng",
+    "\u7704": "miǎn",
+    "\u7707": "miǎo",
+    "\u7708": "dān",
+    "\u7709": "méi",
+    "\u770A": "mào",
+    "\u770B": "kàn",
+    "\u770D": "kōu",
+    "\u7719": "yí",
+    "\u771A": "shěng",
+    "\u771F": "zhēn",
+    "\u7720": "mián",
+    "\u7722": "yuān",
+    "\u7726": "zì",
+    "\u7728": "zhǎ",
+    "\u7729": "xuàn",
+    "\u772C": "lóng",
+    "\u772D": "suī",
+    "\u772F": "mī",
+    "\u7735": "chī",
+    "\u7736": "kuàng",
+    "\u7737": "juàn",
+    "\u7738": "móu",
+    "\u773A": "tiào",
+    "\u773C": "yǎn",
+    "\u7740": "zhe",
+    "\u7741": "zhēng",
+    "\u7743": "suō",
+    "\u7744": "shào",
+    "\u7747": "dì",
+    "\u774E": "xī",
+    "\u7750": "lài",
+    "\u7751": "jiǎn",
+    "\u775A": "yá",
+    "\u775B": "jīng",
+    "\u7761": "shuì",
+    "\u7762": "suī",
+    "\u7763": "dū",
+    "\u7765": "pì",
+    "\u7766": "mù",
+    "\u7768": "nì",
+    "\u776B": "jié",
+    "\u776C": "cǎi",
+    "\u7779": "dǔ",
+    "\u777D": "kuí",
+    "\u777E": "gāo",
+    "\u777F": "ruì",
+    "\u7780": "mào",
+    "\u7784": "miáo",
+    "\u7785": "chǒu",
+    "\u778B": "chēn",
+    "\u778C": "kē",
+    "\u778D": "sǒu",
+    "\u778E": "xiā",
+    "\u7791": "míng",
+    "\u7792": "mán",
+    "\u779F": "piǎo",
+    "\u77A0": "chēng",
+    "\u77A2": "méng",
+    "\u77A5": "piē",
+    "\u77A7": "qiáo",
+    "\u77A9": "zhǔ",
+    "\u77AA": "dèng",
+    "\u77AB": "shěn",
+    "\u77AC": "shùn",
+    "\u77AD": "liǎo",
+    "\u77B0": "kàn",
+    "\u77B3": "tóng",
+    "\u77B5": "lín",
+    "\u77BB": "zhān",
+    "\u77BD": "gǔ",
+    "\u77BF": "qú",
+    "\u77CD": "jué",
+    "\u77D7": "chù",
+    "\u77DB": "máo",
+    "\u77DC": "jīn",
+    "\u77DE": "yù",
+    "\u77E2": "shǐ",
+    "\u77E3": "yǐ",
+    "\u77E5": "zhī",
+    "\u77E7": "shěn",
+    "\u77E9": "jǔ",
+    "\u77EB": "jiǎo",
+    "\u77EC": "cuó",
+    "\u77ED": "duǎn",
+    "\u77EE": "ǎi",
+    "\u77F0": "zēng",
+    "\u77F3": "shí",
+    "\u77F6": "jī",
+    "\u77F8": "gān",
+    "\u77FB": "kū",
+    "\u77FC": "gāng",
+    "\u77FE": "fán",
+    "\u77FF": "kuàng",
+    "\u7800": "dàng",
+    "\u7801": "mǎ",
+    "\u7802": "shā",
+    "\u7804": "jué",
+    "\u7806": "fū",
+    "\u7809": "huò",
+    "\u780C": "qì",
+    "\u780D": "kǎn",
+    "\u7811": "yà",
+    "\u7812": "pī",
+    "\u7814": "yán",
+    "\u7816": "zhuān",
+    "\u7817": "chē",
+    "\u7818": "dùn",
+    "\u781A": "yàn",
+    "\u781C": "fēng",
+    "\u781D": "fá",
+    "\u781F": "zhǎ",
+    "\u7820": "jū",
+    "\u7823": "tuó",
+    "\u7825": "dǐ",
+    "\u7827": "zhēn",
+    "\u782B": "zhù",
+    "\u782C": "lá",
+    "\u782D": "biān",
+    "\u782E": "nǔ",
+    "\u7830": "pēng",
+    "\u7834": "pò",
+    "\u7835": "bō",
+    "\u7837": "shēn",
+    "\u7838": "zá",
+    "\u7839": "ài",
+    "\u783A": "lì",
+    "\u783B": "lóng",
+    "\u783C": "tóng",
+    "\u783E": "lì",
+    "\u7840": "chǔ",
+    "\u7841": "kēng",
+    "\u7845": "guī",
+    "\u7847": "náo",
+    "\u784A": "wěi",
+    "\u784C": "gè",
+    "\u784D": "xiàn",
+    "\u784E": "xíng",
+    "\u7850": "dòng",
+    "\u7852": "xī",
+    "\u7854": "hóng",
+    "\u7855": "shuò",
+    "\u7856": "xiá",
+    "\u7857": "qiāo",
+    "\u7859": "wéi",
+    "\u785A": "qiáo",
+    "\u785D": "xiāo",
+    "\u786A": "wò",
+    "\u786B": "liú",
+    "\u786C": "yìng",
+    "\u786D": "máng",
+    "\u786E": "què",
+    "\u787C": "péng",
+    "\u787F": "kōng",
+    "\u7883": "qìng",
+    "\u7887": "dìng",
+    "\u7888": "mín",
+    "\u7889": "diāo",
+    "\u788C": "lù",
+    "\u788D": "ài",
+    "\u788E": "suì",
+    "\u788F": "què",
+    "\u7891": "bēi",
+    "\u7893": "duì",
+    "\u7897": "wǎn",
+    "\u7898": "diǎn",
+    "\u789A": "bèi",
+    "\u789B": "qì",
+    "\u789C": "chěn",
+    "\u789F": "dié",
+    "\u78A1": "dú",
+    "\u78A3": "jié",
+    "\u78A5": "biǎn",
+    "\u78A7": "bì",
+    "\u78A8": "wèi",
+    "\u78B0": "pèng",
+    "\u78B1": "jiǎn",
+    "\u78B2": "dì",
+    "\u78B3": "tàn",
+    "\u78B4": "chá",
+    "\u78B6": "qì",
+    "\u78B9": "xuàn",
+    "\u78BE": "niǎn",
+    "\u78C1": "cí",
+    "\u78C5": "bàng",
+    "\u78C9": "sǎng",
+    "\u78CA": "lěi",
+    "\u78CB": "cuō",
+    "\u78CF": "lián",
+    "\u78D0": "pán",
+    "\u78D4": "zhé",
+    "\u78D5": "kē",
+    "\u78D9": "gǔn",
+    "\u78DC": "qì",
+    "\u78E1": "kàn",
+    "\u78E8": "mó",
+    "\u78EC": "qìng",
+    "\u78F2": "qú",
+    "\u78F4": "dèng",
+    "\u78F7": "lín",
+    "\u78F9": "tán",
+    "\u78FB": "pán",
+    "\u7901": "jiāo",
+    "\u7905": "dūn",
+    "\u790C": "léi",
+    "\u7913": "jiāng",
+    "\u791E": "méng",
+    "\u7934": "bó",
+    "\u7935": "shuāng",
+    "\u793A": "shì",
+    "\u793C": "lǐ",
+    "\u793E": "shè",
+    "\u7940": "sì",
+    "\u7941": "qí",
+    "\u7943": "mà",
+    "\u7946": "xiān",
+    "\u7947": "qí",
+    "\u7948": "qí",
+    "\u7949": "zhǐ",
+    "\u794A": "bēng",
+    "\u794B": "duì",
+    "\u794E": "yī",
+    "\u794F": "shí",
+    "\u7950": "yòu",
+    "\u7953": "fú",
+    "\u7955": "mì",
+    "\u7956": "zǔ",
+    "\u7957": "zhī",
+    "\u795A": "zuò",
+    "\u795B": "qū",
+    "\u795C": "hù",
+    "\u795D": "zhù",
+    "\u795E": "shén",
+    "\u795F": "suì",
+    "\u7960": "cí",
+    "\u7962": "mí",
+    "\u7965": "xiáng",
+    "\u7967": "tiāo",
+    "\u7968": "piào",
+    "\u796D": "jì",
+    "\u796F": "zhēn",
+    "\u7972": "jìn",
+    "\u7977": "dǎo",
+    "\u7978": "huò",
+    "\u797A": "qí",
+    "\u797C": "guàn",
+    "\u797E": "líng",
+    "\u7980": "bǐng",
+    "\u7981": "jìn",
+    "\u7984": "lù",
+    "\u7985": "chán",
+    "\u798A": "xì",
+    "\u798B": "yīn",
+    "\u798F": "fú",
+    "\u7992": "xiǎn",
+    "\u7994": "zhī",
+    "\u7998": "dì",
+    "\u799A": "zhuó",
+    "\u799B": "zhēn",
+    "\u79A4": "xuān",
+    "\u79A7": "xǐ",
+    "\u79B3": "ráng",
+    "\u79B9": "yǔ",
+    "\u79BA": "yú",
+    "\u79BB": "lí",
+    "\u79BD": "qín",
+    "\u79BE": "hé",
+    "\u79C0": "xiù",
+    "\u79C1": "sī",
+    "\u79C3": "tū",
+    "\u79C6": "gǎn",
+    "\u79C9": "bǐng",
+    "\u79CB": "qiū",
+    "\u79CD": "zhǒng",
+    "\u79D1": "kē",
+    "\u79D2": "miǎo",
+    "\u79D5": "bǐ",
+    "\u79D8": "mì",
+    "\u79DF": "zū",
+    "\u79E3": "mò",
+    "\u79E4": "chèng",
+    "\u79E6": "qín",
+    "\u79E7": "yāng",
+    "\u79E9": "zhì",
+    "\u79EB": "shú",
+    "\u79EC": "jù",
+    "\u79ED": "zǐ",
+    "\u79EF": "jī",
+    "\u79F0": "chēng",
+    "\u79F8": "jiē",
+    "\u79FB": "yí",
+    "\u79FD": "huì",
+    "\u79FE": "nóng",
+    "\u7A00": "xī",
+    "\u7A02": "láng",
+    "\u7A03": "fū",
+    "\u7A06": "lǚ",
+    "\u7A0B": "chéng",
+    "\u7A0C": "tú",
+    "\u7A0D": "shāo",
+    "\u7A0E": "shuì",
+    "\u7A11": "lù",
+    "\u7A14": "rěn",
+    "\u7A17": "bài",
+    "\u7A19": "zhī",
+    "\u7A1A": "zhì",
+    "\u7A1E": "kē",
+    "\u7A20": "chóu",
+    "\u7A23": "sū",
+    "\u7A33": "wěn",
+    "\u7A37": "jì",
+    "\u7A39": "zhěn",
+    "\u7A3B": "dào",
+    "\u7A3C": "jià",
+    "\u7A3D": "jī",
+    "\u7A3F": "gǎo",
+    "\u7A44": "jì",
+    "\u7A46": "mù",
+    "\u7A51": "sè",
+    "\u7A57": "suì",
+    "\u7A59": "pú",
+    "\u7A5C": "zhǒng",
+    "\u7A5F": "suì",
+    "\u7A70": "ráng",
+    "\u7A74": "xué",
+    "\u7A76": "jiū",
+    "\u7A77": "qióng",
+    "\u7A78": "xī",
+    "\u7A79": "qióng",
+    "\u7A7A": "kōng",
+    "\u7A7F": "chuān",
+    "\u7A80": "zhūn",
+    "\u7A81": "tū",
+    "\u7A83": "qiè",
+    "\u7A84": "zhǎi",
+    "\u7A85": "yǎo",
+    "\u7A88": "yǎo",
+    "\u7A8A": "wā",
+    "\u7A8D": "qiào",
+    "\u7A8E": "diào",
+    "\u7A91": "yáo",
+    "\u7A92": "zhì",
+    "\u7A95": "tiǎo",
+    "\u7A96": "jiào",
+    "\u7A97": "chuāng",
+    "\u7A98": "jiǒng",
+    "\u7A9C": "cuàn",
+    "\u7A9D": "wō",
+    "\u7A9F": "kū",
+    "\u7AA0": "kē",
+    "\u7AA3": "sū",
+    "\u7AA5": "kuī",
+    "\u7AA6": "dòu",
+    "\u7AA8": "xūn",
+    "\u7AAC": "yú",
+    "\u7AAD": "jù",
+    "\u7AB3": "yǔ",
+    "\u7AB8": "xī",
+    "\u7ABF": "lóng",
+    "\u7ACB": "lì",
+    "\u7AD1": "hóng",
+    "\u7AD6": "shù",
+    "\u7AD8": "qǔ",
+    "\u7AD9": "zhàn",
+    "\u7ADE": "jìng",
+    "\u7ADF": "jìng",
+    "\u7AE0": "zhāng",
+    "\u7AE3": "jùn",
+    "\u7AE5": "tóng",
+    "\u7AE6": "sǒng",
+    "\u7AEB": "jìng",
+    "\u7AED": "jié",
+    "\u7AEF": "duān",
+    "\u7AF9": "zhú",
+    "\u7AFA": "zhú",
+    "\u7AFD": "yú",
+    "\u7AFF": "gān",
+    "\u7B03": "dǔ",
+    "\u7B04": "jī",
+    "\u7B06": "bā",
+    "\u7B08": "jí",
+    "\u7B0A": "zhào",
+    "\u7B0B": "sǔn",
+    "\u7B0F": "hù",
+    "\u7B11": "xiào",
+    "\u7B14": "bǐ",
+    "\u7B15": "jiǎn",
+    "\u7B19": "shēng",
+    "\u7B1B": "dí",
+    "\u7B1E": "chī",
+    "\u7B20": "lì",
+    "\u7B24": "tiáo",
+    "\u7B25": "sì",
+    "\u7B26": "fú",
+    "\u7B28": "bèn",
+    "\u7B2A": "dá",
+    "\u7B2B": "zǐ",
+    "\u7B2C": "dì",
+    "\u7B2E": "zé",
+    "\u7B2F": "nú",
+    "\u7B31": "gǒu",
+    "\u7B33": "jiā",
+    "\u7B38": "pǒ",
+    "\u7B3A": "jiān",
+    "\u7B3C": "lóng",
+    "\u7B3E": "biān",
+    "\u7B40": "guì",
+    "\u7B45": "xiǎn",
+    "\u7B47": "qióng",
+    "\u7B49": "děng",
+    "\u7B4B": "jīn",
+    "\u7B4C": "quán",
+    "\u7B4F": "fá",
+    "\u7B50": "kuāng",
+    "\u7B51": "zhù",
+    "\u7B52": "tǒng",
+    "\u7B54": "dá",
+    "\u7B56": "cè",
+    "\u7B58": "kòu",
+    "\u7B5A": "bì",
+    "\u7B5B": "shāi",
+    "\u7B5C": "dāng",
+    "\u7B5D": "zhēng",
+    "\u7B60": "yún",
+    "\u7B62": "pá",
+    "\u7B64": "láng",
+    "\u7B65": "jǔ",
+    "\u7B66": "guǎn",
+    "\u7B6E": "shì",
+    "\u7B71": "xiǎo",
+    "\u7B72": "shāo",
+    "\u7B75": "yán",
+    "\u7B76": "gào",
+    "\u7B77": "kuài",
+    "\u7B79": "chóu",
+    "\u7B7B": "gàng",
+    "\u7B7C": "yún",
+    "\u7B7E": "qiān",
+    "\u7B80": "jiǎn",
+    "\u7B85": "bì",
+    "\u7B8D": "gū",
+    "\u7B90": "qìng",
+    "\u7B93": "lù",
+    "\u7B94": "bó",
+    "\u7B95": "jī",
+    "\u7B96": "lín",
+    "\u7B97": "suàn",
+    "\u7B9C": "kōng",
+    "\u7BA1": "guǎn",
+    "\u7BA2": "yuān",
+    "\u7BA6": "zé",
+    "\u7BA7": "qiè",
+    "\u7BA8": "tuò",
+    "\u7BA9": "luó",
+    "\u7BAA": "dān",
+    "\u7BAB": "xiāo",
+    "\u7BAC": "ruò",
+    "\u7BAD": "jiàn",
+    "\u7BB1": "xiāng",
+    "\u7BB4": "zhēn",
+    "\u7BB8": "zhù",
+    "\u7BC1": "huáng",
+    "\u7BC6": "zhuàn",
+    "\u7BC7": "piān",
+    "\u7BCC": "hóu",
+    "\u7BD1": "kuì",
+    "\u7BD3": "lǒu",
+    "\u7BD9": "gāo",
+    "\u7BDA": "fěi",
+    "\u7BDD": "gōu",
+    "\u7BE1": "cuàn",
+    "\u7BE5": "lì",
+    "\u7BE6": "bì",
+    "\u7BEA": "chí",
+    "\u7BEE": "lán",
+    "\u7BEF": "jiān",
+    "\u7BF1": "lí",
+    "\u7BF7": "péng",
+    "\u7BFC": "dōu",
+    "\u7BFE": "miè",
+    "\u7C03": "yí",
+    "\u7C07": "cù",
+    "\u7C09": "zào",
+    "\u7C0B": "guǐ",
+    "\u7C0C": "sù",
+    "\u7C0F": "lù",
+    "\u7C15": "lè",
+    "\u7C16": "duàn",
+    "\u7C1D": "liáo",
+    "\u7C1F": "diàn",
+    "\u7C20": "fǔ",
+    "\u7C27": "huáng",
+    "\u7C2A": "zān",
+    "\u7C30": "pái",
+    "\u7C38": "bǒ",
+    "\u7C3F": "bù",
+    "\u7C40": "zhòu",
+    "\u7C41": "lài",
+    "\u7C4D": "jí",
+    "\u7C65": "yuè",
+    "\u7C73": "mǐ",
+    "\u7C74": "dí",
+    "\u7C7B": "lèi",
+    "\u7C7C": "xiān",
+    "\u7C7D": "zǐ",
+    "\u7C89": "fěn",
+    "\u7C91": "bā",
+    "\u7C92": "lì",
+    "\u7C95": "pò",
+    "\u7C97": "cū",
+    "\u7C98": "zhān",
+    "\u7C9C": "tiào",
+    "\u7C9D": "lì",
+    "\u7C9E": "xī",
+    "\u7C9F": "sù",
+    "\u7CA2": "zī",
+    "\u7CA4": "yuè",
+    "\u7CA5": "zhōu",
+    "\u7CAA": "fèn",
+    "\u7CAE": "liáng",
+    "\u7CB1": "liáng",
+    "\u7CB2": "càn",
+    "\u7CB3": "jīng",
+    "\u7CB9": "cuì",
+    "\u7CBC": "lín",
+    "\u7CBD": "zòng",
+    "\u7CBE": "jīng",
+    "\u7CBF": "guǒ",
+    "\u7CC1": "sǎn",
+    "\u7CC5": "róu",
+    "\u7CC7": "hóu",
+    "\u7CC8": "xǔ",
+    "\u7CCA": "hú",
+    "\u7CCC": "zān",
+    "\u7CCD": "cí",
+    "\u7CD2": "bèi",
+    "\u7CD5": "gāo",
+    "\u7CD6": "táng",
+    "\u7CD7": "qiǔ",
+    "\u7CD9": "cāo",
+    "\u7CDC": "mí",
+    "\u7CDF": "zāo",
+    "\u7CE0": "kāng",
+    "\u7CE8": "jiàng",
+    "\u7CEF": "nuò",
+    "\u7CF5": "niè",
+    "\u7CFB": "xì",
+    "\u7D0A": "wěn",
+    "\u7D20": "sù",
+    "\u7D22": "suǒ",
+    "\u7D27": "jǐn",
+    "\u7D2B": "zǐ",
+    "\u7D2F": "lèi",
+    "\u7D5C": "jié",
+    "\u7D6E": "xù",
+    "\u7D77": "zhí",
+    "\u7DA6": "qí",
+    "\u7DAE": "qǐ",
+    "\u7E20": "hú",
+    "\u7E22": "téng",
+    "\u7E3B": "mí",
+    "\u7E41": "fán",
+    "\u7E44": "yī",
+    "\u7E47": "yáo",
+    "\u7E82": "zuǎn",
+    "\u7E9B": "dào",
+    "\u7EA0": "jiū",
+    "\u7EA1": "yū",
+    "\u7EA2": "hóng",
+    "\u7EA3": "zhòu",
+    "\u7EA4": "xiān",
+    "\u7EA5": "gē",
+    "\u7EA6": "yuē",
+    "\u7EA7": "jí",
+    "\u7EA8": "wán",
+    "\u7EA9": "kuàng",
+    "\u7EAA": "jì",
+    "\u7EAB": "rèn",
+    "\u7EAC": "wěi",
+    "\u7EAD": "yún",
+    "\u7EAE": "hóng",
+    "\u7EAF": "chún",
+    "\u7EB0": "pī",
+    "\u7EB1": "shā",
+    "\u7EB2": "gāng",
+    "\u7EB3": "nà",
+    "\u7EB4": "rèn",
+    "\u7EB5": "zòng",
+    "\u7EB6": "lún",
+    "\u7EB7": "fēn",
+    "\u7EB8": "zhǐ",
+    "\u7EB9": "wén",
+    "\u7EBA": "fǎng",
+    "\u7EBB": "zhù",
+    "\u7EBC": "zhèn",
+    "\u7EBD": "niǔ",
+    "\u7EBE": "shū",
+    "\u7EBF": "xiàn",
+    "\u7EC0": "gàn",
+    "\u7EC1": "xiè",
+    "\u7EC2": "fú",
+    "\u7EC3": "liàn",
+    "\u7EC4": "zǔ",
+    "\u7EC5": "shēn",
+    "\u7EC6": "xì",
+    "\u7EC7": "zhī",
+    "\u7EC8": "zhōng",
+    "\u7EC9": "zhòu",
+    "\u7ECA": "bàn",
+    "\u7ECB": "fú",
+    "\u7ECC": "chù",
+    "\u7ECD": "shào",
+    "\u7ECE": "yì",
+    "\u7ECF": "jīng",
+    "\u7ED0": "dài",
+    "\u7ED1": "bǎng",
+    "\u7ED2": "róng",
+    "\u7ED3": "jié",
+    "\u7ED4": "kù",
+    "\u7ED5": "rào",
+    "\u7ED6": "dié",
+    "\u7ED7": "háng",
+    "\u7ED8": "huì",
+    "\u7ED9": "gěi",
+    "\u7EDA": "xuàn",
+    "\u7EDB": "jiàng",
+    "\u7EDC": "luò",
+    "\u7EDD": "jué",
+    "\u7EDE": "jiǎo",
+    "\u7EDF": "tǒng",
+    "\u7EE0": "gěng",
+    "\u7EE1": "xiāo",
+    "\u7EE2": "juàn",
+    "\u7EE3": "xiù",
+    "\u7EE4": "xì",
+    "\u7EE5": "suí",
+    "\u7EE6": "tāo",
+    "\u7EE7": "jì",
+    "\u7EE8": "tí",
+    "\u7EE9": "jì",
+    "\u7EEA": "xù",
+    "\u7EEB": "líng",
+    "\u7EED": "xù",
+    "\u7EEE": "qǐ",
+    "\u7EEF": "fēi",
+    "\u7EF0": "chuò",
+    "\u7EF1": "shàng",
+    "\u7EF2": "gǔn",
+    "\u7EF3": "shéng",
+    "\u7EF4": "wéi",
+    "\u7EF5": "mián",
+    "\u7EF6": "shòu",
+    "\u7EF7": "bēng",
+    "\u7EF8": "chóu",
+    "\u7EF9": "táo",
+    "\u7EFA": "liǔ",
+    "\u7EFB": "quǎn",
+    "\u7EFC": "zōng",
+    "\u7EFD": "zhàn",
+    "\u7EFE": "wǎn",
+    "\u7EFF": "lǜ",
+    "\u7F00": "zhuì",
+    "\u7F01": "zī",
+    "\u7F02": "kè",
+    "\u7F03": "xiāng",
+    "\u7F04": "jiān",
+    "\u7F05": "miǎn",
+    "\u7F06": "lǎn",
+    "\u7F07": "tí",
+    "\u7F08": "miǎo",
+    "\u7F09": "jī",
+    "\u7F0A": "yūn",
+    "\u7F0C": "sī",
+    "\u7F0E": "duàn",
+    "\u7F10": "xiàn",
+    "\u7F11": "gōu",
+    "\u7F12": "zhuì",
+    "\u7F13": "huǎn",
+    "\u7F14": "dì",
+    "\u7F15": "lǚ",
+    "\u7F16": "biān",
+    "\u7F17": "mín",
+    "\u7F18": "yuán",
+    "\u7F19": "jìn",
+    "\u7F1A": "fù",
+    "\u7F1B": "rù",
+    "\u7F1C": "zhěn",
+    "\u7F1D": "fèng",
+    "\u7F1E": "cuī",
+    "\u7F1F": "gǎo",
+    "\u7F20": "chán",
+    "\u7F21": "lí",
+    "\u7F22": "yì",
+    "\u7F23": "jiān",
+    "\u7F24": "bīn",
+    "\u7F25": "piāo",
+    "\u7F26": "màn",
+    "\u7F27": "léi",
+    "\u7F28": "yīng",
+    "\u7F29": "suō",
+    "\u7F2A": "móu",
+    "\u7F2B": "sāo",
+    "\u7F2C": "xié",
+    "\u7F2D": "liáo",
+    "\u7F2E": "shàn",
+    "\u7F2F": "zēng",
+    "\u7F30": "jiāng",
+    "\u7F31": "qiǎn",
+    "\u7F32": "qiāo",
+    "\u7F33": "huán",
+    "\u7F34": "jiǎo",
+    "\u7F35": "zuǎn",
+    "\u7F36": "fǒu",
+    "\u7F38": "gāng",
+    "\u7F3A": "quē",
+    "\u7F42": "yīng",
+    "\u7F44": "qìng",
+    "\u7F45": "xià",
+    "\u7F4D": "léi",
+    "\u7F50": "guàn",
+    "\u7F51": "wǎng",
+    "\u7F54": "wǎng",
+    "\u7F55": "hǎn",
+    "\u7F57": "luó",
+    "\u7F58": "fú",
+    "\u7F5A": "fá",
+    "\u7F5F": "gǔ",
+    "\u7F61": "gāng",
+    "\u7F62": "bà",
+    "\u7F68": "yǎn",
+    "\u7F69": "zhào",
+    "\u7F6A": "zuì",
+    "\u7F6E": "zhì",
+    "\u7F71": "lǎn",
+    "\u7F72": "shǔ",
+    "\u7F74": "pí",
+    "\u7F76": "liǔ",
+    "\u7F79": "lí",
+    "\u7F7D": "jì",
+    "\u7F7E": "zēng",
+    "\u7F81": "jī",
+    "\u7F8A": "yáng",
+    "\u7F8C": "qiāng",
+    "\u7F8E": "měi",
+    "\u7F91": "yǒu",
+    "\u7F93": "bā",
+    "\u7F94": "gāo",
+    "\u7F95": "yàng",
+    "\u7F96": "gǔ",
+    "\u7F9A": "líng",
+    "\u7F9D": "dī",
+    "\u7F9E": "xiū",
+    "\u7F9F": "qiǎng",
+    "\u7FA1": "xiàn",
+    "\u7FA4": "qún",
+    "\u7FA7": "suō",
+    "\u7FAF": "jié",
+    "\u7FB0": "tāng",
+    "\u7FB1": "yuán",
+    "\u7FB2": "xī",
+    "\u7FB8": "léi",
+    "\u7FB9": "gēng",
+    "\u7FBC": "chàn",
+    "\u7FBD": "yǔ",
+    "\u7FBF": "yì",
+    "\u7FC0": "chōng",
+    "\u7FC1": "wēng",
+    "\u7FC2": "fēn",
+    "\u7FC3": "hóng",
+    "\u7FC5": "chì",
+    "\u7FC8": "xiá",
+    "\u7FCA": "yì",
+    "\u7FCC": "yì",
+    "\u7FCE": "líng",
+    "\u7FD4": "xiáng",
+    "\u7FD5": "xī",
+    "\u7FD8": "qiào",
+    "\u7FD9": "huì",
+    "\u7FDA": "huī",
+    "\u7FDB": "xiāo",
+    "\u7FDF": "dí",
+    "\u7FE0": "cuì",
+    "\u7FE1": "fěi",
+    "\u7FE5": "zhù",
+    "\u7FE6": "jiǎn",
+    "\u7FE9": "piān",
+    "\u7FEE": "hé",
+    "\u7FEF": "hè",
+    "\u7FF0": "hàn",
+    "\u7FF1": "áo",
+    "\u7FF3": "yì",
+    "\u7FF7": "lín",
+    "\u7FFB": "fān",
+    "\u7FFC": "yì",
+    "\u7FFE": "xuān",
+    "\u8000": "yào",
+    "\u8001": "lǎo",
+    "\u8003": "kǎo",
+    "\u8004": "mào",
+    "\u8005": "zhě",
+    "\u8006": "qí",
+    "\u8007": "gǒu",
+    "\u800B": "dié",
+    "\u800C": "ér",
+    "\u800D": "shuǎ",
+    "\u800F": "nài",
+    "\u8010": "nài",
+    "\u8011": "duān",
+    "\u8012": "lěi",
+    "\u8014": "zǐ",
+    "\u8015": "gēng",
+    "\u8016": "chào",
+    "\u8017": "hào",
+    "\u8018": "yún",
+    "\u8019": "bà",
+    "\u801C": "sì",
+    "\u8020": "huō",
+    "\u8022": "lào",
+    "\u8024": "jí",
+    "\u8025": "tāng",
+    "\u8026": "ǒu",
+    "\u8027": "lóu",
+    "\u8028": "nòu",
+    "\u8029": "jiǎng",
+    "\u802A": "pǎng",
+    "\u8030": "yōu",
+    "\u8031": "mò",
+    "\u8033": "ěr",
+    "\u8035": "dīng",
+    "\u8036": "yé",
+    "\u8037": "dā",
+    "\u8038": "sǒng",
+    "\u803B": "chǐ",
+    "\u803D": "dān",
+    "\u803F": "gěng",
+    "\u8042": "niè",
+    "\u8043": "dān",
+    "\u8046": "líng",
+    "\u804A": "liáo",
+    "\u804B": "lóng",
+    "\u804C": "zhí",
+    "\u804D": "níng",
+    "\u8052": "guā",
+    "\u8054": "lián",
+    "\u8058": "pìn",
+    "\u805A": "jù",
+    "\u8069": "kuì",
+    "\u806A": "cōng",
+    "\u8071": "áo",
+    "\u807F": "yù",
+    "\u8083": "sù",
+    "\u8084": "yì",
+    "\u8086": "sì",
+    "\u8087": "zhào",
+    "\u8089": "ròu",
+    "\u808B": "lē",
+    "\u808C": "jī",
+    "\u8093": "huāng",
+    "\u8096": "xiào",
+    "\u8098": "zhǒu",
+    "\u809A": "dù",
+    "\u809B": "gāng",
+    "\u809D": "gān",
+    "\u809F": "wò",
+    "\u80A0": "cháng",
+    "\u80A1": "gǔ",
+    "\u80A2": "zhī",
+    "\u80A4": "fū",
+    "\u80A5": "féi",
+    "\u80A9": "jiān",
+    "\u80AA": "fáng",
+    "\u80AB": "zhūn",
+    "\u80AD": "nà",
+    "\u80AE": "āng",
+    "\u80AF": "kěn",
+    "\u80B1": "gōng",
+    "\u80B2": "yù",
+    "\u80B4": "yáo",
+    "\u80B7": "qiǎn",
+    "\u80B8": "xī",
+    "\u80BA": "fèi",
+    "\u80BC": "jǐng",
+    "\u80BD": "tài",
+    "\u80BE": "shèn",
+    "\u80BF": "zhǒng",
+    "\u80C0": "zhàng",
+    "\u80C1": "xié",
+    "\u80C2": "shèn",
+    "\u80C3": "wèi",
+    "\u80C4": "zhòu",
+    "\u80C6": "dǎn",
+    "\u80C8": "bá",
+    "\u80CC": "bèi",
+    "\u80CD": "guā",
+    "\u80CE": "tāi",
+    "\u80D6": "pàng",
+    "\u80D7": "zhēn",
+    "\u80D9": "zuò",
+    "\u80DA": "pēi",
+    "\u80DB": "jiǎ",
+    "\u80DC": "shèng",
+    "\u80DD": "zhī",
+    "\u80DE": "bāo",
+    "\u80E0": "qū",
+    "\u80E1": "hú",
+    "\u80E3": "chǐ",
+    "\u80E4": "yìn",
+    "\u80E5": "xū",
+    "\u80E7": "lóng",
+    "\u80E8": "dòng",
+    "\u80E9": "kǎ",
+    "\u80EA": "lú",
+    "\u80EB": "jìng",
+    "\u80EC": "nǔ",
+    "\u80ED": "yān",
+    "\u80EF": "kuà",
+    "\u80F0": "yí",
+    "\u80F1": "guāng",
+    "\u80F2": "hǎi",
+    "\u80F3": "gē",
+    "\u80F4": "dòng",
+    "\u80F6": "jiāo",
+    "\u80F8": "xiōng",
+    "\u80FA": "àn",
+    "\u80FC": "pián",
+    "\u80FD": "néng",
+    "\u8102": "zhī",
+    "\u8106": "cuì",
+    "\u8109": "mài",
+    "\u810A": "jí",
+    "\u810D": "kuài",
+    "\u810E": "sà",
+    "\u810F": "zàng",
+    "\u8110": "qí",
+    "\u8111": "nǎo",
+    "\u8112": "mǐ",
+    "\u8113": "nóng",
+    "\u8114": "luán",
+    "\u8116": "bó",
+    "\u8118": "wǎn",
+    "\u811A": "jiǎo",
+    "\u811E": "cuǒ",
+    "\u811F": "liè",
+    "\u8129": "xiū",
+    "\u812C": "pāo",
+    "\u812F": "pú",
+    "\u8131": "tuō",
+    "\u8132": "niào",
+    "\u8136": "luó",
+    "\u8138": "liǎn",
+    "\u813E": "pí",
+    "\u813F": "biāo",
+    "\u8146": "tiǎn",
+    "\u8148": "jīng",
+    "\u814A": "là",
+    "\u814B": "yè",
+    "\u814C": "yān",
+    "\u8150": "fǔ",
+    "\u8151": "fǔ",
+    "\u8152": "jū",
+    "\u8153": "féi",
+    "\u8154": "qiāng",
+    "\u8155": "wàn",
+    "\u8158": "guó",
+    "\u8159": "zōng",
+    "\u815A": "dìng",
+    "\u8160": "còu",
+    "\u8165": "xīng",
+    "\u8167": "shù",
+    "\u8168": "shuàn",
+    "\u8169": "nǎn",
+    "\u816D": "è",
+    "\u816E": "sāi",
+    "\u816F": "tú",
+    "\u8170": "yāo",
+    "\u8171": "jiàn",
+    "\u8174": "yú",
+    "\u8179": "fù",
+    "\u817A": "xiàn",
+    "\u817B": "nì",
+    "\u817C": "miǎn",
+    "\u817D": "wà",
+    "\u817E": "téng",
+    "\u817F": "tuǐ",
+    "\u8180": "bǎng",
+    "\u8182": "lǚ",
+    "\u8188": "gé",
+    "\u818A": "bó",
+    "\u818F": "gāo",
+    "\u8191": "bìn",
+    "\u8198": "biāo",
+    "\u8199": "jiǎng",
+    "\u819B": "táng",
+    "\u819C": "mó",
+    "\u819D": "xī",
+    "\u81A6": "lìn",
+    "\u81A8": "péng",
+    "\u81B3": "shàn",
+    "\u81BA": "yīng",
+    "\u81BB": "shān",
+    "\u81C0": "tún",
+    "\u81C2": "bì",
+    "\u81C3": "yōng",
+    "\u81C6": "yì",
+    "\u81CA": "sāo",
+    "\u81CC": "gǔ",
+    "\u81D1": "nào",
+    "\u81DC": "zā",
+    "\u81E3": "chén",
+    "\u81E7": "zāng",
+    "\u81EA": "zì",
+    "\u81EC": "niè",
+    "\u81ED": "chòu",
+    "\u81F3": "zhì",
+    "\u81F4": "zhì",
+    "\u81FB": "zhēn",
+    "\u81FC": "jiù",
+    "\u81FE": "yú",
+    "\u8200": "yǎo",
+    "\u8201": "yú",
+    "\u8202": "chōng",
+    "\u8204": "xì",
+    "\u8205": "jiù",
+    "\u8206": "yú",
+    "\u820C": "shé",
+    "\u820D": "shě",
+    "\u8210": "shì",
+    "\u8212": "shū",
+    "\u8214": "tiǎn",
+    "\u821B": "chuǎn",
+    "\u821C": "shùn",
+    "\u821E": "wǔ",
+    "\u821F": "zhōu",
+    "\u8220": "dāo",
+    "\u8222": "shān",
+    "\u8223": "yǐ",
+    "\u8225": "pā",
+    "\u822A": "háng",
+    "\u822B": "fǎng",
+    "\u822C": "bān",
+    "\u822D": "bǐ",
+    "\u822F": "zhōng",
+    "\u8230": "jiàn",
+    "\u8231": "cāng",
+    "\u8232": "líng",
+    "\u8233": "zhú",
+    "\u8234": "zé",
+    "\u8235": "duò",
+    "\u8236": "bó",
+    "\u8237": "xián",
+    "\u8238": "gě",
+    "\u8239": "chuán",
+    "\u823B": "lú",
+    "\u823E": "xī",
+    "\u8244": "shāo",
+    "\u8245": "yú",
+    "\u8247": "tǐng",
+    "\u8249": "wěi",
+    "\u824B": "měng",
+    "\u824E": "huáng",
+    "\u824F": "shǒu",
+    "\u8258": "sōu",
+    "\u825A": "cáo",
+    "\u825F": "chōng",
+    "\u8268": "méng",
+    "\u826E": "gěn",
+    "\u826F": "liáng",
+    "\u8270": "jiān",
+    "\u8272": "sè",
+    "\u8273": "yàn",
+    "\u8274": "fú",
+    "\u827A": "yì",
+    "\u827D": "jiāo",
+    "\u827E": "ài",
+    "\u827F": "nǎi",
+    "\u8282": "jié",
+    "\u8283": "péng",
+    "\u8284": "wán",
+    "\u8288": "mǐ",
+    "\u828A": "qiān",
+    "\u828B": "yù",
+    "\u828D": "sháo",
+    "\u828E": "qiōng",
+    "\u828F": "dù",
+    "\u8291": "qǐ",
+    "\u8292": "máng",
+    "\u8297": "xiāng",
+    "\u8298": "pí",
+    "\u8299": "fú",
+    "\u829C": "wú",
+    "\u829D": "zhī",
+    "\u829F": "shān",
+    "\u82A0": "wén",
+    "\u82A1": "qiàn",
+    "\u82A3": "fú",
+    "\u82A4": "kōu",
+    "\u82A5": "jiè",
+    "\u82A6": "lú",
+    "\u82A8": "jī",
+    "\u82A9": "qín",
+    "\u82AA": "qí",
+    "\u82AB": "yán",
+    "\u82AC": "fēn",
+    "\u82AD": "bā",
+    "\u82AE": "ruì",
+    "\u82AF": "xīn",
+    "\u82B0": "jì",
+    "\u82B1": "huā",
+    "\u82B3": "fāng",
+    "\u82B4": "wù",
+    "\u82B7": "zhǐ",
+    "\u82B8": "yún",
+    "\u82B9": "qín",
+    "\u82BC": "mào",
+    "\u82BD": "yá",
+    "\u82BE": "fèi",
+    "\u82C1": "cōng",
+    "\u82C4": "biàn",
+    "\u82C7": "wěi",
+    "\u82C8": "lì",
+    "\u82C9": "pǐ",
+    "\u82CA": "è",
+    "\u82CB": "xiàn",
+    "\u82CC": "cháng",
+    "\u82CD": "cāng",
+    "\u82CE": "zhù",
+    "\u82CF": "sū",
+    "\u82D1": "yuàn",
+    "\u82D2": "rǎn",
+    "\u82D3": "líng",
+    "\u82D4": "tái",
+    "\u82D5": "sháo",
+    "\u82D7": "miáo",
+    "\u82D8": "qǐng",
+    "\u82DB": "kē",
+    "\u82DC": "mù",
+    "\u82DE": "bāo",
+    "\u82DF": "gǒu",
+    "\u82E0": "mín",
+    "\u82E1": "yǐ",
+    "\u82E3": "jù",
+    "\u82E4": "piě",
+    "\u82E5": "ruò",
+    "\u82E6": "kǔ",
+    "\u82E7": "níng",
+    "\u82EB": "shān",
+    "\u82EF": "běn",
+    "\u82F1": "yīng",
+    "\u82F4": "jū",
+    "\u82F7": "gān",
+    "\u82F9": "píng",
+    "\u82FB": "fú",
+    "\u82FE": "bì",
+    "\u8300": "fú",
+    "\u8301": "zhuó",
+    "\u8302": "mào",
+    "\u8303": "fàn",
+    "\u8304": "jiā",
+    "\u8305": "máo",
+    "\u8306": "máo",
+    "\u8308": "cí",
+    "\u8309": "mò",
+    "\u830B": "zhǐ",
+    "\u830C": "chí",
+    "\u830E": "jīng",
+    "\u830F": "lóng",
+    "\u8311": "niǎo",
+    "\u8313": "xué",
+    "\u8314": "yíng",
+    "\u8315": "qióng",
+    "\u8317": "míng",
+    "\u831A": "yìn",
+    "\u831B": "gèn",
+    "\u831C": "qiàn",
+    "\u831D": "chǎi",
+    "\u8327": "jiǎn",
+    "\u8328": "cí",
+    "\u832B": "máng",
+    "\u832C": "chá",
+    "\u832D": "jiāo",
+    "\u832F": "fú",
+    "\u8331": "zhū",
+    "\u8333": "jiāng",
+    "\u8334": "huí",
+    "\u8335": "yīn",
+    "\u8336": "chá",
+    "\u8338": "rōng",
+    "\u8339": "rú",
+    "\u833A": "chōng",
+    "\u833C": "tóng",
+    "\u833D": "zhòng",
+    "\u8340": "xún",
+    "\u8341": "huán",
+    "\u8343": "quán",
+    "\u8344": "gāi",
+    "\u8346": "jīng",
+    "\u8347": "xìng",
+    "\u8349": "cǎo",
+    "\u834F": "rěn",
+    "\u8350": "jiàn",
+    "\u8351": "tí",
+    "\u8352": "huāng",
+    "\u8353": "píng",
+    "\u8354": "lì",
+    "\u8356": "lǎo",
+    "\u8359": "dá",
+    "\u835A": "jiá",
+    "\u835B": "ráo",
+    "\u835C": "bì",
+    "\u835E": "qiáo",
+    "\u835F": "huì",
+    "\u8360": "jì",
+    "\u8361": "dàng",
+    "\u8363": "róng",
+    "\u8364": "hūn",
+    "\u8365": "xíng",
+    "\u8366": "luò",
+    "\u8367": "yíng",
+    "\u8368": "xún",
+    "\u8369": "jìn",
+    "\u836A": "sūn",
+    "\u836B": "yīn",
+    "\u836C": "mǎi",
+    "\u836D": "hóng",
+    "\u836E": "zhòu",
+    "\u836F": "yào",
+    "\u8377": "hé",
+    "\u8378": "bí",
+    "\u837B": "dí",
+    "\u837C": "tú",
+    "\u837D": "suī",
+    "\u8385": "lì",
+    "\u8386": "pú",
+    "\u8389": "lì",
+    "\u838E": "shā",
+    "\u8392": "jǔ",
+    "\u8393": "méi",
+    "\u8398": "shēn",
+    "\u8399": "jūn",
+    "\u839B": "tíng",
+    "\u839C": "yóu",
+    "\u839D": "cuò",
+    "\u839E": "guǎn",
+    "\u83A0": "yǒu",
+    "\u83A8": "làng",
+    "\u83A9": "fú",
+    "\u83AA": "é",
+    "\u83AB": "mò",
+    "\u83B0": "kǎn",
+    "\u83B1": "lái",
+    "\u83B2": "lián",
+    "\u83B3": "shí",
+    "\u83B4": "wō",
+    "\u83B6": "xiān",
+    "\u83B7": "huò",
+    "\u83B8": "yóu",
+    "\u83B9": "yíng",
+    "\u83BA": "yīng",
+    "\u83BC": "chún",
+    "\u83BD": "mǎng",
+    "\u83BF": "cì",
+    "\u83C0": "wǎn",
+    "\u83C1": "jīng",
+    "\u83C2": "dì",
+    "\u83C5": "jiān",
+    "\u83C7": "gū",
+    "\u83C9": "lù",
+    "\u83CA": "jú",
+    "\u83CC": "jūn",
+    "\u83CD": "niè",
+    "\u83CF": "hé",
+    "\u83D4": "fú",
+    "\u83D6": "chāng",
+    "\u83D8": "sōng",
+    "\u83DC": "cài",
+    "\u83DD": "bá",
+    "\u83DF": "tú",
+    "\u83E0": "bō",
+    "\u83E1": "hàn",
+    "\u83E5": "xī",
+    "\u83E9": "pú",
+    "\u83EA": "dàng",
+    "\u83F0": "gū",
+    "\u83F1": "líng",
+    "\u83F2": "fēi",
+    "\u83F9": "jū",
+    "\u83FC": "tǎn",
+    "\u83FD": "shū",
+    "\u8401": "qí",
+    "\u8403": "cuì",
+    "\u8404": "táo",
+    "\u8406": "bì",
+    "\u840B": "qī",
+    "\u840C": "méng",
+    "\u840D": "píng",
+    "\u840E": "wēi",
+    "\u840F": "dàn",
+    "\u8411": "huán",
+    "\u8418": "nài",
+    "\u841A": "tuò",
+    "\u841C": "tiē",
+    "\u841D": "luó",
+    "\u8423": "dìng",
+    "\u8424": "yíng",
+    "\u8425": "yíng",
+    "\u8426": "yíng",
+    "\u8427": "xiāo",
+    "\u8428": "sà",
+    "\u8429": "qiū",
+    "\u8431": "xuān",
+    "\u8433": "nǎn",
+    "\u8438": "yú",
+    "\u8439": "biǎn",
+    "\u843C": "è",
+    "\u843D": "luò",
+    "\u8446": "bǎo",
+    "\u844E": "lǜ",
+    "\u8451": "fēng",
+    "\u8456": "tū",
+    "\u8457": "zhù",
+    "\u8459": "xiāng",
+    "\u845A": "rèn",
+    "\u845B": "gé",
+    "\u845C": "qiā",
+    "\u8461": "pú",
+    "\u8463": "dǒng",
+    "\u8469": "pā",
+    "\u846B": "hú",
+    "\u846C": "zàng",
+    "\u846D": "jiā",
+    "\u8470": "suī",
+    "\u8471": "cōng",
+    "\u8473": "wēi",
+    "\u8474": "zhēn",
+    "\u8475": "kuí",
+    "\u8476": "tíng",
+    "\u8478": "xǐ",
+    "\u847A": "qì",
+    "\u8482": "dì",
+    "\u8484": "guān",
+    "\u8487": "chǎn",
+    "\u8488": "kǎi",
+    "\u8489": "kuì",
+    "\u848B": "jiǎng",
+    "\u848C": "lóu",
+    "\u848E": "pài",
+    "\u8490": "sōu",
+    "\u8497": "làng",
+    "\u8499": "méng",
+    "\u849C": "suàn",
+    "\u849F": "jǔ",
+    "\u84A1": "bàng",
+    "\u84A8": "qiàn",
+    "\u84AF": "kuǎi",
+    "\u84B1": "pú",
+    "\u84B2": "pú",
+    "\u84B4": "shuò",
+    "\u84B8": "zhēng",
+    "\u84B9": "jiān",
+    "\u84BA": "jí",
+    "\u84BB": "ruò",
+    "\u84BD": "ēn",
+    "\u84BF": "hāo",
+    "\u84C1": "zhēn",
+    "\u84C2": "míng",
+    "\u84C4": "xù",
+    "\u84C7": "gǔ",
+    "\u84C9": "róng",
+    "\u84CA": "wěng",
+    "\u84CD": "shī",
+    "\u84CF": "luǒ",
+    "\u84D0": "rù",
+    "\u84D1": "suō",
+    "\u84D3": "bèi",
+    "\u84D6": "bì",
+    "\u84DD": "lán",
+    "\u84DF": "jì",
+    "\u84E0": "lí",
+    "\u84E2": "lǎng",
+    "\u84E3": "yù",
+    "\u84E5": "yíng",
+    "\u84E6": "mò",
+    "\u84EC": "péng",
+    "\u84F0": "xǐ",
+    "\u84FC": "liǎo",
+    "\u84FF": "xu",
+    "\u8500": "bù",
+    "\u8503": "qiáng",
+    "\u8508": "biāo",
+    "\u850A": "hǎn",
+    "\u850C": "sù",
+    "\u8511": "miè",
+    "\u8513": "màn",
+    "\u8517": "zhè",
+    "\u851A": "wèi",
+    "\u851F": "cù",
+    "\u8521": "cài",
+    "\u852B": "niān",
+    "\u852C": "shū",
+    "\u8537": "qiáng",
+    "\u8538": "dōu",
+    "\u8539": "liǎn",
+    "\u853A": "lìn",
+    "\u853B": "kòu",
+    "\u853C": "ǎi",
+    "\u853D": "bì",
+    "\u8543": "fān",
+    "\u8548": "xùn",
+    "\u8549": "jiāo",
+    "\u854A": "ruǐ",
+    "\u8556": "qú",
+    "\u8557": "lù",
+    "\u8559": "huì",
+    "\u855E": "zuì",
+    "\u8564": "ruí",
+    "\u8568": "jué",
+    "\u8570": "wēn",
+    "\u8572": "qí",
+    "\u8574": "yùn",
+    "\u8579": "wèng",
+    "\u857A": "jí",
+    "\u857B": "hóng",
+    "\u857E": "lěi",
+    "\u8581": "yù",
+    "\u8584": "báo",
+    "\u8585": "hāo",
+    "\u8587": "wēi",
+    "\u858F": "yì",
+    "\u859B": "xuē",
+    "\u859C": "bì",
+    "\u85A2": "xiè",
+    "\u85A4": "xiè",
+    "\u85A8": "hōng",
+    "\u85AA": "xīn",
+    "\u85AE": "sǒu",
+    "\u85AF": "shǔ",
+    "\u85B0": "xūn",
+    "\u85B3": "wěi",
+    "\u85B7": "rú",
+    "\u85B8": "piáo",
+    "\u85B9": "tái",
+    "\u85BF": "nǐ",
+    "\u85C1": "gǎo",
+    "\u85C9": "jí",
+    "\u85CF": "cáng",
+    "\u85D0": "miǎo",
+    "\u85D3": "xiǎn",
+    "\u85D5": "ǒu",
+    "\u85DC": "lí",
+    "\u85DF": "lěi",
+    "\u85E0": "jiào",
+    "\u85E4": "téng",
+    "\u85E6": "mò",
+    "\u85E8": "biāo",
+    "\u85E9": "fān",
+    "\u85FB": "zǎo",
+    "\u85FF": "huò",
+    "\u8605": "héng",
+    "\u8611": "mó",
+    "\u8616": "niè",
+    "\u8618": "ráng",
+    "\u8627": "qú",
+    "\u8629": "fán",
+    "\u8638": "zhàn",
+    "\u863C": "mí",
+    "\u864E": "hǔ",
+    "\u864F": "lǔ",
+    "\u8650": "nüè",
+    "\u8651": "lǜ",
+    "\u8652": "sī",
+    "\u8653": "xiāo",
+    "\u8654": "qián",
+    "\u865A": "xū",
+    "\u865E": "yú",
+    "\u8662": "guó",
+    "\u8664": "yán",
+    "\u866B": "chóng",
+    "\u866C": "qiú",
+    "\u866E": "jǐ",
+    "\u8671": "shī",
+    "\u8677": "hán",
+    "\u8678": "zǐ",
+    "\u8679": "hóng",
+    "\u867A": "huī",
+    "\u867B": "méng",
+    "\u867C": "gè",
+    "\u867D": "suī",
+    "\u867E": "xiā",
+    "\u867F": "chài",
+    "\u8680": "shí",
+    "\u8681": "yǐ",
+    "\u8682": "mǎ",
+    "\u8684": "fāng",
+    "\u8686": "bā",
+    "\u868A": "wén",
+    "\u868B": "ruì",
+    "\u868C": "bàng",
+    "\u868D": "pí",
+    "\u8693": "yǐn",
+    "\u8695": "cán",
+    "\u869C": "yá",
+    "\u869D": "háo",
+    "\u86A3": "gōng",
+    "\u86A4": "zǎo",
+    "\u86A7": "jiè",
+    "\u86A8": "fú",
+    "\u86A9": "chī",
+    "\u86AA": "dǒu",
+    "\u86AC": "xiǎn",
+    "\u86AF": "qiū",
+    "\u86B0": "yóu",
+    "\u86B1": "zhà",
+    "\u86B2": "píng",
+    "\u86B4": "yòu",
+    "\u86B6": "hān",
+    "\u86BA": "rán",
+    "\u86C0": "zhù",
+    "\u86C3": "bǐng",
+    "\u86C4": "gū",
+    "\u86C6": "qū",
+    "\u86C7": "shé",
+    "\u86C9": "líng",
+    "\u86CA": "gǔ",
+    "\u86CB": "dàn",
+    "\u86CE": "lì",
+    "\u86CF": "chēng",
+    "\u86D0": "qū",
+    "\u86D1": "móu",
+    "\u86D4": "huí",
+    "\u86D8": "yáng",
+    "\u86D9": "wā",
+    "\u86DB": "zhū",
+    "\u86DE": "kuò",
+    "\u86DF": "jiāo",
+    "\u86E4": "há",
+    "\u86E9": "qióng",
+    "\u86ED": "zhì",
+    "\u86EE": "mán",
+    "\u86F0": "zhé",
+    "\u86F1": "jiá",
+    "\u86F2": "náo",
+    "\u86F3": "sī",
+    "\u86F4": "qí",
+    "\u86F8": "shāo",
+    "\u86F9": "yǒng",
+    "\u86FE": "é",
+    "\u8700": "shǔ",
+    "\u8702": "fēng",
+    "\u8703": "shèn",
+    "\u8707": "zhē",
+    "\u8708": "wú",
+    "\u8709": "fú",
+    "\u870A": "lí",
+    "\u870D": "chú",
+    "\u870E": "yuān",
+    "\u8710": "jié",
+    "\u8712": "yán",
+    "\u8713": "tíng",
+    "\u8715": "tuì",
+    "\u8717": "wō",
+    "\u8718": "zhī",
+    "\u871A": "fēi",
+    "\u871C": "mì",
+    "\u871E": "qí",
+    "\u8721": "là",
+    "\u8722": "měng",
+    "\u8723": "qiāng",
+    "\u8725": "xī",
+    "\u8729": "tiáo",
+    "\u872E": "yù",
+    "\u8731": "pí",
+    "\u8734": "yì",
+    "\u8737": "quán",
+    "\u873B": "qīng",
+    "\u873E": "guǒ",
+    "\u873F": "wān",
+    "\u8747": "yíng",
+    "\u8748": "guō",
+    "\u8749": "chán",
+    "\u874C": "kē",
+    "\u874E": "xiē",
+    "\u8753": "yú",
+    "\u8757": "huáng",
+    "\u8758": "yǎn",
+    "\u8759": "biān",
+    "\u8760": "fú",
+    "\u8763": "yóu",
+    "\u8764": "qiú",
+    "\u8765": "máo",
+    "\u876E": "fù",
+    "\u8770": "kuí",
+    "\u8772": "là",
+    "\u8774": "hú",
+    "\u8776": "dié",
+    "\u877B": "nǎn",
+    "\u877C": "lóu",
+    "\u877D": "chūn",
+    "\u877E": "róng",
+    "\u8782": "láng",
+    "\u8783": "páng",
+    "\u8785": "xī",
+    "\u8788": "yuán",
+    "\u878B": "sōu",
+    "\u878D": "róng",
+    "\u8797": "táng",
+    "\u879F": "míng",
+    "\u87A0": "yì",
+    "\u87A3": "tè",
+    "\u87A8": "mǎn",
+    "\u87AB": "shì",
+    "\u87AC": "cáo",
+    "\u87AD": "chī",
+    "\u87AF": "áo",
+    "\u87B1": "wèi",
+    "\u87B3": "táng",
+    "\u87B5": "piāo",
+    "\u87BA": "luó",
+    "\u87BD": "zhōng",
+    "\u87C0": "shuài",
+    "\u87C6": "má",
+    "\u87CA": "máo",
+    "\u87CB": "xī",
+    "\u87CF": "xiāo",
+    "\u87D1": "zhāng",
+    "\u87D2": "mǎng",
+    "\u87DB": "péng",
+    "\u87E0": "pán",
+    "\u87E5": "huáng",
+    "\u87EA": "huì",
+    "\u87EB": "yín",
+    "\u87EE": "shàn",
+    "\u87F9": "xiè",
+    "\u87FE": "chán",
+    "\u8803": "luǒ",
+    "\u880A": "lián",
+    "\u880B": "zhú",
+    "\u8813": "měng",
+    "\u8815": "rú",
+    "\u8816": "huò",
+    "\u8821": "lí",
+    "\u8822": "chǔn",
+    "\u8832": "juān",
+    "\u8839": "dù",
+    "\u883C": "qú",
+    "\u8840": "xuè",
+    "\u8843": "pēi",
+    "\u8844": "nǜ",
+    "\u8845": "xìn",
+    "\u884C": "xíng",
+    "\u884D": "yǎn",
+    "\u884E": "kàn",
+    "\u8852": "xuàn",
+    "\u8854": "xián",
+    "\u8857": "jiē",
+    "\u8859": "yá",
+    "\u8860": "zhūn",
+    "\u8861": "héng",
+    "\u8862": "qú",
+    "\u8863": "yī",
+    "\u8865": "bǔ",
+    "\u8868": "biǎo",
+    "\u8869": "chǎ",
+    "\u886B": "shān",
+    "\u886C": "chèn",
+    "\u886E": "gǔn",
+    "\u8870": "shuāi",
+    "\u8872": "nà",
+    "\u8877": "zhōng",
+    "\u887D": "rèn",
+    "\u887E": "qīn",
+    "\u887F": "jīn",
+    "\u8881": "yuán",
+    "\u8882": "mèi",
+    "\u8884": "ǎo",
+    "\u8885": "niǎo",
+    "\u8886": "huī",
+    "\u8888": "jiā",
+    "\u888B": "dài",
+    "\u888D": "páo",
+    "\u8892": "tǎn",
+    "\u8896": "xiù",
+    "\u8897": "zhěn",
+    "\u889C": "wà",
+    "\u88A2": "pàn",
+    "\u88A4": "mào",
+    "\u88AA": "qū",
+    "\u88AB": "bèi",
+    "\u88AD": "xí",
+    "\u88AF": "bó",
+    "\u88B1": "fú",
+    "\u88B7": "jiá",
+    "\u88BC": "gē",
+    "\u88C1": "cái",
+    "\u88C2": "liè",
+    "\u88C5": "zhuāng",
+    "\u88C6": "dāng",
+    "\u88C8": "kūn",
+    "\u88C9": "kèn",
+    "\u88CE": "chéng",
+    "\u88D2": "póu",
+    "\u88D4": "yì",
+    "\u88D5": "yù",
+    "\u88D8": "qiú",
+    "\u88D9": "qún",
+    "\u88DB": "yì",
+    "\u88DF": "shā",
+    "\u88E2": "lián",
+    "\u88E3": "liǎn",
+    "\u88E4": "kù",
+    "\u88E5": "jiǎn",
+    "\u88E8": "bì",
+    "\u88F0": "duō",
+    "\u88F1": "biǎo",
+    "\u88F3": "shang",
+    "\u88F4": "péi",
+    "\u88F8": "luǒ",
+    "\u88F9": "guǒ",
+    "\u88FC": "tì",
+    "\u88FE": "jū",
+    "\u8902": "guà",
+    "\u890A": "biǎn",
+    "\u8910": "hè",
+    "\u8912": "bāo",
+    "\u8913": "bǎo",
+    "\u8915": "yú",
+    "\u8919": "bèi",
+    "\u891A": "chǔ",
+    "\u891B": "lǚ",
+    "\u891F": "tā",
+    "\u8921": "dā",
+    "\u8925": "rù",
+    "\u892A": "tuì",
+    "\u892B": "chǐ",
+    "\u892F": "jiè",
+    "\u8930": "qiān",
+    "\u8934": "lán",
+    "\u8936": "zhě",
+    "\u8941": "qiǎng",
+    "\u8944": "xiāng",
+    "\u8955": "lán",
+    "\u895A": "suì",
+    "\u895C": "chān",
+    "\u895E": "bì",
+    "\u895F": "jīn",
+    "\u8966": "rú",
+    "\u896B": "shì",
+    "\u897B": "pàn",
+    "\u897F": "xī",
+    "\u8981": "yào",
+    "\u8983": "tán",
+    "\u8986": "fù",
+    "\u89C1": "jiàn",
+    "\u89C2": "guān",
+    "\u89C3": "yàn",
+    "\u89C4": "guī",
+    "\u89C5": "mì",
+    "\u89C6": "shì",
+    "\u89C7": "chān",
+    "\u89C8": "lǎn",
+    "\u89C9": "jué",
+    "\u89CA": "jì",
+    "\u89CB": "xí",
+    "\u89CC": "dí",
+    "\u89CE": "yú",
+    "\u89CF": "gòu",
+    "\u89D0": "jìn",
+    "\u89D1": "qù",
+    "\u89D2": "jiǎo",
+    "\u89D6": "jué",
+    "\u89DA": "gū",
+    "\u89DC": "zī",
+    "\u89DE": "shāng",
+    "\u89DF": "huà",
+    "\u89E3": "jiě",
+    "\u89E5": "gōng",
+    "\u89E6": "chù",
+    "\u89EB": "sù",
+    "\u89ED": "jī",
+    "\u89EF": "zhì",
+    "\u89F1": "bì",
+    "\u89F3": "hú",
+    "\u89FF": "xī",
+    "\u8A00": "yán",
+    "\u8A04": "qiú",
+    "\u8A07": "hōng",
+    "\u8A1A": "yín",
+    "\u8A3E": "zī",
+    "\u8A48": "lì",
+    "\u8A5F": "zhé",
+    "\u8A79": "zhān",
+    "\u8A89": "yù",
+    "\u8A8A": "téng",
+    "\u8A93": "shì",
+    "\u8B07": "jiǎn",
+    "\u8B66": "jǐng",
+    "\u8B6C": "pì",
+    "\u8BA1": "jì",
+    "\u8BA2": "dìng",
+    "\u8BA3": "fù",
+    "\u8BA4": "rèn",
+    "\u8BA5": "jī",
+    "\u8BA6": "jié",
+    "\u8BA7": "hòng",
+    "\u8BA8": "tǎo",
+    "\u8BA9": "ràng",
+    "\u8BAA": "shàn",
+    "\u8BAB": "qì",
+    "\u8BAD": "xùn",
+    "\u8BAE": "yì",
+    "\u8BAF": "xùn",
+    "\u8BB0": "jì",
+    "\u8BB1": "rèn",
+    "\u8BB2": "jiǎng",
+    "\u8BB3": "huì",
+    "\u8BB4": "ōu",
+    "\u8BB5": "jù",
+    "\u8BB6": "yà",
+    "\u8BB7": "nè",
+    "\u8BB8": "xǔ",
+    "\u8BB9": "é",
+    "\u8BBA": "lùn",
+    "\u8BBB": "xiōng",
+    "\u8BBC": "sòng",
+    "\u8BBD": "fěng",
+    "\u8BBE": "shè",
+    "\u8BBF": "fǎng",
+    "\u8BC0": "jué",
+    "\u8BC1": "zhèng",
+    "\u8BC2": "gǔ",
+    "\u8BC3": "hē",
+    "\u8BC4": "píng",
+    "\u8BC5": "zǔ",
+    "\u8BC6": "shí",
+    "\u8BC7": "xiòng",
+    "\u8BC8": "zhà",
+    "\u8BC9": "sù",
+    "\u8BCA": "zhěn",
+    "\u8BCB": "dǐ",
+    "\u8BCC": "zhōu",
+    "\u8BCD": "cí",
+    "\u8BCE": "qū",
+    "\u8BCF": "zhào",
+    "\u8BD0": "bì",
+    "\u8BD1": "yì",
+    "\u8BD2": "yí",
+    "\u8BD3": "kuāng",
+    "\u8BD4": "lěi",
+    "\u8BD5": "shì",
+    "\u8BD6": "guà",
+    "\u8BD7": "shī",
+    "\u8BD8": "jí",
+    "\u8BD9": "huī",
+    "\u8BDA": "chéng",
+    "\u8BDB": "zhū",
+    "\u8BDC": "shēn",
+    "\u8BDD": "huà",
+    "\u8BDE": "dàn",
+    "\u8BDF": "gòu",
+    "\u8BE0": "quán",
+    "\u8BE1": "guǐ",
+    "\u8BE2": "xún",
+    "\u8BE3": "yì",
+    "\u8BE4": "zhèng",
+    "\u8BE5": "gāi",
+    "\u8BE6": "xiáng",
+    "\u8BE7": "chà",
+    "\u8BE8": "hùn",
+    "\u8BE9": "xǔ",
+    "\u8BEB": "jiè",
+    "\u8BEC": "wū",
+    "\u8BED": "yǔ",
+    "\u8BEE": "qiào",
+    "\u8BEF": "wù",
+    "\u8BF0": "gào",
+    "\u8BF1": "yòu",
+    "\u8BF2": "huì",
+    "\u8BF3": "kuáng",
+    "\u8BF4": "shuō",
+    "\u8BF5": "sòng",
+    "\u8BF7": "qǐng",
+    "\u8BF8": "zhū",
+    "\u8BF9": "zōu",
+    "\u8BFA": "nuò",
+    "\u8BFB": "dú",
+    "\u8BFC": "zhuó",
+    "\u8BFD": "fěi",
+    "\u8BFE": "kè",
+    "\u8BFF": "wěi",
+    "\u8C00": "yú",
+    "\u8C01": "shuí",
+    "\u8C02": "shěn",
+    "\u8C03": "diào",
+    "\u8C04": "chǎn",
+    "\u8C05": "liàng",
+    "\u8C06": "zhūn",
+    "\u8C07": "suì",
+    "\u8C08": "tán",
+    "\u8C0A": "yì",
+    "\u8C0B": "móu",
+    "\u8C0C": "chén",
+    "\u8C0D": "dié",
+    "\u8C0E": "huǎng",
+    "\u8C0F": "jiàn",
+    "\u8C10": "xié",
+    "\u8C11": "xuè",
+    "\u8C12": "yè",
+    "\u8C13": "wèi",
+    "\u8C14": "è",
+    "\u8C15": "yù",
+    "\u8C16": "xuān",
+    "\u8C17": "chán",
+    "\u8C19": "ān",
+    "\u8C1A": "yàn",
+    "\u8C1B": "dì",
+    "\u8C1C": "mí",
+    "\u8C1D": "pián",
+    "\u8C1E": "xū",
+    "\u8C1F": "mó",
+    "\u8C20": "dǎng",
+    "\u8C21": "sù",
+    "\u8C22": "xiè",
+    "\u8C23": "yáo",
+    "\u8C24": "bàng",
+    "\u8C25": "shì",
+    "\u8C26": "qiān",
+    "\u8C27": "mì",
+    "\u8C28": "jǐn",
+    "\u8C29": "mán",
+    "\u8C2A": "zhé",
+    "\u8C2B": "jiǎn",
+    "\u8C2C": "miù",
+    "\u8C2D": "tán",
+    "\u8C2E": "zèn",
+    "\u8C2F": "qiáo",
+    "\u8C30": "lán",
+    "\u8C31": "pǔ",
+    "\u8C32": "jué",
+    "\u8C33": "yàn",
+    "\u8C34": "qiǎn",
+    "\u8C35": "zhān",
+    "\u8C36": "chèn",
+    "\u8C37": "gǔ",
+    "\u8C3C": "hóng",
+    "\u8C3F": "xī",
+    "\u8C41": "huō",
+    "\u8C46": "dòu",
+    "\u8C47": "jiāng",
+    "\u8C49": "shì",
+    "\u8C4C": "wān",
+    "\u8C55": "shǐ",
+    "\u8C5A": "tún",
+    "\u8C61": "xiàng",
+    "\u8C62": "huàn",
+    "\u8C68": "xī",
+    "\u8C6A": "háo",
+    "\u8C6B": "yù",
+    "\u8C6E": "fén",
+    "\u8C73": "bīn",
+    "\u8C78": "zhì",
+    "\u8C79": "bào",
+    "\u8C7A": "chái",
+    "\u8C82": "diāo",
+    "\u8C85": "xiū",
+    "\u8C86": "huán",
+    "\u8C89": "háo",
+    "\u8C8A": "mò",
+    "\u8C8C": "mào",
+    "\u8C94": "pí",
+    "\u8C98": "mò",
+    "\u8D1D": "bèi",
+    "\u8D1E": "zhēn",
+    "\u8D1F": "fù",
+    "\u8D21": "gòng",
+    "\u8D22": "cái",
+    "\u8D23": "zé",
+    "\u8D24": "xián",
+    "\u8D25": "bài",
+    "\u8D26": "zhàng",
+    "\u8D27": "huò",
+    "\u8D28": "zhì",
+    "\u8D29": "fàn",
+    "\u8D2A": "tān",
+    "\u8D2B": "pín",
+    "\u8D2C": "biǎn",
+    "\u8D2D": "gòu",
+    "\u8D2E": "zhù",
+    "\u8D2F": "guàn",
+    "\u8D30": "èr",
+    "\u8D31": "jiàn",
+    "\u8D32": "bēn",
+    "\u8D33": "shì",
+    "\u8D34": "tiē",
+    "\u8D35": "guì",
+    "\u8D36": "kuàng",
+    "\u8D37": "dài",
+    "\u8D38": "mào",
+    "\u8D39": "fèi",
+    "\u8D3A": "hè",
+    "\u8D3B": "yí",
+    "\u8D3C": "zéi",
+    "\u8D3D": "zhì",
+    "\u8D3E": "jiǎ",
+    "\u8D3F": "huì",
+    "\u8D40": "zī",
+    "\u8D41": "lìn",
+    "\u8D42": "lù",
+    "\u8D43": "zāng",
+    "\u8D44": "zī",
+    "\u8D45": "gāi",
+    "\u8D46": "jìn",
+    "\u8D47": "qiú",
+    "\u8D48": "zhèn",
+    "\u8D49": "lài",
+    "\u8D4A": "shē",
+    "\u8D4B": "fù",
+    "\u8D4C": "dǔ",
+    "\u8D4D": "jī",
+    "\u8D4E": "shú",
+    "\u8D4F": "shǎng",
+    "\u8D50": "cì",
+    "\u8D51": "bì",
+    "\u8D52": "zhōu",
+    "\u8D53": "gēng",
+    "\u8D54": "péi",
+    "\u8D55": "dǎn",
+    "\u8D56": "lài",
+    "\u8D57": "fèng",
+    "\u8D58": "zhuì",
+    "\u8D59": "fù",
+    "\u8D5A": "zhuàn",
+    "\u8D5B": "sài",
+    "\u8D5C": "zé",
+    "\u8D5D": "yàn",
+    "\u8D5E": "zàn",
+    "\u8D5F": "yūn",
+    "\u8D60": "zèng",
+    "\u8D61": "shàn",
+    "\u8D62": "yíng",
+    "\u8D63": "gàn",
+    "\u8D64": "chì",
+    "\u8D66": "shè",
+    "\u8D67": "nǎn",
+    "\u8D6A": "chēng",
+    "\u8D6B": "hè",
+    "\u8D6D": "zhě",
+    "\u8D70": "zǒu",
+    "\u8D73": "jiū",
+    "\u8D74": "fù",
+    "\u8D75": "zhào",
+    "\u8D76": "gǎn",
+    "\u8D77": "qǐ",
+    "\u8D81": "chèn",
+    "\u8D84": "jū",
+    "\u8D85": "chāo",
+    "\u8D8A": "yuè",
+    "\u8D8B": "qū",
+    "\u8D91": "zī",
+    "\u8D94": "liè",
+    "\u8D9F": "tàng",
+    "\u8DA3": "qù",
+    "\u8DAF": "tì",
+    "\u8DB1": "zǎn",
+    "\u8DB3": "zú",
+    "\u8DB4": "pā",
+    "\u8DB5": "bào",
+    "\u8DB8": "dǔn",
+    "\u8DBA": "fū",
+    "\u8DBC": "jiǎn",
+    "\u8DBE": "zhǐ",
+    "\u8DBF": "tā",
+    "\u8DC2": "qí",
+    "\u8DC3": "yuè",
+    "\u8DC4": "qiāng",
+    "\u8DC6": "tái",
+    "\u8DCB": "bá",
+    "\u8DCC": "diē",
+    "\u8DCE": "tuó",
+    "\u8DCF": "jiā",
+    "\u8DD0": "cī",
+    "\u8DD1": "pǎo",
+    "\u8DD6": "zhí",
+    "\u8DD7": "fū",
+    "\u8DDA": "shān",
+    "\u8DDB": "bǒ",
+    "\u8DDD": "jù",
+    "\u8DDE": "lì",
+    "\u8DDF": "gēn",
+    "\u8DE3": "xiǎn",
+    "\u8DE4": "jiāo",
+    "\u8DE8": "kuà",
+    "\u8DEA": "guì",
+    "\u8DEC": "kuǐ",
+    "\u8DEF": "lù",
+    "\u8DF1": "zhì",
+    "\u8DF3": "tiào",
+    "\u8DF5": "jiàn",
+    "\u8DF6": "dá",
+    "\u8DF7": "qiāo",
+    "\u8DF8": "bì",
+    "\u8DF9": "xiān",
+    "\u8DFA": "duò",
+    "\u8DFB": "jī",
+    "\u8DFD": "jì",
+    "\u8E05": "xué",
+    "\u8E09": "liáng",
+    "\u8E0A": "yǒng",
+    "\u8E0C": "chóu",
+    "\u8E0F": "tà",
+    "\u8E12": "wō",
+    "\u8E14": "chuō",
+    "\u8E1D": "huái",
+    "\u8E1E": "jù",
+    "\u8E1F": "chí",
+    "\u8E22": "tī",
+    "\u8E23": "bó",
+    "\u8E26": "yǐ",
+    "\u8E29": "cǎi",
+    "\u8E2A": "zōng",
+    "\u8E2C": "zhì",
+    "\u8E2E": "diǎn",
+    "\u8E2F": "zhí",
+    "\u8E31": "duó",
+    "\u8E35": "zhǒng",
+    "\u8E36": "dì",
+    "\u8E39": "chuài",
+    "\u8E3A": "jiàn",
+    "\u8E3D": "jǔ",
+    "\u8E40": "dié",
+    "\u8E41": "pián",
+    "\u8E42": "róu",
+    "\u8E44": "tí",
+    "\u8E45": "chǎ",
+    "\u8E47": "jiǎn",
+    "\u8E48": "dǎo",
+    "\u8E49": "cuō",
+    "\u8E4A": "qī",
+    "\u8E4B": "tà",
+    "\u8E50": "jí",
+    "\u8E51": "niè",
+    "\u8E52": "pán",
+    "\u8E59": "cù",
+    "\u8E5A": "tāng",
+    "\u8E5C": "sù",
+    "\u8E62": "dí",
+    "\u8E66": "bèng",
+    "\u8E69": "bié",
+    "\u8E6C": "dēng",
+    "\u8E6D": "cèng",
+    "\u8E6F": "fán",
+    "\u8E70": "chú",
+    "\u8E72": "dūn",
+    "\u8E74": "cù",
+    "\u8E76": "jué",
+    "\u8E7C": "pǔ",
+    "\u8E7D": "liāo",
+    "\u8E7E": "dūn",
+    "\u8E7F": "cuān",
+    "\u8E81": "zào",
+    "\u8E85": "zhú",
+    "\u8E87": "chú",
+    "\u8E8F": "lìn",
+    "\u8E90": "liè",
+    "\u8E94": "chán",
+    "\u8E9C": "zuān",
+    "\u8E9E": "xiè",
+    "\u8EAB": "shēn",
+    "\u8EAC": "gōng",
+    "\u8EAF": "qū",
+    "\u8EB2": "duǒ",
+    "\u8EBA": "tǎng",
+    "\u8F66": "chē",
+    "\u8F67": "yà",
+    "\u8F68": "guǐ",
+    "\u8F69": "xuān",
+    "\u8F6A": "dài",
+    "\u8F6B": "rèn",
+    "\u8F6C": "zhuǎn",
+    "\u8F6D": "è",
+    "\u8F6E": "lún",
+    "\u8F6F": "ruǎn",
+    "\u8F70": "hōng",
+    "\u8F71": "gū",
+    "\u8F72": "kē",
+    "\u8F73": "lú",
+    "\u8F74": "zhóu",
+    "\u8F75": "zhǐ",
+    "\u8F76": "yì",
+    "\u8F77": "hū",
+    "\u8F78": "zhěn",
+    "\u8F79": "lì",
+    "\u8F7A": "yáo",
+    "\u8F7B": "qīng",
+    "\u8F7C": "shì",
+    "\u8F7D": "zài",
+    "\u8F7E": "zhì",
+    "\u8F7F": "jiào",
+    "\u8F80": "zhōu",
+    "\u8F81": "quán",
+    "\u8F82": "lù",
+    "\u8F83": "jiào",
+    "\u8F84": "zhé",
+    "\u8F85": "fǔ",
+    "\u8F86": "liàng",
+    "\u8F87": "niǎn",
+    "\u8F88": "bèi",
+    "\u8F89": "huī",
+    "\u8F8A": "gǔn",
+    "\u8F8B": "wǎng",
+    "\u8F8C": "liáng",
+    "\u8F8D": "chuò",
+    "\u8F8E": "zī",
+    "\u8F8F": "còu",
+    "\u8F90": "fú",
+    "\u8F91": "jí",
+    "\u8F92": "wēn",
+    "\u8F93": "shū",
+    "\u8F94": "pèi",
+    "\u8F95": "yuán",
+    "\u8F96": "xiá",
+    "\u8F97": "niǎn",
+    "\u8F98": "lù",
+    "\u8F99": "zhé",
+    "\u8F9A": "lín",
+    "\u8F9B": "xīn",
+    "\u8F9C": "gū",
+    "\u8F9E": "cí",
+    "\u8F9F": "pì",
+    "\u8FA3": "là",
+    "\u8FA8": "biàn",
+    "\u8FA9": "biàn",
+    "\u8FAB": "biàn",
+    "\u8FB0": "chén",
+    "\u8FB1": "rǔ",
+    "\u8FB9": "biān",
+    "\u8FBD": "liáo",
+    "\u8FBE": "dá",
+    "\u8FBF": "chān",
+    "\u8FC1": "qiān",
+    "\u8FC2": "yū",
+    "\u8FC4": "qì",
+    "\u8FC5": "xùn",
+    "\u8FC7": "guò",
+    "\u8FC8": "mài",
+    "\u8FCE": "yíng",
+    "\u8FD0": "yùn",
+    "\u8FD1": "jìn",
+    "\u8FD3": "yà",
+    "\u8FD4": "fǎn",
+    "\u8FD5": "wù",
+    "\u8FD8": "hái",
+    "\u8FD9": "zhè",
+    "\u8FDB": "jìn",
+    "\u8FDC": "yuǎn",
+    "\u8FDD": "wéi",
+    "\u8FDE": "lián",
+    "\u8FDF": "chí",
+    "\u8FE2": "tiáo",
+    "\u8FE4": "yí",
+    "\u8FE5": "jiǒng",
+    "\u8FE6": "jiā",
+    "\u8FE8": "dài",
+    "\u8FE9": "ěr",
+    "\u8FEA": "dí",
+    "\u8FEB": "pò",
+    "\u8FED": "dié",
+    "\u8FEE": "zé",
+    "\u8FF0": "shù",
+    "\u8FF3": "jìng",
+    "\u8FF7": "mí",
+    "\u8FF8": "bèng",
+    "\u8FF9": "jì",
+    "\u8FFA": "nǎi",
+    "\u8FFD": "zhuī",
+    "\u9000": "tuì",
+    "\u9001": "sòng",
+    "\u9002": "shì",
+    "\u9003": "táo",
+    "\u9004": "páng",
+    "\u9005": "hòu",
+    "\u9006": "nì",
+    "\u9009": "xuǎn",
+    "\u900A": "xùn",
+    "\u900B": "bū",
+    "\u900D": "xiāo",
+    "\u900F": "tòu",
+    "\u9010": "zhú",
+    "\u9011": "qiú",
+    "\u9012": "dì",
+    "\u9014": "tú",
+    "\u9016": "tì",
+    "\u9017": "dòu",
+    "\u901A": "tōng",
+    "\u901B": "guàng",
+    "\u901D": "shì",
+    "\u901E": "chěng",
+    "\u901F": "sù",
+    "\u9020": "zào",
+    "\u9021": "qūn",
+    "\u9022": "féng",
+    "\u9026": "lǐ",
+    "\u902D": "huàn",
+    "\u902E": "dǎi",
+    "\u902F": "lù",
+    "\u9034": "chuō",
+    "\u9035": "kuí",
+    "\u9036": "wēi",
+    "\u9038": "yì",
+    "\u903B": "luó",
+    "\u903C": "bī",
+    "\u903E": "yú",
+    "\u9041": "dùn",
+    "\u9042": "suì",
+    "\u9044": "chuán",
+    "\u9046": "tí",
+    "\u9047": "yù",
+    "\u904D": "biàn",
+    "\u904F": "è",
+    "\u9050": "xiá",
+    "\u9051": "huáng",
+    "\u9052": "qiú",
+    "\u9053": "dào",
+    "\u9057": "yí",
+    "\u9058": "gòu",
+    "\u905B": "liú",
+    "\u9062": "tà",
+    "\u9063": "qiǎn",
+    "\u9065": "yáo",
+    "\u9068": "áo",
+    "\u906D": "zāo",
+    "\u906E": "zhē",
+    "\u9074": "lín",
+    "\u9075": "zūn",
+    "\u9079": "yù",
+    "\u907D": "jù",
+    "\u907F": "bì",
+    "\u9080": "yāo",
+    "\u9082": "xiè",
+    "\u9083": "suì",
+    "\u9088": "miǎo",
+    "\u908B": "lā",
+    "\u9091": "yì",
+    "\u9093": "dèng",
+    "\u9095": "yōng",
+    "\u9097": "hán",
+    "\u9098": "yú",
+    "\u9099": "máng",
+    "\u909B": "qióng",
+    "\u909D": "kuàng",
+    "\u90A0": "bīn",
+    "\u90A1": "fāng",
+    "\u90A2": "xíng",
+    "\u90A3": "nà",
+    "\u90A6": "bāng",
+    "\u90A8": "cūn",
+    "\u90AA": "xié",
+    "\u90AC": "wū",
+    "\u90AE": "yóu",
+    "\u90AF": "hán",
+    "\u90B0": "tái",
+    "\u90B1": "qiū",
+    "\u90B2": "bì",
+    "\u90B3": "pī",
+    "\u90B4": "bǐng",
+    "\u90B5": "shào",
+    "\u90B6": "bèi",
+    "\u90B8": "dǐ",
+    "\u90B9": "zōu",
+    "\u90BA": "yè",
+    "\u90BB": "lín",
+    "\u90BD": "guī",
+    "\u90BE": "zhū",
+    "\u90BF": "shī",
+    "\u90C1": "yù",
+    "\u90C3": "hé",
+    "\u90C4": "qiè",
+    "\u90C5": "zhì",
+    "\u90C7": "huán",
+    "\u90C8": "hòu",
+    "\u90CA": "jiāo",
+    "\u90CE": "láng",
+    "\u90CF": "jiá",
+    "\u90D0": "kuài",
+    "\u90D1": "zhèng",
+    "\u90D3": "yùn",
+    "\u90D7": "xī",
+    "\u90DA": "wú",
+    "\u90DB": "fú",
+    "\u90DC": "gào",
+    "\u90DD": "hǎo",
+    "\u90E1": "jùn",
+    "\u90E2": "yǐng",
+    "\u90E4": "xì",
+    "\u90E6": "lì",
+    "\u90E7": "yún",
+    "\u90E8": "bù",
+    "\u90EA": "qī",
+    "\u90EB": "pí",
+    "\u90ED": "guō",
+    "\u90EF": "tán",
+    "\u90F4": "chēn",
+    "\u90F8": "dān",
+    "\u90FD": "dōu",
+    "\u90FE": "yǎn",
+    "\u90FF": "méi",
+    "\u9100": "ruò",
+    "\u9102": "è",
+    "\u9103": "shū",
+    "\u9104": "juàn",
+    "\u9105": "yǔ",
+    "\u910C": "táng",
+    "\u9111": "zī",
+    "\u9117": "hào",
+    "\u9118": "yōng",
+    "\u9119": "bǐ",
+    "\u911A": "mào",
+    "\u911C": "fū",
+    "\u911E": "yín",
+    "\u9120": "hù",
+    "\u9122": "yān",
+    "\u9123": "zhāng",
+    "\u912B": "zēng",
+    "\u912F": "shàn",
+    "\u9131": "pó",
+    "\u9139": "zōu",
+    "\u9142": "cuó",
+    "\u9143": "líng",
+    "\u9145": "xī",
+    "\u9146": "fēng",
+    "\u9149": "yǒu",
+    "\u914A": "dīng",
+    "\u914B": "qiú",
+    "\u914C": "zhuó",
+    "\u914D": "pèi",
+    "\u914E": "zhòu",
+    "\u914F": "yǐ",
+    "\u9150": "gān",
+    "\u9152": "jiǔ",
+    "\u9157": "xù",
+    "\u915A": "fēn",
+    "\u915D": "yùn",
+    "\u915E": "tài",
+    "\u9161": "tuó",
+    "\u9162": "cù",
+    "\u9163": "hān",
+    "\u9164": "gū",
+    "\u9165": "sū",
+    "\u9166": "pò",
+    "\u9169": "mǐng",
+    "\u916A": "lào",
+    "\u916C": "chóu",
+    "\u916E": "tóng",
+    "\u916F": "zhǐ",
+    "\u9170": "xiān",
+    "\u9171": "jiàng",
+    "\u9172": "chéng",
+    "\u9174": "tú",
+    "\u9175": "jiào",
+    "\u9176": "méi",
+    "\u9177": "kù",
+    "\u9178": "suān",
+    "\u9179": "lèi",
+    "\u917A": "pú",
+    "\u917D": "yàn",
+    "\u917E": "shāi",
+    "\u917F": "niàng",
+    "\u9185": "pēi",
+    "\u9187": "chún",
+    "\u9189": "zuì",
+    "\u918B": "cù",
+    "\u918C": "kūn",
+    "\u918D": "tí",
+    "\u9190": "hú",
+    "\u9191": "xǔ",
+    "\u9192": "xǐng",
+    "\u919A": "mí",
+    "\u919B": "quán",
+    "\u91A2": "hǎi",
+    "\u91A8": "lí",
+    "\u91AA": "láo",
+    "\u91AD": "bú",
+    "\u91AE": "jiào",
+    "\u91AF": "xī",
+    "\u91B4": "lǐ",
+    "\u91B5": "jù",
+    "\u91BA": "xūn",
+    "\u91BE": "mí",
+    "\u91C7": "cǎi",
+    "\u91C9": "yòu",
+    "\u91CA": "shì",
+    "\u91CC": "lǐ",
+    "\u91CD": "zhòng",
+    "\u91CE": "yě",
+    "\u91CF": "liàng",
+    "\u91D0": "lí",
+    "\u91D1": "jīn",
+    "\u91DC": "fǔ",
+    "\u9274": "jiàn",
+    "\u928E": "qióng",
+    "\u92AE": "luán",
+    "\u92C6": "yún",
+    "\u92C8": "wù",
+    "\u933E": "zàn",
+    "\u936A": "móu",
+    "\u938F": "liú",
+    "\u93CA": "ào",
+    "\u93D6": "áo",
+    "\u943E": "bèi",
+    "\u946B": "xīn",
+    "\u9486": "gá",
+    "\u9487": "yǐ",
+    "\u9488": "zhēn",
+    "\u9489": "dīng",
+    "\u948A": "zhāo",
+    "\u948B": "pō",
+    "\u948C": "liǎo",
+    "\u948D": "tǔ",
+    "\u948E": "qiān",
+    "\u948F": "chuàn",
+    "\u9490": "shān",
+    "\u9492": "fán",
+    "\u9493": "diào",
+    "\u9494": "mén",
+    "\u9495": "nǚ",
+    "\u9496": "yáng",
+    "\u9497": "chāi",
+    "\u9498": "xíng",
+    "\u9499": "gài",
+    "\u949A": "bù",
+    "\u949B": "tài",
+    "\u949C": "jù",
+    "\u949D": "dùn",
+    "\u949E": "chāo",
+    "\u949F": "zhōng",
+    "\u94A0": "nà",
+    "\u94A1": "bèi",
+    "\u94A2": "gāng",
+    "\u94A3": "bǎn",
+    "\u94A4": "qián",
+    "\u94A5": "yào",
+    "\u94A6": "qīn",
+    "\u94A7": "jūn",
+    "\u94A8": "wū",
+    "\u94A9": "gōu",
+    "\u94AA": "kàng",
+    "\u94AB": "fāng",
+    "\u94AC": "huǒ",
+    "\u94AD": "tǒu",
+    "\u94AE": "niǔ",
+    "\u94AF": "bǎ",
+    "\u94B0": "yù",
+    "\u94B1": "qián",
+    "\u94B2": "zhēng",
+    "\u94B3": "qián",
+    "\u94B4": "gǔ",
+    "\u94B5": "bō",
+    "\u94B7": "pǒ",
+    "\u94B9": "bó",
+    "\u94BA": "yuè",
+    "\u94BB": "zuān",
+    "\u94BC": "mù",
+    "\u94BD": "tǎn",
+    "\u94BE": "jiǎ",
+    "\u94BF": "diàn",
+    "\u94C0": "yóu",
+    "\u94C1": "tiě",
+    "\u94C2": "bó",
+    "\u94C3": "líng",
+    "\u94C4": "shuò",
+    "\u94C5": "qiān",
+    "\u94C6": "mǎo",
+    "\u94C8": "shì",
+    "\u94C9": "xuàn",
+    "\u94CA": "tā",
+    "\u94CB": "bì",
+    "\u94CC": "ní",
+    "\u94CD": "pī",
+    "\u94CE": "duó",
+    "\u94CF": "xíng",
+    "\u94D0": "kào",
+    "\u94D1": "lǎo",
+    "\u94D2": "ěr",
+    "\u94D5": "yǒu",
+    "\u94D6": "chéng",
+    "\u94D7": "jiá",
+    "\u94D8": "yé",
+    "\u94D9": "náo",
+    "\u94DA": "zhì",
+    "\u94DB": "dāng",
+    "\u94DC": "tóng",
+    "\u94DD": "lǚ",
+    "\u94DE": "diào",
+    "\u94DF": "yīn",
+    "\u94E0": "kǎi",
+    "\u94E1": "zhá",
+    "\u94E2": "zhū",
+    "\u94E3": "xǐ",
+    "\u94E4": "dìng",
+    "\u94E5": "diū",
+    "\u94E7": "huá",
+    "\u94E8": "quán",
+    "\u94E9": "shā",
+    "\u94EA": "hā",
+    "\u94EB": "diào",
+    "\u94EC": "gè",
+    "\u94ED": "míng",
+    "\u94EE": "zhēng",
+    "\u94EF": "sè",
+    "\u94F0": "jiǎo",
+    "\u94F1": "yī",
+    "\u94F2": "chǎn",
+    "\u94F3": "chòng",
+    "\u94F4": "tāng",
+    "\u94F5": "ǎn",
+    "\u94F6": "yín",
+    "\u94F7": "rú",
+    "\u94F8": "zhù",
+    "\u94F9": "láo",
+    "\u94FA": "pù",
+    "\u94FB": "wú",
+    "\u94FC": "lái",
+    "\u94FD": "tè",
+    "\u94FE": "liàn",
+    "\u94FF": "kēng",
+    "\u9500": "xiāo",
+    "\u9501": "suǒ",
+    "\u9502": "lǐ",
+    "\u9503": "zèng",
+    "\u9504": "chú",
+    "\u9505": "guō",
+    "\u9506": "gào",
+    "\u9507": "é",
+    "\u9508": "xiù",
+    "\u9509": "cuò",
+    "\u950A": "lüè",
+    "\u950B": "fēng",
+    "\u950C": "xīn",
+    "\u950D": "liǔ",
+    "\u950E": "kāi",
+    "\u950F": "jiǎn",
+    "\u9510": "ruì",
+    "\u9511": "tī",
+    "\u9512": "láng",
+    "\u9513": "qǐn",
+    "\u9514": "jū",
+    "\u9515": "ā",
+    "\u9516": "qiāng",
+    "\u9517": "zhě",
+    "\u9518": "nuò",
+    "\u9519": "cuò",
+    "\u951A": "máo",
+    "\u951B": "bēn",
+    "\u951C": "qí",
+    "\u951D": "dé",
+    "\u951E": "kè",
+    "\u951F": "kūn",
+    "\u9521": "xī",
+    "\u9522": "gù",
+    "\u9523": "luó",
+    "\u9524": "chuí",
+    "\u9525": "zhuī",
+    "\u9526": "jǐn",
+    "\u9527": "zhì",
+    "\u9528": "xiān",
+    "\u9529": "juǎn",
+    "\u952A": "huō",
+    "\u952B": "péi",
+    "\u952C": "tán",
+    "\u952D": "dìng",
+    "\u952E": "jiàn",
+    "\u952F": "jù",
+    "\u9530": "měng",
+    "\u9531": "zī",
+    "\u9532": "qiè",
+    "\u9533": "yīng",
+    "\u9534": "kǎi",
+    "\u9535": "qiāng",
+    "\u9536": "sī",
+    "\u9537": "è",
+    "\u9538": "chā",
+    "\u9539": "qiāo",
+    "\u953A": "zhōng",
+    "\u953B": "duàn",
+    "\u953C": "sōu",
+    "\u953D": "huáng",
+    "\u953E": "huán",
+    "\u953F": "āi",
+    "\u9540": "dù",
+    "\u9541": "měi",
+    "\u9542": "lòu",
+    "\u9543": "zī",
+    "\u9544": "fèi",
+    "\u9545": "méi",
+    "\u9546": "mò",
+    "\u9547": "zhèn",
+    "\u9548": "bó",
+    "\u9549": "gé",
+    "\u954A": "niè",
+    "\u954B": "tǎng",
+    "\u954C": "juān",
+    "\u954D": "niè",
+    "\u954E": "ná",
+    "\u954F": "liú",
+    "\u9550": "gǎo",
+    "\u9551": "bàng",
+    "\u9552": "yì",
+    "\u9553": "jiā",
+    "\u9554": "bīn",
+    "\u9555": "róng",
+    "\u9556": "biāo",
+    "\u9557": "tāng",
+    "\u9558": "màn",
+    "\u955A": "bèng",
+    "\u955B": "yōng",
+    "\u955C": "jìng",
+    "\u955D": "dī",
+    "\u955E": "zú",
+    "\u9560": "liú",
+    "\u9561": "chán",
+    "\u9562": "jué",
+    "\u9563": "liào",
+    "\u9564": "pú",
+    "\u9565": "lǔ",
+    "\u9566": "duì",
+    "\u9567": "lán",
+    "\u9568": "pǔ",
+    "\u9569": "cuān",
+    "\u956A": "qiāng",
+    "\u956B": "dèng",
+    "\u956C": "huò",
+    "\u956D": "léi",
+    "\u956E": "huán",
+    "\u956F": "zhuó",
+    "\u9570": "lián",
+    "\u9571": "yì",
+    "\u9572": "chǎ",
+    "\u9573": "biāo",
+    "\u9574": "là",
+    "\u9575": "chán",
+    "\u9576": "xiāng",
+    "\u957F": "zhǎng",
+    "\u95E8": "mén",
+    "\u95E9": "shuān",
+    "\u95EA": "shǎn",
+    "\u95EB": "yán",
+    "\u95ED": "bì",
+    "\u95EE": "wèn",
+    "\u95EF": "chuǎng",
+    "\u95F0": "rùn",
+    "\u95F1": "wéi",
+    "\u95F2": "xián",
+    "\u95F3": "hóng",
+    "\u95F4": "jiān",
+    "\u95F5": "mǐn",
+    "\u95F6": "kāng",
+    "\u95F7": "mèn",
+    "\u95F8": "zhá",
+    "\u95F9": "nào",
+    "\u95FA": "guī",
+    "\u95FB": "wén",
+    "\u95FC": "tà",
+    "\u95FD": "mǐn",
+    "\u95FE": "lǘ",
+    "\u95FF": "kǎi",
+    "\u9600": "fá",
+    "\u9601": "gé",
+    "\u9602": "hé",
+    "\u9603": "kǔn",
+    "\u9604": "jiū",
+    "\u9605": "yuè",
+    "\u9606": "láng",
+    "\u9607": "dū",
+    "\u9608": "yù",
+    "\u9609": "yān",
+    "\u960A": "chāng",
+    "\u960B": "xì",
+    "\u960C": "wén",
+    "\u960D": "hūn",
+    "\u960E": "yán",
+    "\u960F": "è",
+    "\u9610": "chǎn",
+    "\u9611": "lán",
+    "\u9612": "qù",
+    "\u9614": "kuò",
+    "\u9615": "què",
+    "\u9616": "hé",
+    "\u9617": "tián",
+    "\u9618": "dá",
+    "\u9619": "quē",
+    "\u961A": "hǎn",
+    "\u961C": "fù",
+    "\u961F": "duì",
+    "\u9621": "qiān",
+    "\u962A": "bǎn",
+    "\u962E": "ruǎn",
+    "\u9631": "jǐng",
+    "\u9632": "fáng",
+    "\u9633": "yáng",
+    "\u9634": "yīn",
+    "\u9635": "zhèn",
+    "\u9636": "jiē",
+    "\u963B": "zǔ",
+    "\u963C": "zuò",
+    "\u963D": "diàn",
+    "\u963F": "ā",
+    "\u9640": "tuó",
+    "\u9642": "bēi",
+    "\u9644": "fù",
+    "\u9645": "jì",
+    "\u9646": "lù",
+    "\u9647": "lǒng",
+    "\u9648": "chén",
+    "\u9649": "xíng",
+    "\u964B": "lòu",
+    "\u964C": "mò",
+    "\u964D": "jiàng",
+    "\u964E": "shū",
+    "\u9650": "xiàn",
+    "\u9651": "ér",
+    "\u9654": "gāi",
+    "\u9655": "shǎn",
+    "\u965B": "bì",
+    "\u965E": "shēng",
+    "\u965F": "zhì",
+    "\u9661": "dǒu",
+    "\u9662": "yuàn",
+    "\u9664": "chú",
+    "\u9667": "niè",
+    "\u9668": "yǔn",
+    "\u9669": "xiǎn",
+    "\u966A": "péi",
+    "\u966C": "zōu",
+    "\u9672": "chuí",
+    "\u9674": "pí",
+    "\u9675": "líng",
+    "\u9676": "táo",
+    "\u9677": "xiàn",
+    "\u9683": "shù",
+    "\u9685": "yú",
+    "\u9686": "lóng",
+    "\u9688": "wēi",
+    "\u968B": "suí",
+    "\u968D": "huáng",
+    "\u968F": "suí",
+    "\u9690": "yǐn",
+    "\u9694": "gé",
+    "\u9697": "kuí",
+    "\u9698": "ài",
+    "\u9699": "xì",
+    "\u969C": "zhàng",
+    "\u96A7": "suì",
+    "\u96A9": "ào",
+    "\u96B0": "xí",
+    "\u96B3": "huī",
+    "\u96B6": "lì",
+    "\u96B9": "zhuī",
+    "\u96BA": "hú",
+    "\u96BC": "sǔn",
+    "\u96BD": "juàn",
+    "\u96BE": "nán",
+    "\u96C0": "què",
+    "\u96C1": "yàn",
+    "\u96C4": "xióng",
+    "\u96C5": "yǎ",
+    "\u96C6": "jí",
+    "\u96C7": "gù",
+    "\u96C9": "zhì",
+    "\u96CA": "gòu",
+    "\u96CC": "cí",
+    "\u96CD": "yōng",
+    "\u96CE": "jū",
+    "\u96CF": "chú",
+    "\u96D2": "luò",
+    "\u96D5": "diāo",
+    "\u96E0": "chóu",
+    "\u96E8": "yǔ",
+    "\u96E9": "yú",
+    "\u96EA": "xuě",
+    "\u96EF": "wén",
+    "\u96F1": "pāng",
+    "\u96F3": "lì",
+    "\u96F6": "líng",
+    "\u96F7": "léi",
+    "\u96F9": "báo",
+    "\u96FE": "wù",
+    "\u9700": "xū",
+    "\u9701": "jì",
+    "\u9704": "xiāo",
+    "\u9705": "zhà",
+    "\u9706": "tíng",
+    "\u9707": "zhèn",
+    "\u9708": "pèi",
+    "\u9709": "méi",
+    "\u970D": "huò",
+    "\u970E": "shà",
+    "\u970F": "fēi",
+    "\u9713": "ní",
+    "\u9716": "lín",
+    "\u971C": "shuāng",
+    "\u971E": "xiá",
+    "\u9728": "wèi",
+    "\u972A": "yín",
+    "\u972D": "ǎi",
+    "\u9730": "xiàn",
+    "\u9732": "lù",
+    "\u9738": "bà",
+    "\u9739": "pī",
+    "\u973E": "mái",
+    "\u9752": "qīng",
+    "\u9753": "jìng",
+    "\u9756": "jìng",
+    "\u9759": "jìng",
+    "\u975B": "diàn",
+    "\u975E": "fēi",
+    "\u9760": "kào",
+    "\u9761": "mí",
+    "\u9762": "miàn",
+    "\u9765": "yè",
+    "\u9769": "gé",
+    "\u976C": "qián",
+    "\u9770": "wù",
+    "\u9773": "jìn",
+    "\u9774": "xuē",
+    "\u9776": "bǎ",
+    "\u9778": "sǎ",
+    "\u977A": "mò",
+    "\u977C": "dá",
+    "\u977D": "bàn",
+    "\u977F": "yào",
+    "\u9781": "bèi",
+    "\u9785": "yāng",
+    "\u978B": "xié",
+    "\u978D": "ān",
+    "\u9791": "dá",
+    "\u9792": "qiáo",
+    "\u9794": "mán",
+    "\u9798": "qiào",
+    "\u97A0": "jū",
+    "\u97A1": "la",
+    "\u97A3": "róu",
+    "\u97A7": "qiū",
+    "\u97A8": "hé",
+    "\u97AB": "jū",
+    "\u97AC": "jiān",
+    "\u97AD": "biān",
+    "\u97AE": "dī",
+    "\u97AF": "jiān",
+    "\u97B2": "gōu",
+    "\u97B3": "tà",
+    "\u97B4": "bèi",
+    "\u97C2": "chàn",
+    "\u97E6": "wéi",
+    "\u97E7": "rèn",
+    "\u97E8": "fú",
+    "\u97E9": "hán",
+    "\u97EA": "wěi",
+    "\u97EB": "yùn",
+    "\u97EC": "tāo",
+    "\u97ED": "jiǔ",
+    "\u97F3": "yīn",
+    "\u97F5": "yùn",
+    "\u97F6": "sháo",
+    "\u9875": "yè",
+    "\u9876": "dǐng",
+    "\u9877": "qǐng",
+    "\u9878": "hān",
+    "\u9879": "xiàng",
+    "\u987A": "shùn",
+    "\u987B": "xū",
+    "\u987C": "xū",
+    "\u987D": "wán",
+    "\u987E": "gù",
+    "\u987F": "dùn",
+    "\u9880": "qí",
+    "\u9881": "bān",
+    "\u9882": "sòng",
+    "\u9883": "háng",
+    "\u9884": "yù",
+    "\u9885": "lú",
+    "\u9886": "lǐng",
+    "\u9887": "pǒ",
+    "\u9888": "jǐng",
+    "\u9889": "jié",
+    "\u988A": "jiá",
+    "\u988B": "tǐng",
+    "\u988C": "hé",
+    "\u988D": "yǐng",
+    "\u988E": "jiǒng",
+    "\u988F": "kē",
+    "\u9890": "yí",
+    "\u9891": "pín",
+    "\u9893": "tuí",
+    "\u9894": "hàn",
+    "\u9896": "yǐng",
+    "\u9897": "kē",
+    "\u9898": "tí",
+    "\u9899": "yóng",
+    "\u989A": "è",
+    "\u989B": "zhuān",
+    "\u989C": "yán",
+    "\u989D": "é",
+    "\u989E": "niè",
+    "\u989F": "mān",
+    "\u98A0": "diān",
+    "\u98A1": "sǎng",
+    "\u98A2": "hào",
+    "\u98A4": "chàn",
+    "\u98A5": "rú",
+    "\u98A6": "pín",
+    "\u98A7": "quán",
+    "\u98CE": "fēng",
+    "\u98CF": "yáng",
+    "\u98D0": "zhǎn",
+    "\u98D1": "biāo",
+    "\u98D2": "sà",
+    "\u98D3": "jù",
+    "\u98D4": "sī",
+    "\u98D5": "sōu",
+    "\u98D7": "liú",
+    "\u98D8": "piāo",
+    "\u98D9": "biāo",
+    "\u98DE": "fēi",
+    "\u98DF": "shí",
+    "\u98E7": "sūn",
+    "\u98E8": "xiǎng",
+    "\u990D": "yàn",
+    "\u9910": "cān",
+    "\u992E": "tiè",
+    "\u9954": "yōng",
+    "\u9955": "tāo",
+    "\u9965": "jī",
+    "\u9967": "táng",
+    "\u9968": "tún",
+    "\u9969": "xì",
+    "\u996A": "rèn",
+    "\u996B": "yù",
+    "\u996C": "chì",
+    "\u996D": "fàn",
+    "\u996E": "yǐn",
+    "\u996F": "jiàn",
+    "\u9970": "shì",
+    "\u9971": "bǎo",
+    "\u9972": "sì",
+    "\u9973": "duò",
+    "\u9974": "yí",
+    "\u9975": "ěr",
+    "\u9976": "ráo",
+    "\u9977": "xiǎng",
+    "\u9978": "hé",
+    "\u9979": "le",
+    "\u997A": "jiǎo",
+    "\u997B": "xī",
+    "\u997C": "bǐng",
+    "\u997D": "bō",
+    "\u997F": "è",
+    "\u9981": "něi",
+    "\u9983": "guǒ",
+    "\u9984": "hún",
+    "\u9985": "xiàn",
+    "\u9986": "guǎn",
+    "\u9987": "chā",
+    "\u9988": "kuì",
+    "\u9989": "gǔ",
+    "\u998A": "sōu",
+    "\u998B": "chán",
+    "\u998C": "yè",
+    "\u998D": "mó",
+    "\u998F": "liú",
+    "\u9990": "xiū",
+    "\u9991": "jǐn",
+    "\u9992": "mán",
+    "\u9993": "sǎn",
+    "\u9994": "zhuàn",
+    "\u9995": "náng",
+    "\u9996": "shǒu",
+    "\u9997": "kuí",
+    "\u9998": "guó",
+    "\u9999": "xiāng",
+    "\u999D": "bì",
+    "\u999E": "bó",
+    "\u99A5": "fù",
+    "\u99A7": "yūn",
+    "\u99A8": "xīn",
+    "\u9A6C": "mǎ",
+    "\u9A6D": "yù",
+    "\u9A6E": "tuó",
+    "\u9A6F": "xùn",
+    "\u9A70": "chí",
+    "\u9A71": "qū",
+    "\u9A72": "rì",
+    "\u9A73": "bó",
+    "\u9A74": "lǘ",
+    "\u9A75": "zǎng",
+    "\u9A76": "shǐ",
+    "\u9A77": "sì",
+    "\u9A78": "fù",
+    "\u9A79": "jū",
+    "\u9A7A": "zōu",
+    "\u9A7B": "zhù",
+    "\u9A7C": "tuó",
+    "\u9A7D": "nú",
+    "\u9A7E": "jià",
+    "\u9A7F": "yì",
+    "\u9A80": "dài",
+    "\u9A81": "xiāo",
+    "\u9A82": "mà",
+    "\u9A83": "yīn",
+    "\u9A84": "jiāo",
+    "\u9A85": "huá",
+    "\u9A86": "luò",
+    "\u9A87": "hài",
+    "\u9A88": "pián",
+    "\u9A89": "biāo",
+    "\u9A8A": "lí",
+    "\u9A8B": "chěng",
+    "\u9A8C": "yàn",
+    "\u9A8D": "xīng",
+    "\u9A8E": "qīn",
+    "\u9A8F": "jùn",
+    "\u9A90": "qí",
+    "\u9A91": "qí",
+    "\u9A92": "kè",
+    "\u9A93": "zhuī",
+    "\u9A95": "sù",
+    "\u9A96": "cān",
+    "\u9A97": "piàn",
+    "\u9A98": "zhì",
+    "\u9A99": "kuí",
+    "\u9A9A": "sāo",
+    "\u9A9B": "wù",
+    "\u9A9C": "ào",
+    "\u9A9D": "liú",
+    "\u9A9E": "qiān",
+    "\u9A9F": "shàn",
+    "\u9AA0": "biāo",
+    "\u9AA1": "luó",
+    "\u9AA2": "cōng",
+    "\u9AA3": "chǎn",
+    "\u9AA4": "zhòu",
+    "\u9AA5": "jì",
+    "\u9AA6": "shuāng",
+    "\u9AA7": "xiāng",
+    "\u9AA8": "gǔ",
+    "\u9AB0": "tóu",
+    "\u9AB1": "jiè",
+    "\u9AB6": "dǐ",
+    "\u9AB7": "kū",
+    "\u9AB8": "hái",
+    "\u9ABA": "hóu",
+    "\u9ABC": "gé",
+    "\u9AC0": "bì",
+    "\u9AC1": "kē",
+    "\u9AC2": "qià",
+    "\u9AC3": "yú",
+    "\u9AC5": "lóu",
+    "\u9ACB": "kuān",
+    "\u9ACC": "bìn",
+    "\u9ACE": "liáo",
+    "\u9AD1": "dú",
+    "\u9AD3": "suǐ",
+    "\u9AD8": "gāo",
+    "\u9AE1": "kūn",
+    "\u9AE2": "dí",
+    "\u9AE6": "máo",
+    "\u9AEB": "tiáo",
+    "\u9AED": "zī",
+    "\u9AEF": "rán",
+    "\u9AF9": "xiū",
+    "\u9AFB": "jì",
+    "\u9AFD": "zhuā",
+    "\u9B03": "zōng",
+    "\u9B08": "quán",
+    "\u9B0F": "jiū",
+    "\u9B12": "zhěn",
+    "\u9B13": "bìn",
+    "\u9B18": "mán",
+    "\u9B1F": "huán",
+    "\u9B23": "liè",
+    "\u9B2F": "chàng",
+    "\u9B32": "gé",
+    "\u9B36": "guī",
+    "\u9B37": "zōng",
+    "\u9B3B": "yù",
+    "\u9B3C": "guǐ",
+    "\u9B41": "kuí",
+    "\u9B42": "hún",
+    "\u9B43": "bá",
+    "\u9B44": "pò",
+    "\u9B45": "mèi",
+    "\u9B46": "xū",
+    "\u9B47": "yǎn",
+    "\u9B48": "xiāo",
+    "\u9B49": "liǎng",
+    "\u9B4B": "tuí",
+    "\u9B4D": "wǎng",
+    "\u9B4F": "wèi",
+    "\u9B51": "chī",
+    "\u9B54": "mó",
+    "\u9C7C": "yú",
+    "\u9C7D": "dāo",
+    "\u9C7E": "jǐ",
+    "\u9C7F": "yóu",
+    "\u9C80": "tún",
+    "\u9C81": "lǔ",
+    "\u9C82": "fáng",
+    "\u9C83": "bā",
+    "\u9C85": "bà",
+    "\u9C86": "píng",
+    "\u9C87": "nián",
+    "\u9C88": "lú",
+    "\u9C89": "yóu",
+    "\u9C8A": "zhǎ",
+    "\u9C8B": "fù",
+    "\u9C8C": "bà",
+    "\u9C8D": "bào",
+    "\u9C8E": "hòu",
+    "\u9C8F": "pí",
+    "\u9C90": "tái",
+    "\u9C91": "guī",
+    "\u9C92": "jié",
+    "\u9C94": "wěi",
+    "\u9C95": "ér",
+    "\u9C96": "tóng",
+    "\u9C97": "zéi",
+    "\u9C98": "hòu",
+    "\u9C99": "kuài",
+    "\u9C9A": "jì",
+    "\u9C9B": "jiāo",
+    "\u9C9C": "xiān",
+    "\u9C9D": "zhǎ",
+    "\u9C9E": "xiǎng",
+    "\u9C9F": "xún",
+    "\u9CA0": "gěng",
+    "\u9CA1": "lí",
+    "\u9CA2": "lián",
+    "\u9CA3": "jiān",
+    "\u9CA4": "lǐ",
+    "\u9CA5": "shí",
+    "\u9CA6": "tiáo",
+    "\u9CA7": "gǔn",
+    "\u9CA8": "shā",
+    "\u9CA9": "huàn",
+    "\u9CAA": "jūn",
+    "\u9CAB": "jì",
+    "\u9CAC": "yǒng",
+    "\u9CAD": "qīng",
+    "\u9CAE": "líng",
+    "\u9CAF": "qí",
+    "\u9CB0": "zōu",
+    "\u9CB1": "fēi",
+    "\u9CB2": "kūn",
+    "\u9CB3": "chāng",
+    "\u9CB4": "gù",
+    "\u9CB5": "ní",
+    "\u9CB7": "diāo",
+    "\u9CB8": "jīng",
+    "\u9CB9": "shēn",
+    "\u9CBA": "shī",
+    "\u9CBB": "zī",
+    "\u9CBC": "fèn",
+    "\u9CBD": "dié",
+    "\u9CBE": "bī",
+    "\u9CBF": "cháng",
+    "\u9CC0": "tí",
+    "\u9CC1": "wēn",
+    "\u9CC2": "wēi",
+    "\u9CC3": "sāi",
+    "\u9CC4": "è",
+    "\u9CC5": "qiū",
+    "\u9CC7": "huáng",
+    "\u9CC8": "quán",
+    "\u9CC9": "jiāng",
+    "\u9CCA": "biān",
+    "\u9CCC": "áo",
+    "\u9CCD": "qí",
+    "\u9CCE": "tǎ",
+    "\u9CCF": "guān",
+    "\u9CD0": "yáo",
+    "\u9CD1": "páng",
+    "\u9CD2": "jiān",
+    "\u9CD3": "lè",
+    "\u9CD4": "biào",
+    "\u9CD5": "xuě",
+    "\u9CD6": "biē",
+    "\u9CD7": "mán",
+    "\u9CD8": "mǐn",
+    "\u9CD9": "yōng",
+    "\u9CDA": "wèi",
+    "\u9CDB": "xí",
+    "\u9CDC": "guì",
+    "\u9CDD": "shàn",
+    "\u9CDE": "lín",
+    "\u9CDF": "zūn",
+    "\u9CE0": "hù",
+    "\u9CE1": "gǎn",
+    "\u9CE2": "lǐ",
+    "\u9CE3": "zhān",
+    "\u9CE4": "guǎn",
+    "\u9E1F": "niǎo",
+    "\u9E20": "jiū",
+    "\u9E21": "jī",
+    "\u9E22": "yuān",
+    "\u9E23": "míng",
+    "\u9E24": "shī",
+    "\u9E25": "ōu",
+    "\u9E26": "yā",
+    "\u9E27": "cāng",
+    "\u9E28": "bǎo",
+    "\u9E29": "zhèn",
+    "\u9E2A": "gū",
+    "\u9E2B": "dōng",
+    "\u9E2C": "lú",
+    "\u9E2D": "yā",
+    "\u9E2E": "xiāo",
+    "\u9E2F": "yāng",
+    "\u9E30": "líng",
+    "\u9E31": "chī",
+    "\u9E32": "qú",
+    "\u9E33": "yuān",
+    "\u9E35": "tuó",
+    "\u9E36": "sī",
+    "\u9E37": "zhì",
+    "\u9E38": "ér",
+    "\u9E39": "guā",
+    "\u9E3A": "xiū",
+    "\u9E3B": "héng",
+    "\u9E3C": "zhōu",
+    "\u9E3D": "gē",
+    "\u9E3E": "luán",
+    "\u9E3F": "hóng",
+    "\u9E40": "wú",
+    "\u9E41": "bó",
+    "\u9E42": "lí",
+    "\u9E43": "juān",
+    "\u9E44": "gǔ",
+    "\u9E45": "é",
+    "\u9E46": "yù",
+    "\u9E47": "xián",
+    "\u9E48": "tí",
+    "\u9E49": "wǔ",
+    "\u9E4A": "què",
+    "\u9E4B": "miáo",
+    "\u9E4C": "ān",
+    "\u9E4D": "kūn",
+    "\u9E4E": "bēi",
+    "\u9E4F": "péng",
+    "\u9E50": "qiān",
+    "\u9E51": "chún",
+    "\u9E52": "gēng",
+    "\u9E54": "sù",
+    "\u9E55": "hú",
+    "\u9E56": "hé",
+    "\u9E57": "è",
+    "\u9E58": "gǔ",
+    "\u9E59": "qiū",
+    "\u9E5A": "cí",
+    "\u9E5B": "méi",
+    "\u9E5C": "wù",
+    "\u9E5D": "yì",
+    "\u9E5E": "yào",
+    "\u9E5F": "wēng",
+    "\u9E60": "liú",
+    "\u9E61": "jí",
+    "\u9E62": "yì",
+    "\u9E63": "jiān",
+    "\u9E64": "hè",
+    "\u9E66": "yīng",
+    "\u9E67": "zhè",
+    "\u9E68": "liù",
+    "\u9E69": "liáo",
+    "\u9E6A": "jiāo",
+    "\u9E6B": "jiù",
+    "\u9E6C": "yù",
+    "\u9E6D": "lù",
+    "\u9E6E": "huán",
+    "\u9E6F": "zhān",
+    "\u9E70": "yīng",
+    "\u9E71": "hù",
+    "\u9E72": "méng",
+    "\u9E73": "guàn",
+    "\u9E74": "shuāng",
+    "\u9E7E": "cuó",
+    "\u9E7F": "lù",
+    "\u9E80": "yōu",
+    "\u9E82": "jǐ",
+    "\u9E87": "jūn",
+    "\u9E88": "zhǔ",
+    "\u9E8B": "mí",
+    "\u9E91": "ní",
+    "\u9E92": "qí",
+    "\u9E93": "lù",
+    "\u9E96": "jīng",
+    "\u9E9D": "shè",
+    "\u9E9F": "lín",
+    "\u9EA6": "mài",
+    "\u9EB8": "fū",
+    "\u9EB9": "qū",
+    "\u9EBB": "má",
+    "\u9EBD": "mó",
+    "\u9EBE": "huī",
+    "\u9EC4": "huáng",
+    "\u9EC7": "tiān",
+    "\u9EC9": "hóng",
+    "\u9ECD": "shǔ",
+    "\u9ECE": "lí",
+    "\u9ECF": "nián",
+    "\u9ED1": "hēi",
+    "\u9ED4": "qián",
+    "\u9ED8": "mò",
+    "\u9EDB": "dài",
+    "\u9EDC": "chù",
+    "\u9EDD": "yǒu",
+    "\u9EDF": "yī",
+    "\u9EE0": "xiá",
+    "\u9EE1": "yǎn",
+    "\u9EE2": "qū",
+    "\u9EE5": "qíng",
+    "\u9EE7": "lí",
+    "\u9EE9": "dú",
+    "\u9EEA": "cǎn",
+    "\u9EEF": "àn",
+    "\u9EF9": "zhǐ",
+    "\u9EFB": "fú",
+    "\u9EFC": "fǔ",
+    "\u9EFE": "mǐn",
+    "\u9F0B": "yuán",
+    "\u9F0D": "tuó",
+    "\u9F0E": "dǐng",
+    "\u9F10": "nài",
+    "\u9F12": "zī",
+    "\u9F13": "gǔ",
+    "\u9F17": "táo",
+    "\u9F19": "pí",
+    "\u9F20": "shǔ",
+    "\u9F22": "fén",
+    "\u9F29": "qú",
+    "\u9F2B": "shí",
+    "\u9F2C": "yòu",
+    "\u9F2F": "wú",
+    "\u9F31": "jīng",
+    "\u9F37": "xī",
+    "\u9F39": "yǎn",
+    "\u9F3B": "bí",
+    "\u9F3D": "qiú",
+    "\u9F3E": "hān",
+    "\u9F41": "hōu",
+    "\u9F47": "zhā",
+    "\u9F49": "nàng",
+    "\u9F50": "qí",
+    "\u9F51": "jī",
+    "\u9F7F": "chǐ",
+    "\u9F80": "chèn",
+    "\u9F81": "hé",
+    "\u9F82": "yín",
+    "\u9F83": "jǔ",
+    "\u9F84": "líng",
+    "\u9F85": "bāo",
+    "\u9F86": "tiáo",
+    "\u9F87": "zī",
+    "\u9F88": "kěn",
+    "\u9F89": "yǔ",
+    "\u9F8A": "chuò",
+    "\u9F8B": "qǔ",
+    "\u9F8C": "wò",
+    "\u9F99": "lóng",
+    "\u9F9A": "gōng",
+    "\u9F9B": "kān",
+    "\u9F9F": "guī",
+    "\u9FA0": "yuè",
+    "\u9FA2": "hé",
+    "\u9FCD": "gàng",
+    "\u9FCE": "tǎ",
+    "\u9FCF": "mài",
+    "\u3447": "zhòu",
+    "\u344A": "yì",
+    "\u356E": "fǔ",
+    "\u360E": "hǎn",
+    "\u364D": "duō",
+    "\u3658": "yāo",
+    "\u3666": "xié",
+    "\u36C3": "jié",
+    "\u36DA": "tǒng",
+    "\u36F9": "pián",
+    "\u37C3": "sī",
+    "\u3807": "jiù",
+    "\u3813": "méng",
+    "\u3918": "zhòu",
+    "\u3944": "líng",
+    "\u39D0": "sǒng",
+    "\u39D1": "huī",
+    "\u39DF": "kuǎi",
+    "\u3AF0": "làng",
+    "\u3B0A": "huàn",
+    "\u3B0E": "xiǎn",
+    "\u3B1A": "chè",
+    "\u3B4E": "gāng",
+    "\u3B55": "qū",
+    "\u3BBE": "lǎng",
+    "\u3C00": "lí",
+    "\u3CC7": "fù",
+    "\u3CD8": "chōng",
+    "\u3CDA": "xù",
+    "\u3D14": "xī",
+    "\u3D50": "jué",
+    "\u3DB2": "yòng",
+    "\u3E06": "kào",
+    "\u3E0C": "huò",
+    "\u3E84": "yǔ",
+    "\u3EEC": "tū",
+    "\u3F4F": "gàn",
+    "\u3FE0": "huàng",
+    "\u4056": "lōu",
+    "\u40AE": "lüè",
+    "\u40C5": "dī",
+    "\u40CE": "zhà",
+    "\u415F": "cǎn",
+    "\u4339": "jiǒng",
+    "\u4383": "rǎn",
+    "\u4396": "zēng",
+    "\u43DD": "zhuān",
+    "\u43E1": "shì",
+    "\u43F2": "dié",
+    "\u4403": "jùn",
+    "\u44D6": "qióng",
+    "\u44DB": "qū",
+    "\u44E8": "yīng",
+    "\u44EB": "qí",
+    "\u44EC": "zhuó",
+    "\u45D6": "dì",
+    "\u45DB": "xiū",
+    "\u45EA": "zhè",
+    "\u45F4": "tíng",
+    "\u4723": "xīn",
+    "\u4759": "chū",
+    "\u48BA": "chū",
+    "\u48BC": "gōng",
+    "\u48D8": "táng",
+    "\u497D": "pō",
+    "\u4983": "zhuō",
+    "\u4C9F": "yìn",
+    "\u4CA0": "chūn",
+    "\u4CA2": "téng",
+    "\u4D13": "shī",
+    "\u4D14": "jiāo",
+    "\u4D15": "liè",
+    "\u4D16": "jīng",
+    "\u4D17": "jú",
+    "\u4D18": "tī",
+    "\u4D19": "pì",
+    "\u4DAE": "yǎn",
+    "\u20164": "xí",
+    "\u20676": "ǒu",
+    "\u20CD0": "bāng",
+    "\u2139A": "piǎn",
+    "\u21413": "kāng",
+    "\u235CB": "dǎng",
+    "\u23C97": "wéi",
+    "\u23C98": "wǔ",
+    "\u23E23": "fén",
+    "\u249DB": "dì",
+    "\u24A7D": "huán",
+    "\u24AC9": "xiè",
+    "\u25532": "è",
+    "\u25562": "cáo",
+    "\u255A8": "zào",
+    "\u25ED7": "chá",
+    "\u26221": "xū",
+    "\u2648D": "tóng",
+    "\u26676": "gǔ",
+    "\u2677C": "lǘ",
+    "\u26B5C": "zhī",
+    "\u26C21": "nà",
+    "\u27FF9": "mǔ",
+    "\u28408": "guāng",
+    "\u28678": "qí",
+    "\u28695": "biàn",
+    "\u287E0": "quān",
+    "\u28B49": "bān",
+    "\u28C47": "qiú",
+    "\u28C4F": "dā",
+    "\u28C51": "huáng",
+    "\u28C54": "zūn",
+    "\u28E99": "nì",
+    "\u29F7E": "ān",
+    "\u29F83": "miǎn",
+    "\u29F8C": "kāng",
+    "\u2A7DD": "jì",
+    "\u2A8FB": "lóu",
+    "\u2A917": "liào",
+    "\u2AA30": "qū",
+    "\u2AA36": "shē",
+    "\u2AA58": "yǎn",
+    "\u2AFA2": "xiàn",
+    "\u2B127": "yán",
+    "\u2B128": "chī",
+    "\u2B137": "yì",
+    "\u2B138": "xūn",
+    "\u2B1ED": "wěi",
+    "\u2B300": "jī",
+    "\u2B363": "tóng",
+    "\u2B36F": "xián",
+    "\u2B372": "xiǎo",
+    "\u2B37D": "xuān",
+    "\u2B404": "yuè",
+    "\u2B410": "ní",
+    "\u2B413": "bù",
+    "\u2B461": "méng",
+    "\u2B4E7": "fū",
+    "\u2B4EF": "jī",
+    "\u2B4F6": "xuān",
+    "\u2B4F9": "jī",
+    "\u2B50D": "fán",
+    "\u2B50E": "jué",
+    "\u2B536": "niè",
+    "\u2B5AE": "yǐ",
+    "\u2B5AF": "fǔ",
+    "\u2B5B3": "yūn",
+    "\u2B5E7": "sù",
+    "\u2B5F4": "zhān",
+    "\u2B61C": "wén",
+    "\u2B61D": "jué",
+    "\u2B626": "táo",
+    "\u2B627": "lù",
+    "\u2B628": "tí",
+    "\u2B62A": "yuán",
+    "\u2B62C": "xí",
+    "\u2B695": "shī",
+    "\u2B696": "cǐ",
+    "\u2B6AD": "liè",
+    "\u2B6ED": "kuáng",
+    "\u2B7A9": "mén",
+    "\u2B7C5": "liáng",
+    "\u2B7E6": "suì",
+    "\u2B7F9": "hóng",
+    "\u2B7FC": "dá",
+    "\u2B806": "kuǐ",
+    "\u2B80A": "xuán",
+    "\u2B81C": "ní",
+    "\u2B8B8": "dàn",
+    "\u2BAC7": "ě",
+    "\u2BB5F": "ōu",
+    "\u2BB62": "lǔn",
+    "\u2BB7C": "láo",
+    "\u2BB83": "shàn",
+    "\u2BC1B": "xíng",
+    "\u2BD77": "lì",
+    "\u2BD87": "dié",
+    "\u2BDF7": "xīn",
+    "\u2BE29": "kōu",
+    "\u2C029": "wěi",
+    "\u2C02A": "xiàn",
+    "\u2C0A9": "jiā",
+    "\u2C0CA": "zhì",
+    "\u2C1D5": "wàn",
+    "\u2C1D9": "pèi",
+    "\u2C1F9": "guó",
+    "\u2C27C": "ōu",
+    "\u2C288": "xún",
+    "\u2C2A4": "chǎn",
+    "\u2C317": "hé",
+    "\u2C35B": "lì",
+    "\u2C361": "dàng",
+    "\u2C364": "xún",
+    "\u2C488": "què",
+    "\u2C494": "gěng",
+    "\u2C497": "lán",
+    "\u2C542": "gōng",
+    "\u2C613": "xún",
+    "\u2C618": "dǎn",
+    "\u2C621": "yīn",
+    "\u2C629": "tīng",
+    "\u2C62B": "huán",
+    "\u2C62C": "qiàn",
+    "\u2C62D": "lín",
+    "\u2C62F": "zhǔn",
+    "\u2C642": "yǎn",
+    "\u2C64A": "mò",
+    "\u2C64B": "xiāng",
+    "\u2C72C": "màn",
+    "\u2C72F": "liǎng",
+    "\u2C79F": "pín",
+    "\u2C7C1": "yì",
+    "\u2C7FD": "dōng",
+    "\u2C8D9": "xū",
+    "\u2C8DE": "zhǔ",
+    "\u2C8E1": "jiàn",
+    "\u2C8F3": "hěn",
+    "\u2C907": "yīn",
+    "\u2C90A": "shì",
+    "\u2C91D": "huì",
+    "\u2CA02": "qí",
+    "\u2CA0E": "yóu",
+    "\u2CA7D": "xún",
+    "\u2CAA9": "nóng",
+    "\u2CB29": "yì",
+    "\u2CB2D": "lún",
+    "\u2CB2E": "chǎng",
+    "\u2CB31": "jīn",
+    "\u2CB38": "shù",
+    "\u2CB39": "shén",
+    "\u2CB3B": "lú",
+    "\u2CB3F": "zhāo",
+    "\u2CB41": "mǔ",
+    "\u2CB4A": "dù",
+    "\u2CB4E": "hóng",
+    "\u2CB5A": "chún",
+    "\u2CB5B": "bō",
+    "\u2CB64": "hóu",
+    "\u2CB69": "wēng",
+    "\u2CB6C": "wèi",
+    "\u2CB6F": "piě",
+    "\u2CB73": "xǐ",
+    "\u2CB76": "hēi",
+    "\u2CB78": "lín",
+    "\u2CB7C": "suì",
+    "\u2CBB1": "yīn",
+    "\u2CBBF": "qí",
+    "\u2CBC0": "jī",
+    "\u2CBCE": "tuí",
+    "\u2CC56": "dí",
+    "\u2CC5F": "wěi",
+    "\u2CCF5": "pī",
+    "\u2CCF6": "jiōng",
+    "\u2CCFD": "shēn",
+    "\u2CCFF": "tú",
+    "\u2CD02": "fēi",
+    "\u2CD03": "huō",
+    "\u2CD0A": "lín",
+    "\u2CD8B": "jū",
+    "\u2CD8D": "tuó",
+    "\u2CD8F": "wéi",
+    "\u2CD90": "zhào",
+    "\u2CD9F": "là",
+    "\u2CDA0": "liàn",
+    "\u2CDA8": "jì",
+    "\u2CDAD": "jì",
+    "\u2CDAE": "xǐ",
+    "\u2CDD5": "bū",
+    "\u2CE18": "yǎn",
+    "\u2CE1A": "yuè",
+    "\u2CE23": "xiān",
+    "\u2CE26": "zhuó",
+    "\u2CE2A": "fán",
+    "\u2CE7C": "xiè",
+    "\u2CE88": "yǐ",
+    "\u2CE93": "chǔ"
+}
+
+let EmojiPinyin = {}
+let EMOJI_ZH_USED = []
+
+let ALL_PINYIN = {}
+
+for (i in PINYIN) {
+    let pinyin = PINYIN[i]
+    ALL_PINYIN[pinyin] = pinyin
+}
+
+for (i in PINYIN2) {
+    let pinyin = PINYIN[i]
+    ALL_PINYIN[pinyin] = pinyin
+}
+
+function InitEmojiPinyin(emojiLength) {
+    EmojiPinyin = {}
+    EMOJI_ZH_USED = []
+    for (let key in EMOJI_ZH) {
+        if (key.indexOf('\u{0000FE0F}') != -1 && !EMOJI_ZH[key.replaceAll("\u{0000FE0F}", '')]) {
+            continue
+        }
+        if (key.indexOf('\u{0000200D}') != -1) {
+            continue
+        }
+        let text = EMOJI_ZH[key].replaceAll(":", "")
+        if (text.length > emojiLength) {
+            continue
+        }
+        EMOJI_ZH_USED.push(key)
+    }
+    EMOJI_ZH_USED.sort((a, b) => { return -a.length + b.length })
+    for (i in EMOJI_ZH_USED) {
+        let key = EMOJI_ZH_USED[i]
+        let text = EMOJI_ZH[key].replaceAll(":", "")
+        let pinyins = TextToPinyin(text)
+        for (i in pinyins) {
+            let pinyin = pinyins[i]
+            let emojis = EmojiPinyin[pinyin]
+            if (!emojis) {
+                emojis = []
+            }
+            emojis.push(key)
+            EmojiPinyin[pinyin] = emojis
+        }
+    }
+}
+
+function TextToPinyin(text) {
+    let result = []
+    for (i = 0; i < text.length; i++) {
+        let key = text[i]
+        let v = PINYIN[key]
+        if (!v) {
+            v = PINYIN2[key]
+            if (!v) {
+                v = key
+            }
+        }
+        result.push(v)
+    }
+    return result
+}
+
+
+function PinyinToEmoji(pinyin) {
+    let result = []
+    for (let i in pinyin) {
+        let p = pinyin[i]
+        let emoji = EmojiPinyin[p]
+        let v = p
+        if (emoji) {
+            v = emoji[Math.floor(Math.random() * emoji.length)]
+        }
+        result.push(v)
+    }
+    return result
+}
+
+function TextToEmoji(text) {
+    let result = []
+    for (i in text) {
+        let v = text[i]
+        let res = TextToPinyin(v)
+        let res2 = PinyinToEmoji(res)
+        if (res2.join("") == res.join("")) {
+            res2 = [v]
+        }
+        result.push(res2.join(""))
+    }
+    return result
+}
+
+function EmojiToEnText(emoji) {
+    let en_text = emoji
+    for (let key in EN_EMOJI) {
+        let v = EN_EMOJI[key]
+        en_text = en_text.replaceAll(v, key.replaceAll(":", " "))
+    }
+    return en_text
+}
+
+function EmojiToZhText(emoji) {
+    let text = emoji
+    let zh_text = ""
+    for (i in text) {
+        if (PINYIN2[text[i]]) {
+            zh_text += ":" + text[i] + ":"
+        } else {
+            zh_text += text[i]
+        }
+    }
+    for (let i in EMOJI_ZH_USED) {
+        let key = EMOJI_ZH_USED[i]
+        let v = EMOJI_ZH[key]//.replaceAll(":", "")
+        zh_text = zh_text.replaceAll(key, v)
+    }
+    zh_text = zh_text.replaceAll("::", ":").split(":")
+    for (i in zh_text) {
+        zh_text[i] = zh_text[i].split("").join(",")
+    }
+    return zh_text
+}
+
+function TextToHtml(input, change) {
+    let res = []
+    for (i in input) {
+        res.push("")
+        let t = input[i]
+        if (t.indexOf(",") == -1) {
+            res[i] = "<span>" + t + "</span>"
+            continue
+        }
+        let ss = t.split(",")
+        for (j in ss) {
+            ss[j] = "<option>" + ss[j] + "</option>"
+        }
+        res[i] = '<select onchange="' + (change ? change.name + '()' : '') + '">' + ss.join("<br/>") + "</select>"
+    }
+    return res
+}

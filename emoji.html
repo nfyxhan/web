@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head lang=en>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=HandheldFriendly content=true>
+    <meta name=description content>
+    <meta name=keywords content>
+    <script type="text/javascript" src="./static/emojiswitch.js"></script>
+</head>
+
+<body>
+    <div id="notification" class="notification hidden">操作成功！</div>
+    <div class="emoji">
+        <div>
+            <span>拼音数量: </span>
+            <span id="pinyin_num"></span>
+            <span>emoji数量: </span>
+            <span id="emoji_num"></span>
+        </div>
+        <div>
+            <input type="text" id="originText" value="🤜在🛥🌷">
+            <input type="number" id="emojiLength" value="3" style="width: 30px;">
+        </div>
+        <div hidden>
+            <span>English: </span>
+            <div id="en_text" class="copy"></div>
+        </div>
+        <div>
+            <span>中文：</span>
+            <div id="zh_text" class="copy"></div>
+        </div>
+        <div>
+            <span>拼音：</span>
+            <div id="pinyin_text" class="copy"></div>
+        </div>
+        <div>
+            <span>表情：</span>
+            <div id="emoji_text" class="copy"></div>
+        </div>
+        <div>
+            <span>表情翻译：</span>
+            <div id="pinyin_emoji_text" class="copy"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function run() {
+            let pinyin_num = Object.keys(EmojiPinyin).length + '/' + Object.keys(ALL_PINYIN).length
+            let emoji_num = EMOJI_ZH_USED.length + '/' + Object.keys(EMOJI_ZH).length
+            document.getElementById("emoji_num").innerHTML = emoji_num
+            document.getElementById("pinyin_num").innerHTML = pinyin_num
+
+            let text = document.getElementById("originText").value
+
+            let en_text = EmojiToEnText(text)
+            document.getElementById("en_text").innerHTML = en_text
+
+            let zh_text = EmojiToZhText(text)
+            document.getElementById("zh_text").innerHTML = TextToHtml(zh_text, renderPinyin).join("")
+
+            renderPinyin()
+
+            let emoji_text = TextToEmoji(text)
+            document.getElementById("emoji_text").innerHTML = emoji_text.join("")
+
+            let pinyin_emoji_text = EmojiToZhText(emoji_text.join(''))
+            document.getElementById("pinyin_emoji_text").innerHTML = pinyin_emoji_text.join(' ').replaceAll(",", "")
+        }
+
+        function renderPinyin() {
+            zh_text = getCopyText(document.getElementById("zh_text"))
+            let pinyin_text = TextToPinyin(zh_text)
+            document.getElementById("pinyin_text").innerHTML = TextToHtml(pinyin_text).join("")
+        }
+
+        function getCopyText(md) {
+            let children = md.children
+            let t = ''
+            for (let i = 0; i < children.length; i++) {
+                let child = children[i]
+                if (child.tagName == 'SPAN') {
+                    t += child.innerText
+                } else if (child.tagName == 'SELECT') {
+                    t += child.value
+                } else {
+                    t += child.innerText
+                }
+            }
+            if (t == '') {
+                t = md.innerText
+            }
+            return t
+        }
+
+        function copy() {
+            let spans = document.getElementsByClassName('copy')
+            for (i in spans) {
+                let md = spans[i]
+                if (!md.addEventListener) {
+                    continue
+                }
+                md.addEventListener('click', function () {
+                    let t = getCopyText(md)
+                    navigator.clipboard.writeText(t).then(() => {
+                        showNotification('已复制', 2000);
+                    },
+                        (e) => {
+                            /* failure */
+                            console.log(e)
+                        },
+                    );
+                })
+            }
+        }
+
+        function showNotification(message, duration = 3000) {
+            const notify = document.getElementById('notification');
+            notify.textContent = message;
+            notify.classList.remove('hidden');
+
+            setTimeout(() => {
+                notify.classList.add('hidden');
+            }, duration);
+        }
+        document.getElementById("originText").addEventListener("input", run)
+        document.getElementById("emojiLength").addEventListener("input", function () {
+            emojiLength = document.getElementById("emojiLength").value
+            InitEmojiPinyin(emojiLength)
+            run()
+        })
+
+        InitEmojiPinyin(emojiLength = document.getElementById("emojiLength").value)
+        run()
+        copy()
+
+    </script>
+    <style>
+        .emoji {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 10px;
+            height: 100vh;
+        }
+
+        .copy {
+            display: inline-flex;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            transition: opacity 0.3s;
+        }
+
+        .hidden {
+            opacity: 0;
+            display: none;
+        }
+    </style>
+</body>
+
+</html>

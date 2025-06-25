@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head lang=en>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=HandheldFriendly content=true>
+    <meta name=description content>
+    <meta name=keywords content>
+</head>
+
+<body>
+    <script type="text/javascript" src="./static/gif.js"></script>
+    <script type="text/javascript" src="./static/gif.worker.js"></script>
+    <script type="text/javascript" src="./static/emojiswitch.js"></script>
+    <!-- <script type="text/javascript" src="./static/webcrypto-liner.js"></script> -->
+    <div id="input-div">
+        <label for="font" class="inputLabel">字体</label>
+        <select id="font" class="inputText">
+            <option value="serif">serif</option>
+            <option value="sans-serif">sans-serif</option>
+            <!-- <option value="Arial">Arial</option>
+            <option value="Microsoft YaHei">微软雅黑</option>
+            <option value="SimHei">黑体</option>
+            <option value="KaiTi">楷体</option>
+            <option value="SimSun">宋体</option>
+            <option value="FangSong">仿宋</option> -->
+        </select>
+        <br>
+        <label for="fontSize" class="inputLabel">字体大小</label>
+        <input id="fontSize" type="number" class="inputText" value="30" step="10" />
+        <br>
+        <label for="mohu" class="inputLabel">清晰度</label>
+        <input id="mohu" type="number" class="inputText" value="35" step="5" />
+        <label for="mohu" class="inputLabel">%</label>
+        <br>
+        <label for="width" class="inputLabel">宽</label>
+        <input id="width" type="number" class="inputText" value="100" step="10" />
+        <br>
+        <label for="height" class="inputLabel">高</label>
+        <input id="height" type="number" class="inputText" value="20" step="10" />
+        <br>
+        <label for="backgoundcolor" class="inputLabel">背景颜色</label>
+        <input id="backgoundcolor" class="inputText" value="#e8e8e9" />
+        <br>
+        <label for="fontcolor" class="inputLabel">字体颜色</label>
+        <input id="fontcolor" class="inputText" value="#010101" />
+        <br>
+        <label for="interval" class="inputLabel">播放间隔</label>
+        <input id="interval" class="inputText" type="number" value="100" step="100" />
+        <br>
+        <label for="emojiLength" class="inputLabel">emoji</label>
+        <input type="number" class="inputText" id="emojiLength" value="3">
+        <br>
+        <label for="debug" class="inputLabel">debug</label>
+        <input id="debug" type="checkbox" unchecked />
+        <br>
+        <input id="file" type="file" multiple>
+        <button id="btn">刷新</button>
+        <a id="download">下载</a>
+        <span id="prog">进度: 0%</span>
+    </div>
+    <div id="textarea-div">
+        <textarea id="textInput" type="text" rows="15" cols="15"></textarea>
+    </div>
+    <div id="image">
+    </div>
+    <div id="log">
+
+    </div>
+    <script type="text/javascript">
+        var subtle = crypto.subtle
+
+        async function uploadFiles() {
+            const fileInput = document.getElementById('file');
+            const files = fileInput.files;
+            if (files.length === 0) {
+                alert('请选择要上传的文件');
+                return;
+            }
+
+            const promises = [];
+            const ss = [];
+
+            let width = document.getElementById('width').value;
+            let height = document.getElementById('height').value;
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                try {
+                    let dataURL = await readFileAsDataURL(file);
+                    dataURL = await resizeImage(dataURL, width, height)
+                    ss.push(dataURL);
+                } catch (error) {
+                    console.error('Error reading file:', file.name, error);
+                }
+            }
+
+            useGif(ss, width, height);
+        }
+
+        async function readFileAsDataURL(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    if (e.target && e.target.result) {
+                        resolve(e.target.result);
+                    } else {
+                        reject(new Error('Failed to read file as data URL'));
+                    }
+                };
+                reader.onerror = function () {
+                    reject(new Error('Error reading file'));
+                };
+                reader.readAsDataURL(file);
+            });
+        }
+
+        function resizeImage(dataURL, width, height, keepAspectRatio = true) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = function () {
+                    const canvas = document.createElement('canvas');
+                    let canvasWidth = width;
+                    let canvasHeight = height;
+                    let offsetX = 0;
+                    let offsetY = 0;
+
+                    if (keepAspectRatio) {
+                        const aspectRatio = img.width / img.height;
+                        if (width / height > aspectRatio) {
+                            canvasWidth = height * aspectRatio;
+                            offsetX = (width - canvasWidth) / 2;
+                        } else {
+                            canvasHeight = width / aspectRatio;
+                            offsetY = (height - canvasHeight) / 2;
+                        }
+                    }
+
+                    canvas.width = width;
+                    canvas.height = height;
+                    const ctx = canvas.getContext('2d');
+                    backgroundColor = document.getElementById("backgoundcolor").value;
+                    ctx.fillStyle = backgroundColor;
+                    ctx.fillRect(0, 0, width, height);
+                    ctx.drawImage(img, offsetX, offsetY, canvasWidth, canvasHeight);
+                    resolve(canvas.toDataURL());
+                };
+                img.onerror = function () {
+                    reject(new Error('Failed to load image'));
+                };
+                img.src = dataURL;
+            });
+        }
+
+        async function text2image(text, width, height) {
+            var canvasElement = document.createElement('canvas')
+            var ctx = canvasElement.getContext('2d')
+            ctx.canvas.width = width
+            ctx.canvas.height = height
+            ctx.fillStyle = document.getElementById("backgoundcolor").value
+            ctx.fillRect(0, 0, width, height)
+            ctx.fillStyle = document.getElementById("fontcolor").value
+            fontSize = document.getElementById('fontSize').value
+            font = document.getElementById('font').value
+            ctx.font = fontSize + 'px ' + font
+            console.log(ctx.font)
+            mt = ctx.measureText(text)
+            let tw = mt.width || 0
+            if (tw > width) {
+                tw = width
+            }
+            ctx.fillText(text, (width - tw) / 2, (height) / 2 + fontSize / 3, width);
+            let dataUrl = ctx.canvas.toDataURL();
+            mohu = document.getElementById('mohu').value / 100
+            dataUrl = await resizeImage(dataUrl, width * mohu, height * mohu)
+            dataUrl = await resizeImage(dataUrl, width, height)
+            return dataUrl
+        }
+
+        async function addText(gif, text, width, height) {
+            var image = document.createElement("img")
+            let data = text
+            if (text.indexOf("data:image") == -1) {
+                data = await text2image(text, width, height)
+            }
+            image.src = data
+            image.text = text
+            let l = document.getElementById('log')
+            l.appendChild(image)
+            l.appendChild(document.createElement('br'))
+            gif.addFrame(image, {
+                delay: document.getElementById('interval').value
+            });
+        }
+
+        function clipboardWrite(t, blob) {
+            let type = 'text/plain'
+            blob.type = type //'image/png'//t
+            const data = [new ClipboardItem({
+                [blob.type]: blob
+            })];
+            navigator.clipboard.write(data).then(
+                () => {
+                    /* success */
+                    console.log("copy")
+                },
+                (e) => {
+                    /* failure */
+                    console.log(e)
+                },
+            );
+        }
+
+        async function useGif(texts, width, height) {
+            document.getElementById('log').innerHTML = ''
+            document.getElementById('image').innerHTML = ''
+            document.getElementById('image').style.height = height + 'px'
+            var gif = new GIF({
+                // workers: 2,
+                // quality: 10,
+                width: width,
+                height: height,
+                workerScript: "./static/gif.worker.js",
+            });
+            for (var i = 0; i < texts.length; i++) {
+                let text = texts[i]
+                await addText(gif, text, width, height)
+            }
+            gif.on('finished', function (blob) {
+                var reader = new FileReader();
+                reader.readAsDataURL(blob);
+                reader.onload = function (e) {
+                    let img = document.getElementById('image');
+                    let image = document.createElement('img')
+                    image.src = e.target.result
+                    img.appendChild(image)
+                    generateSHA256Hash(texts.join('\n')).then(hash => {
+                        let link = document.getElementById("download");
+                        link.href = image.src
+                        mohu = document.getElementById('mohu').value / 100
+                        link.download = 'gif_' + width + 'x' + height + '_' + mohu + '_' + hash + '.gif';
+                    });
+                }
+                // clipboardWrite('image/gif', blob)
+            });
+            gif.on('progress', function (progress) {
+                document.querySelector("#prog").innerHTML = "进度: " + progress * 100 + '%';
+            });
+            gif.render()
+        }
+
+        async function generateSHA256Hash(message) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(message);
+            if (!subtle) {
+                return ""
+            }
+            const hashBuffer = await subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
+            return hashHex;
+        }
+
+        function renderGif() {
+            let width = document.getElementById('width').value
+            let height = document.getElementById('height').value
+            let ss = getAllText()
+            useGif(ss, width, height)
+        }
+
+        function debug() {
+            document.getElementById('log').hidden = !document.getElementById('debug').checked
+        }
+
+        function updateColor() {
+            let ss = ["backgoundcolor", "fontcolor"]
+            for (let i = 0; i < ss.length; i++) {
+                let id = ss[i]
+                document.getElementById(id).style.border = '5px solid ' + document.getElementById(id).value
+                // document.getElementById(id).style.color = colorReverse(document.getElementById(id).value)
+            }
+        }
+
+        function colorReverse(oldColor) {
+            oldColor = 'Ox' + oldColor.replace(/#/g, '')
+            let str = '000000' + ('OxFFFFFF' - oldColor).toString(16);
+            return '#' + str.substring(str.length - 6, str.length);
+        }
+
+        function getAllText() {
+            let text = document.getElementById('textInput').value
+            text = text.replaceAll(',', '\n')
+            text = text.replaceAll('.', '\n')
+            text = text.replaceAll('，', '\n')
+            text = text.replaceAll('。', '\n')
+            let ss = text.split('\n')
+            if (ss.length == 1) {
+                tmp = '' + ss[0]
+                for (i = 0; tmp.length < 10; i++) {
+                    tmp = tmp + '' + ss[0]
+                    ss.push(tmp)
+                }
+                for (i = ss.length - 1; i > 0; i--) {
+                    ss.push(ss[i - 1])
+                }
+            }
+            if (ss.length < 3) {
+                ss.push('')
+                ss.push('')
+                ss.push('')
+            }
+            ss = ss.map(element => {
+                return TextToEmoji(element).join('')
+            });
+            return ss
+        }
+
+        function setWidthHeightByText() {
+            let ss = getAllText()
+            var canvasElement = document.createElement('canvas')
+            var tCtx = canvasElement.getContext('2d')
+            let fontSize = document.getElementById('fontSize').value
+            let font = document.getElementById('font').value
+            let maxWidth = 0
+            for (i = 0; i < ss.length; i++) {
+                tCtx.font = 'normal normal normal ' + fontSize + 'px ' + font
+                text = ss[i]
+                mt = tCtx.measureText(text)
+                if (mt.width > maxWidth) {
+                    maxWidth = mt.width
+                }
+            }
+            document.getElementById('width').value = maxWidth
+            document.getElementById('height').value = parseInt(fontSize) + 10
+        }
+
+        window.onload = function () {
+            var ss = [
+                "我爱工作", "工作使我快乐", "我爱工作", "工作使我致富", "我爱工作", "工作使我进步", "朋友喊我撸串", "我置之不理", "同事叫我去玩", "我充耳不闻", "对象喊我睡觉", "我百般推辞", "老板让我休息", "我无动于衷", "兄弟叫我开黑", "我卸载拉黑", "闺蜜约我逛街", "我理都不理", "妈妈叫我相亲", "我死都不去", "公司叫我加班", "我欣喜若狂", "我爱工作", "周一到周五", "不干不舒服", "早中晚工作", "我只想搬砖", "周末和假期", "加班搞业绩", "太阳没起我就起", "我是秒杀发动机", "月亮不睡我不睡", "BOSS招聘我不累", "加班长短无所谓", "工资多少无所谓", "我爱工作", "老板说", "如果你乖", "给你买条gai", "如果你不乖", "头给你打歪", "牛皮可以吹", "眼眶可以黑", "头发可以少", "容颜可以老", "但是如果", "你不爱工作", "对不起", "我们不能做朋友", "跟上团队", "赚钱像呼吸", "一样简单", "靠别人是公主", "靠自己是打工皇帝", "工作不仅能致富", "还能交友娶媳妇", "你努力我努力", "老板开上法拉利", "我奔跑在挣钱的道路上", "公司为我遮风挡雨", "皮革厂会倒", "小姨子会跑", "只有我对公司的爱", "一直到老"
+            ]
+            document.getElementById('textInput').addEventListener('input', setWidthHeightByText)
+            document.getElementById('textInput').value = ss.join('\n')
+            setWidthHeightByText()
+            debug()
+            updateColor()
+            InitEmojiPinyin(document.getElementById("emojiLength").value)
+            document.getElementById('btn').addEventListener('click', function () {
+                const fileInput = document.getElementById('file');
+                const files = fileInput.files;
+                if (files.length === 0) {
+                    renderGif()
+                } else {
+                    uploadFiles()
+                }
+            })
+            document.getElementById('debug').addEventListener('change', debug)
+            document.getElementById("backgoundcolor").addEventListener('change', updateColor)
+            document.getElementById("file").addEventListener('change', uploadFiles)
+            document.getElementById("emojiLength").addEventListener("input", function () {
+                document.getElementById("emojiLength").value
+                InitEmojiPinyin()
+            })
+        }
+
+    </script>
+    <style>
+        button {
+            height: 25px;
+            width: 50px;
+            background: #409eff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        a {
+            height: 25px;
+            width: 100px;
+            background: #409eff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .inputText {
+            /* height: 25px; */
+            width: 100px;
+            /* background: #409eff; */
+            /* color: #ffffff; */
+            border: 5px;
+            /* border-radius: 4px; */
+            cursor: pointer;
+        }
+
+        .inputLabel {
+            width: 100px;
+        }
+
+        #image {
+            border: 1px solid #000;
+            display: inline-block;
+        }
+    </style>
+</body>
+
+</html>
