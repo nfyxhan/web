@@ -171,7 +171,9 @@
             }
             let btnId = "btn-" + meetingTime.getMonth() + "-" + meetingTime.getDate()
             let button = document.getElementById(btnId)
-            button.className = "selected-btn"
+            if (button) {
+                button.className = "selected-btn"
+            }
             selectdDateID = btnId
             startTime.setFullYear(meetingTime.getFullYear())
             startTime.setMonth(meetingTime.getMonth())
