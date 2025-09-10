@@ -167,7 +167,9 @@
         function selectDate(meetingTime) {
             if (selectdDateID != '') {
                 let selectDateBtn = document.getElementById(selectdDateID)
-                selectDateBtn.className = "unselected-btn"
+                if (selectDateBtn) {
+                    selectDateBtn.className = "unselected-btn"
+                }
             }
             let btnId = "btn-" + meetingTime.getMonth() + "-" + meetingTime.getDate()
             let button = document.getElementById(btnId)
