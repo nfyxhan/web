@@ -10,10 +10,26 @@
 
 <body>
     <div>
-        截取长度<input type="number" id="duration">秒
+        字符集
+        <textarea id="allChars">abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=>?/\|{}[]~`/></textarea>
+        <select id="split" type="text">
+            <option label="无" value="">
+            </option>
+            <option label="空格" value=" ">
+            </option>
+            <option label="," value=",">
+            </option>
+        </select>
+        <button onclick="setChars()">重设</button>
     </div>
     <div>
-        压缩比例<input type="number" id="fontSize" value="15">倍
+        <canvas id="canvas3" width="720" height="100"></canvas>
+    </div>
+    <div>
+        截取长度<input type="number" id="duration" value="1">秒
+    </div>
+    <div>
+        压缩比例<input type="number" id="fontSize" value="10">倍
     </div>
     <div>
         背景颜色<input type="text" id="backgroundColor" value="white">
@@ -25,6 +41,7 @@
         <a id="downloadLink" hidden>下载</a>
     </div>
     <div>
+        <span id="videoInfo"> </span>
         <span id="progress"></span>
     </div>
     <video id="video" width="720" height="1280" controls hidden>
@@ -32,13 +49,9 @@
         Your browser does not support the video tag.
     </video>
     <div>
-        <canvas id="canvas1" width="720" height="1280" hidden></canvas>
-    </div>
-    <div>
-        <canvas id="canvas2" width="72" height="128" hidden></canvas>
-    </div>
-    <div>
-        <canvas id="canvas3" width="720" height="1280"></canvas>
+        <canvas id="originImage"></canvas>
+        <canvas id="resizedImage" hidden></canvas>
+        <canvas id="pixImage"></canvas>
     </div>
     <script>
         const video = document.getElementById('video');
@@ -50,17 +63,36 @@
                 video.src = fileURL;
                 video.load();
                 video.onload = () => {
+                    console.log(video)
+                    videoInfo = JSON.stringify(video)
+                    document.getElementById("videoInfo").innerText = videoInfo
                     document.getElementById('duration').value = video.duration;
                 }
             }
         });
 
+        async function showImage(id, image) {
+            const canvas = document.getElementById(id);
+            if (!canvas) {
+                return
+            }
+            let width = image.width
+            let height = image.height
+            canvas.width = 300
+            canvas.height = canvas.width / width * height
+            const ctx = canvas.getContext('2d');
+            try {
+                ctx.drawImage(image, 0, 0, width, height);
+            } catch (e) {
+                // image = await resize(image, canvas.width, canvas.height)
+                ctx.putImageData(image, 0, 0)
+            }
+        }
+
         function extractFrames() {
             video.play();
             video.addEventListener('play', () => {
                 let frames = []
-                const canvas = document.getElementById('canvas1');
-                const ctx = canvas.getContext('2d');
                 const fps = 1000 / 30
                 const interval = setInterval(() => {
                     let duration = document.getElementById('duration').value
@@ -69,12 +101,18 @@
                     }
                     if (video.paused || video.ended || frames.length > fps * duration) {
                         clearInterval(interval);
+                        document.getElementById('progress').innerHTML = `转换中`;
                         saveVideo(frames);
                         return;
                     }
                     let width = video.width;
                     let height = video.height;
+                    const canvas = document.createElement('canvas');
+                    canvas.width = width
+                    canvas.height = height
+                    const ctx = canvas.getContext('2d');
                     ctx.drawImage(video, 0, 0, width, height);
+                    showImage("originImage", video)
                     let imageData = ctx.getImageData(0, 0, width, height)
                     frames.push(imageData);
                     document.getElementById('progress').innerHTML = `预处理${frames.length / (duration * fps) * 100} %`;
@@ -108,6 +146,7 @@
                 let frame3 = await imageDataToPixImage(frame2);
                 const response = await imageDataToPng(frame3)
                 ffmpeg.writeFile(`frame_${i.toString().padStart(3, '0')}.png`, response);
+                document.getElementById('progress').innerHTML = `转换中 ${i + 1}/${frames.length}`;
             }
 
             // Run ffmpeg command to compile frames into a video
@@ -149,7 +188,13 @@
                 }, 'image/png');
             });
         }
-        var all = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?/\|{}[]~`</>'
+        var all = ''
+
+        async function setChars() {
+            let split = document.getElementById('split').value
+            let allChars = document.getElementById('allChars').value
+            all = await sortChars(allChars.split(split))
+        }
 
         async function sortChars(chars) {
             let font = document.getElementById('fontSize').value
@@ -182,10 +227,10 @@
                 })
             }
             let v2 = vv.sort((a, b) => a.k - b.k)
-            let res = ""
+            let res = []
             for (i = 0; i < v2.length; i++) {
-                let t = all[v2[i].v]
-                res += '' + t
+                let t = chars[v2[i].v]
+                res.push(t)
                 ctx.fillText(t, i * font, font * 2, font)
             }
             console.log(v2, res)
@@ -209,6 +254,17 @@
             return parseInt(0.299 * v[0] + 0.587 * v[1] + 0.114 * v[2])
         }
 
+        function rgbToHex(color) {
+            // 将每个颜色值转换为两位的十六进制字符串
+            let r = color[0]
+            let g = color[1]
+            let b = color[2]
+            let a = color[3]
+            let hex = '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1).toUpperCase();
+            // return hex;
+            return `rgba(${r}, ${g}, ${b}, ${a})`
+        }
+
         async function imageDataToPixImage(imageData) {
             let font = document.getElementById('fontSize').value
             let width = imageData.width * font,
@@ -230,10 +286,12 @@
                         continue
                     }
                     let t = textContent[index]
+                    ctx.fillStyle = rgbToHex(rgbValues[index])
                     ctx.fillText(t, j * font, i * font + 0.5 * font, font)
                 }
             }
             imageData = ctx.getImageData(0, 0, width, height)
+            showImage("pixImage", imageData)
             return imageData
         }
 
@@ -252,7 +310,7 @@
         async function resize(imageData, width, height, keepAspectRatio = true) {
             return new Promise((resolve, reject) => {
                 try {
-                    const canvas = document.getElementById('canvas2');
+                    const canvas = document.createElement('canvas');
                     canvas.width = imageData.width;
                     canvas.height = imageData.height;
                     const ctx = canvas.getContext('2d');
@@ -309,7 +367,7 @@
         }
 
         async function init() {
-            all = await sortChars(all)
+            await setChars(all)
         }
 
         init()
