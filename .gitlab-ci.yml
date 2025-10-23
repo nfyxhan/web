@@ -1,0 +1,9 @@
+create-pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mv *.html public/
+    - mv static public/
+    - mv image public/
+  pages:  # 指定这是一个 Pages 作业并发布默认的公共目录
+    expire_in: 1 week

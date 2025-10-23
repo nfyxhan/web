@@ -26,10 +26,12 @@
         <canvas id="canvas3" width="720" height="100"></canvas>
     </div>
     <div>
-        截取长度<input type="number" id="duration" value="1">秒
+        开始位置<input type="number" id="startAt" value="0">秒
+        截取长度<input type="number" id="duration" value="5">秒
+        帧率<input type="number" id="fpsNum" value="10">
     </div>
     <div>
-        压缩比例<input type="number" id="fontSize" value="10">倍
+        字体大小<input type="number" id="fontSize" value="20">
     </div>
     <div>
         背景颜色<input type="text" id="backgroundColor" value="white">
@@ -37,7 +39,7 @@
     </div>
     <div>
         <input type="file" id="videoUpload" accept="video/*">
-        <button onclick="extractFrames()">转换</button>
+        <button onclick="extractFramesWithFfmpeg()">转换</button>
         <a id="downloadLink" hidden>下载</a>
     </div>
     <div>
@@ -55,19 +57,25 @@
     </div>
     <script>
         const video = document.getElementById('video');
+        let file = null
 
-        document.getElementById('videoUpload').addEventListener('change', function (event) {
-            const file = event.target.files[0];
+        document.getElementById('videoUpload').addEventListener('change', async function(event) {
+            file = event.target.files[0];
             if (file) {
                 const fileURL = URL.createObjectURL(file);
+                video.addEventListener('loadedmetadata', function(e) {
+                    document.getElementById('duration').value = video.duration;
+                })
+                // video.onload = () => {
+                //     // extractFrames()
+                //     console.log(video)
+                //     // videoInfo = JSON.stringify(video)
+                //     document.getElementById("videoInfo").innerText = videoInfo
+                // }
                 video.src = fileURL;
                 video.load();
-                video.onload = () => {
-                    console.log(video)
-                    videoInfo = JSON.stringify(video)
-                    document.getElementById("videoInfo").innerText = videoInfo
-                    document.getElementById('duration').value = video.duration;
-                }
+                const downloadLink = document.getElementById('downloadLink');
+                downloadLink.hidden = true;
             }
         });
 
@@ -89,48 +97,101 @@
             }
         }
 
-        function extractFrames() {
-            video.play();
-            video.addEventListener('play', () => {
-                let frames = []
-                const fps = 1000 / 30
-                const interval = setInterval(() => {
-                    let duration = document.getElementById('duration').value
-                    if (!duration) {
-                        duration = video.duration
-                    }
-                    if (video.paused || video.ended || frames.length > fps * duration) {
-                        clearInterval(interval);
-                        document.getElementById('progress').innerHTML = `转换中`;
-                        saveVideo(frames);
-                        return;
-                    }
-                    let width = video.width;
-                    let height = video.height;
-                    const canvas = document.createElement('canvas');
-                    canvas.width = width
-                    canvas.height = height
-                    const ctx = canvas.getContext('2d');
-                    ctx.drawImage(video, 0, 0, width, height);
-                    showImage("originImage", video)
-                    let imageData = ctx.getImageData(0, 0, width, height)
-                    frames.push(imageData);
-                    document.getElementById('progress').innerHTML = `预处理${frames.length / (duration * fps) * 100} %`;
-                }, fps);
-            });
-        }
-        async function saveVideo(frames) {
-            if (frames.length === 0) {
-                alert('No frames to save.');
-                return;
-            }
-
+        async function extractFramesWithFfmpeg() {
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.hidden = true;
+            let start = new Date().getTime()
             let ffmpeg = new FFmpegWASM.FFmpeg();
             ffmpeg.on('progress', ({
                 progress,
                 time
             }) => {
-                document.getElementById('progress').innerHTML = `转换中${progress * 100} % (耗时: ${time / 1000000} s)`;
+                let now = new Date().getTime()
+                updateProgress(`提取中`, progress, now - start);
+            });
+            await ffmpeg.load({
+                coreURL: `./ffmpeg-core.js`,
+                wasmURL: `./ffmpeg-core.wasm`,
+                workerURL: `./ffmpeg-core.worker.js`
+            });
+            try {
+                let data = await new Promise((resolve) => {
+                    const blob = new Blob([file], {
+                        type: file.type
+                    });
+                    const reader = new FileReader();
+                    reader.onloadend = () => {
+                        resolve(new Uint8Array(reader.result));
+                    };
+                    reader.readAsArrayBuffer(blob);
+                });
+                await ffmpeg.writeFile('input.mp4', data);
+            } catch (e) {
+                console.log(e)
+            }
+            let startAt = document.getElementById("startAt").value
+            let duration = document.getElementById("duration").value
+            if (duration <= 0) {
+                duration = 5
+            }
+            let fps = document.getElementById("fpsNum").value
+            await ffmpeg.exec(["-ss", `${startAt}`, "-t", `${duration}`, '-i', 'input.mp4', '-vf', `fps=${fps}`, 'frame_%03d.png']);
+
+            const frames = [];
+            for (let i = 1; i <= duration * fps; i++) {
+                try {
+                    const data = await ffmpeg.readFile(`frame_${String(i).padStart(3, '0')}.png`);
+                    let frame = await imageFileToData(data)
+                    let font = document.getElementById('fontSize').value
+                    let frame2 = await resize(frame, frame.width / font, frame.height / font)
+                    let now = new Date().getTime()
+                    updateProgress("解析中", i / (duration * fps), now - start)
+                    frames.push(frame2);
+                } catch {
+                    break;
+                }
+            }
+            if (frames.length != 0) {
+                saveVideo(frames, fps);
+            }
+        }
+
+        function updateProgress(s, progress, time) {
+            document.getElementById('progress').innerHTML = `${s} ${(progress*100).toFixed(2)}% (耗时: ${(time)/1000} s)`;
+        }
+
+        function imageFileToData(data) {
+            return new Promise((resolve) => {
+                const image = new Image();
+                image.onload = () => {
+                    let width = image.width
+                    let height = image.height
+                    const canvas = document.createElement('canvas');
+                    canvas.width = width
+                    canvas.height = height
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(image, 0, 0, width, height);
+                    let frame = ctx.getImageData(0, 0, width, height)
+                    resolve(frame)
+                }
+                image.src = URL.createObjectURL(new Blob([data.buffer], {
+                    type: 'image/jpeg'
+                }))
+            })
+        }
+
+        async function saveVideo(frames, fps) {
+            if (frames.length === 0) {
+                alert('No frames to save.');
+                return;
+            }
+            let start = new Date().getTime()
+            let ffmpeg = new FFmpegWASM.FFmpeg();
+            ffmpeg.on('progress', ({
+                progress,
+                time
+            }) => {
+                updateProgress(`视频生成中`, progress, new Date().getTime() - start);
             });
             await ffmpeg.load({
                 coreURL: `./ffmpeg-core.js`,
@@ -138,20 +199,18 @@
                 workerURL: `./ffmpeg-core.worker.js`
             });
 
-            let font = document.getElementById('fontSize').value
             // Write frames to ffmpeg's virtual file system
             for (let i = 0; i < frames.length; i++) {
-                let frame = frames[i];
-                let frame2 = await resize(frame, frame.width / font, frame.height / font)
+                let frame2 = frames[i];
                 let frame3 = await imageDataToPixImage(frame2);
                 const response = await imageDataToPng(frame3)
                 ffmpeg.writeFile(`frame_${i.toString().padStart(3, '0')}.png`, response);
-                document.getElementById('progress').innerHTML = `转换中 ${i + 1}/${frames.length}`;
+                updateProgress(`字符转换中`, (i + 1) / frames.length, new Date().getTime() - start);
             }
 
             // Run ffmpeg command to compile frames into a video
             await ffmpeg.exec([
-                '-framerate', '30', // Set frame rate to 30 fps
+                '-framerate', `${fps}`, // Set frame rate to 30 fps
                 '-i', 'frame_%03d.png', // Input pattern for frames
                 '-c:v', 'libx264', // Video codec
                 '-pix_fmt', 'yuv420p', // Pixel format
@@ -233,7 +292,6 @@
                 res.push(t)
                 ctx.fillText(t, i * font, font * 2, font)
             }
-            console.log(v2, res)
             return res
         }
 
